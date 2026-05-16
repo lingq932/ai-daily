@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-13",
+  "timeRange": "2026-05-12 09:00 ~ 2026-05-13 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI参数高尔夫挑战赛回顾",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI举办的参数高尔夫挑战赛收到2000多份提交和1000多个验证GitHub账号，涵盖量化、深度递归、TTT LoRA等多种创新思路。自动化研究大幅加速迭代，催生了公告板、议题讨论、非官方排行榜和智能体撰写的总结报告。活动展示了人类设定方向、智能体协助探索协调的未来AI交互模式，成功让机器学习研究对所有人开放。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind用AI重塑鼠标指针",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind正在用AI重新构想已有50年历史的鼠标指针。通过让鼠标“看见”光标下的内容，它能理解用户指向的具体文字、图像或代码，并结合手势与语音指令，让用户用自然简短的指令完成任务，无需切换应用。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "RunwayML 首届“不存在节目”创意大赛获奖作品揭晓",
+          "url": "https://twitter.com/runwayml",
+          "summary": "RunwayML 公布了首届“Big Pitch Contest for Shows That Don't Exist Yet”的20位获奖者，并展示了前五名作品。大奖得主为 Guillermo Miranda 的《Sincitium》，其余获奖作品包括《Stan》《In Dreams Awake》等。所有获奖提案均可在线观看。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "Kimi发布长周期智能体排行榜，K2.6得分领先Claude",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "Kimi团队将FrontierCS集成到Harbor平台，并推出预览版长周期智能体排行榜，支持最多835轮交互和约20万输出token。Kimi K2.6以46.9分领先Claude Code Opus 4.7的43.0分。该评估旨在测试智能体在极长循环中迭代编写代码、运行实验、读取反馈并持续优化的能力。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "MiniMax 发布 M2.7 模型升级，并合作举办黑客松",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 宣布其 M2.7 模型已实现更平滑的接入体验，感谢 Lilac 的帮助让更多团队能够应用该模型。此外，MiniMax 将联合 OpenAI、Anthropic、Vercel 等公司，共同支持 Notion 开发者平台黑客松活动，活动将于本周末在旧金山举行。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "德米斯·哈萨比斯发布AI笔记本与智能鼠标指针",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯宣布推出首款为Gemini Intelligence设计的笔记本Googlebook，性能强劲，与安卓手机无缝同步，今秋上市。同时，团队用AI重新构想鼠标指针，支持语音和手势操作。此外，其创立的Isomorphic Labs获21亿美元融资，旨在加速AI药物研发以攻克疾病。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆：AI不会导致大规模失业，反而会创造更多就业机会",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆驳斥AI导致大规模失业的说法，认为这是不必要的恐慌。他指出，尽管AI影响就业，但软件工程师招聘依然强劲，净就业创造远大于岗位消失。他预测AI将带来更多优质工作岗位，而非失业潮。",
+          "source": "Twitter @ylecun"
+        },
+        {
+          "title": "约书亚·本吉奥警告AI代理自主追求复杂目标的风险",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "图灵奖得主、AI先驱约书亚·本吉奥在马德里接受采访时指出，AI代理正在学习在没有人类监督的情况下追求复杂目标。一旦系统优化结果而非指令，它们可能自行创建不道德的次级目标。随着AI代理扩展到机器人和基础设施领域，失控将不再是理论问题。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "米拉·穆拉蒂的TML颠覆人机协作方式",
+          "summary": "米拉·穆拉蒂推出的TML技术彻底改变了人类与AI的协作模式。此外，用户可在15分钟内构建一个YouTube研究机器人，大幅提升信息处理效率。",
+          "url": "https://www.therundown.ai/p/mira-murati-tml-upends-how-humans-work-with-ai",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。上榜公司通过技术创新推动金融服务效率提升，并重塑行业竞争格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技领域正经历快速变革，新兴技术如人工智能和区块链正在重塑传统金融服务。行业焦点集中在提升用户体验、优化风险管理及推动普惠金融，同时监管框架也在适应这一创新浪潮。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合。人工智能和大数据技术被广泛应用于风险评估、理赔处理和客户服务，推动行业效率提升。未来，个性化保险产品和自动化流程将成为主要发展趋势。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "如何为顶级会议（ICML/ICLR/NeurIPS等）设计令人难忘的海报",
+          "summary": "首次在顶级会议上展示海报，却难以设计出合适的方案。论文偏理论，除了将数学公式加粗居中，不确定如何优化布局。此外，ICML给出了三种不同尺寸建议，从电脑上也无法预览PowerPoint效果。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tbj96y/how_do_you_create_memorable_poster_for_top_tier/",
+          "time": "08:05",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

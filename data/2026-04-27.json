@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-27",
+  "timeRange": "2026-04-26 09:00 ~ 2026-04-27 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "DeepSeek输入缓存价格大幅下调",
+          "url": "https://twitter.com/deepseek_ai",
+          "summary": "DeepSeek宣布立即降低全系列API的输入缓存命中价格，降至原价的十分之一，以提升开发效率并降低成本。此外，DeepSeek-V4-Pro的75%折扣促销活动将持续至2026年5月5日15:59（UTC时间）。",
+          "source": "Twitter @deepseek_ai"
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。上榜企业通过技术创新推动金融服务效率提升与普惠化发展。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资领域。监管环境也在不断演变，以应对创新带来的挑战与机遇。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业竞相利用人工智能、大数据和区块链技术优化承保、理赔及客户服务流程。尽管面临监管挑战和数据隐私问题，行业整体仍保持快速增长，预计未来几年将重塑全球保险市场格局。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "用OpenAI隐私过滤器构建可扩展网页应用",
+          "summary": "本文介绍了如何利用OpenAI的隐私过滤器来构建可扩展的网页应用。该过滤器可帮助开发者在不暴露敏感数据的前提下，安全地调用AI模型，从而提升应用的安全性与合规性。",
+          "url": "https://huggingface.co/blog/openai-privacy-filter-web-apps",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

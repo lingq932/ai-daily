@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-21",
+  "timeRange": "2026-04-20 09:00 ~ 2026-04-21 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "约书亚·本吉奥谈AI行为理解的鸿沟与未来",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥指出，我们正在构建越来越强大的AI系统，但对它们行为的理解仍不完善。他反思了这一差距存在的原因及其对AI未来的影响，并讨论了尖端模型令人担忧行为背后的科学原因，以及为更安全AI所开发的技术解决方案。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。上榜企业通过技术创新推动金融服务变革，展现了行业最新趋势与增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司加速融合。人工智能和区块链技术成为核心驱动力，推动支付、借贷和投资等领域的创新。监管机构也在积极调整政策，以平衡创新与风险控制。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合。人工智能、大数据和区块链技术被广泛应用于风险评估、理赔处理和客户服务，推动行业效率提升。未来，个性化保险产品和实时动态定价将成为主要趋势。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "AI与网络安全未来：开放为何至关重要",
+          "summary": "人工智能在网络安全领域的应用日益广泛，但开放性与封闭性之争也随之升温。专家指出，开放AI系统能促进协作与透明，更快识别漏洞并推动防御技术发展，从而更有效应对不断演变的网络威胁。封闭系统虽可能提供短期安全，但长远看会阻碍创新与集体防御能力。",
+          "url": "https://huggingface.co/blog/cybersecurity-openness",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-04",
+  "timeRange": "2026-05-03 09:00 ~ 2026-05-04 09:00",
+  "sections": [
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "独家专访：UiPath首席营销官谈工作中的AI",
+          "summary": "UiPath首席营销官迈克尔·阿塔拉指出，大多数AI项目失败的原因在于缺乏明确目标和组织支持。他借鉴云计算时代的经验，强调企业需从战略层面整合AI，而非盲目跟风。这场AI变革将重塑工作方式，但不会完全取代人类，而是要求员工提升与AI协作的能力。",
+          "url": "https://www.therundown.ai/p/exclusive-uipath-cmo-michael-atalla-on-ai-at-work",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。上榜企业通过技术创新推动金融服务变革，展现了行业未来发展方向。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，涵盖支付、借贷、保险科技等细分市场的创新趋势。报告指出，人工智能与区块链技术正加速重塑行业格局，同时监管环境的变化对市场参与者提出新挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔及客户服务流程。尽管投资热度有所波动，但数字化创新仍在推动行业效率提升与产品个性化发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

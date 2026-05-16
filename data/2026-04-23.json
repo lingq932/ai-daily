@@ -1,0 +1,87 @@
+{
+  "date": "2026-04-23",
+  "timeRange": "2026-04-22 09:00 ~ 2026-04-23 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "阿里通义千问发布Qwen3.6-27B：多模态与编码性能大幅提升",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "阿里通义千问推出Qwen3.6-27B模型，原生支持多模态，可在统一检查点中处理图像、视频和文本。该模型仅27B参数，在SWE-bench等主要编码基准上超越15倍大的Qwen3.5-397B-A17B，并大幅领先同级密集模型。",
+          "source": "Twitter @Alibaba_Qwen"
+        },
+        {
+          "title": "卡帕西团队打造Flipbook：从模型直接流式传输像素",
+          "url": "https://twitter.com/karpathy",
+          "summary": "安德烈·卡帕西与团队开发了名为Flipbook的原型，可直接从模型实时流式传输屏幕上的每个像素，无需HTML、布局引擎或代码。该技术旨在实现所见即所得的理想显示效果。",
+          "source": "Twitter @karpathy"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI重夺图像生成王座",
+          "summary": "OpenAI在图像生成领域重新占据领先地位。此外，用户可通过Claude Live Artifacts功能构建日常指挥中心，提升工作效率。",
+          "url": "https://www.therundown.ai/p/openai-reclaims-the-image-crown",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速发展，涵盖支付、借贷、保险和财富管理等多个领域。技术创新如人工智能和区块链正在重塑传统金融服务，提升效率并降低成本。未来，监管合规与用户数据安全将成为行业持续增长的关键挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技初创企业之间的竞争日益激烈。人工智能和大数据分析技术的应用正在重塑风险评估、理赔处理和客户服务等核心环节，推动行业向更高效、个性化的方向发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "如何在Chrome扩展中使用Transformers.js",
+          "summary": "本文介绍了如何在Chrome浏览器扩展中集成Transformers.js库，实现本地运行机器学习模型。通过加载预训练模型，扩展程序可直接在浏览器端执行自然语言处理等任务，无需依赖外部服务器。",
+          "url": "https://huggingface.co/blog/transformersjs-chrome-extension",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

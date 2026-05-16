@@ -1,0 +1,90 @@
+{
+  "date": "2026-05-01",
+  "timeRange": "2026-04-30 09:00 ~ 2026-05-01 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "谷歌DeepMind推出AI临床助手",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind发布AI临床助手研究项目，通过多模态技术实时分析患者步态、呼吸等体征，辅助医生诊断。测试中，AI在140项评估中有68项达到或超越医生水平，但在识别关键危险信号和指导体检方面人类更优。系统采用双智能体架构确保安全，在98项初级诊疗中仅出现一次关键错误。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Midjourney 更新：提升图像质量与清晰度",
+          "url": "https://twitter.com/midjourney",
+          "summary": "Midjourney 推送了 V8.1 更新，显著提升了图像质量和清晰度，尤其在 SREF、情绪板和 HD 图像方面效果更佳。目前 V8.1 已同时在官网和 Discord 上线。",
+          "source": "Twitter @midjourney"
+        },
+        {
+          "title": "阿里发布Qwen-Scope：开源稀疏自编码器工具套件",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "阿里巴巴发布Qwen-Scope，这是一套面向Qwen模型族的开源稀疏自编码器工具，可将SAE特征转化为实用功能。该工具支持直接操控模型内部特征进行推理、用少量样本分类合成数据、追溯并修复代码切换和重复生成等问题，还能分析特征激活模式以优化基准测试。团队希望社区利用该工具探索Qwen模型内部机制并构建新应用。",
+          "source": "Twitter @Alibaba_Qwen"
+        },
+        {
+          "title": "安德烈·卡帕西谈AI新范式：LLM不仅是提速工具",
+          "url": "https://twitter.com/karpathy",
+          "summary": "安德烈·卡帕西在红杉AI峰会上指出，大语言模型（LLM）的价值远超加速现有流程，它开启了全新可能：如完全由LLM驱动的应用、用自然语言替代脚本安装软件，以及处理非结构化知识库等此前无法实现的功能。他还探讨了LLM能力的“锯齿状”特征——既能重构十万行代码，也可能给出荒谬建议，这源于训练数据分布和经济效益。最后，他展望了代理原生经济，强调将产品分解为传感器、执行器和逻辑，并让信息对LLM更可读。",
+          "source": "Twitter @karpathy"
+        },
+        {
+          "title": "德米斯·哈萨比斯",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "2016年，桑达尔·皮查伊宣布谷歌将转型为“AI优先公司”，并启动了一系列看似与核心搜索业务无关的项目，包括定制芯片、云计算、YouTube和深度AI研究。如今，这些押注已全面获得回报，甚至超出预期。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "扎克伯格斥资5亿美元布局AI生物学",
+          "summary": "扎克伯格投入5亿美元进军AI生物学领域。此外，还介绍了无需编码即可构建自定义博客写作代理的方法。",
+          "url": "https://www.therundown.ai/p/zuckerberg-500m-ai-biology-swing",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技领域正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资等传统金融服务。监管机构也在适应这一趋势，推动更安全、更高效的金融生态系统发展。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合，通过人工智能、大数据和区块链技术优化承保、理赔及客户服务流程。尽管面临监管挑战和盈利压力，但数字化创新持续推动行业效率提升与用户体验改善。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

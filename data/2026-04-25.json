@@ -1,0 +1,84 @@
+{
+  "date": "2026-04-25",
+  "timeRange": "2026-04-24 09:00 ~ 2026-04-25 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Meta与AWS合作：引入数千万Graviton芯片",
+          "url": "https://twitter.com/AIatMeta",
+          "summary": "Meta宣布与亚马逊云服务达成协议，将数千万颗AWS Graviton核心纳入其计算组合。此次合作将扩展Meta的多元化AI基础设施，助力支撑Meta AI及服务数十亿用户的智能体验。",
+          "source": "Twitter @AIatMeta"
+        },
+        {
+          "title": "DeepSeek-V4预览版正式发布并开源",
+          "url": "https://twitter.com/deepseek_ai",
+          "summary": "DeepSeek-V4预览版正式发布并开源，提供Pro和Flash两个版本。Pro版拥有1.6万亿总参数、490亿激活参数，性能媲美顶级闭源模型；Flash版则更快速高效。两款模型均支持100万上下文长度，并已集成至主流AI代理工具，API即日可用。",
+          "source": "Twitter @deepseek_ai"
+        },
+        {
+          "title": "Kimi K2.6登顶视觉与文档开源模型排行榜",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "Kimi K2.6在视觉与文档竞技场中成为新的开源模型第一名。在视觉榜单位列开源第一、总榜第十五，在文档榜单位列开源第一、总榜第八，性能与Muse Spark等闭源模型持平。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "约书亚·本吉奥：AI发展快于管理能力，需构建安全护栏",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥警告，人工智能的发展速度已超过人类的管理能力。他强调，我们仍有机会建立必要的社会和技术防护措施，以保护人民、机构和民主制度的安全，不应错失这一时机。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI的“Spud”超越Claude登顶前沿",
+          "summary": "OpenAI的新模型“Spud”在性能上超越Anthropic的Claude，成为前沿AI领域的领先者。此外，用户现在可以通过Claude每天早晨获取个性化的新闻简报服务。",
+          "url": "https://www.therundown.ai/p/openai-spud-dethrones-claude-on-the-frontier",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，包括技术创新、监管变化和市场趋势。核心信息涵盖数字支付、区块链应用及人工智能在金融服务中的融合，以及这些技术如何重塑传统银行业务模式。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔及客户服务流程。尽管投资有所波动，但数字化创新仍在加速，推动行业效率提升与用户体验改善。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

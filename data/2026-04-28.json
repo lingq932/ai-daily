@@ -1,0 +1,78 @@
+{
+  "date": "2026-04-28",
+  "timeRange": "2026-04-27 09:00 ~ 2026-04-28 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Kimi K2.6登顶OpenRouter周榜",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "Kimi K2.6在OpenRouter周度大模型排行榜上跃居第一，团队感谢开发者支持并承诺持续优化。同时推出限时充值奖励活动，充值100至299美元获20%额外额度，300至999美元获25%，1000美元以上获30%，活动截止至5月3日。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "卡帕西发布“talkie”模型：仅用1931年前文本训练",
+          "url": "https://twitter.com/karpathy",
+          "summary": "安德烈·卡帕西与亚历克·拉德福德、大卫·杜文诺合作推出“talkie”模型。该模型拥有130亿参数，仅使用1931年前的文本进行训练，旨在帮助研究者理解语言模型的泛化能力，例如能否教会它编程。",
+          "source": "Twitter @karpathy"
+        },
+        {
+          "title": "约书亚·本吉奥：欧洲AI的终局应押注可靠性",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥在《金融时报》撰文指出，安全与创新并非互斥，对许多企业而言，AI的风险反而阻碍了其应用。他强调，欧洲需投资安全可靠的AI，以避免遭遇采用瓶颈。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "DeepSeek携低价高性能V4模型重返市场",
+          "summary": "DeepSeek推出新款V4模型，以低成本实现强大性能。此外，文章还介绍了如何利用Claude Design进行品牌焕新。",
+          "url": "https://www.therundown.ai/p/deepseek-resurfaces-with-cheap-capable-v4",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，聚焦全球最具创新力的金融科技公司。这些企业在支付、借贷、保险和财富管理等领域推动技术变革，重塑传统金融服务模式。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司的竞争日益激烈。人工智能和区块链技术的应用正在重塑支付、借贷和投资等核心金融服务。未来，监管政策与技术创新之间的平衡将成为行业发展的关键。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "本文概述了保险科技领域的最新发展动态，包括技术应用、市场趋势和行业挑战。核心信息涵盖数字化理赔、人工智能风险评估以及监管变化对行业的影响。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

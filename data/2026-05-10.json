@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-10",
+  "timeRange": "2026-05-09 09:00 ~ 2026-05-10 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "山姆·奥特曼谈AI进展与未来展望",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼将新模型描述为“自闭症天才”，命名品味奇特。他分享带孩子外出后，发现模型已完成多项编程任务，对未来感到乐观。他还询问用户最希望下一代模型改进什么。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "德米斯·哈萨比斯回顾AlphaGo十周年",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯发文纪念AlphaGo击败李世石十周年，称这是“登月时刻”。他在韩国与李世石重逢，并与申真谞进行了一场特别对局，感叹AlphaGo如何改变了棋手对围棋的理解。他还访问了谷歌韩国办公室，并对比了2016年与2026年的韩国广告牌变化。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "Towards AI",
+          "title": "3位KV缓存是圣杯吗？谷歌TurboQuant的现实检验",
+          "summary": "谷歌在ICLR 2026上发布的TurboQuant声称能大幅压缩大模型推理缓存。通过10项实验和3个模型的测试，发现其质量提升确实有效，但速度优势需要附加说明，且熵数据中隐藏着一个未被讨论的关键发现。",
+          "url": "https://towardsai.net/p/machine-learning/is-3-bit-kv-cache-the-holy-grail-a-reality-check-on-googles-turboquant",
+          "time": "08:01",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资领域。监管环境也在不断演变，以适应这些创新并管理相关风险。整体来看，金融科技的未来充满机遇与挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "本文概述了保险科技行业的最新发展动态，包括技术应用、市场趋势和主要挑战。当前保险科技正通过人工智能、大数据和区块链等技术重塑传统保险业务模式，提升效率与用户体验。然而，行业仍面临监管合规、数据安全及盈利模式可持续性等关键问题。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

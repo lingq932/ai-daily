@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-08",
+  "timeRange": "2026-05-07 09:00 ~ 2026-05-08 09:00",
+  "sections": [
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 推出 Chrome 扩展，Codex 可执行更多浏览器任务",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 为 Codex 推出 Chrome 扩展，使其能处理调试、查仪表盘、研究或更新 CRM 等更多浏览器内任务。该扩展能根据任务自动选择最佳工具，包括插件或需登录的网站。即日起在除欧盟和英国外的地区可用，其他地区即将支持。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind：AlphaEvolve加速算法进步",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "算法几乎渗透到生活的方方面面，从自然界的物理规律到航运路线规划。谷歌DeepMind基于Gemini的编程智能体AlphaEvolve在过去一年加速了量子、生物技术、物流及谷歌AI基础设施等领域的进展。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Anthropic 开源对齐工具并更新安全计划",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 将其开源对齐工具 Petri 捐赠给 Meridian Labs，并发布重大更新以提升测试的适应性、真实性和深度。同时，公司公开了 HackerOne 上的安全漏洞赏金计划，并合作发布开放模型上的自然语言自编码器（NLA），帮助研究人员探索模型内部动机。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "德米斯·哈萨比斯：算法无处不在",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "算法几乎渗透到生活的方方面面，从自然界的物理规律到航运路线规划。谷歌旗下基于Gemini的编程智能体AlphaEvolve在过去一年加速了从量子、生物技术到物流及AI基础设施的进步。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Anthropic与SpaceX意外成为算力合作伙伴",
+          "summary": "Anthropic与SpaceX达成算力合作，双方成为意想不到的合作伙伴。此外，本文还介绍了如何专业使用Claude Design的幻灯片功能。",
+          "url": "https://www.therundown.ai/p/anthropic-spacex-ai-become-unlikely-compute-partners",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，在推动行业数字化转型中发挥关键作用。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司加速融合。人工智能和区块链技术的应用正在重塑支付、借贷和投资服务，推动行业效率提升与用户体验优化。监管机构也在积极制定新规，以平衡创新与风险控制。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合。人工智能和大数据技术被广泛应用于风险评估、理赔处理和客户服务，推动行业效率提升。同时，监管政策与数据隐私问题仍是行业发展的关键挑战。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
