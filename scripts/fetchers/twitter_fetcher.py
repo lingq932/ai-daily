@@ -10,20 +10,26 @@ async def _fetch(accounts, hours_back=24):
         print("  [SKIP] twscrape 未安装")
         return []
 
-    username = os.environ.get("TWITTER_USERNAME", "")
-    password = os.environ.get("TWITTER_PASSWORD", "")
-    email = os.environ.get("TWITTER_EMAIL", "")
+    auth_token = os.environ.get("TWITTER_AUTH_TOKEN", "")
+    ct0 = os.environ.get("TWITTER_CT0", "")
 
-    if not all([username, password, email]):
-        print("  [SKIP] 未配置 TWITTER_USERNAME / TWITTER_PASSWORD / TWITTER_EMAIL")
+    if not auth_token or not ct0:
+        print("  [SKIP] 未配置 TWITTER_AUTH_TOKEN / TWITTER_CT0")
         return []
+
+    cookies = f"auth_token={auth_token}; ct0={ct0}"
 
     api = API()
     try:
-        await api.pool.add_account(username, password, email, password)
-        await api.pool.login_all()
+        await api.pool.add_account(
+            username="cookie_user",
+            password="cookie_pass",
+            email="cookie@placeholder.com",
+            email_password="cookie_pass",
+            cookies=cookies,
+        )
     except Exception as e:
-        print(f"  [WARN] Twitter 登录失败: {e}")
+        print(f"  [WARN] 添加账号失败: {e}")
         return []
 
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
