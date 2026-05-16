@@ -12,7 +12,7 @@ NITTER_INSTANCES = [
 ]
 
 
-def _fetch_handle_tweets(handle, hours_back=24):
+def _fetch_handle_tweets(handle, hours_back=24, time_from=None, time_to=None):
     """抓取单个账号的推文列表，返回原始文本列表"""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
     headers = {"User-Agent": "Mozilla/5.0 (compatible; RSSBot/1.0)"}
@@ -32,7 +32,11 @@ def _fetch_handle_tweets(handle, hours_back=24):
                 published = None
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
-                if published and published < cutoff:
+                # 支持 time_from/time_to 过滤（历史回填）
+                if time_from and time_to:
+                    if not published or not (time_from <= published < time_to):
+                        continue
+                elif published and published < cutoff:
                     continue
                 content = entry.get("summary", "") or entry.get("title", "")
                 if content:
@@ -48,12 +52,12 @@ def _fetch_handle_tweets(handle, hours_back=24):
     return []
 
 
-def fetch_twitter_section(accounts):
+def fetch_twitter_section(accounts, time_from=None, time_to=None):
     print(f"  爬取 {len(accounts)} 个账号...")
     items = []
 
     for handle in accounts:
-        tweets = _fetch_handle_tweets(handle)
+        tweets = _fetch_handle_tweets(handle, time_from=time_from, time_to=time_to)
         if not tweets:
             continue
 
