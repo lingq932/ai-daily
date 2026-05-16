@@ -1,0 +1,571 @@
+/* ========== 基础变量 ========== */
+:root {
+  --bg-primary: #f5f3ef;
+  --bg-card: #ffffff;
+  --bg-hover: #f0ede8;
+  --bg-section-header: #3d5a80;
+  --text-primary: #1a1a2e;
+  --text-secondary: #4a4a5a;
+  --text-muted: #8a8a9a;
+  --accent: #3d5a80;
+  --accent-light: #5b7faa;
+  --accent-bg: rgba(61, 90, 128, 0.08);
+  --accent-border: rgba(61, 90, 128, 0.2);
+  --border: #d8d4cd;
+  --border-light: #e8e4dd;
+  --rule-color: #3d5a80;
+  --font-display: 'Playfair Display', 'Noto Serif SC', Georgia, serif;
+  --font-serif: 'Noto Serif SC', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', 'Menlo', monospace;
+  --font-sans: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --radius: 3px;
+  --sidebar-width: 260px;
+}
+
+/* ========== 重置 ========== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14.5px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ========== 页面头部 ========== */
+.site-header {
+  padding: 20px 24px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.header-left {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.site-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.site-slogan {
+  font-family: var(--font-serif);
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  white-space: nowrap;
+}
+
+.header-right {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.header-date {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.header-time-range {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-top: 1px;
+}
+
+.header-rule {
+  max-width: 1200px;
+  margin: 14px auto 0;
+  height: 2px;
+  background: var(--rule-color);
+}
+
+/* ========== 主体布局 ========== */
+.main-layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 24px 48px;
+  gap: 28px;
+}
+
+/* ========== 左侧栏：日历 ========== */
+.sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  position: sticky;
+  top: 16px;
+  align-self: flex-start;
+}
+
+.calendar-widget {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.cal-month-label {
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.cal-nav-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.cal-nav-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.cal-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.cal-nav-btn:disabled:hover {
+  border-color: var(--border);
+  color: var(--text-secondary);
+  background: none;
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1px;
+}
+
+.cal-day {
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.15s;
+  position: relative;
+  color: var(--text-secondary);
+}
+
+.cal-day:hover {
+  background: var(--bg-hover);
+  color: var(--text-primary);
+}
+
+.cal-day.today {
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-weight: 700;
+  border: 1px solid var(--accent-border);
+}
+
+.cal-day.selected {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.cal-day.has-data::after {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background: var(--accent);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 2px;
+}
+
+.cal-day.selected.has-data::after {
+  background: #fff;
+}
+
+.cal-day.disabled {
+  color: var(--text-muted);
+  opacity: 0.25;
+  cursor: not-allowed;
+}
+
+.cal-day.disabled:hover {
+  background: transparent;
+}
+
+.cal-day.other-month {
+  opacity: 0.15;
+}
+
+/* ========== 右侧主区域 ========== */
+.content-area {
+  flex: 1;
+  min-width: 0;
+}
+
+.no-data-msg {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+  font-family: var(--font-serif);
+  font-size: 1rem;
+}
+
+/* ========== 新闻板块 ========== */
+.news-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 0 0;
+  cursor: pointer;
+  transition: background 0.15s;
+  border-bottom: 1px solid transparent;
+}
+
+.section-header:hover {
+  background: var(--bg-hover);
+}
+
+.section-header.active {
+  border-bottom-color: var(--border-light);
+}
+
+.section-title-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-part {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: #fff;
+  background: var(--bg-section-header);
+  padding: 10px 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.section-count {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  background: var(--bg-hover);
+  padding: 2px 8px;
+  border-radius: 2px;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 4px;
+  transition: transform 0.3s;
+}
+
+.toggle-icon {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.section-header.collapsed .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+/* 板块内容区：折叠动画 */
+.section-body {
+  max-height: 2000px;
+  overflow: hidden;
+  transition: max-height 0.35s ease, padding 0.25s ease;
+  padding: 0 16px;
+}
+
+.section-body.collapsed {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.section-body:not(.collapsed) {
+  padding: 6px 16px 14px;
+}
+
+/* ========== 事件组标题 ========== */
+.event-group {
+  margin-bottom: 12px;
+}
+
+.event-group-header {
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 6px 0 4px;
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.event-group-header .event-tag {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 1px 7px;
+  border-radius: 2px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* ========== 新闻卡片 ========== */
+.news-item {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-light);
+  transition: background 0.15s;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-item-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.news-source {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent);
+  background: var(--accent-bg);
+  padding: 1px 8px;
+  border-radius: 2px;
+  border: 1px solid var(--accent-border);
+  white-space: nowrap;
+}
+
+.news-time {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.news-title {
+  font-family: var(--font-serif);
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+.news-summary {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+
+.news-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.news-link {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+  padding: 2px 10px;
+  border-radius: 2px;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.news-link:hover {
+  background: var(--accent-bg);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.news-related {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+.news-related a {
+  color: var(--accent-light);
+}
+
+.news-related a:hover {
+  color: var(--accent);
+}
+
+/* ========== 页脚 ========== */
+.site-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 24px 40px;
+  border-top: 2px solid var(--rule-color);
+}
+
+.site-footer p {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.site-footer p:first-child {
+  font-family: var(--font-serif);
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* ========== 响应式：移动端 ========== */
+@media (max-width: 768px) {
+  .site-title {
+    font-size: 1.4rem;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .header-left {
+    gap: 10px;
+  }
+
+  .header-right {
+    text-align: left;
+  }
+
+  .main-layout {
+    flex-direction: column;
+    padding: 12px 12px 32px;
+    gap: 16px;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+  }
+
+  .calendar-widget {
+    padding: 12px;
+  }
+
+  .section-header {
+    padding-right: 12px;
+  }
+
+  .section-body:not(.collapsed) {
+    padding: 6px 12px 12px;
+  }
+
+  .site-header {
+    padding: 14px 12px 0;
+  }
+
+  .header-rule {
+    margin-top: 10px;
+  }
+}

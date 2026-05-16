@@ -1,0 +1,20 @@
+# 系统文件
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+
+# Python 虚拟环境
+venv/
+.env
+
+# Claude Code 工作目录
+.claude/
+
+# 项目内部文档（含敏感信息）
+_harness/
+harness-template_副本.md
+
+# 视觉参考图（不需要进仓库）
+视觉参考1.jpg
+视觉参考2.jpg
