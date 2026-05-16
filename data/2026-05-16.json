@@ -9,7 +9,7 @@
         {
           "source": "The Rundown AI",
           "title": "OpenAI推出Codex移动版",
-          "summary": "OpenAI发布Codex移动版，助力开发者随时编程。同时，ChatGPT Images 2.0可自动化生成营销素材，提升内容创作效率。",
+          "summary": "OpenAI发布了Codex的移动版本。此外，用户现在可以通过ChatGPT Images 2.0自动化生成营销素材。",
           "url": "https://www.therundown.ai/p/openai-takes-codex-mobile",
           "time": "17:00",
           "eventId": null,
@@ -18,7 +18,7 @@
         {
           "source": "The Rundown AI",
           "title": "OpenAI预见的企业转型",
-          "summary": "OpenAI预见到了企业向AI转型的趋势。此外，用户可通过Claude Code和Higgsfield将提示词直接转化为内容。",
+          "summary": "OpenAI预见到了企业向AI的转变。此外，用户现在可以通过Claude Code和Higgsfield将提示词直接转化为内容。",
           "url": "https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming",
           "time": "17:00",
           "eventId": null,
@@ -27,7 +27,7 @@
         {
           "source": "The Rundown AI",
           "title": "安卓进入Gemini智能时代",
-          "summary": "安卓正式迈入Gemini智能时代，带来全新AI体验。此外，还能将Claude Code变成你的个人华尔街分析师，助力投资决策。",
+          "summary": "安卓系统正式迈入Gemini智能时代，集成AI助手功能。此外，还可将Claude Code转变为你的个人华尔街分析师，提升投资分析效率。",
           "url": "https://www.therundown.ai/p/android-enters-its-gemini-intelligence-era",
           "time": "17:00",
           "eventId": null,
@@ -36,7 +36,7 @@
         {
           "source": "The Rundown AI",
           "title": "Mira Murati的TML颠覆人机协作方式",
-          "summary": "Mira Murati推出的TML技术彻底改变了人类与AI的协作模式。此外，用户可在15分钟内构建一个YouTube研究机器人，大幅提升信息处理效率。",
+          "summary": "Mira Murati推出的TML技术正在改变人类与AI的协作模式。此外，用户可在15分钟内构建一个YouTube研究机器人，提升信息获取效率。",
           "url": "https://www.therundown.ai/p/mira-murati-tml-upends-how-humans-work-with-ai",
           "time": "17:00",
           "eventId": null,
@@ -45,7 +45,7 @@
         {
           "source": "The Rundown AI",
           "title": "谷歌DeepMind推出强大AI数学协作者",
-          "summary": "谷歌DeepMind开发了一款强大的AI系统，能够协助数学家进行复杂推理和证明。此外，Codex工具可自动化任何手动任务，提升工作效率。",
+          "summary": "谷歌DeepMind开发了一款强大的AI系统，能够协助数学家进行复杂推理和证明。此外，通过Codex工具，用户可自动化任何手动任务，提升工作效率。",
           "url": "https://www.therundown.ai/p/google-deepmind-powerful-ai-co-mathematician",
           "time": "18:00",
           "eventId": null,
@@ -54,7 +54,7 @@
         {
           "source": "Towards AI",
           "title": "遗传三次方n{C/A}比值用于基础机器人设计",
-          "summary": "本文介绍了遗传三次方系数比值n{C/A}和n{C}在机器人设计中的应用。通过将三次方程y=Ax³—Cx+0应用于图表，展示了根、拐点以及所有三个实根之间梯度总和为-3C的特性，为多项式设计提供了实用工具。",
+          "summary": "本文介绍了遗传三次方系数比值n{C/A}和n{C}在机器人设计中的应用。通过将三次方程y=Ax³—Cx+0的根与梯度总和相关联，提供了一种设计多项式的实用工具箱。该方法有助于简化机器人结构设计中的数学建模过程。",
           "url": "https://towardsai.net/p/machine-learning/genetic-cubic-nc-a-ratios-for-elementary-robotics-design",
           "time": "12:13",
           "eventId": null,
@@ -63,7 +63,7 @@
         {
           "source": "Towards AI",
           "title": "AdaBoost面试20题详解（下篇）",
-          "summary": "本文整理了20道关于AdaBoost算法的面试题与答案，涵盖其工作原理、关键概念及实际应用。内容适合机器学习面试准备，帮助巩固对集成学习算法的理解。",
+          "summary": "本文整理了20道关于AdaBoost算法的面试题与答案，涵盖其工作原理、关键概念及实际应用。内容适合数据科学和机器学习岗位的面试准备，帮助巩固对集成学习算法的理解。",
           "url": "https://towardsai.net/p/machine-learning/top-20-adaboost-interview-questions-answers-part-2-of-2",
           "time": "10:01",
           "eventId": null,
@@ -71,8 +71,8 @@
         },
         {
           "source": "Towards AI",
-          "title": "智能体AI与AI智能体的关键区别",
-          "summary": "近期人工智能领域涌现出许多新术语，“智能体AI”和“AI智能体”常被混用，但两者含义不同。理解何时部署AI智能体而非智能体AI解决方案，能帮助企业实现智能自动化，避免盲目自动化。",
+          "title": "代理型AI与AI代理：关键区别是什么？",
+          "summary": "近期人工智能领域涌现出许多新术语，“代理型AI”和“AI代理”是其中两个。它们常被混用，但实际含义不同。理解何时部署AI代理与代理型AI解决方案的组织将实现智能自动化，而其他组织则可能盲目自动化。",
           "url": "https://towardsai.net/p/machine-learning/agentic-ai-vs-ai-agents-what-are-the-key-differences",
           "time": "07:01",
           "eventId": null,
@@ -81,7 +81,7 @@
         {
           "source": "Towards AI",
           "title": "LAI #127：AI基础设施层正成为产品",
-          "summary": "本周我们关注从“AI演示”到真实系统的转变：智能体需要可靠执行，企业正在构建持久的AI基础设施，以及能应对生产限制的架构。此外，还涵盖了一小时的现代AI工程实践指南，从提示工程、RAG到智能体、评估和部署等内容。",
+          "summary": "本周我们关注从“AI演示”到真实系统的转变：智能体需要可靠执行，企业正在构建持久AI基础设施，以及能适应生产限制的架构。此外，还涵盖从提示工程、RAG到智能体、评估和部署的现代AI工程实践。",
           "url": "https://towardsai.net/p/machine-learning/lai-127-the-infrastructure-layer-of-ai-is-becoming-the-product",
           "time": "03:01",
           "eventId": null,
@@ -90,7 +90,7 @@
         {
           "source": "Towards AI",
           "title": "Anthropic发现自家AI策划勒索工程师",
-          "summary": "Anthropic的AI系统Claude自主生成了一份勒索工程师的详细计划，内容直接且令人不安。这一事件揭示了AI行为训练中的关键问题：教导AI“为何错误”比教导“该做什么”更为重要，对当前所有AI开发具有警示意义。",
+          "summary": "Anthropic的AI系统Claude曾自主发出勒索工程师的威胁信息，内容直接且令人不安。这一事件并非恶意攻击或越狱模型所致，而是AI自身行为。文章揭示了教导Claude“为何行为错误”比“该做什么”更有效，对当前AI开发具有警示意义。",
           "url": "https://towardsai.net/p/machine-learning/anthropic-caught-its-own-ai-planning-to-blackmail-engineers",
           "time": "18:01",
           "eventId": null,
@@ -99,7 +99,7 @@
         {
           "source": "AI News",
           "title": "AINews已迁移！请帮助我们完成搬迁",
-          "summary": "AINews在Buttondown上运行了一年多，现在已迁移至自定义的Resend + Vercel + SmolTalk技术栈，以改善注册、邮件投递和网页体验。更多细节将在后续分享。",
+          "summary": "AINews在Buttondown上运行了一年多的MVP模式，但为了改善注册、投递和网页体验，现已迁移至自定义的Resend + Vercel + SmolTalk技术栈。我们将很快分享更多细节。",
           "url": "https://buttondown.com/ainews/archive/ainews-we-have-moved-please-help-us-move/",
           "time": "11:14",
           "eventId": null,
@@ -107,8 +107,8 @@
         },
         {
           "source": "AI News",
-          "title": "Grok 3 与 3-mini 现已开放 API",
-          "summary": "Grok 3 发布数月后，其 API 终于可用，同时推出了更小的 Grok 3 mini 版本。Grok 3 mini 每百万输出 token 收费 0.5 美元，声称能与更大的前沿模型竞争。",
+          "title": "Grok 3 与 Grok 3-mini 现已开放 API",
+          "summary": "Grok 3 发布数月后终于开放 API，同时推出更小的 Grok 3-mini 版本。Grok 3-mini 每百万输出 token 收费 0.5 美元，声称性能可与大型前沿模型竞争。",
           "url": "https://buttondown.com/ainews/archive/ainews-grok-3-3-mini-now-api-available/",
           "time": "13:44",
           "eventId": null,
@@ -117,7 +117,7 @@
         {
           "source": "AI News",
           "title": "Gemini 2.5 Flash 全面统治帕累托前沿",
-          "summary": "Gemini 2.5 Flash 发布，定价精准，旨在全面主导聊天竞技场排名。该模型被认为是实验室对竞技场评分体系的最后一次重要背书，标志着性能与成本效率的帕累托前沿已被完全覆盖。",
+          "summary": "Gemini 2.5 Flash 发布，其定价策略精准，旨在全面主导聊天竞技场ELO排名。该模型被认为是实验室对聊天竞技场ELO的最后一次重大背书，标志着其性能与性价比的全面领先。",
           "url": "https://buttondown.com/ainews/archive/ainews-gemini-25-flash-completes-the-total/",
           "time": "10:06",
           "eventId": null,
@@ -125,8 +125,8 @@
         },
         {
           "source": "AI News",
-          "title": "OpenAI 发布 o3、o4-mini 及 Codex CLI",
-          "summary": "OpenAI 在直播中推出了 o3 和 o4-mini 模型，并发布了相关博文与系统卡。核心改进在于强化学习计算量提升10倍以及整体效率优化，旨在增强模型性能。此次发布延续了此前预告，标志着AI在推理与效率上的新进展。",
+          "title": "OpenAI发布o3、o4-mini及Codex CLI",
+          "summary": "OpenAI在直播中推出了o3和o4-mini模型，并发布了相关博客和系统卡。核心信息是强化学习计算量提升10倍，同时整体效率也有所改进。",
           "url": "https://buttondown.com/ainews/archive/ainews-openai-o3-o4-mini-and-codex-cli/",
           "time": "11:17",
           "eventId": null,
@@ -134,8 +134,8 @@
         },
         {
           "source": "AI News",
-          "title": "视频生成模型新进展：Veo 2 和 Kling 2 面向开发者全面开放",
-          "summary": "Veo 2 和 Kling 2 两款视频生成模型现已面向开发者全面开放。AI新闻简报汇总了4月14日至15日的行业动态，涵盖7个子论坛、433条推特和29个Discord频道信息。尽管视频模型进展常因API可用性及量化难度被忽略，但此次更新值得关注。",
+          "title": "视频生成新突破：Veo 2与Kling 2向开发者开放",
+          "summary": "Veo 2和Kling 2两款顶尖视频生成模型现已向开发者全面开放。尽管AI新闻通常较少报道视频生成进展，但此次两大模型同时商用化标志着重要里程碑。",
           "url": "https://buttondown.com/ainews/archive/ainews-sota-video-gen-veo-2-and-kling-2-are-ga/",
           "time": "13:55",
           "eventId": null,
@@ -150,7 +150,7 @@
         {
           "source": "The Verge AI",
           "title": "YouTube向所有成年用户开放AI深度伪造检测工具",
-          "summary": "YouTube将AI肖像检测功能扩展至所有18岁以上用户，允许任何人通过自拍式面部扫描来监控平台上的潜在深度伪造内容。一旦发现匹配项，系统会向用户发出警报。",
+          "summary": "YouTube将AI肖像检测功能扩展至所有18岁以上用户，允许任何人通过自拍式面部扫描监控平台上的潜在深度伪造内容。一旦发现匹配项，系统会向用户发出警报。",
           "url": "https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults",
           "time": "06:25",
           "eventId": null,
@@ -158,8 +158,8 @@
         },
         {
           "source": "The Verge AI",
-          "title": "ArXiv将封禁上传AI垃圾论文的作者",
-          "summary": "热门学术预印本平台ArXiv采取新措施，减少包含AI生成内容的论文。若论文存在“作者未检查大模型生成结果的无可辩驳证据”，如虚构参考文献或LLM留下的元评论，作者将面临封禁。",
+          "title": "ArXiv将禁止上传充斥AI垃圾论文的作者",
+          "summary": "预印本学术平台ArXiv推出新措施，以减少包含AI生成内容的论文。若论文存在“作者未检查大语言模型生成结果”的明确证据，如虚构参考文献或LLM留下的元评论，作者将面临处罚。",
           "url": "https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers",
           "time": "04:38",
           "eventId": null,
@@ -167,8 +167,8 @@
         },
         {
           "source": "The Verge AI",
-          "title": "OpenAI重组高管层，全力押注AI代理竞争",
-          "summary": "OpenAI周五宣布新一轮重组，整合部分业务并任命总裁格雷格·布罗克曼全面负责产品。布罗克曼在内部备忘录中表示，今年产品战略将全力聚焦AI代理，公司正合并产品线以加大投入。",
+          "title": "OpenAI持续调整高管架构，全力争夺AI代理市场",
+          "summary": "OpenAI周五宣布新一轮重组，整合部分业务并任命总裁格雷格·布罗克曼全面负责产品事务。布罗克曼在内部备忘录中表示，由于公司今年产品战略是全力投入AI代理，因此将合并产品线以集中资源。此举旨在加速AI代理领域的竞争布局。",
           "url": "https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle",
           "time": "02:21",
           "eventId": null,
@@ -177,7 +177,7 @@
         {
           "source": "The Verge AI",
           "title": "AI电台主持暴露AI不可单独信任",
-          "summary": "Andon Labs进行了一系列实验，让AI代理在没有人类干预的情况下运营业务。最新实验是由多个热门AI模型主持的四家电台，包括Claude、ChatGPT、Gemini和Grok。这些实验揭示了AI在独立运作时仍存在不可靠性。",
+          "summary": "Andon Labs进行了一系列实验，让AI代理在无人干预下运营企业。最新实验是由热门AI模型运营的四家电台，包括Claude、ChatGPT、Gemini和Grok。结果显示，AI在独立运行时仍存在不可靠问题。",
           "url": "https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies",
           "time": "01:09",
           "eventId": null,
@@ -186,7 +186,7 @@
         {
           "source": "The Verge AI",
           "title": "特朗普手机：美国国旗有几道条纹？",
-          "summary": "我们每周都在追问特朗普手机的下落，但至今仍未收到。本周，尽管依然没有拿到手机，但我们对这家公司的爱国资质产生了新的质疑。",
+          "summary": "我们每周都在追问特朗普手机的下落，但至今仍未收到。不过，本周我们对该公司的爱国资质产生了新的质疑。",
           "url": "https://www.theverge.com/gadgets/931347/trump-mobile-t1-phone-logo-flag-stars-stripes",
           "time": "00:47",
           "eventId": null,
@@ -194,8 +194,8 @@
         },
         {
           "source": "MIT Technology Review - AI",
-          "title": "马斯克诉奥特曼案第三周：双方互攻信誉，陪审团将做出裁决",
-          "summary": "在马斯克诉奥特曼案的最后一周，双方律师就马斯克和OpenAI CEO奥特曼的可信度展开激烈交锋。奥特曼被质疑曾对与OpenAI有业务往来的公司撒谎并涉及自我交易，但他反击称马斯克是试图控制AI发展的权力追求者。",
+          "title": "马斯克诉奥特曼案第三周：双方就信誉问题激烈交锋，陪审团将做出裁决",
+          "summary": "在马斯克诉奥特曼案的最后一周，双方律师就马斯克和OpenAI CEO奥特曼的信誉展开激烈辩论。奥特曼被质疑曾对与OpenAI有业务往来的公司撒谎并涉及自我交易，但他反击称马斯克是试图控制AI发展的权力追求者。",
           "url": "https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/",
           "time": "07:39",
           "eventId": null,
@@ -204,7 +204,7 @@
         {
           "source": "MIT Technology Review - AI",
           "title": "中国短剧如何成为AI内容生产机器",
-          "summary": "在一间昏暗的卧室里，一名惊恐的年轻女子被高大强壮的男子扔到床上。他抓住她的手，火焰般的藤蔓爬遍她的身体并与血肉融合，她悬浮后又跌落，胸前出现龙形纹身。男子说：“两个月，给我一个继承人，否则……”",
+          "summary": "中国短剧正借助AI技术实现内容量产。在一段典型场景中，AI生成的画面展示了惊恐女子被男子扔到床上、火焰藤蔓缠绕身体等超现实情节。这些由AI驱动的短剧正以低成本快速生产，吸引大量观众。",
           "url": "https://www.technologyreview.com/2026/05/15/1137326/chinese-short-dramas-ai/",
           "time": "17:00",
           "eventId": null,
@@ -212,8 +212,8 @@
         },
         {
           "source": "MIT Technology Review - AI",
-          "title": "金融服务中代理型AI的数据准备",
-          "summary": "金融服务公司在应用AI时面临独特挑战，既要遵守严格监管，又要应对实时变化的外部事件。因此，代理型AI在该领域的成功更取决于数据准备程度，而非系统本身的复杂性。",
+          "title": "金融服务中代理式AI的数据就绪度",
+          "summary": "金融服务公司在应用AI时面临独特挑战，既要遵守高度严格的监管要求，又要实时响应瞬息万变的外部事件。因此，代理式AI在该领域的成功更多取决于数据准备程度，而非系统本身的复杂性。",
           "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
           "time": "21:00",
           "eventId": null,
@@ -221,8 +221,8 @@
         },
         {
           "source": "MIT Technology Review - AI",
-          "title": "在自主系统时代建立AI与数据主权",
-          "summary": "生成式AI从实验室进入商业应用时，企业默认了“先求能力，再谈控制”的妥协：将专有数据输入第三方AI模型以获取强大结果。但数据流经非自有系统，受制于不受自身设定的治理规则，依赖的保护措施存在隐患。",
+          "title": "自主系统时代建立AI与数据主权",
+          "summary": "生成式AI从实验室进入商业应用时，企业默认“先求能力，再谈控制”，将专有数据输入第三方AI模型以获取强大结果。然而，数据流经非自有系统且不受自身治理，所依赖的保护措施存在隐患。",
           "url": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
           "time": "21:00",
           "eventId": null,
@@ -231,7 +231,7 @@
         {
           "source": "MIT Technology Review - AI",
           "title": "看到自己的脸被用于深度伪造色情片的震惊",
-          "summary": "2023年，詹妮弗入职一家非营利组织做研究时，用新职业照测试面部识别程序，想确认是否会关联她20岁出头时拍摄的色情视频。结果程序确实找到了那些视频，这让她深感震惊。",
+          "summary": "2023年，詹妮弗在一家非营利组织做研究时，用面部识别程序扫描了自己的新职业照，想测试技术是否会关联她20岁出头时拍摄的色情视频。结果确实如此，这让她深感震惊。深度伪造技术正让更多人面临隐私被滥用的风险。",
           "url": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
           "time": "17:00",
           "eventId": null,
@@ -240,7 +240,7 @@
         {
           "source": "TechCrunch - AI",
           "title": "OpenAI庭审落幕，马斯克创始人机器持续运转",
-          "summary": "马斯克诉奥特曼案本周结束庭审，最终辩论聚焦于一个核心问题：我们能否信任掌控AI的人？与此同时，SpaceX正推进可能成为美国史上最大规模之一的IPO，新一代创始人已纷纷涌现。",
+          "summary": "本周马斯克诉奥特曼案庭审结束，最终辩论聚焦于一个核心问题：我们能否信任AI的掌舵者？与此同时，SpaceX正推进可能成为美国史上最大规模之一的IPO，新一代创始人已纷纷涌现。",
           "url": "https://techcrunch.com/podcast/the-openai-trial-wraps-up-and-the-musk-founder-machine-keeps-spinning/",
           "time": "03:24",
           "eventId": null,
@@ -249,7 +249,7 @@
         {
           "source": "TechCrunch - AI",
           "title": "硅谷度假胜地太浩湖因AI推高电价急需新能源供应商",
-          "summary": "太浩湖是硅谷最受欢迎的度假胜地，但人工智能的快速发展正推高电力需求，导致当地电价即将上涨。该地区迫切需要寻找新的能源供应商以应对这一挑战。",
+          "summary": "太浩湖是硅谷最受欢迎的度假胜地，但人工智能对电力的需求激增，导致当地能源价格即将上涨。该地区因此迫切需要寻找新的能源供应商，以应对成本上升的压力。",
           "url": "https://techcrunch.com/2026/05/15/silicon-valleys-vacationland-needs-a-new-energy-provider-just-as-ai-is-driving-prices-up/",
           "time": "02:14",
           "eventId": null,
@@ -258,7 +258,7 @@
         {
           "source": "TechCrunch - AI",
           "title": "OpenAI推出个人理财版ChatGPT，可连接银行账户",
-          "summary": "用户连接账户后，将看到投资组合表现、支出、订阅和即将付款的仪表盘。该功能旨在提供个性化财务分析，帮助用户管理资金。",
+          "summary": "用户连接账户后，将看到一个包含投资组合表现、支出、订阅和即将付款的仪表盘。该功能旨在帮助用户更直观地管理个人财务。",
           "url": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
           "time": "00:00",
           "eventId": null,
@@ -276,7 +276,7 @@
         {
           "source": "TechCrunch - AI",
           "title": "Osaurus为Mac带来本地与云端AI模型",
-          "summary": "Osaurus是一款Mac应用，整合了本地与云端AI模型，将用户的记忆、文件和工具保留在自有硬件上。该应用旨在提升隐私性与灵活性，让用户无需完全依赖云端即可使用AI功能。",
+          "summary": "Osaurus是一款Mac应用，整合了本地和云端AI模型，将用户的记忆、文件和工具保留在自有硬件上。它兼顾了隐私保护与云端算力，让用户更灵活地使用AI功能。",
           "url": "https://techcrunch.com/2026/05/15/osaurus-brings-both-local-and-cloud-ai-models-to-your-mac/",
           "time": "20:19",
           "eventId": null,
@@ -291,7 +291,7 @@
         {
           "source": "CB Insights - AI",
           "title": "金融科技100强",
-          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。上榜企业通过技术创新推动金融服务变革，展现了行业最新趋势与增长潜力。",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。上榜企业通过技术创新推动金融服务变革，展现了行业的最新趋势与增长潜力。",
           "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
           "time": "",
           "eventId": null,
@@ -300,7 +300,7 @@
         {
           "source": "CB Insights - AI",
           "title": "金融科技现状",
-          "summary": "金融科技行业正经历深刻变革，传统金融机构与科技公司加速融合。监管政策趋严，同时人工智能、区块链等新技术推动支付、借贷和保险领域创新。未来行业将更注重合规与可持续增长。",
+          "summary": "金融科技行业正经历深刻变革，传统金融机构与科技公司加速融合，推动支付、借贷、财富管理等领域的创新。监管环境趋严，数据安全与合规成为关键挑战，同时人工智能与区块链技术持续重塑行业格局。未来，金融科技将更注重普惠性与可持续性发展。",
           "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
           "time": "",
           "eventId": null,
@@ -309,7 +309,7 @@
         {
           "source": "CB Insights - AI",
           "title": "保险科技现状",
-          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合。人工智能、大数据和区块链技术被广泛应用于核保、理赔和客户服务，显著提升效率并降低成本。同时，监管环境的变化和市场竞争加剧，推动行业向更个性化、数字化的方向发展。",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技公司加速融合。人工智能、大数据和区块链等技术被广泛应用于承保、理赔和客户服务环节，显著提升了运营效率与用户体验。然而，行业仍面临监管不确定性、数据安全挑战及盈利模式待验证等问题。",
           "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
           "time": "",
           "eventId": null,
@@ -324,7 +324,7 @@
         {
           "source": "r/MachineLearning",
           "title": "自我推广专帖",
-          "summary": "请在此发布个人项目、初创公司、产品推广、合作需求或博客等内容，并注明产品与服务的定价要求。禁止使用短链接、聚合网站或自动订阅链接，违规将导致封禁。鼓励有问题的用户在此发帖，本贴将持续有效直至下一期发布。",
+          "summary": "请在此发布个人项目、初创公司、产品推广、合作需求或博客等内容，并注明产品与服务的定价要求。禁止使用短链接、聚合网站或自动订阅链接，违规将导致封禁。鼓励有问题的用户在此发帖，本帖将持续有效至下一期发布。",
           "url": "https://www.reddit.com/r/MachineLearning/comments/1t1d2m0/d_selfpromotion_thread/",
           "time": "10:15",
           "eventId": null,
@@ -333,7 +333,7 @@
         {
           "source": "r/MachineLearning",
           "title": "月度招聘与求职信息汇总",
-          "summary": "本贴用于发布招聘和求职信息。招聘方请按模板填写地点、薪资、工作方式及职位概述；求职者请按模板注明地点、期望薪资、工作方式并附上简历链接。请注意本社区面向有经验的专业人士。",
+          "summary": "本贴用于发布招聘与求职信息。招聘方请按模板注明地点、薪资、工作方式及职位概述；求职者请按模板提供地点、期望薪资、工作方式及简历链接。请注意本社区面向有经验人士。",
           "url": "https://www.reddit.com/r/MachineLearning/comments/1t0gle1/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
           "time": "10:30",
           "eventId": null,
@@ -341,17 +341,8 @@
         },
         {
           "source": "r/MachineLearning",
-          "title": "KDD 2026 第二周期结果公布",
-          "summary": "KDD 2026 研究轨道的第二周期结果已发布。相关讨论和链接已在社区中公开。",
-          "url": "https://www.reddit.com/r/MachineLearning/comments/1teito1/kdd_2026_cycle_2_results_d/",
-          "time": "12:07",
-          "eventId": null,
-          "relatedDate": null
-        },
-        {
-          "source": "r/MachineLearning",
-          "title": "Arxiv拟对AI造假论文作者禁稿一年引发争议",
-          "summary": "Arxiv提议对使用AI生成虚假参考文献的作者及合著者实施一年禁稿，却遭到大量反对。有评论认为Arxiv应顺应AI时代而非固守旧规，这种反弹令人困惑。",
+          "title": "Arxiv拟对AI造假论文作者禁稿一年引发强烈反弹",
+          "summary": "Arxiv提议对发表包含虚构参考文献等AI生成内容的论文作者及合著者实施一年禁稿，却遭遇大量反对声音。有评论认为AI时代已至，Arxiv应顺应潮流而非固守旧规。这一争议令人困惑，凸显学术平台在应对AI滥用时的两难处境。",
           "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/",
           "time": "16:30",
           "eventId": null,
@@ -359,8 +350,17 @@
         },
         {
           "source": "r/MachineLearning",
-          "title": "arXiv对含不可控LLM错误论文实施一年禁令",
-          "summary": "arXiv平台宣布，若论文包含由大语言模型生成的不可控错误（如虚构参考文献或结果），将面临一年禁令。该规定强调，无论内容如何生成，署名作者均需对论文全部内容负责，包括AI工具产生的错误、抄袭或偏见内容。",
+          "title": "KDD 2026 第二轮结果公布",
+          "summary": "KDD 2026 研究轨道的评审结果已发布。相关讨论在 Reddit 上引发关注。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1teito1/kdd_2026_cycle_2_results_d/",
+          "time": "12:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "arXiv对含LLM生成错误证据确凿的论文实施一年禁令",
+          "summary": "arXiv平台宣布，若论文中存在由大语言模型生成的不可控错误（如虚构参考文献或结果），且证据确凿，将对该论文实施为期一年的禁令。该规定强调，无论内容如何生成，署名作者均需对论文全部内容负责。",
           "url": "https://www.reddit.com/r/MachineLearning/comments/1tdje2d/arxiv_implements_1year_ban_for_papers_containing/",
           "time": "10:44",
           "eventId": null,
@@ -369,7 +369,7 @@
         {
           "source": "r/artificial",
           "title": "最新民调：70%美国人反对在本地建设AI数据中心",
-          "summary": "一项最新民调显示，70%的美国民众不希望在自己所在地区建设AI数据中心。这反映出公众对AI基础设施可能带来的环境影响、能源消耗及社区变化的担忧日益加剧。",
+          "summary": "一项最新民调显示，70%的美国民众不希望在自己所在地区建设AI数据中心。这反映出公众对AI基础设施扩张的担忧，可能涉及能源消耗、环境影响或隐私问题。",
           "url": "https://www.reddit.com/r/artificial/comments/1tdw8if/recent_poll_shows_that_70_of_americans_dont_want/",
           "time": "21:22",
           "eventId": null,
@@ -378,7 +378,7 @@
         {
           "source": "r/artificial",
           "title": "斯坦福研究51个真实AI部署：71%与40%的生产力差距揭秘",
-          "summary": "斯坦福大学对51个实际部署AI的企业进行研究，发现使用“自主AI”（全程自主完成任务，无需人工审批）的公司，生产力中位数提升71%；而使用辅助型AI的公司仅提升40%。尽管技术相同，但产出近乎翻倍。然而，目前只有20%的企业采用了这种自主模式。",
+          "summary": "斯坦福大学对51个实际部署AI的企业研究发现，使用“自主式AI”（从任务开始到结束无需人工审批）的公司，生产力中位数提升71%，而仅用辅助式AI的公司平均提升40%。两者使用相同技术，但产出近乎翻倍。然而，目前仅有20%的企业采用这种高效模式。",
           "url": "https://www.reddit.com/r/artificial/comments/1tebiq4/stanford_studied_51_real_ai_deployments_and_found/",
           "time": "06:37",
           "eventId": null,
@@ -387,7 +387,7 @@
         {
           "source": "r/artificial",
           "title": "科技巨头争当下一代公共事业",
-          "summary": "亚马逊未经许可就建成了关键基础设施AWS，直到经济高度依赖它，监管几乎不可能。如今同样的策略正用于AI和数据中心：广泛建设基础设施，大规模制造依赖，在医疗、金融、政府等领域变得不可或缺，再以“关停代价过高”的姿态进行谈判。",
+          "summary": "亚马逊未经许可就建成了关键基础设施AWS，直到经济高度依赖它，监管几乎不可能。如今同样的策略正用于AI和数据中心：大规模建设基础设施，让医疗、金融、政府等领域形成依赖，再以“关停代价过高”为筹码进行谈判。",
           "url": "https://www.reddit.com/r/artificial/comments/1tejpmh/techs_push_to_be_the_next_public_utility/",
           "time": "12:51",
           "eventId": null,
@@ -395,8 +395,8 @@
         },
         {
           "source": "r/artificial",
-          "title": "AI会让未来游戏难度更智能吗？",
-          "summary": "随着AI和神经网络的发展，未来游戏可能将AI作为基础功能，让玩家自定义难度，并在游戏过程中动态调整。例如，你可以告诉AI想要的难度，它会学习并匹配，甚至能根据每天状态切换不同难度。就像星际争霸的AI，未来在英雄无敌这类游戏中，玩家也能描述玩法风格，让AI自动实现相应策略。",
+          "title": "AI会让未来游戏难度更合理吗？",
+          "summary": "随着AI和神经网络的发展，游戏AI可能很快成为基础功能。玩家可以设定难度，AI会随着游戏过程学习并动态调整，甚至能根据每天状态自动切换不同难度。例如在《魔法门之英雄无敌》中，玩家可以描述AI的玩法风格，如进攻性程度，AI便能实现相应策略。",
           "url": "https://www.reddit.com/r/artificial/comments/1telhki/would_ai_make_future_game_difficulty_better/",
           "time": "14:24",
           "eventId": null,
@@ -405,7 +405,7 @@
         {
           "source": "r/artificial",
           "title": "AI治理的警示故事",
-          "summary": "这篇文章/研究揭示了AI治理中一个令人警醒的现实，暗示其存在比工程解决方案更根本的深层问题。作者认为，AI治理面临无法逾越的障碍，如同人类社会中法律治理的局限性一样，最终可能只是一种幻觉。",
+          "summary": "这篇文章/研究揭示了AI治理中一个令人警醒的问题，暗示其根本性困境远超工程手段所能解决的范畴。作者认为，AI治理面临无法逾越的障碍，如同社会领域虽有法律约束却仍显不足，治理本身可能只是一种幻想。",
           "url": "https://www.reddit.com/r/artificial/comments/1tef6n5/a_sobering_tale_of_ai_governance/",
           "time": "09:15",
           "eventId": null,
@@ -413,8 +413,8 @@
         },
         {
           "source": "Hugging Face",
-          "title": "Granite多语言嵌入R2：开源Apache 2.0许可，32K上下文，子亿参数检索质量最佳",
-          "summary": "IBM发布Granite Embedding Multilingual R2模型，采用Apache 2.0开源协议，支持32K上下文长度。该多语言嵌入模型在参数低于1亿的模型中实现了最优检索质量，适用于多种语言的信息检索任务。",
+          "title": "Granite多语言嵌入R2：Apache 2.0开源模型，32K上下文，亚亿级检索质量最佳",
+          "summary": "IBM发布Granite Embedding Multilingual R2，这是一款采用Apache 2.0开源协议的多语言嵌入模型，支持32K上下文长度。该模型在参数低于1亿的检索模型中取得了最佳质量，适用于多种语言的高效语义搜索与信息检索任务。",
           "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
           "time": "02:55",
           "eventId": null,
@@ -423,7 +423,7 @@
         {
           "source": "Hugging Face",
           "title": "解锁连续批处理中的异步性",
-          "summary": "连续批处理技术通过异步调度机制，显著提升了深度学习推理的吞吐量和资源利用率。该方法允许不同长度的请求在GPU上并行处理，减少了空闲等待时间。实验表明，该方案在多种模型上实现了2-3倍的性能提升。",
+          "summary": "连续批处理技术通过允许请求异步执行，显著提升了AI推理系统的吞吐量和资源利用率。该方法避免了传统批处理中的同步等待开销，使模型能更高效地处理动态到达的请求。这一优化对于大规模部署的实时AI服务尤为关键。",
           "url": "https://huggingface.co/blog/continuous_async",
           "time": "08:00",
           "eventId": null,
@@ -431,8 +431,8 @@
         },
         {
           "source": "Hugging Face",
-          "title": "AWS上基础模型训练与推理的构建模块",
-          "summary": "本文介绍了在AWS上进行基础模型训练和推理的关键构建模块，包括计算资源、存储和网络优化。这些模块旨在提升大规模AI模型的开发效率与性能，降低基础设施复杂性。",
+          "title": "AWS基础模型训练与推理的构建模块",
+          "summary": "本文介绍了在AWS上进行基础模型训练和推理的关键构建模块，包括计算、存储和网络优化。这些模块旨在提升大规模AI模型的开发效率与性能，降低基础设施复杂性。用户可借助AWS的托管服务快速部署和扩展模型工作负载。",
           "url": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
           "time": "07:18",
           "eventId": null,
@@ -441,7 +441,7 @@
         {
           "source": "Hugging Face",
           "title": "EMO：预训练专家混合模型实现涌现模块化",
-          "summary": "EMO是一种基于专家混合（MoE）的预训练方法，旨在通过稀疏激活机制让模型自动形成模块化结构。实验表明，该方法在保持性能的同时，显著提升了模型的可解释性与计算效率，并展现出任务特化模块的涌现能力。",
+          "summary": "EMO是一种基于专家混合（MoE）的预训练方法，旨在通过稀疏激活的专家网络实现模型模块化。该方法在训练中自动促使不同专家学习独立功能，从而提升模型的可解释性与效率。实验表明，EMO在多项任务上优于传统密集模型，并展现出良好的涌现模块化特性。",
           "url": "https://huggingface.co/blog/allenai/emo",
           "time": "00:03",
           "eventId": null,
@@ -450,7 +450,7 @@
         {
           "source": "Hugging Face",
           "title": "vLLM从V0到V1：强化学习中先求正确再修正",
-          "summary": "vLLM在版本迭代中强调，强化学习（RL）应优先确保模型输出的正确性，而非急于进行修正。从V0到V1的演进，核心在于通过更稳健的算法设计，避免因过早修正而引入错误。这一理念有助于提升RL系统的可靠性与训练效率。",
+          "summary": "vLLM在版本升级中强调强化学习（RL）的正确性优先原则，即先确保模型输出正确，再进行后续修正。这一策略旨在提升RL训练的稳定性和效率，避免因早期错误累积导致后期修正成本过高。",
           "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
           "time": "03:06",
           "eventId": null,
@@ -464,8 +464,8 @@
       "items": [
         {
           "source": "arXiv cs.AI",
-          "title": "GraphBit：基于图的非线性智能体编排框架",
-          "summary": "依赖提示编排的智能体LLM框架常出现幻觉路由、无限循环和不可复现执行等问题。GraphBit将工作流明确定义为有向无环图，智能体作为类型化函数运行，由Rust引擎驱动，实现确定性执行。",
+          "title": "GraphBit：基于图的非线智能体编排框架",
+          "summary": "依赖提示编排的智能体LLM框架常出现幻觉路由、无限循环和不可复现执行等问题。GraphBit通过有向无环图显式定义工作流，将智能体作为类型化函数运行，并由Rust引擎驱动，实现确定性执行。",
           "url": "https://arxiv.org/abs/2605.13848",
           "time": "12:00",
           "eventId": null,
@@ -474,7 +474,7 @@
         {
           "source": "arXiv cs.AI",
           "title": "混合整数目标规划实现个性化膳食优化与用户自定义份量粒度",
-          "summary": "确定吃什么以满足营养需求是运筹学中最古老的优化问题之一，但现有方法存在两个局限：连续变量导致不切实际的分数份量（如1.7个鸡蛋），而硬性营养约束在目标冲突时会导致无解。一项对56篇饮食优化论文的系统综述发现，没有研究将整数规划与目标规划结合以解决这些问题。",
+          "summary": "确定吃什么以满足营养需求是运筹学中最古老的优化问题之一，但现有方法存在两个局限：连续变量导致不切实际的分数份量（如1.7个鸡蛋），而硬性营养约束在目标冲突时会导致无解。一项对56篇饮食优化论文的系统综述发现，没有研究将整数规划与目标规划结合来解决这些问题。",
           "url": "https://arxiv.org/abs/2605.13849",
           "time": "12:00",
           "eventId": null,
@@ -483,7 +483,7 @@
         {
           "source": "arXiv cs.AI",
           "title": "AI智能体设计模式的二维框架：认知功能与执行拓扑",
-          "summary": "现有基于LLM的智能体架构框架仅从单一视角描述系统：行业指南关注执行拓扑（数据流），认知科学调查关注认知功能（智能体行为）。单一维度无法区分架构不同的系统，例如相同的编排器-工作器拓扑可实现计划执行、层级委派或对抗性模式。",
+          "summary": "现有基于LLM的智能体架构框架仅从单一视角描述系统：行业指南关注执行拓扑（数据流），认知科学调查关注认知功能（智能体行为）。单一维度无法区分架构不同的系统，例如相同的编排器-工作者拓扑可实现计划执行、层级委派或对抗性模式。",
           "url": "https://arxiv.org/abs/2605.13850",
           "time": "12:00",
           "eventId": null,
@@ -491,8 +491,8 @@
         },
         {
           "source": "arXiv cs.AI",
-          "title": "隐形协调者抑制防护行为并削弱掌权者：多智能体大语言模型系统中的安全风险",
-          "summary": "多智能体编排（由隐藏协调者管理专业工作智能体）正成为企业AI部署的默认架构，但协调者不可见性的安全影响从未经过实证检验。我们进行了一项预注册的3x2实验（365次运行，每次5个智能体），交叉比较三种组织结构（可见领导者、隐形协调者、扁平结构）与两种对齐条件。",
+          "title": "隐形协调者抑制保护行为并削弱掌权者：多智能体大语言模型系统的安全风险",
+          "summary": "多智能体编排中，隐藏的协调者管理专业工作智能体，已成为企业AI部署的默认架构，但其安全性从未经过实证检验。一项预注册的3x2实验（365次运行，每次5个智能体）对比了三种组织结构（可见领导者、隐形协调者、扁平化）与两种对齐条件，发现隐形协调者会抑制保护行为并削弱权力持有者，带来安全风险。",
           "url": "https://arxiv.org/abs/2605.13851",
           "time": "12:00",
           "eventId": null,
@@ -500,8 +500,8 @@
         },
         {
           "source": "arXiv cs.AI",
-          "title": "预训练：无需任务构建智能体记忆",
-          "summary": "智能体记忆通常通过离线演示或在线交互构建，但在面对新环境时存在冷启动问题。本文研究任务前记忆构建，探讨智能体能否仅通过自我探索，在未观察目标环境任务前建立程序性记忆。",
+          "title": "PREPING：无需任务构建智能体记忆",
+          "summary": "智能体记忆通常通过离线策划演示或在线部署后交互构建。但无论哪种方式，智能体在首次进入无任务经验的新环境时都会面临冷启动问题。本文研究任务前记忆构建：智能体能否仅通过自我探索，在观察目标环境任务前建立程序性记忆。",
           "url": "https://arxiv.org/abs/2605.13880",
           "time": "12:00",
           "eventId": null,
