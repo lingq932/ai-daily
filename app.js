@@ -182,6 +182,7 @@
       if (!resp.ok) throw new Error('no data');
       const data = await resp.json();
       renderSections(data);
+      syncNavVisibility();
     } catch (e) {
       noDataMsg.style.display = 'block';
     }
@@ -432,11 +433,57 @@
     });
   });
 
+  // ========== 板块导航 ==========
+
+  function initSectionNav() {
+    const navItems = document.querySelectorAll('.nav-item');
+
+    // 点击跳转
+    navItems.forEach(function (item) {
+      item.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = this.dataset.target;
+        const section = document.querySelector('[data-section="' + target + '"]');
+        if (section && section.style.display !== 'none') {
+          section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // 滚动高亮（IntersectionObserver）
+    const observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          const id = entry.target.dataset.section;
+          navItems.forEach(function (item) {
+            item.classList.toggle('active', item.dataset.target === id);
+          });
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+
+    document.querySelectorAll('.news-section').forEach(function (sec) {
+      observer.observe(sec);
+    });
+  }
+
+  // 数据加载后同步导航项的显示/隐藏
+  function syncNavVisibility() {
+    document.querySelectorAll('.nav-item').forEach(function (item) {
+      const target = item.dataset.target;
+      const section = document.querySelector('[data-section="' + target + '"]');
+      if (section) {
+        item.classList.toggle('hidden', section.style.display === 'none');
+      }
+    });
+  }
+
   // ========== 初始化 ==========
 
   async function init() {
     availableDates = await scanAvailableDates();
     renderCalendar();
+    initSectionNav();
     loadDayData(selectedDate);
   }
 
