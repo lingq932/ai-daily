@@ -125,9 +125,9 @@ WEB_SCRAPE_SOURCES = {
 
 TWITTER_ACCOUNTS = [
     # AI 公司官方账号
-    "OpenAI", "GoogleDeepMind", "AnthropicAI", "MetaAI",
+    "OpenAI", "GoogleDeepMind", "AnthropicAI", "AIatMeta",
     "midjourney", "runwayml", "deepseek_ai", "Alibaba_Qwen",
-    "Kimi_Moonshot", "MiniMaxAI",
+    "Kimi_Moonshot", "MiniMax_AI",
     # AI 领域意见领袖
     "sama", "karpathy", "demishassabis", "geoffreyhinton",
     "ylecun", "yoshua_bengio", "lexfridman",
