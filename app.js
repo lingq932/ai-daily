@@ -35,9 +35,15 @@
     return d >= minDate && d <= today;
   }
 
-  // ========== 扫描可用日期 ==========
+  // ========== 扫描可用日期（每天缓存一次）==========
 
   async function scanAvailableDates() {
+    const cacheKey = 'ai_daily_dates_' + formatDate(today);
+    try {
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) return JSON.parse(cached);
+    } catch (e) {}
+
     const dates = [];
     const d = new Date(today);
     for (let i = 0; i <= MAX_DAYS; i++) {
@@ -48,6 +54,15 @@
       } catch (e) {}
       d.setDate(d.getDate() - 1);
     }
+
+    try {
+      // 清理旧缓存，只保留今天的
+      Object.keys(localStorage)
+        .filter(k => k.startsWith('ai_daily_dates_') && k !== cacheKey)
+        .forEach(k => localStorage.removeItem(k));
+      localStorage.setItem(cacheKey, JSON.stringify(dates));
+    } catch (e) {}
+
     return dates;
   }
 

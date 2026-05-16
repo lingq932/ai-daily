@@ -1,75 +1,69 @@
-import asyncio
-import os
+import feedparser
+import requests
 from datetime import datetime, timedelta, timezone
 
+NITTER_INSTANCES = [
+    "https://nitter.privacydev.net",
+    "https://nitter.poast.org",
+    "https://nitter.1d4.us",
+    "https://nitter.net",
+    "https://nitter.cz",
+    "https://nitter.woodland.cafe",
+]
 
-async def _fetch(accounts, hours_back=24, timeout=120):
-    try:
-        from twscrape import API
-    except ImportError:
-        print("  [SKIP] twscrape 未安装")
-        return []
 
-    auth_token = os.environ.get("TWITTER_AUTH_TOKEN", "")
-    ct0 = os.environ.get("TWITTER_CT0", "")
-
-    if not auth_token or not ct0:
-        print("  [SKIP] 未配置 TWITTER_AUTH_TOKEN / TWITTER_CT0")
-        return []
-
-    cookies = f"auth_token={auth_token}; ct0={ct0}"
-
-    api = API()
-    try:
-        await api.pool.add_account(
-            username="cookie_user",
-            password="cookie_pass",
-            email="cookie@placeholder.com",
-            email_password="cookie_pass",
-            cookies=cookies,
-        )
-    except Exception as e:
-        print(f"  [WARN] 添加账号失败: {e}")
-        return []
-
+def _fetch_handle_rss(handle, hours_back=24):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
-    items = []
+    headers = {"User-Agent": "Mozilla/5.0 (compatible; RSSBot/1.0)"}
 
-    for handle in accounts:
+    for instance in NITTER_INSTANCES:
+        url = f"{instance}/{handle}/rss"
         try:
-            user = await asyncio.wait_for(api.user_by_login(handle), timeout=30)
-            if not user:
+            resp = requests.get(url, headers=headers, timeout=10)
+            if resp.status_code != 200:
                 continue
-            async for tweet in api.user_tweets(user.id, limit=30):
-                if tweet.date < cutoff:
-                    break
-                if tweet.rawContent:
-                    items.append({
-                        "title": f"@{handle}",
-                        "url": f"https://twitter.com/{handle}/status/{tweet.id}",
-                        "content": tweet.rawContent,
-                        "source": f"Twitter @{handle}",
-                        "published": tweet.date.isoformat(),
-                    })
-        except asyncio.TimeoutError:
-            print(f"  [WARN] @{handle}: 超时")
-        except Exception as e:
-            print(f"  [WARN] @{handle}: {e}")
+            feed = feedparser.parse(resp.text)
+            if not feed.entries:
+                continue
 
-    return items
+            items = []
+            for entry in feed.entries:
+                # 解析发布时间
+                published = None
+                if hasattr(entry, "published_parsed") and entry.published_parsed:
+                    published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+                if published and published < cutoff:
+                    continue
+
+                content = entry.get("summary", "") or entry.get("title", "")
+                if not content:
+                    continue
+
+                items.append({
+                    "title": f"@{handle}",
+                    "url": entry.get("link", f"https://twitter.com/{handle}"),
+                    "content": content,
+                    "source": f"Twitter @{handle}",
+                    "published": published.isoformat() if published else "",
+                })
+
+            print(f"  @{handle}: {len(items)} 条（via {instance}）")
+            return items
+
+        except Exception as e:
+            continue
+
+    print(f"  @{handle}: 所有 Nitter 实例均不可用")
+    return []
 
 
 def fetch_twitter_section(accounts):
     print(f"  爬取账号: {', '.join('@' + a for a in accounts)}")
-    try:
-        items = asyncio.run(asyncio.wait_for(_fetch(accounts), timeout=180))
-    except asyncio.TimeoutError:
-        print("  [WARN] Twitter 整体超时（180s）")
-        items = []
-    except Exception as e:
-        print(f"  [WARN] {e}")
-        items = []
-    print(f"  获取 {len(items)} 条")
+    items = []
+    for handle in accounts:
+        items.extend(_fetch_handle_rss(handle))
+
+    print(f"  合计 {len(items)} 条")
     return {
         "id": "twitter",
         "name": "Twitter/X 动态",
