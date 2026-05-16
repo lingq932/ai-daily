@@ -3,7 +3,7 @@ import os
 from datetime import datetime, timedelta, timezone
 
 
-async def _fetch(accounts, hours_back=24):
+async def _fetch(accounts, hours_back=24, timeout=120):
     try:
         from twscrape import API
     except ImportError:
@@ -37,7 +37,7 @@ async def _fetch(accounts, hours_back=24):
 
     for handle in accounts:
         try:
-            user = await api.user_by_login(handle)
+            user = await asyncio.wait_for(api.user_by_login(handle), timeout=30)
             if not user:
                 continue
             async for tweet in api.user_tweets(user.id, limit=30):
@@ -51,6 +51,8 @@ async def _fetch(accounts, hours_back=24):
                         "source": f"Twitter @{handle}",
                         "published": tweet.date.isoformat(),
                     })
+        except asyncio.TimeoutError:
+            print(f"  [WARN] @{handle}: 超时")
         except Exception as e:
             print(f"  [WARN] @{handle}: {e}")
 
@@ -60,7 +62,10 @@ async def _fetch(accounts, hours_back=24):
 def fetch_twitter_section(accounts):
     print(f"  爬取账号: {', '.join('@' + a for a in accounts)}")
     try:
-        items = asyncio.run(_fetch(accounts))
+        items = asyncio.run(asyncio.wait_for(_fetch(accounts), timeout=180))
+    except asyncio.TimeoutError:
+        print("  [WARN] Twitter 整体超时（180s）")
+        items = []
     except Exception as e:
         print(f"  [WARN] {e}")
         items = []
