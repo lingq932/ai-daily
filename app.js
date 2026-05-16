@@ -438,19 +438,21 @@
   function initSectionNav() {
     const navItems = document.querySelectorAll('.nav-item');
 
-    // 点击跳转
+    // 点击跳转（修正 sticky header 偏移）
     navItems.forEach(function (item) {
       item.addEventListener('click', function (e) {
         e.preventDefault();
         const target = this.dataset.target;
         const section = document.querySelector('[data-section="' + target + '"]');
-        if (section && section.style.display !== 'none') {
-          section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
+        if (!section || section.style.display === 'none') return;
+        const headerH = document.querySelector('.site-header')
+          ? document.querySelector('.site-header').offsetHeight : 0;
+        const top = section.getBoundingClientRect().top + window.pageYOffset - headerH - 12;
+        window.scrollTo({ top: top, behavior: 'smooth' });
       });
     });
 
-    // 滚动高亮（IntersectionObserver）
+    // 滚动高亮
     const observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
@@ -460,7 +462,7 @@
           });
         }
       });
-    }, { rootMargin: '-20% 0px -70% 0px' });
+    }, { rootMargin: '-10% 0px -75% 0px' });
 
     document.querySelectorAll('.news-section').forEach(function (sec) {
       observer.observe(sec);
