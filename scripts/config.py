@@ -124,7 +124,11 @@ WEB_SCRAPE_SOURCES = {
 }
 
 TWITTER_ACCOUNTS = [
-    "sama",       # Sam Altman
-    "ylecun",     # Yann LeCun
-    "karpathy",   # Andrej Karpathy
+    # AI 公司官方账号
+    "OpenAI", "GoogleDeepMind", "AnthropicAI", "MetaAI",
+    "midjourney", "runwayml", "deepseek_ai", "Alibaba_Qwen",
+    "Kimi_Moonshot", "MiniMaxAI",
+    # AI 领域意见领袖
+    "sama", "karpathy", "demishassabis", "geoffreyhinton",
+    "ylecun", "yoshua_bengio", "lexfridman",
 ]

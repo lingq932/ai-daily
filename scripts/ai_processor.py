@@ -39,6 +39,15 @@ def process_single_item(client, item):
 2. 如果摘要是英文，翻译成中文
 3. 将摘要精简到 2-3 句话（80-150 字），保留核心信息
 
+术语表（必须严格遵守）：
+- Sam Altman → 山姆·奥特曼
+- Yann LeCun → 杨立昆
+- Andrej Karpathy → 安德烈·卡帕西
+- Geoffrey Hinton → 杰弗里·辛顿
+- Yoshua Bengio → 约书亚·本吉奥
+- Demis Hassabis → 德米斯·哈萨比斯
+- Lex Fridman → 列克斯·弗里德曼
+
 原始标题：{title}
 原始摘要：{summary}
 

@@ -12,7 +12,8 @@ NITTER_INSTANCES = [
 ]
 
 
-def _fetch_handle_rss(handle, hours_back=24):
+def _fetch_handle_tweets(handle, hours_back=24):
+    """抓取单个账号的推文列表，返回原始文本列表"""
     cutoff = datetime.now(timezone.utc) - timedelta(hours=hours_back)
     headers = {"User-Agent": "Mozilla/5.0 (compatible; RSSBot/1.0)"}
 
@@ -26,31 +27,21 @@ def _fetch_handle_rss(handle, hours_back=24):
             if not feed.entries:
                 continue
 
-            items = []
+            tweets = []
             for entry in feed.entries:
-                # 解析发布时间
                 published = None
                 if hasattr(entry, "published_parsed") and entry.published_parsed:
                     published = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
                 if published and published < cutoff:
                     continue
-
                 content = entry.get("summary", "") or entry.get("title", "")
-                if not content:
-                    continue
+                if content:
+                    tweets.append(content)
 
-                items.append({
-                    "title": f"@{handle}",
-                    "url": entry.get("link", f"https://twitter.com/{handle}"),
-                    "content": content,
-                    "source": f"Twitter @{handle}",
-                    "published": published.isoformat() if published else "",
-                })
+            print(f"  @{handle}: {len(tweets)} 条（via {instance}）")
+            return tweets
 
-            print(f"  @{handle}: {len(items)} 条（via {instance}）")
-            return items
-
-        except Exception as e:
+        except Exception:
             continue
 
     print(f"  @{handle}: 所有 Nitter 实例均不可用")
@@ -58,12 +49,28 @@ def _fetch_handle_rss(handle, hours_back=24):
 
 
 def fetch_twitter_section(accounts):
-    print(f"  爬取账号: {', '.join('@' + a for a in accounts)}")
+    print(f"  爬取 {len(accounts)} 个账号...")
     items = []
-    for handle in accounts:
-        items.extend(_fetch_handle_rss(handle))
 
-    print(f"  合计 {len(items)} 条")
+    for handle in accounts:
+        tweets = _fetch_handle_tweets(handle)
+        if not tweets:
+            continue
+
+        # 多条推文合并为一个条目
+        if len(tweets) == 1:
+            summary = tweets[0]
+        else:
+            summary = "\n\n".join(f"· {t}" for t in tweets)
+
+        items.append({
+            "title": f"@{handle}",
+            "url": f"https://twitter.com/{handle}",
+            "summary": summary,
+            "source": f"Twitter @{handle}",
+        })
+
+    print(f"  合计 {len(items)} 个账号有更新")
     return {
         "id": "twitter",
         "name": "Twitter/X 动态",
