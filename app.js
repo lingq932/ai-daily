@@ -220,43 +220,124 @@
       el.style.display = 'block';
       body.innerHTML = '';
 
+      // 热点头条单独渲染
+      if (sectionId === 'hot_topics') {
+        sec.items.forEach(function (topic) {
+          body.appendChild(renderHotTopic(topic, data.date));
+        });
+        count.textContent = sec.items.length + ' 条';
+        return;
+      }
+
       // 按 eventId 分组
       const eventGroups = {};
       const standalone = [];
 
       sec.items.forEach(function (item) {
         if (item.eventId) {
-          if (!eventGroups[item.eventId]) {
-            eventGroups[item.eventId] = [];
-          }
+          if (!eventGroups[item.eventId]) eventGroups[item.eventId] = [];
           eventGroups[item.eventId].push(item);
         } else {
           standalone.push(item);
         }
       });
 
-      let totalCount = 0;
-
-      // 渲染事件组
+      // 处理 eventId 组
       Object.keys(eventGroups).forEach(function (eventId) {
         const items = eventGroups[eventId];
         if (items.length > 1) {
-          const groupEl = renderEventGroup(items, data.date);
-          body.appendChild(groupEl);
-          totalCount++;
+          standalone.unshift({ _eventGroup: items });
         } else {
           standalone.push(items[0]);
         }
       });
 
-      // 渲染独立条目
+      // 按 source 合并
+      const sourceGroups = {};
+      const sourceOrder = [];
       standalone.forEach(function (item) {
-        body.appendChild(renderNewsItem(item, data.date));
+        if (item._eventGroup) {
+          sourceOrder.push({ _eventGroup: item._eventGroup });
+          return;
+        }
+        const src = item.source || '';
+        if (!sourceGroups[src]) {
+          sourceGroups[src] = [];
+          sourceOrder.push(src);
+        }
+        sourceGroups[src].push(item);
+      });
+
+      let totalCount = 0;
+      sourceOrder.forEach(function (entry) {
+        if (entry && entry._eventGroup) {
+          body.appendChild(renderEventGroup(entry._eventGroup, data.date));
+          totalCount++;
+          return;
+        }
+        const items = sourceGroups[entry];
+        if (!items) return;
+        if (items.length === 1) {
+          body.appendChild(renderNewsItem(items[0], data.date));
+        } else {
+          body.appendChild(renderSourceGroup(entry, items, data.date));
+        }
         totalCount++;
       });
 
       count.textContent = totalCount + ' 条';
     });
+  }
+
+  function renderHotTopic(topic, currentDate) {
+    const el = document.createElement('div');
+    el.className = 'hot-topic-item';
+
+    const headline = document.createElement('div');
+    headline.className = 'hot-topic-headline';
+    headline.textContent = topic.headline;
+    el.appendChild(headline);
+
+    (topic.coverage || []).forEach(function (cov) {
+      const row = document.createElement('div');
+      row.className = 'hot-topic-source';
+      row.innerHTML = `
+        <span class="news-source">${escapeHtml(cov.source)}</span>
+        <span class="hot-topic-summary">${escapeHtml(cov.summary)}</span>
+        <a class="news-link" href="${escapeHtml(cov.url)}" target="_blank" rel="noopener">↗</a>
+      `;
+      el.appendChild(row);
+    });
+
+    return el;
+  }
+
+  function renderSourceGroup(source, items, currentDate) {
+    const group = document.createElement('div');
+    group.className = 'source-group';
+
+    const header = document.createElement('div');
+    header.className = 'source-group-header';
+    header.innerHTML = `
+      <span class="news-source">${escapeHtml(source)}</span>
+      <span class="event-tag">${items.length} 篇</span>
+    `;
+    group.appendChild(header);
+
+    const list = document.createElement('ol');
+    list.className = 'source-group-list';
+    items.forEach(function (item) {
+      const li = document.createElement('li');
+      li.className = 'source-group-item';
+      li.innerHTML = `
+        <a class="source-item-title" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">${escapeHtml(item.title)}</a>
+        <span class="source-item-summary">${escapeHtml(item.summary)}</span>
+      `;
+      list.appendChild(li);
+    });
+    group.appendChild(list);
+
+    return group;
   }
 
   function renderEventGroup(items, currentDate) {

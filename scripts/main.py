@@ -12,7 +12,7 @@ from config import (
 from fetchers.rss_fetcher import fetch_rss_section
 from fetchers.twitter_fetcher import fetch_twitter_section
 from fetchers.web_scraper import fetch_web_scrape_section
-from ai_processor import translate_and_summarize
+from ai_processor import translate_and_summarize, detect_hot_topics
 
 
 def main():
@@ -78,6 +78,19 @@ def main():
 
     # 去除空板块
     sections = [s for s in sections if s["items"]]
+
+    # 热点头条检测
+    print("\n--- 热点检测 ---")
+    hot_topics = detect_hot_topics(sections)
+    if hot_topics:
+        print(f"发现 {len(hot_topics)} 个热点")
+        sections.insert(0, {
+            "id": "hot_topics",
+            "name": "热点头条",
+            "items": hot_topics,
+        })
+    else:
+        print("无跨媒体热点")
 
     # 生成 JSON
     data = {

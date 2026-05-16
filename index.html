@@ -54,6 +54,21 @@
         <p>该日期暂无日报内容</p>
       </div>
 
+      <!-- 热点头条（动态插入，无数据时隐藏） -->
+      <section class="news-section hot-topics-section" data-section="hot_topics" style="display:none">
+        <div class="section-header" data-toggle="hot_topics">
+          <div class="section-title-group">
+            <span class="section-part">HOT</span>
+            <h2 class="section-title">热点头条</h2>
+            <span class="section-count" id="count-hot_topics"></span>
+          </div>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="hot_topics">
+            <span class="toggle-icon">▾</span>
+          </button>
+        </div>
+        <div class="section-body" id="body-hot_topics"></div>
+      </section>
+
       <!-- 板块 1：Twitter/X 动态 -->
       <section class="news-section" data-section="twitter">
         <div class="section-header" data-toggle="twitter">
