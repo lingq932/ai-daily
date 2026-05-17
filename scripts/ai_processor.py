@@ -88,11 +88,17 @@ def filter_ai_relevant(items, context="产品"):
             for i, item in enumerate(items)
         ]
         extra = """- 对保留的每个仓库，用2-3句话写清楚：这是什么工具/框架、解决什么问题、为什么值得关注（结合今日star数和语言背景）
-- 摘要要有实质内容，不能只重复原始描述"""
+- 摘要要有实质内容，不能只重复原始描述
+- 额外分析商业缺口：这个仓库周围缺什么付费产品？（不是"托管这个repo"，而是它周围缺什么治理/审计/成本/采用证据层，一句话）"""
     else:
         lines = [f"{i}. [{item.get('source','')}] {item.get('title','')} | {item.get('summary','')[:80]}"
                  for i, item in enumerate(items)]
         extra = "- 将标题和摘要翻译为中文（若已是中文则保留）"
+
+    if is_github:
+        json_format = '[{"idx": 0, "title": "中文标题或原名", "summary": "中文说明", "gap": "商业缺口一句话"}]'
+    else:
+        json_format = '[{"idx": 0, "title": "中文标题或原名", "summary": "中文说明"}]'
 
     prompt = f"""以下是今日{context}列表，请判断每条是否与 AI/ML/LLM/生成式AI 相关。
 
@@ -104,7 +110,7 @@ def filter_ai_relevant(items, context="产品"):
 - 没有相关条目则返回空数组
 
 JSON格式（严格）：
-[{{"idx": 0, "title": "中文标题或原名", "summary": "中文说明"}}]"""
+{json_format}"""
 
     try:
         resp = client.chat.completions.create(
@@ -123,7 +129,11 @@ JSON格式（严格）：
             if idx is not None and 0 <= idx < len(items):
                 item = dict(items[idx])
                 item["title"] = r.get("title", item["title"])
-                item["summary"] = r.get("summary", item["summary"])
+                summary = r.get("summary", item["summary"])
+                gap = r.get("gap", "")
+                if gap:
+                    summary = summary + f"\n\n💼 商业缺口：{gap}"
+                item["summary"] = summary
                 filtered.append(item)
         print(f"  AI过滤：{len(items)} → {len(filtered)} 条")
         return filtered
@@ -213,25 +223,31 @@ def generate_opportunities(sections):
     if len(lines) < 3:
         return []
 
-    content = chr(10).join(lines[:40])
+    content = chr(10).join(lines[:60])
 
-    prompt = f"""你是一个 AI 创业导师。以下是今日 AI 日报的核心内容摘要：
+    prompt = f"""你是一个 AI 创业顾问，专门帮 solo founder 找今日最值得行动的产品机会。以下是今日 AI 日报的核心内容摘要，每条标注了来源板块：
 
 {content}
 
 基于以上信息，推导3个独立开发者可以在1-2周内完成MVP的AI产品机会。
 
 要求：
-- 必须有明确的用户群体和解决的具体问题
-- MVP 功能必须极度精简（一句话能说清楚）
-- 信号来源必须对应上面的真实内容
+- 优先推导有多个不同板块同时佐证的机会——同一个痛点在【GitHub热榜】【痛点信号】【新产品发布】等多个板块都有体现，说明信号更强
+- 买家必须具体（不是"用户"，而是"每天手动核对账单的财务负责人"这种粒度）
+- 必须说清楚为什么是今天——列出哪几个板块的哪些内容作为需求证据
+- MVP 功能极度精简（一句话说清楚能交付什么产物，要有具体输入和输出）
+- 验证路径必须是今天就能做的第一步（找谁、问什么、发什么）
+- 不要推导泛泛的"AI助手"类产品，要有具体交付物
 
 JSON格式（严格）：
 [{{
   "title": "产品名（假设）",
-  "problem": "解决什么人的什么问题（一句话）",
-  "mvp": "MVP核心功能（一句话）",
-  "signal": "信号来源（来自哪个板块的什么内容）"
+  "buyer": "具体买家是谁（职位/场景，一句话）",
+  "problem": "他们现在手动在做什么、痛在哪里（一句话）",
+  "mvp": "MVP交付什么产物（一句话，说清楚输入和输出）",
+  "signal": "今日触发信号（列出支撑这个机会的所有板块和内容）",
+  "source_count": 2,
+  "validation": "最快验证路径（今天就能做的第一步）"
 }}]"""
 
     try:
@@ -247,10 +263,14 @@ JSON格式（严格）：
 
         items = []
         for r in results:
+            source_count = r.get('source_count', 1)
+            source_label = f"（{source_count}个板块佐证）" if source_count > 1 else ""
             summary = (
-                f"问题：{r.get('problem','')}\n"
+                f"买家：{r.get('buyer','')}\n"
+                f"痛点：{r.get('problem','')}\n"
                 f"MVP：{r.get('mvp','')}\n"
-                f"信号来源：{r.get('signal','')}"
+                f"今日触发信号{source_label}：{r.get('signal','')}\n"
+                f"最快验证：{r.get('validation','')}"
             )
             items.append({
                 "title": r.get("title", ""),
