@@ -72,7 +72,7 @@ def process_single_item(client, item):
 
 
 def filter_ai_relevant(items, context="产品"):
-    """用 AI 过滤，只保留与 AI/ML 相关的条目，并翻译摘要"""
+    """用 AI 过滤，只保留与 AI/ML 相关的条目，并翻译/扩写摘要"""
     client = get_client()
     if not client:
         return items
@@ -80,8 +80,19 @@ def filter_ai_relevant(items, context="产品"):
     if not items:
         return []
 
-    lines = [f"{i}. [{item.get('source','')}] {item.get('title','')} | {item.get('summary','')[:80]}"
-             for i, item in enumerate(items)]
+    is_github = context == "GitHub仓库"
+
+    if is_github:
+        lines = [
+            f"{i}. {item.get('title','')} | {item.get('summary','')[:80]} | 语言:{item.get('language','')} | {item.get('time','')}"
+            for i, item in enumerate(items)
+        ]
+        extra = """- 对保留的每个仓库，用2-3句话写清楚：这是什么工具/框架、解决什么问题、为什么值得关注（结合今日star数和语言背景）
+- 摘要要有实质内容，不能只重复原始描述"""
+    else:
+        lines = [f"{i}. [{item.get('source','')}] {item.get('title','')} | {item.get('summary','')[:80]}"
+                 for i, item in enumerate(items)]
+        extra = "- 将标题和摘要翻译为中文（若已是中文则保留）"
 
     prompt = f"""以下是今日{context}列表，请判断每条是否与 AI/ML/LLM/生成式AI 相关。
 
@@ -89,11 +100,11 @@ def filter_ai_relevant(items, context="产品"):
 
 规则：
 - 只保留明确与 AI、机器学习、大语言模型、生成式AI相关的条目
-- 同时将标题和摘要翻译为中文（若已是中文则保留）
+{extra}
 - 没有相关条目则返回空数组
 
 JSON格式（严格）：
-[{{"idx": 0, "title": "中文标题", "summary": "中文摘要"}}]"""
+[{{"idx": 0, "title": "中文标题或原名", "summary": "中文说明"}}]"""
 
     try:
         resp = client.chat.completions.create(
