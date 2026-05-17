@@ -123,6 +123,50 @@ WEB_SCRAPE_SOURCES = {
     },
 }
 
+# 新产品发布（Product Hunt + HN Show）
+PRODUCT_LAUNCH_SOURCES = {
+    "name": "新产品发布",
+    "feeds": [
+        {"source": "Product Hunt", "url": "https://www.producthunt.com/feed"},
+        {"source": "HN Show", "url": "https://hnrss.org/show"},
+    ],
+}
+
+# 痛点挖掘（非AI领域社区）
+PAIN_POINT_SOURCES = {
+    "name": "痛点信号",
+    "feeds": [
+        {"source": "r/smallbusiness", "url": "https://www.reddit.com/r/smallbusiness/hot/.rss"},
+        {"source": "r/legaladvice",   "url": "https://www.reddit.com/r/legaladvice/hot/.rss"},
+        {"source": "r/accounting",    "url": "https://www.reddit.com/r/accounting/hot/.rss"},
+        {"source": "r/humanresources","url": "https://www.reddit.com/r/humanresources/hot/.rss"},
+        {"source": "r/Teachers",      "url": "https://www.reddit.com/r/Teachers/hot/.rss"},
+        {"source": "HN Ask",          "url": "https://hnrss.org/ask"},
+    ],
+}
+
+# 新产品发布（Product Hunt + HN Show）
+PRODUCT_LAUNCH_SOURCES = {
+    "name": "新产品发布",
+    "feeds": [
+        {"source": "Product Hunt", "url": "https://www.producthunt.com/feed"},
+        {"source": "HN Show",      "url": "https://hnrss.org/show"},
+    ],
+}
+
+# 痛点挖掘（非AI领域社区）
+PAIN_POINT_SOURCES = {
+    "name": "痛点信号",
+    "feeds": [
+        {"source": "r/smallbusiness",  "url": "https://www.reddit.com/r/smallbusiness/hot/.rss"},
+        {"source": "r/legaladvice",    "url": "https://www.reddit.com/r/legaladvice/hot/.rss"},
+        {"source": "r/accounting",     "url": "https://www.reddit.com/r/accounting/hot/.rss"},
+        {"source": "r/humanresources", "url": "https://www.reddit.com/r/humanresources/hot/.rss"},
+        {"source": "r/Teachers",       "url": "https://www.reddit.com/r/Teachers/hot/.rss"},
+        {"source": "HN Ask",           "url": "https://hnrss.org/ask"},
+    ],
+}
+
 TWITTER_ACCOUNTS = [
     # AI 公司官方账号
     "OpenAI", "GoogleDeepMind", "AnthropicAI", "AIatMeta",

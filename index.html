@@ -11,7 +11,6 @@
 </head>
 <body>
 
-  <!-- 页面头部 -->
   <header class="site-header">
     <div class="header-inner">
       <div class="header-left">
@@ -19,17 +18,15 @@
         <span class="site-slogan">每日 AI 前沿，一页尽览</span>
       </div>
       <div class="header-right">
-        <div class="header-date" id="headerDate">2026年5月16日 星期六</div>
-        <div class="header-time-range" id="headerTimeRange">覆盖时段：2026-05-15 09:00 ~ 2026-05-16 09:00</div>
+        <div class="header-date" id="headerDate">2026年5月17日 星期日</div>
+        <div class="header-time-range" id="headerTimeRange">覆盖时段：2026-05-16 09:00 ~ 2026-05-17 09:00</div>
       </div>
     </div>
     <div class="header-rule"></div>
   </header>
 
-  <!-- 主体区域 -->
   <main class="main-layout">
 
-    <!-- 左侧栏：日历 -->
     <aside class="sidebar">
       <div class="calendar-widget" id="calendarWidget">
         <div class="calendar-header">
@@ -40,54 +37,40 @@
         <div class="calendar-weekdays">
           <span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span>
         </div>
-        <div class="calendar-grid" id="calendarGrid">
-          <!-- JS 动态生成日期格子 -->
-        </div>
+        <div class="calendar-grid" id="calendarGrid"></div>
       </div>
 
-      <!-- 板块导航 -->
       <nav class="section-nav" id="sectionNav">
         <div class="section-nav-head">目　录</div>
-        <a class="nav-item" data-target="hot_topics" href="#">
-          <span class="nav-num">HOT</span>
-          <span class="nav-title">热点头条</span>
-        </a>
-        <a class="nav-item" data-target="twitter" href="#">
-          <span class="nav-num">I</span>
-          <span class="nav-title">Twitter/X 动态</span>
-        </a>
-        <a class="nav-item" data-target="newsletter" href="#">
-          <span class="nav-num">II</span>
-          <span class="nav-title">Newsletter 精选</span>
-        </a>
-        <a class="nav-item" data-target="media" href="#">
-          <span class="nav-num">III</span>
-          <span class="nav-title">科技媒体</span>
-        </a>
-        <a class="nav-item" data-target="investment" href="#">
-          <span class="nav-num">IV</span>
-          <span class="nav-title">投资视角</span>
-        </a>
-        <a class="nav-item" data-target="community" href="#">
-          <span class="nav-num">V</span>
-          <span class="nav-title">社区论坛</span>
-        </a>
-        <a class="nav-item" data-target="papers" href="#">
-          <span class="nav-num">VI</span>
-          <span class="nav-title">学术论文</span>
-        </a>
+
+        <div class="nav-group-label">总览</div>
+        <a class="nav-item" data-target="hot_topics" href="#"><span class="nav-num">HOT</span><span class="nav-title">热点头条</span></a>
+        <a class="nav-item" data-target="opportunities" href="#"><span class="nav-num">💡</span><span class="nav-title">今日 AI 机会</span></a>
+
+        <div class="nav-group-label">市场信号</div>
+        <a class="nav-item" data-target="products" href="#"><span class="nav-num">①</span><span class="nav-title">新产品发布</span></a>
+        <a class="nav-item" data-target="github_trending" href="#"><span class="nav-num">②</span><span class="nav-title">GitHub 热榜</span></a>
+        <a class="nav-item" data-target="pain_points" href="#"><span class="nav-num">③</span><span class="nav-title">痛点信号</span></a>
+
+        <div class="nav-group-label">舆论与观点</div>
+        <a class="nav-item" data-target="twitter" href="#"><span class="nav-num">④</span><span class="nav-title">Twitter/X 动态</span></a>
+        <a class="nav-item" data-target="newsletter" href="#"><span class="nav-num">⑤</span><span class="nav-title">Newsletter 精选</span></a>
+        <a class="nav-item" data-target="media" href="#"><span class="nav-num">⑥</span><span class="nav-title">科技媒体</span></a>
+
+        <div class="nav-group-label">专业深度</div>
+        <a class="nav-item" data-target="investment" href="#"><span class="nav-num">⑦</span><span class="nav-title">投资视角</span></a>
+        <a class="nav-item" data-target="community" href="#"><span class="nav-num">⑧</span><span class="nav-title">社区论坛</span></a>
+        <a class="nav-item" data-target="papers" href="#"><span class="nav-num">⑨</span><span class="nav-title">学术论文</span></a>
       </nav>
     </aside>
 
-    <!-- 右侧主区域：新闻内容 -->
     <div class="content-area" id="contentArea">
 
-      <!-- 无数据提示 -->
       <div class="no-data-msg" id="noDataMsg" style="display: none;">
         <p>该日期暂无日报内容</p>
       </div>
 
-      <!-- 热点头条（动态插入，无数据时隐藏） -->
+      <!-- 总览层 -->
       <section class="news-section hot-topics-section" data-section="hot_topics" style="display:none">
         <div class="section-header" data-toggle="hot_topics">
           <div class="section-title-group">
@@ -95,99 +78,130 @@
             <h2 class="section-title">热点头条</h2>
             <span class="section-count" id="count-hot_topics"></span>
           </div>
-          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="hot_topics">
-            <span class="toggle-icon">▾</span>
-          </button>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="hot_topics"><span class="toggle-icon">▾</span></button>
         </div>
         <div class="section-body" id="body-hot_topics"></div>
       </section>
 
-      <!-- 板块 1：Twitter/X 动态 -->
+      <section class="news-section" data-section="opportunities" style="display:none">
+        <div class="section-header" data-toggle="opportunities">
+          <div class="section-title-group">
+            <span class="section-part">💡</span>
+            <h2 class="section-title">今日 AI 机会</h2>
+            <span class="section-count" id="count-opportunities"></span>
+          </div>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="opportunities"><span class="toggle-icon">▾</span></button>
+        </div>
+        <div class="section-body" id="body-opportunities"></div>
+      </section>
+
+      <!-- 市场信号层 -->
+      <section class="news-section" data-section="products" style="display:none">
+        <div class="section-header" data-toggle="products">
+          <div class="section-title-group">
+            <span class="section-part">PART ①</span>
+            <h2 class="section-title">新产品发布</h2>
+            <span class="section-count" id="count-products"></span>
+          </div>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="products"><span class="toggle-icon">▾</span></button>
+        </div>
+        <div class="section-body" id="body-products"></div>
+      </section>
+
+      <section class="news-section" data-section="github_trending" style="display:none">
+        <div class="section-header" data-toggle="github_trending">
+          <div class="section-title-group">
+            <span class="section-part">PART ②</span>
+            <h2 class="section-title">GitHub 热榜</h2>
+            <span class="section-count" id="count-github_trending"></span>
+          </div>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="github_trending"><span class="toggle-icon">▾</span></button>
+        </div>
+        <div class="section-body" id="body-github_trending"></div>
+      </section>
+
+      <section class="news-section" data-section="pain_points" style="display:none">
+        <div class="section-header" data-toggle="pain_points">
+          <div class="section-title-group">
+            <span class="section-part">PART ③</span>
+            <h2 class="section-title">痛点信号</h2>
+            <span class="section-count" id="count-pain_points"></span>
+          </div>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="pain_points"><span class="toggle-icon">▾</span></button>
+        </div>
+        <div class="section-body" id="body-pain_points"></div>
+      </section>
+
+      <!-- 舆论与观点层 -->
       <section class="news-section" data-section="twitter">
         <div class="section-header" data-toggle="twitter">
           <div class="section-title-group">
-            <span class="section-part">PART I</span>
+            <span class="section-part">PART ④</span>
             <h2 class="section-title">Twitter/X 动态</h2>
             <span class="section-count" id="count-twitter"></span>
           </div>
-          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="twitter">
-            <span class="toggle-icon">▾</span>
-          </button>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="twitter"><span class="toggle-icon">▾</span></button>
         </div>
         <div class="section-body" id="body-twitter"></div>
       </section>
 
-      <!-- 板块 2：Newsletter 精选 -->
       <section class="news-section" data-section="newsletter">
         <div class="section-header" data-toggle="newsletter">
           <div class="section-title-group">
-            <span class="section-part">PART II</span>
+            <span class="section-part">PART ⑤</span>
             <h2 class="section-title">Newsletter 精选</h2>
             <span class="section-count" id="count-newsletter"></span>
           </div>
-          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="newsletter">
-            <span class="toggle-icon">▾</span>
-          </button>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="newsletter"><span class="toggle-icon">▾</span></button>
         </div>
         <div class="section-body" id="body-newsletter"></div>
       </section>
 
-      <!-- 板块 3：科技媒体 -->
       <section class="news-section" data-section="media">
         <div class="section-header" data-toggle="media">
           <div class="section-title-group">
-            <span class="section-part">PART III</span>
+            <span class="section-part">PART ⑥</span>
             <h2 class="section-title">科技媒体</h2>
             <span class="section-count" id="count-media"></span>
           </div>
-          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="media">
-            <span class="toggle-icon">▾</span>
-          </button>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="media"><span class="toggle-icon">▾</span></button>
         </div>
         <div class="section-body" id="body-media"></div>
       </section>
 
-      <!-- 板块 4：投资视角 -->
+      <!-- 专业深度层 -->
       <section class="news-section" data-section="investment">
         <div class="section-header" data-toggle="investment">
           <div class="section-title-group">
-            <span class="section-part">PART IV</span>
+            <span class="section-part">PART ⑦</span>
             <h2 class="section-title">投资视角</h2>
             <span class="section-count" id="count-investment"></span>
           </div>
-          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="investment">
-            <span class="toggle-icon">▾</span>
-          </button>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="investment"><span class="toggle-icon">▾</span></button>
         </div>
         <div class="section-body" id="body-investment"></div>
       </section>
 
-      <!-- 板块 5：社区论坛 -->
       <section class="news-section" data-section="community">
         <div class="section-header" data-toggle="community">
           <div class="section-title-group">
-            <span class="section-part">PART V</span>
+            <span class="section-part">PART ⑧</span>
             <h2 class="section-title">社区论坛</h2>
             <span class="section-count" id="count-community"></span>
           </div>
-          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="community">
-            <span class="toggle-icon">▾</span>
-          </button>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="community"><span class="toggle-icon">▾</span></button>
         </div>
         <div class="section-body" id="body-community"></div>
       </section>
 
-      <!-- 板块 6：学术论文 -->
       <section class="news-section" data-section="papers">
         <div class="section-header" data-toggle="papers">
           <div class="section-title-group">
-            <span class="section-part">PART VI</span>
+            <span class="section-part">PART ⑨</span>
             <h2 class="section-title">学术论文</h2>
             <span class="section-count" id="count-papers"></span>
           </div>
-          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="papers">
-            <span class="toggle-icon">▾</span>
-          </button>
+          <button class="toggle-btn" aria-label="折叠/展开" data-toggle="papers"><span class="toggle-icon">▾</span></button>
         </div>
         <div class="section-body" id="body-papers"></div>
       </section>
@@ -195,15 +209,14 @@
     </div>
   </main>
 
-  <!-- 页脚 -->
   <footer class="site-footer">
     <p>AI 日报 — 数据来源</p>
-    <p>Twitter/X 动态：OpenAI · Google DeepMind · Anthropic · Meta · Midjourney · Runway · DeepSeek · Qwen · Kimi · MiniMax · Sam Altman · Andrej Karpathy · Demis Hassabis · Geoffrey Hinton · Yann LeCun · Yoshua Bengio · Lex Fridman</p>
-    <p>Newsletter 精选：The Rundown AI · Towards AI · AI News</p>
-    <p>科技媒体：The Verge AI · MIT Technology Review - AI · AI News · TechCrunch - AI</p>
-    <p>投资视角：a16z · CB Insights - AI</p>
-    <p>社区论坛：Reddit · Hugging Face · Way to AGI</p>
-    <p>学术论文：arXiv</p>
+    <p>总览：热点头条（跨源聚合）· 今日AI机会（AI推导）</p>
+    <p>市场信号：Product Hunt · HN Show · GitHub Trending · r/smallbusiness · r/legaladvice · r/accounting · r/humanresources · r/Teachers · HN Ask</p>
+    <p>Twitter/X：OpenAI · Google DeepMind · Anthropic · Meta · Midjourney · Runway · DeepSeek · Qwen · Kimi · MiniMax · Sam Altman · Andrej Karpathy · Demis Hassabis · Geoffrey Hinton · Yann LeCun · Yoshua Bengio · Lex Fridman</p>
+    <p>Newsletter：The Rundown AI · Towards AI · AI News</p>
+    <p>科技媒体：The Verge AI · MIT Technology Review · TechCrunch AI</p>
+    <p>专业深度：a16z · CB Insights · Reddit · Hugging Face · arXiv</p>
   </footer>
 
   <script src="app.js"></script>

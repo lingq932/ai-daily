@@ -146,6 +146,22 @@ a:hover {
   padding-top: 10px;
 }
 
+.nav-group-label {
+  font-family: var(--font-mono);
+  font-size: 0.55rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 8px 2px 3px;
+  margin-top: 4px;
+  border-top: 1px solid var(--border-light);
+}
+
+.nav-group-label:first-of-type {
+  border-top: none;
+  margin-top: 0;
+}
+
 .section-nav-head {
   font-family: var(--font-serif);
   font-size: 0.78rem;

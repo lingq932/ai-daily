@@ -71,6 +71,192 @@ def process_single_item(client, item):
     return item
 
 
+def filter_ai_relevant(items, context="产品"):
+    """用 AI 过滤，只保留与 AI/ML 相关的条目，并翻译摘要"""
+    client = get_client()
+    if not client:
+        return items
+
+    if not items:
+        return []
+
+    lines = [f"{i}. [{item.get('source','')}] {item.get('title','')} | {item.get('summary','')[:80]}"
+             for i, item in enumerate(items)]
+
+    prompt = f"""以下是今日{context}列表，请判断每条是否与 AI/ML/LLM/生成式AI 相关。
+
+{chr(10).join(lines)}
+
+规则：
+- 只保留明确与 AI、机器学习、大语言模型、生成式AI相关的条目
+- 同时将标题和摘要翻译为中文（若已是中文则保留）
+- 没有相关条目则返回空数组
+
+JSON格式（严格）：
+[{{"idx": 0, "title": "中文标题", "summary": "中文摘要"}}]"""
+
+    try:
+        resp = client.chat.completions.create(
+            model=DEEPSEEK_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=800,
+        )
+        text = resp.choices[0].message.content.strip()
+        text = text.replace("```json", "").replace("```", "").strip()
+        results = _json.loads(text)
+
+        filtered = []
+        for r in results:
+            idx = r.get("idx")
+            if idx is not None and 0 <= idx < len(items):
+                item = dict(items[idx])
+                item["title"] = r.get("title", item["title"])
+                item["summary"] = r.get("summary", item["summary"])
+                filtered.append(item)
+        print(f"  AI过滤：{len(items)} → {len(filtered)} 条")
+        return filtered
+    except Exception as e:
+        print(f"  [WARN] AI过滤失败: {e}")
+        return items
+
+
+def detect_pain_points(raw_items):
+    """从非AI社区帖子中提炼痛点信号"""
+    client = get_client()
+    if not client or not raw_items:
+        return []
+
+    lines = [f"{i}. [{item.get('source','')}] {item.get('title','')} | {item.get('summary','')[:100]}"
+             for i, item in enumerate(raw_items[:60])]
+
+    prompt = f"""以下是来自小企业主、法律、财务、HR、教育等非AI领域社区的帖子。
+
+{chr(10).join(lines)}
+
+请找出其中3-5个"用户正在手动做、但明显可以被AI自动化"的具体任务场景。
+
+要求：
+- 必须是具体的操作性任务，不是泛泛的抱怨
+- 信号越具体越好（如"每周手动核对银行流水"比"工作很累"好）
+- 每条附上来源帖子的序号
+
+JSON格式（严格）：
+[{{
+  "title": "场景名称（10字以内）",
+  "summary": "具体描述这个手动任务的痛苦程度，以及AI可以如何解决（80-120字）",
+  "source_idx": 0,
+  "opportunity": "潜在AI产品方向（一句话）"
+}}]"""
+
+    try:
+        resp = client.chat.completions.create(
+            model=DEEPSEEK_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+            max_tokens=800,
+        )
+        text = resp.choices[0].message.content.strip()
+        text = text.replace("```json", "").replace("```", "").strip()
+        results = _json.loads(text)
+
+        items = []
+        for r in results:
+            idx = r.get("source_idx", 0)
+            source_item = raw_items[idx] if 0 <= idx < len(raw_items) else {}
+            summary = r.get("summary", "")
+            opportunity = r.get("opportunity", "")
+            if opportunity:
+                summary = summary + f"\n\n💡 机会方向：{opportunity}"
+            items.append({
+                "title": r.get("title", ""),
+                "summary": summary,
+                "source": source_item.get("source", ""),
+                "url": source_item.get("url", ""),
+                "time": "",
+                "eventId": None,
+                "relatedDate": None,
+            })
+        print(f"  提炼痛点：{len(items)} 条")
+        return items
+    except Exception as e:
+        print(f"  [WARN] 痛点提炼失败: {e}")
+        return []
+
+
+def generate_opportunities(sections):
+    """基于当天所有内容，生成今日AI机会"""
+    client = get_client()
+    if not client:
+        return []
+
+    # 压缩各板块内容
+    lines = []
+    skip_ids = {"opportunities", "hot_topics"}
+    for sec in sections:
+        if sec["id"] in skip_ids:
+            continue
+        for item in sec.get("items", [])[:5]:
+            lines.append(f"[{sec['name']}] {item.get('title','')}：{item.get('summary','')[:60]}")
+
+    if len(lines) < 3:
+        return []
+
+    content = chr(10).join(lines[:40])
+
+    prompt = f"""你是一个 AI 创业导师。以下是今日 AI 日报的核心内容摘要：
+
+{content}
+
+基于以上信息，推导3个独立开发者可以在1-2周内完成MVP的AI产品机会。
+
+要求：
+- 必须有明确的用户群体和解决的具体问题
+- MVP 功能必须极度精简（一句话能说清楚）
+- 信号来源必须对应上面的真实内容
+
+JSON格式（严格）：
+[{{
+  "title": "产品名（假设）",
+  "problem": "解决什么人的什么问题（一句话）",
+  "mvp": "MVP核心功能（一句话）",
+  "signal": "信号来源（来自哪个板块的什么内容）"
+}}]"""
+
+    try:
+        resp = client.chat.completions.create(
+            model=DEEPSEEK_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.5,
+            max_tokens=600,
+        )
+        text = resp.choices[0].message.content.strip()
+        text = text.replace("```json", "").replace("```", "").strip()
+        results = _json.loads(text)
+
+        items = []
+        for r in results:
+            summary = (
+                f"**问题**：{r.get('problem','')}\n\n"
+                f"**MVP**：{r.get('mvp','')}\n\n"
+                f"**信号来源**：{r.get('signal','')}"
+            )
+            items.append({
+                "title": r.get("title", ""),
+                "summary": summary,
+                "source": "AI 机会分析",
+                "url": "",
+                "time": "",
+                "eventId": None,
+                "relatedDate": None,
+            })
+        print(f"  生成机会：{len(items)} 条")
+        return items
+    except Exception as e:
+        print(f"  [WARN] 机会生成失败: {e}")
+        return []
+
+
 def detect_hot_topics(sections):
     """跨板块检测多媒体共同报道的热点事件"""
     client = get_client()

@@ -469,7 +469,7 @@
     });
   }
 
-  // 数据加载后同步导航项的显示/隐藏
+  // 数据加载后同步导航项和分组标签的显示/隐藏
   function syncNavVisibility() {
     document.querySelectorAll('.nav-item').forEach(function (item) {
       const target = item.dataset.target;
@@ -477,6 +477,20 @@
       if (section) {
         item.classList.toggle('hidden', section.style.display === 'none');
       }
+    });
+
+    // 若某分组下所有 nav-item 都隐藏，则隐藏分组标签
+    document.querySelectorAll('.nav-group-label').forEach(function (label) {
+      let next = label.nextElementSibling;
+      let allHidden = true;
+      while (next && !next.classList.contains('nav-group-label')) {
+        if (next.classList.contains('nav-item') && !next.classList.contains('hidden')) {
+          allHidden = false;
+          break;
+        }
+        next = next.nextElementSibling;
+      }
+      label.style.display = allHidden ? 'none' : '';
     });
   }
 
