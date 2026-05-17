@@ -237,9 +237,9 @@ JSON格式（严格）：
         items = []
         for r in results:
             summary = (
-                f"**问题**：{r.get('problem','')}\n\n"
-                f"**MVP**：{r.get('mvp','')}\n\n"
-                f"**信号来源**：{r.get('signal','')}"
+                f"问题：{r.get('problem','')}\n"
+                f"MVP：{r.get('mvp','')}\n"
+                f"信号来源：{r.get('signal','')}"
             )
             items.append({
                 "title": r.get("title", ""),

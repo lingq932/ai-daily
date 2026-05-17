@@ -632,6 +632,11 @@ a:hover {
   margin-bottom: 6px;
 }
 
+[data-section="opportunities"] .news-summary,
+[data-section="pain_points"] .news-summary {
+  white-space: pre-line;
+}
+
 .news-footer {
   display: flex;
   align-items: center;
