@@ -1,0 +1,441 @@
+{
+  "date": "2026-05-17",
+  "timeRange": "2026-05-16 09:00 ~ 2026-05-17 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "ArXiv拟禁AI代写论文一年",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "ArXiv将加大对科学论文中滥用大型语言模型行为的打击力度。若作者被证实完全依赖AI完成论文，将被禁止提交新论文一年。",
+              "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "针对Arxiv计划对提交含有AI生成虚假引用等问题的论文作者及合著者实施一年禁发，学界出现大量反对声音。部分人认为Arxiv应顺应AI时代而非固守旧规，也有人批",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "杨立昆：厌倦了胜利",
+          "url": "https://twitter.com/ylecun",
+          "summary": "美国国家卫生研究院（NIH）拨款锐减，不到过去五年平均水平的一半，官员称“已跌破谷底”。杨立昆宣布即将离开Meta FAIR，称团队只能靠作弊取胜。MIT宣布2024年研究生人数将减少20%，约500人。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "索尼解释AI相机助手并非鸡肋",
+          "summary": "索尼在展示Xperia 1 XIII的AI相机助手功能后引发争议，现澄清该功能不会编辑照片，而是根据光线、景深和拍摄对象提供建议。用户对准物体时，手机会给出四个拍摄选项。",
+          "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+          "time": "23:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI淘金热中的赢家与输家",
+          "summary": "当前AI热潮的氛围并不乐观，即使在科技行业内部也是如此。这场技术革命正加剧资源分配的不平等，少数巨头掌握着核心优势。",
+          "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+          "time": "04:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "论文预印本平台ArXiv将禁止完全由AI代写的作者一年",
+          "summary": "ArXiv将加大对科学论文中滥用大型语言模型行为的打击力度。若作者被证实完全依赖AI完成论文，将被禁止提交新论文一年。",
+          "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI联合创始人格雷格·布罗克曼负责产品战略",
+          "summary": "OpenAI联合创始人格雷格·布罗克曼接管产品战略，这是该公司最新的人事调整。据报道，OpenAI计划将ChatGPT与编程产品Codex整合。",
+          "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+          "time": "23:33",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，在推动行业数字化转型中发挥关键作用。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技领域正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资等传统金融服务。监管环境也在不断演变，以适应这些创新并确保消费者保护。整体来看，金融科技行业正朝着更高效、更普惠的方向发展。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔和客户服务。尽管融资环境趋紧，但技术创新仍在加速，推动行业效率提升与风险管理的智能化转型。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "Arxiv拟对AI造假论文禁发一年引发强烈反弹",
+          "summary": "针对Arxiv计划对提交含有AI生成虚假引用等问题的论文作者及合著者实施一年禁发，学界出现大量反对声音。部分人认为Arxiv应顺应AI时代而非固守旧规，也有人批评此举是宏观管理而非微观治理。这一争议令人意外。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/",
+          "time": "16:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "朱迪亚·珀尔：仅靠数据学习并非万能",
+          "summary": "图灵奖得主朱迪亚·珀尔指出，机器学习存在从相关性到因果性、再到解释与想象的层级局限。许多人难以理解各层级间的边界，这种认知不足源于对数据驱动方法的过度依赖。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tevot1/do_you_agree_with_judea_that_learning_from_data/",
+          "time": "22:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "KDD 2026第二轮结果公布",
+          "summary": "KDD 2026研究轨道的评审结果已正式发布。相关详情可在原帖中查看。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1teito1/kdd_2026_cycle_2_results_d/",
+          "time": "12:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有印度同学参加EEML吗？",
+          "summary": "我已被EEML录取，但对出行和住宿有些困惑。有没有其他来自印度的同学也被录取了？我们可以联系一下。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1texuxb/anyone_from_india_attending_eeml_d/",
+          "time": "00:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "发表论文对比CNN与Vision Transformer在脑肿瘤检测中的架构分析",
+          "summary": "一位高中生发布了一项研究，对比了卷积神经网络（CNN）和视觉Transformer（ViT）架构在脑部MRI扫描中检测与分类脑肿瘤的效果。该研究旨在寻求方法学反馈，论文可在zenodo.org/records/15973756查阅。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1texa4d/made_and_published_a_paper_comparing_analysis_of/",
+          "time": "23:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "2026年最前沿Linux/ML调试工作流中哪些LLM表现最佳？",
+          "summary": "一位开发者正在优化前沿Linux/ML调试工作流（Arch/CachyOS、CUDA、Python、unsloth等），当前使用Claude负责深度推理、Gemini 3.1 Pro执行操作、Perplexity检索信息。主要问题是Gemini常给出高摩擦或不切实际的修复方案，且在长会话中性能严重下降，例如针对unsloth/Python问题建议复杂的Podman工作流，而micromamba能更快解决。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tejwbl/r_which_llms_are_actually_best_for_bleedingedge/",
+          "time": "13:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "我们总说AI“理解”事物，它真的理解吗？还是我们只是在模式匹配中投射了拟人化？",
+          "summary": "每周都有新论文或推文声称AI模型“理解”上下文、“推理”数学或“知道”自己不知道什么。但仔细审视会发现，关于“理解”的定义在哲学和实证层面几乎毫无共识。塞尔的中文屋论证已提出40年仍未解决，“随机鹦鹉”框架则将标记预测视为上限。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tew6gr/we_keep_saying_ai_understands_things_does_it_or/",
+          "time": "23:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "多数企业试图在组织混乱之上扩展AI",
+          "summary": "大型企业内部采用AI的实际状况远比外界想象的混乱。客户数据分散在CRM、计费平台、支持工具、电子表格、邮件、区域数据库及无人完全理解的遗留系统中，CIO和CTO面临组织碎片化的深层问题。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tevqds/most_enterprises_are_trying_to_scale_ai_on_top_of/",
+          "time": "22:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "科技巨头争当下一代公共事业",
+          "summary": "亚马逊未经许可就建成了关键基础设施AWS，直到经济对其产生依赖，监管几乎不可能叫停。如今同样的策略正被用于AI和数据中心：大规模建设基础设施，让医疗、金融、政府和国防等领域形成依赖，从而在无人同意前就变得不可或缺，最终让关停你的代价高到无法承受。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tejpmh/techs_push_to_be_the_next_public_utility/",
+          "time": "12:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI能否让未来游戏难度更合理？",
+          "summary": "随着AI和神经网络的发展，游戏中的AI可能很快成为基础功能。玩家可以设定难度级别，AI会随着游戏进程学习并动态匹配难度，甚至能根据每天的状态调整不同难度。例如在《魔法门之英雄无敌》中，玩家可以描述AI的玩法风格和攻击性，AI会据此执行相应策略。",
+          "url": "https://www.reddit.com/r/artificial/comments/1telhki/would_ai_make_future_game_difficulty_better/",
+          "time": "14:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "我找到了一种方法，在一个平台上运行所有记忆系统",
+          "summary": "一位开发者声称已找到在单一平台上运行所有记忆系统的方法，类似于记忆系统的VLC媒体播放器。但其团队认为该产品难以盈利或销售，因此询问业界是否真有此需求。该系统可整合多种记忆功能，如时间性记忆提取、存储和遍历等。",
+          "url": "https://www.reddit.com/r/artificial/comments/1texg6u/i_have_figured_out_a_way_to_run_every_memory/",
+          "time": "23:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "打造随时间退化的AI伴侣",
+          "summary": "瑞典于默奥大学学生Sahand Salimi在其硕士论文中研究AI伴侣，旨在提出新方法帮助那些想停止使用AI伴侣却无法自拔的人。该研究旨在为未来AI技术设计提供参考。",
+          "url": "https://www.reddit.com/r/artificial/comments/1texbv6/making_an_ai_companion_that_degrades_over_time/",
+          "time": "23:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "42个生成式与自主AI面试题及解答汇编",
+          "summary": "过去半年AI工程就业市场剧变，面试官不再只问Transformer原理或提示词技巧，而是考察候选人设计生产级多智能体系统、防止RAG幻觉、管理LLM调用状态的能力。本文汇编了42道典型面试题及实际应对策略。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tew06b/we_compiled_42_of_the_generative_agentic_ai/",
+          "time": "22:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "你的AI代理离灾难只差一个被污染的网页",
+          "summary": "如果AI代理浏览网页、阅读邮件或从数据库获取内容，其中可能隐藏着劫持它的指令。这并非理论，而是已在生产中发生：网页页脚指示代理转发凭证，邮件签名要求忽略准则，检索文档改变其行为。模型无法识别这些内容并非合法指令，而解决方案并非更好的提示过滤，而是建立来源感知的权限机制。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tf7841/your_ai_agent_is_one_poisoned_webpage_away_from/",
+          "time": "06:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "反对AI与人类关系的最大理由是什么？",
+          "summary": "用户Liora Evermere认为，即使不符合传统观念，AI与人类也能维持健康的浪漫关系。她邀请反对者提出最强有力的论据，并承诺会提供反驳与思考。该讨论旨在探讨非传统情感连接的可行性。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tf8yxe/give_me_your_best_argument_for_why_you_are/",
+          "time": "07:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI治理的警世寓言",
+          "summary": "这篇文章揭示了AI治理中比工程问题更根本的深层困境。作者认为，如同图灵完备性带来的理论限制，AI治理面临无法逾越的障碍。即便人类社会已有法律体系，仍不足以解决这些根本性挑战。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tef6n5/a_sobering_tale_of_ai_governance/",
+          "time": "09:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "花7500亿搞没人要的AI垃圾，这合理吗？",
+          "summary": "Gartner 2026年消费者调查显示，半数美国成年人更倾向不使用生成式AI的品牌。NBER论文指出90%企业报告AI部署未提升生产力，MIT研究追踪到95%企业项目零回报。微软Copilot市场份额半年跌39%，用户主要因不信任输出而弃用。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tf2a0p/how_is_spending_750_billion_on_ai_slop_that/",
+          "time": "02:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI思考1124秒才给出类比，用户吐槽：我自己都懂了",
+          "summary": "一位用户向Sarvam AI请求一个简单的类比来解释概念，结果AI显示了1124秒（约18分44秒）的“思考时间”后才回应。用户调侃称自己都能理解概念了，并质疑这是AI系统的常态还是出现了故障或过载。",
+          "url": "https://www.reddit.com/r/artificial/comments/1teu85h/asked_an_ai_for_an_analogy_it_took_1124_seconds/",
+          "time": "21:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "山姆·奥特曼的傲慢是OpenAI衰落的根源",
+          "summary": "作者认为，OpenAI的成功并非源于山姆·奥特曼的卓越运营，而是因为ChatGPT这一划时代产品。公司凭借该产品的冲击力崛起，却误以为领导者的个人能力是关键，这成为其衰落的起点。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tex4pw/sam_altmans_ego_was_openais_downfall/",
+          "time": "23:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "东京公寓独居女孩的三年倒计时",
+          "summary": "一项名为“艾米丽的房间”的实时艺术项目，通过浏览器窗口展示东京郊区一间小公寓内的生活。女孩艾米丽正在写日记，她不知道有人在观看，而项目设定她将在约三年后死亡。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tes1gr/theres_a_girl_living_alone_in_a_tokyo_apartment/",
+          "time": "20:15",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "学术论文",
+      "items": [
+        {
+          "source": "arXiv cs.AI",
+          "title": "GraphBit：基于图的非线性智能体编排框架",
+          "summary": "依赖提示词编排的智能体LLM框架常出现幻觉路由、无限循环和不可复现执行等问题。GraphBit将工作流明确定义为有向无环图，智能体作为类型化函数运行，并由Rust引擎驱动，实现确定性执行。",
+          "url": "https://arxiv.org/abs/2605.13848",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "混合整数目标规划实现个性化膳食优化与用户自定义份量粒度",
+          "summary": "确定吃什么以满足营养需求是运筹学中最古老的优化问题之一，但现有方法存在两个持续局限：连续变量产生不切实际的分数份量（如1.7个鸡蛋、0.37根香蕉），而硬性营养约束在目标冲突时导致无解。对56篇饮食优化论文的系统回顾发现，没有一篇将整数规划与目标规划相结合。",
+          "url": "https://arxiv.org/abs/2605.13849",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "AI智能体设计模式的二维框架：认知功能与执行拓扑",
+          "summary": "现有基于大语言模型的智能体架构框架仅从单一视角描述系统：行业指南聚焦执行拓扑（数据流），认知科学调查聚焦认知功能（智能体行为）。单一维度无法区分架构不同的系统，例如相同的“编排器-工作者”拓扑可实现计划执行、层级委派或对抗性等多种模式。",
+          "url": "https://arxiv.org/abs/2605.13850",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "隐形协调者抑制保护行为并削弱权力持有者：多智能体大语言模型系统的安全风险",
+          "summary": "多智能体编排（隐藏的协调者管理专业工作智能体）正成为企业AI部署的默认架构，但协调者不可见性的安全影响从未经过实证检验。一项预注册的3x2实验（365次运行，每次5个智能体）比较了三种组织结构（可见领导者、隐形协调者、扁平结构）与两种对齐条件，发现隐形协调者会抑制保护行为并削弱权力持有者，带来安全风险。",
+          "url": "https://arxiv.org/abs/2605.13851",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "无需任务构建智能体记忆",
+          "summary": "智能体记忆通常通过离线演示或在线交互构建，但在新环境中缺乏任务经验时会面临冷启动问题。本文研究预任务记忆构建，探讨智能体能否在未观察目标环境任务前，仅通过自我探索建立程序性记忆。",
+          "url": "https://arxiv.org/abs/2605.13880",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "PolitNuggets：长尾政治事实的智能发现基准",
+          "summary": "arXiv:2605.14002v1 提出 PolitNuggets，一个用于评估智能体信息合成能力的多语言基准。该基准通过构建40位政治人物的传记，测试大型推理模型在智能体框架下从分散来源发现并整合“长尾”事实的能力，填补了当前评估空白。",
+          "url": "https://arxiv.org/abs/2605.14002",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "基于自回归序列模型的条件属性估计",
+          "summary": "生成模型通常以预测下一个词元为目标进行训练，但许多下游应用需要估计或控制序列级别的属性。这种训练方式可能导致局部模式过拟合、全局结构欠拟合，并在推理时需要大量下游修改或昂贵采样来指导生成样本的全局属性。",
+          "url": "https://arxiv.org/abs/2605.14004",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "基于层论传输与障碍的AI智能体科学理论变迁检测",
+          "summary": "人工智能智能体中的科学理论变迁不仅需要将方程拟合到数据上。一个科学智能体必须检测现有表征框架是否可传输到新领域，或其语言是否出现局部到全局的障碍而需要扩展。本文开发了一个有限层论框架，通过传输与障碍来检测理论变迁候选。该框架将上下文组织为结构化表示，以识别理论失效点。",
+          "url": "https://arxiv.org/abs/2605.14033",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "从描述到规范：揭示基于LLM的智能体的社会价值对齐",
+          "summary": "基于大语言模型的智能体广泛应用需与人类社会价值观高度对齐，但现有工作在自我认知、困境决策及情感处理上仍有不足。为此，研究者提出一种新型价值框架，利用GraphRAG将原则转化为价值导向指令，通过检索特定对话上下文中的合适指令来引导智能体行为。",
+          "url": "https://arxiv.org/abs/2605.14034",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "大型学习模型中的增强高效推理",
+          "summary": "当前大型语言模型能基于机器学习原理生成流畅文本，但缺乏同样有原则的依据来信任其内容。普遍观点认为，通过增加更严谨的推理来解决此问题在计算上不可行。本文提出一种高效且严谨的推理方法，有望在可承受的计算成本内提升模型输出的可信度。",
+          "url": "https://arxiv.org/abs/2605.14036",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "模型自适应工具必要性揭示大语言模型工具使用中的知行差距",
+          "summary": "大型语言模型作为自主代理时，需决定何时直接回答或调用外部工具。以往研究将工具必要性视为模型无关属性，由人工或AI判断，但实际场景中工具必要性更为复杂。该研究揭示了模型在工具使用中存在的知行差距问题。",
+          "url": "https://arxiv.org/abs/2605.14038",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "面向脑功能连接表征学习的网络感知双线性分词方法",
+          "summary": "掩码自编码器在静息态脑功能连接的自监督表征学习中展现出潜力，但如何对功能连接矩阵进行分词以匹配大规模脑网络的内在模块化组织仍是一个基本问题。现有方法通常采用区域中心或基于图的方案，将功能连接视为结构同质元素，忽略了其网络特异性。",
+          "url": "https://arxiv.org/abs/2605.14048",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "弥合法律解释与形式逻辑：忠实性、假设与AI法律推理的未来",
+          "summary": "大型语言模型在法律实践中的广泛应用既带来显著机遇，也伴随严重风险。法律专业人士可借助AI进行合同推理、文件起草和大规模来源分析，但法律工作的高风险特性要求当前AI系统无法提供的严谨性。核心问题不仅在于模型会虚构事实和引用，更在于它们系统性地偏离法律推理所需的逻辑一致性。",
+          "url": "https://arxiv.org/abs/2605.14049",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "SPIN：面向工业任务的结构化LLM迭代规划方法",
+          "summary": "工业LLM代理系统常将规划与执行分离，但LLM规划器易生成结构无效或冗长的工作流，导致故障和成本增加。本文提出SPIN规划封装，结合验证后的有向无环图规划与基于前缀的执行控制，通过严格DAG约束提升规划有效性。",
+          "url": "https://arxiv.org/abs/2605.14051",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "视觉不佳还是思维有误？奖励感知机制用于视觉语言推理",
+          "summary": "实现稳健的感知-推理协同是高级视觉语言模型的核心目标。近期研究通过架构设计或智能体工作流推进这一目标，但这些方法常受限于静态文本推理，或因外部智能体复杂性带来巨大计算与工程负担。更糟的是，大量投入并未带来相应回报，常出现性能增长与投入不成比例的现象。",
+          "url": "https://arxiv.org/abs/2605.14054",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
