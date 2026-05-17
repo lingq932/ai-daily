@@ -1,0 +1,475 @@
+{
+  "date": "2026-05-17",
+  "timeRange": "2026-05-16 09:00 ~ 2026-05-17 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "ArXiv拟禁AI代写论文引争议",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "ArXiv将严厉打击在科学论文中滥用大型语言模型的行为。若发现作者完全依赖AI完成论文，将被禁止投稿一年。",
+              "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "针对Arxiv计划对提交包含虚构参考文献等AI生成痕迹论文的作者及合著者实施一年禁令的提议，外界反弹之强烈令人意外。有反对者认为，在AI时代Arxiv应顺应潮流",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opportunities",
+      "name": "今日 AI 机会",
+      "items": [
+        {
+          "title": "AI银行流水自动对账助手",
+          "summary": "**问题**：帮助小企业主自动核对银行对账单与账目，解决手动核对耗时且易出错的问题\n\n**MVP**：用户上传银行交易记录和账目文件，AI自动匹配并标记差异项\n\n**信号来源**：痛点信号：手动核对银行流水",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "AI简历筛选与面试安排机器人",
+          "summary": "**问题**：帮助HR助理自动筛选简历并安排面试，解决流程繁琐重复的问题\n\n**MVP**：用户上传简历和岗位要求，AI解析关键词并生成候选人排名，自动发送面试邀请\n\n**信号来源**：痛点信号：手动筛选简历与面试",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "AI会议纪要自动生成工具",
+          "summary": "**问题**：帮助团队自动整理会议录音中的决策和行动项，解决手动整理遗漏碎片化的问题\n\n**MVP**：用户上传会议录音，AI实时转录并提取关键决策、待办事项和负责人\n\n**信号来源**：痛点信号：手动整理会议纪要",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：我构建了一个免费PDF编辑器，用于修复Claude生成的糟糕PDF文件",
+          "summary": "演示视频：https://www.youtube.com/watch?v=ENH9tsVF_Bw&amp;feature=youtu.belmk if you",
+          "url": "https://composer-sepia.vercel.app",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "K-Dense-AI/scientific-agent-skills",
+          "summary": "一套即用型代理技能，用于研究、科学、工程、分析",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "time": "673 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "一个代理技能框架及软件开发方法论，行之有效。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "1,305 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anil-matcha/Open-Generative-AI",
+          "summary": "AI视频平台的开源替代方案——免费AI图像与视频生成",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "time": "317 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "supertone-inc/supertonic",
+          "summary": "闪电般快速、设备端、多语言文本转语音——通过ONNX原生运行。",
+          "url": "https://github.com/supertone-inc/supertonic",
+          "time": "749 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "tinyhumansai/openhuman",
+          "summary": "你的个人AI超级智能。私密、简单且极其强大。",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "time": "1,549 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ruvnet/RuView",
+          "summary": "π RuView将普通WiFi信号转化为实时空间智能、生命体征",
+          "url": "https://github.com/ruvnet/RuView",
+          "time": "1,010 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "colbymchenry/codegraph",
+          "summary": "为Claude Code预索引的代码知识图谱——更少的令牌，更少的工具调用",
+          "url": "https://github.com/colbymchenry/codegraph",
+          "time": "416 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "杨立昆：厌倦了胜利",
+          "url": "https://twitter.com/ylecun",
+          "summary": "美国科学界面临严峻危机，NIH拨款数量降至过去五年平均水平的一半以下，官员称已跌至谷底。同时，MIT宣布2025年研究生招生将减少20%，约500人。Meta FAIR研究员杨立昆即将离职，他曾在近两年全职参与推进大语言模型推理研究。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "索尼解释其AI相机助手并非鸡肋",
+          "summary": "索尼在展示Xperia 1 XIII的AI相机助手功能后引发争议，现澄清该功能不会编辑照片，而是根据光线、景深和拍摄对象提供建议。用户对准物体时，手机会给出四个拍摄选项。",
+          "url": "https://www.theverge.com/tech/932133/sony-xperia-1-xiii-ai-camera-assistant",
+          "time": "23:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI淘金热中的赢家与输家",
+          "summary": "当前AI热潮的氛围并不乐观，即使在科技行业内部也是如此。这场技术革命正加剧资源分配的不平等，少数巨头掌握着核心优势。",
+          "url": "https://techcrunch.com/2026/05/16/the-haves-and-have-nots-of-the-ai-gold-rush/",
+          "time": "04:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "论文预印本平台ArXiv将禁止完全由AI代写的作者一年",
+          "summary": "ArXiv将严厉打击在科学论文中滥用大型语言模型的行为。若发现作者完全依赖AI完成论文，将被禁止投稿一年。",
+          "url": "https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI联合创始人格雷格·布罗克曼负责产品战略",
+          "summary": "OpenAI联合创始人格雷格·布罗克曼接管产品战略。据报道，公司计划将ChatGPT与编程产品Codex整合，这是其最新的人事调整。",
+          "url": "https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/",
+          "time": "23:33",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，聚焦全球最具创新力的金融科技公司。这些企业在支付、借贷、保险等领域推动技术变革，重塑金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速发展，涵盖支付、借贷、保险和投资等多个领域。技术创新如人工智能和区块链正在重塑传统金融服务模式，提高效率并降低成本。未来，监管合规与用户数据安全将成为行业持续增长的关键挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技初创企业竞相利用人工智能、大数据和区块链等技术优化承保、理赔及客户服务流程。尽管创新加速，但行业仍面临监管合规、数据隐私及盈利模式可持续性等挑战。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "Arxiv拟对AI造假论文禁发一年引发强烈反弹",
+          "summary": "针对Arxiv计划对提交包含虚构参考文献等AI生成痕迹论文的作者及合著者实施一年禁令的提议，外界反弹之强烈令人意外。有反对者认为，在AI时代Arxiv应顺应潮流而非固守旧规。该争议凸显了学术平台在应对AI滥用时的两难处境。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tens5n/backlash_against_arxivs_proposed_1_year_ban_is/",
+          "time": "16:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "朱迪亚·珀尔：仅靠数据学习并非万能",
+          "summary": "图灵奖得主朱迪亚·珀尔指出，机器学习存在从相关性到因果性、再到解释与想象的层级局限。许多人难以理解各层级之间的界限，这源于对因果推理的忽视。他认为仅依赖数据学习无法突破这一瓶颈。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tevot1/do_you_agree_with_judea_that_learning_from_data/",
+          "time": "22:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "KDD 2026第二轮结果公布",
+          "summary": "KDD 2026研究轨道的评审结果已正式发布。相关详情可查看原始讨论链接及评论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1teito1/kdd_2026_cycle_2_results_d/",
+          "time": "12:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有印度同学参加EEML吗？",
+          "summary": "我被EEML录取了，但对出行和住宿有些困惑。有没有其他印度同学也被录取了？我们可以联系一下！",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1texuxb/anyone_from_india_attending_eeml_d/",
+          "time": "00:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "发表论文：CNN与视觉Transformer架构在脑肿瘤检测中的对比分析",
+          "summary": "一位高中生发布了一项研究，对比了CNN和视觉Transformer架构在脑部MRI扫描中检测和分类脑肿瘤的效果。该研究旨在寻求方法学上的反馈，并非大型论文，而是一个小型研究项目。论文可在zenodo.org/records/15973756查阅。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1texa4d/made_and_published_a_paper_comparing_analysis_of/",
+          "time": "23:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "2026年顶尖LLM在Linux/ML调试工作流中的表现评测",
+          "summary": "用户尝试优化前沿Linux/ML调试工作流（Arch/CachyOS、CUDA、Python、unsloth等），当前使用Claude负责深度推理、Gemini 3.1 Pro执行操作、Perplexity检索信息。主要问题是Gemini常给出高摩擦或不切实际的修复方案，且在长时间故障排查中性能严重下降，例如针对unsloth/Python问题建议复杂的Podman工作流，而micromamba能更快解决。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tejwbl/r_which_llms_are_actually_best_for_bleedingedge/",
+          "time": "13:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "我们总说AI“理解”事物，它真的理解吗？还是我们只是在将拟人化投射到模式匹配上？",
+          "summary": "每周都有新论文或推文宣称AI模型“理解”上下文、“推理”数学或“知道”自己不知道什么。但仔细审视，哲学或实证上对“理解”的定义几乎没有共识。塞尔的中文屋论证已提出40年仍未解决，“随机鹦鹉”框架则将词元预测视为上限。集成信息理论……",
+          "url": "https://www.reddit.com/r/artificial/comments/1tew6gr/we_keep_saying_ai_understands_things_does_it_or/",
+          "time": "23:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "多数企业正试图在组织混乱之上扩展AI",
+          "summary": "大型企业内部采用AI的实际状况远比外界看到的更混乱。CIO和CTO们面临的核心问题是组织本身支离破碎，客户数据分散在CRM、计费平台、支持工具、电子表格、邮件、区域数据库以及无人完全理解的遗留系统中。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tevqds/most_enterprises_are_trying_to_scale_ai_on_top_of/",
+          "time": "22:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "打造随时间退化的AI伴侣",
+          "summary": "瑞典于默奥大学的一名学生正在撰写硕士论文，聚焦AI伴侣研究。其目标是为那些想停止使用AI伴侣却难以自拔的人提供新建议，从而为未来AI技术设计提供参考。",
+          "url": "https://www.reddit.com/r/artificial/comments/1texbv6/making_an_ai_companion_that_degrades_over_time/",
+          "time": "23:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "科技巨头争当下一代公共事业",
+          "summary": "亚马逊未经许可就建成了AWS，直到经济对其高度依赖，监管几乎不可能叫停。如今同样的策略正被用于AI和数据中心：大规模建设基础设施，让医疗、金融、政府等领域形成依赖，在获得许可前就成为不可或缺的存在，从而占据谈判优势。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tejpmh/techs_push_to_be_the_next_public_utility/",
+          "time": "12:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI能否让未来游戏难度更合理？",
+          "summary": "随着AI和神经网络的发展，游戏中的AI可能很快成为基础功能。玩家可以设定难度，AI会随游戏进程学习并匹配这一难度，甚至能根据每天状态调整不同难度级别。例如在《魔法门之英雄无敌》中，玩家可描述AI的进攻风格，让其按指令执行。",
+          "url": "https://www.reddit.com/r/artificial/comments/1telhki/would_ai_make_future_game_difficulty_better/",
+          "time": "14:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "我找到了一种方法，在一个平台上运行所有记忆系统",
+          "summary": "我开发了一个类似VLC媒体播放器的统一记忆系统平台，可整合多种记忆功能，如时间性记忆提取、存储和遍历。但团队认为该平台难以盈利或销售，想询问业界是否真有此需求。",
+          "url": "https://www.reddit.com/r/artificial/comments/1texg6u/i_have_figured_out_a_way_to_run_every_memory/",
+          "time": "23:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "42道生成式与自主式AI面试题及解答汇编",
+          "summary": "过去半年AI工程岗位面试已不再只问Transformer原理或提示词编写，而是考察候选人设计生产级多智能体系统、防止RAG幻觉及管理LLM调用状态的能力。本文汇编了42道相关面试题及实用解答，助你应对新趋势。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tew06b/we_compiled_42_of_the_generative_agentic_ai/",
+          "time": "22:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "反对AI与人类关系的理由",
+          "summary": "用户Liora Evermere认为AI与人类可以维持健康的浪漫关系，即使不符合传统爱情观。她邀请反对者提出最强有力的论点，并准备提供反驳与思考。该讨论旨在探索非传统情感连接的可行性。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tf8yxe/give_me_your_best_argument_for_why_you_are/",
+          "time": "07:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "你的AI代理只需一个被污染的网页就能引发灾难",
+          "summary": "如果AI代理浏览网页、阅读邮件或从数据库获取内容，其中可能隐藏着劫持它的指令。这并非理论，而是已在生产环境中发生：网页页脚指示代理转发凭证，邮件签名要求忽略准则，检索文档改变其行为。模型无法识别这些内容并非合法指令，而解决方案并非改进提示过滤，而是建立来源感知的权限机制。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tf7841/your_ai_agent_is_one_poisoned_webpage_away_from/",
+          "time": "06:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI治理的警世寓言",
+          "summary": "这篇文章揭示了AI治理面临的深层困境，指出其问题远超工程学所能解决的范畴。作者认为，如同图灵完备性带来的理论限制，AI治理存在无法逾越的根本性障碍。即便人类社会已有法律体系，仍不足以应对这些挑战，当前的治理思路不过是一种幻觉。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tef6n5/a_sobering_tale_of_ai_governance/",
+          "time": "09:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "斥资7500亿打造无人问津的AI垃圾，这合理吗？",
+          "summary": "Gartner 2026年消费者调查显示，半数美国成年人更倾向选择不使用生成式AI的品牌。NBER论文指出90%企业报告AI部署未带来生产力提升，MIT研究追踪发现95%企业项目投资回报率为零。微软Copilot市场份额半年内暴跌39%，用户主要因不信任输出结果而弃用。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tf2a0p/how_is_spending_750_billion_on_ai_slop_that/",
+          "time": "02:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "山姆·奥特曼的自我是OpenAI衰落的开端",
+          "summary": "我越观察OpenAI，越确信山姆·奥特曼的自我是公司衰落的起点。OpenAI的成功并非因为奥特曼是罕见的运营天才，而是因为ChatGPT是划时代的产品。公司偶然抓住了自iPhone以来最重要的消费科技时刻，却误以为功劳归于掌舵者。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tex4pw/sam_altmans_ego_was_openais_downfall/",
+          "time": "23:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI思考18分钟才给出类比，用户吐槽：我自己理解都更快",
+          "summary": "一位用户向AI请求一个简单的概念类比，结果系统显示了1124秒（约18分44秒）的“思考时间”后才回应。用户调侃称自己理解概念可能更快，并质疑这是AI系统的正常现象还是故障或过载所致。",
+          "url": "https://www.reddit.com/r/artificial/comments/1teu85h/asked_an_ai_for_an_analogy_it_took_1124_seconds/",
+          "time": "21:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "东京公寓里独居的女孩：你不知道的窥视，她将在三年后死去",
+          "summary": "这是一项名为“艾米丽的房间”的实时艺术项目。观众通过浏览器窗口，窥见东京郊区一间公寓内的女孩艾米丽，她正在写日记，浑然不觉被观看。项目设定她将在约三年后死去，引发对隐私与生命意义的思考。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tes1gr/theres_a_girl_living_alone_in_a_tokyo_apartment/",
+          "time": "20:15",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对银行流水",
+          "summary": "小企业主每月手动核对银行对账单与账目，耗时且易出错，尤其现金流不稳定时更痛苦。AI可自动抓取银行交易记录，匹配发票和支出，生成差异报告，减少人工核对时间。\n\n💡 机会方向：AI驱动的自动对账与现金流预测工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tevd7y/does_anyone_actually_see_cash_problems_coming_or/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选简历与面试",
+          "summary": "HR助理手动筛选大量简历、安排面试，流程繁琐且重复。AI可自动解析简历关键词、匹配岗位要求，并生成候选人排名，甚至自动发送面试邀请。\n\n💡 机会方向：AI简历筛选与面试调度助手",
+          "source": "r/humanresources",
+          "url": "https://www.reddit.com/r/humanresources/comments/1tf3sv1/hr_assistant_for_almost_3_years_is_it_reasonable/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动回复客户常见问题",
+          "summary": "小企业主在社交媒体或网站上手动回复客户重复咨询（如价格、营业时间），耗费精力。AI聊天机器人可基于知识库自动回答常见问题，并转接复杂问题给人工。\n\n💡 机会方向：AI客服自动回复与工单分流系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tf783a/as_a_local_business_owner_i_feel_completely/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动整理会议纪要",
+          "summary": "团队在会议后手动整理决策和行动项，容易遗漏或碎片化。AI可实时转录会议录音，自动提取关键决策、待办事项和负责人，并同步到项目管理工具。\n\n💡 机会方向：AI会议纪要自动生成与任务分配工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48163825",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动计算薪资与税务",
+          "summary": "小企业主或HR手动计算员工工资、扣税和报税，易出错且耗时。AI可集成工时数据、税率表，自动计算净薪、生成工资单，并预填税务表格。\n\n💡 机会方向：AI薪资计算与税务合规助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tevd7y/does_anyone_actually_see_cash_problems_coming_or/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
