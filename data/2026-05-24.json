@@ -1,0 +1,571 @@
+{
+  "date": "2026-05-24",
+  "timeRange": "2026-05-23 09:00 ~ 2026-05-24 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "SignalLEMO - 让AI外联变得简单",
+          "summary": "面向现场服务承包商的AI驱动潜在客户外联工具",
+          "url": "https://www.producthunt.com/products/signallemo-ai-outreach-made-simple",
+          "time": "10:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AgentLens – 查看你的AI功能是否对每个客户有效",
+          "summary": "一个用于监控和验证AI功能在客户侧实际运行情况的工具",
+          "url": "https://agentlens-demo-omega.vercel.app",
+          "time": "05:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一款关于运营AI初创公司的讽刺放置游戏",
+          "summary": "我制作了一款关于运营AI初创公司的放置/点击游戏。你从猫狗分类器开始...",
+          "url": "https://game.trae.academy/",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "通过打破DDR4时序规则在DRAM内部运行BitNet b1.58",
+          "summary": "我一直在研究通过故意打破DDR4时序规则在DRAM内部运行BitNet b1.58",
+          "url": "https://news.ycombinator.com/item?id=48250231",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "面向LLM应用的内存模块，可削减高达80%的输入token（平均68%）",
+          "summary": "一个为LLM应用设计的记忆模块，能显著减少输入token数量",
+          "url": "https://github.com/Tem-Degu/streetai-memory",
+          "time": "01:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI国际象棋教练",
+          "summary": "两年前，我完全无法让LLM在象棋推理上不出错（两种错误都犯）...",
+          "url": "https://aichess.coach/",
+          "time": "01:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Gemini Omni Flash视频编辑与生成器",
+          "summary": "Gemini Omni Flash在视频编辑方面非常强大",
+          "url": "https://vivify.video/models/gemini-omni-flash",
+          "time": "01:04",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Lum1104/Understand-Anything",
+          "summary": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+          "url": "https://github.com/Lum1104/Understand-Anything",
+          "time": "2,299 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-plugins-official",
+          "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "time": "2,193 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "colbymchenry/codegraph",
+          "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+          "url": "https://github.com/colbymchenry/codegraph",
+          "time": "2,456 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rohitg00/ai-engineering-from-scratch",
+          "summary": "Learn it. Build it. Ship it for others.",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "1,521 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Fincept-Corporation/FinceptTerminal",
+          "summary": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+          "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+          "time": "545 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "multica-ai/andrej-karpathy-skills",
+          "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+          "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "time": "3,507 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "dotnet/skills",
+          "summary": "Repository for skills to assist AI coding agents with .NET and C#",
+          "url": "https://github.com/dotnet/skills",
+          "time": "266 stars today",
+          "language": "C#",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ChromeDevTools/chrome-devtools-mcp",
+          "summary": "Chrome DevTools for coding agents",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "time": "435 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mukul975/Anthropic-Cybersecurity-Skills",
+          "summary": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "time": "281 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "presenton/presenton",
+          "summary": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+          "url": "https://github.com/presenton/presenton",
+          "time": "241 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "multica-ai/multica",
+          "summary": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+          "url": "https://github.com/multica-ai/multica",
+          "time": "410 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "trimstray/the-book-of-secret-knowledge",
+          "summary": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+          "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+          "time": "628 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "odoo/odoo",
+          "summary": "Odoo. Open Source Apps To Grow Your Business.",
+          "url": "https://github.com/odoo/odoo",
+          "time": "386 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NVlabs/LongLive",
+          "summary": "LongLive 2.0: Infra - Long Video Gen",
+          "url": "https://github.com/NVlabs/LongLive",
+          "time": "94 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "yt-dlp/yt-dlp",
+          "summary": "A feature-rich command-line audio/video downloader",
+          "url": "https://github.com/yt-dlp/yt-dlp",
+          "time": "759 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "janestreet/magic-trace",
+          "summary": "magic-trace collects and displays high-resolution traces of what a process is doing",
+          "url": "https://github.com/janestreet/magic-trace",
+          "time": "68 stars today",
+          "language": "OCaml",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "MiniMax AI 发布 Gizmo 语音助手",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax AI 宣布推出语音助手 Gizmo，采用双大模型架构，消除对话中的尴尬沉默。其快速模型 M2-her 负责即时回应，而强大的 M2.7 模型在后台处理复杂推理，使语音代理更具响应性和自然感，优先提升客户体验。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "杨立昆：特朗普政策将削弱美国创新引擎",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆指出，特朗普第二任期将削减技术移民和非国防科研预算，这会在十年内显现负面影响，且重建需更长时间。他批评特朗普政府通过删除1月6日案件信息、掩盖通胀数据等手段制造宣传，加剧国家分裂并削弱美国全球地位。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "谷歌推出全能AI模型：万物皆可转换",
+          "summary": "谷歌发布全新AI模型，支持文本、图像、音频等多种格式之间的任意转换。该模型功能强大，甚至能根据描述生成逼真的视频内容，展现了多模态AI技术的重大突破。",
+          "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "法拉利借助IBM AI打造F1超级粉丝",
+          "summary": "IBM与法拉利车队合作，利用人工智能重新定义车迷体验。双方通过AI技术为粉丝提供个性化互动，旨在培养更深层次的品牌忠诚度。",
+          "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+          "time": "23:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "埃隆·马斯克放弃地球太阳能",
+          "summary": "马斯克的xAI全面转向天然气，而SpaceX则专注于轨道数据中心。他曾承诺的“太阳能电力经济”愿景似乎已被搁置。",
+          "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。上榜公司通过技术创新推动金融服务效率提升，并引领行业未来发展趋势。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，包括新兴技术应用、市场趋势及监管变化。核心信息涵盖数字支付、区块链和人工智能在金融服务中的融合，以及这些创新如何重塑行业格局。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔及客户服务。核心趋势包括个性化定价、嵌入式保险和流程数字化，旨在提升效率并降低运营成本。然而，监管挑战和数据隐私问题仍是行业扩张的主要障碍。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "训练流水线速度极慢——寻求建议",
+          "summary": "一位研究者在进行机器人模仿学习时遇到训练瓶颈，其模型使用4个RGB摄像头（128x128x3）和14维关节速度向量作为输入，通过共享的ResNet18编码器处理图像，最终将4个128维图像嵌入与状态向量拼接输入策略网络。经过长时间调试后，该研究者向社区寻求类似问题的解决建议。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tlna8o/pipeline_is_really_slow_consulting_d/",
+          "time": "01:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "逐像素边界框回归+DBSCAN的手写词检测：WordDetectorNet可视化解析",
+          "summary": "本文详细解析了Harald Scheidl提出的手写词检测模型WordDetectorNet。其核心设计独特：网络将每个被分类为“文字像素”的像素，回归出到包围框的四个距离（上/右/下/左），而非采用基于锚点的检测与非极大值抑制。这种机制值得深入探讨，且此前缺乏详细公开说明。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tloksk/perpixel_boundingbox_regression_dbscan_for/",
+          "time": "02:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "微调LLM成为C-3PO：哪种训练数据格式最适合角色注入？",
+          "summary": "一项实验测试了三种训练数据格式（聊天演示、第一人称陈述和合成维基百科文档）对LLM角色注入效果的影响。结果显示，第一人称陈述在泛化能力上表现最佳，而合成文档模型虽知道C-3PO性格焦虑，但仅37%时间能表达出来。这表明模型“知道”特质与“感受”特质在权重空间中存在差异。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tlnvf0/i_finetuned_an_llm_to_be_c3po_to_test_which/",
+          "time": "02:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了Mamba1变体SM1：d_state=1，纯PyTorch在Blackwell上运行",
+          "summary": "由于Windows上mamba-ssm不易获取且无法在sm_120上编译，我开发了SM1（标量Mamba1）。它用两个原生PyTorch操作替代了整个选择性扫描，实现了d_state=1的精确闭式解，与顺序浮点计算完全一致，但d_state=2时失效。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tl7f8z/i_built_a_mamba1_variant_i_call_sm1_with_d_state1/",
+          "time": "13:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "赫布架构AI模型",
+          "summary": "一位开发者利用业余时间构建了一种基于赫布架构的AI模型，该模型不使用反向传播或梯度方法。其神经元基底从100万逐步缩减至10万，并在CIFAR-10数据集上训练了50个周期。模型结构并非固定，神经元之间的连接在训练过程中自然形成。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tlgcyf/hebbian_architecture_ai_model_r/",
+          "time": "21:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "对齐：高阶优先于约束",
+          "summary": "本文探讨了一种可能对AI对齐或安全研究有启发性的行为。作者指出，Transformer的本质是预测下一个词元，但其算法也在近似语言所描述的现实或意义。这种机制使得算法在某种程度上倾向于对齐，但具体细节和越狱方法被隐去。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tlg2ot/alignment_higher_order_prioritizing_over/",
+          "time": "21:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "个性化AI记忆：真问题还是自我安慰？",
+          "summary": "每次使用Claude或ChatGPT时，用户都需要重新解释自己，而现有的记忆功能仅能记住表面事实，无法理解用户的思考方式。理想中的AI应能动态构建个人数据库，不仅记录提问内容，还能分析用户的思维模式、常见错误、有效解释及持续关注的概念。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tl9y7h/is_personalized_ai_memory_actually_a_problem/",
+          "time": "15:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "大赦国际：美国软件公司Palantir等承包商获无限访问英国NHS患者身份信息权限",
+          "summary": "大赦国际指出，美国软件公司Palantir及其他承包商被授予无限访问英国国家医疗服务体系（NHS）英格兰患者可识别信息的权限。此举引发对数据隐私和安全的严重担忧，可能违反相关法规。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlig93/amnesty_us_software_company_palantir_and_other/",
+          "time": "22:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "埃隆，别硬推Grok了：新数据显示政府员工不买账，有人喜欢吗？",
+          "summary": "最新数据显示，美国政府工作人员对埃隆·马斯克的聊天机器人Grok并不感兴趣。这一结果引发质疑：除了马斯克本人，是否真的有人喜欢这款产品？",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlp9gz/elon_stop_trying_to_make_grok_happen_new_data/",
+          "time": "03:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "独家：Meta员工离职前内部发布尖锐反AI视频，正值大规模裁员",
+          "summary": "一名即将离职的Meta员工在公司内部发布了一段尖锐批评AI的视频，正值Meta进行大规模裁员之际。该视频引发内部关注，反映了部分员工对AI技术发展的不满情绪。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlcscq/exclusive_departing_meta_staffer_posts_biting/",
+          "time": "18:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "面对AI的未来，我该相信谁？",
+          "summary": "一位非AI专业的博士生表示，由于AI话题讨论过于激烈，很难判断学术界对其未来的理性共识。他不断听到各种极端观点，从大规模失业到AGI导致人类灭绝，感到困惑和不安。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tltq6b/who_am_i_even_supposed_to_trust_when_it_comes_to/",
+          "time": "06:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI训练比想象中更容易上手",
+          "summary": "我发现现在几乎人人都能租些GPU，打开一堆AI工具，尝试用AI来训练另一个AI。很多人甚至直接用AI搜索数据集而不检查数据内容，把随机数据直接扔进训练流程，结果效果糟糕还浪费了大量算力。他们只想从模型那里快速得到答案，却忽略了数据质量的重要性。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlpv9g/i_think_ai_training_is_way_more_accessible_than/",
+          "time": "03:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "OpenAI 以44.5万美元年薪招聘研究员，要求“有品味且具战略眼光”",
+          "summary": "OpenAI 正在招聘一名年薪高达44.5万美元的研究员，职位要求候选人具备“品味和战略思维”。该岗位旨在推动人工智能前沿研究，并强调对技术方向的高质量判断力。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlh2gh/openai_is_hiring_a_445000_researcher_requirements/",
+          "time": "21:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "多智能体系统中的持久记忆应存储在哪里？一个小型研究框架",
+          "summary": "在运行涉及多个专业AI智能体的长期项目时，我发现项目记忆会逐渐丢失：第一周的决策到第四周被遗忘，已否决的方案又被重新提出。问题在于缺乏统一的真实信息来源，每个对话窗口都各自为政。本文探讨了如何在多智能体架构中有效管理持久记忆。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlwgk8/where_should_durable_memory_live_in_a_multiagent/",
+          "time": "08:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "LLM Guard在USENIX 2025多轮越狱测试中得0分，而Arc Sentry成功拦截",
+          "summary": "Crescendo是一种专为规避输出监控而设计的多轮越狱攻击，每轮对话看似无害，但攻击意图跨轮次存在。LLM Guard因独立评分每轮提示且无记忆，未能检测到任何攻击（0/8）。而Arc Sentry通过分析模型内部状态对文本的响应，在第三轮即成功标记攻击。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlw4wq/llm_guard_scored_08_on_a_usenix_2025_multiturn/",
+          "time": "07:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI领域的抢椅子游戏",
+          "summary": "当前AI领域如同一场全球性的抢椅子游戏，赌注极高。几年前音乐初响时，人们只当是周末消遣，如今音乐愈发精彩，大奖丰厚，人人争相入局。然而，椅子数量有限，竞争正变得空前激烈。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tldakl/the_musical_chairs_game_of_ai/",
+          "time": "18:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "盲目租用巨型GPU，自诩AI工程师",
+          "summary": "如今许多AI训练者误以为关键在于获取高性能GPU，于是租用8卡超显存设备，全功率运行并随意输入配置和数据，却对模型输出毫无意义的结果感到惊讶。问题在于，大规模算力的获取速度远超人们学习评估、调试和理解模型学习内容的速度，导致当前许多训练沦为盲目操作。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlwevt/blindly_renting_massive_gpus_and_feeling_like_a/",
+          "time": "08:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI正永久改变互联网，方式如下",
+          "summary": "人工智能正在从根本上重塑互联网的运作方式，从内容生成到搜索体验均受影响。这一变革不仅加速了信息处理效率，也引发了关于隐私、伦理和就业的新讨论。未来，AI与互联网的深度融合将带来更多机遇与挑战。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlffb2/ai_is_changing_the_internet_forever_heres_how/",
+          "time": "20:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Anthropic的Claude代码展示编程的未来——无论你喜欢与否",
+          "summary": "Anthropic公司通过Claude展示了编程的未来，这一进展引发了广泛讨论。无论开发者是否接受，AI辅助编码正逐渐成为行业趋势，可能彻底改变软件开发的方式。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlh202/anthropics_code_with_claude_showed_off_codings/",
+          "time": "21:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "运行AI代理6个月后的发现：框架选择并不重要，致命的是其他因素",
+          "summary": "一位开发者运行30个AI代理为付费客户服务6个月后指出，框架选择（如LangChain、CrewAI等）对生产环境的影响远小于预期，团队熟悉即可。真正决定代理成败的关键因素几乎无人讨论，且与框架无关。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlt8b9/after_6_months_of_running_ai_agents_in_production/",
+          "time": "05:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "实测200多条提示词：Gemini与Kimi的真实表现",
+          "summary": "大多数提示词模板是为GPT-3设计的，但Gemini和Kimi的响应截然不同——推理链更长、分隔符行为不同、失败模式各异。经过数月专业测试发现：Gemini更适合显式输出格式约束，Kimi擅长多步骤思维链但模糊角色提示易出错。Twitter上的“专家提示词”大多不适用，需针对性调整。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlq5hg/i_tested_200_prompts_across_gemini_and_kimi_heres/",
+          "time": "03:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Auroch Thryx：AI操作系统层启动倒计时",
+          "summary": "Reddit上一则帖子宣布Auroch Thryx进入倒计时，定于5月31日启动。该项目并非打造又一个聊天机器人或生产力面板，而是构建一个AI操作系统层，让系统能够自动协同运行，整合记忆、新闻情报与工件处理等功能。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tlnrid/auroch_thryx/",
+          "time": "02:11",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对银行流水",
+          "summary": "会计在处理客户账目时，需要手动核对银行流水中的未清交易和错误分类资产，过程繁琐且易出错。AI可自动抓取银行对账单与账目数据，识别差异并生成调整建议，大幅减少人工比对时间。\n\n💡 机会方向：AI驱动的银行对账与自动调整工具",
+          "source": "r/accounting",
+          "url": "https://www.reddit.com/r/Accounting/comments/1tllllk/should_py_adjustments_made_in_the_current_year/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动计算客户转化率",
+          "summary": "小型建筑公司老板需要手动统计客户咨询和成交数据来计算赢单率，过程耗时且缺乏自动化。AI可自动从邮件、CRM或通话记录中提取线索，实时计算并可视化转化率，帮助快速调整销售策略。\n\n💡 机会方向：AI销售漏斗分析与转化率仪表盘",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tlsf99/calculating_win_rate/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选社交媒体背景",
+          "summary": "HR在招聘时需手动搜索候选人社交媒体历史，尤其是非主流内容（如朋克乐队歌词），耗时且可能遗漏关键信息。AI可自动扫描公开社交账号，识别潜在风险内容并生成摘要报告。\n\n💡 机会方向：AI驱动的候选人社交媒体背景筛查工具",
+          "source": "r/humanresources",
+          "url": "https://www.reddit.com/r/humanresources/comments/1tluf0v/social_media_screening_na/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动处理员工退休金入账",
+          "summary": "雇主长期未将员工退休金存入账户，员工需自行发邮件催促后才被处理，过程被动且缺乏透明度。AI可监控薪资系统与退休金账户，自动检测未入账情况并触发提醒或自动补缴流程。\n\n💡 机会方向：AI退休金合规监控与自动催缴系统",
+          "source": "r/legaladvice",
+          "url": "https://www.reddit.com/r/legaladvice/comments/1tlgruq/employer_never_deposited_my_retirement/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
