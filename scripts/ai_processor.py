@@ -87,29 +87,31 @@ def filter_ai_relevant(items, context="产品"):
             f"{i}. {item.get('title','')} | {item.get('summary','')[:80]} | 语言:{item.get('language','')} | {item.get('time','')}"
             for i, item in enumerate(items)
         ]
-        extra = """- 对保留的每个仓库，用2-3句话写清楚：这是什么工具/框架、解决什么问题、为什么值得关注（结合今日star数和语言背景）
+        extra = """- 对保留的每个仓库，用中文2-3句话写清楚：这是什么工具/框架、解决什么问题、为什么值得关注（结合今日star数和语言背景）
+- summary 必须用中文撰写，不能使用英文！title 可保留仓库原名
 - 摘要要有实质内容，不能只重复原始描述
 - 额外分析商业缺口：这个仓库周围缺什么付费产品？（不是"托管这个repo"，而是它周围缺什么治理/审计/成本/采用证据层，一句话）"""
     else:
         lines = [f"{i}. [{item.get('source','')}] {item.get('title','')} | {item.get('summary','')[:80]}"
                  for i, item in enumerate(items)]
-        extra = "- 将标题和摘要翻译为中文（若已是中文则保留）"
+        extra = ""
 
     if is_github:
-        json_format = '[{"idx": 0, "title": "中文标题或原名", "summary": "中文说明", "gap": "商业缺口一句话"}]'
+        json_format = '[{"idx": 0, "title": "中文标题（必须翻译为中文）", "summary": "中文说明（必须是中文）", "gap": "商业缺口一句话"}]'
     else:
-        json_format = '[{"idx": 0, "title": "中文标题或原名", "summary": "中文说明"}]'
+        json_format = '[{"idx": 0, "title": "中文标题（必须翻译为中文）", "summary": "中文摘要（必须是中文）"}]'
 
-    prompt = f"""以下是今日{context}列表，请判断每条是否与 AI/ML/LLM/生成式AI 相关。
+    prompt = f"""以下是今日{context}列表，请完成两个任务：1）判断是否与AI相关；2）将保留条目翻译为中文。
 
 {chr(10).join(lines)}
 
 规则：
 - 只保留明确与 AI、机器学习、大语言模型、生成式AI相关的条目
+- ⚠️ 重要：所有保留条目的 title 和 summary 必须翻译为中文！英文标题必须翻译，英文摘要必须翻译。已是中文则保留。
 {extra}
 - 没有相关条目则返回空数组
 
-JSON格式（严格）：
+JSON格式（严格，title和summary必须是中文）：
 {json_format}"""
 
     try:
@@ -117,7 +119,7 @@ JSON格式（严格）：
             model=DEEPSEEK_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
-            max_tokens=800,
+            max_tokens=2000,
         )
         text = resp.choices[0].message.content.strip()
         text = text.replace("```json", "").replace("```", "").strip()
