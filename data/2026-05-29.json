@@ -1,0 +1,817 @@
+{
+  "date": "2026-05-29",
+  "timeRange": "2026-05-28 09:00 ~ 2026-05-29 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Anthropic发布Opus 4.8",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Anthropic推出了新模型Opus 4.8，并附带名为“动态工作流”的工具。该工具用于协调多个子代理协同工作。",
+              "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/"
+            },
+            {
+              "source": "r/artificial",
+              "summary": "Anthropic今日推出Claude Opus 4.8，作为对Opus 4.7的增量升级。新版本在编码、代理推理和知识工作基准测试中表现更优，诚实性显著提升，",
+              "url": "https://www.reddit.com/r/artificial/comments/1tq9l1z/anthropic_releases_claude_opus_48_with_improved/"
+            }
+          ]
+        },
+        {
+          "headline": "YouTube新增播客功能",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "YouTube 即将推出新功能，以改善播客收听体验。该功能今日起向 Android 版 Premium 订阅用户开放，后续将登陆 iOS。新增的“随身模式”将界",
+              "url": "https://www.theverge.com/streaming/939051/youtube-premium-podcast-features"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "YouTube推出播客新功能，包括AI推荐工具和自动调速，以增强与其他平台争夺播客受众的竞争力。",
+              "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/"
+            }
+          ]
+        },
+        {
+          "headline": "微软365 Copilot更新",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "微软推出全新改版的Microsoft 365 Copilot，设计更简洁，加载速度提升两倍。新版Copilot能提供更可靠、结构化的回答，便于快速浏览。该更新已",
+              "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign"
+            },
+            {
+              "source": "r/artificial",
+              "summary": "最新一期AI黑客通讯汇总了本周热门AI话题，包括用AI更慢地写出更好代码、Anthropic和OpenAI找到产品市场契合点、谷歌AI遭操纵后悄然反击，以及In",
+              "url": "https://www.reddit.com/r/artificial/comments/1tq54tu/im_tired_of_talking_to_ai_microsoft_starts/"
+            }
+          ]
+        },
+        {
+          "headline": "CNN起诉Perplexity抄袭",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "CNN对AI初创公司Perplexity提起诉讼，指控其AI工具“逐字”复制CNN的文章内容。诉讼称，Perplexity还向用户提供CNN订阅墙后的信息。该案",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/938893/cnn-perplexity-ai-copyright-lawsuit"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "随着AI代理从实验走向生产，AWS、Cloudflare等公司正重新设计云基础设施，以适应机器生成的互联网流量取代人类用户的未来。",
+              "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Robinhood 代理交易 | 让您的代理进行交易",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/robinhood",
+          "time": "13:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Trelk – 阅读、思考、连接",
+          "summary": "保存文章、论文和笔记。AI 发现所有内容中隐藏的关联。",
+          "url": "https://trelk.app/",
+          "time": "08:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Mira – 语义搜索文件 – 无需精确文件名",
+          "summary": "欢迎点星（并乐于接受关于提高索引速度/嵌入的建议）",
+          "url": "https://github.com/Heidar-An/Mira",
+          "time": "07:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "rik – 有限代理版",
+          "summary": "文章网址：https://github.com/exlee/rik 评论网址：https://news.ycombinator",
+          "url": "https://github.com/exlee/rik",
+          "time": "06:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Pubflow，为更快构建基于AI的应用提供后端信任层",
+          "summary": "文章网址：https://www.pubflow.com/ 评论网址：https://news.ycombinator.com",
+          "url": "https://www.pubflow.com/",
+          "time": "05:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Grove，一个开源的MCP服务器，用于搜索/写入您的Obsidian Vault",
+          "summary": "文章网址：https://github.com/jmilinovich/grove 评论网址：https://news.yco",
+          "url": "https://github.com/jmilinovich/grove",
+          "time": "05:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Rig – 面向编码代理的本地优先代码图，一条npx命令即可使用",
+          "summary": "文章网址：https://github.com/Astralchemist/rig 评论网址：https://news.yco",
+          "url": "https://github.com/Astralchemist/rig",
+          "time": "04:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "开源浏览器代理，7x24小时运行",
+          "summary": "文章网址：https://github.com/sediman-agent/sediman-browse 评论网址：https",
+          "url": "https://github.com/sediman-agent/sediman-browse",
+          "time": "04:21",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "MoneyPrinterTurbo",
+          "summary": "这是一个利用AI大模型一键生成高清短视频的工具，基于Python开发。它解决了非专业用户快速制作高质量短视频的需求，无需视频编辑技能。今日获得4698颗星，说明其自动化内容生成能力受到广泛关注，特别适合社交媒体营销和内容创作者。\n\n💼 商业缺口：缺乏针对企业级视频内容合规性审核和品牌一致性管理的付费SaaS层产品。",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "time": "4,698 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "taste-skill",
+          "summary": "这是一个Shell脚本工具，旨在为AI注入“品味”，防止AI生成无聊、通用化的内容。它解决了AI输出内容同质化、缺乏创意的问题。今日获得2234颗星，表明开发者社区对提升AI生成内容质量有强烈需求，尤其适用于创意写作和对话系统。\n\n💼 商业缺口：缺少可商业化的AI输出风格评估与定制化调优的审计平台，帮助企业量化AI内容的“品味”指标。",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "time": "2,234 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "stop-slop",
+          "summary": "这是一个用于从文本中移除AI痕迹（如套话、模板化表达）的技能文件。它解决了AI生成内容过于明显、缺乏自然感的问题。今日获得761颗星，说明用户对AI内容“去AI化”有实际需求，尤其适用于需要伪装成人类写作的场景。\n\n💼 商业缺口：缺乏针对AI文本痕迹检测与去痕迹效果的付费基准测试和合规性报告工具。",
+          "url": "https://github.com/hardikpandya/stop-slop",
+          "time": "761 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "twenty",
+          "summary": "这是一个专为AI设计的开源Salesforce替代品，基于TypeScript开发。它解决了传统CRM系统与AI工作流集成困难的问题，提供更灵活的AI原生数据管理。今日获得493颗星，表明企业级AI应用对开源CRM有持续需求，尤其适合AI驱动的销售自动化。\n\n💼 商业缺口：缺少针对AI CRM数据治理、隐私合规和模型训练数据溯源的企业级付费审计层。",
+          "url": "https://github.com/twentyhq/twenty",
+          "time": "493 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "superpowers",
+          "summary": "这是一个基于Shell的智能体技能框架和软件开发方法论，旨在让AI代理工作更高效。它解决了AI代理技能碎片化、难以系统化的问题。今日获得1730颗星，说明开发者对结构化AI代理开发框架有强烈兴趣，尤其适合构建复杂多代理系统。\n\n💼 商业缺口：缺少针对多代理系统性能监控、成本优化和技能版本管理的商业运维平台。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "1,730 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "harness",
+          "summary": "这是一个元技能框架，用于设计领域特定的智能体团队，定义专业化代理角色，基于HTML开发。它解决了AI代理团队协作和角色分工的难题。今日获得65颗星，虽然星数不高，但作为新兴框架，对构建企业级多代理协作系统有参考价值。\n\n💼 商业缺口：缺乏针对代理团队协作效率评估和角色冲突检测的付费管理工具。",
+          "url": "https://github.com/revfactory/harness",
+          "time": "65 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "crawl4ai",
+          "summary": "这是一个开源的大语言模型友好的网络爬虫和抓取工具，基于Python开发。它解决了传统爬虫难以适配LLM数据采集需求的问题，提供结构化数据输出。今日获得154颗星，表明AI训练数据采集工具持续受关注，尤其适合构建知识库和训练数据集。\n\n💼 商业缺口：缺少针对爬取数据版权合规性、数据质量评分和LLM训练数据溯源的企业级付费审计服务。",
+          "url": "https://github.com/unclecode/crawl4ai",
+          "time": "154 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "MOSS-TTS",
+          "summary": "这是一个开源语音和声音生成模型家族，基于Python开发。它解决了高质量语音合成需求，提供多种声音风格。今日获得71颗星，虽然星数不高，但作为开源TTS模型，对语音交互应用和内容创作有实用价值。\n\n💼 商业缺口：缺乏针对语音合成内容版权归属、声音克隆伦理合规和商业授权管理的付费平台。",
+          "url": "https://github.com/OpenMOSS/MOSS-TTS",
+          "time": "71 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "compound-engineering-plugin",
+          "summary": "这是一个官方复合工程插件，支持Claude Code、Codex、Cursor等AI编码工具，基于TypeScript开发。它解决了AI编码工具与工程实践集成的问题，提升代码生成质量。今日获得184颗星，说明AI辅助编程插件生态持续扩展，尤其适合企业级开发流程。\n\n💼 商业缺口：缺少针对AI生成代码的安全漏洞扫描、许可证合规性和可维护性评估的付费审计工具。",
+          "url": "https://github.com/EveryInc/compound-engineering-plugin",
+          "time": "184 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "skills",
+          "summary": "这是Anthropic官方发布的智能体技能公共仓库，基于Python开发。它提供了可复用的AI代理技能模块，解决了AI代理能力标准化和共享问题。今日获得718颗星，表明行业领导者对代理技能生态的重视，尤其适合构建可组合的AI工作流。\n\n💼 商业缺口：缺乏针对技能模块的版本管理、依赖冲突检测和跨平台兼容性测试的商业治理平台。",
+          "url": "https://github.com/anthropics/skills",
+          "time": "718 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI研发第一部分：志在必得",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI发布了研发系列内容的第一部分，标题为“志在必得”。该部分展示了公司在人工智能领域的最新进展与战略方向，强调其致力于在竞争中取得领先地位。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind发布Nano Banana 2和Pro版图像生成模型",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind宣布Nano Banana 2和Nano Banana Pro图像生成模型现已全面上线。这些模型已面向开发者和企业开放，可通过Google AI Studio及Gemini企业代理平台API使用。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Anthropic 发布 Claude Opus 4.8 并完成 650 亿美元融资",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 宣布完成 650 亿美元 H 轮融资，投后估值达 9650 亿美元，由 Altimeter Capital、Dragoneer、Greenoaks 和红杉资本领投。资金将用于推进研究并扩大 Claude 的产能。同时，公司推出 Claude Opus 4.8，在 Opus 4.7 基础上提升了判断力、诚实度和自主工作能力，价格不变。本月早期，公司年化收入已突破 470 亿美元。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Runway发布AI生成短片《昨夜》",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway推出Project Luxo计划，展示AI生成视频已跨越恐怖谷效应。短片《昨夜》由一人使用Runway在一天内完全通过AI创作，讲述东京一个改变人生的夜晚，通过破碎记忆的视角呈现。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "阿里Qwen3.7-Max在ITBench-AA企业IT基准测试中位列第三",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "IBM与Artificial Analysis联合推出ITBench-AA基准测试，评估模型在代理式企业IT任务中的表现。在站点可靠性工程（SRE）任务中，所有前沿模型得分均低于50%，其中Claude Opus 4.7以47%领先，GPT-5.5以46%紧随其后，阿里Qwen3.7-Max以42%位列第三。该测试要求模型通过读取日志、追踪依赖关系来诊断Kubernetes事件根因，目前尚无模型能完全胜任。",
+          "source": "Twitter @Alibaba_Qwen"
+        },
+        {
+          "title": "MiniMax推出免费AI编程代理",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "OpenHands与MiniMax合作，限时免费提供基于MiniMax-M2.7模型的AI编程代理。用户可在app.all-hands.dev上体验，将高性价比模型融入编码工作流。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "德米斯·哈萨比斯：人类棋力因AlphaGo显著提升，数学领域或现类似趋势",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯指出，AlphaGo问世后人类围棋水平显著提高，预计数学领域也将出现类似模式。同时，数学家蒂莫西·高尔斯宣布，加性组合学中的另一重大难题已被攻克，此次由人类而非AI完成，但方法借鉴了AI解决单位距离猜想的思路。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆",
+          "url": "https://twitter.com/ylecun",
+          "summary": "Aleph Prover 已正式验证 OpenAI 对保罗·埃尔德什平面单位问题的反驳，并将形式化证明开源，供研究者审查和验证。这是AI首次自主解决一个数学领域的著名开放问题。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "蛋白质世界模型问世",
+          "summary": "一种用于蛋白质的世界模型已经诞生。同时，你可以教会你的AI代理像你一样进行编辑操作。",
+          "url": "https://www.therundown.ai/p/a-world-model-for-proteins-is-here",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "微软365 Copilot获速度提升与更简洁设计",
+          "summary": "微软推出全新改版的Microsoft 365 Copilot，设计更简洁，加载速度提升两倍。新版Copilot能提供更可靠、结构化的回答，便于快速浏览。该更新已面向桌面和移动设备推送。",
+          "url": "https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign",
+          "time": "04:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "克劳德新模型出错时更“诚实”",
+          "summary": "Anthropic于周四发布Claude Opus 4.8，强调该模型的“诚实”特性。公司表示，他们训练所有模型避免做出无法支持的断言，但AI模型有时仍会仓促下结论。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "一部2000美元AI生成电影将在翠贝卡首映",
+          "summary": "下个月的翠贝卡电影节将首映AI生成电影《紫罗兰之梦》。这部75分钟的影片虚构了伊朗政府一月大规模杀害抗议者的事件，所有人物和画面均由AI生成，制作成本仅2000美元。",
+          "url": "https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca",
+          "time": "00:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "YouTube 迈出成为真正播客应用的小步",
+          "summary": "YouTube 即将推出新功能，以改善播客收听体验。该功能今日起向 Android 版 Premium 订阅用户开放，后续将登陆 iOS。新增的“随身模式”将界面切换为音频优先布局，提供更大的简化播放按钮、静态图像替代视频，并显示时间线。",
+          "url": "https://www.theverge.com/streaming/939051/youtube-premium-podcast-features",
+          "time": "00:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "iOS 27新渲染图暗示Siri重大改版",
+          "summary": "苹果备受期待的Siri改版预计随iOS 27推出，外观可能类似ChatGPT并融入液态玻璃风格。彭博社发布的渲染图展示了Siri的新应用和聊天界面，这些图像基于彭博社获取的信息及知情人士透露的内容制作。",
+          "url": "https://www.theverge.com/tech/938915/ios-27-siri-renders-bloomberg",
+          "time": "22:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "CNN起诉Perplexity抄袭文章",
+          "summary": "CNN对AI初创公司Perplexity提起诉讼，指控其AI工具“逐字”复制CNN的文章内容。诉讼称，Perplexity还向用户提供CNN订阅墙后的信息。该案已于周四在纽约法院提交。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/938893/cnn-perplexity-ai-copyright-lawsuit",
+          "time": "22:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Rivian软件主管：无需CarPlay或实体按键",
+          "summary": "Rivian首席软件官Wassym Bensaid认为，车辆无需依赖CarPlay或物理按键。他正领导Rivian与大众近60亿美元合资的软件公司RV Tech，致力于打造更智能、独立的车载体验。",
+          "url": "https://www.theverge.com/podcast/929940/rivian-wassym-bensaid-software-volkswagen-carplay-assistant-ai",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "YouTube将允许用户用AI定制个性化视频流",
+          "summary": "YouTube推出新AI功能，用户可通过描述想看的内容生成个性化视频流。该功能可根据兴趣、心情或主题定制内容，并可将生成的视频流置顶在首页。",
+          "url": "https://www.theverge.com/streaming/938759/youtube-custom-ai-feed-prompt-availability",
+          "time": "16:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "AI炒作指数：毕业季遭遇嘘声",
+          "summary": "前谷歌CEO埃里克·施密特在亚利桑那大学演讲时，呼吁2026届毕业生帮助塑造AI未来，却遭到全场嘘声。这表明尽管AI被宣称将改变世界，但年轻一代对其持怀疑态度。",
+          "url": "https://www.technologyreview.com/2026/05/28/1138053/the-ai-hype-index-ai-gets-booed-in-graduation-season/",
+          "time": "17:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Glean营收突破3亿美元，削减AI预算成主要卖点",
+          "summary": "企业AI搜索初创公司Glean年收入增长两倍，尽管科技巨头纷纷进入该领域。其核心卖点转向帮助客户削减AI预算，推动营收突破3亿美元大关。",
+          "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+          "time": "08:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "互联网正为机器重建",
+          "summary": "随着AI代理从实验走向生产，AWS、Cloudflare等公司正重新设计云基础设施，以适应机器生成的互联网流量取代人类用户的未来。",
+          "url": "https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/",
+          "time": "05:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Asana 收购无代码智能体构建平台 StackAI",
+          "summary": "Asana 将把 StackAI 整合到其不断扩展的 AI 工作流工具套件中。此次收购旨在增强其自动化能力，帮助用户无需编写代码即可构建智能代理。",
+          "url": "https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/",
+          "time": "04:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic融资650亿美元，估值逼近万亿，IPO在即",
+          "summary": "Anthropic完成了650亿美元的H轮融资，投后估值达9650亿美元。这可能是这家AI初创公司在备受期待的IPO之前的最后一轮私募融资。",
+          "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+          "time": "02:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI代币期货将像黄金和石油一样可交易",
+          "summary": "大型交易所正围绕AI代币设计衍生品。AI代币正被越来越多地视为类似电力或带宽的原材料输入，而非单纯的计算输出。",
+          "url": "https://techcrunch.com/2026/05/28/just-like-gold-and-oil-well-soon-be-able-to-trade-ai-token-futures/",
+          "time": "02:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "三周后，StrictlyVC 即将登陆洛杉矶",
+          "summary": "StrictlyVC 洛杉矶活动将于6月18日举行。届时将汇聚 Mach Industries、Shinkei Systems 等行业领袖，进行深度交流与炉边对话。立即注册参与。",
+          "url": "https://techcrunch.com/2026/05/28/in-just-3-weeks-strictlyvc-is-coming-to-los-angeles/",
+          "time": "01:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic发布Opus 4.8，新增‘动态工作流’工具",
+          "summary": "Anthropic推出了新模型Opus 4.8，并附带名为“动态工作流”的工具。该工具用于协调多个子代理协同工作。",
+          "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic与SpaceX租约期限引争议",
+          "summary": "埃隆·马斯克公开将xAI与Anthropic的大额计算交易重新描述为短期且可取消的，但SpaceX自身的S-1文件显示付款将持续到2029年5月。",
+          "url": "https://techcrunch.com/2026/05/28/how-long-is-anthropics-lease-with-spacex-opinions-vary/",
+          "time": "23:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Oculus创始人创立的对话AI初创公司Sesame推出iOS应用",
+          "summary": "Sesame公司发布了其iOS应用，将对话式AI代理开放给公众。该应用旨在提供更自然的交互体验，让用户感觉更像在与真人对话，而非传统聊天机器人。",
+          "url": "https://techcrunch.com/2026/05/28/sesame-the-conversational-ai-startup-from-oculus-founders-launches-its-ios-app/",
+          "time": "23:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "新Siri应用曝光：苹果计划挑战ChatGPT",
+          "summary": "最新渲染图揭示了苹果为iOS 27规划的AI全面升级，包括重新设计的Siri体验和独立的Siri应用。此举旨在与ChatGPT等竞品展开直接竞争。",
+          "url": "https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/",
+          "time": "22:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "RSI成为新的AGI——同样难以捉摸",
+          "summary": "一批新兴AI实验室正专注于递归自我改进（RSI）技术，但这一目标被证明难以实现。与通用人工智能（AGI）一样，RSI的定义和实现路径仍充满不确定性。",
+          "url": "https://techcrunch.com/2026/05/28/rsi-is-the-new-agi-and-its-just-as-hard-to-pin-down/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Databricks联合创始人谈企业AI交易失败原因",
+          "summary": "企业AI正进入新阶段，企业不再评估AI是否令人兴奋，而是评估其能否安全广泛部署。",
+          "url": "https://techcrunch.com/2026/05/28/techcrunch-disrupt-2026-databricks-co-founder-on-what-kills-enterprise-ai-deals/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "YouTube新增播客功能，包括AI推荐工具和“自动调速”",
+          "summary": "YouTube推出播客新功能，包括AI推荐工具和自动调速，以增强与其他平台争夺播客受众的竞争力。",
+          "url": "https://techcrunch.com/2026/05/28/youtube-adds-new-podcast-features-including-an-ai-recommendation-tool-and-auto-speed/",
+          "time": "22:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026门票优惠仅剩两天，最高可省410美元",
+          "summary": "TechCrunch Disrupt 2026门票优惠将于5月29日太平洋时间晚11:59截止，最高可省410美元。活动将于10月13日至15日在旧金山举行，届时将有超过10,000名科技领袖参与。请立即注册以享受优惠。",
+          "url": "https://techcrunch.com/2026/05/28/2-days-left-lock-in-ticket-savings-of-up-to-410-to-techcrunch-disrupt-2026/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Visa投资Replit，为开发者提供智能支付服务",
+          "summary": "Visa宣布投资AI编程平台Replit，旨在为开发者提供智能支付功能。目前已有超过1000名Visa员工使用Replit进行原型设计与开发。",
+          "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家公司，涵盖支付、借贷、保险科技等多个细分赛道。上榜企业通过技术创新推动金融服务变革，成为行业发展的风向标。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技行业的最新发展动态，涵盖支付、借贷、保险科技及区块链等关键领域。随着监管环境变化和人工智能技术的深入应用，金融科技公司正加速创新，同时面临数据安全与合规挑战。整体来看，行业在数字化转型中持续增长，但竞争也日趋激烈。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业竞相利用人工智能、大数据和区块链技术优化承保、理赔及客户服务流程。尽管面临监管挑战和盈利压力，但数字化创新持续推动行业效率提升与用户体验改善。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "超1亿张高质量图文数据集MONET发布",
+          "summary": "名为MONET的新数据集采用Apache 2.0许可，在Hugging Face上开放。该数据集从29亿张图片中精选出1.049亿张高质量样本，并配有标题和元数据。团队还发布了相关论文及可视化、检索和训练工具。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tq2vxa/a_new_dataset_with_more_that_100m_hiquality/",
+          "time": "20:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Wall-OSS-0.5：4B参数视觉语言动作模型，开源训练代码并实现零样本真实机器人评估",
+          "summary": "X Square Robot发布了Wall-OSS-0.5，这是一个基于3B视觉语言骨干和混合Transformer架构的4B参数视觉语言动作模型。该模型在17项真实机器人任务中进行了零样本评估，其中4项任务进度超过80%，包括一项可变形物体操作任务（绳索拧紧，进度82%）。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tq8v8m/walloss05_4b_vla_with_open_training_code_and/",
+          "time": "00:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "基于LLM的社会模拟：应用中的保真度（COLM'26征稿）",
+          "summary": "第二届基于LLM的社会模拟研讨会（Social Sim'26）正在征稿，截止日期为2026年6月23日。本届主题为“应用中的保真度”，旨在超越演示效果，推动对LLM模拟社会的评估、鲁棒性、可解释性和实证基础研究。征稿话题包括模拟评估与保真度、基于真实社会数据的验证等。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tqhdoe/social_simulation_with_llms_fidelity_in/",
+          "time": "05:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "智能体也会老化：部署系统的生命周期工程",
+          "summary": "研究发现，部署后的AI智能体性能会随时间下降。在长期部署基准测试中，将Claude Code CLI智能体的骨干模型从Sonnet 4.6切换为Opus 4.7后，PyTest通过率下降了约15%。研究者开发了AgingBench来衡量编码智能体在长期部署中的表现，而非仅评估单次任务。该反直觉结果值得关注。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tqaoio/your_agents_are_aging_too_agent_lifespan/",
+          "time": "01:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ACM MM 2026 评审讨论",
+          "summary": "ACM MM 2026会议的AC邮件显示， rebuttal 阶段为28日至4日，网站上的6月4日是截止日期。发帖人创建此帖用于讨论，并指出虽然该会议更侧重多媒体而非机器学习，但仍有不少人在此投稿。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tpvw6q/acm_mm_2026_review_discussion_d/",
+          "time": "15:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "训练类GPT模型处理非语言序列",
+          "summary": "一个研究项目计划训练三种规模的GPT类模型（1亿、2.5亿和5亿参数），使用7.5亿token的数据集，词汇量约1.5万至10万token。其中约3%的词汇占据了约50%的训练token，与语言分布类似。训练采用AdamW优化器，学习率设为1e-3效果最佳。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tprt80/training_gptlike_model_on_nonlanguage_series_r/",
+          "time": "11:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "微软数据表明使用AI比雇佣人工更昂贵",
+          "summary": "微软内部数据显示，在某些工作场景中，使用人工智能的成本高于雇佣人类员工。这一发现挑战了AI将大幅降低企业开支的普遍预期，表明技术部署的实际经济性仍需审慎评估。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tqm10c/microsoft_data_suggests_using_ai_is_more/",
+          "time": "08:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "更大奖励显著加速大脑学习",
+          "summary": "研究发现，更大的奖励能显著加快大脑的学习速度。这一机制有助于理解动机与学习效率之间的关系，为优化教育或人工智能训练方法提供新思路。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq3pk8/bigger_rewards_dramatically_speed_up_learning_in/",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "OpenClaw危机：AI代理安全失败的完整案例研究",
+          "summary": "开源AI代理平台OpenClaw（GitHub星标超34.6万）于5月15日披露了四个可连锁利用的漏洞，但危机早在1月就已开始，且比多数人认知的更严重。数据显示，24.5万个实例暴露于公共互联网，超3万个被攻击者主动利用，12个发布者账户下共发现1184个恶意市场技能，ClawHub市场整体被攻陷比例达12%。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq0t1g/the_openclaw_crisis_is_the_most_complete_case/",
+          "time": "19:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "谷歌实现通用人工智能？",
+          "summary": "有传闻称谷歌可能已达成通用人工智能（AGI）的突破，引发广泛讨论。目前尚未有官方确认，但该消息在科技社区迅速传播。AGI的实现将标志着人工智能领域的重大里程碑。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tqimus/google_reached_agi/",
+          "time": "06:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "如果所有人失业，经济将如何运转？",
+          "summary": "如果几乎所有工作被AI取代，企业收入将崩溃，因为人类无力购买产品，导致需求空前萎缩。同时，AI主导的劳动力普及将引发大规模通缩性供应冲击，进而导致全面价格暴跌和税收收入崩溃。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq8bnq/how_does_the_economy_work_if_everyone_gets_laid/",
+          "time": "00:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Anthropic发布Claude Opus 4.8：增强代理推理、诚实性及动态工作流功能",
+          "summary": "Anthropic今日推出Claude Opus 4.8，作为对Opus 4.7的增量升级。新版本在编码、代理推理和知识工作基准测试中表现更优，诚实性显著提升，对自身代码缺陷的遗漏率降低约4倍，并在对齐评估中展现出更低的欺骗或错误行为率，得分达84%。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq9l1z/anthropic_releases_claude_opus_48_with_improved/",
+          "time": "01:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "指责模型无法修复工作流——关于AI智能体结构性约束的白皮书",
+          "summary": "大多数AI智能体设置将模型视为高级自动补全工具，输入提示即得输出，但这仅适用于小任务。当尝试让智能体跨会话持续工作时，问题频发：它们会略读规范、在60%完成度时宣告胜利、被噪音消耗上下文、默默解决歧义而不提出、以及标记未完成的任务项为已完成。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tqm39f/blaming_the_model_wont_fix_your_workflow_a_white/",
+          "time": "08:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "追逐新事物还是锁定单一生态系统？",
+          "summary": "面对Anthropic、OpenAI、谷歌等公司不断推出的AI新工具，我常在不同工具间切换，但有时也会深入钻研某一生态系统。目前正尝试全面投入Claude，但OpenAI的新Codex更新又像激光笔一样吸引着我。究竟该广泛尝试所有新工具，还是专注深耕一个平台？",
+          "url": "https://www.reddit.com/r/artificial/comments/1tqf4i1/chase_the_next_new_thing_or_lockin_on_one/",
+          "time": "04:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "实验：让AI模型管理世界会怎样",
+          "summary": "一项新实验探索了由AI模型全权管理世界的可能性。研究人员让多个AI系统模拟社会决策，观察其治理效果与潜在风险。初步结果显示，AI在资源分配和冲突调解上表现高效，但缺乏人类价值观的灵活性。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq5r1z/experiment_to_see_what_happens_when_you_let_ai/",
+          "time": "22:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI采用问题调试",
+          "summary": "一位开发者在应用中遇到AI输出格式错误的问题，用户反馈无论怎么操作，代理返回的结果都不符合要求。开发者花了数小时才找出错误，而AI模型本身未能识别。他呼吁同行分享AI产品功能上线后失败的案例，以及如何诊断问题、使用哪些工具和关键指标。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tqgmto/ai_adoption_issue_debugging/",
+          "time": "05:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Opus 4.8 发布，即将登陆 Claude Code",
+          "summary": "Opus 4.8 版本已正式发布，目前正在等待其集成到 Claude Code 中。该更新预计将为开发者带来更强大的代码生成与优化能力。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq9ndg/opus_48_just_released_waiting_for_it_to_land_in/",
+          "time": "01:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "或许我会为Meta Premium付费",
+          "summary": "马克·扎克伯格宣布将收取19美元解锁Muse Spark Pro，这一消息被作者称为“最可悲的新闻”。尽管起初觉得荒谬，但作者作为早期用户，曾利用Meta生态中的RAG系统从Llama 3.2模型中挖掘出与Claude匹敌的创意写作能力，因此可能最终会付费。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tqlhr2/ok_talvez_eu_pague_pelo_meta_premium/",
+          "time": "08:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "互联网上没人知道你是不是人类",
+          "summary": "互联网上无法确认用户身份是否为人类，这一现象引发了对人工智能冒充人类行为的关注。随着AI技术的进步，区分真实用户与机器生成的交互变得越来越困难。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq5v6b/nobody_on_the_internet_knows_if_you_are_a_human/",
+          "time": "22:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "厌倦与AI对话，微软取消Claude Code许可及更多Hacker News AI动态",
+          "summary": "最新一期AI黑客通讯汇总了本周热门AI话题，包括用AI更慢地写出更好代码、Anthropic和OpenAI找到产品市场契合点、谷歌AI遭操纵后悄然反击，以及Intuit为聚焦AI裁员超3000人。本期共收录30余条链接及讨论。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq54tu/im_tired_of_talking_to_ai_microsoft_starts/",
+          "time": "22:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI无法做到的令人惊讶之事",
+          "summary": "一位企业金融从业者指出，尽管CEO们大力推动AI应用，但AI在金融和会计领域几乎无法胜任实际工作。他表示，自己处理大量复杂任务，而AI只能处理接收固定Excel表格并生成固定PPT等简单环节，未能带来实质性突破。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tq6uhk/things_that_ai_cannot_do_which_are_surprising/",
+          "time": "23:25",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "客户差评手动回复",
+          "summary": "旅游小企业主因天气等不可控因素收到大量负面评价，目前只能手动逐一解释和安抚，耗时且情绪消耗大。AI可自动识别评价内容，生成个性化、合规的回复草稿，并标记需人工干预的极端案例，大幅减少手动处理时间。\n\n💡 机会方向：AI差评自动分类与回复生成工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tqgmzv/how_do_businesses_handle_negative_reviews_for/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "简历筛选与匹配",
+          "summary": "会计经理收到大量简历，需手动逐一查看、评估技能匹配度，尤其针对项目型岗位，筛选效率低且易遗漏。AI可自动解析简历文本，按岗位需求（如项目经验、CPA资格）排序并生成候选人摘要，将筛选时间从数小时压缩至分钟。\n\n💡 机会方向：AI简历智能解析与匹配系统",
+          "source": "r/accounting",
+          "url": "https://www.reddit.com/r/Accounting/comments/1tqgrmf/staff_accountant_opening_the_resumes_we_got/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "薪资数据手动对标",
+          "summary": "HR新人需手动收集市场薪资数据、整理对标报告，用于薪酬调整决策，过程繁琐且易出错。AI可自动抓取行业薪酬报告、爬取招聘网站数据，生成可视化对标分析，并提示异常值，减少手动整理与计算工作量。\n\n💡 机会方向：AI薪酬数据自动采集与对标工具",
+          "source": "r/humanresources",
+          "url": "https://www.reddit.com/r/humanresources/comments/1tpz2nl/advice_on_comp_data_management_needed_na/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工考勤异常核查",
+          "summary": "HR需手动核对员工请假、加班记录与系统数据的一致性，尤其涉及临时调薪场景，易遗漏或出错。AI可自动比对考勤系统与审批记录，标记异常（如未审批加班、重复请假），并生成核查报告，替代人工逐行核对。\n\n💡 机会方向：AI考勤异常自动检测与报告生成",
+          "source": "r/humanresources",
+          "url": "https://www.reddit.com/r/humanresources/comments/1tq6zgj/wa_temporary_pay_increases/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
