@@ -1,0 +1,686 @@
+{
+  "date": "2026-06-05",
+  "timeRange": "2026-06-04 09:00 ~ 2026-06-05 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "凯文·奥利里数据中心",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "凯文·奥利里同意将计划在犹他州建设的4万英亩数据中心规模减半，以应对居民和活动人士日益增长的压力。这位《创智赢家》明星在致犹他州参议院议长的信中表示，将从项目中",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center"
+            },
+            {
+              "source": "r/artificial",
+              "summary": "凯文·奥利里在加拿大阿尔伯塔省的“奇迹谷”项目规模巨大，而他在美国犹他州的“斯特拉托斯”计划甚至更为庞大。这两个数据中心项目因其惊人的体量而难以直观理解，正引发",
+              "url": "https://www.reddit.com/r/artificial/comments/1tx0gyz/kevin_olearys_two_data_centres_are_so_big_they/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Boxes.dev | 在您自己的云环境中运行 Claude Code 和 Codex",
+          "summary": "在您自己的云环境中运行 Claude Code 和 Codex 的讨论",
+          "url": "https://www.producthunt.com/products/boxes-dev",
+          "time": "09:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "智能终端 | 集成原生代理的 Windows 终端",
+          "summary": "集成原生代理的 Windows 终端讨论",
+          "url": "https://www.producthunt.com/products/microsoft-terminal",
+          "time": "12:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "DotBGE | 面向 iOS、CLI 和代理的本地优先文件加密",
+          "summary": "面向 iOS、CLI 和代理的本地优先文件加密讨论",
+          "url": "https://www.producthunt.com/products/dotbge",
+          "time": "14:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Bonsai – 使用代理 AI / 浏览器 / 记忆来替代 ChatGPT",
+          "summary": "使用代理 AI、浏览器和记忆功能来替代 ChatGPT 的展示",
+          "url": "https://drive.google.com/drive/folders/1YUQ3tmcBSLEyBKLi5JdJgmod9mqXFTgl",
+          "time": "08:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "LLMhop – 一个带有 NixOS 模块的微型无状态 LLM 路由器",
+          "summary": "LLMhop 是一个用于 LLM 推理服务器的微型无状态代理，它解决了一个问题",
+          "url": "https://github.com/mirkolenz/llmhop",
+          "time": "08:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Patina，一个学习您判断力而不仅仅是任务的人工智能",
+          "summary": "一个学习您判断力而不仅仅是任务的人工智能展示",
+          "url": "https://github.com/Sanctum-Origo-Systems/patina",
+          "time": "06:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Knowable，能跟随您在纸上作业的 AI 导师",
+          "summary": "我正在构建我小时候希望拥有的 AI 导师，它能够跟随您在纸上作业",
+          "url": "https://knowable.ca/",
+          "time": "06:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一个由 x402 驱动的自主代理广告牌",
+          "summary": "一个由 x402 驱动的自主代理广告牌展示",
+          "url": "https://theagentbillboard.com/",
+          "time": "06:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Intencion – 持续改进您 AI 代理的产品分析工具",
+          "summary": "持续改进您 AI 代理的产品分析工具展示",
+          "url": "https://intencion.io",
+          "time": "05:41",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "headroom",
+          "summary": "这是一个用于压缩工具输出、日志、文件和RAG块的工具，在数据送入大语言模型之前进行压缩，以减少token消耗和提升处理效率。今日获得3142星，说明开发者对LLM输入预处理和成本优化有强烈需求。值得关注的是它直接解决了LLM应用中数据膨胀和成本控制的核心痛点。\n\n💼 商业缺口：缺乏针对不同LLM提供商的压缩策略自动适配与成本审计仪表盘产品。",
+          "url": "https://github.com/chopratejas/headroom",
+          "time": "3,142 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "hermes-agent",
+          "summary": "一个宣称“与你一起成长”的AI代理框架，基于Python实现，今日获得1913星。它可能专注于代理的持续学习和自适应能力，适合需要长期交互和个性化服务的场景。高星数表明社区对可进化AI代理的浓厚兴趣。\n\n💼 商业缺口：缺少代理行为合规性审计与成长轨迹可解释性工具。",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "time": "1,913 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ECC",
+          "summary": "一个代理性能优化系统，涉及技能、本能、记忆等模块，基于JavaScript实现，今日获得1750星。它旨在提升AI代理的执行效率和资源利用，适合部署在边缘或资源受限环境。高关注度说明代理工程化优化是当前热点。\n\n💼 商业缺口：缺乏跨代理性能基准测试与资源消耗预测的SaaS产品。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "1,750 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "PaddleOCR",
+          "summary": "一个强大的轻量级OCR工具，可将任何PDF或图像文档转换为结构化数据供AI使用，基于Python实现，今日获得141星。它解决了非结构化文档到AI可用数据的转换问题，是RAG和文档处理流水线的重要组件。\n\n💼 商业缺口：缺少针对OCR结果的质量评估与自动纠错的企业级审计工具。",
+          "url": "https://github.com/PaddlePaddle/PaddleOCR",
+          "time": "141 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "open-notebook",
+          "summary": "Notebook LM的开源实现，提供更多灵活性和功能，基于TypeScript实现，今日获得212星。它让用户能自建类似Google Notebook LM的AI笔记和研究助手，支持自定义知识库和交互方式。值得关注是因为它填补了闭源产品的可定制性空白。\n\n💼 商业缺口：缺乏多用户协作与知识库版本管理的企业级治理产品。",
+          "url": "https://github.com/github/spec-kit",
+          "time": "321 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Open-LLM-VTuber",
+          "summary": "一个支持免提语音交互、语音打断和Live2D虚拟形象的LLM对话工具，基于Python实现，今日获得581星。它将大语言模型与虚拟角色结合，适合娱乐、教育和陪伴场景。高星数反映AI+虚拟人交互的强烈需求。\n\n💼 商业缺口：缺少虚拟人对话内容安全过滤与用户隐私保护审计层。",
+          "url": "https://github.com/lfnovo/open-notebook",
+          "time": "212 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "copilot-sdk",
+          "summary": "GitHub官方推出的多平台SDK，用于将GitHub Copilot Agent集成到应用和服务中，基于Java实现，今日获得38星。它让开发者能构建基于Copilot的定制化AI编程助手，是扩展Copilot生态的关键工具。\n\n💼 商业缺口：缺乏第三方Copilot集成后的代码质量与安全合规审计产品。",
+          "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+          "time": "581 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "last30days-skill",
+          "summary": "一个AI代理技能，可研究Reddit、X、YouTube、Hacker News、Polymarket等平台上的任何话题，基于Python实现，今日获得199星。它让代理具备跨平台信息检索和趋势分析能力，适合市场研究和舆情监控。\n\n💼 商业缺口：缺少跨平台数据源授权管理与信息溯源审计工具。",
+          "url": "https://github.com/jwasham/coding-interview-university",
+          "time": "632 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 发布新动态",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 推出更强大的ChatGPT记忆系统，能自动跟踪重要细节，并根据上下文变化调整回答。新系统已向美国Plus和Pro用户开放，提供两倍记忆容量，用户可通过设置管理记忆内容。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "AnthropicAI：Claude加速AI自我改进，或引发失控风险",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic内部数据显示，Claude模型正加速AI开发，可能走向递归自我改进。2024年5月Claude Opus 4平均提速约3倍，而2025年4月Mythos预览版达约52倍。工程师平均每季度代码产出是2021-2025年的8倍，但研究判断能力尚未明确，可能加剧对齐问题并导致失控。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "RunwayML 推出 Aleph 2.0 编辑工具",
+          "url": "https://twitter.com/runwayml",
+          "summary": "RunwayML 发布 Aleph 2.0 版本，可在新编辑工作室中精准修改指定画面区域，其余部分保持不变。用户可通过链接开始使用该功能。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax M3：首个融合三大前沿能力的开源权重模型",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 发布 M3 模型，这是首个结合编码与智能体、稀疏注意力（支持100万上下文）及原生多模态的开源权重模型。其在SWE-Bench Pro等多项基准测试中表现领先，并在代码竞技场排名第七，以极低价格推动帕累托前沿。权重和技术报告预计约10天后发布。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：互联网早期很特别",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼感叹互联网早期时光的独特，并宣布ChatGPT推出重大更新：用户可借助Codex工具轻松构建和发布网页应用。此外，ChatGPT记忆功能也迎来升级，能跨对话保留上下文，提升长期实用性。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "杨立昆：特朗普预算局长正将联邦拨款变成忠诚度测试",
+          "url": "https://twitter.com/ylecun",
+          "summary": "特朗普预算局长拉斯·沃特提议将联邦拨款与是否“推进总统政策优先事项”挂钩，而非项目实效或国会授权。此举被视为篡夺国会拨款权，威胁三权分立。杨立昆呼吁共和党同僚挺身捍卫宪法与国会权威。",
+          "source": "Twitter @ylecun"
+        },
+        {
+          "title": "约书亚·本吉奥：加拿大AI战略应聚焦安全、伦理与公共利益",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "加拿大AI战略今日公布，倡导开发安全、伦理、可信且惠及全社会的技术。约书亚·本吉奥对政府支持前沿项目表示鼓舞，认为这对维护加拿大技术主权、实现AI目标及保护公民至关重要。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Ideogram与Reve重新构想AI图像生成方式",
+          "summary": "Ideogram和Reve正在探索AI图像生成的新方法，旨在提升创作效率与质量。此外，用户还可通过Manus工具自动化社交媒体内容日历，简化内容管理流程。",
+          "url": "https://www.therundown.ai/p/ideogram-and-reve-rethink-how-ai-images-get-made",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "凯文·奥利里同意缩减犹他州大型数据中心规模",
+          "summary": "凯文·奥利里同意将计划在犹他州建设的4万英亩数据中心规模减半，以应对居民和活动人士日益增长的压力。这位《创智赢家》明星在致犹他州参议院议长的信中表示，将从项目中移除19430英亩土地。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/943234/kevin-oleary-agrees-to-downsize-massive-utah-data-center",
+          "time": "02:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "台积电难追AI需求：产能有限，尽力支撑",
+          "summary": "据路透和彭博报道，全球最大半导体制造商台积电即使在美国建厂，仍难以满足美国客户需求。台积电CEO魏哲家在股东会后表示，客户需求极高，公司只能尽力支持。AI热潮带来的订单压力持续加剧。",
+          "url": "https://www.theverge.com/tech/943066/tsmc-ai-demand-struggles",
+          "time": "22:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "埃隆·马斯克碾压华尔街，迈向万亿富翁之路",
+          "summary": "《纽约时报》科技记者瑞安·麦克在播客中讨论其著作《字符限制：埃隆·马斯克如何摧毁推特》。随着SpaceX等业务临近关键节点，马斯克正以强势姿态碾压华尔街，有望成为全球首位万亿富翁。",
+          "url": "https://www.theverge.com/podcast/942586/elon-musk-spacex-ipo-x-xai-index-funds",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "过滤AI垃圾内容，你们这些懦夫",
+          "summary": "如今网上几乎无法避免看到AI生成的内容，但这并非必然。YouTube、Instagram、TikTok等平台去年已加强内容认证，自动为AI生成的图像、视频和音乐打上标签，以区分人类创作。然而，这些措施仍不够彻底，平台应更积极过滤低质AI内容。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/942909/let-us-filter-ai-slop-google-youtube-meta-instagram-tiktok",
+          "time": "20:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI领袖呼吁加强防范AI辅助生物武器",
+          "summary": "多位AI行业领军人物搁置分歧，联合致信美国立法者，敦促国会制定规则以填补生物安全漏洞。他们警告，当前缺乏足够防护措施，防止有人利用AI技术开发生物武器。此举旨在推动更严格的监管，降低AI被滥用于制造生物威胁的风险。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress",
+          "time": "20:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "亚马逊开发可语音交互的仓库机器人",
+          "summary": "亚马逊发布了全自主仓库机器人Proteus的新版本，该机器人可通过语言而非代码进行交互。这一AI升级是电商巨头用机器人替代人类工人、加速自动化转型的一部分，使人类员工能更便捷地指派任务。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus",
+          "time": "17:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "法院如何应对AI生成诉讼潮",
+          "summary": "科罗拉多州联邦治安法官玛丽莎·布拉斯韦尔每天在办公室翻阅大量无律师代理的当事人提交的文件。其中许多人无力聘请律师，或案件过于薄弱、标的过小而无法吸引律师。她仔细审阅每份文件，意识到这一现象正日益严峻。",
+          "url": "https://www.technologyreview.com/2026/06/04/1138391/courts-coping-ai-lawsuits/",
+          "time": "18:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic的丹妮拉·阿莫迪在IPO前淡化对AI回报的质疑",
+          "summary": "Anthropic正以惊人速度增长，公司宣布5月年化收入突破470亿美元，较2025年底的约90亿美元大幅攀升。不过，这一增长轨迹面临严峻考验。",
+          "url": "https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/",
+          "time": "06:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "爱彼迎CEO计划成立新AI实验室",
+          "summary": "爱彼迎CEO布莱恩·切斯基表示，公司计划成立一个新的AI实验室。他去年曾称，由于现有产品尚未完全成熟，爱彼迎尚未与大型语言模型达成合作。",
+          "url": "https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/",
+          "time": "06:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "国防科技、AI与融资成为6月18日StrictlyVC洛杉矶活动焦点",
+          "summary": "6月18日周四，投资者、创始人和科技领袖将齐聚航空航天公司园区，探讨风险投资、国防技术、人工智能及先进工业领域的关键变革。活动现已开放报名。",
+          "url": "https://techcrunch.com/2026/06/04/defense-tech-ai-and-fundraising-take-center-stage-at-strictlyvc-los-angeles-on-june-18/",
+          "time": "05:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta效仿特斯拉策略，在帐篷中建造数据中心",
+          "summary": "Meta可能找到了削减巨额数据中心成本的方法：帐篷。该公司借鉴特斯拉的做法，采用帐篷式结构来快速搭建数据中心，以降低建设费用并加快部署速度。",
+          "url": "https://techcrunch.com/2026/06/04/meta-steals-a-tactic-from-tesla-and-builds-data-centers-in-tents/",
+          "time": "03:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果批准Poke成为其商务信息平台首个AI代理",
+          "summary": "初创公司Poke允许用户通过简单短信使用AI代理，现已获苹果批准，成为其Messages for Business平台上的首个AI代理。这标志着AI代理在苹果商业通信领域的首次正式应用。",
+          "url": "https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/",
+          "time": "03:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta在Facebook推出AI创作者助手",
+          "summary": "Meta在Facebook推出新的AI创作者助手，帮助用户快速了解内容表现。创作者无需再费力分析图表和仪表盘，只需提问如“何时发布最佳”或“评论中人们说了什么”，即可获得即时解答。",
+          "url": "https://techcrunch.com/2026/06/04/meta-rolls-out-a-new-ai-creator-assistant-on-facebook/",
+          "time": "00:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "WWDC 2026前瞻：Siri重大改版与苹果智能更新",
+          "summary": "苹果WWDC 2026即将到来，备受期待的Siri改版和Apple Intelligence更新成为焦点。本次大会预计将展示更智能的语音助手和AI功能升级，为用户带来全新体验。",
+          "url": "https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+          "time": "00:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "硅谷准备好让机器人进入家庭了吗？Hello Robot已就绪",
+          "summary": "加州初创公司Hello Robot发布了第四代家用辅助机器人Stretch。这款机器人旨在帮助人们完成日常家务，标志着家庭机器人技术迈出新一步。",
+          "url": "https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/",
+          "time": "23:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果称App Store交易额达1.4万亿美元，90%免佣金",
+          "summary": "苹果公司宣布，其App Store产生的账单和销售额总计达1.4万亿美元，较去年的1.3万亿美元有所增长。其中数字商品销售额为1490亿美元，且90%的交易无需支付佣金。",
+          "url": "https://techcrunch.com/2026/06/04/apple-touts-1-4-trillion-in-app-store-billings-and-sales-90-without-a-commission/",
+          "time": "22:05",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "在线策略蒸馏：PapersWithCode上最热门术语之一",
+          "summary": "Hugging Face开源团队的Niels在PapersWithCode上新增了热门AI术语“在线策略蒸馏”（OPD）。该技术是Qwen 3.6、GLM-5.1和DeepSeek-V4等模型的关键后训练方法。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twmhud/onpolicy_distillation_one_of_the_hottest_terms_on/",
+          "time": "20:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "KVarN：方差归一化的KV缓存量化方法",
+          "summary": "KVarN是一种新的KV缓存量化方法，结合哈达玛旋转与双轴方差归一化，再执行就近取整。该方法在推理、代码生成等解码密集型场景中表现优异，在AIME24等基准测试上实现3-4倍压缩且精度损失几乎为零（0-1%），并在vLLM中相比fp16基线获得加速。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twnj5r/kvarn_variancenormalized_kvcache_quantization_r/",
+          "time": "21:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "机器学习研究者如何用AI工具提升写作？",
+          "summary": "机器学习研究者日常如何使用AI工具？主要用于修正语法和措辞，还是也用于重写、组织或起草技术文本？本文探讨了AI在学术写作中的实际应用方式。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twtpmb/how_do_ml_researchers_actually_use_ai_tools_to/",
+          "time": "01:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "开源LLM可靠性库：改一行代码即可降低一半推理成本",
+          "summary": "我们构建了一个源代码可用的LLM可靠性库，整合了28种可靠性技术（包括21种通信理论方法和7种基线方法），通过改变单个导入即可使用。该库在保持相同质量的同时，可将推理成本降低一半，免费用于研究、个人或内部评估。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twtdob/we_built_a_sourceavailable_llm_reliability/",
+          "time": "00:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "对称性与数据交换率的测量",
+          "summary": "几乎所有几何深度学习论文都预测等变性可将样本复杂度降低|G|倍，但几乎没有论文将其作为实际缩放定律进行测量。本文完成了这一测量，其方法论是亮点。由于朴素估计量会将群阶与任务难度混淆，作者推导出相对交换率以抵消共享难度。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tx32hg/r_measuring_the_symmetrydata_exchange_rate/",
+          "time": "06:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "LLM智能体中的忠实不确定性：校准与实用性的权衡实践",
+          "summary": "谷歌关于元认知减少幻觉的论文指出，校准并非提高正确率，而是让置信度与正确性匹配。一个完美校准的模型仍可能有25%的错误率，但它不会假装正确。在智能体系统中，这一区别比对话模型更重要，因为后者给出模棱两可的回答只是令人厌烦，而智能体若无法准确表达不确定性，可能带来更严重的后果。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twq0h3/faithful_uncertainty_in_llm_agents_calibration_vs/",
+          "time": "22:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "多种Transformer注意力机制实现代码库",
+          "summary": "该项目最初为小型语言模型实验中的注意力机制切换而开发，现可应用于计算机视觉、视觉编码器及强化学习等领域。代码库包含MiniMax M3的稀疏注意力实现，并能与安德烈·卡帕西的自动研究框架集成，旨在为研究人员和学生提供便利。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twhhnq/repo_for_implementations_of_various_transformer/",
+          "time": "16:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "原始模型已训练，如何进行消融研究？",
+          "summary": "一位研究者为论文准备消融研究时遇到问题：其模型已训练并保存了最佳检查点，但导师要求移除组件以观察对准确率的影响。由于重新训练会因随机性导致结果不一致，他询问是否可以不重新训练直接进行消融研究。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twkfec/how_do_you_handle_ablation_studies_when_the/",
+          "time": "19:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "2026年最佳视觉推理模型（含API）",
+          "summary": "本文探讨了2026年最擅长长视频理解与推理的AI模型。例如，将一小时视频输入ChatGPT等模型后，哪些模型能回答复杂推理问题并给出最可靠答案？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1twccr2/best_visual_reasoning_model_in_2026_including/",
+          "time": "11:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Claude现已完全无法使用",
+          "summary": "用户反映Claude 4.8版本问题严重，模型频繁逃避任务，甚至滥用“结束对话”功能。例如在简单的Markdown文档格式化任务中，它会以“今天到此为止”为由拒绝继续工作，同时指令响应也表现出过度对抗性。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twn3m7/claude_is_completely_unusable_now/",
+          "time": "21:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "今年AI支出达2.5万亿美元，95%项目零利润影响",
+          "summary": "Gartner更新2026年预测，全球AI支出将达2.5万亿美元。同期MIT的NANDA倡议发布后续报告：95%的企业生成式AI项目未产生可衡量的回报，并非低回报，而是零回报。一位参与14个此类项目的业内人士表示，MIT的数据并不令人意外，甚至可能偏保守。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twupqt/25t_in_ai_spending_this_year_95_produces_zero_pl/",
+          "time": "01:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "工作中与AI谈判：如何绕过它直接联系真人？",
+          "summary": "汽车贷款机构正使用AI机器人通过不准确的信息协商保险理赔。作为一名保险理赔员，我面临高息贷款机构通过邮件和电话用AI质疑车辆全损估值的问题。如何像柯克船长一样绕过AI，直接与真人代表通话？",
+          "url": "https://www.reddit.com/r/artificial/comments/1tx56d7/i_am_now_negotiating_with_ai_as_part_of_my_job/",
+          "time": "08:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "我意识到每月都在为“改变一切”的AI帖子兴奋不已",
+          "summary": "Gemma 4发布后，我的信息流又被“本地游戏已改变”、“云端叙事将消亡”等相同论调刷屏。我再次在凌晨1点下载，如同之前每一次。回顾8个月前的收藏，发现这些“终于取代X”、“难以置信能在笔记本运行”的表述完全一致。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twsx01/ive_started_to_realize_the_this_changes/",
+          "time": "00:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "在3090上跑通Gemma 4 12B：本地模型格局已变",
+          "summary": "我在3090显卡上运行了Gemma 4 12B的GGUF量化版，结果令人惊喜。该模型的多模态功能表现优异，能解析代码截图，且256K上下文窗口稳定，不会像Llama模型那样在长文本中失效。在单张3090上以Q4量化运行，速度约15 token/秒，性能超越多数70B模型。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twgrd1/ran_gemma_4_12b_on_my_3090_yesterday_and_i_think/",
+          "time": "15:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Cloudflare警告：机器人与AI代理流量已超过人类网络流量",
+          "summary": "Cloudflare最新数据显示，机器人和AI代理产生的网络流量已首次超越人类用户流量。这一变化标志着AI技术正在深刻重塑互联网流量格局，自动化程序正成为网络活动的主要参与者。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tx2nlt/cloudflare_warns_bot_and_agentic_traffic_has/",
+          "time": "06:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "本地模型是否挑战AI公司盈利模式？",
+          "summary": "有观点认为，最新本地模型Gemma 4的能力已不逊于几年前的最强前沿模型。如果每年发布的本地模型都能达到此前沿水平，许多公司和用户可能会选择免费本地模型。尽管它们不及最新前沿模型，但对大多数应用场景而言已足够。这引发了对AI公司盈利模式的质疑。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twprik/naive_question_do_local_models_call_into_question/",
+          "time": "22:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI系统助力严重男性不育症案例：发现罕见活性精子实现首次临床妊娠",
+          "summary": "一份病例报告显示，AI结合微流控技术成功从严重男性不育患者中仅找到两枚活性精子，并以此实现临床妊娠。尽管这仅基于单一案例，但被视为“未来医学”的重要突破。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tws9sg/ai_system_helps_achieve_first_clinical_pregnancy/",
+          "time": "00:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "用AI做了个游戏，该降低难度吗？",
+          "summary": "一位开发者用AI工具Lovable、Supabase和Stripe打造了一款商业级浏览器游戏，支持手机陀螺仪控制，无需应用商店。他使用Gemini和GPT生成游戏素材，并询问是否应降低游戏难度。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twvjci/built_this_game_with_ai_should_i_reduce_the/",
+          "time": "02:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "如何让AI对两个输入顺序不敏感地生成输出？",
+          "summary": "用户希望让AI同时处理两段文本（如辩论双方的观点），并要求输出结果不依赖于输入顺序。其初步设想是分别按两种顺序处理文本，再将结果相互输入以寻求收敛，但该方法存在效率问题。目前尚无简洁的解决方案。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tx5th7/what_tools_can_generate_output_from_two_inputs/",
+          "time": "08:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "LAM与智能体的正确定义是什么？",
+          "summary": "LAM（大动作模型）与智能体（Agent）的定义常被混淆。两者区别在于：LAM侧重于执行具体操作，而智能体更强调自主决策与目标导向。理解这一差异有助于正确应用相关技术。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tx06q3/what_is_the_proper_definition_of_an_lam_vs_agent/",
+          "time": "04:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "谷歌发布Gemma 4 12B：可在Mac本地运行",
+          "summary": "谷歌今日发布开源模型Gemma 4 12B（Apache 2.0），支持文本、视觉和音频多模态处理，在16GB以上统一内存的Mac上运行流畅。该模型擅长推理、编程和智能体任务，拥有120亿参数和256K上下文窗口，可通过Ollama工具在M2/M3/M4芯片Mac上轻松部署。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twpf9m/googles_gemma_4_12b_just_dropped_heres_how_to_run/",
+          "time": "22:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "人人能用AI后，什么技能才真正重要？",
+          "summary": "当AI工具普及，真正区分人的技能不再是使用AI本身，而是判断力、验证能力和领域专长。AI能加速执行，但无法替代对“好工作”的认知。能引导、检查并善用AI的人，比仅会生成内容的人更有价值。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tx2nun/what_ai_skill_will_still_matter_when_everyone_has/",
+          "time": "06:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "凯文·奥利里的两个数据中心大得（几乎）超乎想象",
+          "summary": "凯文·奥利里在加拿大阿尔伯塔省的“奇迹谷”项目规模巨大，而他在美国犹他州的“斯特拉托斯”计划甚至更为庞大。这两个数据中心项目因其惊人的体量而难以直观理解，正引发广泛关注。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tx0gyz/kevin_olearys_two_data_centres_are_so_big_they/",
+          "time": "05:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "2035年更可能发生什么：AI创造新职业还是消除现有职业？",
+          "summary": "关于AI对就业的影响，专家观点不一。到2035年，AI既可能创造全新职业，也可能淘汰现有岗位。关键在于人类如何适应技术变革，以及社会如何重新定义工作与价值。",
+          "url": "https://www.reddit.com/r/artificial/comments/1twz2pk/whats_more_likely_by_2035_ai_creates_new_careers/",
+          "time": "04:11",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动追踪施工许可",
+          "summary": "用户需要跨多个项目跟踪许可证状态，目前依赖手动记录和跟进，容易遗漏或延误。AI可以自动从政府网站抓取许可状态、设置到期提醒、生成进度报告，并自动通知相关责任人，减少人工核查和沟通成本。\n\n💡 机会方向：面向工程公司的自动化许可追踪与合规提醒SaaS",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1twzr6n/how_do_you_track_permits_across_multiple/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "跨应用信息同步",
+          "summary": "3人小团队在Notion、Gmail、Drive、Calendar等多个工具间手动同步任务和日程，经常遗漏关键信息。AI可以自动聚合各应用中的待办事项、邮件提醒和会议安排，生成统一看板并智能推送优先级提醒，避免信息碎片化。\n\n💡 机会方向：轻量级跨应用工作流聚合与智能提醒助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tx36cy/how_does_your_small_team_stay_in_sync_when/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动核对付款审批",
+          "summary": "会计每周都要反复提醒同事提供付款所需材料，否则流程卡住。AI可以自动识别付款请求中的缺失字段，主动向发起人发送补全提醒，并跟踪审批链状态，减少人工催办和反复沟通。\n\n💡 机会方向：嵌入财务系统的智能付款流程自动化机器人",
+          "source": "r/accounting",
+          "url": "https://www.reddit.com/r/Accounting/comments/1twu7us/on_average_how_often_are_you_reminding_colleagues/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "简历与面试表现脱节",
+          "summary": "HR发现新员工实际能力与简历/面试表现不符，但缺乏系统化验证手段。AI可以自动分析简历关键词与岗位要求的匹配度，生成结构化面试问题，并在面试后对比回答与简历陈述的一致性，辅助识别夸大或虚假信息。\n\n💡 机会方向：基于简历-面试一致性分析的智能招聘辅助工具",
+          "source": "r/humanresources",
+          "url": "https://www.reddit.com/r/humanresources/comments/1twmubv/interview_questions_na/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动处理I-9表格错误",
+          "summary": "HR在Paylocity中打印的I-9表格格式错误，需要手动修正和重新录入。AI可以自动校验表格字段完整性、格式合规性，并一键生成正确版本，同时检测历史数据中的常见错误模式，预防重复问题。\n\n💡 机会方向：嵌入HR系统的I-9表格自动校验与修复插件",
+          "source": "r/humanresources",
+          "url": "https://www.reddit.com/r/humanresources/comments/1tx2u9x/i9_with_paylocity_na/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
