@@ -1,0 +1,486 @@
+{
+  "date": "2026-06-08",
+  "timeRange": "2026-06-07 09:00 ~ 2026-06-08 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "我构建了一款免费语音转文字应用，搭配本地LLM润色，每天节省60分钟",
+          "summary": "文章URL：https://vox.rizenhq.com/ 评论URL：https://news.ycombinator.com",
+          "url": "https://vox.rizenhq.com/",
+          "time": "07:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Claude Code 集成到 Slack/Discord/Telegram，每月固定20美元——无需API账单",
+          "summary": "文章URL：https://lobsteady.com 评论URL：https://news.ycombinator.com/it",
+          "url": "https://lobsteady.com",
+          "time": "05:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Luminous – 用Rust编写的快速图像查看器，支持SAM 3和CLIP",
+          "summary": "嘿，HN！我构建了一款名为Luminous的快速原生跨平台开源图像查看器。",
+          "url": "https://github.com/jaroslavszkandera/luminous",
+          "time": "04:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Nightwatch，开源、只读的AI SRE",
+          "summary": "nightwatch是一个本地优先、只读的监控层。它对您的监控数据进行分组。",
+          "url": "https://github.com/ninoxAI/nightwatch",
+          "time": "04:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI新实验室列表",
+          "summary": "文章URL：https://neolabs-7o2.pages.dev/ 评论URL：https://news.ycombinat",
+          "url": "https://neolabs-7o2.pages.dev/",
+          "time": "04:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "CodeSage Pro – 一款能读取页面上问题的AI副驾驶",
+          "summary": "文章URL：https://chromewebstore.google.com/detail/codesage-pro-—-universal/c",
+          "url": "https://chromewebstore.google.com/detail/codesage-pro-—-universal/cbkkghdedpjamcicmnfpihehmgjemmhi",
+          "time": "03:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AudioTap，本地录制通话、转录和说话人分离",
+          "summary": "AudioTap是我构建的一款用于录制通话的macOS应用。它捕获输入和输出。",
+          "url": "https://audiotap.app/",
+          "time": "03:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Omni – 隔空隔离的macOS多模态搜索，针对本地文件",
+          "summary": "文章URL：https://github.com/hanxiao/omni-macos/ 评论URL：https://news.y",
+          "url": "https://github.com/hanxiao/omni-macos/",
+          "time": "03:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Axiomax – AI推理碳足迹的加密证明",
+          "summary": "文章URL：https://axiomaxllc.com 评论URL：https://news.ycombinator.com/i",
+          "url": "https://axiomaxllc.com",
+          "time": "02:09",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "last30days-skill",
+          "summary": "这是一个AI代理技能，能够跨Reddit、X、YouTube、Hacker News和Polymark等平台研究任意话题。它通过聚合多平台信息，帮助用户快速获取特定主题的近期讨论和趋势，适合市场调研和内容创作。今日获得1111星，Python实现，说明社区对多源信息聚合型AI代理需求旺盛。\n\n💼 商业缺口：缺乏跨平台信息可信度评分和来源审计工具，付费产品可提供信息溯源与偏见分析服务。",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "1,111 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "taste-skill",
+          "summary": "Taste-Skill是一个Shell脚本工具，旨在赋予AI“良好品味”，避免生成无聊、通用的内容。它通过注入风格偏好和审美规则，提升AI输出的创意性和独特性，特别适合需要个性化内容生成的场景。今日1103星的高关注度表明，用户对AI内容同质化问题有强烈改善需求。\n\n💼 商业缺口：缺少可量化的品味评估标准和风格一致性检测工具，付费产品可提供AI输出质量审计与风格合规性报告。",
+          "url": "https://github.com/opencv/opencv",
+          "time": "65 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "hermes-agent",
+          "summary": "这是一个由NousResearch开发的AI代理，强调“与你一起成长”的适应性。它可能是一个可扩展的智能体框架，支持根据用户交互持续优化行为，适用于个性化助手和自动化任务。今日1112星，Python实现，反映出社区对自适应、可进化AI代理的高度兴趣。\n\n💼 商业缺口：缺乏代理行为变更的版本控制和回滚机制，付费产品可提供代理决策日志审计与安全合规治理。",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "time": "1,103 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "open-notebook",
+          "summary": "这是Notebook LM的开源实现，提供更灵活和丰富的功能，基于TypeScript构建。它允许用户创建交互式AI笔记本，整合文档、代码和推理，适合研究、教育和知识管理。今日554星，表明开源社区对可定制AI笔记本工具的需求强劲。\n\n💼 商业缺口：缺少企业级数据隔离和权限管理功能，付费产品可提供多租户安全审计与合规性治理方案。",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "time": "1,112 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AiToEarn",
+          "summary": "这是一个TypeScript项目，旨在利用AI创造收入机会，可能包含自动化交易、内容生成或数据标注等模块。它降低了个人使用AI盈利的门槛，适合副业和创业者。今日183星，显示市场对AI变现工具持续关注。\n\n💼 商业缺口：缺乏收入预测模型和风险审计工具，付费产品可提供AI盈利策略的合规性审查与财务审计服务。",
+          "url": "https://github.com/lfnovo/open-notebook",
+          "time": "554 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "goose",
+          "summary": "这是一个开源、可扩展的AI代理，超越代码建议，支持安装和运行复杂任务。基于Rust构建，强调性能和安全性，适合开发自动化、系统管理等场景。今日322星，反映出对高性能、可扩展AI代理框架的需求。\n\n💼 商业缺口：缺少代理行为的安全沙箱和资源消耗审计工具，付费产品可提供代理执行日志分析与成本治理服务。",
+          "url": "https://github.com/yikart/AiToEarn",
+          "time": "183 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "llama.cpp",
+          "summary": "这是用C/C++实现的大语言模型推理引擎，支持在CPU和边缘设备上高效运行LLM。它解决了在资源受限环境中部署AI模型的问题，是本地AI应用的核心基础设施。今日158星，持续受关注表明边缘AI推理需求稳定增长。\n\n💼 商业缺口：缺乏模型部署后的性能监控和能耗审计工具，付费产品可提供推理成本优化与合规性报告。",
+          "url": "https://github.com/aaif-goose/goose",
+          "time": "322 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "turbovec",
+          "summary": "这是一个基于TurboQuant的向量索引，用Rust编写并提供Python绑定，专注于高效向量检索。它解决了大规模向量搜索的性能瓶颈，适合推荐系统、语义搜索等AI应用。今日1554星，高关注度说明向量数据库领域对高性能索引方案需求迫切。\n\n💼 商业缺口：缺少索引质量评估和检索结果可解释性工具，付费产品可提供向量搜索审计与偏差分析服务。",
+          "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+          "time": "309 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "plugins",
+          "summary": "这是OpenAI的官方插件仓库，基于JavaScript，允许第三方扩展ChatGPT的功能。它构建了AI应用生态，使开发者能集成外部数据和服务，提升AI实用性。今日262星，反映生态扩展持续受关注。\n\n💼 商业缺口：缺乏插件安全审计和合规性验证工具，付费产品可提供插件行为监控与数据隐私治理服务。",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "time": "158 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "山姆·奥特曼：有趣的递归循环",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼宣布为Codex推出新的大按钮，未来100天内每天选出一位用Codex做出令人印象深刻或极其有用工作的人，给予其一个月10倍使用额度，以观察其潜力。首个名额将于明天公布。",
+          "source": "Twitter @sama"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "AI“内容创作者”越来越难以分辨",
+          "summary": "最初，AI生成的内容创作者相对容易识别，但现在它们正变得越来越难以区分。本文探讨了这一趋势背后的原因及其对信息环境的影响。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "代币末日将至？",
+          "summary": "随着大型AI公司计划上市，我们可能会看到更多价格上涨。",
+          "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+          "time": "04:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Notion 恢复对 Anthropic 的访问权限",
+          "summary": "Notion 产品负责人表示，他对“转发此消息的人数之多”感到“震惊”。此前，Notion 曾因服务中断而限制了用户对人工智能公司 Anthropic 的访问。目前访问已恢复正常。",
+          "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+          "time": "01:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI仍在开发“超级应用”",
+          "summary": "OpenAI一位高级员工表示“聊天已死”，暗示公司正致力于打造超越传统聊天功能的超级应用。该应用可能整合多种AI服务，以提供更全面的用户体验。",
+          "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+          "time": "00:23",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速演变，传统银行与新兴科技公司之间的竞争日益激烈。数字化转型、人工智能应用以及监管变化是当前主要趋势，推动支付、借贷和财富管理领域的创新。未来几年，金融科技将继续重塑全球金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "本文概述了保险科技领域的最新发展动态，包括技术应用、市场趋势和主要参与者的战略调整。当前行业正通过人工智能、大数据和自动化技术优化承保、理赔和客户服务流程，以提升效率并降低成本。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "Arxiv白皮书研究合集",
+          "summary": "作者在ChatGPT发布后开始收集Arxiv白皮书，最初用Word记录摘要，后迁移至Obsidian，现已将约1700篇论文的库上线。这些论文按主题分为约90个类别，随着新方法、技术和模型的讨论不断新增类别。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1tz7014/research_collection_of_arxiv_whitepapers_r/",
+          "time": "16:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "有人注意到大语言模型的这种语言偏见吗？",
+          "summary": "作者在测试大语言模型处理圣经等高度交叉引用文本时，发现模型常出现幻觉或丢失历史背景。为此他开发了免费应用Biblians，帮助用户解答疑问。测试中还发现模型存在教派偏见问题。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzf2b4/has_anyone_else_noticed_this_llm_language_bias/",
+          "time": "23:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "如何让AI SPM真正有用，而非又一个供应商类别？",
+          "summary": "对企业AI和安全团队而言，如何让AI安全态势管理（SPM）发挥实际作用，而非沦为又一个分类标签？关键在于AI资产清单数据访问映射、代理权限、提示/数据监控、策略执行，还是其他方面？",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzgsp6/what_would_make_ai_spm_useful_instead_of_just/",
+          "time": "00:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "K-pop粉丝谴责偶像的恐怖深度伪造",
+          "summary": "K-pop粉丝正公开谴责针对偶像的令人不安的深度伪造内容。这些伪造视频和图像未经授权使用偶像形象，引发了对隐私和伦理的担忧。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzkzsk/kpop_fans_are_calling_out_creepy_deepfakes_of/",
+          "time": "03:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "凌晨2点，AI“创作者”走出地铁——人们还能分辨真假吗？",
+          "summary": "作者用AI生成了一个深夜走出地铁的完整视频，包括面部、声音和步态，全程无需摄像机和真人演员。实验发现，只要避免影棚式精致打光、添加真实皮肤纹理和自然微动作，AI生成的画面几乎无法被识破。作者质疑：这种AI生成内容用于广告是否公平？",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzki46/generated_a_fully_ai_creator_walking_out_of_a/",
+          "time": "02:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "厌倦AI编造PDF内容，我开发了能标注来源的工具",
+          "summary": "用户因ChatGPT常对PDF内容编造答案而困扰，花数周自建工具。上传文件后，工具仅基于文档内容回答，并显示答案来源的具体页码；若文档无相关信息，则直接告知用户。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzaylp/i_got_tired_of_al_making_stuff_up_about_my_pdfs/",
+          "time": "20:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "老PC运行AI遇挫：CPU不支持AVX指令集",
+          "summary": "用户翻出一台旧PC，更换了SSD和两块Nvidia 1080ti显卡，并重新涂抹了芯片散热膏。但尝试运行AI时发现，CPU不支持AVX指令集，导致无法正常工作。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzehpi/ai_on_an_older_pc_with_a_cpu_that_apparently/",
+          "time": "23:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Roguelite MMO测试版四周内完成编码",
+          "summary": "一位资深开发者利用“氛围编码”在四周内完成了Roguelite MMO的测试版，他表示此前类似项目需耗时一年以上。该游戏为浏览器RPG/MMO，包含地牢探索、装备升级、PvP及任务等核心玩法，目前已在网页端开放试玩。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzdj0o/roguelite_mmo_beta_vibe_coded_in_4_weeks/",
+          "time": "22:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "向AI询问身材或外貌反馈，它会说实话吗？",
+          "summary": "如果向AI聊天机器人询问关于身材或外貌的反馈，它会更倾向于诚实回答，还是仅仅给予支持性回应？这一问题引发了关于AI在敏感话题中如何平衡真实性与情感支持的讨论。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tznrgm/asking_llm_ai_for_feedback_on_your_body_or/",
+          "time": "04:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "最佳AI幻灯片制作工具：已有内容如何高效转化？",
+          "summary": "用户寻求将杂乱笔记、会议记录和文档自动转化为清晰幻灯片的AI工具。现有推荐多基于主题生成，而非处理已有内容。核心需求是让AI帮助整理信息，制作出可读性强的演示文稿。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tz68q4/best_ai_powerpoint_maker_for_people_who_already/",
+          "time": "16:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "ChatGPT付费版展现不同个性",
+          "summary": "有用户发现，付费版ChatGPT在交互中表现出与免费版不同的个性特征。这一现象引发讨论，暗示付费可能影响AI助手的回应风格与态度。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzjsb5/chatgpt_has_a_different_personality_when_youre/",
+          "time": "02:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Claude 是最佳AI，不服来辩",
+          "summary": "用户称赞Claude是最好的人工智能，理由包括：生成食谱时可调整份量、能连接Canva等应用、幻觉问题远少于其他模型，且解释非常清晰。该评价基于免费版本。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tzf5uc/claude_is_the_best_ai_convince_me_otherwise/",
+          "time": "23:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI编码工具正成为新的云账单难题？",
+          "summary": "AI编码工具的成本问题让人联想到早期云服务：虽然单次调用价格下降，但企业总账单仍在飙升。问题在于人们将其视为固定费用的SaaS席位，而它实际是按使用量计费的基础设施，导致成本难以预测。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tz1mdu/are_ai_coding_tools_just_becoming_the_new_cloud/",
+          "time": "11:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI检测器有多准确？",
+          "summary": "一位资深影评人发现，自己多年打磨的写作风格常被AI检测工具误判为机器生成。这引发了对AI检测器准确性的质疑：它们能否真正区分人类与AI的文本？",
+          "url": "https://www.reddit.com/r/artificial/comments/1tz149y/how_accurate_are_ai_checkers/",
+          "time": "11:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "智能网络",
+          "summary": "该项目旨在构建一个将信号转化为智能的网络或数字生态系统。目前仍处于早期开发阶段，欢迎提供反馈意见。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tyyy9i/intelligence_network/",
+          "time": "09:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "过去24小时AI领域大事回顾",
+          "summary": "SpaceX与谷歌签署了每月9.2亿美元的巨额合同，采购11万块英伟达芯片，为其1.7万亿美元的IPO布局基础设施。特朗普政府正讨论收购顶级AI公司股权，使政府成为AI经济增长的官方合作伙伴。Meta的自动化AI支持系统被黑客利用，接管了高知名度账户，暴露出将关键安全任务交给AI可能带来的危险。",
+          "url": "https://www.reddit.com/r/artificial/comments/1tz997d/what_happened_in_ai_in_the_last_24_hours/",
+          "time": "19:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "数字化假牙的失败项目",
+          "summary": "一个名为“数字化假牙”的项目最终以失败告终。该项目试图利用数字技术革新假牙制造，但未能实现预期目标。目前尚不清楚具体失败原因，但这一案例为相关领域提供了教训。",
+          "url": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
+          "time": "03:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动输入排班",
+          "summary": "用户刚入职，需要找一个简单的App来手动输入固定班次和时间，每天重复操作。这种数据录入工作完全可以用AI自动识别排班表或语音输入生成日历事件，减少每天几分钟的重复劳动。\n\n💡 机会方向：AI排班自动录入与日历同步工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tznh6v/what_app_is_best_to_use/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动核对银行流水",
+          "summary": "用户经营小企业，每月开车8000英里，需要手动核对大量银行流水和交易记录，耗时且容易出错。AI可以自动抓取银行数据、匹配发票和支出，生成对账报告，节省数小时人工核对时间。\n\n💡 机会方向：AI自动化银行流水对账与财务报告生成",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tzfzuf/monthly_8000_mile_drives_how_to_capitalize/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动撰写客服脚本",
+          "summary": "用户提供客服脚本和SOP写作服务，但每次需要手动分析客户业务场景、编写定制化话术。AI可以基于行业模板和客户输入，自动生成多场景客服脚本草稿，用户只需微调即可交付。\n\n💡 机会方向：AI客服脚本与SOP自动生成平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tzrhkb/i_write_customer_service_scripts_and_sops/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选贷款客户",
+          "summary": "用户从事商业贷款风险端工作，需要手动审查大量小企业贷款申请，评估信用风险。AI可以自动提取申请材料关键数据、比对历史违约模式、生成风险评分报告，将审查时间从小时级缩短到分钟级。\n\n💡 机会方向：AI小企业贷款风险自动评估工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tzluhx/business_lending_tool_built_by_industry_insider/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动研究客户需求",
+          "summary": "用户是代理机构老板，每次接新客户前需要花大量时间手动研究客户行业、竞品和痛点，才能确定服务方案。AI可以自动抓取客户公开信息、行业报告和竞品数据，生成客户需求分析简报。\n\n💡 机会方向：AI客户需求自动调研与方案生成助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1tzn7nt/question_for_agency_owners_how_deep_do_you/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
