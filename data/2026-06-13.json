@@ -1,0 +1,491 @@
+{
+  "date": "2026-06-13",
+  "timeRange": "2026-06-12 09:00 ~ 2026-06-13 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "贝佐斯打造通用AI工程师",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "杰夫·贝佐斯计划投入410亿美元开发“通用人工智能工程师”，旨在推动AI技术突破。此外，通过结合X平台与Openclaw工具，可高效生成爆款社交媒体内容。",
+              "url": "https://www.therundown.ai/p/jeff-bezos-41b-artificial-general-engineer"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "据《纽约时报》和CNBC报道，亚马逊创始人杰夫·贝佐斯的新AI初创公司Prometheus将致力于开发“通用人工智能工程师”。该公司旨在打造AI驱动的工程工具，",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "物理AI初创公司普罗米修斯完成120亿美元融资，估值达410亿美元。该公司旨在自动化重型工程和药物设计，打造面向物理世界的“通用人工智能工程师”。",
+              "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"
+            }
+          ]
+        },
+        {
+          "headline": "SpaceX IPO动态",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "SpaceX于周五进行首次公开募股，首次允许公众购买这家集火箭、人工智能和社交媒体业务于一体的公司股票。此次募资足以让埃隆·马斯克成为全球首位万亿富翁，其账面财",
+              "url": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "TechCrunch从早期起就追踪了SpaceX的创立、挑战与成功，如今继续关注其IPO进程。相关报道涵盖潜在赢家（及输家）、上市前交易，以及S-1注册文件中的",
+              "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Bob的CLI | 一款适应你的本地优先AI编码命令行工具",
+          "summary": "一款本地优先的AI编码命令行工具，能够适应你的使用习惯。",
+          "url": "https://www.producthunt.com/products/bob-s-cli",
+          "time": "11:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Qursor | 指向任意UI即可向你的AI发送精确上下文",
+          "summary": "指向任意用户界面，即可将精确的上下文发送给你的AI。",
+          "url": "https://www.producthunt.com/products/qursor",
+          "time": "14:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 开源类Git的Markdown文档，适用于人类和AI代理",
+          "summary": "为人类和AI代理设计的开源类Git Markdown文档。",
+          "url": "https://www.datacompany.dev",
+          "time": "08:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 全自主浏览——AI代理可使用此CLI技能驱动任何网络任务",
+          "summary": "AI代理能够使用此命令行技能驱动任何网络任务，实现全自主浏览。",
+          "url": "https://www.webcli.sh/?hn",
+          "time": "07:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Agent Joe——一个仅使用Rust、无Shell访问权限的编码代理",
+          "summary": "一个仅使用Rust编写的编码代理，没有Shell访问权限。",
+          "url": "https://github.com/Kapperchino/agent-joe",
+          "time": "07:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Atlas——本地优先的记忆系统，当事实变化时重新评估信念",
+          "summary": "一款本地优先的记忆系统，能够在事实发生变化时重新评估信念。",
+          "url": "https://github.com/RichSchefren/atlas",
+          "time": "05:41",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "agent-skills",
+          "summary": "这是一个为AI编码代理提供生产级工程技能的框架，包含Shell脚本实现的多种技能模块。今日获得2656颗星，说明开发者对提升AI代理工程能力的需求强烈。它解决了AI代理在真实开发环境中缺乏标准化、可复用技能的问题。\n\n💼 商业缺口：缺乏针对企业级AI代理技能的性能基准测试与合规审计工具。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "2,656 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "superpowers",
+          "summary": "这是一个实用的代理技能框架与软件开发方法论，今日获得1275颗星。它提供了一套可工作的技能组合，帮助开发者构建更强大的AI代理系统，尤其适合需要快速集成多种AI能力的团队。\n\n💼 商业缺口：缺少围绕该框架的技能市场与版本治理平台，以管理不同代理的技能依赖。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "1,275 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openmed",
+          "summary": "这是一个开源医疗AI项目，今日获得515颗星，基于Python开发。它专注于构建面向医疗领域的AI模型与工具，解决医疗数据分析和辅助诊断中的AI应用问题。值得关注是因为医疗AI是当前高增长领域，且开源社区活跃。\n\n💼 商业缺口：缺乏医疗AI模型的临床验证报告与数据隐私合规审计服务。",
+          "url": "https://github.com/maziyarpanahi/openmed",
+          "time": "515 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "LMCache",
+          "summary": "这是一个用于加速大语言模型推理的KV缓存层工具，今日获得28颗星。它通过优化缓存机制显著提升LLM的响应速度，解决大模型推理中的性能瓶颈。对于需要低延迟LLM服务的应用场景非常有价值。\n\n💼 商业缺口：缺少针对不同LLM架构的缓存策略自动调优与成本监控工具。",
+          "url": "https://github.com/LMCache/LMCache",
+          "time": "28 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pm-skills",
+          "summary": "这是一个项目管理技能市场，提供100多种代理技能、命令和插件，今日获得827颗星。它帮助AI代理获取项目管理相关能力，解决AI在复杂项目管理中缺乏领域技能的问题。值得关注是因为它填补了AI代理技能生态中的项目管理空白。\n\n💼 商业缺口：缺乏对代理技能使用效果的量化评估与跨项目技能复用审计层。",
+          "url": "https://github.com/phuryn/pm-skills",
+          "time": "827 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agency-agents",
+          "summary": "这是一个完整的AI代理工具集，涵盖从前端助手到Reddit社区互动等多种功能，今日获得1026颗星。它让用户能快速部署一个全能型AI代理，解决多场景AI应用集成难题。高星数表明市场对一站式AI代理解决方案的强烈需求。\n\n💼 商业缺口：缺少多代理协作时的冲突检测与任务分配优化工具。",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "time": "1,026 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "谷歌DeepMind启动机器人加速器",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind推出机器人加速器项目，已吸纳15家初创公司，共同推动欧洲实体AI发展。该项目为期三个月，将为这些公司提供AI技术栈、Gemini机器人模型及团队实操支持。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "AnthropicAI：美国政府出口管制令暂停Fable 5与Mythos 5访问",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "美国政府以国家安全为由发布出口管制指令，要求暂停所有外国国民（包括Anthropic外籍员工）对Fable 5和Mythos 5的访问。Anthropic被迫立即为所有客户禁用这两个模型，其他Claude模型不受影响。公司认为此举存在误解，正努力尽快恢复访问。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "RunwayML 举办第四届年度AI电影节",
+          "url": "https://twitter.com/runwayml",
+          "summary": "RunwayML 在纽约林肯中心举办了第四届年度AI电影节，规模为历届最大。活动包括导演罗恩·霍华德探讨技术在电影制作中的角色，并展映了十部入围决赛的影片，展现了艺术家运用新工具创作的非凡成果。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "月之暗面发布Kimi K2.7-Code开源编码模型",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "月之暗面发布并开源了最新编码模型Kimi K2.7-Code，基于K2.6架构，采用1万亿参数混合专家模型，每token仅激活32亿参数，支持256K上下文窗口。相比前代，推理效率提升约30%，在多个编码基准测试中性能提升显著，现已通过Kimi API和Kimi Code开放使用。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "MiniMax发布M3开源模型",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax推出开源模型M3，总参数量约428B，激活参数仅23B，支持100万token上下文及文本、图像、视频多模态推理。该模型在编码和智能体任务上表现优异，已获NVIDIA、Fireworks AI等多家平台支持，可本地运行或云端部署。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "卡帕西盛赞SpaceX：过去、现在与未来令人惊叹",
+          "url": "https://twitter.com/karpathy",
+          "summary": "安德烈·卡帕西对SpaceX的过去、现在与未来深感震撼，称其故事从十多个角度思考都令人叹为观止。他多次惊叹于团队的成就，并向SpaceX团队致以热烈祝贺。",
+          "source": "Twitter @karpathy"
+        },
+        {
+          "title": "杨立昆推特动态",
+          "url": "https://twitter.com/ylecun",
+          "summary": "会议论文提交截止日期已延长至6月15日（AOE时间）。演讲嘉宾阵容持续扩大，更多嘉宾即将公布，请勿错过论文提交机会。同时有用户反映，因AnthropicAI的Claude新政策涉及保留提示词和使用数据，涉及知识产权问题，团队无法继续使用该模型。",
+          "source": "Twitter @ylecun"
+        },
+        {
+          "title": "约书亚·本吉奥：欧洲需打造前沿安全AI以维护自主",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥指出，在当前AI竞赛中欧洲面临巨大风险，必须投资能超越前沿或提供安全可靠等关键组件的AI项目。他与其他专家合著的报告《欧洲2031》警告，若不行动，欧洲可能五年内滑向边缘化，并建议大幅增加本土算力、组建AI中等强国联盟、推进劳动力市场改革等。欧洲仍有转机，但需拿出政治勇气实施和平时期最雄心勃勃的经济议程。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "杰夫·贝佐斯斥资410亿美元打造“通用人工智能工程师”",
+          "summary": "杰夫·贝佐斯计划投入410亿美元开发“通用人工智能工程师”，旨在推动AI技术突破。此外，通过结合X平台与Openclaw工具，可高效生成爆款社交媒体内容。",
+          "url": "https://www.therundown.ai/p/jeff-bezos-41b-artificial-general-engineer",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Siri现在好用了？？",
+          "summary": "苹果发布了新版Siri，令人意外地大幅提升了性能。此前Siri在长达15年的时间里，功能表现一直介于“勉强有用”和“彻底糟糕”之间，连设置计时器都常出问题。这次更新可能标志着Siri体验的重大转折。",
+          "url": "https://www.theverge.com/podcast/949079/siri-ai-good-vergecast",
+          "time": "01:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "埃隆·马斯克成全球首位万亿富翁",
+          "summary": "埃隆·马斯克的净资产在SpaceX首次公开募股后突破万亿美元大关。此前其财富约8000亿美元，现包括SpaceX的48亿股股票以及特斯拉等其他公司资产。SpaceX股票开盘价为150美元，并持续保持高位。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/948409/elon-musk-trillionaire-spacex-ipo",
+          "time": "00:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "SpaceX大规模IPO：最新动态一览",
+          "summary": "SpaceX于周五进行首次公开募股，首次允许公众购买这家集火箭、人工智能和社交媒体业务于一体的公司股票。此次募资足以让埃隆·马斯克成为全球首位万亿富翁，其账面财富已超过爱尔兰、瑞典等国家的经济体量。",
+          "url": "https://www.theverge.com/business/948996/spacex-ipo-elon-musk",
+          "time": "22:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "杰夫·贝佐斯的AI初创公司旨在打造“通用人工智能工程师”",
+          "summary": "据《纽约时报》和CNBC报道，亚马逊创始人杰夫·贝佐斯的新AI初创公司Prometheus将致力于开发“通用人工智能工程师”。该公司旨在打造AI驱动的工程工具，辅助实体产品的设计。该初创公司于去年11月被首次报道。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer",
+          "time": "22:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Siri 不会成为你的AI女友",
+          "summary": "早期测试显示，Siri AI懂得何时保持沉默，这完全是设计使然。克雷格·费德里吉在接受采访时表示，苹果的新Siri不会像OpenAI、谷歌等公司的聊天机器人那样阿谀奉承。",
+          "url": "https://www.theverge.com/tech/948890/siri-wont-be-your-ai-girlfriend",
+          "time": "15:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SpaceX IPO：你需要了解的最新动态",
+          "summary": "TechCrunch从早期起就追踪了SpaceX的创立、挑战与成功，如今继续关注其IPO进程。相关报道涵盖潜在赢家（及输家）、上市前交易，以及S-1注册文件中的关键细节。",
+          "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+          "time": "07:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta成立数月AI部门被指如“精神摧残的劳改营”，内部工程师怨声载道",
+          "summary": "一份新报告显示，Meta成立仅数月的AI部门拥有6500名员工，但内部氛围压抑，工程师们形容其为“精神摧残的劳改营”，部门濒临爆发不满情绪。",
+          "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+          "time": "07:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌起诉利用AI诈骗数十万受害者的中国网络犯罪团伙",
+          "summary": "谷歌起诉一个名为“Outsider Enterprise”的中国网络犯罪团伙，指控其利用人工智能技术诈骗数十万受害者。该团伙在两周内发送了250万条诈骗短信，谷歌已采取法律行动予以打击。",
+          "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+          "time": "04:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Mistral据传以200亿欧元估值融资30亿欧元",
+          "summary": "Mistral据悉正进行新一轮融资，估值约200亿欧元（约231.5亿美元），几乎是其C轮估值117亿欧元的两倍。",
+          "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+          "time": "01:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SpaceX、Anthropic与OpenAI掀起火热IPO夏季",
+          "summary": "IPO市场复苏，但领跑者已非昔日FAANG。新组合MANGOS——包括Meta（或微软）、Anthropic、英伟达、谷歌、OpenAI和SpaceX——正接棒。其中半数公司计划在同一窗口上市，这将考验投资者的承受力、估值合理性及市场风向。",
+          "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+          "time": "00:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "IPO盛夏来袭，MANGOS果实成熟",
+          "summary": "IPO市场回暖，但领跑者已非昔日FAANG。新缩写MANGOS——包括Meta（或微软）、Anthropic、英伟达、谷歌、OpenAI和SpaceX——正主导潮流。其中半数公司计划在同一窗口上市，这将考验投资者、估值及市场承受力。",
+          "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+          "time": "23:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "更便宜、更快、更具文化意识：Avataar视频AI专为印度规模打造",
+          "summary": "Avataar AI推出的精简版视频模型，每生成一秒视频仅需0.005美元，价格低廉且速度快。该模型针对印度市场优化，具备文化适应性，旨在服务大规模用户需求。",
+          "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+          "time": "12:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Theker融资8500万美元，打造不专精于任何任务的工厂机器人",
+          "summary": "与波士顿动力等公司设计的固定形态人形机器人不同，Theker的机器人专为可重新配置而打造。该公司近日完成8500万美元融资，旨在开发能灵活适应多种工厂任务的通用型机器人。",
+          "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+          "time": "09:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "杰夫·贝佐斯的普罗米修斯融资120亿美元，打造物理世界“通用人工智能工程师”",
+          "summary": "物理AI初创公司普罗米修斯完成120亿美元融资，估值达410亿美元。该公司旨在自动化重型工程和药物设计，打造面向物理世界的“通用人工智能工程师”。",
+          "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+          "time": "09:04",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统金融机构与新兴科技公司加速融合。人工智能、区块链和开放银行等技术推动支付、借贷和财富管理领域创新，但监管挑战与数据安全风险依然存在。行业未来将聚焦于提升用户体验与运营效率。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与科技初创企业加速融合。人工智能、大数据和区块链技术被广泛应用于风险评估、理赔处理和客户服务，推动行业效率提升。未来，个性化保险产品和实时定价模式将成为主要趋势。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "MICCAI 2026 结果公布",
+          "summary": "MICCAI 2026 的评审结果即将发布，祝所有等待最终决定的参与者好运。相关讨论已在社区中展开。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1u3nims/miccai_2026_results_d/",
+          "time": "14:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "hubert.cpp：distilHuBERT的C++实现",
+          "summary": "开发者发布了一个名为hubert.cpp的C++实现，用于运行distilHuBERT模型。该实现无运行时依赖，权重直接编译入库，支持动态尺寸，性能与ONNX Runtime相当，且易于集成到CMake项目中。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1u3omwk/hubertcpp_a_c_implementation_of_distilhubert_p/",
+          "time": "15:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "为LLM构建开源边缘语义缓存：基于Rust/WASM的架构验证",
+          "summary": "该项目旨在解决Python代理网关在高负载LLM生产环境中的延迟问题，并应对集中式语义缓存的跨区域网络延迟。通过采用Rust和WASM技术，在边缘端实现低延迟的语义缓存，以优化实时流式处理和降低企业API成本。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1u3quwk/building_an_open_source_edge_semantic_cache_for/",
+          "time": "17:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "Olmo-Eval：模型开发循环中的评估工作台",
+          "summary": "Olmo-Eval 是一个专为模型开发循环设计的评估工作台，旨在简化模型性能的测试与迭代过程。它提供标准化工具，帮助开发者高效评估和优化模型。该工作台支持多种评估任务，提升开发效率。",
+          "url": "https://huggingface.co/blog/allenai/olmo-eval",
+          "time": "23:56",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "跨州税务合规",
+          "summary": "小企业主雇佣了第一个外州员工后，发现可能需要在另一个州申报纳税，手动研究各州税务规则、计算代扣代缴额、填写多份税表，耗时且易出错。AI可自动识别雇佣关系触发的税务义务，生成并提交所需税表。\n\n💡 机会方向：面向小企业的跨州税务合规AI助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u46e2g/hired_my_first_outofstate_employee_and_now/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户消息团队协作",
+          "summary": "5人团队通过WhatsApp处理客户咨询，手动转发、分配、跟踪每条消息，容易遗漏或重复回复，沟通混乱。AI可自动分类、分配消息给对应成员，并记录对话历史与状态。\n\n💡 机会方向：WhatsApp团队协作AI中间件",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u45b0t/managing_whatsapp_customer_conversations_across_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "冷邮件免费索取回复",
+          "summary": "频繁收到要求免费产品换营销的冷邮件，每次需手动判断对方价值、撰写拒绝或协商回复，重复且消耗精力。AI可自动分析邮件意图，生成个性化回复模板或自动拒绝。\n\n💡 机会方向：冷邮件智能筛选与自动回复工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u4682i/replying_to_cold_emails_asking_for_freebies_in/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "本地配送路线优化",
+          "summary": "随着订单增长，手动规划配送路线、协调司机、应对临时变更变得极其困难，常导致延迟和客户投诉。AI可实时优化多车路线、动态调整订单分配。\n\n💡 机会方向：小企业本地配送智能调度系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u463e0/for_businesses_that_handle_local_deliveries/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
