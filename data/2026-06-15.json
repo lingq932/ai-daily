@@ -1,0 +1,204 @@
+{
+  "date": "2026-06-15",
+  "timeRange": "2026-06-14 09:00 ~ 2026-06-15 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Slashy | 帮你处理邮件的AI助手",
+          "summary": "Slashy是一款AI助手，专门用于自动处理电子邮件。",
+          "url": "https://www.producthunt.com/products/slashy-3",
+          "time": "12:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Isitslop.xyz：基于最新研究的免费AI写作检测器",
+          "summary": "我有一个奇怪的习惯：在检查之前先猜测某段文字是不是AI写的，尤其……",
+          "url": "https://isitslop.xyz",
+          "time": "08:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "使用代数记忆（VSA）而非RAG的编码智能体",
+          "summary": "该项目展示了一个使用代数记忆（向量符号架构）替代传统RAG的编码智能体。",
+          "url": "https://github.com/vitaliyfedotovpro-art/raidho",
+          "time": "07:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Morning Stack：发现真实职位空缺，优化简历和求职信",
+          "summary": "求职很痛苦。在LinkedIn和Indeed上翻找、筛选……",
+          "url": "https://morningstack.app/demo/",
+          "time": "07:01",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA/SkillSpector",
+          "summary": "这是一个针对AI智能体技能的安全扫描器，能够检测AI智能体技能中的漏洞、恶意模式和安全风险。它由NVIDIA开发，使用Python语言，今日获得964颗星，说明AI智能体安全领域需求旺盛。值得关注的原因是，随着AI智能体被广泛部署，其技能模块的安全审计成为刚需，该工具填补了AI供应链安全检测的空白。\n\n💼 商业缺口：缺乏针对AI智能体技能合规性审计的付费SaaS平台，例如自动生成安全报告、集成CI/CD的治理层产品。",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "time": "964 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "shiyu-coder/Kronos",
+          "summary": "Kronos是一个专为金融市场语言设计的基础模型，使用Python开发，今日获得244颗星。它旨在利用大语言模型理解金融术语、交易信号和市场动态，为量化分析和投资决策提供AI支持。值得关注的原因是，金融领域的大模型应用仍处于早期，Kronos专注于垂直领域，有望降低金融AI开发门槛。\n\n💼 商业缺口：缺少针对金融大模型输出结果的合规性验证与风险审计工具，例如自动检测模型幻觉导致的投资建议违规。",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "244 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "andrewyng/aisuite",
+          "summary": "这是一个由AI领域知名专家Andrew Ng推出的工具，提供简单统一的接口来访问多个生成式AI提供商（如OpenAI、Anthropic等），使用Python开发，今日获得291颗星。它解决了开发者需要适配不同AI API的痛点，通过抽象层简化多模型切换和调用。值得关注的原因是，它降低了多模型集成的复杂性，适合需要灵活选择AI供应商的应用场景。\n\n💼 商业缺口：缺乏统一的AI API调用成本监控与用量审计层，例如跨提供商费用对比、预算预警的付费管理平台。",
+          "url": "https://github.com/andrewyng/aisuite",
+          "time": "291 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "杨立昆警告：美国AI封闭化将让中国成为全球默认标准",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆发文警告，美国若继续推行AI封闭政策，将导致国内形成少数巨头垄断的“围墙花园”，而开源模型因国家安全理由被禁。全球60亿非美国人将转向中国开源AI栈，到2030年中国模型可能成为全球默认标准，美国将陷入技术孤立。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "中国可能已接触Mythos",
+          "summary": "据Semafor最新报道，白宫决定对Anthropic的Mythos实施出口限制，部分原因是担心一个与中国有关的组织已获取该技术。若中国政府确实获得了Mythos 5或Fable 5，将构成严重的国家安全威胁。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
+          "time": "02:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI公司竞相上市，谁将搭上这趟快车？",
+          "summary": "随着人工智能公司争相上市，初创企业正试图“搭乘SpaceX IPO浪潮”从中获利。这场上市竞赛吸引了众多投资者和科技公司的关注。",
+          "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+          "time": "00:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic暂停新模型访问，印度热议AI未来",
+          "summary": "科技领袖们正在讨论Anthropic事件是否应成为印度AI雄心的警钟。该事件引发了对印度在人工智能领域发展路径的反思。",
+          "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+          "time": "11:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。上榜公司通过技术创新推动金融服务效率提升，并引领行业未来发展方向。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了当前金融科技领域的发展态势，涵盖新兴技术应用、市场趋势及监管挑战。核心信息包括数字支付、区块链和人工智能在金融服务中的深度融合，以及初创企业与传统金融机构的竞争与合作。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历快速发展，通过人工智能、大数据和自动化技术重塑传统保险业务模式。这些创新提升了风险评估、理赔处理和客户服务的效率，同时降低了运营成本。未来，保险科技将继续推动行业数字化转型，带来更个性化的保险产品和服务。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "网红效果评估",
+          "summary": "小企业主花$1200-1800请微网红推广，但无法量化效果，仅凭销售数据判断成败。AI可自动抓取社交媒体互动数据、转化率、受众画像，生成ROI报告，并预测哪些网红更匹配品牌调性，避免盲目投入。\n\n💡 机会方向：AI驱动的网红营销效果分析工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u5qdta/1200_on_two_influencers_3_sales_total/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "宠物肖像画营销",
+          "summary": "被裁营销人员手工画宠物肖像，初期火爆后订单下滑，但缺乏系统化获客和定价策略。AI可自动生成个性化宠物肖像草图供客户预览，并基于社交媒体趋势推荐最佳发布时段和文案，同时动态调整定价。\n\n💡 机会方向：AI辅助个性化艺术品生成与营销自动化",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u5yjaf/pet_portrait_business_declining_after_big_boom/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "App营销文案撰写",
+          "summary": "开发者做了几个App但不会推广，手动写营销文案效果差。AI可分析App功能与竞品，自动生成多版本应用商店描述、社交媒体帖子、用户案例，并A/B测试不同文案的转化率，大幅降低试错成本。\n\n💡 机会方向：AI驱动的App营销文案生成与优化平台",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48532821",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "开源项目需求匹配",
+          "summary": "开发者想贡献开源项目但手动浏览列表耗时低效。AI可分析用户技能栈、兴趣和空闲时间，自动匹配待办事项、bug修复或文档任务，并生成贡献指南和代码片段，降低参与门槛。\n\n💡 机会方向：AI驱动的开源贡献者-任务智能匹配系统",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48531359",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
