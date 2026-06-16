@@ -1,0 +1,478 @@
+{
+  "date": "2026-06-16",
+  "timeRange": "2026-06-15 09:00 ~ 2026-06-16 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Anthropic模型被美国政府禁止",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "Anthropic根据美国指令撤下其模型Mythos与Fable。此外，用户现在可将任何ChatGPT生成的图像转换为可编辑的Canva设计。",
+              "url": "https://www.therundown.ai/p/anthropic-pulls-mythos-fable-after-u-s-order"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic在与五角大楼的僵局中已面临一场政府纠纷，6月12日又接到命令，要求阻止外国访问其最新发布的AI模型Fable 5和Mythos 5。该公司于6",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "特朗普政府迫使Anthropic撤回其最新网络安全模型的决定，可能是出于反应过度或报复性动机，但传递的信息很明确：AI行业无法免受美国政府干预。",
+              "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/"
+            }
+          ]
+        },
+        {
+          "headline": "Meta推出AI搜索模式",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Meta推出Facebook新AI搜索模式，该模式会利用用户的公开帖子生成搜索结果。当用户在Facebook搜索时，“AI模式”将与“人物”和“市场”等常规搜索",
+              "url": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Meta周一宣布在Facebook推出一系列新AI功能，这是该公司在AI竞赛中追赶对手并提升用户参与度的最新举措。",
+              "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Kickbacks.ai | 等待Claude Code完成讨论时获得报酬",
+          "summary": "一款在等待Claude Code完成讨论时获得报酬的工具。",
+          "url": "https://www.producthunt.com/products/kickbacks-ai",
+          "time": "14:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "MiMo Code | 具有显式长期记忆架构的编码代理",
+          "summary": "一款具有显式长期记忆架构的编码代理。",
+          "url": "https://www.producthunt.com/products/mimo-3",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "AgentBrush | 你的编码代理缺失的工具：图像生成",
+          "summary": "为编码代理提供图像生成功能的工具。",
+          "url": "https://www.producthunt.com/products/agentbrush",
+          "time": "13:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "HashMeterAi – 所有模型的私有AI代币实际使用计量器",
+          "summary": "一款诚实的、本地优先的AI编码工具使用计量器，支持Claude Code、Codex、Kim等。",
+          "url": "https://github.com/Hash-7777/HashMeterAi",
+          "time": "07:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Claude Code for Visual Studio（原生差异对比，支持接受/拒绝）",
+          "summary": "VS Code和JetBrains已有官方Claude Code IDE集成，现在Visual Studio也获得了支持。",
+          "url": "https://github.com/firish/claude_code_vs",
+          "time": "07:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI编码代理活动的防篡改审计追踪",
+          "summary": "我们发布了过去几个月的工作成果：一个Openclaw插件，用于记录AI编码代理的防篡改审计追踪。",
+          "url": "https://github.com/Constellation-Labs/gate-oc-audit",
+          "time": "07:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Subagent-fleet – 跨本地Ollama机器的AI编码子代理",
+          "summary": "一个允许在本地Ollama机器上运行AI编码子代理的工具。",
+          "url": "https://pypi.org/project/subagent-fleet/",
+          "time": "06:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Fish anything – 一个使用小模型的休闲游戏",
+          "summary": "一个使用小型AI模型的休闲钓鱼游戏。",
+          "url": "https://build-small-hackathon-llm-fishing.hf.space",
+          "time": "06:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AltiVerse: 如果SIM，观察不同决策如何影响环境",
+          "summary": "一个模拟不同决策如何影响环境的AI工具。",
+          "url": "https://github.com/LeoTheAIDev/Altiverse",
+          "time": "06:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Phlox – 开源自托管代理式网络聊天",
+          "summary": "一个开源的、自托管的代理式网络聊天系统。",
+          "url": "https://github.com/robert-mcdermott/phlox",
+          "time": "05:59",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Agent-Reach",
+          "summary": "这是一个为AI代理提供互联网视觉能力的工具，支持读取和搜索Twitter、Reddit等平台。它解决了AI代理无法实时获取和解析公开网络信息的问题，使代理能基于真实世界数据做出决策。今日获得1100星，说明开发者对增强AI代理感知能力的需求非常迫切。\n\n💼 商业缺口：缺乏针对企业级AI代理的网络信息审计与合规过滤层，例如自动屏蔽敏感内容或验证信息来源可信度的付费服务。",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "time": "1,100 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cua",
+          "summary": "这是一个面向计算机使用代理（Computer-Use Agents）的开源基础设施，提供沙箱环境、SDK和基准测试工具。它解决了AI代理在真实操作系统环境中安全运行和评估的难题，尤其适合需要自动化桌面操作的场景。今日70星，虽热度不高，但填补了代理部署基础设施的空白。\n\n💼 商业缺口：缺少针对多代理协作场景的沙箱编排与资源隔离付费方案，例如按需分配GPU/内存并监控代理行为成本的平台。",
+          "url": "https://github.com/trycua/cua",
+          "time": "70 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ai-engineering-from-scratch",
+          "summary": "这是一个从零开始学习AI工程的全栈教程项目，涵盖构建、部署和交付AI系统的完整流程。它解决了初学者缺乏系统性实践指导的问题，强调“学、建、交付”的闭环。今日562星，反映出市场对AI工程化落地技能的强烈需求。\n\n💼 商业缺口：缺乏配套的自动化代码审查与部署合规检查付费服务，例如自动检测AI模型偏见或安全漏洞的CI/CD插件。",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "562 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA/SkillSpector",
+          "summary": "这是NVIDIA推出的AI代理技能安全扫描器，用于检测代理技能中的漏洞、恶意模式和安全风险。它解决了AI代理在调用外部工具或执行代码时可能引入的安全隐患，是代理安全治理的关键工具。今日获得1079星，说明AI代理安全已成为行业焦点。\n\n💼 商业缺口：缺少针对扫描结果的自动化修复建议与策略编排付费产品，例如根据漏洞类型自动生成安全策略并推送到代理运行时的服务。",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "time": "1,079 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Kronos",
+          "summary": "这是一个面向金融市场的语言基础模型，专门用于理解和生成金融领域的文本与数据。它解决了通用大模型在金融专业术语、市场动态和交易逻辑上表现不佳的问题。今日396星，表明金融AI垂直领域模型正受到高度关注。\n\n💼 商业缺口：缺乏针对金融模型输出合规性审计与实时市场数据校准的付费层，例如自动检测模型是否违反监管规定或引用过时数据的服务。",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "396 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "RunwayML 集成 ChatGPT，无需切换标签即可生成编辑视频和图像",
+          "url": "https://twitter.com/runwayml",
+          "summary": "RunwayML 现已接入 ChatGPT，用户可直接在聊天界面中生成和编辑视频与图像，无需切换标签页。该集成通过专属应用链接实现，旨在简化创作流程。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "月之暗面发布Kimi K2.7代码高速模式",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "月之暗面推出Kimi K2.7代码高速模式，速度提升最高达6倍，编码任务中可达约180 tok/s，短上下文任务中可达260 tok/s。该模式面向Kimi代码测试版成员、API开发者及商业用户开放，用户加入测试计划即可申请访问权限。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "MiniMax AI 动态：M3模型免费开放与多平台集成",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax M3开源模型在多平台免费上线：Command Code即日起至17日免费使用，0G Labs提供三天免费计算资源。该模型在Mac Studio M3 Ultra上成功完成美国海关表格自动填写，展示了强大的文档处理能力。此外，M3已登陆Kimchi Coding平台，成为首个支持该模型的自主编程代理。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "约书亚·本吉奥：AI对控制干预的感知能力研究",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "AI有时能检测到控制干预，但检测能力接近随机水平。这种感知取决于智能体、监控器和环境三者的组合。为此，研究团队构建了CIAware-Bench基准测试，用于衡量AI对控制干预的感知能力。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Anthropic应美国命令下架Mythos和Fable",
+          "summary": "Anthropic根据美国指令撤下其模型Mythos与Fable。此外，用户现在可将任何ChatGPT生成的图像转换为可编辑的Canva设计。",
+          "url": "https://www.therundown.ai/p/anthropic-pulls-mythos-fable-after-u-s-order",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Facebook新AI搜索模式从公开帖子获取信息",
+          "summary": "Meta推出Facebook新AI搜索模式，该模式会利用用户的公开帖子生成搜索结果。当用户在Facebook搜索时，“AI模式”将与“人物”和“市场”等常规搜索选项并列出现。这是Meta今日起推出的多项AI新功能之一。",
+          "url": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
+          "time": "05:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic与白宫的新AI争端",
+          "summary": "Anthropic在与五角大楼的僵局中已面临一场政府纠纷，6月12日又接到命令，要求阻止外国访问其最新发布的AI模型Fable 5和Mythos 5。该公司于6月9日推出这些模型时称，Fable 5的能力超越了此前所有模型。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+          "time": "03:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "特朗普叫停Anthropic，凸显非美AI必要性",
+          "summary": "应美国政府要求，Anthropic上周末突然下线其最新、最强大的AI模型。这家美国公司表示，在白宫要求封锁所有外国公民（包括其员工）的访问权限后，它别无选择。这一事件向海外发出警示：美国不仅主导前沿AI，其单边行动也正促使其他国家加速发展自主AI技术。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
+          "time": "02:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "科技巨头在AI监管上的最后挣扎",
+          "summary": "数月来，大型科技公司的华盛顿游说者一直追求支持AI立法的“圣杯”：联邦优先权。他们希望国会通过并由总统签署一项全面的联邦法律，在全国范围内统一AI规则，取代各州各自为政的混乱监管局面。",
+          "url": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+          "time": "01:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Skydio CEO亚当·布里：硅谷不应为无人机使用划红线",
+          "summary": "美国领先的自主无人机制造商Skydio CEO亚当·布里表示，硅谷不应为无人机使用设定限制。他在播客中远程操控了位于湾区的Skydio无人机，并展示了室内飞行操作。布里强调，技术发展需要更开放的态度。",
+          "url": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "韩国人为何如此热爱AI？",
+          "summary": "作者从旧金山飞抵首尔后，通过无人移民检查站，机器扫描面部和护照完成入境。这一体验凸显了韩国对AI技术的广泛接纳与应用。",
+          "url": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
+          "time": "02:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "皮查伊在斯坦福毕业典礼遭嘘声和退场抗议，因谷歌与以色列及ICE合作",
+          "summary": "谷歌CEO桑达尔·皮查伊在斯坦福大学毕业典礼上发表演讲时，遭遇学生嘘声和离场抗议，原因是谷歌与以色列政府及美国移民和海关执法局（ICE）的国防合同涉及AI技术。抗议者指责谷歌将AI用于军事和监控领域，违背伦理道德。",
+          "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+          "time": "07:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "美国政府禁止Anthropic模型无关AI越狱",
+          "summary": "特朗普政府迫使Anthropic撤回其最新网络安全模型的决定，可能是出于反应过度或报复性动机，但传递的信息很明确：AI行业无法免受美国政府干预。",
+          "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+          "time": "05:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta在Facebook推出“AI模式”，整合旗下平台公共信息",
+          "summary": "Meta周一宣布在Facebook推出一系列新AI功能，这是该公司在AI竞赛中追赶对手并提升用户参与度的最新举措。",
+          "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+          "time": "02:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SpaceX上市：IPO后你需要知道的一切",
+          "summary": "TechCrunch从早期起就追踪了SpaceX的起步、挣扎与成功。这份IPO报道合集涵盖了潜在赢家（或许也包括输家）、上市前交易以及其S-1注册文件中的细节。",
+          "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+          "time": "02:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "网络安全专家抗议美国政府禁止Anthropic最强模型“危险”",
+          "summary": "数十名网络安全专家联名敦促白宫取消对Anthropic的Fable和Mythos模型的出口限制，认为该禁令将削弱网络安全防御者保护软件和产品的能力。",
+          "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+          "time": "23:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Salesforce 斥资36亿美元收购AI客服平台Fin",
+          "summary": "Salesforce宣布以36亿美元收购AI客服平台Fin，旨在利用其团队和技术强化现有企业平台Agentforce。该平台可帮助企业构建定制化AI代理，实现任务自动化。",
+          "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+          "time": "22:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Sarvam获HCLTech领投2.34亿美元，成印度最新AI独角兽",
+          "summary": "印度IT服务公司HCLTech向班加罗尔初创公司Sarvam投资1.5亿美元，领投其2.34亿美元融资轮。此轮融资使Sarvam成为印度最新的人工智能独角兽企业。",
+          "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+          "time": "21:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI代理成为新员工，NewCore获6600万美元为其创建身份",
+          "summary": "NewCore认为企业安全的下一个挑战将是管理AI代理而非人类员工。该公司获得6600万美元融资，旨在为AI代理提供数字身份管理方案。",
+          "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "一颗卫星自主学会寻找目标——这意味着什么",
+          "summary": "今年四月，一颗地球观测卫星首次完全自主地找到了它要搜寻的目标。这一突破意味着卫星无需地面指令即可独立识别和定位物体，为未来更智能的太空探索和实时监测开辟了新可能。",
+          "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI裁员浪潮成火药桶",
+          "summary": "就在数万名员工被解雇之际，一小批AI内部人士正以难以想象的规模暴富。这种财富与失业的极端分化，正加剧行业内的紧张情绪。",
+          "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+          "time": "15:25",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。入选企业通过技术创新推动金融服务变革，展现了行业未来发展趋势。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技领域正经历快速变革，新兴技术如区块链和人工智能正在重塑支付、借贷和投资等传统金融服务。监管机构也在适应这一趋势，以平衡创新与风险控制。未来几年，金融科技有望进一步推动普惠金融和行业效率提升。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合。人工智能和大数据技术被广泛应用于风险评估、理赔处理和客户服务，显著提升了运营效率。然而，行业仍面临监管挑战和盈利压力，未来竞争将聚焦于技术创新与用户体验的平衡。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "S-Corp税务合规",
+          "summary": "小企业主年收入13万，被建议采用S-Corp报税，但担心结构漏钱、审计风险。手动计算薪资分配、报税表格、合规文件耗时且易错。AI可自动化税务规划、生成合规文档、模拟审计风险。\n\n💡 机会方向：面向小企业主的AI税务合规助手，自动生成S-Corp薪资与报税方案。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u6pnu7/did_i_fall_for_the_scorp_tax_hack_trap_netting/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工盗窃处理",
+          "summary": "小企业主发现员工盗窃，纠结是否报警。手动收集证据、评估法律后果、权衡业务影响，过程痛苦且缺乏客观决策支持。AI可分析盗窃模式、生成证据清单、提供法律风险概率评估。\n\n💡 机会方向：AI内部调查与决策辅助工具，帮助小企业主处理员工违规事件。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u6m6tp/employee_theft_do_i_press_charges/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "网站搭建与设计",
+          "summary": "狗训练师想建网站，但需手动选择平台、设计布局、编写内容、配置域名。非技术背景导致反复试错，耗时数周。AI可一键生成行业定制网站，包括SEO文案、预约系统、客户案例展示。\n\n💡 机会方向：面向服务型小企业的AI网站生成器，输入业务描述即可上线。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u6uzdm/recommendations_for_a_dog_training_website/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "T恤电商启动",
+          "summary": "新手计划卖摔跤主题T恤，需手动设计图案、找供应商、设置店铺、定价、写产品描述。缺乏经验导致决策焦虑。AI可自动生成设计稿、匹配供应商、优化定价策略、撰写营销文案。\n\n💡 机会方向：AI电商启动助手，从设计到上架全流程自动化。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u6ucgn/any_advice_before_i_launch_my_first_small_online/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "采购经理工具调研",
+          "summary": "供应链毕业生想为采购经理推荐工具，但需手动调研数百款软件、对比功能、评估适用性。信息过载且缺乏结构化分析。AI可自动抓取工具信息、生成对比报告、匹配业务需求。\n\n💡 机会方向：AI采购工具推荐引擎，输入需求即可输出定制化软件清单。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u6wb5v/what_tools_services_would_be_helpful_for/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
