@@ -1,0 +1,581 @@
+{
+  "date": "2026-06-18",
+  "timeRange": "2026-06-17 09:00 ~ 2026-06-18 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Snap天价AR眼镜引关注",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Snap发布新款Spectacles眼镜，售价2195美元。CEO埃文·斯皮格尔称，这款产品历经12年研发，旨在将计算融入现实世界并使其更人性化。",
+              "url": "https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Snap公司备受期待的智能眼镜终于亮相，但并未提振股价，反而导致其大幅下跌。这款AR眼镜定价过高，市场反应冷淡。",
+              "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌智能音箱下周发布",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌六年来首款新智能音箱将于6月25日发货，略晚于承诺的春季发布窗口。这款99美元的音箱今日开启预购，自发布九个月以来硬件未变，仍采用略微扁平的圆形设计并配备触",
+              "url": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌正押注生成式AI为智能音箱注入新活力。新款99.99美元的Google Home音箱用更对话式的Gemini交互，取代了谷歌助手时代的僵硬指令。",
+              "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/"
+            }
+          ]
+        },
+        {
+          "headline": "AI对社会影响引发担忧",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "皮尤研究中心最新民调显示，49%的美国人至少偶尔使用聊天机器人，但63%认为该技术发展过快。自2024年以来，AI聊天机器人的使用率大幅上升，当时仅有33%的人",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "皮尤研究中心最新报告指出，尽管华尔街对AI热情高涨，但美国普通民众对该行业的态度明显更为悲观。仅16%的受访者认为AI将对社会产生积极影响，反映出公众与投资者之",
+              "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Wolfram Language 15 | 为人类和AI代理构建的计算语言",
+          "summary": "Wolfram Language 15 是一种为人类和AI代理设计的计算语言。",
+          "url": "https://www.producthunt.com/products/wolfram-mathematica",
+          "time": "14:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Henji | 经过训练、听起来像你的AI回复",
+          "summary": "Henji 提供经过训练、听起来像你的AI回复。",
+          "url": "https://www.producthunt.com/products/henji",
+          "time": "12:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Android 17 | Android 成为一个智能系统",
+          "summary": "Android 17 使 Android 成为一个智能系统。",
+          "url": "https://www.producthunt.com/products/android",
+          "time": "12:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Crunchbase的免费替代品",
+          "summary": "该网站是Crunchbase的免费替代品，使用AI代理团队来汇编数据。",
+          "url": "https://startupswiki.vercel.app/",
+          "time": "08:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 一个免费的CLI编码代理，由广告支持",
+          "summary": "我们补贴Deepseek 4.0、MiniMax M3等！",
+          "url": "https://freebuff.com",
+          "time": "07:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 机器学习将数十亿条日志压缩成你的LLM可以调试的微小快照",
+          "summary": "我是Kaushik，我构建了Rocketgraph。我相信虽然其他领域已经...（摘要不完整，但明确涉及LLM和机器学习）",
+          "url": "https://github.com/Rocketgraph/rocketgraph",
+          "time": "07:14",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "codebase-memory-mcp",
+          "summary": "高性能代码智能MCP服务器，将代码库索引为持久化记忆，支持AI助手快速理解项目结构。今日获得371星，用Rust实现，适合需要深度代码理解的AI编码代理。\n\n💼 商业缺口：缺乏针对企业级代码库的合规审计层，例如自动检测敏感信息泄露或许可证冲突的付费插件。",
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
+          "time": "371 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agent-Reach",
+          "summary": "赋予AI代理浏览整个互联网的能力，支持读取和搜索Twitter、Reddit等平台。今日1161星，Python实现，解决AI代理无法实时获取外部信息的痛点。\n\n💼 商业缺口：缺少付费的API调用成本优化层，例如按内容价值动态调整搜索频率的智能预算控制。",
+          "url": "https://github.com/n0-computer/iroh",
+          "time": "421 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "superpowers",
+          "summary": "一套实用的代理技能框架和软件开发方法论，今日1129星，Shell实现。它定义了AI代理如何协作完成复杂任务，值得关注是因为它提供了可落地的工程化方案。\n\n💼 商业缺口：缺乏付费的代理技能市场，用于交易和验证第三方开发的技能包质量。",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "time": "1,161 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "timesfm",
+          "summary": "Google Research发布的预训练时间序列基础模型，今日606星，Python实现。可直接用于预测任务，无需大量标注数据，是时序AI的重要进展。\n\n💼 商业缺口：缺少付费的模型适配层，用于将TimesFM无缝集成到现有企业数据管道中。",
+          "url": "https://github.com/meshery/meshery",
+          "time": "196 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "continue",
+          "summary": "开源编码代理，今日49星，TypeScript实现。它让AI直接参与代码编写和调试，是开发者工具链中AI落地的典型代表。\n\n💼 商业缺口：缺乏付费的代码安全审查层，用于检测AI生成代码中的潜在漏洞。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "1,129 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "UI-TARS-desktop",
+          "summary": "字节跳动开源的多模态AI代理栈，连接前沿AI模型与桌面应用，今日150星，TypeScript实现。它让AI能直接操控UI界面，是自动化操作的关键基础设施。\n\n💼 商业缺口：缺少付费的桌面应用兼容性测试服务，用于验证代理在不同软件版本上的稳定性。",
+          "url": "https://github.com/google-research/timesfm",
+          "time": "606 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMontage",
+          "summary": "全球首个开源代理视频制作系统，包含12条流水线和52个工具，今日98星，Python实现。它让AI代理能自主完成视频生成全流程，是生成式AI在视频领域的突破。\n\n💼 商业缺口：缺乏付费的视频版权合规检测层，用于确保AI生成内容不侵犯第三方素材。",
+          "url": "https://github.com/RocketChat/Rocket.Chat",
+          "time": "22 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rlm",
+          "summary": "通用即插即用推理库，支持递归语言模型（RLM），今日43星，Python实现。它让模型能进行多步推理，是提升AI逻辑能力的关键组件。\n\n💼 商业缺口：缺少付费的推理结果可解释性工具，用于审计RLM的决策路径。",
+          "url": "https://github.com/continuedev/continue",
+          "time": "49 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 推出 LifeSciBench 基准测试",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 联合173位生物技术与制药科学家推出LifeSciBench基准测试，包含750个专家任务，用于评估AI在真实生命科学研究中的表现。测试显示GPT-5.4在七个工作流中均优于GPT-5.5，尤其在处理科学文献、设计实验和优化化学反应方面表现突出，例如将Chan-Lam偶联反应的产率提升高达88%。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind推出AI住房规划原型",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind与英国科学、创新和技术部等部门合作，开发了一款AI住房规划申请原型。该工具通过减少重复性任务，可帮助规划官员专注于复杂项目，并将处理时间缩短最多50%。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Midjourney 宣布首个硬件项目",
+          "url": "https://twitter.com/midjourney",
+          "summary": "Midjourney 将于明天（6月17日）下午6点（太平洋时间）公布其首个硬件项目，并在旧金山举办线下发布会，届时将提供直播。此外，平台还推出了V8.1版本的新批量草稿模式，可生成24张低分辨率图像，价格仅为标准模式的四分之一，用户可通过“Vary”按钮将喜欢的图像升级为全分辨率。",
+          "source": "Twitter @midjourney"
+        },
+        {
+          "title": "RunwayML 推出 API 新功能：一键调用生成式媒体方案",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 在其 API 中新增了“配方”功能，用户可通过一次 API 调用，将生产就绪的生成式媒体功能集成到自己的平台中。这些由 Runway 构建的端点封装了提示词与工作流经验，无需自行搭建即可实现如从图片生成产品广告、替换视频中物品等规模化操作。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax M3模型多项进展：黑洞模拟器、隐私平台上线及免费访问",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax M3模型近期取得多项进展。用户通过截图即可让M3生成可运行的黑洞模拟器，成本仅0.53美元。该模型现已在Venice平台提供完全私密访问，并支持编码、智能体工作流和复杂推理。此外，B.AI平台将于6月18日起限时免费提供M3，其拥有100万token上下文窗口和原生多模态能力。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "约书亚·本吉奥在魁北克获授国家勋章",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥今日在魁北克获授国家勋章官阶，由蒙特利尔大学校长丹尼尔·朱特拉斯陪同。他感谢该校30多年来的科研支持，并自豪于与Mila研究所等机构共同构建的魁北克人工智能生态。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Cursor正式加入SpaceX AI团队",
+          "summary": "Cursor已正式加入SpaceX的人工智能项目。此外，用户可通过Perplexity Finance进行更高效的股票研究。",
+          "url": "https://www.therundown.ai/p/cursor-officially-joins-the-spacex-ai-machine",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic遭无人理解的出口规则重创",
+          "summary": "Anthropic本周大部分时间都在努力恢复其最新AI模型的在线服务。特朗普政府突然下令该公司切断对所有外国公民的访问权限，包括美国境内用户及公司员工，迫使Anthropic封锁了Fable 5和Mythos 5模型。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/951703/anthropic-shutdown-export-controls",
+          "time": "02:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "三分之二美国人认为AI发展过快",
+          "summary": "皮尤研究中心最新民调显示，49%的美国人至少偶尔使用聊天机器人，但63%认为该技术发展过快。自2024年以来，AI聊天机器人的使用率大幅上升，当时仅有33%的人使用。其中ChatGPT的使用量自2023年翻倍，达到44%。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/951653/pew-research-ai-chatbot-usage-advancing-too-quickly",
+          "time": "01:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "白宫与Anthropic就Fable展开激烈博弈",
+          "summary": "欢迎阅读《监管者》——Verge订阅者专属的科技与政治邮件。本文揭露了一场看似琐碎的争执，却可能从根本上重塑前沿AI开发领域。如有内幕消息，请发送至tina.nguyen+tips@theverge.com。",
+          "url": "https://www.theverge.com/column/951516/trump-anthropic-feud-mythos-fable-white-house",
+          "time": "00:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "戴上Snap的2000美元眼镜，谁还能显得酷？",
+          "summary": "Snap发布新款Spectacles眼镜，售价2195美元。CEO埃文·斯皮格尔称，这款产品历经12年研发，旨在将计算融入现实世界并使其更人性化。",
+          "url": "https://www.theverge.com/report/951481/snap-specs-wearables-smart-glasses-fashion",
+          "time": "00:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "基于Facebook帖子的AI搜索？隐患何在",
+          "summary": "Meta在搜索中推出AI模式，旨在回答“周末该做什么”等个性化问题，但当前AI在日程安排上表现可靠，却仍易出错。该功能若想成为实用工具，需先解决信息准确性问题。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/951099/meta-ai-mode-search-hands-on",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌六年来首款智能音箱下周发布",
+          "summary": "谷歌六年来首款新智能音箱将于6月25日发货，略晚于承诺的春季发布窗口。这款99美元的音箱今日开启预购，自发布九个月以来硬件未变，仍采用略微扁平的圆形设计并配备触控按键。",
+          "url": "https://www.theverge.com/tech/951147/google-home-speaker-gemini-launch-date-price-specs-features",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "下一代人形机器人可能不再像人",
+          "summary": "法国初创公司Genesis AI推出新型机器人Eno，它可能没有头部和腿部，而是采用轮式底座，可像折叠椅一样收放。该公司表示，人形机器人无需外观像人，这解释了Eno的独特设计。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/951283/genesis-ai-humanoid-robot-eno",
+          "time": "17:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "罗洛夫·博塔加入SpaceX董事会",
+          "summary": "前红杉资本负责人罗洛夫·博塔填补了SpaceX董事会的“现有空缺”。此时距离该公司以史上最大规模IPO上市仅过去数日。",
+          "url": "https://techcrunch.com/2026/06/17/roelof-botha-joins-spacexs-board-of-directors/",
+          "time": "04:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Snap发布天价AR眼镜后股价大跌",
+          "summary": "Snap公司备受期待的智能眼镜终于亮相，但并未提振股价，反而导致其大幅下跌。这款AR眼镜定价过高，市场反应冷淡。",
+          "url": "https://techcrunch.com/2026/06/17/after-unveiling-ridiculously-expensive-ar-glasses-snaps-stock-takes-a-dive/",
+          "time": "04:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "NEA高管：企业仍在摸索AI投资回报率",
+          "summary": "今年早些时候，“Token最大化”成为硅谷热门趋势，CEO们鼓励员工尽可能使用AI。然而账单随之而来：据报道Uber在几个月内就花光了年度AI预算，部分公司削减了Claude许可证，Meta也取消了内部排行榜。企业正面临AI投入与回报之间的紧张关系。",
+          "url": "https://techcrunch.com/video/neas-tiffany-luck-says-enterprises-are-still-figuring-out-their-ai-roi/",
+          "time": "04:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "全球领导人想要美国AI，但不愿美国能随时关闭",
+          "summary": "法国总统马克龙和印度总理莫迪在G7峰会上警告，美国可能一夜之间切断对美式AI的访问权限。Anthropic的断供事件刚刚证实了这一担忧。",
+          "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+          "time": "03:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic成为首家加入前沿碳去除联盟的AI初创公司",
+          "summary": "Anthropic已加入Frontier联盟，该联盟获得了额外的9.15亿美元承诺资金，用于资助碳去除项目。",
+          "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+          "time": "02:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "社交媒体下一进化：用户控制算法",
+          "summary": "随着Threads、Instagram和TikTok等平台推出新工具，社交媒体信息流正变得更加可定制。这些工具允许用户直接影响驱动推荐内容的算法，从而掌握更多控制权。",
+          "url": "https://techcrunch.com/2026/06/17/social-medias-next-evolution-user-controlled-algorithms/",
+          "time": "02:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "NEA的蒂芙尼·拉克谈AI IPO、个人代理与投资回报率清算",
+          "summary": "今年早些时候，硅谷掀起“Token最大化”热潮，CEO们鼓励员工尽可能推动AI使用。然而，账单随之而来：据报道，Uber在几个月内花光了年度AI预算，部分公司削减了Claude许可证，Meta也取消了内部排行榜。这种投入与回报之间的紧张关系正引发行业反思。",
+          "url": "https://techcrunch.com/podcast/neas-tiffany-luck-on-ai-ipos-personal-agents-and-the-roi-reckoning/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "世界模型创企Odyssey获亚马逊等投资，估值达14.5亿美元",
+          "summary": "世界模型被视为继大语言模型之后AI领域的下一个重大突破。Odyssey凭借本轮融资，已确立自身作为备受关注的初创公司之一的地位。",
+          "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+          "time": "01:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "研究显示仅16%美国人认为AI将对社会产生积极影响",
+          "summary": "皮尤研究中心最新报告指出，尽管华尔街对AI热情高涨，但美国普通民众对该行业的态度明显更为悲观。仅16%的受访者认为AI将对社会产生积极影响，反映出公众与投资者之间的认知鸿沟。",
+          "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌押注Gemini重塑智能音箱",
+          "summary": "谷歌正押注生成式AI为智能音箱注入新活力。新款99.99美元的Google Home音箱用更对话式的Gemini交互，取代了谷歌助手时代的僵硬指令。",
+          "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "慢科技革命：终结手机成瘾，拯救注意力",
+          "summary": "慢科技革命旨在帮助人们摆脱手机成瘾，重获对时间、生活和注意力的掌控。人们渴望夺回自主权，并愿意接受任何能实现这一目标的方式。",
+          "url": "https://techcrunch.com/2026/06/17/the-slowtech-revolution-is-here-to-kill-your-phone-addiction-and-rescue-your-attention-span/",
+          "time": "23:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "机器人训练数据收集：又脏又累的苦差事，AI实验室已开始付费外包",
+          "summary": "要让物理AI达到大语言模型的成就，必须先解决数据收集难题。目前这项工作既脏又累，一些AI实验室已开始付费外包给第三方完成。",
+          "url": "https://techcrunch.com/2026/06/17/collecting-robot-training-data-is-dirty-unglamorous-work-some-ai-labs-are-already-paying-xdof-to-do-it/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Pramaana Labs 获 Khosla Ventures 2700 万美元种子轮融资，将形式验证引入 AI",
+          "summary": "Pramaana Labs 从 Khosla Ventures 获得 2700 万美元种子轮融资，计划将形式验证技术应用于法律、药物发现和税务准备等高敏感领域。这些领域错误代价高昂，对可靠性要求极高。",
+          "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+          "time": "22:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "加拿大养老基金巨头入局，竞相投资印度AI数据中心热潮",
+          "summary": "加拿大养老基金巨头将收购印度科技巨头CtrlS 8.2%的股份，该公司在印度运营超过15个数据中心。此举标志着全球资本正加速涌入印度AI基础设施领域。",
+          "url": "https://techcrunch.com/2026/06/17/canadian-pension-giant-joins-race-to-fund-indias-ai-fueled-data-center-boom/",
+          "time": "20:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "DeepL 收购 Mixhalo，进军现场活动音频流与翻译领域",
+          "summary": "DeepL 收购了现场活动音频流与翻译公司 Mixhalo，并借此在旧金山设立办公室，以拓展其美国业务。",
+          "url": "https://techcrunch.com/2026/06/17/deepl-acquires-mixhalo-for-live-event-audio-streaming-and-translation/",
+          "time": "20:14",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，展示了全球金融科技领域最具创新力和影响力的公司。这些企业在支付、借贷、保险和财富管理等领域推动技术变革，重塑传统金融服务模式。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司竞争加剧。人工智能和区块链技术推动支付、借贷和投资领域创新，监管环境也在快速演变以适应新业态。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "本文概述了保险科技行业的最新发展动态，包括技术应用、市场趋势和主要参与者。当前保险科技领域正通过人工智能、大数据和区块链等技术推动创新，提升效率并改善客户体验。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "MolmoMotion：语言引导的3D运动预测",
+          "summary": "MolmoMotion是一种基于语言指令的3D运动预测框架，能够根据自然语言描述生成符合语义的物体或人体运动轨迹。该技术结合了语言理解与三维空间建模，为机器人交互和虚拟现实等应用提供了更直观的控制方式。",
+          "url": "https://huggingface.co/blog/allenai/molmomotion",
+          "time": "23:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "从Hugging Face Hub到机器人硬件：Strands Agents与LeRobot",
+          "summary": "Strands Agents和LeRobot项目实现了从Hugging Face Hub到机器人硬件的端到端部署。该方案允许用户直接利用Hub上的预训练模型，快速在实体机器人上运行智能行为。这大幅降低了机器人开发的门槛，加速了AI从仿真到实际应用的转化。",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+          "time": "18:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "GLM-5.2：专为长周期任务打造",
+          "summary": "GLM-5.2模型专为处理需要长期规划和持续推理的复杂任务而设计。它在长时间跨度任务中展现出更强的记忆与决策能力，能够有效应对多步骤问题。该版本旨在提升AI在现实场景中的实用性和可靠性。",
+          "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
+          "time": "17:01",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动申请贷款",
+          "summary": "小企业主急需2-3万美元贷款，但不知道如何快速申请，需要手动研究不同贷款机构、准备材料、填写表格。这个过程耗时且容易出错，AI可以自动匹配最优贷款方案、预填申请表格、并实时跟踪审批进度。\n\n💡 机会方向：AI驱动的智能贷款申请助手，自动匹配并提交最优贷款方案",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u8r8mx/small_business_loans/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动回复折扣请求",
+          "summary": "高端在线辅导业务频繁收到客户的不合理折扣请求，需要手动编写专业且不损害品牌形象的拒绝回复。每次回复耗时且需谨慎措辞，AI可以基于业务定价策略和客户画像，自动生成个性化、礼貌且坚定的拒绝模板。\n\n💡 机会方向：AI客服话术生成器，自动处理折扣谈判与价格异议",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u8pii5/professional_responses_to_weird_requests_for/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动处理客户24小时咨询",
+          "summary": "客户服务人员抱怨被要求24小时随时回复客户消息，导致身心俱疲。手动处理大量重复性咨询（如营业时间、价格、退货政策）占用了大量时间。AI聊天机器人可以自动回答常见问题，仅在复杂问题时转接人工。\n\n💡 机会方向：AI客服自动应答系统，7x24小时处理常见问题并智能转接",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u8iyi8/when_did_good_customer_service_turn_into_being_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动研究域名注册时机",
+          "summary": "创业者犹豫是否先注册公司再购买域名，担心域名被抢注或注册流程出错。需要手动研究各州注册规则、域名注册商政策，并协调时间节点。AI可以自动分析最佳注册顺序、提醒关键日期，并一键完成域名购买与公司注册。\n\n💡 机会方向：AI创业启动助手，自动规划公司注册与域名购买时序",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u8gcyt/domain_purchase_before_or_after_registering_as_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动应对大公司抹黑",
+          "summary": "小企业主发现大公司试图通过负面评论或虚假信息抹黑自己，需要手动收集证据、制定应对策略并持续证明自身价值。这个过程耗时且情绪消耗大。AI可以自动监控网络声誉、生成反驳文案，并建议最优公关行动。\n\n💡 机会方向：AI声誉监控与反抹黑工具，自动检测并生成应对方案",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1u8ptgy/has_anyone_ever_dealt_with_larger_companies/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
