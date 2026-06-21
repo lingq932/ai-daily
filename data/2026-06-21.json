@@ -1,0 +1,299 @@
+{
+  "date": "2026-06-21",
+  "timeRange": "2026-06-20 09:00 ~ 2026-06-21 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "GenAIDojo | 专为AI工程师打造的面试准备平台",
+          "summary": "在Mu上练习真实问题",
+          "url": "https://www.genaidojo.io/",
+          "time": "08:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "FERNme – 近乎零LLM调用的智能体记忆更新系统",
+          "summary": "我一直在研究持久化记忆。我想看看能否构建一个类似大脑的...",
+          "url": "https://github.com/mirkofr/FERNme",
+          "time": "07:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Vitrus – 能告诉你它不知道什么的公司大脑",
+          "summary": "Vitrus — 能告诉你它不知道什么的公司大脑",
+          "url": "https://github.com/ahmetvural79/Vitrus",
+          "time": "07:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Callimachus – 跨AI编码智能体历史记录的本地搜索工具",
+          "summary": "文章URL：https://github.com/BetaBots-LLC/callimachus 评论URL：https://n",
+          "url": "https://github.com/BetaBots-LLC/callimachus",
+          "time": "07:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "palmier-pro",
+          "summary": "一款专为AI构建的macOS视频编辑器，利用AI技术提升视频编辑效率。今日获得902颗星，表明其在AI视频编辑领域有较高关注度。值得关注的是，它可能集成了智能剪辑、自动生成字幕等AI功能。\n\n💼 商业缺口：缺乏针对AI视频编辑结果的合规性审计工具，例如自动检测生成内容是否侵犯版权或违反平台政策。",
+          "url": "https://github.com/palmier-io/palmier-pro",
+          "time": "902 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMontage",
+          "summary": "全球首个开源、智能体驱动的视频制作系统，包含12条流水线和52个工具。今日获得677颗星，说明其创新性受到开发者认可。它通过AI代理自动化视频生产流程，适合内容创作者和影视制作团队。\n\n💼 商业缺口：缺少面向企业级视频生产的成本核算与资源调度层，例如自动优化AI代理调用费用和GPU使用率。",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "time": "677 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "codebase-memory-mcp",
+          "summary": "高性能代码智能MCP服务器，能将代码库索引为持久化记忆，供AI模型高效检索。今日获得1271颗星，热度极高。它解决了AI理解大型代码库时的上下文缺失问题，是AI辅助编程的关键基础设施。\n\n💼 商业缺口：缺乏代码索引的访问控制与审计日志系统，无法追踪哪些AI模型或用户读取了敏感代码片段。",
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
+          "time": "1,271 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "TimesFM",
+          "summary": "谷歌研究院发布的预训练时间序列基础模型，可应用于金融预测、物联网监控等场景。今日获得433颗星，体现了学术界和工业界对时间序列AI模型的持续需求。其通用性降低了时间序列分析的门槛。\n\n💼 商业缺口：缺少针对时间序列模型预测结果的置信度校准与异常检测付费服务，帮助用户判断AI预测是否可靠。",
+          "url": "https://github.com/google-research/timesfm",
+          "time": "433 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "twenty",
+          "summary": "专为AI设计的开源Salesforce替代品，今日获得140颗星。它通过AI原生架构优化客户关系管理流程，例如智能线索评分和自动化沟通。适合希望用AI改造销售流程的中小企业。\n\n💼 商业缺口：缺乏AI驱动的销售数据合规性验证层，例如自动检测CRM中的客户数据是否违反GDPR等隐私法规。",
+          "url": "https://github.com/twentyhq/twenty",
+          "time": "140 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "headroom",
+          "summary": "在数据到达大语言模型前，对工具输出、日志、文件和RAG块进行压缩的工具。今日获得3795颗星，热度极高。它显著降低LLM的输入成本和延迟，是AI应用优化的实用工具。\n\n💼 商业缺口：缺少压缩效果的可视化仪表盘和成本节省报告，帮助企业量化使用该工具后的ROI。",
+          "url": "https://github.com/chopratejas/headroom",
+          "time": "3,795 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "voicebox",
+          "summary": "开源AI语音工作室，支持语音克隆、听写和创作。今日获得145颗星。它让用户无需专业设备即可生成高质量语音内容，适合播客、有声书和虚拟助手开发。\n\n💼 商业缺口：缺乏语音克隆的伦理使用证明与溯源水印服务，防止生成的语音被用于欺诈或冒充。",
+          "url": "https://github.com/jamiepine/voicebox",
+          "time": "145 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "kilocode",
+          "summary": "一体化智能体工程平台，帮助开发者更快地构建、交付和迭代。今日获得513颗星。它通过AI代理自动化编码、测试和部署流程，提升开发效率。\n\n💼 商业缺口：缺少AI代理行为的可解释性审计层，无法清晰记录每个代码变更是由哪个代理、基于什么推理做出的。",
+          "url": "https://github.com/Kilo-Org/kilocode",
+          "time": "513 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "flue",
+          "summary": "沙盒代理框架，用于安全地运行和测试AI代理。今日获得316颗星。它解决了AI代理在真实环境中可能造成破坏的风险，适合需要安全实验AI代理的开发者。\n\n💼 商业缺口：缺乏沙盒内代理行为的合规性报告生成工具，无法自动输出符合SOC2等标准的审计证据。",
+          "url": "https://github.com/withastro/flue",
+          "time": "316 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "awesome-artificial-intelligence",
+          "summary": "精心整理的AI资源列表，包含课程、书籍、视频讲座等。今日获得48颗星。它是AI学习者的入门导航，持续更新高质量内容。\n\n💼 商业缺口：缺少基于用户学习进度和兴趣的个性化AI课程推荐引擎，而非静态列表。",
+          "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+          "time": "48 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "jcode",
+          "summary": "编码代理工具集，用于管理和协调AI编码代理。今日获得87颗星。它简化了多个AI编码代理的部署和协作，适合大型项目的自动化开发。\n\n💼 商业缺口：缺乏多代理协作时的代码冲突解决与版本控制付费服务，类似AI版的Git合并工具。",
+          "url": "https://github.com/1jehuang/jcode",
+          "time": "87 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Midjourney动态",
+          "url": "https://twitter.com/midjourney",
+          "summary": "作者邀请用户与朋友在午夜后共度10分钟，在即将开业的Midjourney水疗中心空地上即兴创作音乐祝福。视频展示了这一创意活动。",
+          "source": "Twitter @midjourney"
+        },
+        {
+          "title": "MiniMax AI 动态：M3模型登顶B.AI排行榜，Hermes Agent与虚幻引擎5.8互动测试",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax M3模型在B.AI排行榜上位列第一，成为高级编程和多智能体工作流的首选模型。同时，Hermes Agent 0.17与虚幻引擎5.8 MCP进行了45分钟交互测试，消耗1000万token，虽未能成功创建纹理，但展示了AI与游戏引擎集成的潜力。",
+          "source": "Twitter @MiniMax_AI"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "《大西洋月刊》创建可搜索数据库，公开AI训练所用音乐",
+          "summary": "《大西洋月刊》记者亚历克斯·赖斯纳发现了四个用于训练AI模型的音乐数据集，并将其公开供公众搜索。其中两个数据集规模庞大，分别包含1200万和900万首曲目，另外两个较小，但仍代表大量训练数据。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+          "time": "02:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Signal高管梅雷迪思·惠特克提醒：AI聊天机器人“不是你的朋友”",
+          "summary": "Signal总裁梅雷迪思·惠特克强调，AI聊天机器人并非人类的朋友，也不是有意识或具备感知能力的对话者。她提醒用户保持警惕，不要将AI拟人化，以免产生不切实际的期望或情感依赖。",
+          "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+          "time": "04:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "你的AI新潮搜索工具：In the Weights",
+          "summary": "In the Weights推出以AI为核心的个性化搜索工具，用户可查询自己的“In the Weights评分”。该工具旨在通过算法分析提供独特的搜索结果体验。",
+          "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+          "time": "03:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "诺奖得主约翰·詹珀离开DeepMind加盟对手Anthropic",
+          "summary": "约翰·詹珀，诺贝尔奖得主，已从谷歌DeepMind离职，加入竞争对手Anthropic。他并非唯一离开DeepMind的知名人物，近期已有多位顶尖人才选择跳槽。",
+          "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+          "time": "00:39",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，包括技术创新、市场趋势和监管变化。重点分析了数字支付、区块链和人工智能在金融服务中的应用，以及这些技术如何重塑行业格局。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技公司加速融合。人工智能和大数据技术被广泛应用于风险评估、理赔处理和客户服务，推动行业效率提升。未来，个性化保险产品和自动化流程将成为主要发展趋势。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "库存与排班预测",
+          "summary": "小企业主每天手动记录客流量和产品销量，凭经验决定进货量和员工排班，经常出现库存积压或人手不足。AI可接入POS数据自动分析历史销售趋势、天气、节假日等变量，生成精准的采购和排班建议，大幅减少试错成本。\n\n💡 机会方向：面向小微零售/餐饮的AI库存与排班预测SaaS",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ub5w0v/how_do_you_know_how_much_to_order_and_how_many_to/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "负面评论回复撰写",
+          "summary": "店主面对Google差评时，反复纠结如何回应才能既诚恳又不显得防御，常因措辞不当导致客户流失。AI可自动分析评论情绪和具体投诉点，生成多版本专业回复草稿，并建议最佳发布时间，将回复效率从半小时缩短到1分钟。\n\n💡 机会方向：AI驱动的商家声誉管理助手（自动生成差评回复）",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ub2al8/how_do_you_handle_responding_to_negative_google/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户跟进与催单",
+          "summary": "定制珠宝商需要频繁手动催促客户确认设计、付款和取货，但客户回复极慢，导致项目积压和现金流紧张。AI可自动发送个性化提醒邮件/短信，根据客户历史行为预测最佳跟进时机，并标记失联客户，让商家从“催命”变成“智能提醒”。\n\n💡 机会方向：面向定制服务行业的AI客户跟进与催单机器人",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ub3w6a/i_cant_get_my_customer_to_respond_in_a_timely/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "供应商筛选与比价",
+          "summary": "服装创业者通过社交媒体手动浏览供应商，逐个私信询价、对比质量，过程耗时且易被虚假信息误导。AI可自动抓取多个平台供应商信息，按价格、交期、评价等维度生成对比表，并识别潜在欺诈风险，将选品周期从数周压缩到数小时。\n\n💡 机会方向：AI驱动的跨境/本地供应商智能比价与风控平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ub3g8v/clothing_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
