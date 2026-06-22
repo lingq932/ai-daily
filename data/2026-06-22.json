@@ -1,0 +1,372 @@
+{
+  "date": "2026-06-22",
+  "timeRange": "2026-06-21 09:00 ~ 2026-06-22 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "我用200行Go语言构建了一个MCP服务器（Claude变得好用10倍）",
+          "summary": "文章URL：https://medium.com/dev-genius/i-built-an-mcp-server-in-200-lines-of",
+          "url": "https://medium.com/dev-genius/i-built-an-mcp-server-in-200-lines-of-go-and-claude-became-10x-more-useful-5352546a48cb",
+          "time": "08:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "ANMA：用于更廉价AI编码代理的边界合约",
+          "summary": "我构建ANMA是因为我注意到较便宜的模型常常忽略架构约束。",
+          "url": "https://github.com/anma-labs/anma",
+          "time": "07:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI色彩",
+          "summary": "文章URL：https://github.com/pilotpirxie/ai-colours 评论URL：https://new",
+          "url": "https://github.com/pilotpirxie/ai-colours",
+          "time": "07:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "PeekAI – Python AI代理的本地优先可观测性工具",
+          "summary": "文章URL：https://github.com/oussamaKH63/peekai 评论URL：https://news.yc",
+          "url": "https://github.com/oussamaKH63/peekai",
+          "time": "07:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Lupen – Claude Code和Codex支出的明细化、可验证收据",
+          "summary": "文章URL：https://github.com/momoraul/Lupen 评论URL：https://news.ycombi",
+          "url": "https://github.com/momoraul/Lupen",
+          "time": "07:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "无需上传视频的实时谎言检测",
+          "summary": "文章URL：https://github.com/WhissleAI/lie_detection_binary 评论URL：htt",
+          "url": "https://github.com/WhissleAI/lie_detection_binary",
+          "time": "06:51",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "palmier-pro",
+          "summary": "一款专为AI构建的macOS视频编辑器，利用AI技术提升视频编辑效率。今日获得1834颗星，表明其在AI视频编辑领域受到高度关注。值得关注的是，它可能集成了智能剪辑、自动生成字幕或AI特效等功能。\n\n💼 商业缺口：缺乏针对AI视频编辑工作流的审计与合规工具，例如AI生成内容的版权溯源和修改记录追踪。",
+          "url": "https://github.com/palmier-io/palmier-pro",
+          "time": "1,834 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMontage",
+          "summary": "全球首个开源、智能体驱动的视频制作系统，包含12条流水线和52种工具。今日获得987颗星，说明其创新性受到开发者认可。它通过AI代理自动化视频生产流程，可能涵盖脚本生成、素材匹配和自动剪辑。\n\n💼 商业缺口：缺少面向企业级视频生产的成本核算与资源调度治理平台，用于监控AI代理的算力消耗和产出质量。",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "time": "987 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "headroom",
+          "summary": "一个在数据到达大语言模型前压缩工具输出、日志、文件和RAG块的工具。今日获得2624颗星，热度极高。它解决了LLM上下文窗口限制和成本问题，通过智能压缩减少token消耗，同时保留关键信息。\n\n💼 商业缺口：缺乏压缩策略的透明审计层，无法验证压缩后信息损失对模型输出准确性的影响。",
+          "url": "https://github.com/chopratejas/headroom",
+          "time": "2,624 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "penpot",
+          "summary": "开源的设计工具，支持设计与代码协作，今日获得1135颗星。虽然主要面向设计，但其AI相关潜力在于可能集成AI生成设计元素或智能布局建议。值得关注的是，它作为Figma的替代品，正吸引AI驱动的设计自动化社区。\n\n💼 商业缺口：缺少AI设计资产的版本管理与合规性验证工具，例如检测AI生成设计是否侵犯版权。",
+          "url": "https://github.com/penpot/penpot",
+          "time": "1,135 stars today",
+          "language": "Clojure",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "daily_stock_analysis",
+          "summary": "一个LLM驱动的多市场股票智能分析系统，集成多源行情、实时新闻、决策看板和自动推送，支持零成本定时运行。今日获得568颗星。它利用大语言模型进行金融数据分析，为散户提供AI辅助投资决策。\n\n💼 商业缺口：缺乏金融AI模型的回测与风险审计平台，用于验证LLM分析结果的准确性和投资建议的合规性。",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "time": "568 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "worldmonitor",
+          "summary": "实时全球情报仪表盘，通过AI聚合新闻并分析地缘政治事件。今日获得163颗星。它利用AI从多源信息中提取关键情报，适合需要快速掌握全球动态的用户。其价值在于自动化信息筛选和趋势预测。\n\n💼 商业缺口：缺少AI情报的溯源与可信度评估工具，用于验证新闻聚合的准确性和偏见检测。",
+          "url": "https://github.com/koala73/worldmonitor",
+          "time": "163 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "deer-flow",
+          "summary": "字节跳动开源的长期任务超级智能体框架，能够自主研究、编码和创作。今日获得442颗星。它专注于长周期AI代理任务，可能用于自动化软件开发或复杂研究项目。值得关注的是其企业级背景和开源潜力。\n\n💼 商业缺口：缺乏长期AI代理任务的成本监控与性能基准测试工具，用于评估代理在长时间运行中的资源消耗和成功率。",
+          "url": "https://github.com/bytedance/deer-flow",
+          "time": "442 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "codebase-memory-mcp",
+          "summary": "高性能代码智能MCP服务器，将代码库索引到持久化存储中。今日获得1032颗星。它通过AI增强代码理解，支持智能代码搜索和上下文感知。对于大型项目，它解决了代码库知识管理和AI辅助编程的基础问题。\n\n💼 商业缺口：缺少代码索引的隐私审计与访问控制层，用于确保敏感代码不被AI模型意外泄露。",
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
+          "time": "1,032 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic-Cybersecurity-Skills",
+          "summary": "为AI代理提供的754个结构化网络安全技能，映射到MITRE ATT&CK等5个框架。今日获得361颗星。它标准化了AI在网络安全领域的知识表示，可用于训练安全代理或自动化渗透测试。\n\n💼 商业缺口：缺乏技能库的合规性验证与更新治理工具，用于确保AI代理使用的安全技能符合最新法规和威胁情报。",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "time": "361 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cognee",
+          "summary": "开源AI记忆平台，为AI代理提供持久化记忆能力。今日获得347颗星。它解决了AI代理在对话或任务中缺乏长期记忆的问题，支持上下文保持和个性化交互。值得关注的是其作为AI基础设施的潜力。\n\n💼 商业缺口：缺少AI记忆的隐私管理与数据生命周期治理工具，用于控制代理记忆的存储、检索和遗忘策略。",
+          "url": "https://github.com/topoteretes/cognee",
+          "time": "347 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "system_prompts_leaks",
+          "summary": "从Anthropic的Claude系列模型中提取的系统提示词，包括Fable 5、Opus 4.8等版本。今日获得282颗星。它揭示了商业AI模型的内部指令，对研究AI安全、提示工程和模型行为有重要价值。\n\n💼 商业缺口：缺乏系统提示词的合规性审计与版本管理工具，用于企业确保AI模型行为符合内部政策。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "282 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "skills",
+          "summary": "来自作者.claude目录的真实工程师技能集，今日获得1443颗星。它展示了如何通过结构化技能定义增强AI代理的能力，可能包含编程、调试和系统设计等实用技能。值得关注的是其作为AI代理技能库的参考价值。\n\n💼 商业缺口：缺少技能集的标准化评估与认证平台，用于验证AI代理技能的实际执行效果和可靠性。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "1,443 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "杨立昆推文汇总",
+          "url": "https://twitter.com/ylecun",
+          "summary": "该推文合集对比了奥巴马与特朗普的执政表现，强调奥巴马在伊朗核协议、经济复苏、医保改革和反恐行动中的成就，而特朗普则被指导致通胀、军人伤亡和多项重罪定罪。此外，内容还涉及图尔西·加巴德被指受邪教操控的政治生涯、开源AI领导力竞争、以及印度加入Project Tapestry推动多语言前沿AI发展等话题。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "特朗普政府打击Anthropic，谁将受益？",
+          "summary": "在最新一期《Equity》节目中，我们探讨了特朗普政府近期针对Anthropic采取行动的真实原因，以及这对AI生态系统可能产生的影响。",
+          "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+          "time": "23:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "超越Siri：iOS 27将为iPhone带来实用AI功能",
+          "summary": "在WWDC上，Siri的AI升级备受关注，但苹果最实用的AI功能将出现在iOS 27的其他部分。这些功能将提升用户体验，而非仅限于语音助手。",
+          "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+          "time": "22:40",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。上榜企业通过技术创新推动金融服务变革，提升效率与可及性。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，涵盖支付、借贷、保险科技等细分方向。行业正经历监管趋严与技术创新并行的阶段，人工智能与区块链技术持续推动服务模式变革。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔及客户服务。尽管投资有所波动，但技术创新持续推动行业效率提升与产品个性化发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "ECCV 2026论文决定申诉讨论",
+          "summary": "ECCV 2026发布元评审后，为不满意的作者提供了申诉表格。申诉理由包括：政策错误（如审稿人或领域主席应用了不存在的政策，或对论文类型不适用的政策）、文书错误（如元评审显示领域主席本意接收但论文被拒），以及明显重大误解等。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/",
+          "time": "04:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "改进版DVD-JEPA演示",
+          "summary": "本文介绍了一个对JEPA模型的改进演示，增加了环境噪声并与像素空间基线进行了公平比较。杨立昆曾强调，JEPA的关键优势在于能够忽略不可预测且无关的环境细节，因此噪声的引入具有重要价值。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/",
+          "time": "23:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "矩阵递归单元更新：一种注意力机制的替代方案",
+          "summary": "作者重新审视了其提出的矩阵递归单元（MRU），这是一种新型线性时间序列架构，旨在替代注意力机制。MRU通过将嵌入转换为输入状态矩阵，沿序列维度累积相乘得到输出状态矩阵，再转换回向量。为提升深度学习硬件上的效率，作者还创建了并行化实现。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
+          "time": "03:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "领域特定词汇微调Whisper的最佳当前方法",
+          "summary": "用户询问针对领域特定语音微调Whisper模型的最新有效方法，项目需模型可靠识别特定词汇和技术术语，词汇和上下文主要为西班牙语。用户已知LoRA、QLoRA和Spectrum等方法，但想了解类似用例经验及模型收敛所需标注音频时长。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ubvmdx/best_current_methods_for_finetuning_whisper_on/",
+          "time": "01:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "面向神经网络团队的数据中心化调试工具",
+          "summary": "WeightsLab 进行了重大更新，允许用户在训练过程中暂停、实时检查损失信号，并在数据问题（如标签错误、类别不平衡或异常值）破坏模型前及时捕获。该工具为 PyTorch 原生开源，专为处理图像、视频和 LiDAR 点云数据的计算机视觉工程师设计。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ubwcat/datacentric_debugging_for_teams_training_neural/",
+          "time": "01:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "LoRA上的EMA？[R]",
+          "summary": "有用户询问是否存在成功在LoRA适配器上使用指数移动平均（EMA）的论文，特别是EMA适配器作为自教师生成软标签用于可训练适配器的案例。虽然在线自蒸馏方法使用了EMA教师，但通常涉及全参数微调，用户希望了解在LoRA或轻量模型上是否有实证结果支持该思路。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/",
+          "time": "00:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "发布无Softmax注意力模型：GPT-2中等规模（约3.54亿参数，115亿令牌）",
+          "summary": "作者发布了一个无Softmax的注意力模型，规模为GPT-2 Medium（约3.54亿参数，115亿令牌）。该模型利用结构稀疏性和瓦片跳过内核，在长上下文场景中节省显存。模型权重和自定义Triton内核已开源。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ubmybr/i_released_a_softmaxfree_attention_model_at_gpt2/",
+          "time": "18:46",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "每周任务清单管理",
+          "summary": "小企业主每周手动制定任务清单，容易迷失在细节中，难以聚焦高价值工作。AI可以分析历史数据、业务目标和行业基准，自动生成优先级排序的周任务列表，并动态调整，减少决策疲劳。\n\n💡 机会方向：AI驱动的智能周计划生成器，自动排优先级并跟踪执行",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uc54s2/does_anyone_have_a_weekly_list_of_tasks_they_set/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "月度财务对账焦虑",
+          "summary": "无论经验多丰富，每月总有固定任务让人紧张（如核对银行流水、税务申报）。AI可以自动抓取银行、支付平台数据，匹配交易记录，标记异常，并生成对账报告，将数小时手动工作压缩到几分钟。\n\n💡 机会方向：自动化月度财务对账与异常预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ubvdqp/what_recurring_task_makes_you_nervous_every_month/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "新泳池数据采集与推送",
+          "summary": "手动从新建泳池许可数据中提取地址、业主信息，再逐一推送给围栏安装商。AI可以自动爬取公共记录，解析结构化数据，并批量生成个性化销售线索邮件或短信，省去重复复制粘贴。\n\n💡 机会方向：公共记录自动解析与B2B销售线索推送系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uc3qrc/i_am_pulling_data_from_new_pools_in_phoenix_east/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Word文档批量转Markdown",
+          "summary": "接手项目时需将大量Word文档手动转换为Markdown格式，用于数据摄入流程。AI可以自动识别文档结构（标题、表格、列表），保留格式并批量转换，避免逐篇复制粘贴和格式修复。\n\n💡 机会方向：文档格式智能批量转换工具（Word→Markdown）",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48622123",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
