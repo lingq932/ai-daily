@@ -1,0 +1,628 @@
+{
+  "date": "2026-06-26",
+  "timeRange": "2026-06-25 09:00 ~ 2026-06-26 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI推迟发布新模型",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "据报道，特朗普政府因担忧潜在安全问题，要求OpenAI分阶段发布其重磅模型GPT-5.6。OpenAI CEO山姆·奥特曼在内部问答中透露，公司将仅向小部分用户",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "据报道，OpenAI计划仅向特定合作伙伴分享其最新模型GPT 5.6，而非向公众广泛发布。原因是特朗普政府要求其这样做。",
+              "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/"
+            }
+          ]
+        },
+        {
+          "headline": "Claude赢得付费消费者青睐",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "数据显示，尽管ChatGPT在AI市场占据主导地位，但越来越多的付费消费者开始选择Anthropic的Claude。这一趋势表明，Claude正在逐步蚕食Cha",
+              "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/"
+            },
+            {
+              "source": "Towards AI",
+              "summary": "作者Anup Karanjkar指出，Claude Code在5月28日新增了第五种多步任务运行方式，但许多工程师会选错方案。文章强调，选择多步原语的关键不在于",
+              "url": "https://towardsai.com/p/machine-learning/five-ways-claude-code-runs-multi-step-work-the-two-questions-that-pick-the-right-one"
+            }
+          ]
+        },
+        {
+          "headline": "AI能耗降低1000倍",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Un-0是一款图像生成系统工具，首次展示了该公司技术如何复制传统AI系统。其核心目标是通过大幅降低能耗，实现AI效率的千倍提升。",
+              "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/"
+            },
+            {
+              "source": "Towards AI",
+              "summary": "视频扩散行业两年来一直追求更好的模型、更多参数和更高分辨率，但生成720p视频仍耗时过长，阻碍实时应用。英伟达在GTC 2026上证明，无需50步扩散步骤即可实",
+              "url": "https://towardsai.com/p/machine-learning/you-do-not-need-50-diffusion-steps-here-is-what-nvidia-proved-at-gtc"
+            }
+          ]
+        },
+        {
+          "headline": "亚马逊追加印度AI投资",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "亚马逊宣布在印度新增130亿美元投资，用于扩建人工智能基础设施。此举正值全球科技巨头竞相在印度布局AI算力资源之际。",
+              "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/"
+            },
+            {
+              "source": "MIT Technology Review - AI",
+              "summary": "人工智能正在迅速重塑零售业，但其影响并非体现在炫酷的虚拟试穿或聊天机器人购物助手等消费者直接可见的方面。真正的变革发生在幕后：产品在搜索结果中的排序方式、供应链",
+              "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "HoprLabs – 用于原型设计AI数学思想的Python实验室",
+          "summary": "文章网址：https://github.com/TangibleResearch/HoprLabs 评论网址：https://",
+          "url": "https://github.com/TangibleResearch/HoprLabs",
+          "time": "07:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "DeepSeek Flash 颠覆了智能体产品的经济模式",
+          "summary": "开发者与大型模型实验室之间存在对抗关系。模型",
+          "url": "https://www.rtrvr.ai/blog/code-as-plan-deepseek-flash-text-only-browser-agent",
+          "time": "06:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Aijungl – 由AI构建的游戏和应用程序门户",
+          "summary": "现在有大量的人在用AI制作真正可玩的东西，但他们",
+          "url": "https://aijungl.com",
+          "time": "06:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一个Claude技能，每次以差异方式修剪你的AI记忆文件",
+          "summary": "我为Claude Code制作了一个内存清理器。我猜它可能也适用于Codex、O",
+          "url": "https://puremint.co.uk/blog/stop-your-ai-memory-file-rotting/",
+          "time": "05:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "OpenLanguage – iOS平台的AI语言导师",
+          "summary": "文章网址：https://github.com/challenga-org/openlanguage 评论网址：https:/",
+          "url": "https://github.com/challenga-org/openlanguage",
+          "time": "05:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "CtxGov – 在AI智能体运行前查看它继承了哪些指令",
+          "summary": "文章网址：https://github.com/ctxgov/ctxgov 评论网址：https://news.ycombin",
+          "url": "https://github.com/ctxgov/ctxgov",
+          "time": "04:47",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "google-labs-code/design.md",
+          "summary": "这是一个格式规范，用于向编码代理描述视觉身份。它定义了如何将设计系统（如颜色、字体、间距）以结构化方式传递给AI编码代理，使其能生成符合品牌规范的界面代码。今日获得1475颗星，表明开发者对AI驱动的前端设计自动化有强烈需求。\n\n💼 商业缺口：缺少针对设计规范版本控制与AI代理行为审计的付费工具，例如“设计-代码一致性验证平台”。",
+          "url": "https://github.com/google-labs-code/design.md",
+          "time": "1,475 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "calesthio/OpenMontage",
+          "summary": "全球首个开源、智能体驱动的视频制作系统，包含12条流水线和52种工具。它利用AI代理自动完成视频剪辑、特效、字幕等复杂任务，大幅降低视频创作门槛。今日3434颗星，说明AI视频生成领域热度极高。\n\n💼 商业缺口：缺少针对AI生成视频的版权溯源与内容真实性验证的付费服务。",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "time": "3,434 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "xbtlin/ai-berkshire",
+          "summary": "基于Claude Code的价值投资研究框架，融合巴菲特、芒格、段永平、李录四位大师方法论，通过多Agent并行研究进行投资分析。今日309颗星，展示了AI在金融分析领域的垂直应用潜力。\n\n💼 商业缺口：缺少针对AI投资建议的合规审计与风险披露标准化付费产品。",
+          "url": "https://github.com/xbtlin/ai-berkshire",
+          "time": "309 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "JCodesMore/ai-website-cloner-template",
+          "summary": "使用AI编码代理一键克隆任何网站的工具模板。它利用AI理解网站结构和样式，自动生成可复用的代码副本。今日1024颗星，反映出AI辅助网页开发与逆向工程的实用价值。\n\n💼 商业缺口：缺少针对克隆网站的法律合规检测与原创性证明的付费服务。",
+          "url": "https://github.com/apple/container",
+          "time": "1,351 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "garrytan/gstack",
+          "summary": "复刻Garry Tan的Claude Code配置，包含23个定制化工具，模拟CEO、产品经理等角色辅助开发。今日767颗星，说明开发者对AI代理扮演多角色协作模式高度关注。\n\n💼 商业缺口：缺少针对AI代理角色行为日志与决策可解释性的企业级审计工具。",
+          "url": "https://github.com/garrytan/gstack",
+          "time": "767 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "aws/agent-toolkit-for-aws",
+          "summary": "AWS官方支持的MCP服务器、技能和插件集合，帮助AI代理在AWS生态中构建应用。今日47颗星，虽然增长较缓，但作为官方工具对云上AI代理部署有重要参考价值。\n\n💼 商业缺口：缺少跨云AI代理的成本优化与资源编排付费方案。",
+          "url": "https://github.com/aws/agent-toolkit-for-aws",
+          "time": "47 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mukul975/Anthropic-Cybersecurity-Skills",
+          "summary": "817个结构化网络安全技能，映射到MITRE ATT&CK等6个框架，专为AI代理设计。今日571颗星，表明AI安全自动化是热门方向。\n\n💼 商业缺口：缺少针对AI代理安全技能测试与红蓝对抗演练的付费评估平台。",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "time": "571 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alibaba/page-agent",
+          "summary": "JavaScript页面内GUI代理，允许用户通过自然语言控制网页界面。今日163颗星，展示了AI代理在浏览器自动化与RPA领域的应用前景。\n\n💼 商业缺口：缺少针对企业级页面代理操作的安全审计与权限管控付费产品。",
+          "url": "https://github.com/alibaba/page-agent",
+          "time": "163 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "opendatalab/MinerU",
+          "summary": "将PDF、Office等复杂文档转换为LLM就绪的Markdown/JSON格式。今日644颗星，说明高质量文档解析是AI数据预处理的关键环节。\n\n💼 商业缺口：缺少针对文档解析结果的准确性验证与行业合规性检查的付费服务。",
+          "url": "https://github.com/opendatalab/MinerU",
+          "time": "644 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "shanraisshan/claude-code-best-practice",
+          "summary": "从“氛围编码”到“智能体工程”的实践指南，帮助开发者更高效使用Claude Code。今日287颗星，反映了AI编码最佳实践知识的强烈需求。\n\n💼 商业缺口：缺少针对AI编码代理的效能度量与团队协作流程优化的付费咨询工具。",
+          "url": "https://github.com/shanraisshan/claude-code-best-practice",
+          "time": "287 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI研究：AI代理如何改变工作方式",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI发布新研究论文，揭示AI代理正通过实现更复杂、更长期的任务，全面提升各岗位生产力。公司内部各部门已广泛使用Codex工具，推动工作向跨职能、高复杂度方向发展，为未来代理工具的普及提供了早期参考。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind与ElevenLabs合作推出音频水印技术",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "随着AI模型进步，人耳已难以识别AI生成的音频。谷歌DeepMind与ElevenLabs合作，将数字水印SynthID嵌入音频中，这种水印人耳无法察觉，但可通过新推出的免费ElevenLabs音频检测器识别。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "AnthropicAI加入RAISE US成为创始合作伙伴",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "AnthropicAI宣布加入非营利联盟RAISE US，成为其创始合作伙伴。该联盟由美国商务部长雷蒙多等人联合主持，旨在通过雇主主导、AI培训和政策创新，帮助美国劳动力适应AI经济转型。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Midjourney 推出 V8.2 预览与批量草稿模式",
+          "url": "https://twitter.com/midjourney",
+          "summary": "Midjourney 发布两项图像生成更新：在提示词中添加 --preview 可提前体验 V8.2 的美学与个性化功能；同时更新了批量草稿模式，支持 --sref random 随机风格探索，速度提升 24 倍。V8.1 的批量草稿模式能以半价生成 24 张低分辨率图像，选中后可通过“Vary”转为全分辨率版本。",
+          "source": "Twitter @midjourney"
+        },
+        {
+          "title": "Runway 推出 Agent 2.0",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 发布 Agent 2.0，用户只需简单提示即可在平台内生成完整的营销简报和活动素材。该工具还能分析表现数据，帮助优化创意并跨平台、格式和市场进行扩展，旨在成为最强大的自主工作代理。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax AI 活动预告",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 将于7月1日参加在旧金山现代艺术博物馆举办的“AI工程师之夜”活动。其研究负责人Olive Song将就MiniMax M3的后训练进行闪电演讲，同场还有多家AI工程公司参与。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "德米斯·哈萨比斯：Gemma 4 下载量两个月破2亿",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯宣布，Gemma 4 模型在仅两个半月内下载量突破2亿次。作为对比，Gemma 3 发布时整个 Gemma 系列累计下载量为1亿次，社区采用速度显著加快。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆团队MJEPA论文被ECCV 2026接收",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆宣布其团队论文MJEPA已被ECCV 2026接收。该研究提出一种简单且可扩展的联合嵌入预测方法，用于从大规模视频数据中进行自监督视觉表征学习，代码和模型即将发布。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI推出新型定制AI芯片",
+          "summary": "OpenAI发布了其自主研发的新型AI芯片，旨在提升计算效率并降低对外部供应商的依赖。此外，用户可通过AI价格追踪功能获取世界杯门票优惠。",
+          "url": "https://www.therundown.ai/p/openai-spicy-new-custom-ai-chip",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "我删除了所有静态Claude API密钥：逐供应商的无密钥迁移指南",
+          "summary": "作者Anup Karanjkar分享了从长期静态Claude API密钥迁移到无密钥身份验证的经验，使用工作负载身份联合（WIF）实现。他指出，联合并未真正“删除”密钥，而是将信任转移，并提醒注意各供应商的设置差异及优先级陷阱，这曾让他耗费两天时间排查问题。",
+          "url": "https://towardsai.com/p/machine-learning/i-deleted-every-static-claude-api-key-i-owned-heres-the-keyless-migration-provider-by-provider",
+          "time": "19:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "我用本地AI替代ChatGPT30天，结果出乎意料",
+          "summary": "作者因每月20美元的ChatGPT Plus订阅费用感到困扰，决定测试本地AI模型是否真能替代。30天后发现，本地AI在写作、编程和文档摘要等日常任务中表现足够好，但仍有局限。结论是本地AI已不再是边缘选择，但完全替代仍需权衡。",
+          "url": "https://towardsai.com/p/machine-learning/i-replaced-chatgpt-with-local-ai-for-30-days-heres-what-actually-happened",
+          "time": "19:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "评估云迁移合作伙伴实用指南",
+          "summary": "选择云迁移合作伙伴对项目成败影响重大，但常被忽视。企业应避免仅关注技术选型（如AWS、Azure或GCP），而需系统评估合作伙伴的执行能力、经验与可靠性，以防预算超支或延误。",
+          "url": "https://towardsai.com/p/machine-learning/a-practical-guide-to-evaluating-a-cloud-migration-partner",
+          "time": "19:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Python中的AsyncIO：它究竟是什么，以及为什么你的“异步”代码可能并非异步",
+          "summary": "AsyncIO通过协作式多任务处理提升I/O密集型任务的性能：当任务等待时，事件循环可运行其他待处理工作。但仅添加async和await关键字并不会让代码变成异步，只是使其具备异步的资格——这一关键区别常被初学者误解。",
+          "url": "https://towardsai.com/p/machine-learning/asyncio-in-python-what-it-actually-is-and-why-your-async-code-might-not-be-async",
+          "time": "19:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "构建长期运行的Claude托管代理：状态比计算更重要",
+          "summary": "作者在开发AI研究代理时发现，代理在夜间停止工作后，无法在次日早晨继续任务，导致六小时的分析成果全部丢失。经过三周重建，作者认识到在长期运行代理中，状态管理比计算能力更为关键。",
+          "url": "https://towardsai.com/p/machine-learning/building-long-running-claude-managed-agents-why-state-matters-more-than-compute",
+          "time": "19:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "LangGraph构建基础（第0部分）",
+          "summary": "随着大语言模型能力增强，开发者已超越简单聊天机器人，开始构建能推理、决策、使用工具、检索信息、调用API并与其他AI代理协作的系统。这带来了新的挑战：如何协调这些复杂流程？本文介绍了LangGraph的基础构建模块。",
+          "url": "https://towardsai.com/p/machine-learning/the-building-blocks-of-langgraph-part-0",
+          "time": "19:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Claude Code运行多步工作的五种方式：两个问题帮你选对方案",
+          "summary": "作者Anup Karanjkar指出，Claude Code在5月28日新增了第五种多步任务运行方式，但许多工程师会选错方案。文章强调，选择多步原语的关键不在于生成多少个智能体，而应基于两个核心问题做出判断。智能体数量是结果而非出发点。",
+          "url": "https://towardsai.com/p/machine-learning/five-ways-claude-code-runs-multi-step-work-the-two-questions-that-pick-the-right-one",
+          "time": "19:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "明智选择：模型应适配你的用例",
+          "summary": "一位开发者仅用11天就耗尽了整个Codex订阅额度，用于构建SaaS中的账单功能，而非复杂系统。这提醒我们，选择AI模型时应基于实际用例，而非盲目追求高级功能。",
+          "url": "https://towardsai.com/p/machine-learning/choose-wisely-models-should-follow-your-use-case",
+          "time": "19:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "英伟达GTC证明：无需50步扩散",
+          "summary": "视频扩散行业两年来一直追求更好的模型、更多参数和更高分辨率，但生成720p视频仍耗时过长，阻碍实时应用。英伟达在GTC 2026上证明，无需50步扩散步骤即可实现高效生成。",
+          "url": "https://towardsai.com/p/machine-learning/you-do-not-need-50-diffusion-steps-here-is-what-nvidia-proved-at-gtc",
+          "time": "19:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "强化学习入门指南",
+          "summary": "强化学习是一种通过试错来学习的方法，类似于训练狗捡球：正确行为给予奖励，错误行为没有奖励。本文介绍了强化学习的基本概念，包括智能体、环境、动作和奖励机制，帮助读者理解这一机器学习范式。",
+          "url": "https://towardsai.com/p/machine-learning/understanding-reinforcement-learning-a-primer",
+          "time": "19:36",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI应特朗普政府要求推迟GPT-5.6发布",
+          "summary": "据报道，特朗普政府因担忧潜在安全问题，要求OpenAI分阶段发布其重磅模型GPT-5.6。OpenAI CEO山姆·奥特曼在内部问答中透露，公司将仅向小部分用户提供GPT-5.6的有限预览版。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+          "time": "05:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "福特召回前工程师修复自动化系统错误",
+          "summary": "福特在JD Power初始质量排名中升至主流车企首位，为此公开了近年来的挑战，尤其是过度依赖生产和设计自动化系统的问题。这些自动化系统并未如预期般可靠，导致公司不得不重新聘请前工程师来修正错误。",
+          "url": "https://www.theverge.com/transportation/956316/ford-quality-jd-power-ranking-ai-automated-mistakes",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Facebook Creator Studio 重生为AI伴侣应用",
+          "summary": "Meta 重新推出 Facebook Creator Studio 页面管理工具，并将其改造为独立的 AI 伴侣应用。新应用旨在帮助创作者更轻松地与受众互动，并指导他们如何在 Facebook 上实现增长。Meta 的 AI 创作者助手是该应用的核心功能。",
+          "url": "https://www.theverge.com/tech/956668/meta-facebook-creator-studio-ai-app-relaunch",
+          "time": "17:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "零售业在AI时代重新定位",
+          "summary": "人工智能正在迅速重塑零售业，但其影响并非体现在炫酷的虚拟试穿或聊天机器人购物助手等消费者直接可见的方面。真正的变革发生在幕后：产品在搜索结果中的排序方式、供应链中的库存流转以及工程师更快速地交付代码等决策过程。这些后台优化正在成为零售业转型的核心。",
+          "url": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
+          "time": "22:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "白宫以安全为由要求OpenAI推迟发布新模型",
+          "summary": "据报道，OpenAI计划仅向特定合作伙伴分享其最新模型GPT 5.6，而非向公众广泛发布。原因是特朗普政府要求其这样做。",
+          "url": "https://techcrunch.com/2026/06/25/the-white-house-is-asking-openai-to-slow-roll-the-release-of-its-new-model-over-safety-concerns/",
+          "time": "07:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Patronus AI获5000万美元融资，打造‘数字世界’压力测试AI智能体",
+          "summary": "由前Meta AI研究员创立的智能体测试初创公司Patronus AI，正面临近乎无止境的市场需求。该公司近日获得5000万美元融资，用于构建‘数字世界’以对AI智能体进行压力测试。",
+          "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+          "time": "04:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic的Claude正赢得付费消费者青睐，挑战ChatGPT主导市场",
+          "summary": "数据显示，尽管ChatGPT在AI市场占据主导地位，但越来越多的付费消费者开始选择Anthropic的Claude。这一趋势表明，Claude正在逐步蚕食ChatGPT的付费用户份额。",
+          "url": "https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/",
+          "time": "01:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "通用直觉公司23亿美元押注：用电子游戏训练AI代理适应现实世界",
+          "summary": "通用直觉公司已筹集3.2亿美元，用于扩展基于数百万小时游戏数据训练的AI。该公司押注，游戏中的动作数据能帮助AI发展出更接近人类直觉的能力。",
+          "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+          "time": "00:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前Databricks AI主管称可将AI能耗降低1000倍",
+          "summary": "Un-0是一款图像生成系统工具，首次展示了该公司技术如何复制传统AI系统。其核心目标是通过大幅降低能耗，实现AI效率的千倍提升。",
+          "url": "https://techcrunch.com/2026/06/25/databricks-former-ai-chief-thinks-he-can-cut-ais-power-bill-by-1000x/",
+          "time": "00:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Netris获a16z 1500万美元A轮融资，助力AI新云快速上线",
+          "summary": "Netris提供运行在网络交换机上的软件，并打造了一个平台，帮助新型云服务运营商缩短上线时间。该公司近日从a16z获得1500万美元A轮融资，以加速其业务发展。",
+          "url": "https://techcrunch.com/2026/06/25/netris-raises-15m-series-a-from-a16z-to-help-ai-neoclouds-go-live-faster/",
+          "time": "22:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch创始人峰会早鸟价仅剩2天",
+          "summary": "TechCrunch 2026创始人峰会早鸟优惠将于6月26日太平洋时间晚11:59截止，现在注册可节省高达190美元。已有超过1000位创始人和投资者报名参加。",
+          "url": "https://techcrunch.com/2026/06/25/2-days-left-to-save-up-to-190-join-1000-founders-and-investors-at-techcrunch-founder-summit/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Adobe 收购图像与视频增强工具开发商 Topaz Labs",
+          "summary": "Adobe 宣布将收购图像与视频增强工具开发商 Topaz Labs，并计划将其技术整合到旗下各类应用中，以提升用户的编辑体验。此举旨在强化 Adobe 在创意软件领域的竞争力。",
+          "url": "https://techcrunch.com/2026/06/25/adobe-acquires-image-and-video-enhancement-tool-maker-topaz-labs/",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "亚马逊追加130亿美元投资印度AI基础设施",
+          "summary": "亚马逊宣布在印度新增130亿美元投资，用于扩建人工智能基础设施。此举正值全球科技巨头竞相在印度布局AI算力资源之际。",
+          "url": "https://techcrunch.com/2026/06/25/amazon-ups-india-bet-with-fresh-13b-ai-infrastructure-investment/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，传统银行与新兴科技公司之间的竞争日益激烈。人工智能和区块链技术的应用正在重塑支付、借贷和投资等核心金融服务领域。未来几年，监管政策和技术创新将继续推动行业格局演变。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "本文探讨了保险科技行业的最新发展动态，包括技术应用、市场趋势和面临的挑战。随着人工智能和大数据技术的融入，保险业正在经历数字化转型，但同时也面临监管和竞争压力。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "一键在HF Jobs上运行vLLM服务器",
+          "summary": "现在可以通过单个命令在Hugging Face Jobs上快速部署vLLM服务器，简化了大型语言模型的推理服务流程。该功能旨在提升开发效率，让用户无需复杂配置即可启动高性能推理环境。",
+          "url": "https://huggingface.co/blog/vllm-jobs",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "混合模型在哪些标记上预测更准？",
+          "summary": "一项研究探讨了混合模型在不同类型标记上的预测表现差异。结果显示，混合模型在特定词汇和结构上优于单一模型，尤其在处理复杂语义时表现更佳。这为优化模型设计提供了新方向。",
+          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "time": "00:11",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "税务账单申诉",
+          "summary": "小企业主收到IRS的欠税账单，但无法通过电话联系到人工客服，导致无法及时申诉或核实。AI可以自动解析账单内容、生成申诉信模板、甚至通过语音机器人或自动拨号系统帮助用户排队或转接。\n\n💡 机会方向：AI驱动的税务争议自动处理与客服对接工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ufdtne/irs_sends_me_a_taxed_owed_billcant_even_get_ahold/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户付款现场收单",
+          "summary": "家庭服务企业的技术人员需要在客户现场收取电子支付，但缺乏统一、便捷的移动支付方案，导致客户体验差、收款延迟。AI可以集成语音支付、自动生成发票、实时对账，并支持离线收款。\n\n💡 机会方向：面向现场服务人员的AI移动支付与发票助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ufm8js/home_serices_businesses_techs_taking_payments/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "会计软件选型",
+          "summary": "木工小企业主在第二年经营中，仍手动对比各种会计软件，无法快速找到适合自己行业的方案。AI可以基于行业、规模、预算自动推荐并对比功能，甚至模拟使用场景。\n\n💡 机会方向：AI驱动的SaaS选型与功能对比引擎",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ufcb2p/accounting_software_i_can_buy/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "网站攻击日志分析",
+          "summary": "个人站长发现网站每天遭受大量攻击，远超真实访客，但只能手动查看日志或依赖基础防火墙。AI可以自动分析攻击模式、生成威胁报告、动态调整安全规则，并发出预警。\n\n💡 机会方向：AI网站安全日志分析与自动防御系统",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48677487",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户截止日期催促",
+          "summary": "活动物料供应商需要反复手动提醒客户遵守截止日期，否则影响自身交付。AI可以自动发送个性化提醒、跟踪客户确认状态、预测延期风险并触发升级通知。\n\n💡 机会方向：AI驱动的客户截止日期管理与自动催办工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ufiskt/how_to_make_customers_take_deadlines_seriously/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
