@@ -1,0 +1,360 @@
+{
+  "date": "2026-06-28",
+  "timeRange": "2026-06-27 09:00 ~ 2026-06-28 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "KV-psi：利用Linux PSI修剪LLM KV缓存",
+          "summary": "我认为利用Linux PSI（压力停滞信息）来修剪LLM的KV缓存会很有趣。",
+          "url": "https://github.com/infiniteregrets/kv-psi",
+          "time": "06:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "我制作了一个网络摄像头运动检测器，支持本地/云存储，AI人物检测",
+          "summary": "通过AI辅助迭代优化了这段代码。我最初是在……创建的。",
+          "url": "https://camera10.com/",
+          "time": "06:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "E3d-pod2vid – 将播客转化为YouTube就绪视频的AI流水线",
+          "summary": "将你的.mpa文件转化为动画视频。",
+          "url": "https://github.com/spacepacket1/e3d-pod2vid",
+          "time": "06:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Claude-CLI – 在一次性Docker容器中运行Claude Code",
+          "summary": "文章URL：https://github.com/shirozuki/claude-cli",
+          "url": "https://github.com/shirozuki/claude-cli",
+          "time": "05:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "使用本地LLM实现自主CAD设计与OpenFOAM优化循环",
+          "summary": "LLM设计四旋翼螺旋桨并通过物理验证。它使用Auto资源……",
+          "url": "https://github.com/ostenjap/LLM-Agent-generated-Quadcopter-Prop",
+          "time": "05:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一个用于评估智能体记忆失败模式的基准测试",
+          "summary": "文章URL：https://github.com/Kausha3/agent-memory-bench",
+          "url": "https://github.com/Kausha3/agent-memory-bench",
+          "time": "05:23",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "xbtlin/ai-berkshire | AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架",
+          "summary": "这是一个基于 Claude Code 的多智能体并行研究框架，整合了巴菲特、芒格、段永平、李录四位投资大师的方法论，用于自动化价值投资分析。今日获得685颗星，说明AI在金融分析领域的应用需求旺盛。该工具通过AI代理并行处理财务数据、公司公告和市场情绪，辅助投资者做出更理性的决策。\n\n💼 商业缺口：缺乏针对AI投资建议的合规审计层和回测验证平台，确保模型输出符合监管要求且历史表现可追溯。",
+          "url": "https://github.com/xbtlin/ai-berkshire",
+          "time": "685 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "commaai/openpilot | 开源机器人操作系统（自动驾驶辅助）",
+          "summary": "openpilot 是一个开源的机器人操作系统，目前主要用于升级车辆驾驶辅助功能，支持多种车型。今日获得322颗星，表明自动驾驶开源社区持续活跃。该项目利用计算机视觉和机器学习模型实现车道保持、自适应巡航等高级驾驶功能，是AI在嵌入式系统落地的典型案例。\n\n💼 商业缺口：缺少面向车队管理者的AI驾驶行为审计与事故责任分析平台，用于评估模型决策的合规性和安全性。",
+          "url": "https://github.com/commaai/openpilot",
+          "time": "322 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "hugohe3/ppt-master | AI 生成真实可编辑的 PowerPoint 文档",
+          "summary": "该工具利用AI从任意文档（如PDF、Markdown）自动生成原生PowerPoint文件，保留形状、动画和可编辑性。今日获得589颗星，说明自动化办公场景需求强烈。它解决了传统AI生成PPT只能输出图片或不可编辑格式的问题，直接输出原生PPTX格式，大幅提升工作效率。\n\n💼 商业缺口：缺乏企业级AI生成内容的版权溯源与品牌合规检查服务，确保输出符合公司视觉规范且不侵犯第三方素材。",
+          "url": "https://github.com/IceWhaleTech/CasaOS",
+          "time": "502 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "JCodesMore/ai-website-cloner-template | 用AI编码代理一键克隆任意网站",
+          "summary": "该项目提供基于AI编码代理的网站克隆模板，用户只需一条命令即可复制任意网站的前端结构和样式。今日获得750颗星，显示开发者对快速原型和逆向工程工具的高需求。它利用大语言模型理解网页结构并生成对应代码，适合快速搭建类似界面的MVP。\n\n💼 商业缺口：缺少克隆网站的版权合规检测与差异化改造建议服务，避免直接复制受保护的设计或内容。",
+          "url": "https://github.com/ripienaar/free-for-dev",
+          "time": "459 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "garrytan/gstack | Garry Tan 的 Claude Code 配置工具集",
+          "summary": "该项目封装了23个经过精心设计的Claude Code工具，模拟CEO、产品经理等角色的工作流。今日获得674颗星，表明AI辅助管理决策的需求增长。它提供了一套可复用的AI代理配置，帮助创业者或管理者快速获得结构化建议，降低AI使用门槛。\n\n💼 商业缺口：缺乏针对AI代理输出质量的评估与校准平台，确保不同角色代理的决策建议一致且无偏见。",
+          "url": "https://github.com/google-labs-code/design.md",
+          "time": "1,541 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anil-matcha/Open-Generative-AI | 无限制的开源AI视频与图像生成平台",
+          "summary": "这是一个完全开源、无使用限制的AI图像和视频生成平台，作为商业AI视频平台的替代品。今日获得255颗星，反映用户对免费、无审查的生成式AI工具的持续需求。它支持多种模型后端，用户可本地部署，避免API费用和数据隐私问题。\n\n💼 商业缺口：缺少生成内容的深度伪造检测与数字水印嵌入服务，用于防止滥用和追溯来源。",
+          "url": "https://github.com/microsoft/PowerToys",
+          "time": "57 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "topoteretes/cognee | 开源AI记忆平台，为智能体提供持久化记忆",
+          "summary": "Cognee 是一个专为AI代理设计的开源记忆层，让代理能够记住用户偏好、对话历史和任务状态。今日获得780颗星，说明AI代理的长期记忆能力是当前技术痛点。它解决了大语言模型无状态的问题，使AI应用能提供个性化、连贯的交互体验。\n\n💼 商业缺口：缺乏记忆数据的隐私合规审计与遗忘机制管理平台，确保符合GDPR等法规的“被遗忘权”要求。",
+          "url": "https://github.com/hugohe3/ppt-master",
+          "time": "589 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "luongnv89/claude-howto | Claude Code 可视化操作指南",
+          "summary": "这是一个以示例驱动的Claude Code学习指南，从基础概念到高级工作流均有覆盖。今日获得141颗星，表明开发者对AI编码工具的学习资源需求旺盛。它通过可视化方式展示Claude Code的配置、工具调用和调试技巧，降低新用户的上手难度。\n\n💼 商业缺口：缺少针对企业团队的Claude Code使用效率分析与最佳实践推荐平台，帮助组织标准化AI编码流程。",
+          "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "time": "750 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anomalyco/opencode | 开源编码代理",
+          "summary": "opencode 是一个开源的AI编码代理，能够自主理解代码库、编写代码、运行测试并提交PR。今日获得392颗星，显示AI辅助编程工具的开源替代品需求强劲。它支持多语言和多框架，可集成到现有开发工作流中，减少重复性编码工作。\n\n💼 商业缺口：缺乏编码代理生成代码的安全漏洞自动扫描与许可证合规检查服务，确保AI代码可安全集成。",
+          "url": "https://github.com/garrytan/gstack",
+          "time": "674 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Fission-AI/OpenSpec | 面向AI编码助手的规范驱动开发框架",
+          "summary": "OpenSpec 提出了一种“规范驱动开发”（SDD）方法，让AI编码助手根据结构化规范生成代码。今日获得177颗星，表明开发者对提升AI代码质量的方法论感兴趣。它通过明确定义输入输出规范，减少AI生成代码的歧义和错误，适合复杂业务逻辑的开发。\n\n💼 商业缺口：缺少规范版本管理与变更影响分析工具，确保规范更新后AI生成的代码能自动适配且不破坏现有功能。",
+          "url": "https://github.com/NanmiCoder/MediaCrawler",
+          "time": "394 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "HKUDS/Vibe-Trading | 你的个人交易代理",
+          "summary": "这是一个基于AI的个人交易代理工具，利用市场情绪分析辅助交易决策。今日获得92颗星，显示AI在量化交易领域的持续探索。它整合了自然语言处理和机器学习模型，分析新闻、社交媒体等非结构化数据，生成交易信号。\n\n💼 商业缺口：缺乏交易策略的回测验证与风险敞口实时监控平台，确保AI交易建议在历史数据和极端行情下的稳健性。",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "time": "255 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "every-app/open-seo | Semrush 和 Ahrefs 的开源替代品",
+          "summary": "这是一个开源的SEO分析工具，旨在替代Semrush和Ahrefs等商业产品。今日获得239颗星，反映开发者对免费SEO工具的需求。它利用AI技术进行关键词研究、竞争对手分析和网站审计，帮助网站提升搜索引擎排名。\n\n💼 商业缺口：缺少AI生成的SEO策略建议的A/B测试与效果归因分析平台，验证优化措施的实际转化效果。",
+          "url": "https://github.com/topoteretes/cognee",
+          "time": "780 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Runway 推出广告本地化功能",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 在其开发者门户中新增了广告本地化功能，用户可通过 API 单次调用将静态广告和图形素材翻译成多种语言。该功能支持上传一张图片，即可生成面向不同市场的本地化版本，简化了全球化广告投放流程。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax与Together AI将共话大规模智能体运行",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax研究负责人Olive Song与Together AI副总裁Dan Fu将在AI Engineer大会上探讨M3模型的长上下文推理与工具使用训练决策，以及生产环境中服务智能体工作负载所需的基础设施。会议将于7月1日下午2:50在2016室举行。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "杨立昆：ICE行动导致大量美国人失业",
+          "url": "https://twitter.com/ylecun",
+          "summary": "特朗普政府声称大规模驱逐移民能为美国人腾出就业岗位，但数据显示，2025年前九个月，ICE行动已导致全美86个都会区至少66.8万个工作岗位流失。驱逐行动并未创造就业，反而损害了美国人的工作机会。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "玛格丽特·阿特伍德谈AI问题：“垃圾进，垃圾出”",
+          "summary": "《使女的故事》作者玛格丽特·阿特伍德在葡萄牙波尔图的巴贝尔文学文化节上接受采访，直言不讳地批评AI。她指出AI的核心问题是“垃圾进，垃圾出”，即输入低质量数据只会产生低质量输出，并分享了自己使用AI的体验。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out",
+          "time": "02:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果为何为科技巨头的AI狂热买单？",
+          "summary": "蒂姆·库克近期表示涨价“不可避免”，并称公司定价“不可持续”。16英寸MacBook Pro价格上涨300美元，11英寸iPad Air从599美元涨至749美元，HomePod Mini也上调30美元至129美元。库克将涨价归咎于AI投入带来的成本压力。",
+          "url": "https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "软银CEO并非唯一质疑马斯克轨道数据中心炒作的人",
+          "summary": "并非所有人都相信埃隆·马斯克关于轨道数据中心的愿景。软银CEO等业界人士对其可行性和成本提出疑问，认为这一概念可能过于乐观。",
+          "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+          "time": "04:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果Vision Pro高管据悉将跳槽OpenAI",
+          "summary": "据报道，负责Vision Pro头显的苹果副总裁保罗·米德将离开公司，加入OpenAI的硬件团队。这一人事变动标志着OpenAI在硬件领域的进一步布局。",
+          "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+          "time": "00:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "房间里最健康的创始人得了癌症：他是如何用AI反击的",
+          "summary": "康纳·克里斯图被诊断出癌症后，将自己的血液检测结果、扫描数据、可穿戴设备输出和日记记录等所有与身体状况相关的信息，全部输入到Claude AI中进行分析。他借助AI的力量来对抗疾病，展现了科技在个人健康管理中的潜力。",
+          "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "亚洲AI初创公司推出类Mythos模型，应对Anthropic出口禁令",
+          "summary": "亚洲多家AI初创公司发布具备类似Mythos能力的新模型，规避美国出口禁令风险。此举可能使美国AI实验室永久失去这一庞大市场。",
+          "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "特朗普政府发布Anthropic Mythos，超100家美国企业及机构获准使用",
+          "summary": "据报道，超过100家美国公司和政府机构已获授权使用Mythos 5，其中包括其非美国籍员工。",
+          "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+          "time": "09:01",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资领域。监管环境也在不断演变，以适应这些创新并确保消费者保护。整体来看，金融科技的未来充满机遇与挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合，推动产品创新与服务数字化。人工智能和大数据分析在风险评估、理赔处理及客户体验优化中发挥关键作用，但行业仍面临监管合规与数据安全挑战。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "催收小额欠款",
+          "summary": "小企业主面对客户拒绝支付小额欠款时，因法律费用过高而放弃诉讼，只能手动反复催收或忍气吞声。AI可以自动发送分级催收邮件/短信，基于客户行为预测支付概率，并生成法律文书模板，大幅减少人工跟进成本。\n\n💡 机会方向：面向小企业的AI催收助手，自动执行催收流程并优化策略。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uhco0c/how_do_you_guys_deal_with_customers_who_just/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "在线免责协议管理",
+          "summary": "企业主手动处理纸质或分散的在线免责协议，客户签署流程繁琐、易丢失，且难以追踪和存档。AI可以自动生成、发送、签署和存储电子协议，并集成身份验证与合规检查，实现全流程自动化。\n\n💡 机会方向：AI驱动的电子协议生成与签署平台，支持模板化、自动提醒和合规审计。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uhfj6w/online_waiver_options/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社交媒体推广合作设置",
+          "summary": "小企业主与本地租车公司达成推广合作，但需手动跟踪点击、计算佣金、生成优惠码，过程耗时且易出错。AI可以自动追踪推广链接点击、计算分成、生成唯一优惠码，并定期生成合作效果报告。\n\n💡 机会方向：AI推广合作管理工具，自动追踪、结算与报告。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uhcseh/how_can_i_set_up_a_referralcoupon_deal_with_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "招聘与税务合规咨询",
+          "summary": "个体户父亲在招聘员工时，对税务申报、雇佣分类（W-2 vs 1099）等合规问题感到困惑，只能手动搜索或咨询会计师，效率低且易出错。AI可以基于业务场景自动生成税务合规清单、雇佣分类建议，并提醒申报截止日期。\n\n💡 机会方向：面向个体户的AI税务与雇佣合规助手，提供实时问答和自动提醒。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uhbpps/small_business_hiring_tax_questions/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
