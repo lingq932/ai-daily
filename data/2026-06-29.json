@@ -1,0 +1,274 @@
+{
+  "date": "2026-06-29",
+  "timeRange": "2026-06-28 09:00 ~ 2026-06-29 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "wavecat – 一个完全本地的个人屏幕监控代理",
+          "summary": "wavecat 是一个完全本地的个人代理，可以监控你的屏幕。它会开发一个……",
+          "url": "https://wavecat.ai/",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Selixes – 自托管LLM故障转移网关，预算上限与PII保护",
+          "summary": "我们构建了 Selixes，一个自托管的LLM故障转移网关，具备原子预算上限和……",
+          "url": "https://news.ycombinator.com/item?id=48712130",
+          "time": "05:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Drift：用英文编写LLM代理，并转译为异步Python",
+          "summary": "文章链接：https://github.com/rileyq7/drift 评论链接：https://news.ycombin",
+          "url": "https://github.com/rileyq7/drift",
+          "time": "05:04",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "xbtlin/ai-berkshire | AI 时代的伯克希尔",
+          "summary": "这是一个基于Claude Code/Codex构建的价值投资研究框架，融合了巴菲特、芒格、段永平、李录四位大师的投资方法论，并支持多Agent并行研究。它利用大语言模型的能力来自动化投资分析流程，帮助投资者更高效地进行基本面研究和决策。今日获得1445颗星，说明AI+金融投资方向受到社区高度关注。\n\n💼 商业缺口：缺乏针对机构投资者的合规审计层和回测验证工具，无法直接用于实盘交易决策。",
+          "url": "https://github.com/xbtlin/ai-berkshire",
+          "time": "1,445 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Robbyant/lingbot-map | 流式3D场景重建基础模型",
+          "summary": "这是一个前馈式3D基础模型，能够从流式数据中实时重建3D场景，适用于机器人导航、AR/VR等需要动态环境理解的场景。它结合了深度学习与3D视觉技术，解决了传统方法需要完整数据才能重建的痛点。今日获得372颗星，表明3D AI模型在实时应用中的需求持续增长。\n\n💼 商业缺口：缺少针对工业级场景的3D模型精度评估工具和边缘端部署优化方案。",
+          "url": "https://github.com/Robbyant/lingbot-map",
+          "time": "372 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DeusData/codebase-memory-mcp | 高性能代码智能MCP服务器",
+          "summary": "这是一个高性能的代码智能MCP（Model Context Protocol）服务器，能够将代码库索引到持久化存储中，为AI编程助手提供上下文记忆能力。它解决了大语言模型在理解大型代码库时上下文窗口有限的问题，显著提升AI辅助编程的效率。今日获得2190颗星，说明开发者对AI编程基础设施工具需求旺盛。\n\n💼 商业缺口：缺乏企业级的代码库权限管理和多团队协作审计功能，难以直接用于大型组织。",
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
+          "time": "2,190 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "opendatalab/MinerU | 文档转LLM就绪格式工具",
+          "summary": "MinerU能够将PDF、Office文档等复杂文档转换为大语言模型可直接处理的Markdown/JSON格式，解决了非结构化文档数据难以被AI模型消费的痛点。它支持表格、公式、图表等复杂元素的精准提取，是构建RAG系统和AI知识库的关键预处理工具。今日获得380颗星，反映AI数据预处理工具需求持续增长。\n\n💼 商业缺口：缺少针对金融、医疗等垂直领域的文档合规性校验和敏感信息脱敏模块。",
+          "url": "https://github.com/opendatalab/MinerU",
+          "time": "380 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "HKUDS/Vibe-Trading | 个人交易智能体",
+          "summary": "这是一个基于AI的个人交易智能体，能够根据市场情绪和用户偏好自动执行交易策略。它利用大语言模型分析市场新闻、社交媒体情绪等非结构化数据，辅助用户做出更明智的交易决策。今日获得492颗星，说明AI交易助手在散户投资者中关注度很高。\n\n💼 商业缺口：缺乏监管合规框架和风险控制模块，无法满足金融监管机构对自动化交易系统的要求。",
+          "url": "https://github.com/HKUDS/Vibe-Trading",
+          "time": "492 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "usestrix/strix | 开源AI黑客工具",
+          "summary": "这是一个开源的AI黑客工具，利用大语言模型自动发现和修复应用程序中的安全漏洞。它能够模拟攻击者的思维模式，自动生成测试用例并分析代码中的潜在风险，将AI能力应用于网络安全领域。今日获得122颗星，表明AI安全自动化工具正在获得开发者认可。\n\n💼 商业缺口：缺少针对企业级应用的漏洞优先级排序和修复成本评估报告功能。",
+          "url": "https://github.com/usestrix/strix",
+          "time": "122 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "browser-use/video-use | 视频编辑AI代理",
+          "summary": "这是一个通过编程代理进行视频编辑的工具，允许用户使用自然语言指令或代码来控制视频剪辑、特效添加等操作。它结合了大语言模型的理解能力和视频处理技术，降低了视频创作的门槛。今日获得196颗星，反映AI视频编辑工具市场需求旺盛。\n\n💼 商业缺口：缺乏专业级的色彩校正、音频混音等高级编辑功能，难以替代传统视频编辑软件。",
+          "url": "https://github.com/browser-use/video-use",
+          "time": "196 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "MiniMax AI 与 Cysic 联合黑客马拉松获奖者揭晓",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax AI 与 Cysic 联合举办的黑客马拉松圆满结束，450多名开发者利用AI代理构建、迭代并交付了真实软件。最终43个项目成功上榜，前十名获奖项目已正式公布。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "杰弗里·辛顿推荐AI对物理学影响的讲座",
+          "url": "https://twitter.com/geoffreyhinton",
+          "summary": "杰弗里·辛顿称赞亚当·布朗关于人工智能对物理学未来影响的讲座。该讲座探讨了人类如何将沙子转化为硅芯片，并展望通用人工智能的未来发展。",
+          "source": "Twitter @geoffreyhinton"
+        },
+        {
+          "title": "杨立昆谈AI监管",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆认为，监管前沿API模型比监管开源AI更合理。前沿API模型由少数大公司秘密开发，缺乏透明度且风险集中；而开源模型风险较低，便于政府和公众分析。监管开源AI会损害小企业、研究者和公众利益，且成本高昂。因此，应优先监管API模型，而非开源AI。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "中国Z.ai声称在网络安全领域可媲美Mythos",
+          "summary": "中国智谱AI发布了开源权重模型GLM-5.2，有研究人员称其在特定漏洞查找和网络安全场景中与Mythos相当。尽管在更通用的任务上GLM仍落后于Anthropic和OpenAI的模型，但中国已大幅缩小了自身模型与这些顶尖模型之间的能力差距。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+          "time": "05:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Suno推出Spark孵化计划，吸引独立艺术家加入其AI平台",
+          "summary": "Suno的目标不仅是成为生成AI内容的工具，还想打造流媒体平台并扶持新锐艺术家。其新推出的Spark孵化计划为独立艺术家提供资助、指导和营销支持，申请者需为未签约的歌手或词曲作者。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+          "time": "04:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "检察官将ChatGPT日志作为帕利塞兹火灾案证据",
+          "summary": "乔纳森·林德克内希特因2025年元旦纵火面临指控，该火灾成为洛杉矶史上最致命野火之一。检察官除使用其iPhone定位数据、监控录像和证人证词外，还将其ChatGPT日志作为关键证据。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+          "time": "22:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "福特重聘“白发”工程师，因AI未达预期",
+          "summary": "福特公司曾误以为引入人工智能就能产出高质量产品，但实际效果未达预期。为此，公司重新聘请经验丰富的老工程师，以弥补AI技术的不足。",
+          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+          "time": "03:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "华尔街认为美国内存制造商美光将成为下一个英伟达",
+          "summary": "华尔街投资者急于寻找更多可能像英伟达一样表现出色的AI相关上市公司，他们认为美光有望成为下一个赢家。",
+          "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司的竞争日益激烈。人工智能和区块链技术的应用正在重塑支付、借贷和投资等核心金融服务。未来，监管政策与技术创新将共同决定行业走向。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "本文概述了保险科技行业的最新发展动态，包括技术应用、市场趋势和主要参与者。当前保险科技正通过人工智能、大数据和区块链等技术重塑传统保险业务模式，提升效率与用户体验。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "供应商筛选",
+          "summary": "小团队靠打电话和直觉找供应商，流程混乱且耗时。AI可自动抓取供应商数据、评估信誉、对比报价，并生成推荐列表，减少人工试错成本。\n\n💡 机会方向：AI驱动的供应商智能匹配与评估平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ui782h/how_do_you_actually_find_reliable_suppliers_as_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "关税退税核对",
+          "summary": "小企业主需手动追踪FedEx/UPS包裹的关税退税，且支票可能误寄给报关行。AI可自动解析物流单、匹配关税规则、监控退税状态并提醒用户。\n\n💡 机会方向：自动化关税退税追踪与索赔工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uhse5n/if_you_shipped_anything_via_fedex_or_ups_in/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "批发定价计算",
+          "summary": "收到批发订单请求但不知如何定价，缺乏成本与利润模型。AI可基于成本、市场价、批量折扣自动生成定价方案，并模拟利润变化。\n\n💡 机会方向：智能批发定价计算器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uicelb/how_to_price_wholesale_orders/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "POS系统选型",
+          "summary": "小店主在Clover、Toast、Square间纠结，需手动对比功能与费用。AI可基于业务规模、行业、月流水自动推荐最优POS方案并对比隐性成本。\n\n💡 机会方向：POS系统智能选型顾问",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ui82e2/best_pos_clover_vs_toast_vs_square/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "银行账户对比",
+          "summary": "新茶饮店主需手动比较多家银行的小企业账户服务与费率。AI可自动抓取银行条款、分析费用结构、匹配业务需求并生成对比报告。\n\n💡 机会方向：小企业银行账户智能对比工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ui77vp/very_small_business_banking_recs/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
