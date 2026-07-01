@@ -1,0 +1,616 @@
+{
+  "date": "2026-07-01",
+  "timeRange": "2026-06-30 09:00 ~ 2026-07-01 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Anthropic发布Claude Science",
+          "coverage": [
+            {
+              "source": "MIT Technology Review - AI",
+              "summary": "Anthropic在周二面向制药高管、生物技术创始人及研究人员的活动中发布了Claude Science，旨在像Claude Code支持软件工程一样支持科学研",
+              "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Anthropic推出Claude Science工作台，为科学家提供统一的计算研究环境，省去他们在数据库、流程和工具之间切换的麻烦。该平台旨在通过优化工作流程",
+              "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/"
+            }
+          ]
+        },
+        {
+          "headline": "Meta脑机接口解码句子",
+          "coverage": [
+            {
+              "source": "Product Hunt",
+              "summary": "讨论 | 链接",
+              "url": "https://www.producthunt.com/products/meta"
+            },
+            {
+              "source": "The Rundown AI",
+              "summary": "Meta开发出突破性的脑机接口AI，能够直接读取大脑信号，超越了传统的字母拼写方式。此外，该技术还支持通过“记录与回放”功能自动化任何手动任务，大幅提升效率。",
+              "url": "https://www.therundown.ai/p/meta-brain-reading-ai-leaves-letters-behind"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Cursor for iOS | 随时随地使用编码智能体进行构建",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/cursor",
+          "time": "11:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Brain2Qwerty v2 | 直接从非侵入性脑信号解码句子",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/meta",
+          "time": "12:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "TakoVM – 面向智能体代码的开源沙箱",
+          "summary": "文章URL：https://github.com/Tako-Research/TakoVM 评论URL：https://news.",
+          "url": "https://github.com/Tako-Research/TakoVM",
+          "time": "06:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "每当对齐至关重要时",
+          "summary": "文章URL：https://vece.ai/ 评论URL：https://news.ycombinator.com/item?id",
+          "url": "https://vece.ai/",
+          "time": "06:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "将Sentry错误转化为AI生成的GitHub修复PR",
+          "summary": "文章URL：https://bugzero.dev 评论URL：https://news.ycombinator.com/item",
+          "url": "https://bugzero.dev",
+          "time": "05:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Mimir – 面向AI智能体的本地优先加密记忆（单一Rust二进制文件）",
+          "summary": "文章URL：https://github.com/Perseus-Computing-LLC/mimir 评论URL：https:",
+          "url": "https://github.com/Perseus-Computing-LLC/mimir",
+          "time": "05:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Morph Reflexes – 面向智能体轨迹的多头分类器",
+          "summary": "生产环境中智能体最常见的失败是行为层面的：循环、推理...",
+          "url": "https://news.ycombinator.com/item?id=48739038",
+          "time": "04:52",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Strix",
+          "summary": "一款开源的AI渗透测试工具，用于自动发现和修复应用中的安全漏洞。它利用AI技术模拟攻击行为，帮助开发者在开发阶段提前识别风险，今日获得515个star，Python语言开发，适合安全团队集成到CI/CD流程中。\n\n💼 商业缺口：缺乏针对AI模型自身（如提示注入、数据投毒）的专项审计与合规报告生成层产品。",
+          "url": "https://github.com/usestrix/strix",
+          "time": "515 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agency-agents",
+          "summary": "一个完整的AI代理机构工具集，涵盖从前端界面到Reddit社区管理的多种AI代理能力。它让用户无需编码即可部署和管理多个AI代理，今日获得1791个star，Shell语言实现，适合希望快速搭建AI服务生态的个人或小团队。\n\n💼 商业缺口：缺少多代理协作时的成本追踪、性能基准对比及安全隔离治理层产品。",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "time": "1,791 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "FluidVoice",
+          "summary": "macOS上最快的听写应用，支持设备端语音转文字（STT）和自定义训练的AI引擎。它强调隐私和速度，无需联网即可完成语音识别，今日获得588个star，Swift语言开发，适合注重数据隐私的专业用户。\n\n💼 商业缺口：缺乏跨平台（Windows/Linux）的本地STT统一管理及企业级语音数据脱敏审计层。",
+          "url": "https://github.com/altic-dev/FluidVoice",
+          "time": "588 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OmniRoute",
+          "summary": "一个免费的AI网关，通过单一端点接入231+个AI提供商（其中50+免费），并支持持续编码。它简化了多模型调用的复杂性，今日获得387个star，TypeScript语言开发，适合需要灵活切换AI服务的开发者。\n\n💼 商业缺口：缺少多提供商API调用的成本优化、故障切换策略及合规性证据链记录层。",
+          "url": "https://github.com/diegosouzapw/OmniRoute",
+          "time": "387 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "video-use",
+          "summary": "通过编码代理（coding agents）编辑视频的工具，将AI编程能力扩展到视频处理领域。它允许用户用自然语言或代码指令控制视频编辑流程，今日获得721个star，Python语言开发，适合自动化视频内容生产。\n\n💼 商业缺口：缺乏视频编辑结果的版权溯源、AI生成内容水印及商业级渲染成本控制层。",
+          "url": "https://github.com/browser-use/video-use",
+          "time": "721 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ai-berkshire",
+          "summary": "基于Claude Code/Codex的价值投资研究框架，融合巴菲特、芒格、段永平、李录四位大师的方法论，支持多Agent并行研究。它旨在用AI辅助投资决策，今日获得969个star，Python语言开发，适合量化投资者。\n\n💼 商业缺口：缺少投资策略回测的合规审计、模型偏见检测及实盘交易风险隔离层。",
+          "url": "https://github.com/xbtlin/ai-berkshire",
+          "time": "969 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google/agents-cli",
+          "summary": "谷歌推出的命令行工具和技能集，能将任何编码助手转变为创建、评估和部署AI代理的专家。它降低了AI代理开发的门槛，今日获得445个star，Python语言开发，适合希望快速上手代理开发的工程师。\n\n💼 商业缺口：缺乏企业级代理部署后的监控告警、版本回滚及多代理协作的权限管理层。",
+          "url": "https://github.com/google/agents-cli",
+          "time": "445 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Supervision",
+          "summary": "一个可复用的计算机视觉工具库，提供标注、可视化、模型评估等核心功能。它简化了CV项目的开发流程，今日获得309个star，Python语言开发，适合需要快速构建视觉AI应用的研究者。\n\n💼 商业缺口：缺少标注数据质量自动校验、模型偏见检测及边缘端部署的量化分析层。",
+          "url": "https://github.com/roboflow/supervision",
+          "time": "309 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "herdr",
+          "summary": "一个运行在终端中的代理多路复用器（agent multiplexer），可同时管理多个AI代理。它让用户在一个终端界面中协调不同代理的任务，今日获得486个star，Rust语言开发，适合追求高性能和低资源占用的开发者。\n\n💼 商业缺口：缺乏多代理会话的审计日志、资源消耗统计及安全隔离（沙箱）层。",
+          "url": "https://github.com/ogulcancelik/herdr",
+          "time": "486 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AI-For-Beginners",
+          "summary": "微软推出的AI入门课程，包含12周24节课，覆盖AI基础、机器学习、神经网络等核心主题。它适合零基础学习者系统掌握AI知识，今日获得252个star，Jupyter Notebook格式，是优质的教育资源。\n\n💼 商业缺口：缺少课程配套的实战项目自动评估、学习进度追踪及企业级培训认证层。",
+          "url": "https://github.com/microsoft/AI-For-Beginners",
+          "time": "252 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Vibe-Trading",
+          "summary": "一个名为“Vibe-Trading”的个人交易代理工具，利用AI辅助交易决策。它强调通过“氛围”感知市场情绪，今日获得721个star，Python语言开发，适合个人投资者尝试AI量化交易。\n\n💼 商业缺口：缺乏交易策略的合规性审查、风险敞口实时监控及历史回测的审计报告层。",
+          "url": "https://github.com/HKUDS/Vibe-Trading",
+          "time": "721 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Superpowers",
+          "summary": "一个代理技能框架和软件开发方法论，旨在提升AI代理的实用性和开发效率。它提供了一套可复用的技能组件，今日获得890个star，Shell语言实现，适合希望系统化构建AI代理能力的团队。\n\n💼 商业缺口：缺少技能组件的版本管理、依赖冲突检测及跨项目复用的许可合规层。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "890 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "lingbot-map",
+          "summary": "一个前馈式3D基础模型，用于从流式数据中重建场景。它专注于实时3D场景理解，今日获得189个star，Python语言开发，适合机器人、自动驾驶等需要实时感知的领域。\n\n💼 商业缺口：缺乏重建结果的精度验证、数据隐私保护及大规模场景部署的成本优化层。",
+          "url": "https://github.com/Robbyant/lingbot-map",
+          "time": "189 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 推出 GeneBench-Pro 基准测试",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 发布 GeneBench-Pro，这是一个面向基因组学和生物学研究的高级基准测试，旨在评估AI处理复杂生物数据、选择正确分析路径并做出专业判断的能力。该测试使用真实世界数据集，推动AI在科学研究中的实际应用。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind发布两大AI模型更新",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind推出两款新模型：Nano Banana 2 Lite可在4秒内完成文生图，是速度最快、成本最低的Gemini图像模型；Gemini Omni Flash现可通过API使用，支持视频编辑与多模态交互。两者还可通过Interactions API协同工作，实现图像生成与动画化。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "AnthropicAI 动态：Claude 模型出口限制解除与新模型发布",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 收到通知，美国商务部已解除对 Claude Fable 5 和 Mythos 5 的出口管制，将于次日恢复访问权限。同时，公司推出 Claude Sonnet 5，这是目前最具自主能力的 Sonnet 模型，能制定计划、使用浏览器和终端等工具并自主运行，性能媲美数月前更大更贵的模型。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Runway 发布 Nano Banana 2 Lite 与 Omni Flash 视频生成功能，并宣布 AI 峰会",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 推出 Nano Banana 2 Lite 模型，可在不牺牲质量的前提下实现高速图像生成。同时，Runway 上线了 Gemini Omni Flash 视频生成与编辑工具，支持通过提示词、图片或视频进行创作。此外，Runway 宣布将于今年九月在旧金山举办 AI 峰会，汇聚机器人、自动驾驶、生命科学等领域领袖。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax AI 动态汇总",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax AI 发布M3模型，拥有超4000亿参数，支持多模态，需HGX B200硬件运行。团队与Together AI讨论稀疏注意力与内核优化，并与Hugging Face、SingularityNET等展开合作。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "卡帕西团队突破：首款机架今夏交付",
+          "url": "https://twitter.com/karpathy",
+          "summary": "卡帕西团队宣布结束隐身模式，成功完成首次A0流片，已获得超10亿美元客户合同并融资8亿美元。早期客户测试显示，其推理工作负载在吞吐量、延迟和能效上达到业界领先水平，首批机架将于今年夏季发货。",
+          "source": "Twitter @karpathy"
+        },
+        {
+          "title": "德米斯·哈萨比斯发布两大模型更新",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "谷歌DeepMind推出两款重要模型：Nano Banana 2 Lite成为最快最便宜的Gemini图像模型；Gemini Omni Flash现可通过Gemini API和Google AI Studio使用，帮助开发者生成和编辑高质量视频。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆：基于正则化的JEPA模型可扩展且数据效率高",
+          "url": "https://twitter.com/ylecun",
+          "summary": "研究表明，基于正则化的JEPA模型（如SIGReg）能够与SOTA基础模型（如DINO）竞争，且仅需10%的数据。VISReg作为SIGReg的变体，仅在ImageNet-22k上训练即可与DINOv2-LVD142M匹敌，填补了杨立昆演讲中的关键空白。",
+          "source": "Twitter @ylecun"
+        },
+        {
+          "title": "列克斯·弗里德曼对话安东尼·卡尔德利斯",
+          "url": "https://twitter.com/lexfridman",
+          "summary": "列克斯·弗里德曼与安东尼·卡尔德利斯深入探讨了罗马帝国及拜占庭帝国的悠久历史，涵盖其2200年的兴衰历程。对话分析了权力、暴力、基督教影响等关键主题，并指出研究历史有助于理解人性与现代文明，为人类未来提供智慧。",
+          "source": "Twitter @lexfridman"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Meta脑机接口AI超越字母拼写",
+          "summary": "Meta开发出突破性的脑机接口AI，能够直接读取大脑信号，超越了传统的字母拼写方式。此外，该技术还支持通过“记录与回放”功能自动化任何手动任务，大幅提升效率。",
+          "url": "https://www.therundown.ai/p/meta-brain-reading-ai-leaves-letters-behind",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic长期搁置的Fable 5获准回归",
+          "summary": "经过与特朗普政府数周谈判，Anthropic终于获准重新上线Claude Fable 5。该公司在X平台宣布，计划于周三开始为全球Claude平台用户恢复访问，并将在AWS、谷歌云和微软云上重新启用该功能。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+          "time": "08:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌NotebookLM可将研究内容总结为短视频",
+          "summary": "谷歌NotebookLM新增功能，能为用户生成类似TikTok风格的60秒AI视频摘要。该功能面向AI Ultra和Pro订阅用户开放，基于上传的资料来源自动生成竖屏剪辑。谷歌分享的示例展示了澳大利亚一场失败的战争。",
+          "url": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+          "time": "03:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Netflix在威利·旺卡真人秀中使用AI生成吉恩·怀尔德声音",
+          "summary": "Netflix确认《旺卡的金色门票》将于9月23日首播，该节目延续了《鱿鱼游戏》真人秀趋势，基于虚构场景打造真实竞赛。尽管预告片中的布景为实景而非AI伪造，但旁白声音是由AI生成的。",
+          "url": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+          "time": "01:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Libby将过滤AI内容，但并非完全屏蔽",
+          "summary": "OverDrive新任CEO马克·德贝沃伊斯表示，AI是其公司的新前沿。该公司旗下电子书借阅应用Libby将推出过滤AI生成内容的功能，但并非完全屏蔽，而是提供用户选择。这一举措旨在平衡技术发展与内容质量。",
+          "url": "https://www.theverge.com/column/959433/libby-ai-filter",
+          "time": "23:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "两度击败埃隆·马斯克的律师",
+          "summary": "在马斯克诉奥特曼案中，马斯克对律师比尔·萨维特大发雷霆，场面如同幼儿对幼儿园老师发脾气。萨维特的提问被马斯克指责为“蓄意误导”，但最终萨维特成功两次击败了马斯克的法律攻势。",
+          "url": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "Claude Science：Anthropic最新旗舰产品",
+          "summary": "Anthropic在周二面向制药高管、生物技术创始人及研究人员的活动中发布了Claude Science，旨在像Claude Code支持软件工程一样支持科学研究。该产品能根据简洁的高层指令自主执行有意义的工作。",
+          "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+          "time": "05:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "农业已准备好迎接AI，但数据尚未就绪",
+          "summary": "人工智能正在改变农业的可能性，但行业领袖在投资AI前需谨慎，应先打好数据基础。AI应用前景广阔，尤其有助于应对化肥价格波动、天气变化和微薄利润的挑战。研究表明，AI预测模型可提升作物产量，但数据质量是关键瓶颈。",
+          "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenClaw 正式登陆安卓和iOS平台",
+          "summary": "这款免费开源的智能代理程序终于进入手机端，现已支持安卓和iOS系统。用户可在移动设备上直接使用其自动化功能。",
+          "url": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+          "time": "05:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "DeepMind三人组打造扑克AI后，如今为量化对冲基金赚钱",
+          "summary": "由三位前DeepMind研究员创立的布拉格AI实验室EquiLibre Technologies，目前估值已超过5亿美元。该团队曾打造扑克AI，如今专注于为量化对冲基金开发盈利策略。",
+          "url": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+          "time": "04:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌推出更快更便宜的图像生成器Nano Banana 2 Lite",
+          "summary": "谷歌升级了其图像生成器，使其运行更快、成本更低，从而为创作者提供更实用的AI内容制作工具。",
+          "url": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+          "time": "03:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达竞争对手Etched估值达50亿美元，AI芯片销售额突破10亿",
+          "summary": "英伟达在AI芯片领域的竞争对手Etched宣布，其芯片驱动的推理系统已签订价值10亿美元的合同。该公司估值随之达到50亿美元，显示出AI芯片市场的强劲需求。",
+          "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+          "time": "02:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic发布Claude Sonnet 5：更便宜的智能体运行方案",
+          "summary": "Anthropic推出Claude Sonnet 5，具备更强的智能体能力、更低的价格和更高的安全性。该模型定位为Opus、GPT-5.5和Gemini Pro的更廉价替代方案。",
+          "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Acti将AI代理直接嵌入智能手机键盘",
+          "summary": "Acti押注智能手机键盘将成为AI助手的新主场。这家初创公司为iOS和Android系统推出新款键盘，支持跨应用操作，并允许用户通过自然语言创建自定义AI快捷方式。",
+          "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+          "time": "01:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic的Claude Science押注工作流而非新模型以赢得科学家青睐",
+          "summary": "Anthropic推出Claude Science工作台，为科学家提供统一的计算研究环境，省去他们在数据库、流程和工具之间切换的麻烦。该平台旨在通过优化工作流程而非发布新模型来吸引科研用户。",
+          "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "X推出MCP服务器，方便AI工具接入平台",
+          "summary": "X现已推出托管式MCP服务器，使开发者能更轻松地将AI应用与公司API连接。此举旨在简化AI工具对平台数据的访问流程。",
+          "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/",
+          "time": "23:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "播客平台Riverside进军新闻通讯出版领域",
+          "summary": "播客平台Riverside推出新功能，允许用户利用AI基于录音内容自动生成新闻通讯。这一举措标志着该平台从音频制作向内容出版领域的扩展。",
+          "url": "https://techcrunch.com/2026/06/30/podcasting-platform-riverside-enters-the-newsletter-publishing-game/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "亚马逊效仿OpenAI和Anthropic，成立10亿美元新部门",
+          "summary": "亚马逊新成立的团队将派驻工程师到企业客户中，部署专用AI代理，重点实现快速部署并帮助客户实现自主运营。",
+          "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Proton隐私AI聊天机器人Lumo升级",
+          "summary": "Proton旗下注重隐私的AI聊天机器人Lumo推出2.0版本，本周上线。新版本为用户提供了更广泛的功能，提升了使用体验。",
+          "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "加密货币交易所OKX计划让AI代理相互雇佣并支付",
+          "summary": "OKX正在将支付、身份和信誉整合为一个面向AI代理的市场。该平台旨在让AI代理能够自主雇佣彼此并完成支付，从而推动自动化经济生态的发展。",
+          "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI就业争论再添变数",
+          "summary": "最新报告显示，“高强度AI采用者”的员工总数增长了10.2%，其中入门级岗位数量上升了12%。这一数据反驳了AI会淘汰初级职位的普遍说法。",
+          "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+          "time": "12:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI初创公司寻求防御力，Vibe编码平台Base44推出自有模型",
+          "summary": "Wix旗下的Vibe编码平台Base44已开始推出自有AI模型，期望其最终能超越前沿模型的表现。此举旨在增强平台竞争力，应对AI初创公司对技术防御力的迫切需求。",
+          "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+          "time": "10:28",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资领域。监管环境也在不断演变，以适应这些创新并确保消费者保护。整体来看，金融科技的未来充满机遇与挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔及客户服务。尽管投资有所波动，但技术创新持续推动行业效率提升与产品个性化发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "ScarfBench：评估AI代理在企业Java框架迁移中的表现",
+          "summary": "ScarfBench是一个专门用于评估AI代理在企业级Java框架迁移任务中性能的基准测试。该基准通过模拟真实迁移场景，衡量AI工具在代码重构、依赖更新和兼容性处理等方面的能力，旨在推动AI辅助企业软件现代化的发展。",
+          "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+          "time": "02:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "专业化为何不可避免",
+          "summary": "随着技术发展和分工细化，专业化已成为必然趋势。无论是人工智能还是其他领域，深入专精才能应对复杂挑战，推动创新与效率提升。这一趋势将深刻影响未来职业与行业格局。",
+          "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+          "time": "22:39",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "客户跟进自动化",
+          "summary": "小企业主只发一封邮件就放弃跟进，导致大量潜在客户流失。手动跟进既耗时又怕打扰客户，缺乏系统化的自动提醒和个性化话术。AI可以自动分析客户响应状态，在最佳时间发送定制化跟进邮件或短信，并动态调整频率和内容。\n\n💡 机会方向：AI驱动的智能客户跟进引擎，自动规划跟进节奏与话术",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ujz25y/how_do_you_follow_up_with_leads_without_feeling/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "虚假评论检测与应对",
+          "summary": "店主遭遇虚假差评轰炸，手动识别和申诉耗时且效果差。AI可以自动抓取评论数据，分析评论者行为模式（如新账号、重复IP、非正常时间发布），生成证据报告并自动向平台提交申诉，同时辅助生成真实客户好评邀请。\n\n💡 机会方向：AI虚假评论检测与自动申诉工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uk01q5/how_to_deal_with_fake_review_bombing/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "支付处理器对比选择",
+          "summary": "独立开发者手动搜索和对比多个支付处理器的费率、功能、地区支持，信息分散且更新快，决策困难。AI可以实时聚合各平台最新费率、用户评价、隐藏条款，根据开发者业务类型（如一次性购买、订阅）自动推荐最优方案并生成对比报告。\n\n💡 机会方向：AI支付处理器智能对比与推荐助手",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48738624",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "A/B测试数据自动分析",
+          "summary": "开发者手动收集A/B测试数据、分析统计显著性、记录实验文档，过程繁琐且容易出错。AI可以自动接入实验数据，实时计算置信区间，生成可视化报告，并自动记录实验假设、参数、结论到文档中，支持团队协作。\n\n💡 机会方向：AI驱动的A/B测试全流程自动化分析与文档工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48736618",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
