@@ -1,0 +1,506 @@
+{
+  "date": "2026-07-03",
+  "timeRange": "2026-07-02 09:00 ~ 2026-07-03 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI股权让与特朗普政府",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "据《金融时报》报道，OpenAI提议将5%的股权让与美国政府，以缓解与特朗普政府的紧张关系，并平息公众对AI日益增长的反对情绪。CEO山姆·奥特曼认为，让公众在",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "据报道，OpenAI CEO山姆·奥特曼提议将公司5%的股权捐赠给美国主权财富基金，重新引发了关于让公众分享人工智能繁荣带来的财务收益的讨论。",
+              "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "CometChat 游戏聊天SDK",
+          "summary": "聊天功能像原生一样无缝嵌入Unreal引擎的讨论 | 链接",
+          "url": "https://www.producthunt.com/products/cometchat",
+          "time": "13:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Banger Mail",
+          "summary": "面向团队和AI代理的共享邮箱 | 链接",
+          "url": "https://www.producthunt.com/products/banger-mail",
+          "time": "09:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "我制作了一个防止网站追踪你的工具",
+          "summary": "我们知道大家对AI内容很警惕，但声明：使用了AI。我不认为这……",
+          "url": "https://github.com/alex-w-developer/GetBlocked",
+          "time": "08:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "自主家庭服务企业",
+          "summary": "我们构建了让家庭服务企业完全自主运行的AI。它管理你的整个……",
+          "url": "https://rainslice.ai",
+          "time": "08:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Gist Discover – 面向ArXiv摘要的TikTok",
+          "summary": "不知道你怎么样，但我跟不上AI研究的数量。阅读……",
+          "url": "https://gist.is/discover",
+          "time": "06:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一个15.5万参数的Transformer构建了从未见过的世界地图",
+          "summary": "文章URL：https://ankur-chr.github.io/inside-the-model/ 评论URL：https://news.ycombinator.",
+          "url": "https://ankur-chr.github.io/inside-the-model/",
+          "time": "06:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Mirrors – 通过回放生产轨迹测试AI代理变更",
+          "summary": "文章URL：https://www.runmirrors.com/ 评论URL：https://news.ycombinator.",
+          "url": "https://www.runmirrors.com/",
+          "time": "06:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "我构建了一个查找竞争对手的应用",
+          "summary": "上周我发布了filler.live（AI表单填写工具），它一次保存你的个人资料，自动……",
+          "url": "https://opencorp.live/",
+          "time": "05:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "我构建了Halo，一个适用于Mac的私人AI助手（免费）",
+          "summary": "文章URL：https://heyhalo.app/ 评论URL：https://news.ycombinator.com/ite",
+          "url": "https://heyhalo.app/",
+          "time": "05:56",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Strix — 开源AI渗透测试工具",
+          "summary": "这是一个开源的AI渗透测试工具，旨在帮助开发者自动发现并修复应用程序中的安全漏洞。它利用AI技术模拟攻击行为，提升安全检测的效率和覆盖面。今日获得2137颗星，说明安全领域对AI驱动的自动化测试需求强烈。\n\n💼 商业缺口：缺乏针对企业级合规审计的AI安全测试报告生成与漏洞修复优先级排序的付费产品。",
+          "url": "https://github.com/usestrix/strix",
+          "time": "2,137 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Caveman — 极简Token策略工具",
+          "summary": "这是一个Claude Code技能，通过使用更少的Token来完成任务，可削减约65%的Token消耗。它基于“少即是多”的理念优化AI交互效率，特别适合需要控制成本的AI应用场景。今日926星，表明开发者对降低AI使用成本高度关注。\n\n💼 商业缺口：缺少可量化的Token成本监控与优化建议的SaaS平台，帮助团队在多个AI模型间自动选择最低成本方案。",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "time": "926 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agency Agents — 全能AI代理平台",
+          "summary": "这是一个完整的AI代理平台，集成了前端开发、Reddit社区管理等多种技能，让用户能一站式部署AI代理完成复杂任务。基于Shell实现，今日获得3032颗星，热度极高，反映了市场对多功能AI代理的迫切需求。\n\n💼 商业缺口：缺少针对多代理协作的治理与安全审计层，例如代理行为日志、权限控制与异常检测的付费产品。",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "time": "3,032 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Career-Ops — AI求职系统",
+          "summary": "这是一个基于Claude Code构建的AI求职系统，提供14种技能模式、Go语言仪表盘和AI驱动的职位搜索功能。它帮助求职者自动化匹配岗位并优化简历，今日372星，显示AI在人力资源领域的应用潜力。\n\n💼 商业缺口：缺乏企业端招聘流程的AI合规性审查与候选人隐私保护付费服务。",
+          "url": "https://github.com/santifer/career-ops",
+          "time": "372 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Superpowers — 代理技能框架与开发方法论",
+          "summary": "这是一个实用的代理技能框架和软件开发方法论，旨在帮助开发者高效构建和编排AI代理。它提供结构化的工作流程和最佳实践，今日897星，说明社区对标准化AI开发方法有强烈兴趣。\n\n💼 商业缺口：缺少围绕该框架的付费培训课程、企业级部署模板和性能基准测试服务。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "897 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Chrome DevTools MCP — 编码代理的Chrome调试工具",
+          "summary": "这是一个为编码代理（如AI编程助手）提供的Chrome DevTools接口，使代理能直接操控浏览器进行调试和测试。基于TypeScript，今日104星，适合需要浏览器自动化测试的AI开发场景。\n\n💼 商业缺口：缺乏针对多浏览器兼容性测试的付费云服务，以及代理调试行为的审计日志产品。",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "time": "104 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Video-Use — 编码代理编辑视频工具",
+          "summary": "这是一个让编码代理（如AI代理）直接编辑视频的工具，通过Python实现自动化视频处理。它扩展了AI代理的能力边界，今日554星，表明多模态AI代理应用正在兴起。\n\n💼 商业缺口：缺少视频编辑代理的版权检测、内容审核和输出质量评估的付费服务。",
+          "url": "https://github.com/browser-use/video-use",
+          "time": "554 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ECC — 代理性能优化系统",
+          "summary": "这是一个代理性能优化系统，集成了技能、本能、记忆和搜索等模块，旨在提升AI代理的响应速度和任务完成质量。基于JavaScript，今日486星，适合需要高性能代理的实时应用。\n\n💼 商业缺口：缺乏针对代理性能瓶颈的自动化诊断与调优付费工具，以及资源成本优化建议。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "486 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Vibe-Trading — 个人交易代理",
+          "summary": "这是一个个人交易代理工具，利用AI技术辅助用户进行股票或加密货币交易决策。基于Python，今日939星，热度很高，反映了AI在金融交易领域的应用需求。\n\n💼 商业缺口：缺少合规的交易策略审计、风险控制与回测验证的付费金融科技产品。",
+          "url": "https://github.com/HKUDS/Vibe-Trading",
+          "time": "939 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AgentSkills — 代理技能规范与文档",
+          "summary": "这是一个为AI代理技能提供标准化规范和文档的项目，帮助开发者统一代理能力的定义和接口。基于Python，今日86星，对构建可复用的代理生态系统有基础性作用。\n\n💼 商业缺口：缺乏围绕该规范的付费认证服务、技能市场平台和兼容性测试工具。",
+          "url": "https://github.com/agentskills/agentskills",
+          "time": "86 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Codex Plugin for Claude Code — 代码审查与任务委派",
+          "summary": "这是一个OpenAI开发的插件，允许Claude Code调用Codex来审查代码或委派任务，实现AI之间的协作。基于JavaScript，今日352星，展示了多模型协作的实用价值。\n\n💼 商业缺口：缺少跨模型协作的成本分摊、任务调度和结果一致性验证的付费管理平台。",
+          "url": "https://github.com/openai/codex-plugin-cc",
+          "time": "352 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Langflow — AI代理与工作流构建工具",
+          "summary": "Langflow是一个强大的可视化工具，用于构建和部署AI代理及工作流，支持拖拽式编排。基于Python，今日117星，适合快速原型开发和低代码AI应用。\n\n💼 商业缺口：缺乏企业级的工作流版本管理、性能监控和团队协作付费功能。",
+          "url": "https://github.com/langflow-ai/langflow",
+          "time": "117 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "PyTorch — 张量与动态神经网络框架",
+          "summary": "PyTorch是业界主流的深度学习框架，支持张量计算和动态神经网络，并利用GPU加速。基于Python，今日65星，是AI研究和生产的基础设施。\n\n💼 商业缺口：缺少针对PyTorch模型的自动化部署、成本优化和合规性审计的付费云服务。",
+          "url": "https://github.com/pytorch/pytorch",
+          "time": "65 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "CS249r 机器学习系统教材",
+          "summary": "这是哈佛大学CS249r课程的配套教材，系统讲解机器学习系统的设计与实现。基于Python，今日68星，适合学术研究和工程实践。\n\n💼 商业缺口：缺乏配套的付费实验环境、习题自动批改和项目指导服务。",
+          "url": "https://github.com/harvard-edge/cs249r_book",
+          "time": "68 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Midjourney硬件工程师揭秘扫描仪幕后",
+          "url": "https://twitter.com/midjourney",
+          "summary": "Midjourney的硬件工程师马尔钦（同时也是YouTube明星）受邀制作了一段视频。他在视频中展示了从自己工位旁目睹Midjourney扫描仪建造过程的幕后景象。",
+          "source": "Twitter @midjourney"
+        },
+        {
+          "title": "Runway 推出智能代理技能，一键生成广告与营销内容",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 发布 Agent Skills 功能，用户只需输入简单指令即可自动完成广告制作、本地化等营销任务。该工具旨在通过命令式操作，帮助用户快速扩展营销规模。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax AI 动态",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax AI 发布多则动态，包括展示主题衬衫、祝贺Together AI完成C轮融资，以及强调多格式扩展能力。公司正加速推进AI技术应用与合作伙伴关系。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：美国国庆周看美国队赢球太棒了",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼表示，观看世界杯比赛总是令人兴奋，但在美国国庆周期间见证美国队获胜更是难以置信的体验。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "德米斯·哈萨比斯：谷歌DeepMind Gemini Omni Flash登顶视频生成排行榜",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "谷歌DeepMind的Gemini Omni Flash模型在视频竞技场中以1404 Elo评分位居第一，领先第二名Seedance 2.0 Mini达101分，创下该榜单最大分差。这使谷歌跃升7位，成为全球领先的视频生成实验室。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆分享爱国文章；CNN曝光特朗普以权谋私；新视觉语言预训练模型LeVLJEPA发布",
+          "url": "https://twitter.com/ylecun",
+          "summary": "CNN发布视频揭露特朗普多次指控他人利用公职牟利，而其上任后净资产几乎翻三倍。同时，研究团队推出LeVLJEPA，首个无需负样本、动量编码器等技术的非对比式视觉语言预训练方法，性能媲美CLIP和SigLIP。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Anthropic的Fable全球回归",
+          "summary": "Anthropic的Fable应用在全球范围内重新上线。此外，还可利用谷歌的Design.md工具来构建更优质的网站。",
+          "url": "https://www.therundown.ai/p/anthropic-fable-returns-worldwide",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI提议将5%股权让与特朗普政府",
+          "summary": "据《金融时报》报道，OpenAI提议将5%的股权让与美国政府，以缓解与特朗普政府的紧张关系，并平息公众对AI日益增长的反对情绪。CEO山姆·奥特曼认为，让公众在公司中拥有经济利益是分享AI红利的最佳方式。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+          "time": "18:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "借助AI实现卓越运营",
+          "summary": "精益六西格玛和业务流程管理（BPM）等框架曾因在混乱中提供清晰度而受到青睐，前者强调统计严谨与质量控制，后者绘制跨部门工作流程。如今，AI技术正将这些方法提升至新高度，通过自动化分析和优化，帮助企业更高效地实现运营卓越。",
+          "url": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+          "time": "23:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "教AI与涡轮机共舞",
+          "summary": "人工智能在聊天机器人和图像生成器上吸引了公众的想象，但其最具影响力的应用正发生在远离消费工具的领域。在那些物理基础设施、运营连续性和安全性至关重要的行业中，AI正成为核心操作层，管理庞大的工业系统和持续不断的运营数据流。",
+          "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+          "time": "20:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "马克·扎克伯格称AI智能体进展未达预期",
+          "summary": "在内部会议上，Meta首席执行官马克·扎克伯格表示，公司AI开发进展未如预期般迅速。他指出AI智能体的发展速度低于他的期望，暗示团队需加快步伐。这一表态反映了Meta在AI领域的挑战与紧迫感。",
+          "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+          "time": "07:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Jersey Mike's IPO揭示AI炒作有多离谱",
+          "summary": "我出于好奇查看了Jersey Mike's的IPO文件，心想一家三明治店总该不会提到AI吧。结果你猜怎么着，文件中居然真的出现了AI相关表述，这足以说明当前AI炒作已经泛滥到何种程度。",
+          "url": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
+          "time": "04:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta低调推出AI游戏应用Pocket",
+          "summary": "Meta悄然发布实验性AI应用Pocket，用户可通过文本提示生成并分享互动小游戏。该应用主打“氛围编码”功能，旨在降低游戏创作门槛。",
+          "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+          "time": "02:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic与三星洽谈定制芯片合作",
+          "summary": "Anthropic正与三星讨论开发一款新的定制芯片。约一周前，OpenAI宣布与博通合作推出自研AI芯片。",
+          "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+          "time": "02:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI提议将5%股权捐赠给美国主权财富基金",
+          "summary": "据报道，OpenAI CEO山姆·奥特曼提议将公司5%的股权捐赠给美国主权财富基金，重新引发了关于让公众分享人工智能繁荣带来的财务收益的讨论。",
+          "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+          "time": "23:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "微软斥资25亿美元成立自家AI部署公司",
+          "summary": "微软宣布成立新的AI部署集团，并承诺投入25亿美元。此举紧随亚马逊、OpenAI和Anthropic之后，标志着科技巨头在AI领域的竞争进一步加剧。",
+          "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+          "time": "21:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "我们现在用OpenClaw约会了",
+          "summary": "本·格兹利用OpenClaw、Claude代码和Instagram试用版设置了一个自动化脚本，结果收到了“一堆潜在的国际妻子候选人”的私信。这一做法引发了关于AI在约会中应用的讨论。",
+          "url": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "印度科技大亨自掏3000万美元打造AI版Office",
+          "summary": "印度科技企业家巴文·图拉基亚投入3000万美元自有资金，推出其第五家创业公司Neo。该公司旨在利用人工智能技术，打造微软Office和谷歌应用的替代产品。",
+          "url": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+          "time": "13:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，展示了全球金融科技领域最具创新力和影响力的公司。这些企业在支付、借贷、保险和财富管理等领域推动技术变革，引领行业发展趋势。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，包括技术创新、市场趋势和监管变化。核心信息涵盖数字支付、区块链应用及人工智能在金融服务中的崛起，同时分析了行业面临的挑战与机遇。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与科技初创公司之间的竞争与合作日益加剧。人工智能和大数据技术的应用正在重塑风险评估、理赔处理和客户服务等核心环节，推动行业效率提升。未来，保险科技将更注重个性化产品设计和用户体验优化，以应对不断变化的市场需求。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手工记账对账",
+          "summary": "小企业主刚起步，没有客户，意识到需要记账但不知如何下手。手动记录每笔收支、分类、核对银行流水非常耗时且容易出错。AI可以自动从银行账单、发票中提取数据，生成分类账目，甚至提供现金流预警。\n\n💡 机会方向：面向小微企业的AI自动记账与对账工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ulxbcf/about_bookkeeping/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社交媒体内容创作",
+          "summary": "小企业主反映写一篇帖子需要30分钟到数小时，包括构思、撰写、修改，且难以保持频率。AI可以基于产品特点、行业热点、用户反馈自动生成多版本文案，并建议最佳发布时间。\n\n💡 机会方向：AI驱动的社交媒体内容生成与排期助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ulqdfb/how_much_time_do_you_spend_writing_your_own_posts/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "CRM数据冗余清理",
+          "summary": "一家装修公司同时使用Jobber和HubSpot，两个系统间客户信息、项目状态、工单数据重复且不一致，员工每周需手动比对、去重、同步。AI可以自动识别重复记录、合并字段、实时同步变更。\n\n💡 机会方向：多CRM系统间的AI数据同步与去重中间件",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uloycu/help_me_fix_crm_redundancies/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "寻找TikTok网红合作",
+          "summary": "一家植物盆初创企业需要手动搜索、筛选、联系TikTok上的潜在网红，评估其粉丝质量、互动率、内容契合度，整个过程耗时且主观。AI可以自动爬取网红数据、分析匹配度、生成合作简报。\n\n💡 机会方向：AI驱动的网红智能匹配与效果预测平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ulyrbh/advice_for_finding_the_most_effective_tiktok/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "会议记录整理",
+          "summary": "团队对现有会议记录工具不满，需要手动转录、整理要点、分配任务。AI可以实时转写多语言（含Hinglish）会议，自动提取行动项、责任人、截止日期，并推送到项目管理工具。\n\n💡 机会方向：支持混合语言的AI会议纪要生成与任务分配工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48768220",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
