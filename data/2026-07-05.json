@@ -1,0 +1,381 @@
+{
+  "date": "2026-07-05",
+  "timeRange": "2026-07-04 09:00 ~ 2026-07-05 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "WifeBench – 我妻子对LLM排名的感受",
+          "summary": "她看着我查看模型排名，问这些数字是什么意思……我点亮了",
+          "url": "https://www.wifebench.com/",
+          "time": "06:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Apple基础模型在Xcode测试版中",
+          "summary": "在1977端口开放，将流量转发到1976端口，该端口服务于Apple的本地模型",
+          "url": "https://gist.github.com/voxels/b6ea737dd127745f9af009ebd038ded4",
+          "time": "05:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "使用网络唤醒技术进行AI项目",
+          "summary": "我终于有理由使用网络唤醒技术来节省AI和能源账单了。",
+          "url": "https://guilhermefrj.medium.com/i-built-a-local-chatgpt-killer-on-a-single-rtx-5080-heres-everything-that-went-wrong-and-right-38343c516451",
+          "time": "04:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI驱动的代码审查工具",
+          "summary": "一个基于AI的代码审查工具",
+          "url": "https://github.com/Kirill89/reviewcerberus",
+          "time": "02:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI面试教练 – 提供诚实的招聘经理级别反馈的练习工具",
+          "summary": "一个AI面试教练，提供诚实的招聘经理级别反馈",
+          "url": "https://aiinterviewcoaches.com",
+          "time": "00:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Routing24 – 为Claude Cowork/WebMCP提供的免费路线优化代理",
+          "summary": "我一直在构建https://routing24.com，一个免费的路线优化代理",
+          "url": "https://github.com/routing24/skill",
+          "time": "00:43",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "openai/codex-plugin-cc",
+          "summary": "这是一个允许在Claude Code中使用OpenAI Codex进行代码审查和任务委托的插件。它打通了不同AI模型之间的协作通道，让开发者可以在同一个工作流中同时利用Claude和Codex的优势。今日获得718星，说明跨模型协作的需求非常旺盛。\n\n💼 商业缺口：缺少跨AI模型调用的审计与成本分摊工具，企业难以追踪不同模型的使用量和费用归属。",
+          "url": "https://github.com/openai/codex-plugin-cc",
+          "time": "718 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "JuliusBrussee/caveman",
+          "summary": "一个Claude Code技能，通过使用更少的token来降低API调用成本，号称可削减65%的token消耗。它优化了提示词策略，在保持效果的同时大幅节省费用。今日获得1089星，反映出开发者对AI使用成本的高度敏感。\n\n💼 商业缺口：缺少企业级的token消耗监控与预算告警系统，无法自动优化不同任务的token分配策略。",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "time": "1,089 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alibaba/page-agent",
+          "summary": "一个基于JavaScript的浏览器内GUI代理，允许用户通过自然语言控制网页界面。它实现了类似RPA的自动化能力，但完全由AI驱动，无需编写脚本。今日获得742星，表明自然语言驱动的网页自动化是一个快速增长的需求。\n\n💼 商业缺口：缺少针对企业级网页自动化的合规审计与操作回放工具，无法确保AI操作的合规性和可追溯性。",
+          "url": "https://github.com/alibaba/page-agent",
+          "time": "742 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "usestrix/strix",
+          "summary": "一个开源的AI渗透测试工具，用于自动发现和修复应用漏洞。它利用AI技术模拟攻击行为，帮助安全团队更高效地识别安全弱点。今日获得1904星，是今日最热门的项目，说明AI安全测试工具需求巨大。\n\n💼 商业缺口：缺少AI渗透测试结果的标准化报告与漏洞修复优先级排序系统，企业难以将AI发现的问题纳入现有安全流程。",
+          "url": "https://github.com/usestrix/strix",
+          "time": "1,904 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ChromeDevTools/chrome-devtools-mcp",
+          "summary": "为编码代理提供的Chrome开发者工具接口，让AI能够直接操作浏览器调试功能。它使AI可以像人类开发者一样使用DevTools进行调试和性能分析。今日获得304星，是Google官方项目，具有权威性。\n\n💼 商业缺口：缺少跨浏览器调试代理的统一管理平台，无法同时协调Chrome、Firefox等不同浏览器的AI调试会话。",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "time": "304 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Zackriya-Solutions/meetily",
+          "summary": "一个注重隐私的AI会议助手，使用比Whisper快4倍的Parakeet模型进行实时转录。它支持本地运行，确保会议数据不会外泄。今日获得718星，说明隐私保护的AI会议工具是市场刚需。\n\n💼 商业缺口：缺少企业级会议AI助手的合规数据保留策略与审计日志，无法满足金融、医疗等行业的监管要求。",
+          "url": "https://github.com/Zackriya-Solutions/meetily",
+          "time": "718 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "asgeirtj/system_prompts_leaks",
+          "summary": "从Anthropic的Claude系列模型中提取的系统提示词集合，包括Fable 5、Opus 4.8等版本。这些提示词揭示了AI模型背后的行为设定和安全约束。今日获得471星，反映出开发者对理解AI模型内部机制的高度兴趣。\n\n💼 商业缺口：缺少系统提示词版本管理与合规性检查工具，企业无法确保所有AI实例使用经过审批的提示词配置。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "471 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "harvard-edge/cs249r_book",
+          "summary": "哈佛大学机器学习系统课程的教材，涵盖ML系统的设计与实现。这是一本系统性的学术著作，适合希望深入理解ML工程实践的开发者。今日获得443星，说明高质量ML系统教育资源仍然稀缺。\n\n💼 商业缺口：缺少与教材配套的实战沙箱环境和自动化评估系统，学习者难以将理论知识转化为动手能力。",
+          "url": "https://github.com/harvard-edge/cs249r_book",
+          "time": "443 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ogulcancelik/herdr",
+          "summary": "一个运行在终端中的AI代理多路复用器，可以同时管理多个AI代理的会话。它让开发者能够在同一个终端窗口中协调不同AI代理的工作。今日获得707星，表明多代理协调工具的需求正在快速增长。\n\n💼 商业缺口：缺少多代理协作的任务依赖图可视化与冲突检测工具，无法有效管理复杂代理工作流中的资源竞争。",
+          "url": "https://github.com/rommapp/romm",
+          "time": "398 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "dotnet/skills",
+          "summary": "微软官方仓库，提供帮助AI编码代理学习.NET和C#的技能包。它包含了针对.NET生态系统的提示词和最佳实践。今日获得59星，是微软官方项目，对.NET开发者有重要参考价值。\n\n💼 商业缺口：缺少针对.NET生态的AI编码代理性能基准测试套件，无法客观评估不同AI模型在.NET开发中的表现。",
+          "url": "https://github.com/ogulcancelik/herdr",
+          "time": "707 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agentskills/agentskills",
+          "summary": "Agent Skills的规范与文档仓库，定义了AI代理技能的标准接口。它试图建立一套统一的技能开发框架，让不同AI代理能够共享和复用技能。今日获得351星，说明行业对AI代理标准化有强烈需求。\n\n💼 商业缺口：缺少Agent Skills的兼容性测试与认证服务，无法确保不同厂商实现的技能能够互操作。",
+          "url": "https://github.com/dotnet/skills",
+          "time": "59 stars today",
+          "language": "C#",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills",
+          "summary": "来自知名TypeScript专家Matt Pocock的Claude Code技能集合，直接从他的.claude目录中提取。这些技能代表了真实工程师在日常工作中使用的AI辅助技巧。今日获得973星，说明实战型AI技能资源非常受欢迎。\n\n💼 商业缺口：缺少技能效果的可量化评估与A/B测试平台，开发者无法科学地比较不同技能组合的实际效率提升。",
+          "url": "https://github.com/agentskills/agentskills",
+          "time": "351 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "CoplayDev/unity-mcp",
+          "summary": "Unity MCP作为AI助手与Unity编辑器之间的桥梁，让AI能够直接控制Unity开发环境。它实现了AI驱动的游戏开发辅助功能。今日获得69星，是游戏开发领域AI工具的重要尝试。\n\n💼 商业缺口：缺少Unity AI辅助的版本控制与协作冲突解决工具，多人在同一项目中使用AI时容易产生代码冲突。",
+          "url": "https://github.com/immich-app/immich",
+          "time": "201 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alirezarezvani/claude-skills",
+          "summary": "包含337个Claude Code技能、代理技能和插件的集合，涵盖30多个代理和70多个自定义命令。这是一个大型的AI技能市场，为开发者提供了丰富的即用型工具。今日获得136星，说明社区驱动的AI技能生态正在形成。\n\n💼 商业缺口：缺少技能市场的质量评分与安全审核机制，无法确保第三方技能的安全性和可靠性。",
+          "url": "https://github.com/chthollyphile/folia-major",
+          "time": "175 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "crynta/terax-ai",
+          "summary": "一个轻量级（7MB）的终端优先AI原生开发工作空间，专为AI开发者设计。它提供了极简的开发环境，专注于命令行交互。今日获得62星，说明轻量级AI开发工具仍有市场空间。\n\n💼 商业缺口：缺少终端AI工作空间的远程协作与共享配置管理工具，团队难以统一开发环境。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "973 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "MiniMax 获认可：开放模型生态持续向好",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 被纳入相关生态系统，这令人欣喜。围绕开放模型的生态体系正不断优化，发展前景良好。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "杨立昆：开放科学让AI研发效率提升一个数量级",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆指出，相比闭源实验室秘密进行相同训练，开放科学与开源AI能让各方共享开支与算力，效率提升一个数量级。这解释了为何美国2027年AI支出将达1万亿美元，而中国仅用1230亿美元就能推出前沿模型。",
+          "source": "Twitter @ylecun"
+        },
+        {
+          "title": "列克斯·弗里德曼庆祝美国独立日",
+          "url": "https://twitter.com/lexfridman",
+          "summary": "列克斯·弗里德曼在社交媒体上发文庆祝美国独立日，称美国是地球上最伟大的国家，并感叹250年来人们通过激烈争论走向更完美的联邦。他还提到世界杯赛事精彩，美国队晋级16强，并称赞佛得角对阵阿根廷的比赛是他见过最精彩的比赛之一。",
+          "source": "Twitter @lexfridman"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "同人小说社区与AI开战——内部亦生分歧",
+          "summary": "过去一周，同人创作圈发起新运动，旨在清除使用生成式AI的作者。然而，所采用的检测方法备受质疑，可能导致任何同人作者无辜受牵连。长期以来，社区对Claude、ChatGPT等AI工具普遍反感，如今矛盾进一步激化。",
+          "url": "https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌新广告设想：AI助力起草《独立宣言》",
+          "summary": "在《独立宣言》签署250年后，谷歌一则新广告提出设想：如果开国元勋们当时能使用谷歌工作空间，历史会如何改写？广告通过AI辅助起草文件的情节，引发对技术如何影响历史进程的思考。",
+          "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+          "time": "04:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Midjourney要求好莱坞披露AI使用细节",
+          "summary": "在与三家好莱坞工作室的持续法律纠纷中，Midjourney正寻求迫使这些工作室披露其自身使用AI的具体方式。此举旨在揭示对方在AI应用上的真实情况。",
+          "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "阿里巴巴据报禁止员工使用Claude Code",
+          "summary": "据报道，阿里巴巴已将Claude Code列为高风险软件，并禁止员工使用。此举旨在防范潜在的安全与合规风险。",
+          "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+          "time": "00:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Mistral AI是什么？关于这家OpenAI竞争对手的一切",
+          "summary": "Mistral AI自2023年成立以来，已筹集大量资金，致力于提供部分开源AI模型。其目标是“将前沿AI交到每个人手中”，成为OpenAI的有力竞争者。",
+          "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+          "time": "23:51",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，展示了全球金融科技领域最具创新力和影响力的公司。这些企业在支付、借贷、保险和财富管理等领域推动技术变革，重塑传统金融服务模式。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，涵盖支付、借贷、保险科技及区块链应用等关键领域。当前行业正经历监管趋严与技术创新并行的阶段，人工智能和开放银行成为推动变革的核心力量。未来，金融科技将更注重普惠性与合规性，以应对日益复杂的市场环境。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历快速发展，通过人工智能、大数据和自动化技术重塑传统保险业务模式。这些创新提升了风险评估、理赔处理和客户服务的效率，同时降低了运营成本。未来，保险科技将继续推动行业数字化转型，带来更个性化的保险产品和服务。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对利润",
+          "summary": "小企业主仅凭银行余额判断盈利，缺乏准确的利润核算。每周需手动对账、分类收支，容易出错且耗时。AI可自动连接银行与会计软件，实时生成利润报表并标注异常交易，大幅降低财务误判风险。\n\n💡 机会方向：面向小企业的AI自动化财务对账与利润分析工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ungwwr/do_you_actually_know_if_your_making_profit_or_are/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动生成报价单",
+          "summary": "B2B制造企业主因担心错过订单，频繁手动计算材料、工时、运费等生成报价，流程繁琐且易出错。AI可根据历史订单、原材料价格和客户信息，自动生成标准化报价单，并预测利润率。\n\n💡 机会方向：AI驱动的B2B智能报价生成与优化系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1unij0a/quote_generation_process/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动处理员工工时",
+          "summary": "雇主手动将员工未休息的时段强行填入30分钟休息，以规避合规风险，但需逐一核对打卡记录并手动修改排班表，极易引发劳资纠纷。AI可自动比对打卡记录与排班，识别缺失休息并生成合规建议。\n\n💡 机会方向：AI自动化工时合规检查与排班优化工具",
+          "source": "r/legaladvice",
+          "url": "https://www.reddit.com/r/legaladvice/comments/1unixig/employer_put_a_30_minute_break_when_employees/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动寻找供应商",
+          "summary": "创业者需从印度/中国/越南采购老年护理产品，但手动搜索、筛选、验证供应商资质极其耗时，且易遇欺诈。AI可聚合全球B2B平台数据，自动匹配可靠供应商并生成信用评分与报价对比。\n\n💡 机会方向：AI驱动的跨境供应商智能匹配与尽职调查平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1unkd4g/need_a_supplier_from_indiachinavietnam/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动制作产品演示视频",
+          "summary": "SaaS创始人需为产品制作演示视频，但缺乏专业工具和剪辑技能，手动录制、配音、剪辑耗时数小时。AI可自动录制屏幕操作、生成语音解说并合成字幕，一键输出高质量演示视频。\n\n💡 机会方向：AI自动化产品演示视频生成工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48784055",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
