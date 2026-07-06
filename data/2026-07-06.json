@@ -1,0 +1,487 @@
+{
+  "date": "2026-07-06",
+  "timeRange": "2026-07-05 09:00 ~ 2026-07-06 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Claude Code相关项目",
+          "coverage": [
+            {
+              "source": "HN Show",
+              "summary": "HN展示：Peek-CLI：让Claude Code看到浏览器 | 文章URL：https://github.com/puffinsoft/peek-cli 评",
+              "url": "https://github.com/puffinsoft/peek-cli"
+            },
+            {
+              "source": "GitHub Trending",
+              "summary": "精心整理的Claude Code资源合集，包括最佳实践、工具和代理示例。是Claude Code用户的入门宝典。今日148星，Python实现。\n\n💼 商业缺口",
+              "url": "https://github.com/usestrix/strix"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "AI数据科学笔记本——类似Cursor但用于Jupyter",
+          "summary": "HN展示：AI数据科学笔记本——类似Cursor但用于Jupyter | 文章URL：https://www.clusy.io 评论URL：https://news.ycombinator.com/ite",
+          "url": "https://www.clusy.io",
+          "time": "08:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI相关的Jax模块（我讨厌if）",
+          "summary": "HN展示：AI相关的Jax模块（我讨厌if） | 文章URL：https://github.com/PJHkorea/egregore-core-jax 评论URL：https://",
+          "url": "https://github.com/PJHkorea/egregore-core-jax",
+          "time": "08:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "集成在任何终端中的AI，平时不可见，需要时才出现",
+          "summary": "我构建了一个开源终端应用，透明地包装你的shell，让你可以……",
+          "url": "https://terminai.app",
+          "time": "07:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Peek-CLI：让Claude Code看到浏览器",
+          "summary": "HN展示：Peek-CLI：让Claude Code看到浏览器 | 文章URL：https://github.com/puffinsoft/peek-cli 评论URL：https://news.y",
+          "url": "https://github.com/puffinsoft/peek-cli",
+          "time": "07:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Sidenote – 在你的渲染博客上评论，由LLM编写Git差异",
+          "summary": "HN展示：Sidenote – 在你的渲染博客上评论，由LLM编写Git差异 | 文章URL：https://github.com/bharadwaj-pendyala/sidenote 评论URL：https:",
+          "url": "https://github.com/bharadwaj-pendyala/sidenote",
+          "time": "04:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "社交且上下文感知的AI数学平台",
+          "summary": "嗨HN，这是ProofTree，简而言之：它是一个平台，你可以与……聊天",
+          "url": "https://www.prooftree.ai",
+          "time": "04:06",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Zackriya-Solutions/meetily",
+          "summary": "一款注重隐私的AI会议助手，使用比Whisper快4倍的Parakeet/Whisper实时转录技术。它能在本地处理音频，避免数据外泄，适合对隐私要求高的企业会议场景。今日获得1409星，Rust语言实现保证了高性能和安全性。\n\n💼 商业缺口：缺乏针对企业级会议合规审计（如GDPR、HIPAA）的付费插件，以及会议转录内容的自动摘要与行动项提取SaaS服务。",
+          "url": "https://github.com/Zackriya-Solutions/meetily",
+          "time": "1,409 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openai/codex-plugin-cc",
+          "summary": "允许在Claude Code中直接调用OpenAI Codex来审查代码或委派任务，打通两大AI编码工具。今日1532星，JavaScript实现，是AI协作编程生态的关键桥梁。\n\n💼 商业缺口：缺少跨模型（如Codex与Claude）的调用成本对比与路由优化付费工具，以及统一的安全策略治理层。",
+          "url": "https://github.com/openai/codex-plugin-cc",
+          "time": "1,532 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "asgeirtj/system_prompts_leaks",
+          "summary": "从Anthropic的Claude Fable 5、Opus 4.8等模型中提取的系统提示词泄露集合。对研究AI提示工程和模型行为有重要参考价值，今日981星。\n\n💼 商业缺口：缺乏付费的提示词泄露检测与防护服务，帮助企业防止敏感系统提示被逆向工程。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "981 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Leonxlnx/taste-skill",
+          "summary": "赋予AI“品味”的技能，阻止AI生成平庸、通用的内容。通过风格约束提升输出质量，适合创意写作和品牌内容生成。今日863星，JavaScript实现。\n\n💼 商业缺口：缺少付费的品牌风格一致性评估与合规审查工具，确保AI输出符合企业调性且不越界。",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "time": "863 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alirezarezvani/claude-skills",
+          "summary": "包含337个Claude Code技能、代理技能和插件（30+代理、70+自定义命令），是Claude Code生态最全的技能库。今日392星，Python实现。\n\n💼 商业缺口：缺乏付费的技能市场与版本管理平台，方便企业统一分发、审计和更新AI代理技能。",
+          "url": "https://github.com/alirezarezvani/claude-skills",
+          "time": "392 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ogulcancelik/herdr",
+          "summary": "终端中的代理多路复用器，可同时管理多个AI代理并协调任务。适合需要并行调用多个AI模型的开发工作流。今日651星，Rust实现。\n\n💼 商业缺口：缺少付费的代理调用成本追踪与性能监控仪表盘，以及多代理协作的冲突解决机制。",
+          "url": "https://github.com/rommapp/romm",
+          "time": "410 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alibaba/page-agent",
+          "summary": "阿里巴巴开源的JavaScript页面内GUI代理，能用自然语言控制网页界面。实现浏览器自动化与AI指令结合，适合测试和RPA场景。今日805星，TypeScript实现。\n\n💼 商业缺口：缺乏付费的企业级网页自动化合规记录与回放审计工具，以及跨浏览器兼容性测试服务。",
+          "url": "https://github.com/ogulcancelik/herdr",
+          "time": "651 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "harvard-edge/cs249r_book",
+          "summary": "哈佛大学《机器学习系统》教材的开源版本，覆盖ML系统设计、训练、部署全流程。今日329星，Python实现，是系统性学习ML工程的最佳资源之一。\n\n💼 商业缺口：缺少付费的配套实验环境与自动评分平台，以及企业内训用的定制化课程包。",
+          "url": "https://github.com/alibaba/page-agent",
+          "time": "805 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "usestrix/strix",
+          "summary": "开源AI渗透测试工具，自动发现和修复应用漏洞。利用AI生成攻击向量，比传统扫描更智能。今日1114星，Python实现。\n\n💼 商业缺口：缺乏付费的AI安全漏洞优先级排序与修复建议生成服务，以及持续的安全态势监控平台。",
+          "url": "https://github.com/harvard-edge/cs249r_book",
+          "time": "329 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "hesreallyhim/awesome-claude-code",
+          "summary": "精心整理的Claude Code资源合集，包括最佳实践、工具和代理示例。是Claude Code用户的入门宝典。今日148星，Python实现。\n\n💼 商业缺口：缺少付费的Claude Code使用效率分析与优化建议工具，以及团队协作模板库。",
+          "url": "https://github.com/usestrix/strix",
+          "time": "1,114 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "coreyhaines31/marketingskills",
+          "summary": "为Claude Code和AI代理设计的营销技能包，涵盖CRO、文案、SEO、分析等。让AI直接执行营销任务。今日145星，JavaScript实现。\n\n💼 商业缺口：缺乏付费的营销效果归因与ROI计算工具，以及跨渠道营销活动自动协调服务。",
+          "url": "https://github.com/hesreallyhim/awesome-claude-code",
+          "time": "148 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "JuliusBrussee/caveman",
+          "summary": "Claude Code技能，通过极简token策略减少65%的token消耗，同时保持输出质量。对降低AI使用成本有直接价值。今日1052星，JavaScript实现。\n\n💼 商业缺口：缺少付费的token消耗实时监控与预算告警系统，以及针对不同模型的token优化策略推荐。",
+          "url": "https://github.com/coreyhaines31/marketingskills",
+          "time": "145 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "CoplayDev/unity-mcp",
+          "summary": "Unity MCP作为AI助手与Unity编辑器之间的桥梁，允许AI直接操作游戏开发环境。今日414星，C#实现。\n\n💼 商业缺口：缺乏付费的Unity AI助手操作审计与回滚功能，以及多开发者协作时的冲突解决服务。",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "time": "1,052 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "facebook/astryx",
+          "summary": "Meta开源的可完全定制且支持AI代理的设计系统。为AI驱动的UI生成提供标准化组件。今日522星，TypeScript实现。\n\n💼 商业缺口：缺少付费的设计系统合规性自动检查工具，以及AI生成UI的品牌一致性验证服务。",
+          "url": "https://github.com/CoplayDev/unity-mcp",
+          "time": "414 stars today",
+          "language": "C#",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "gastownhall/gastown",
+          "summary": "Gas Town多代理工作区管理器，用于协调多个AI代理协同完成复杂任务。今日51星，Go实现。\n\n💼 商业缺口：缺乏付费的代理工作流可视化编排与失败重试机制，以及跨代理任务依赖管理服务。",
+          "url": "https://github.com/facebook/astryx",
+          "time": "522 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "dotnet/skills",
+          "summary": "微软官方为AI编码代理提供的.NET和C#技能仓库，帮助代理更好地理解和编写.NET代码。今日246星，C#实现。\n\n💼 商业缺口：缺少付费的.NET代码质量AI审查与自动修复服务，以及企业级.NET代理技能合规认证。",
+          "url": "https://github.com/immich-app/immich",
+          "time": "470 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OthmanAdi/planning-with-files",
+          "summary": "基于文件的持久化规划工具，专为AI编码代理和长期运行代理任务设计。支持任务状态持久化与恢复。今日66星，Python实现。\n\n💼 商业缺口：缺乏付费的代理任务执行历史追溯与性能分析平台，以及跨会话任务依赖管理服务。",
+          "url": "https://github.com/ruvnet/RuView",
+          "time": "161 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "steipete/CodexBar",
+          "summary": "无需登录即可显示OpenAI Codex和Claude Code的使用统计。方便开发者监控API消耗。今日153星，Swift实现。\n\n💼 商业缺口：缺少付费的多账户统一用量管理与成本分摊工具，以及异常使用行为告警服务。",
+          "url": "https://github.com/gastownhall/gastown",
+          "time": "51 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-code",
+          "summary": "Anthropic官方推出的Claude Code代理编码工具，运行在终端中，能理解整个代码库并执行复杂任务。今日156星，Python实现。\n\n💼 商业缺口：缺乏付费的企业级Claude Code部署与权限管理平台，以及代码变更影响分析与回滚服务。",
+          "url": "https://github.com/dotnet/skills",
+          "time": "246 stars today",
+          "language": "C#",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "山姆·奥特曼：孩子首次组词，惊叹如GPT-5.6发现新数学",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼分享育儿感悟，称孩子首次将两个词连在一起，其认知成就堪比GPT-5.6发现新数学。他还赞美“生命、自由和追求幸福”的理念，并对美国过去250年的建设者及未来250年的推动者表达感激，称这是史上最令人印象深刻的社会实验。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "杨立昆：特朗普不仅报复敌人，还坑害支持者",
+          "url": "https://twitter.com/ylecun",
+          "summary": "加密货币分析公司报告显示，近百万投资者在特朗普发行的迷因币上总计损失38亿美元。多数散户投资者亏损严重，而经验丰富的交易者则表现较好。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "美国富人用AI给孩子当老师",
+          "summary": "大多数美国人不信任人工智能，认为它连披萨安全配料都不懂，甚至不愿听AI音乐。但这并不妨碍一些美国富人放弃传统学校，转而让AI教育孩子，例如Forge Prep和Alpha等公司正提供这类服务。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep",
+          "time": "06:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌广告引众怒：虚构开国元勋拥抱AI",
+          "summary": "谷歌Workspace新广告以“1776年的小组作业”开场，设想开国元勋们使用谷歌协作工具和Gemini起草《独立宣言》。本杰明·富兰克林给托马斯·杰斐逊发短信等情节被批尴尬至极，引发观众强烈反感。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence",
+          "time": "22:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "亚马逊将停止接受Mechanical Turk新客户",
+          "summary": "亚马逊宣布将不再接受Mechanical Turk平台的新客户注册，这可能标志着该众包服务走向终结。Mechanical Turk曾广泛用于数据标注等微任务，但近年来面临质量与伦理争议。",
+          "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+          "time": "01:43",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正处于快速发展与变革之中，新兴技术如人工智能和区块链正在重塑支付、借贷和投资等核心领域。监管环境的变化与用户需求的升级推动着行业创新，但同时也带来数据安全与合规挑战。未来，金融科技将更注重普惠性与效率提升，与传统金融机构的融合趋势也将进一步加深。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合，推动产品创新与运营效率提升。人工智能和大数据技术被广泛应用于风险评估、理赔处理和客户服务，显著改善用户体验。然而，行业仍面临监管挑战和数据隐私问题，未来发展需平衡创新与合规。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "内在动机能否成为2026年可行的博士课题？",
+          "summary": "一位计算机科学博士生探讨了内在动机（即无监督强化学习）作为博士课题的可行性。该领域旨在开发不依赖具体任务的奖励信号，模拟驱动动物智能行为的低级动机，例如赋能和多样性等概念。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in/",
+          "time": "23:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "若DeepMind或Anthropic正研究你的课题，你还会继续吗？",
+          "summary": "一位非大公司背景的研究者坦言，面对机器学习问题时常缺乏信心，因为许多课题已被科技公司更优地解决并产品化。这种“我的研究已被公司做得更好”的困惑并非个例，反映出学术界与产业界在AI研究上的差距。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1unt64q/if_deepmind_or_anthropic_is_doing_your_exact/",
+          "time": "12:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "红队攻击最佳模型？兼寻公开数据集",
+          "summary": "我正在开发一个评估大语言模型应用和AI智能体安全性的框架，但在生成对抗性提示的模型选择上遇到了困难。请问哪些闭源或开源模型能生成高质量、逼真且具有挑战性的攻击？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uoejrl/best_models_for_generating_redteam_attacks_also/",
+          "time": "05:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我为突尼斯阿拉伯语方言构建了开源机器翻译流程与平行语料库",
+          "summary": "一位18岁的突尼斯独立学生为突尼斯阿拉伯语方言（Arabizi文字）构建了开源机器翻译流程与平行语料库。该方言使用拉丁字母和数字表示阿拉伯语音素，但几乎没有任何开放NLP资源。现有工具需通过标准阿拉伯语处理，且无法正确识别其拼写系统，因此该项目填补了空白，并正发展为社区语料库。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uo92vz/i_built_an_open_fromscratch_mt_pipeline_parallel/",
+          "time": "02:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "机器学习研究现在值得吗？",
+          "summary": "一位科学家在研究中应用机器学习（JEPA/表征/几何分支）后取得了显著成果，发现了大量未探索的可能性，如工业数据和自然模式。尽管潜力巨大且资金充足，但就业前景却显得悲观，这令人困惑。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uo0dqi/is_machine_learning_research_worth_it_for_now_d/",
+          "time": "19:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "能力门控：基于小型模型内部置信信号而非口头表达的工具使用控制——Qwen3.5-4B，开放权重",
+          "summary": "我为Qwen3.5-4B开发了一个10MB的LoRA适配器及小型编排层，可根据查询决定直接回答、搜索网络或检索本地文档，并在无法验证答案时拒绝编造。该模型在本地运行（Apple Silicon/MLX及GGUF版本），解决了小型指令模型无法准确表达自身置信度的问题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/",
+          "time": "15:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ECCV差旅支持计划申请反馈",
+          "summary": "有用户在询问ECCV官网差旅支持计划的申请是否已收到回复。该用户作为独立研究论文的接收作者，正在寻找资金支付注册费用。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1unx5f8/eccv_travel_support_program_d/",
+          "time": "16:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "🤗 核心：重大更新",
+          "summary": "🤗 平台发布了核心模块的重大更新，旨在提升性能和功能。此次更新涉及多项底层优化，为用户带来更高效的体验。",
+          "url": "https://huggingface.co/blog/revamped-kernels",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对银行流水",
+          "summary": "小企业主每周需手动核对银行流水与QuickBooks记录，因QuickBooks价格涨且质量下降，手动对账耗时易错，影响现金流管理。AI可自动抓取银行交易数据，与账目智能匹配并标记差异，生成对账报告。\n\n💡 机会方向：AI驱动的自动银行对账与现金流预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uo2my5/quickbooks_raising_prices_again/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动管理供应商付款",
+          "summary": "自雇者因多个供应商付款时间、金额不固定，需每周手动安排付款，导致现金流混乱和行政负担。AI可学习供应商付款模式，自动预测现金流缺口，并建议最优付款时间或自动执行付款。\n\n💡 机会方向：AI供应商付款调度与现金流优化助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uo9463/recurring_vendors_are_messing_my_cash_flow/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动处理紧急日常问题",
+          "summary": "小企业主每天被紧急但非重要的问题（如客户投诉、设备故障）淹没，无法聚焦战略工作。AI可自动分类、优先级排序并回复常见问题，或生成处理建议，减少手动干预。\n\n💡 机会方向：AI驱动的任务优先级排序与自动回复系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uobfqa/how_do_you_know_when_you_are_spending_too_much/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选AI使用条款",
+          "summary": "用户担心AI服务条款可能授权使用其输入数据（如代码、研究IP），需手动阅读并理解复杂法律文本，耗时且易遗漏风险。AI可自动解析条款，提取关键限制和风险点，并生成摘要。\n\n💡 机会方向：AI条款自动解析与风险预警工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48798971",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
