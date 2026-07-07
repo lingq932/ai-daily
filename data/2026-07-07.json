@@ -1,0 +1,569 @@
+{
+  "date": "2026-07-07",
+  "timeRange": "2026-07-06 09:00 ~ 2026-07-07 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "微软裁员近5000人",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "微软在新财年伊始宣布裁员约4800人，占员工总数的2.1%。此前该公司已在去年裁减约9100名员工。此次裁员主要影响商业销售部门和Xbox业务。",
+              "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "微软周一裁减约4800个岗位，占全球员工总数的2.1%，这是最新一轮裁员，加剧了人们对AI取代工作的担忧。此次裁员对Xbox和商业销售部门影响最大。",
+              "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Stanley Studio | 你雇佣的AI视频编辑器，像人类一样剪辑",
+          "summary": "一款AI视频编辑器，能够像人类一样进行视频编辑工作。",
+          "url": "https://www.producthunt.com/products/stanley-studio",
+          "time": "11:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "InstantVideos.org | 约30秒的短纪录片",
+          "summary": "作者一直在尝试使用Claude制作短视频。",
+          "url": "https://instantvideos.org/",
+          "time": "07:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "LLM思维可视化",
+          "summary": "一个用于可视化大语言模型思考过程的工具。",
+          "url": "https://github.com/ninjahawk/Subtext",
+          "time": "07:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Nimbus - 开源AI代理，可操作你的AWS和GCP",
+          "summary": "一个开源的AI代理，能够操作你的AWS和GCP云环境。",
+          "url": "https://github.com/hritvikgupta/nimbus",
+          "time": "06:02",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "asgeirtj/system_prompts_leaks",
+          "summary": "从Anthropic的Claude Fable 5、Opus 4.8、Claude Code等模型中提取的系统提示词泄露集合。这些提示词揭示了AI模型背后的行为指令和约束，对研究AI安全、提示词工程和模型行为分析有重要参考价值。今日获得1378颗星，说明社区对AI模型内部机制的高度关注。\n\n💼 商业缺口：缺乏系统化的提示词泄露检测与合规审计工具，企业无法自动监控自家模型提示词是否被逆向或泄露。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "1,378 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "addyosmani/agent-skills",
+          "summary": "面向AI编码代理的生产级工程技能集合，提供可复用的技能模块来增强AI代理的编码能力。该项目旨在标准化AI代理的工程行为，使其更可靠、更专业。今日1112颗星，反映了开发者对AI代理实用技能库的迫切需求。\n\n💼 商业缺口：缺少付费的技能质量评估与版本治理平台，团队无法对AI代理技能进行测试、评分和版本管理。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "1,112 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Zackriya-Solutions/meetily",
+          "summary": "注重隐私的AI会议助手，使用比标准Whisper快4倍的Parakeet/Whisper实时转录引擎。它能在本地处理会议音频，避免数据外泄，同时提供高效的实时转录服务。今日获得2494颗星，表明隐私优先的AI工具市场需求旺盛。\n\n💼 商业缺口：缺乏企业级的会议转录审计与合规报告付费服务，无法满足金融、医疗等行业的监管要求。",
+          "url": "https://github.com/Zackriya-Solutions/meetily",
+          "time": "2,494 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Leonxlnx/taste-skill",
+          "summary": "为AI赋予“品味”的技能库，阻止AI生成无聊、通用的内容。通过注入风格偏好和审美规则，让AI输出更具个性化和创意。今日1458颗星，说明用户对AI内容同质化问题的不满和对个性化输出的强烈需求。\n\n💼 商业缺口：缺少付费的品味模型训练与定制服务，企业无法为不同品牌调性定制专属的AI输出风格。",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "time": "1,458 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alirezarezvani/claude-skills",
+          "summary": "包含345个Claude Code技能、代理技能和插件的大型集合，涵盖30多个代理和70多条自定义命令。这是一个功能丰富的AI代理技能市场，极大扩展了Claude Code的能力边界。今日610颗星，显示社区对AI代理生态扩展的浓厚兴趣。\n\n💼 商业缺口：缺乏付费的技能市场审核与安全扫描服务，无法保证第三方技能不包含恶意代码或数据泄露风险。",
+          "url": "https://github.com/alirezarezvani/claude-skills",
+          "time": "610 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openai/codex-plugin-cc",
+          "summary": "允许从Claude Code中使用OpenAI Codex来审查代码或委派任务，实现跨平台AI协作。这个插件打通了OpenAI和Anthropic两大生态，让开发者可以灵活选择最佳模型完成任务。今日906颗星，体现了多模型协作工具的巨大吸引力。\n\n💼 商业缺口：缺少跨模型调用的成本优化与性能监控付费平台，无法自动选择最经济高效的模型组合。",
+          "url": "https://github.com/openai/codex-plugin-cc",
+          "time": "906 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvanhorn/last30days-skill",
+          "summary": "AI代理技能，可跨Reddit、X、YouTube、Hacker News、Polymarket等平台研究任意话题。它聚合多源信息，帮助用户快速了解某个话题近30天的舆论动态。今日458颗星，反映了对AI驱动的实时舆情分析工具的需求。\n\n💼 商业缺口：缺乏付费的舆情数据质量评分与虚假信息检测服务，无法确保聚合信息的真实性和可靠性。",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "458 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ogulcancelik/herdr",
+          "summary": "运行在终端中的代理多路复用器，可以同时管理多个AI代理并协调它们的工作。它让用户在一个终端窗口中并行调度多个代理，提升开发效率。今日779颗星，说明多代理编排工具正成为AI开发者的刚需。\n\n💼 商业缺口：缺少付费的多代理任务调度与资源分配优化服务，无法在有限算力下最大化代理集群吞吐量。",
+          "url": "https://github.com/ogulcancelik/herdr",
+          "time": "779 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "bradautomates/claude-video",
+          "summary": "赋予Claude观看任何视频的能力，通过下载、提取帧和转录，让AI理解视频内容。它使Claude能够处理视频输入，扩展了AI的感知模态。今日427颗星，显示多模态AI能力扩展的持续热度。\n\n💼 商业缺口：缺乏付费的视频内容版权合规检测服务，无法确保AI处理的视频不侵犯第三方版权。",
+          "url": "https://github.com/bradautomates/claude-video",
+          "time": "427 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "karakeep-app/karakeep",
+          "summary": "可自托管的全能书签应用，支持链接、笔记和图片，并内置基于AI的自动分类和搜索功能。它让用户完全掌控自己的数据，同时享受AI带来的智能管理体验。今日199颗星，反映了自托管AI工具在隐私敏感用户中的受欢迎程度。\n\n💼 商业缺口：缺少付费的企业级数据治理与合规导出服务，无法满足企业对书签数据的审计和迁移需求。",
+          "url": "https://github.com/karakeep-app/karakeep",
+          "time": "199 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "firecrawl/firecrawl",
+          "summary": "大规模搜索、抓取和与网页交互的API，专为AI代理设计。它提供结构化的网页数据提取能力，是AI代理获取实时信息的关键基础设施。今日867颗星，说明AI代理对高质量网页数据接口的强烈依赖。\n\n💼 商业缺口：缺乏付费的抓取数据质量监控与反爬策略更新服务，无法保证长期稳定的数据获取。",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "time": "867 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "steipete/CodexBar",
+          "summary": "无需登录即可显示OpenAI Codex和Claude Code使用统计的菜单栏工具。它为开发者提供实时的API用量监控，帮助控制成本和避免超支。今日598颗星，反映了开发者对AI API成本透明化的迫切需求。\n\n💼 商业缺口：缺少付费的多账户用量聚合与预算预警平台，无法为团队提供统一的AI API成本治理方案。",
+          "url": "https://github.com/steipete/CodexBar",
+          "time": "598 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alibaba/zvec",
+          "summary": "轻量级、超高速的进程内向量数据库，专为AI嵌入向量检索优化。它无需独立部署，可直接嵌入应用进程，适合对延迟敏感的AI场景。今日382颗星，显示边缘AI和嵌入式场景对轻量向量数据库的持续需求。\n\n💼 商业缺口：缺乏付费的向量索引性能基准测试与调优服务，无法针对特定数据分布选择最优索引参数。",
+          "url": "https://github.com/alibaba/zvec",
+          "time": "382 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "gastownhall/gastown",
+          "summary": "多代理工作区管理器，用于协调多个AI代理协同完成复杂任务。它提供工作区隔离、任务分配和结果聚合功能，是构建多代理系统的实用工具。今日291颗星，反映了多代理协作管理工具的兴起。\n\n💼 商业缺口：缺少付费的多代理工作流审计与故障恢复服务，无法确保复杂任务在代理故障时的可靠执行。",
+          "url": "https://github.com/gastownhall/gastown",
+          "time": "291 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "谷歌DeepMind与Apptronik合作推进人形机器人",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "随着Apptronik扩展其机器人公园设施，双方研究合作将利用最新Apollo 2人形平台收集的真实世界数据，来训练和提升Gemini Robotics系统。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Anthropic 研究：语言模型中的全局工作空间",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 发布新研究，利用名为“J-space”的可解释性技术，在 Claude 模型中发现了类似人类大脑的“全局工作空间”。该空间位于模型内部神经激活中，能处理与输出无关的推理步骤，并暴露隐藏目标。删除 J-space 后，Claude 仍能流畅对话，但多步推理能力显著下降。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Runway 宣布在巴黎设立首个法国办公室",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 宣布在巴黎开设首个法国办公室，建立新研究枢纽，初始团队为十名员工。法国拥有世界顶尖的研究机构、工程人才和政府持续投入的AI基础设施，是发展前沿AI的重要地点。Runway正在巴黎及欧洲各地招聘人才。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "德米斯·哈萨比斯：与Apptronik合作推进Gemini机器人",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "随着Apptronik扩建其机器人园区，双方研究合作将利用最新Apollo 2人形平台收集的真实数据，来训练和推进Gemini Robotics项目。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆：大语言模型为何缺乏真实世界智能",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆在接受彭博社采访时指出，语言只是对世界的粗略描述，大语言模型仅能处理离散符号序列，而真实世界远比语言复杂。一个四岁儿童通过视觉获取的数据量相当于全网文本，但文本信息需40万年才能读完。儿童无需大量阅读就能理解物体和物理规律，因为身体通过视觉、触觉等感官收集了更丰富的反馈，而文本剥离了这些信息，导致模型虽能流畅谈论物理，却缺乏对世界的本能感知。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Meta以“Watermelon”对标GPT-5.5",
+          "summary": "Meta正在开发代号为“Watermelon”的新AI模型，旨在与OpenAI的GPT-5.5竞争。此外，Cursor Mobile推出新功能，允许用户通过截图直接定位并修复代码错误。",
+          "url": "https://www.therundown.ai/p/meta-sizes-up-gpt-5-5-with-watermelon",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "白宫AI标准：30天审查、3个实验室与保密门槛",
+          "summary": "美国商务部于6月12日要求Anthropic切断全球外国公民（包括其海外员工）对Claude Fable 5和Claude Mythos 5的访问，模型因此下线18天。两周后，OpenAI应美国政府要求推迟了GPT-5.6的全面公开发布。",
+          "url": "https://towardsai.com/p/machine-learning/white-house-ai-standards-30-day-reviews-3-labs-and-a-classified-pass-bar",
+          "time": "01:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "我用Python构建了一个自定义Postgres MCP服务器（并删除了2000行代码）",
+          "summary": "本文介绍了如何用Python构建一个生产级、安全的模型上下文协议（MCP）服务器，让大语言模型直接与数据交互，无需编写自定义API端点。作者指出，为电商、SEO分析或内部工具构建AI代理时，自定义工具绑定和API包装器会导致架构瓶颈。通过MCP服务器，可以简化流程并删除约2000行冗余代码。",
+          "url": "https://towardsai.com/p/machine-learning/i-built-a-custom-postgres-mcp-server-in-python-and-deleted-2000-lines-of-code",
+          "time": "00:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "AI工具预算翻倍，发布率却下降",
+          "summary": "一位创始人曾自豪地展示其工程仪表盘，显示提交量和拉取请求量均上升，团队全面使用Copilot、Cursor或Claude等AI工具。但当被问及当月实际投入生产的拉取请求数量时，他沉默后只发出“嗯”的一声。这声“嗯”揭示了AI工具投入增加并未带来发布效率提升的尴尬现实。",
+          "url": "https://towardsai.com/p/machine-learning/we-doubled-our-ai-tooling-budget-our-release-rate-dropped-anyway",
+          "time": "19:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "面向真实PDF的生产级RAG流水线：结构化检索、类型化答案与引用行",
+          "summary": "本文介绍了一个针对真实PDF文档的生产级RAG流水线，以一份45页的车险保单为例进行端到端运行。该流水线能够回答复杂的保险覆盖问题，并直接给出答案来源的具体行号，例如宠物伤害条款位于第54-55行。系统将每一行文本框选并编号，实现了精确的结构化检索与引用。",
+          "url": "https://towardsai.com/p/machine-learning/a-production-rag-pipeline-for-real-world-pdfs-structural-retrieval-typed-answers-cited-lines",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "WebSocket为何难以扩展——AWS如何改变游戏规则",
+          "summary": "WebSocket看似简单，但每个连接都会持续占用服务器内存、CPU和网络资源。与传统HTTP请求不同，WebSocket连接是长期且带状态的，资源消耗几乎随连接数线性增长。AWS通过创新技术有效解决了这一扩展难题。",
+          "url": "https://towardsai.com/p/machine-learning/why-websockets-dont-scale-easily-and-how-aws-changes-the-game",
+          "time": "18:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "2026年如何免费使用OpenCode",
+          "summary": "本文介绍了在2026年免费使用OpenCode的方法，包括隐藏设置和配额技巧。作者经过一个月测试，发现一款2400美元的编程机器人实际上与免费版本功能相同。目前AI编程助手市场价位为普通版每月20美元，高级版60至100美元，而高端版则需200美元。",
+          "url": "https://towardsai.com/p/machine-learning/how-to-use-opencode-for-free-in-2026",
+          "time": "17:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "构建批评-智能体循环：评分、优化与护栏",
+          "summary": "本文介绍了一种更友好的批评-智能体循环机制：工作机器人起草内容，批评机器人进行评分，仅通过审核的作品才会被交付。若连续三次失败，则升级给人类处理，避免无限循环。这是《批评智能体：教会AI自我检查》的实践指南。",
+          "url": "https://towardsai.com/p/machine-learning/building-a-critic-agent-loop-scores-refinement-and-guardrails",
+          "time": "17:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "什么是检索增强生成（RAG）？企业完全指南",
+          "summary": "检索增强生成（RAG）是一种解决大语言模型“自信胡编”问题的技术。它通过从外部知识库检索相关信息，辅助模型生成更准确、基于事实的回答，尤其适用于企业需要处理特定业务或最新数据场景。本指南详细介绍了RAG的工作原理、应用优势及实施建议。",
+          "url": "https://towardsai.com/p/machine-learning/what-is-retrieval-augmented-generation-rag-a-complete-guide-for-businesses",
+          "time": "17:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "LLM作为裁判：基于Azure的规模化自动评估完全指南",
+          "summary": "每天AI系统生成数十亿输出，但如何判断其质量？传统依赖人工评估，但成本高且效率低。本文介绍“LLM作为裁判”方法，利用Azure实现规模化自动评估，提供从基础到实践的完整指南。",
+          "url": "https://towardsai.com/p/machine-learning/llm-as-a-judge-the-complete-guide-to-automated-evaluation-at-scale-with-azure",
+          "time": "17:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "循环工程与驾驭工程：何时使用（以及为何多数团队混淆两者）",
+          "summary": "本文解析了2026年重塑生产级AI智能体构建方式的两大工程学科——循环工程与驾驭工程，并提供了判断项目缺失哪一环节的框架。文章指出，无限循环的AI智能体与需人工输入才能启动的智能体，其根本原因相同。团队常混淆这两个独立领域，导致系统效率低下。",
+          "url": "https://towardsai.com/p/machine-learning/loop-engineering-vs-harness-engineering-when-to-use-each-and-why-most-teams-confuse-them",
+          "time": "17:25",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "我眼中的智能眼镜",
+          "summary": "我一直认为好莱坞既塑造又毁掉了我们对智能眼镜的期待。但在刷完Netflix剧集《内线男人》两季后，我首次看到好莱坞或许无意中揭示了当前智能眼镜最大的文化问题——泰德·丹森的角色恰好展现了这一点。",
+          "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "微软裁员4800人",
+          "summary": "微软在新财年伊始宣布裁员约4800人，占员工总数的2.1%。此前该公司已在去年裁减约9100名员工。此次裁员主要影响商业销售部门和Xbox业务。",
+          "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "你家在OpenAI的300美元股份",
+          "summary": "OpenAI CEO山姆·奥特曼曾承诺美国人将分享AI创造的财富，这一言论上周再次引发关注。据《金融时报》报道，奥特曼正推动相关计划，让普通家庭也能从AI发展中获益。",
+          "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "首次AI勒索攻击仍需人类参与",
+          "summary": "AI代理首次在真实勒索攻击中执行技术操作，但新细节显示，人类仍负责选择目标、搭建基础设施并提供窃取的凭证。这意味着这并非上周报道所称的完全自主网络犯罪首秀。",
+          "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+          "time": "07:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "美国投资者即将迎来又一家受益于AI热潮的存储芯片制造商SK海力士",
+          "summary": "SK海力士正受益于人工智能热潮，业绩大幅增长。该公司计划于本周五在美国进行数十亿美元的首次公开募股（IPO），以抓住市场机遇。",
+          "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+          "time": "07:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Vercel CEO谈模型与智能体分离之争",
+          "summary": "Vercel首席执行官吉列尔莫·劳赫向TechCrunch表示，在生产优化过程中，价格与性能成为关键考量因素。他强调，将模型与智能体分离是当前行业的重要趋势。",
+          "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+          "time": "03:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "iOS 27测试版新增Siri语速与表达自定义功能",
+          "summary": "苹果在最新iOS 27测试版中允许用户自定义Siri的语速和表达方式，这是其围绕生成式AI重建语音助手、使其更自然和个性化的一部分。",
+          "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+          "time": "03:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "2026年各大科技公司因AI裁员一览",
+          "summary": "本文按时间倒序梳理了2026年多家大型科技公司以AI为由宣布的重大裁员事件。这些公司明确将人工智能列为裁员的关键因素，反映出行业正加速向自动化转型。",
+          "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+          "time": "02:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "使用谷歌即是在训练其AI，如何退出？",
+          "summary": "谷歌近期更新隐私设置，允许存储更多用户数据（如图像、文件、音视频）以改进AI模型。用户可通过调整设置选择退出数据收集，保护个人隐私。",
+          "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+          "time": "01:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "微软裁减近5000名员工，涉及Xbox和商业销售部门",
+          "summary": "微软周一裁减约4800个岗位，占全球员工总数的2.1%，这是最新一轮裁员，加剧了人们对AI取代工作的担忧。此次裁员对Xbox和商业销售部门影响最大。",
+          "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+          "time": "23:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Reddit用大语言模型解决大语言模型制造的问题",
+          "summary": "在人工智能时代，平台别无选择，只能以火攻火，利用大语言模型来清除主要由大语言模型产生的垃圾信息。",
+          "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+          "time": "23:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Station F加速成为欧洲热门AI初创公司的跳板",
+          "summary": "由法国亿万富翁泽维尔·尼尔创立的巴黎创业中心Station F，正筹备新一期F/ai加速器项目，旨在巩固其作为潜力AI初创公司跳板的地位。",
+          "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，展示了全球金融科技领域最具创新力和影响力的100家公司。这些企业在支付、借贷、保险、财富管理等多个细分领域推动行业变革，引领数字金融发展新趋势。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资领域。监管环境也在不断演变，以适应这些创新并确保金融稳定。整体来看，金融科技的未来充满机遇与挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "本文概述了保险科技行业的最新发展动态，包括技术应用、市场趋势和主要参与者。当前保险科技正通过人工智能、大数据和区块链等技术重塑传统保险业务模式，提升效率并改善客户体验。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "LeRobot v0.6.0：想象、评估、改进",
+          "summary": "LeRobot v0.6.0 版本发布，聚焦于“想象、评估、改进”三大核心功能。该版本旨在提升机器人学习模型的开发效率与性能，为研究人员提供更强大的工具支持。",
+          "url": "https://huggingface.co/blog/lerobot-release-v060",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "PRX第四部分：我们的数据战略",
+          "summary": "本文介绍了PRX项目第四部分的数据战略，重点阐述了数据收集、存储和使用的核心原则。该战略旨在确保数据的高质量与安全性，同时支持人工智能模型的训练与优化。通过明确的数据治理框架，团队将平衡创新与隐私保护，推动项目的可持续发展。",
+          "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+          "time": "23:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动排班调度",
+          "summary": "多门店餐厅/沙龙老板每周花大量时间手动排班，协调员工时间、避免冲突、处理换班请求，过程繁琐且易出错。AI可自动分析员工可用性、历史偏好、客流预测，生成最优排班表并支持一键发布与调整。\n\n💡 机会方向：AI智能排班SaaS，对接POS与员工日历，自动优化人力成本",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1upbtxi/best_scheduling_software_for_small_multi_location/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "银行流水对账",
+          "summary": "小企业主每天手动核对POS终端、银行账户与销售系统的交易记录，发现差异时需逐笔排查，耗时且易遗漏。AI可自动抓取多源数据，实时匹配交易流水，标记异常并生成对账报告。\n\n💡 机会方向：AI自动化对账工具，支持多平台交易数据聚合与差异预警",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uparvr/chase_terminal_pos_is_almost_making_me_go_bankrupt/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "SEO效果追踪",
+          "summary": "企业主每月花4000美元请SEO服务，但无法直观看到关键词排名、流量来源与转化效果，只能依赖服务商报告。AI可自动抓取搜索引擎数据，生成可视化仪表盘，并给出具体优化建议。\n\n💡 机会方向：AI驱动的SEO效果监控与优化建议平台，替代传统外包",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uoyl0p/is_4000month_for_seo_insane_for_a_business_our/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户流失分析",
+          "summary": "涨价后流失40个客户，老板只能凭感觉猜测原因，无法系统分析流失客户画像、行为模式与价格敏感度。AI可自动聚类客户数据，识别流失特征，模拟不同定价策略的留存率。\n\n💡 机会方向：AI客户流失预测与定价优化工具，基于历史数据模拟最优价格",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uoyw2k/i_raised_my_prices_and_lost_40_customers_it_was/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
