@@ -1,0 +1,527 @@
+{
+  "date": "2026-07-09",
+  "timeRange": "2026-07-08 09:00 ~ 2026-07-09 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI语音模型升级",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI对ChatGPT语音模式进行重大升级，推出新模型GPT-Live-1，旨在让对话更像“与人交谈”。该模型减少打断用户，并在用户说话中途停顿时耐心等待",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI推出全新语音模式，能够同时进行说话和倾听，这一关键能力使其适用于实时翻译场景。",
+              "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Willow Frontier Pro | 全球最快、最准确的听写模型",
+          "summary": "全球最快、最准确的听写模型",
+          "url": "https://www.producthunt.com/products/willow-voice",
+          "time": "09:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "LemonLime | 通过单一提示词自动化现有工作流程",
+          "summary": "通过单一提示词自动化现有工作流程",
+          "url": "https://www.producthunt.com/products/lemonlime",
+          "time": "09:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "NanoKVM-Go | 让你的AI代理获得任何屏幕的物理控制权",
+          "summary": "让你的AI代理获得任何屏幕的物理控制权",
+          "url": "https://www.producthunt.com/products/nanokvm-go",
+          "time": "13:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Ghost – 实时AI，在求职面试中告诉你该说什么",
+          "summary": "实时AI，在求职面试中告诉你该说什么",
+          "url": "https://ghostinterview.dev",
+          "time": "08:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Tilion – 用于Claude Code的MCP，防止其在网络上被屏蔽",
+          "summary": "用于Claude Code的MCP，防止其在网络上被屏蔽",
+          "url": "https://github.com/tiliondev/fortress/tree/main/mcp",
+          "time": "08:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Chrome扩展程序，可为你创建迷你Chrome扩展程序",
+          "summary": "2026年春季构建——今天即可分享。使用opus 4.8创建CSS和JS。",
+          "url": "https://www.clickremix.com/",
+          "time": "08:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Skillburst - 为整个团队（而不仅仅是工程师）提供AI技能",
+          "summary": "为整个团队（而不仅仅是工程师）提供AI技能",
+          "url": "https://skillburst.ai/",
+          "time": "07:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Zoom中的Amotions应用：销售通话的实时指导",
+          "summary": "Amotions AI Zoom应用现已上线！通过实时指导赢得更多商机。",
+          "url": "https://amotionsinc.com/blogs/how-to-use-amotions-ai-zoom-app",
+          "time": "07:41",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "agent-skills",
+          "summary": "这是一个为AI编码代理提供生产级工程技能的仓库，包含一系列可复用的技能模块，帮助AI代理更高效地完成软件开发任务。它解决了AI代理在复杂工程环境中缺乏标准化、高质量技能库的问题。今日获得1297颗星，表明开发者对提升AI代理实用能力的需求强烈。\n\n💼 商业缺口：缺乏针对企业级AI代理技能的性能基准测试和合规审计工具，例如技能执行的可追溯性报告系统。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "1,297 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "RuView",
+          "summary": "RuView利用普通WiFi信号实现实时空间智能感知，为AI代理提供环境上下文信息。它解决了传统传感器成本高、部署复杂的问题，使AI能通过无线信号理解物理空间。今日获得799颗星，显示其在物联网和智能家居领域的巨大潜力。\n\n💼 商业缺口：缺少将WiFi空间数据与现有AI代理决策引擎集成的标准化API网关，以及隐私保护的数据脱敏层。",
+          "url": "https://github.com/ruvnet/RuView",
+          "time": "799 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "TencentDB-Agent-Memory",
+          "summary": "腾讯云推出的AI代理长期记忆解决方案，通过本地化存储实现持久化记忆管理。它解决了AI代理在对话或任务中丢失上下文的问题，支持高效检索和更新。今日获得318颗星，表明企业级AI应用对记忆持久化的需求旺盛。\n\n💼 商业缺口：缺乏跨云平台的记忆数据迁移工具和记忆一致性审计服务，确保不同环境下的记忆同步。",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "time": "318 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "last30days-skill",
+          "summary": "这是一个AI代理技能模块，能够自动研究Reddit、X、YouTube等平台上的任意话题，并汇总过去30天的内容。它解决了AI代理实时获取社交媒体和新闻信息的需求，提升信息检索效率。今日获得352颗星，显示其作为信息聚合工具的价值。\n\n💼 商业缺口：缺少针对多平台内容可信度评分和偏见检测的付费插件，帮助用户过滤虚假信息。",
+          "url": "https://github.com/prisma/prisma",
+          "time": "46 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OfficeCLI",
+          "summary": "专为AI代理设计的Office套件命令行工具，支持读写文档、表格和演示文件。它解决了AI代理无法直接操作办公文档的痛点，提供结构化数据交互接口。今日获得1717颗星，表明自动化办公场景对AI代理集成办公软件的需求极大。\n\n💼 商业缺口：缺乏企业级文档权限管理和操作审计日志系统，确保AI代理对敏感文档的合规访问。",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "352 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "system_prompts_leaks",
+          "summary": "该仓库收集了Anthropic旗下Claude系列模型的系统提示词泄露版本，包括Fable 5、Opus 4.8等。它揭示了AI模型底层指令设计，帮助研究人员理解模型行为。今日获得1218颗星，显示社区对模型透明度和安全性的高度关注。\n\n💼 商业缺口：缺少系统提示词泄露检测和防护的商业化工具，帮助AI公司防止内部提示词外泄。",
+          "url": "https://github.com/argoproj/argo-cd",
+          "time": "29 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "superpowers",
+          "summary": "一个代理技能框架和软件开发方法论，提供可组合的AI代理能力模块。它解决了AI代理开发中缺乏标准化技能架构的问题，提升开发效率。今日获得1116颗星，表明开发者对结构化AI代理开发框架的认可。\n\n💼 商业缺口：缺乏针对该框架的技能市场和质量认证服务，类似App Store的审核和分发机制。",
+          "url": "https://github.com/iOfficeAI/OfficeCLI",
+          "time": "1,717 stars today",
+          "language": "C#",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "zvec",
+          "summary": "一个轻量级、超高速的进程内向量数据库，专为AI代理的本地向量检索设计。它解决了传统向量数据库部署重、延迟高的问题，适合边缘设备。今日获得395颗星，显示其在嵌入式AI场景中的潜力。\n\n💼 商业缺口：缺少与主流AI框架（如LangChain）的深度集成插件，以及向量索引的自动优化服务。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "1,218 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DesktopCommanderMCP",
+          "summary": "为Claude设计的MCP服务器，提供终端控制、文件系统搜索等功能。它扩展了AI代理的本地操作能力，使其能直接管理桌面环境。今日获得28颗星，虽然星数较少，但解决了AI代理与操作系统交互的关键问题。\n\n💼 商业缺口：缺乏跨平台兼容性测试工具和权限沙箱，防止AI代理误操作导致系统损坏。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "1,116 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "claude-video",
+          "summary": "赋予Claude观看视频的能力，通过下载、提取帧和文本分析实现视频内容理解。它解决了AI代理无法处理视频输入的局限，拓展了多模态交互场景。今日获得951颗星，显示视频理解在AI代理中的高需求。\n\n💼 商业缺口：缺少视频内容版权检测和敏感内容过滤的商业化服务，确保合规使用。",
+          "url": "https://github.com/alibaba/zvec",
+          "time": "395 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "CubeSandbox",
+          "summary": "腾讯云推出的即时、并发、安全且轻量的沙箱环境，专为AI代理运行设计。它解决了AI代理执行代码时的安全隔离和资源管理问题。今日获得564颗星，表明云服务商对AI代理安全运行环境的重视。\n\n💼 商业缺口：缺乏沙箱内AI代理行为的成本监控和资源配额管理工具，帮助企业优化云支出。",
+          "url": "https://github.com/Diolinux/PhotoGIMP",
+          "time": "1,125 stars today",
+          "language": "CSS",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 推出 GPT-Live 语音模型，并指出编程基准测试 SWE-Bench Pro 存在缺陷",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 发布了新一代语音模型 GPT-Live，具备全双工架构，可同时进行听与说，实现更自然的人机对话。该功能已向 ChatGPT Plus 和 Pro 用户开放，免费用户也将陆续获得。同时，OpenAI 审计发现，流行的 AI 编程基准测试 SWE-Bench Pro 中 30% 的任务存在缺陷，不再能可靠衡量前沿编程能力，建议研究社区停止使用。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind：先进技术创新的成果归谁所有？",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind发布新论文，探讨先进技术创新的成果归属这一关键社会问题。论文作者Iason Gabriel和Atoosa Kasirzadeh认为，包括人工智能在内的技术收益应属于全世界，每个人都有权从技术的分配和使用中获取实质性利益。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "AnthropicAI：AI模型双重用途知识的关闭开关",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic与AE Studio合作，针对AI能力既可能有益又可能危险的问题（如病毒学知识可用于制造疫苗或病原体），提出了一种名为GRAM的训练方法。该方法将双重用途能力置于可移除模块中，从而实现对潜在危险AI能力的访问控制。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Midjourney 动态",
+          "url": "https://twitter.com/midjourney",
+          "summary": "Midjourney 官方在 Twitter Space 举办了一场线上交流活动，用户可通过链接参与。活动提供了实时讨论和问答环节，旨在与社区互动并分享最新进展。",
+          "source": "Twitter @midjourney"
+        },
+        {
+          "title": "Runway推出AI媒体平台与图像生成新功能",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway发布Runway Dev平台，为开发者提供统一的API接口，整合图像、视频、音频和实时角色模型。同时，Seedream 5.0 Pro模型上线，支持通过提示或参考图生成高细节图像，并可在图像中呈现多达14种语言的清晰文字。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax M3上线预置吞吐量服务",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "Together AI推出预置吞吐量服务，为前沿开放模型提供保留推理容量，采用基于Token的定价并承诺99%可用性。该服务兼具无服务器简易性与容量保障，成本相比Opus 4.8降低高达90%，现已支持MiniMax M3和GLM-5.2模型。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：GPT-5.6 Sol 明显优于 Fable",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼表示，团队在对比测试中一致认为GPT-5.6 Sol远胜于Fable模型。尽管Fable在某些方面表现不错，但5.6 Sol带来的体验是质的飞跃，团队甚至因5.6暂时下架而感到沮丧。此外，GPT实时语音功能今日上线，奥特曼认为这将改变用户与AI的交互方式。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "德米斯·哈萨比斯",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯提问：有哪些事情是谷歌Gemini应用至今仍做不好，且早该修复的？",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆：开源模型推理优化潜力巨大",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆表示，开源模型在推理速度、成本和效率上仍有巨大提升空间。他兴奋地看到ZML公司推出集成HuggingFace的推理引擎，并呼吁全力推动开源模型发展。ZML同时发布了支持NVIDIA、AMD、Intel、Metal和TPU五种架构的高性能推理服务器ZML/LLMD。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Meta登顶AI图像排行榜",
+          "summary": "Meta在AI图像生成领域取得领先地位，超越竞争对手。同时，利用AI技术可帮助管理者更高效地与员工进行一对一沟通，提升团队协作效率。",
+          "url": "https://www.therundown.ai/p/meta-climbs-the-ai-image-leaderboard",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "ChatGPT升级语音模式：更懂何时闭嘴",
+          "summary": "OpenAI对ChatGPT语音模式进行重大升级，推出新模型GPT-Live-1，旨在让对话更像“与人交谈”。该模型减少打断用户，并在用户说话中途停顿时耐心等待。OpenAI研究负责人表示，新模型显著提升了交互的自然流畅度。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Lovable据称估值翻倍至132亿美元",
+          "summary": "据报道，Lovable正进行新一轮融资谈判，估值有望翻倍至132亿美元。本轮3亿美元融资预计由Menlo Ventures领投。",
+          "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+          "time": "06:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌深伪检测系统揭穿麦康奈尔恶搞图片",
+          "summary": "本周早些时候，一张图片显示肯塔基州参议员米奇·麦康奈尔躺在病床上，身上插满管子，处于极度痛苦状态。经谷歌深伪检测系统验证，该图片实为AI生成的虚假内容。",
+          "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+          "time": "04:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SpaceXAI发布Grok 4.5，马斯克称其为‘Opus级模型’",
+          "summary": "埃隆·马斯克的科技公司于周三发布了最新版Grok，宣称其相比其他强大AI模型更便宜、更高效。",
+          "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+          "time": "03:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "这家初创公司认为机器人技术即将迎来ChatGPT时刻",
+          "summary": "General Intuition押注数百万小时的游戏视频数据可以训练物理AI的基础模型，从而用最少的真实世界数据构建更智能的机器人。",
+          "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+          "time": "03:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌相册新增AI“视频混剪”工具",
+          "summary": "谷歌相册推出全新AI“视频混剪”功能，可对视频应用电影级重新布光以提亮暗部画面，还能将平淡背景替换为趣味场景或添加艺术风格滤镜，让普通视频更具创意表现力。",
+          "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+          "time": "02:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "这位CEO认为电子游戏比互联网更适合训练AI",
+          "summary": "通用人工智能的实现面临瓶颈：大语言模型擅长文本处理，却难以理解事物在时空中的实际运动。一家名为General Intuition的初创公司押注游戏数据能填补这一关键缺口，因为游戏能提供更丰富的物理世界交互信息，有助于培养真正的通用智能。",
+          "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+          "time": "01:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta想让AI眼镜不那么吓人，但其AI策略却相反",
+          "summary": "Meta为其AI眼镜新增一项防护措施，以防止用户秘密录制他人。然而，这一更新正值该公司持续扩大其AI产品收集和使用个人数据的范围之际。",
+          "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+          "time": "01:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI发布新语音模型，实现更自然的实时对话",
+          "summary": "OpenAI推出全新语音模式，能够同时进行说话和倾听，这一关键能力使其适用于实时翻译场景。",
+          "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Prime Intellect 获1.3亿美元A轮融资，助力企业构建自有AI代理",
+          "summary": "成立于2024年的Prime Intellect旨在为企业提供训练自有智能代理系统的能力，使其无需依赖前沿AI实验室。该公司近日完成1.3亿美元A轮融资，以加速这一目标的实现。",
+          "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+          "time": "00:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "这些AI初创公司收入增速持续加快",
+          "summary": "众多AI初创公司增长迅速，但部分公司声称其收入增速甚至更快。这些企业正以越来越快的速度扩大营收规模。",
+          "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+          "time": "23:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "贝佐斯支持的初创公司：游戏数据或成实现AGI的关键",
+          "summary": "一家由贝佐斯投资的初创公司General Intuition认为，大型语言模型如ChatGPT和Claude在文本处理上表现出色，但缺乏对物体在时空中运动的理解，而这正是实现通用人工智能（AGI）的关键。该公司押注游戏数据能填补这一空白，从而推动AGI的发展。",
+          "url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前OpenAI高管凯文·韦尔加入Stoke Space董事会",
+          "summary": "前OpenAI高管凯文·韦尔加入太空初创公司Stoke Space董事会，表明可重复使用火箭正成为硅谷的新热点。这一任命凸显了科技界对商业航天领域的持续关注。",
+          "url": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "法国热门AI初创公司ZML发布免费产品加速多芯片推理",
+          "summary": "法国AI初创公司ZML获图灵奖得主杨立昆支持，近日推出免费软件ZML/LLMD，旨在降低AI运行成本。该软件可加速跨多芯片的推理过程，提升效率。",
+          "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+          "time": "16:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI芯片公司SambaNova融资10亿美元，估值达110亿",
+          "summary": "AI芯片制造商SambaNova在五个月内再次完成巨额融资，以110亿美元估值筹集10亿美元。此前有传闻称英特尔曾试图以约16亿美元收购该公司。",
+          "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+          "time": "15:16",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选企业凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速发展，涵盖支付、借贷、保险和财富管理等多个领域。技术创新如人工智能和区块链正在重塑传统金融服务，提高效率并降低成本。未来，金融科技将继续推动金融普惠，但监管挑战和数据安全问题仍需关注。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔和客户服务流程。尽管融资环境趋于谨慎，但技术创新仍在加速推动行业效率提升与产品个性化发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "智能体的数据",
+          "summary": "本文探讨了为AI智能体（Agent）提供数据的关键挑战与策略。核心在于如何获取、组织并利用高质量数据，以训练出能自主执行复杂任务的智能系统。文章强调了数据多样性、真实世界交互反馈以及持续学习的重要性。",
+          "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+          "time": "01:16",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "客户退款纠纷处理",
+          "summary": "小企业主手动与客户沟通退款请求，耗时且易引发情绪冲突。AI可自动分析退款原因、生成标准回复模板、根据历史数据判断是否合理，并自动触发退款流程，减少人工介入和客户等待时间。\n\n💡 机会方向：AI客服退款自动处理与决策系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1urampt/how_much_does_customer_support_attitude_actually/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "政府合同投标搜索",
+          "summary": "用户手动查找并筛选联邦政府合同机会，过程繁琐且易遗漏。AI可自动抓取政府招标网站、按企业资质和业务类型匹配合同、生成投标摘要和截止日期提醒，大幅提升中标概率。\n\n💡 机会方向：AI政府合同智能匹配与投标助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ur6k6i/has_anyone_here_tried_to_get_a_government/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "企业购买与尽职调查",
+          "summary": "用户手动搜索待售企业信息，需逐一核实财务、法律、运营状况，耗时且易出错。AI可自动聚合多个交易平台数据、分析企业健康度、生成尽职调查报告模板，并提示潜在风险。\n\n💡 机会方向：AI企业并购搜索与尽职调查自动化工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ur49vn/where_to_find_businesses_for_sale/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Microsoft商业许可购买",
+          "summary": "用户手动研究并购买Microsoft商业许可证，流程复杂、选项混乱。AI可基于企业规模、员工角色、预算自动推荐最优许可组合，并引导完成购买和激活，减少学习成本。\n\n💡 机会方向：AI企业软件许可配置与购买导航",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uquf2u/microsoft_is_my_nemesis/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
