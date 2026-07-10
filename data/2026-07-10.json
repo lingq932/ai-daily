@@ -1,0 +1,754 @@
+{
+  "date": "2026-07-10",
+  "timeRange": "2026-07-09 09:00 ~ 2026-07-10 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "菲吉·西莫卸任OpenAI高管",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI的菲吉·西莫宣布辞去全职的通用人工智能（AGI）负责人职务，转为兼职顾问。她此前因神经免疫疾病于4月休病假，此次调整与此相关。",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI二号高管菲吉·西莫在病假超预期后，辞去全职职务。这一领导层空缺恰逢公司考虑IPO并在企业市场追赶Anthropic的关键时期。",
+              "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI发布GPT-5.6系列",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI 在获得特朗普政府批准后，向公众发布了 GPT-5.6 模型。此前该模型因监管问题仅向政府批准机构提供有限预览。OpenAI CEO 山姆·奥特曼称",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI的新模型系列将继续为微软的工作和生产力应用套件提供支持。尽管外界有关于双方分拆的传闻，但GPT 5.6仍被指定为Copilot 365的首选模型。",
+              "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌标注AI生成广告",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌在“我的广告中心”新增功能，用户可在搜索、发现和YouTube中查看广告是否由AI制作或编辑。该更新于周四宣布，在“广告制作方式”标签下添加了“由AI创建或",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌将要求广告商披露使用AI生成的合成或数字修改内容，但此前仅选举广告需遵守此规定。此举旨在防止误导性广告，同时允许AI技术在广告中合规使用。",
+              "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/"
+            }
+          ]
+        },
+        {
+          "headline": "Meta发布新AI编程模型",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "继今年4月推出首个自研Muse Spark模型后，Meta近日通过新Meta模型API向开发者开放了可接入AI编程软件的新模型。Meta表示，Muse Spar",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Meta推出Muse Spark 1.1，主打处理大型智能体工作负载、修复漏洞及协助大规模代码迁移。这类自动化功能正是企业日益依赖AI公司提供的服务，Meta借",
+              "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "GPT-Live | ChatGPT的全双工语音功能",
+          "summary": "讨论链接",
+          "url": "https://www.producthunt.com/products/openai",
+          "time": "11:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Fortress – 让你的AI代理无限制访问网络",
+          "summary": "我个人认为互联网是人类有史以来最伟大的发明，而...",
+          "url": "https://news.ycombinator.com/item?id=48854467",
+          "time": "08:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Fortress – 隐形Chromium + MCP，让AI代理不被屏蔽",
+          "summary": "文章网址：https://tilion.dev 评论网址：https://news.ycombinator.com/item?",
+          "url": "https://tilion.dev",
+          "time": "07:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "情境感知的AI社交数学学习空间",
+          "summary": "你好！我是Raj，波恩大学的数学研究生，曾参加YC暑期学校...",
+          "url": "https://www.prooftree.ai",
+          "time": "07:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "将任意AI代理用作编排器",
+          "summary": "文章网址：https://github.com/backnotprop/orchestrator 评论网址：https://n",
+          "url": "https://github.com/backnotprop/orchestrator",
+          "time": "06:26",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "AI求职助手",
+          "summary": "这是一个基于Claude Code构建的AI驱动求职申请框架，用户只需Fork仓库并填写个人信息即可自动化投递简历。今日获得3716星，说明开发者对AI自动化求职工具需求旺盛，TypeScript编写使其易于集成和扩展。\n\n💼 商业缺口：缺乏针对求职结果的可信度审计工具（如投递成功率统计、简历匹配度评分），以及企业端反AI投递的检测服务。",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "time": "3,716 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "智能体技能库",
+          "summary": "为AI编码智能体提供生产级工程技能的集合，包含最佳实践和可复用模块。今日获得2554星，JavaScript实现，适合快速集成到现有AI开发工作流中，提升智能体代码质量。\n\n💼 商业缺口：缺少对技能库使用效果的量化评估工具（如代码质量提升率、智能体任务完成时间对比），以及企业级合规性检查服务。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "2,554 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OfficeCLI",
+          "summary": "首个专为AI智能体设计的Office套件命令行工具，支持AI直接读写Office文档。今日获得1929星，C#编写，解决了AI与办公软件交互的痛点，有望成为AI办公自动化基础设施。\n\n💼 商业缺口：缺乏文档操作的安全审计层（如敏感内容过滤、操作日志记录），以及跨平台Office格式兼容性验证服务。",
+          "url": "https://github.com/iOfficeAI/OfficeCLI",
+          "time": "1,929 stars today",
+          "language": "C#",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "桌面指挥官MCP",
+          "summary": "为Claude提供的MCP服务器，赋予其终端控制、文件系统搜索等能力。今日获得185星，TypeScript实现，是AI Agent与本地系统交互的关键桥梁，适合需要深度桌面自动化的场景。\n\n💼 商业缺口：缺少权限管控和沙箱隔离工具（如限制AI可访问的目录范围、命令白名单），以及操作回滚与审计功能。",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+          "time": "185 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude食谱",
+          "summary": "Anthropic官方发布的Claude使用示例集合，包含Jupyter Notebook形式的实用技巧和有效用法。今日获得194星，是学习和掌握Claude高级功能的最佳入门资源。\n\n💼 商业缺口：缺乏针对企业场景的Claude使用成本优化指南（如Token消耗分析、提示词效率对比），以及安全使用最佳实践审计工具。",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "time": "194 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "渗透测试智能体",
+          "summary": "完全自主的AI智能体系统，能够执行复杂渗透测试任务。今日获得535星，Go语言编写，代表了AI在网络安全自动化领域的前沿应用，可大幅降低渗透测试门槛。\n\n💼 商业缺口：缺少渗透测试结果的合规性报告生成工具（如符合PCI-DSS、ISO 27001标准），以及AI行为可解释性审计服务。",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "time": "535 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Crawl4AI",
+          "summary": "开源的大语言模型友好型网络爬虫与抓取工具，专为AI数据采集优化。今日获得215星，Python编写，解决了传统爬虫对LLM不友好的问题，是构建AI训练数据管道的重要组件。\n\n💼 商业缺口：缺乏爬取数据的版权合规性检测工具（如自动识别受版权保护内容），以及大规模爬取时的成本控制与调度优化服务。",
+          "url": "https://github.com/unclecode/crawl4ai",
+          "time": "215 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude视频助手",
+          "summary": "让Claude能够观看任何视频，通过下载、提取帧和转录实现视频内容理解。今日获得718星，Python实现，填补了AI模型处理视频内容的空白，适合视频分析、字幕生成等场景。\n\n💼 商业缺口：缺少视频内容审核与敏感信息过滤工具（如自动打码、违规内容检测），以及视频处理成本估算与优化服务。",
+          "url": "https://github.com/bradautomates/claude-video",
+          "time": "718 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "口袋TTS",
+          "summary": "一款能在CPU上高效运行的轻量级文本转语音引擎，体积小巧适合移动端部署。今日获得235星，Python编写，解决了TTS模型对GPU依赖过大的问题，适合边缘设备应用。\n\n💼 商业缺口：缺乏多语言语音质量评估工具（如自然度评分、口音检测），以及TTS输出的版权与隐私合规性审计服务。",
+          "url": "https://github.com/kyutai-labs/pocket-tts",
+          "time": "235 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "系统提示词泄露集",
+          "summary": "从Anthropic的Claude Fable 5、Opus 4.8等模型中提取的系统提示词集合。今日获得1125星，JavaScript实现，对研究AI模型行为、提示工程和安全性有重要参考价值。\n\n💼 商业缺口：缺少提示词泄露检测与防护工具（如企业级提示词水印、泄露溯源服务），以及提示词使用合规性审计平台。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "1,125 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 发布 GPT-5.6 及 ChatGPT Work 智能体",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 推出 GPT-5.6 模型系列（Sol、Terra、Luna），现已登陆 ChatGPT、Codex 和 API。同时发布全新智能体 ChatGPT Work，可跨应用和文件执行任务，将目标转化为成品。该功能面向 Pro、Enterprise、Edu 等用户逐步开放，支持网页、移动端和桌面端。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind推出AlphaEvolve",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "AlphaEvolve现已正式在谷歌云上线。该工具由谷歌DeepMind合作开发，基于Gemini模型，能够自主设计和发现高度优化的代码，用于解决各行业中最棘手的问题和算法瓶颈。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Anthropic任命本·伯南克为长期利益信托成员",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic宣布，前美联储主席本·伯南克已加入其长期利益信托。该信托旨在确保公司AI系统的安全与可控发展。伯南克的加入将为Anthropic在治理与风险管理方面提供重要指导。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Meta发布Muse Spark 1.1：低价高性能AI模型",
+          "url": "https://twitter.com/AIatMeta",
+          "summary": "Meta推出Muse Spark 1.1，这是一款面向智能体任务、编程和计算机使用的多模态推理模型，性能媲美GPT-5.5和Opus 4.8，但成本仅为后者的十分之一。该模型在编码基准测试中提升约50%，延迟仅为Opus 4.8的四分之一，并通过全新Meta Model API公开提供。",
+          "source": "Twitter @AIatMeta"
+        },
+        {
+          "title": "RunwayML推出企业级媒体模型平台",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway Dev平台现已集成全球顶尖媒体模型，包括Seed Audio 1.0、Seedance Mini、Seedance 4K、Google Omni Flash及Seedream 5.0 Pro等。用户可通过企业级平台访问这些模型，并立即在dev.runwayml.com上开始使用。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax AI 祝贺 Ollama 达成里程碑，开放模型生态持续壮大",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax AI 发文祝贺 Ollama 团队达成重大里程碑，称开放模型生态持续成长，并自豪能与 Ollama 共同构建更易获取的前沿 AI。Ollama 表示，从开放模型和开源 AI 生态早期起步至今，其信念从未动摇，如今已拥有超过 900 万活跃开发者，准备将开放模型扩展为可自主拥有的 AI。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼回应OpenAI高管离职与GPT-5.6发布",
+          "url": "https://twitter.com/sama",
+          "summary": "OpenAI首席运营官Fidji Simo因慢性病加重宣布离职，转任兼职顾问。CEO山姆·奥特曼对此表示遗憾并感谢她的贡献。同时，OpenAI发布GPT-5.6及ChatGPT Work等新产品，强调其性能提升和任务可靠性，获得早期用户积极反馈。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "杨立昆：AI最大风险是权力集中，开源是唯一解",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆指出，AI的最大风险在于权力集中在少数专有AI助手提供商手中，而开源基础模型是维护AI主权的唯一途径。他强调，开源驱动了美国所有关键技术，限制开源在AI时代将是“文明自杀”，并呼吁坚决抵制任何限制开源的企图。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "SpaceXAI与Cursor发布最强Grok模型",
+          "summary": "SpaceXAI与Cursor联合推出了迄今为止最强大的Grok模型。此外，用户现在可以通过Higgsfield为任何视频添加CGI特效。",
+          "url": "https://www.therundown.ai/p/spacexai-cursor-release-the-strongest-grok-yet",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "微软去年碳排放量增加25%",
+          "summary": "微软2026年可持续发展报告显示，其2025年碳排放量增长了25%，达到3400万公吨。报告称，这一增长主要由公司业务扩张驱动，微软在实现自身气候目标方面再次面临挑战。",
+          "url": "https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026",
+          "time": "08:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "菲吉·西莫因病卸任OpenAI通用人工智能负责人",
+          "summary": "OpenAI的菲吉·西莫宣布辞去全职的通用人工智能（AGI）负责人职务，转为兼职顾问。她此前因神经免疫疾病于4月休病假，此次调整与此相关。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
+          "time": "07:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "ChatGPT浏览器已宣告死亡",
+          "summary": "OpenAI正在关闭其名为Atlas的ChatGPT浏览器，该产品能代表用户执行任务，但推出不到一年即被叫停。Atlas于去年10月发布，但OpenAI在今天宣布ChatGPT Work系列更新时确认，将逐步淘汰Atlas，并计划将其功能整合到其他产品中。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+          "time": "04:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌将标注AI生成的广告",
+          "summary": "谷歌在“我的广告中心”新增功能，用户可在搜索、发现和YouTube中查看广告是否由AI制作或编辑。该更新于周四宣布，在“广告制作方式”标签下添加了“由AI创建或编辑”的标注。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+          "time": "04:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "微软补丁星期二将迎来更大更新",
+          "summary": "微软周四宣布，Windows 11更新将一次性修复更多安全问题。该公司正利用AI“更早识别潜在问题”，这意味着每次安全更新中包含的补丁数量将增加。黑客，包括业余者，也越来越多地使用AI工具。",
+          "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI 推出 GPT-5.6 并发布“ChatGPT Work”",
+          "summary": "OpenAI 在获得特朗普政府批准后，向公众发布了 GPT-5.6 模型。此前该模型因监管问题仅向政府批准机构提供有限预览。OpenAI CEO 山姆·奥特曼称其为“有史以来最好的模型”。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta发布新AI模型，称其编程能力可媲美竞品",
+          "summary": "继今年4月推出首个自研Muse Spark模型后，Meta近日通过新Meta模型API向开发者开放了可接入AI编程软件的新模型。Meta表示，Muse Spark 1.1相比第一代实现了“阶梯式”提升，性能显著改进。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Claude推出年度回顾功能",
+          "summary": "受Spotify年度总结功能启发，Anthropic为其Claude聊天机器人推出“回顾”功能，允许用户查看过去一个月的使用数据分析。该功能将年度回顾趋势引入AI领域，类似YouTube和Uber等应用已推出的年终总结特性。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Character.AI 进军微短剧市场",
+          "summary": "Character.AI 宣布推出 c.ai 系列，即专为手机设计的短篇互动视频，标志着其从聊天机器人平台向互动娱乐领域的进一步拓展。与传统的真人微短剧不同，该系列将利用其技术提供新型观看体验。",
+          "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
+          "time": "21:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "FL Studio 2026将AI聊天机器人升级为助理工程师",
+          "summary": "去年，Image Line为FL Studio推出了AI聊天机器人Gopher，它主要充当高级版使用手册，回答操作问题并提供指导。在新版本中，Gopher功能得到强化，能更主动地协助用户完成音乐制作任务，成为真正的助理工程师。",
+          "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "Anthropic发现隐藏空间：Claude在概念中困惑",
+          "summary": "人工智能公司Anthropic开发了一项新技术，得以最清晰地窥见大型语言模型在回答问题或执行任务时的内部运作。他们发现的既有平凡现象，也有令人不安的发现。研究人员构建了名为“雅可比透镜”的工具，揭示了模型处理概念时的隐藏空间。",
+          "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+          "time": "04:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI称GPT 5.6是微软Copilot 365的“首选模型”",
+          "summary": "OpenAI的新模型系列将继续为微软的工作和生产力应用套件提供支持。尽管外界有关于双方分拆的传闻，但GPT 5.6仍被指定为Copilot 365的首选模型。",
+          "url": "https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/",
+          "time": "08:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "菲吉·西莫卸任OpenAI二号人物",
+          "summary": "OpenAI二号高管菲吉·西莫在病假超预期后，辞去全职职务。这一领导层空缺恰逢公司考虑IPO并在企业市场追赶Anthropic的关键时期。",
+          "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+          "time": "07:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI发布GPT-5.6系列新模型",
+          "summary": "OpenAI推出了其最新模型系列GPT-5.6，宣称在网络安全等多个领域实现了性能提升。该版本旨在增强AI系统的安全性与可靠性。",
+          "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+          "time": "06:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI代理初创公司用自家产品完成1亿美元融资",
+          "summary": "企业AI代理初创公司Lyzr使用自家AI代理完成了1亿美元融资轮，以此证明其产品的实际有效性。",
+          "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+          "time": "06:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI 关闭Atlas，但AI浏览器野心不减",
+          "summary": "OpenAI在运营不到一年后关停了AI浏览器Atlas，但计划将部分智能浏览功能迁移至桌面应用和Chrome扩展中，继续推进其AI浏览器战略。",
+          "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+          "time": "06:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "埃隆·马斯克称赞Mythos/Fable，承诺不会“切断”Anthropic",
+          "summary": "埃隆·马斯克赞扬了Mythos/Fable，并承诺不会切断与Anthropic的合作。考虑到约400亿美元的收入面临风险，马斯克坚称其公司能够托管Anthropic的模型。",
+          "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+          "time": "05:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI能解答3万亿美元的问题吗？",
+          "summary": "关于AI投资回报率的争论再度升温，涉及的金额规模空前，其潜在影响也可能更为深远。",
+          "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+          "time": "05:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta携Muse Spark 1.1加入AI编程混战",
+          "summary": "Meta推出Muse Spark 1.1，主打处理大型智能体工作负载、修复漏洞及协助大规模代码迁移。这类自动化功能正是企业日益依赖AI公司提供的服务，Meta借此加入竞争激烈的AI编程领域。",
+          "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+          "time": "03:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "《纽约时报》称OpenAI在ChatGPT版权审判中隐瞒证据",
+          "summary": "新闻出版商指控OpenAI隐藏了可识别ChatGPT输出中受版权保护新闻内容的工具和数据集，并为此提出新的制裁动议，加剧了双方的诉讼纠纷。",
+          "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+          "time": "03:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌将披露哪些广告由AI生成",
+          "summary": "谷歌将要求广告商披露使用AI生成的合成或数字修改内容，但此前仅选举广告需遵守此规定。此举旨在防止误导性广告，同时允许AI技术在广告中合规使用。",
+          "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+          "time": "02:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "巴黎AI语音初创公司Gradium获1亿美元种子轮融资，英伟达参投",
+          "summary": "总部位于巴黎的AI语音初创公司Gradium宣布完成1亿美元种子轮融资，投资方包括英伟达。该公司计划利用这笔资金在旧金山湾区设立办公室并争夺当地人才，以巩固其在全球领先AI生态系统的核心地位。",
+          "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+          "time": "02:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "政府如何判定OpenAI前沿模型安全可发布？",
+          "summary": "政府与Anthropic及OpenAI之间的具体对话细节尚不明确。这一决策过程涉及对前沿模型安全性的评估，但公开信息有限。",
+          "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+          "time": "02:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Instagram用户：如何阻止Meta使用你的照片训练AI",
+          "summary": "Muse Image功能允许用户利用公开Instagram账户中的照片生成AI图像。只要用户的个人资料设为公开，其他用户就可以标记该账户并将其照片用于AI创作。",
+          "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+          "time": "01:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta新款AI芯片将于9月投产",
+          "summary": "Meta计划于9月开始生产其新型AI芯片。该公司采用模块化设计方法，以应对AI技术快速演进带来的需求变化。",
+          "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+          "time": "01:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达沦为自身创造的算力市场牺牲品",
+          "summary": "英伟达证明了算力的巨大价值，如今却成为各方争相涌入的市场中心。与此同时，更简单的技术和不那么引人注目的公司却在边缘地带获利丰厚。",
+          "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+          "time": "01:06",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技领域的最新发展动态，包括技术创新、监管变化和市场趋势。核心信息涵盖数字支付、区块链应用及人工智能在金融服务中的角色，并分析了行业面临的挑战与机遇。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历快速发展，通过人工智能、大数据和自动化技术重塑传统保险业务模式。这些创新提升了风险评估、理赔处理和客户服务的效率，同时降低了运营成本。未来，保险科技将继续推动行业数字化转型，带来更个性化的保险产品和服务。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "学术论文",
+      "items": [
+        {
+          "source": "arXiv cs.AI",
+          "title": "学习社会规范增强人机动态协调兼容性",
+          "summary": "人类在动态互动中常通过隐性的社会规范进行协调，这些规范作为共享的默契期望难以量化。随着包括大语言模型在内的AI代理融入日常生活，它们虽参与互动并重塑社交结构，却常无法与人类进行有效、体贴且自然的协调。",
+          "url": "https://arxiv.org/abs/2607.07021",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "超越人类水平的智能测量",
+          "summary": "如何衡量超越人类能力的智能？人类编写的基准测试已趋饱和，而面对超人类能力，评估者可能难以确定哪些任务既困难又可验证。研究认为这一困境源于绝对尺度评估的固有缺陷，并提出基于相对测量的新范式，让模型生成公开挑战来区分其他系统，通过聚合结果形成对抗性心理测量比率。",
+          "url": "https://arxiv.org/abs/2607.07040",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "多智能体大语言模型安全中的操作重构与审批授权",
+          "summary": "arXiv新研究指出，多智能体大语言模型系统的安全评估常将直接提示与规划-执行流程对比，并将差异归为单一“流程效应”。但这一汇总难以解释，因为它混淆了三种机制：有害意图可能被重构为合理的操作工作，规划器可能拒绝或转化请求，执行器可能在暗示已获批准的授权提示下行动。",
+          "url": "https://arxiv.org/abs/2607.07097",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "AI能理解成像吗？计算成像任务的智能体AI系统评估基准",
+          "summary": "视觉语言模型和智能体AI在语义视觉任务上表现优异，但能否处理计算成像中的物理与逆问题尚不明确。为此，研究团队推出ImagingBench基准，涵盖射线与波动光学、图像信号处理、逆重建、计算感知和校准五大类共20项计算成像任务。该基准评估了三种主流AI模型的表现。",
+          "url": "https://arxiv.org/abs/2607.07189",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "推理一致性扫描：AI安全评估中思维链有效性审计框架",
+          "summary": "先前研究表明，思维链推理常不可靠，模型陈述的推理过程未必真实反映其输出生成方式。然而，检测这种不忠实性需要受控实验干预，无法事后应用于评估记录。因此，我们转而关注一个更易处理但较少被研究的问题：陈述的推理在逻辑上是否一致。",
+          "url": "https://arxiv.org/abs/2607.07229",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "从原子操作到标准流程：面向自进化LLM代理的迭代工具优化",
+          "summary": "工具使用使大语言模型代理能够与现实世界交互并解决复杂任务。然而，现有代理框架主要依赖由细粒度原子操作组成的静态工具集，迫使代理为每个重复工作流重新设计底层逻辑，导致推理开销增加和失败率上升。本研究提出代理可通过迭代工具优化实现自进化，从而提升效率与可靠性。",
+          "url": "https://arxiv.org/abs/2607.07321",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "物理审计的智能体科学机器学习发现",
+          "summary": "在智能体科学机器学习中，大语言模型智能体可自动发现替代模型并基于误差指标进行选择。然而，低误差并不能保证预测场满足边界条件、叠加性、刚度缩放或因果性等物理规律。为此，我们提出物理审计智能体科学机器学习，一种以验证为先的工作流程。",
+          "url": "https://arxiv.org/abs/2607.07379",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "MIRA-Math：面向最小信息请求与数学推理的基准测试",
+          "summary": "现有数学推理基准通常提供解题所需的全部信息，而交互式基准则常混合推理、工具调用和长程对话。MIRA-Math 专注于诊断一项更狭义的能力：解决那些完整潜在状态有唯一答案、但求解者视角恰好缺失一个必要原子事实的数学问题。求解者必须主动请求缺失信息才能完成推理。",
+          "url": "https://arxiv.org/abs/2607.07391",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "智能体数据环境",
+          "summary": "自主智能体有望大幅提升速度、规模和劳动效率，但其故障可能带来突然且往往不可逆的损失。因此，智能体自动化的核心挑战是在提高自动化收益的同时限制故障后果。数据库仍是现代计算的核心，但智能体需处理涵盖文件、API、应用和系统状态的更广泛数据环境。",
+          "url": "https://arxiv.org/abs/2607.07397",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "少推理，多验证：确定性门控机制恢复工具型LLM代理中沉默的政策违规故障模式",
+          "summary": "使用工具的LLM代理可能在看似成功完成任务的同时，违反其部署时需执行的政策。在政策宽松的环境中，工具可能执行任何格式正确的调用，即使对应的状态转换被领域政策禁止，导致出现沉默的错误状态（如预订被取消、乘客数量被更改、未经验证就执行索赔），而工具和代理的自我纠正机制均未能检测到该问题。",
+          "url": "https://arxiv.org/abs/2607.07405",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "InductWave：知识图谱上的归纳式多跳逻辑查询回答",
+          "summary": "知识图谱上的逻辑多跳查询回答通常假设知识完备。现有工作主要处理存在性一阶逻辑查询，包含与、或、非操作。但多数方法采用直推式推理，无法对训练中未见的实体进行推理，而现实世界中存在大量新实体。",
+          "url": "https://arxiv.org/abs/2607.07422",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "盲人策展人：有偏见的裁判如何悄然关闭自进化智能体的技能淘汰机制",
+          "summary": "自进化智能体通过观察技能失败来淘汰不良技能，但若裁判无法识别失败，这一机制便会失效。技能淘汰是防止知识库低于无技能基线的结构约束，但其保证依赖于无偏奖励。然而，在无参考任务中被迫使用的大语言模型裁判存在偏见，不仅引入噪声，更会悄然关闭技能淘汰功能。",
+          "url": "https://arxiv.org/abs/2607.07436",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "SpaCellAgent：基于自进化LLM的多智能体轨迹分析框架",
+          "summary": "空间和单细胞转录组学在解析细胞动态方面具有变革性意义。轨迹推断作为重建细胞发育路径的基础范式至关重要，但现有方法需要大量人工干预和对异构工具的熟练运用，成为高效分析的障碍。为此，我们提出SpaCellAgent，一个自主的大语言模型多智能体框架，旨在解决这一难题。",
+          "url": "https://arxiv.org/abs/2607.07467",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "搜索、失败、恢复：一种面向纠错感知推理的训练框架",
+          "summary": "许多推理任务无法通过简单的从左到右链条完成：求解器可能需要探索可行分支，在观察到延迟失败后回溯到仍可完成的最近前缀。我们提出Pyligent框架，受勤勉学习者模型启发，将推理表示为对部分解链的验证性搜索，通过任务验证器标记生成的延续与失败。",
+          "url": "https://arxiv.org/abs/2607.07492",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "LLM生成的技能能否造就更好的AI数据科学家？数据科学工作流中的组件消融研究",
+          "summary": "产品数据科学家常让基于LLM的智能体协助处理数据清洗、SQL编写、统计测试选择等重复性任务。可复用的技能文件旨在通过封装任务族指导，避免从零开始提示。专家编写的技能虽能提供高质量指导，但跨数据科学任务族的手动编写与维护成为瓶颈。本研究通过组件消融实验，探究LLM生成技能的有效性。",
+          "url": "https://arxiv.org/abs/2607.07504",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动管理客户线索",
+          "summary": "小企业主用短信、邮件、便签纸混合管理销售线索，经常遗漏跟进，导致客户流失。AI可以自动抓取多渠道线索、设置跟进提醒、生成个性化回复，甚至预测最佳联系时间，大幅减少手动整理和遗忘风险。\n\n💡 机会方向：轻量级AI销售线索管理助手，无需CRM即可自动追踪和提醒",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1us2k8k/how_do_you_guys_stop_dropping_the_ball_on_leads/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动存储和展示名片",
+          "summary": "咖啡馆老板需要手动收集、整理和展示顾客留下的纸质名片，占用柜台空间且容易丢失。AI可以拍照自动识别名片信息、分类存储到数字通讯录，并生成电子展示墙供顾客扫码查看，彻底告别纸质管理。\n\n💡 机会方向：AI名片扫描与数字展示平台，替代物理名片墙",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1us2tg1/brick_mortar_owners_how_do_you_store_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动处理电商退货物流",
+          "summary": "家庭电商店主为保护隐私，不愿公开家庭地址作为退货地址，需要手动寻找第三方物流（3PL）并协调退货流程。AI可以自动对接多家3PL服务商、生成退货标签、跟踪退货状态，并智能推荐最低成本方案。\n\n💡 机会方向：AI驱动的电商退货自动化平台，一键对接3PL并隐藏家庭地址",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1us8w2d/need_help_finding_solution_for_ecommerce_package/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动设计商业物料",
+          "summary": "小企业主缺乏设计能力，需要自己制作或四处寻找设计师来制作宣传材料，过程耗时且成本高。AI可以根据业务描述自动生成Logo、海报、名片等设计初稿，并提供多风格选项，用户只需微调即可使用。\n\n💡 机会方向：AI自助设计工具，面向小企业主的零门槛商业视觉生成",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1us5qwk/where_do_you_find_design_help_for_your_busienss/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
