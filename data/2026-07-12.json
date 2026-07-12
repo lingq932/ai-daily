@@ -1,0 +1,532 @@
+{
+  "date": "2026-07-12",
+  "timeRange": "2026-07-11 09:00 ~ 2026-07-12 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Claude Code相关项目",
+          "coverage": [
+            {
+              "source": "HN Show",
+              "summary": "一个允许在Claude Code中调用GPT-5.6等模型的工具。",
+              "url": "https://github.com/raine/claude-code-proxy"
+            },
+            {
+              "source": "GitHub Trending",
+              "summary": "这是一个用于配置和监控 Claude Code 的命令行工具，基于 Python 开发。它提供模板化的方式管理 Claude 的代码生成行为，适合需要标准化 A",
+              "url": "https://github.com/davila7/claude-code-templates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "AgentTransfer – 面向AI代理的开源文件传输工具（单个Go二进制文件）",
+          "summary": "一个开源的、为AI代理设计的文件传输工具，以单个Go二进制文件形式提供。",
+          "url": "https://github.com/shehryarsaroya/agenttransfer",
+          "time": "06:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Token Time – 屏幕使用时间，但针对你的AI代理令牌",
+          "summary": "一款追踪AI代理令牌使用情况的工具，类似于屏幕使用时间管理。",
+          "url": "https://tokentime.bar",
+          "time": "06:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "OpenThomas – 用于预测市场的天气交易代理",
+          "summary": "一个开源代理，能够预测站点温度并进行交易，专为预测市场设计。",
+          "url": "https://github.com/PredictionMarketTrader/openthomas",
+          "time": "06:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "BoundFlow – 面向AI代理的开源控制平面",
+          "summary": "一个用于管理AI代理的开源控制平面。",
+          "url": "https://github.com/boundflow/boundflow",
+          "time": "05:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "OpenBenchmarks – 帮助代理发现并选择合适的SaaS API",
+          "summary": "一个帮助AI代理发现和选择正确SaaS API的工具。",
+          "url": "https://openbenchmarks.com",
+          "time": "04:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "在Claude Code中使用GPT-5.6及其他模型",
+          "summary": "一个允许在Claude Code中调用GPT-5.6等模型的工具。",
+          "url": "https://github.com/raine/claude-code-proxy",
+          "time": "04:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Sqlsure – 针对AI生成SQL的确定性语义检查",
+          "summary": "一个对AI生成的SQL进行确定性语义检查的工具，确保其正确性。",
+          "url": "https://github.com/sqlsure/sqlsure",
+          "time": "04:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "在AI时代，别让你的工程大脑生锈",
+          "summary": "一个旨在帮助工程师在AI时代保持技术能力的知识平台。",
+          "url": "https://www.30secondsofknowledge.com",
+          "time": "03:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "分享和探索自定义的Claude Code状态行",
+          "summary": "一个为Claude Code用户提供的注册表，用于分享和探索自定义状态行。",
+          "url": "https://claudelines.com",
+          "time": "03:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Wizard – 自扩展的Rust终端AI代理（一行命令安装）",
+          "summary": "一个用Rust编写的、能够自我扩展的终端AI代理，支持一行命令安装。",
+          "url": "https://wizard.teddytennant.com",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Praana – 一个能自行整理上下文的终端编码代理",
+          "summary": "一个终端编码代理，能够自动整理和优化其使用的上下文信息。",
+          "url": "https://github.com/amitkumardubey/praana",
+          "time": "03:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "捕捉你的本地大语言模型回退到CPU运行的情况",
+          "summary": "一个用于检测本地大语言模型何时从GPU回退到CPU运行的工具。",
+          "url": "https://github.com/logxio/picchio",
+          "time": "03:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "用AI法官解决与朋友的任何争论——由它判定谁对谁错",
+          "summary": "一个AI裁判平台，用于裁决朋友间的争论并判定谁是正确的。",
+          "url": "https://wram.chat",
+          "time": "03:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "MCP服务器的信任指数",
+          "summary": "一个为MCP服务器提供安全信任评估的工具，帮助用户选择可靠的AI服务。",
+          "url": "https://index.canopii.dev",
+          "time": "02:57",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "davila7/claude-code-templates",
+          "summary": "这是一个用于配置和监控 Claude Code 的命令行工具，基于 Python 开发。它提供模板化的方式管理 Claude 的代码生成行为，适合需要标准化 AI 编码流程的团队。今日获得 232 星，说明开发者对 Claude 的工程化控制需求强烈。\n\n💼 商业缺口：缺少企业级的 Claude Code 策略审计与合规性检查层，例如自动检测模板是否引入安全漏洞或违反编码规范。",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "time": "232 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google-labs-code/stitch-skills",
+          "summary": "这是一个与 Stitch MCP 服务器配合使用的 Agent 技能库，基于 TypeScript 开发。它提供预构建的 AI 代理技能模块，帮助开发者快速为智能体添加特定能力。今日 340 星，反映出 MCP 生态对可复用技能组件的旺盛需求。\n\n💼 商业缺口：缺少技能模块的版本管理与依赖冲突检测工具，以及跨组织共享技能时的权限与计费系统。",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "time": "340 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openai/plugins",
+          "summary": "OpenAI 官方插件集合，基于 JavaScript 开发，用于扩展 ChatGPT 等模型的能力。虽然今日仅 29 星，但作为官方仓库，它定义了 AI 插件生态的基础架构。\n\n💼 商业缺口：缺少第三方插件市场的安全审核与运行时沙箱隔离服务，以及插件使用量的监控与成本分摊方案。",
+          "url": "https://github.com/openai/plugins",
+          "time": "29 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "wonderwhy-er/DesktopCommanderMCP",
+          "summary": "这是一个为 Claude 设计的 MCP 服务器，提供终端控制、文件系统搜索等能力，基于 TypeScript 开发。它让 AI 助手能直接操作本地开发环境，今日暴涨 909 星，说明开发者极度渴望 AI 与本地工具深度集成。\n\n💼 商业缺口：缺少对 MCP 服务器行为的审计日志与操作回滚机制，以及跨团队共享 MCP 配置时的权限管理产品。",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+          "time": "909 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DayuanJiang/next-ai-draw-io",
+          "summary": "一个集成 AI 能力的 draw.io 图表生成 Web 应用，基于 Next.js 和 TypeScript 开发。它利用 AI 自动生成或修改架构图、流程图，今日 81 星，显示 AI 辅助可视化设计的需求正在增长。\n\n💼 商业缺口：缺少企业级的图表版本历史与协作审批工作流，以及 AI 生成图表的合规性验证（如是否符合架构标准）。",
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+          "time": "81 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-cookbooks",
+          "summary": "Anthropic 官方提供的 Claude 使用示例和配方集合，基于 Jupyter Notebook 开发。它展示了 Claude 在代码生成、数据分析等场景的最佳实践，今日 219 星，说明开发者需要高质量的学习资源来掌握 Claude 的高级用法。\n\n💼 商业缺口：缺少面向企业的 Claude 使用效果评估与 ROI 计算工具，以及配方库的版本管理与团队协作平台。",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "time": "219 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "一个实用的智能体技能框架与软件开发方法论，基于 Shell 脚本实现。它提供可复用的 AI 代理能力模块和开发流程指导，今日 740 星，表明市场对结构化 AI 开发方法论有强烈需求。\n\n💼 商业缺口：缺少围绕该框架的自动化测试与性能基准测试工具，以及技能模块的许可证合规性扫描服务。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "740 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 全面推出 GPT-Live 功能",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 已向全球所有 ChatGPT 用户全面推出 GPT-Live 功能。同时，本周末将所有人的语音使用限制翻倍，以便用户更充分地体验该功能。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "MiniMax在巴黎强调开放模型成为前沿AI核心",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "巴黎RAISE周期间，MiniMax全球业务总裁Linda Sheng与HSG董事总经理Luca Schmid探讨了开放模型与原生多模态技术带来的企业新用例。此外，MiniMax还举办了私人沙龙和招待会，与多家合作伙伴深入交流，展示开放模型在生产中的应用潜力。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：AI 目前净增就业，GPT-5.6 表现超医生",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼表示，至少目前AI净增就业，出乎其意料。GPT-5.6在医疗领域表现优异，医生认为其回答缺陷少于医生撰写内容。此外，GPT-5.6 Sol版本被认为是当前最强模型，但使用成本中30%用于Fable版本。",
+          "source": "Twitter @sama"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI押注家庭场景，ChatGPT深入千家万户",
+          "summary": "据招聘信息显示，ChatGPT正在招募一名专注于家庭、看护者及老年人体验的产品经理。此举表明OpenAI正将服务拓展至家庭领域，旨在让AI更深入地融入日常生活。",
+          "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+          "time": "22:13",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。入选公司凭借技术创新与商业模式突破，正在重塑传统金融服务格局。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技领域正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资等核心业务。传统金融机构与科技初创公司之间的竞争加剧，同时监管环境也在不断演变以适应创新。未来几年，金融科技将继续推动金融服务更高效、更普惠。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技公司竞相利用人工智能、大数据和自动化技术优化承保、理赔及客户服务。尽管投资有所波动，但数字化创新持续推动行业效率提升与用户体验改善，未来竞争将聚焦于技术整合与风险管理能力。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "公共图书馆发现惊喜",
+          "summary": "一位用户在公共图书馆惊喜地发现了奥莱利出版的机器学习书籍。这一发现表明，即使是公共图书馆也开始收藏专业的人工智能技术资料。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1utplzc/public_library_find_d/",
+          "time": "01:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "退出ACL ARR并转投研讨会？",
+          "summary": "一位研究者在ACL ARR评审周期中提交的EMNLP论文获得了中等评分（2.5/3, 3/4, 2.5/4），评审者认为方法论无大问题，但未能理解论文的“意义”。尽管作者在反驳中澄清了内容，但预计评审者不会深入讨论。鉴于当前分数，论文难以被会议录用，作者考虑是否撤回并转投研讨会。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uth7j8/withdraw_from_acl_arr_and_resubmit_to_a_workshop_d/",
+          "time": "19:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "用HPSv3预测图像生成的人类偏好",
+          "summary": "一位开发者正在为其项目imagebench.ai寻找预测人类偏好的方法，尝试了HPSv3模型并发布了评估报告。该模型表现尚可，但存在诸多限制。他询问是否有比HPSv3更优的人类偏好模型推荐。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1utdj1f/predicting_human_preference_for_generated_image/",
+          "time": "15:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "VultronRetriever模型系列在HuggingFace发布",
+          "summary": "VultronRetriever模型系列在巴黎Raise Summit上亮相，可在iPhone上完全离线运行问答和文档嵌入。该系列每个模型在MTEB排行榜上均位列同类第一，其中VultronRetrieverPrime-8B为全球榜首，其索引存储占用比此前9B级领先模型小16倍，吞吐量高12倍。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1utmxq8/vultronretriever_family_of_models_released_on/",
+          "time": "23:22",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "学术论文",
+      "items": [
+        {
+          "source": "arXiv cs.AI",
+          "title": "面向企业主动代理的上下文图",
+          "summary": "检索增强生成（RAG）和智能代理框架显著推动了企业AI发展，但代理本质上仍是被动的：它们需等待人类查询后才行动。本文认为，真正的企业生产力提升需要主动代理，即能在员工提问前主动呈现相关可操作信息的系统。为此，我们提出上下文图这一实时关系数据结构，用于建模企业实体。",
+          "url": "https://arxiv.org/abs/2607.07721",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "农业韧性评估的AI集成模型",
+          "summary": "农业供应链因生物物理与经济系统的关联而容易受到干扰。研究人员开发了一种AI工具，整合了经济模型（GTAP）与生物物理模型（APSIM），用于分析供应链冲击。该工具通过自然语言问答，帮助政策制定者和市场参与者评估跨学科影响。",
+          "url": "https://arxiv.org/abs/2607.07759",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "人类与大型语言模型群体的对抗性社会认识论",
+          "summary": "本文针对密集交互的沟通场景提出了一种对抗性社会认识论框架，其中公开断言依赖于证词、推理、机构认证和隐性信任的链条。在这种环境中，个体有动机和条件为了私利、声誉或物质收益而扭曲、编造或策略性隐瞒信息。研究认为这些现象需要被系统性地纳入分析。",
+          "url": "https://arxiv.org/abs/2607.07760",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "临床需求与AI能力的对齐：医学推理大语言模型综述",
+          "summary": "大语言模型在医疗领域展现出重要潜力，尤其在临床推理和患者护理方面。本综述从临床实践与计算方法双重视角出发，基于米勒金字塔建立五级能力框架，系统梳理了医学大语言模型的最新进展。研究旨在弥合临床需求与AI能力之间的差距。",
+          "url": "https://arxiv.org/abs/2607.07761",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "对齐可行性：医疗AI保障的新标准",
+          "summary": "大型语言模型已成为心理健康支持的重要提供者，但它们仍是注意力经济的产物，其运营和商业目标更倾向于维持用户参与，而非有效心理支持所需的必要摩擦。开发者的安全应对措施大多是被动的，只处理最明显和急性的伤害，而忽视了更微妙、长期的风险模式（如依赖、边界问题等）。",
+          "url": "https://arxiv.org/abs/2607.07766",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "个体仿生学：隐私与智能机器人假肢的统一",
+          "summary": "人体正成为紧密耦合生物与数字系统的技术核心，机器人假肢（又称仿生肢体）是典型代表。这些设备帮助截肢者完成行走、抓取等日常活动，如今已具备感知和响应能力。该研究提出“个体仿生学”概念，旨在统一隐私保护与智能假肢功能。",
+          "url": "https://arxiv.org/abs/2607.07775",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "Infinity-Parser2技术报告",
+          "summary": "我们提出Infinity-Parser2，一种大型多模态模型，通过可控数据合成流水线与多任务强化学习相结合，实现端到端文档解析，解决了忠实标注解析语料长期匮乏的问题。我们的贡献包括构建可扩展的合成引擎，并开源相关数据集。",
+          "url": "https://arxiv.org/abs/2607.07836",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "向量化LLM：基于智能向量化的AI助手",
+          "summary": "VectorizationLLM是基于谷歌开源权重的大型语言模型，专为学生设计，辅助学习MATLAB中的智能向量化、时间/波向量分析、分段函数、傅里叶分析和微分方程。该模型应用于纽约理工学院Old Westbury校区电气与计算机工程技术系的CTEC 247：应用计算分析II课程。",
+          "url": "https://arxiv.org/abs/2607.07846",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "基于sEMG信号的图神经网络实时手势识别模型",
+          "summary": "为满足先进假肢和增强现实对精准即时手势识别的需求，本文提出一种利用图网络表示前臂肌肉激活模式的sEMG信号新方法。该方法基于图神经网络构建模型，实现了对手势的高效实时识别。",
+          "url": "https://arxiv.org/abs/2607.07850",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "智能体AI与检索增强模型在直通式核保中的应用",
+          "summary": "人工智能正重塑精算实务，尤其是在处理非结构化文档、异构数据源及合规决策流程的领域。精算师面临从传统规则自动化到大型语言模型、检索增强生成及多智能体系统的设计选择。这些系统能规划、检索、调用工具并进行反思，为核保流程带来新可能。",
+          "url": "https://arxiv.org/abs/2607.07858",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "反馈操控正则化：实现模仿学习的离线智能体对齐",
+          "summary": "强化学习研究日益聚焦于对齐问题，即确保智能体学习符合人类价值观的行为。现有方法多采用多阶段流程结合人类演示与反馈，但缺乏探索如何将这些互补输入作为更丰富的信号。本文提出反馈操控正则化方法，旨在离线环境下通过模仿学习实现智能体对齐。",
+          "url": "https://arxiv.org/abs/2607.07859",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "尼日利亚机械：一个低资源工业数据集与领域推理层",
+          "summary": "arXiv发布了一项新研究，指出非洲经济体工业机械的公开、模型可用数据稀缺，难以进行定量分析或训练相关语言模型。为此，研究团队发布了尼日利亚机械使用与故障数据集，包含28个指标下的89条机器级记录，覆盖该国制造业及油气行业数据。",
+          "url": "https://arxiv.org/abs/2607.07883",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "人格地图：在权重空间中绘制语言模型个性特征",
+          "summary": "大型语言模型会表现出重复的行为模式（即人格），这影响其泛化能力和安全性，但现有工具难以有效分解、测量和控制这些模式。研究者提出将人格视为行为特征空间中的位置，利用OCEAN框架（开放性、尽责性、外向性、宜人性、神经质）来描述模型人格，并通过训练低秩适配器来放大或调整这些特征。",
+          "url": "https://arxiv.org/abs/2607.07916",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "帧率对自闭症相关自我刺激手部特征序列分类的影响评估",
+          "summary": "自闭症谱系障碍影响全球超7500万人，但远程行为筛查的可扩展计算方法仍有限。本研究针对视频中自闭症相关自我刺激行为的自动检测，探讨了两个互补挑战：确定最优的序列神经网络架构与时间采样率，以及描述数据增强策略。研究旨在提升此类行为识别的准确性与实用性。",
+          "url": "https://arxiv.org/abs/2607.07957",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "智能体神经架构搜索",
+          "summary": "神经架构搜索（NAS）方法虽日益高效，但仍受限于需大量领域知识且需为每项新任务重建的人工搜索空间。大型语言模型（LLM）可在开放空间中生成架构，但如何最优分配LLM驱动设计与NAS驱动搜索之间的任务尚待探索。我们提出一种连接两者的机制。",
+          "url": "https://arxiv.org/abs/2607.07984",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "WhatsApp客服回复",
+          "summary": "DTC护肤品牌创始人每天被WhatsApp客户咨询淹没，手动回复400单/月的消息，导致整天无法做其他工作。AI可自动分类常见问题（订单状态、成分咨询）、提供即时回复模板，并标记复杂问题转人工，大幅减少手动回复时间。\n\n💡 机会方向：面向小商家的WhatsApp智能客服机器人，支持常见问题自动回复和工单分流。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uti90c/whatsapp_customer_support_is_eating_my_entire_day/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社交媒体营销倦怠",
+          "summary": "小企业主对社交媒体营销感到极度缺乏动力，手动发布内容、回复评论、分析数据耗费大量精力，但效果不佳。AI可自动生成多平台适配的营销文案、图片和视频，定时发布，并自动分析互动数据给出优化建议，让企业主专注核心业务。\n\n💡 机会方向：AI社交媒体营销助手，一键生成内容、自动发布并分析效果。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1utxqn0/how_do_you_feel_about_social_media_marketing/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "寻找首批付费客户",
+          "summary": "SaaS创业者手动在论坛、社群、邮件中逐一寻找潜在客户，尝试各种推广方式却收效甚微，感到挫败。AI可自动抓取目标用户画像（如忠诚度计划相关论坛），生成个性化 outreach 邮件，并跟踪回复率，帮助创业者高效触达前5个付费客户。\n\n💡 机会方向：AI驱动的客户发现与冷启动工具，自动识别并触达高意向潜在客户。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1utua1q/how_did_you_get_your_first_5_paying_customers_for/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "网站搭建与维护",
+          "summary": "小企业主觉得WordPress笨重难用，手动安装插件、调整主题、处理安全更新，花费大量时间却得不到理想效果。AI可提供拖拽式网站构建器，自动生成页面布局、优化SEO、监控安全漏洞并一键修复，无需手动编码或配置。\n\n💡 机会方向：AI网站构建器，自然语言描述即可生成并自动维护企业网站。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1utsudg/who_has_the_beast_make_your_own_website_builder/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
