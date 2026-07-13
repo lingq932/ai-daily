@@ -1,0 +1,265 @@
+{
+  "date": "2026-07-13",
+  "timeRange": "2026-07-12 09:00 ~ 2026-07-13 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Clark – 拥有自己电脑的AI助手",
+          "summary": "大家好，我一直在独自开发Clark，目标是媲美Manus智能体（我参考了……）",
+          "url": "https://www.clarkchat.com/",
+          "time": "08:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "让你的编程智能体通过观察浏览器来迭代",
+          "summary": "文章URL：https://github.com/puffinsoft/peek-cli 评论URL：https://news.ycombinator.com/item?id=……",
+          "url": "https://github.com/puffinsoft/peek-cli",
+          "time": "08:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "面向智能体和团队的协作式共享上下文记忆平台",
+          "summary": "文章URL：https://xysq.ai/ 评论URL：https://news.ycombinator.com/item?id=……",
+          "url": "https://xysq.ai/",
+          "time": "06:28",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "破坏性命令守卫 (Destructive Command Guard)",
+          "summary": "这是一个用于阻止危险 Git 和 Shell 命令的 Rust 工具，可防止 AI 代理（如 Claude）误执行破坏性操作。今日获得 444 星，因其直接解决了 AI 自主操作中的安全痛点。\n\n💼 商业缺口：缺乏针对 AI 代理命令执行的可审计日志与回滚机制付费产品。",
+          "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+          "time": "444 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DesktopCommanderMCP",
+          "summary": "为 Claude 设计的 MCP 服务器，赋予其终端控制与文件系统搜索能力，使 AI 能直接操作桌面环境。今日 210 星，TypeScript 实现，是 AI 与本地系统交互的关键桥梁。\n\n💼 商业缺口：缺少企业级权限分级与命令白名单管理的付费方案。",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+          "time": "210 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Vibe-Trading：你的个人交易代理",
+          "summary": "基于 Python 的个人交易代理框架，利用 AI 进行自动化交易决策。今日 768 星，热度极高，适合量化交易爱好者快速搭建策略。\n\n💼 商业缺口：缺乏合规性审计与回测结果可解释性验证的付费服务。",
+          "url": "https://github.com/HKUDS/Vibe-Trading",
+          "time": "768 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Prefect (工作流编排框架)",
+          "summary": "用于构建弹性数据管道的 Python 工作流编排框架，支持 AI 模型训练与数据流水线。今日 66 星，适合需要可靠任务调度的 AI 工程团队。\n\n💼 商业缺口：缺少针对 AI 工作流成本优化与 GPU 资源调度的付费插件。",
+          "url": "https://github.com/PrefectHQ/prefect",
+          "time": "66 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "awesome-llm-apps (100+ AI 代理与 RAG 应用)",
+          "summary": "包含 100 多个可实际运行的 AI 代理与检索增强生成（RAG）应用集合，Python 实现，今日 408 星。开发者可克隆、定制并快速部署。\n\n💼 商业缺口：缺乏企业级 RAG 应用的安全审计与数据隔离付费方案。",
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "time": "408 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude 食谱 (claude-cookbooks)",
+          "summary": "Anthropic 官方提供的 Claude 使用笔记本与食谱集合，展示高效使用 Claude 的方法。今日 459 星，是学习 Claude 最佳实践的权威资源。\n\n💼 商业缺口：缺少针对 Claude 提示词优化与成本控制的付费管理平台。",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "time": "459 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "背景代理 (background-agents)",
+          "summary": "开源的背景代理编码系统，TypeScript 实现，今日 16 星。允许 AI 代理在后台持续运行并执行任务。\n\n💼 商业缺口：缺乏代理任务优先级调度与资源隔离的付费企业版。",
+          "url": "https://github.com/home-assistant/core",
+          "time": "400 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AI 对冲基金 (ai-hedge-fund)",
+          "summary": "一个 AI 对冲基金团队模拟项目，Python 实现，今日 115 星。展示多智能体协作进行金融决策的潜力。\n\n💼 商业缺口：缺少真实市场数据接入与风险合规评估的付费服务。",
+          "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+          "time": "125 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude 代码模板 (claude-code-templates)",
+          "summary": "用于配置和监控 Claude Code 的 CLI 工具，Python 实现，今日 274 星。简化了 Claude 在开发环境中的部署与监控。\n\n💼 商业缺口：缺乏集中式多项目 Claude 实例管理与用量统计的付费面板。",
+          "url": "https://github.com/ColeMurray/background-agents",
+          "time": "16 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "反 AI 低质量设计 (hallmark)",
+          "summary": "针对 Claude Code、Cursor 和 Codex 的反 AI 低质量设计工具，CSS 实现，今日 155 星。帮助开发者避免生成千篇一律的 AI 风格代码。\n\n💼 商业缺口：缺少自动检测 AI 生成代码质量并给出改进建议的付费插件。",
+          "url": "https://github.com/k1tbyte/Wand-Enhancer",
+          "time": "609 stars today",
+          "language": "C#",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "山姆·奥特曼征集5.6 SOL创意作品",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼表示，他很想看看人们用5.6 SOL（一种加密货币）构建的有趣项目。他将向做出最酷作品的人赠送一份来自OpenAI档案的特别礼物。",
+          "source": "Twitter @sama"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "洛德称雷朋Meta AI眼镜“不性感”",
+          "summary": "洛德周四在马德里Real Cool音乐节演出时，公开批评AI眼镜。她未点名具体品牌，但很可能针对音乐节赞助商雷朋，后者与Meta合作推出了AI智能眼镜。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+          "time": "04:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果自动驾驶汽车项目虽败犹荣，留下强大AI芯片遗产",
+          "summary": "苹果的自动驾驶汽车项目虽未成功落地，却催生了其强大的AI芯片技术。开发初期，苹果意识到需要强大的设备端AI处理能力，尽管汽车处理器最终未完成，但相关研发成果为后续芯片性能奠定了基础。",
+          "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+          "time": "00:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "反对AI数据中心的斗争才刚刚开始",
+          "summary": "随着AI热潮推动数据中心大规模建设，其对本地电力和环境的影响引发争议。这场反对数据中心的斗争才刚刚开始，社区和环保组织正积极抵制新建项目。",
+          "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球金融科技领域最具影响力的100家企业，涵盖支付、借贷、保险科技等多个细分赛道。上榜企业通过技术创新推动金融服务效率提升与普惠化，成为行业变革的核心力量。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技行业的最新发展动态，涵盖支付、借贷、保险科技及区块链等关键领域。报告指出，尽管全球融资环境趋紧，但人工智能与自动化技术正加速推动行业创新，同时监管合规成为企业关注重点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技公司竞相利用人工智能、大数据和自动化技术优化承保、理赔和客户服务。尽管投资有所波动，但技术创新持续推动行业效率提升与产品个性化发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动内容营销",
+          "summary": "小企业主独自运营业务，需同时处理产品、销售、支持及内容营销，每周手动撰写和发布内容，精力分散且难以持续。AI可自动生成行业相关文案、排期发布并分析效果，大幅减轻重复劳动。\n\n💡 机会方向：面向单人创业者的AI内容营销助手，自动生成并发布多平台内容。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uubxyj/how_do_you_handle_content_marketing_when_youre/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动核对广告来源",
+          "summary": "用户花费1000欧元投Google Ads却零转化，手动检查服务器日志才发现真实客户来自其他渠道。手动分析流量来源耗时且易遗漏，AI可自动关联广告投放与转化数据，实时归因并建议最优渠道。\n\n💡 机会方向：AI驱动的广告归因与渠道优化工具，自动分析日志并推荐投放策略。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uun2ba/i_spent_1000_on_google_ads_with_zero_sales_then_i/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动品牌命名纠结",
+          "summary": "用户为服装租赁业务起名，已纠结数周仍无结果，手动搜索、头脑风暴效率低。AI可基于业务定位、关键词和风格偏好，批量生成创意名称并检查域名/商标可用性。\n\n💡 机会方向：AI品牌命名生成器，结合行业、风格和可用性检查快速输出候选名。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uur9jj/cloth_rent_business_name/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动每周客户开发",
+          "summary": "用户每周都感觉客户开发从零开始，手动重复寻找线索、发送邮件、跟进，缺乏系统性和持续性。AI可自动识别潜在客户、生成个性化沟通模板并安排跟进提醒。\n\n💡 机会方向：AI客户开发自动化工具，持续挖掘线索并管理跟进流程。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uunwsr/anyone_else_feel_like_they_restart_prospecting/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
