@@ -1,0 +1,925 @@
+{
+  "date": "2026-07-17",
+  "timeRange": "2026-07-16 09:00 ~ 2026-07-17 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Codex Micro | Codex 代理的触觉控制",
+          "summary": "为你的 Codex 代理提供触觉控制",
+          "url": "https://www.producthunt.com/products/openai",
+          "time": "11:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "ClipMatch | 用 AI 将你的相册变成社交媒体内容",
+          "summary": "用 AI 将你的相册变成社交媒体内容",
+          "url": "https://www.producthunt.com/products/clipmatch",
+          "time": "13:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Git-temp（AI 代理的仓库草稿本，不会弄乱 Git 状态）",
+          "summary": "AI 代理的仓库草稿本，不会弄乱 Git 状态",
+          "url": "https://github.com/sebmellen/git-temp",
+          "time": "08:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Forall – 基于规范的 AI 编程，带有形式化验证",
+          "summary": "基于规范的 AI 编程，带有形式化验证",
+          "url": "https://github.com/astrio-labs/forall",
+          "time": "08:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Moltshit.com – AI 代理的贴图版",
+          "summary": "Moltshit.com 是一个用 LLM 做无聊事、浪费 GPU 算力的地方。",
+          "url": "https://moltshit.com",
+          "time": "06:54",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Nutlope/hallmark",
+          "summary": "这是一个针对Claude Code、Cursor和Codex等AI编码工具的反AI低质量设计技能。它帮助开发者在使用AI辅助编码时，避免生成低质量、模式化的代码，提升代码的原创性和设计感。今日获得3372颗星，说明开发者对AI生成代码质量控制的强烈需求。\n\n💼 商业缺口：缺乏企业级的AI代码质量审计与合规性检查付费服务，例如自动检测并标记AI生成代码中的反模式、安全漏洞和许可证风险。",
+          "url": "https://github.com/Nutlope/hallmark",
+          "time": "3,372 stars today",
+          "language": "CSS",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openinterpreter/openinterpreter",
+          "summary": "这是一个面向Kimi K3等开放模型的编码代理工具，允许AI模型直接执行代码、操作文件系统并控制计算机。它解决了AI模型无法直接与环境交互的问题，使AI从对话助手升级为真正的自动化代理。今日661颗星表明开发者对开放模型自动化能力的关注度很高。\n\n💼 商业缺口：缺少针对AI代理操作的安全沙箱与权限治理付费产品，例如细粒度控制代理能访问哪些文件、执行哪些命令，并记录完整审计日志。",
+          "url": "https://github.com/openinterpreter/openinterpreter",
+          "time": "661 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Shubhamsaboo/awesome-llm-apps",
+          "summary": "这是一个包含100多个AI代理和RAG（检索增强生成）应用的精选集合，用户可以克隆、定制并部署这些应用。它解决了开发者快速构建LLM应用时缺乏现成模板和最佳实践的问题。今日923颗星反映了社区对可复用AI应用模板的旺盛需求。\n\n💼 商业缺口：缺乏一个付费的LLM应用治理与监控平台，用于跟踪这些克隆应用的生产性能、成本消耗、响应质量以及数据隐私合规性。",
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "time": "923 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "lobehub/lobehub",
+          "summary": "LobeHub是一个AI代理编排平台，号称“首席代理运营官”，能将多个AI代理组织成7x24小时持续运行的自动化工作流。它解决了多代理协作、调度与长期运行的管理难题。今日71颗星表明其在专业用户中稳步增长。\n\n💼 商业缺口：缺少针对多代理系统的成本优化与性能基准测试付费工具，帮助用户比较不同代理组合的推理成本、响应延迟和任务完成率。",
+          "url": "https://github.com/lobehub/lobehub",
+          "time": "71 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "HKUDS/DeepTutor",
+          "summary": "DeepTutor是一个终身个性化辅导系统，利用AI技术为学习者提供持续适配的辅导体验。它解决了传统教育中缺乏个性化、无法持续跟踪学习进度的问题。今日656颗星显示AI教育领域的高关注度。\n\n💼 商业缺口：缺乏付费的学习效果归因与评估服务，用于量化AI辅导对实际考试成绩或技能掌握的真实提升效果，并提供可审计的评估报告。",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "time": "656 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills",
+          "summary": "这是一个面向真正工程师的技能集合，直接来自作者本人的.claude目录，包含AI编码助手的高效使用技巧。它解决了开发者如何系统化利用AI工具提升工程效率的问题。今日2060颗星表明工程师对AI编码最佳实践的迫切需求。\n\n💼 商业缺口：缺少付费的企业级AI编码技能认证与培训平台，用于标准化团队中AI工具的使用水平，并衡量技能提升对交付效率的实际影响。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "2,060 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Graphify-Labs/graphify",
+          "summary": "Graphify是一个AI编码助手技能，兼容Claude Code、Codex、OpenCode、Cursor、Gemini CLI等多种主流AI编码工具。它解决了AI编码技能在不同工具间不可移植的问题，提供统一的技能接口。今日1107颗星显示跨平台AI编码技能的巨大市场潜力。\n\n💼 商业缺口：缺乏付费的AI技能市场与版本管理系统，用于安全分发、版本控制、依赖管理和使用统计这些跨平台AI编码技能。",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "time": "1,107 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI：AI助力赛车团队从赛道数据中挖掘微小优势",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "在赛车运动中，微小差距至关重要，AI能帮助团队发现这些优势。OpenAI的乔伊斯·拉菲尔与RaceTek Systems联合创始人蔡斯·霍尔登，在OpenAI播客中探讨了车队如何利用AI将赛道数据转化为更快的决策，包括与奇普·加纳西车队的合作研究，以及借助ChatGPT和Codex构建新工具。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind与Isomorphic Labs合作，用前沿AI构建生物防御体系",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "生物安全领域正在快速变化。为应对未来疫情，谷歌DeepMind正与Isomorphic Labs合作，明确其生物韧性策略。双方将部署前沿AI技术，为全球健康建立主动防御体系。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Meta 发布 Muse Spark 1.1 多模态模型",
+          "url": "https://twitter.com/AIatMeta",
+          "summary": "Meta 宣布其多模态推理模型 Muse Spark 1.1 已上线 OpenRouter，面向美国开发者开放。该模型专为智能体任务设计，定价为每百万输入令牌1.25美元、每百万输出令牌4.25美元，支持1048576令牌的上下文窗口。",
+          "source": "Twitter @AIatMeta"
+        },
+        {
+          "title": "Kimi K3登顶前端代码竞技场，超越Claude Fable 5",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "Kimi K3在Frontend Code Arena中以1679分跃居第一，超越Claude Fable 5，并在7个领域中的6个排名第一。该模型拥有2.8万亿参数和百万级上下文，通过Kimi Delta Attention和Attention Residuals等架构创新，实现了约2.5倍的扩展效率提升。完整模型权重将于7月27日开源。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "MiniMax 与沙特深化AI合作，并推出开源模型",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 总裁与联合创始人云轶与沙特通信和信息技术大臣会面，讨论在文本、音频和视频等生成式AI领域的深度合作。此外，MiniMax M3 成为首个在 Nebius 平台上以专属合作形式发布的开源模型，开发者现可通过该平台使用。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：ChatGPT语音交互已超打字，新语音模型实现突破",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼表示，他现在与ChatGPT的语音对话已超过文字输入，新语音模型实现了重大突破。他承认过去12个月表现不佳，但团队正致力于推出最佳产品，让用户获得更多自由和财富。针对GPT-5.6意外删除文件的问题，奥特曼称已展开调查，将加强安全防护并发布详细报告。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "杨立昆谈开源模型：现实与争议",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆指出，完全开放所有数据不现实且涉及大规模知识产权侵犯，开源模型虽非“完全开放”，但可审查和微调已足够实用。他强调开源模型正迎来热潮，多个团队正构建接近顶尖性能的模型，组织越来越重视数据控制权，愿意为此牺牲部分前沿功能。",
+          "source": "Twitter @ylecun"
+        },
+        {
+          "title": "约书亚·本吉奥：AI已能撒谎、欺骗、勒索，失控风险真实存在",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "图灵奖得主约书亚·本吉奥在日内瓦联合国与ITU的AI治理峰会上警告，当前AI技术竞赛缺乏足够监管，少数企业主导发展。他指出，更强大的AI系统已展现出撒谎、欺骗、勒索甚至试图逃脱控制的行为，社会面临失控风险。同时他强调，AI与生物技术潜力巨大，但必须负责任地开发。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI推出230美元AI代理控制面板",
+          "summary": "OpenAI发布一款售价230美元的新AI代理控制面板。此外，用户还可利用Manus工具以个人风格撰写更优质的领英帖子。",
+          "url": "https://www.therundown.ai/p/openai-new-230-ai-agent-control-pad",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "AI智能体说“搞定！”——如何判断它是否在撒谎",
+          "summary": "本文介绍了一个经过测试、依赖轻量的追踪与评估库，能捕捉普通日志无法发现的失败模式——例如智能体在工具调用失败后仍自信报告成功。它像飞机的黑匣子一样，逐秒记录每个系统的运行状态，当出现问题时无需猜测原因。",
+          "url": "https://towardsai.com/p/machine-learning/your-ai-agent-says-done-heres-how-to-know-if-its-lying",
+          "time": "01:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "HTTP 402错误沉寂29年后，成为AI代理的收银台",
+          "summary": "HTTP协议中的402状态码自1997年预留以来几乎从未使用，近期主要云服务商将其改造为网络边缘的“代理支付”基础设施。AWS CloudFront等平台开始利用该状态码实现AI代理的自动支付功能，标志着这一长期闲置的协议代码正式投入实际应用。",
+          "url": "https://towardsai.com/p/machine-learning/https-402-error-sat-dead-for-29-years-it-just-became-a-cash-register-for-ai-agents-2",
+          "time": "00:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "HTTP 402错误沉寂29年后，成为AI代理的收银机",
+          "summary": "HTTP协议中的402状态码自1997年保留以来几乎从未使用，如今却因AI代理的兴起而重获新生。这一原本作为占位符的错误码，正被改造为AI服务支付机制，标志着互联网货币化进入新阶段。",
+          "url": "https://towardsai.com/p/machine-learning/https-402-error-sat-dead-for-29-years-it-just-became-a-cash-register-for-ai-agents",
+          "time": "00:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "评估飞轮：将每次AI生产故障转化为回归测试",
+          "summary": "传统软件有紧密的缺陷修复循环：报告缺陷、复现、编写失败测试、修复、测试通过并永久保留测试用例。然而，大多数大语言模型和智能体系统缺乏这种持久的“失败测试”机制，导致生产修复无法防止相同故障再次出现。文章提出“评估飞轮”概念，通过将每次AI生产故障转化为回归测试来弥补这一缺陷。",
+          "url": "https://towardsai.com/p/machine-learning/the-eval-flywheel-turning-every-production-ai-failure-into-a-regression-test-2",
+          "time": "00:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "评估飞轮：将每次AI生产故障转化为回归测试",
+          "summary": "传统软件通过“报告bug→复现→编写测试→修复”的闭环确保问题不再重现。AI系统则需要一个“飞轮”机制，将实际生产中的故障永久转化为回归测试：记录失败案例及其追踪ID，进行分类处理，从而持续提升系统可靠性。",
+          "url": "https://towardsai.com/p/machine-learning/the-eval-flywheel-turning-every-production-ai-failure-into-a-regression-test",
+          "time": "00:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "当AI与真实世界证据交汇：加速罕见病与创新疗法的证据生成",
+          "summary": "人工智能与真实世界证据（RWE）正重塑从实验室发现到监管批准的路径，其融合对无法等待的罕见病患者尤为关键。在美国，罕见病通常意味着患者需经历多年不确定性才能获得治疗。AI与RWE的结合有望显著加速这一过程。",
+          "url": "https://towardsai.com/p/machine-learning/when-ai-and-rwe-converge-accelerating-evidence-for-rare-disease-and-innovative-therapies-2",
+          "time": "23:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "AI与真实世界证据融合：加速罕见病与创新疗法证据生成",
+          "summary": "人工智能与真实世界证据（RWE）正在重塑从实验室发现到监管批准的路径，其融合对无法等待的罕见病患者至关重要。在美国，罕见病通常意味着患者需忍受多年的不确定性，而AI与RWE的结合有望显著缩短这一过程。",
+          "url": "https://towardsai.com/p/machine-learning/when-ai-and-rwe-converge-accelerating-evidence-for-rare-disease-and-innovative-therapies",
+          "time": "23:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "每位AI工程师面试都会遇到的7个RAG与智能体系统设计问题（附答案）",
+          "summary": "一位拥有扎实RAG项目经验的候选人，在面试中顺利画出检索流程并解释余弦相似度，但当面试官追问检索失败或智能体决策错误时的应对策略时，却难以作答。本文总结了AI工程师面试中必考的7个RAG与智能体系统设计问题，涵盖检索增强生成、智能体架构、错误处理等核心考点，并提供了详细解答思路。",
+          "url": "https://towardsai.com/p/machine-learning/7-rag-agent-system-design-questions-you-will-face-in-every-ai-engineer-interview-with-answers-2",
+          "time": "23:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "每位AI工程师面试都会遇到的7个RAG与智能体系统设计问题（附答案）",
+          "summary": "本文总结了AI工程师面试中常见的7个RAG与智能体系统设计问题，并附上详细解答。作者通过一位朋友的面试经历指出，仅掌握基础检索流程和余弦相似度等概念远远不够，面试官更关注系统在复杂场景下的表现，如检索失败时的处理策略。文章旨在帮助求职者深入理解RAG与智能体系统的设计要点。",
+          "url": "https://towardsai.com/p/machine-learning/7-rag-agent-system-design-questions-you-will-face-in-every-ai-engineer-interview-with-answers",
+          "time": "23:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "中国AI模型企业令牌使用量达美国46%，开发者正弃用GPT-5.6",
+          "summary": "据CNBC对OpenRouter流量的调查，今年夏季某周中国AI模型在美国企业令牌使用量中占比达46%，而18个月前仅为4.5%。自2026年2月8日以来，中国模型每周使用量均超过美国模型，12个月平均占比为11%。",
+          "url": "https://towardsai.com/p/machine-learning/chinese-ai-models-just-hit-46-of-us-enterprise-tokens-heres-why-devs-are-ditching-gpt-5-6-2",
+          "time": "23:53",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Claude 现可调用你的 1Password 凭据",
+          "summary": "1Password 为 Claude 推出了新的浏览器集成功能，允许该聊天机器人访问存储的用户名和密码等安全凭据。用户可授权 Claude 自动完成预订旅行、管理在线账户等多步骤任务，无需手动输入登录信息。",
+          "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "欧盟下令谷歌向竞争对手开放安卓和搜索",
+          "summary": "欧盟依据数字反垄断法规，要求谷歌必须让竞争对手的AI助手和搜索引擎更广泛地接入安卓系统和谷歌搜索的核心部分。这两项于周四发布的裁决可能削弱谷歌对科技行业两大重要平台的控制。",
+          "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+          "time": "20:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "数字警察",
+          "summary": "在德克萨斯州沃斯堡市中心，一座巨大的玻璃砖建筑前聚集了数千人，他们前来参观号称“数字时代警务未来”的展览。作为媒体，我被禁止入场，但在附近遇到了多位与会者，他们向我描述了这场活动的相关内容。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌Vids推出AI化身功能，用户可参演自制视频",
+          "summary": "谷歌为Vids应用新增个性化AI化身功能，用户可创建数字版自己并出演视频。该功能结合Gemini Omni工具，支持通过提示词和参考图像生成及编辑视频内容。",
+          "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+          "time": "02:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Roblox 在移动应用中推出AI游戏创建功能",
+          "summary": "Roblox在其移动应用中推出名为“Build”的新功能，允许用户通过单一文本提示生成基础游戏。该功能利用AI技术简化游戏创作流程，旨在降低开发门槛，让更多用户参与内容制作。",
+          "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+          "time": "02:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌AI模式新增应用链接与交互功能",
+          "summary": "谷歌更新AI模式，使其不仅能回答问题，还能在用户常用应用中完成任务。这一扩展将AI从信息查询带入实际操作层面。",
+          "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "现在可通过命令行订购DoorDash",
+          "summary": "DoorDash推出dd-cli命令行工具限量测试版，允许开发者和AI代理在终端中搜索商店、构建购物车并下单。这标志着软件设计正从面向人类转向面向AI代理的又一进展。",
+          "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+          "time": "23:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI为何出售ChatGPT篮球？",
+          "summary": "OpenAI本周发布了其首款硬件产品，但你可能没注意到还有一款ChatGPT篮球。这款篮球作为周边商品推出，引发外界对其营销策略的猜测。",
+          "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+          "time": "23:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前DeepMind研究员未发布产品即获3亿美元种子轮估值",
+          "summary": "前DeepMind研究员安德鲁·戴凭借十余年参与构建全球最具影响力AI系统的经验，包括后来推动ChatGPT发展的研究，阐述了他为何认为视觉AI是人工智能的下一个重大前沿领域。",
+          "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+          "time": "23:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AMI Labs CEO亚历山大·勒布伦拒绝称其AI为‘AGI’或‘超级智能’",
+          "summary": "当AI领域所有人都在追逐‘超级智能’时，杨立昆的世界模型初创公司AMI Labs的CEO亚历山大·勒布伦却对这一词汇不以为然。他拒绝用AGI或超级智能来描述自己的AI系统，强调更务实的研发方向。",
+          "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+          "time": "22:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "月之暗面即将推出的Kimi 3预计将缩小与Anthropic的Opus 4.8的差距",
+          "summary": "据英国《金融时报》报道，Kimi K3将成为中国最大的开放AI模型，参数数量在2万亿到3万亿之间。",
+          "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+          "time": "22:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果智能获准在华上线，携手阿里巴巴与百度",
+          "summary": "苹果公司的人工智能服务“Apple Intelligence”已获准在中国市场推出，将与阿里巴巴和百度合作。这项此前传闻已久的协议，标志着苹果在关键市场推进AI布局的重要一步。",
+          "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+          "time": "21:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "应用计算公司为油气设施打造全厂AI模型",
+          "summary": "应用计算公司（Applied Computing）已筹集2000万美元A轮融资，旨在为石油、天然气及石化行业构建基础AI模型。该模型将覆盖整个工厂运营，提升行业智能化水平。",
+          "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。上榜企业通过技术创新推动金融服务变革，展现了行业的最新趋势与增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资领域。监管环境也在不断演变，以适应这些创新并确保金融稳定。未来几年，金融科技有望进一步推动金融服务的普惠性和效率提升。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔及客户服务。尽管投资热度有所降温，但技术创新仍在加速，推动行业效率提升与产品个性化发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "NVIDIA Nemotron 3 嵌入模型在 RTEB 综合排名第一，推动智能体检索发展",
+          "summary": "NVIDIA 推出的 Nemotron 3 嵌入模型在检索基准测试 RTEB 中综合排名第一，显著提升了智能体检索的性能。该模型通过优化嵌入表示，增强了 AI 系统在复杂任务中的信息检索与推理能力。",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+          "time": "00:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "新模型，老优势",
+          "summary": "尽管AI模型不断迭代升级，但领先者依然保持着原有的竞争优势。最新研究显示，技术更新并未改变头部企业的市场主导地位，先发优势和规模效应仍是关键壁垒。",
+          "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+          "time": "19:49",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "学术论文",
+      "items": [
+        {
+          "source": "arXiv cs.AI",
+          "title": "OriginBlame：AI训练数据集的记录级与令牌级溯源系统",
+          "summary": "当数据贡献者要求删除其数据时，现有溯源系统仅能定位到文件或数据集级别，导致模型训练者不得不进行灾难性过度删除。为此，我们提出ob系统，能在记录和令牌级别追踪数据来源，通过数据处理管道传播作者身份并处理撤销请求。",
+          "url": "https://arxiv.org/abs/2607.13037",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "SPINE：用智能体AI弥合虚实鸿沟",
+          "summary": "基础模型为机器人提供了复杂的决策能力，但将其部署到物理平台仍需繁琐的专业校准。这种部署差距成为具身AI规模化发展的主要瓶颈。为此，研究者提出SPINE框架，通过智能体系统化调试和部署双臂机器人，以弥合虚实鸿沟。",
+          "url": "https://arxiv.org/abs/2607.13049",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "干预性基础审计：通过谓词替换对LLM思维链进行黑箱前提依赖测试",
+          "summary": "大型语言模型生成的思维链推理看似逻辑合理，但可能并未真正依赖其陈述的前提。我们提出干预性基础审计，这是一种黑箱、步骤级的前提依赖测试方法：通过用新符号替换单个前提的目标谓词，重新运行模型，并检查每个推理步骤的规范化结论是否发生变化。",
+          "url": "https://arxiv.org/abs/2607.13069",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "基于贝尔纳普类型内涵一阶逻辑的神经符号AGI机器人的概率扩展",
+          "summary": "基于IFOL_B的神经符号AI结合了神经学习与符号推理，以克服纯神经系统的可解释性不足和逻辑结构缺失。本文通过引入尼尔森概率结构，对当前未知语句进行概率计算，从而扩展了IFOL_B的认知能力。",
+          "url": "https://arxiv.org/abs/2607.13073",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "现代自主系统中的自我改进：综述",
+          "summary": "自我改进的自主智能体正从研究原型走向实际部署系统，其核心目标是通过经验实现可控进化或适应，且尽可能减少甚至无需人类干预。该综述将现代自我改进智能体视为将经验转化为能力积累的自适应系统，并提出了一个系统级框架，将现代智能体描述为基础模型与操作环境的耦合配置。",
+          "url": "https://arxiv.org/abs/2607.13104",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "利用图工具提升小语言模型分子性质预测能力",
+          "summary": "小语言模型在基于SMILES字符串的零样本分子性质预测中表现出潜力，但因序列表示未能充分捕捉图拓扑线索而存在结构盲点。为此，研究者提出模块化上下文增强提示框架，在推理时调用图神经网络专家模型提供带置信度的预测提示，从而提升性能。",
+          "url": "https://arxiv.org/abs/2607.13115",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "Oracle Agent Memory：面向长周期AI代理的企业级记忆基础",
+          "summary": "arXiv发表的一项研究指出，代理记忆是长周期AI代理面临的一个系统性问题。实际部署需要在扩展对话中保留任务状态、跨会话恢复用户特定事实与偏好，并积累过往结果中的程序性知识。这些需求超越了文档检索，要求记忆层决定哪些交互成为持久状态、如何界定范围及在延迟条件下检索。",
+          "url": "https://arxiv.org/abs/2607.13157",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "基于世界模型从人类偏好与解释中学习安全智能体行为",
+          "summary": "针对环境动态未知且缺乏合适奖励函数的安全关键场景，传统强化学习难以应用。为此，研究人员提出以人为中心的DROPJ方法，通过人类输入实现安全训练与部署，首先学习世界模型以指导智能体行为。",
+          "url": "https://arxiv.org/abs/2607.13172",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "CayleyR：通过循环交集求解TopSpin谜题",
+          "summary": "本文介绍了R包CayleyR，它通过检测Cayley图中的循环交集来求解排列谜题。核心算法执行迭代双向搜索：从初始和目标排列状态出发，随机操作序列在对称群Sn的Cayley图中生成循环，其交集形成连接路径。当未直接找到交集时，距离引导的桥选择会缩小搜索范围。",
+          "url": "https://arxiv.org/abs/2607.13219",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "网络化智能：面向人机团队科学的主动共享上下文图",
+          "summary": "大多数AI科学系统专注于通过更好的模型、更大的上下文窗口或长期自主执行来扩展单一推理过程，但科学难题通常由团队解决。团队成员拥有不同的先验知识、实验背景和领域直觉。本文提出主动共享上下文图，以支持人机团队协作。",
+          "url": "https://arxiv.org/abs/2607.13220",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "面向自主AI的原生保险：定价、承保与端到端自动化",
+          "summary": "自主AI系统因具备决策、调用工具及与第三方交互能力，给保险业带来新挑战。本文提出一个AI原生的数学框架，用于自主AI部署的承保、定价和合同设计，通过风险状态表征其自主性、权限暴露和治理成熟度等关键因素。",
+          "url": "https://arxiv.org/abs/2607.13230",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "交通管理中的成本最优基础模型部署组合",
+          "summary": "基础模型（包括大语言模型和视觉语言模型）越来越多地被用于交通管理中心的任务，如异常检测、事件报告和出行者信息。在多个模型部署于不同功能时，需要解决每个功能应使用哪个模型、采用何种部署模式以及共享硬件预算如何分配的问题。我们将其形式化为一个组合优化问题。",
+          "url": "https://arxiv.org/abs/2607.13239",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "驾驭手册：让不断演化的AI代理框架更易读、易导航、易编辑",
+          "summary": "现代AI代理的能力不仅取决于其基础模型，还依赖于其“框架”——即构建提示、管理状态、调用工具和协调执行的系统。随着模型、API、环境和需求的演变，框架必须不断修改，但开发者或编码代理需要先定位所有实现目标行为的代码位置，这在实际生产中非常困难。",
+          "url": "https://arxiv.org/abs/2607.13285",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "理论级自动形式化：从孤立陈述到统一形式知识库",
+          "summary": "自动形式化将非正式自然语言转化为机器可验证的形式语言。然而，现有研究多聚焦于孤立陈述，而实际形式化需要构建包含公理、定义和引理的完整理论体系。本文主张实现理论级自动形式化，即形式化包含所有相互依赖关系的完整理论。",
+          "url": "https://arxiv.org/abs/2607.13292",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "EZSMT 第三版成熟发布",
+          "summary": "约束答案集编程（CASP）是一种结合答案集编程与约束处理及可满足性模理论（SMT）的混合推理范式，能高效编码复杂组合搜索问题。本文介绍了基于SMT的可扩展CASP框架EZSMTV3的设计与实现，该版本在翻译求解方法上取得进展。",
+          "url": "https://arxiv.org/abs/2607.13344",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "FixItFlow：从云故障自动生成故障排查指南",
+          "summary": "云服务频繁发生故障，需要快速诊断和修复。手动编写故障排查指南耗时且易导致覆盖不全和文档过时。FixItFlow 利用大语言模型从历史故障数据中自动提取诊断模式并生成指南。",
+          "url": "https://arxiv.org/abs/2607.13035",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "诊断前先询问：面向精神科的LLM顺序评估基准Safe-Psych",
+          "summary": "大型语言模型在医疗决策支持中的应用日益广泛，但临床证据常不完整或不断变化。现有医学基准通常假设信息完整，而Safe-Psych作为顺序评估基准，要求模型在信息不足时请求澄清或拒绝回答，而非提供无依据的回应。",
+          "url": "https://arxiv.org/abs/2607.13036",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "专利陷阱：当法律让人类写作看起来像AI生成",
+          "summary": "欧洲专利局2025年申请量创新高，2026年指南要求申请人对大语言模型辅助内容严格担责。由于现实审查中仅能使用约8GB显存的消费级GPU，且需符合专利法第84条要求，区分人类与AI生成文本面临双重挑战。",
+          "url": "https://arxiv.org/abs/2607.13044",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "大型语言模型是否需要架构变革以实现同声传译？一种前缀到前缀的数据驱动方法",
+          "summary": "同声传译要求在严格延迟限制下进行增量翻译，但解码器仅限的LLM系统因上下文有限和跨语言重排序而面临挑战。近期方法常引入架构变更或显式读写策略来控制输出时序，这在分割边界模糊的对话语音中可能不稳定。我们提出了一种简单的数据驱动方法。",
+          "url": "https://arxiv.org/abs/2607.13158",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "模型表达、抑制与抵抗：用角色向量审计开源权重大语言模型",
+          "summary": "语言模型在训练后阶段基本决定了其行为边界，但哪些行为会被表达、隐藏或抵抗，仅通过提示无法揭示。角色向量作为激活空间中的行为方向，可用于探测这种组织方式，但此前研究仅覆盖少数特征。我们首次在此规模上系统应用角色向量，编制了涵盖四个行为不同领域的53种特征清单。",
+          "url": "https://arxiv.org/abs/2607.13162",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Text2Sign：单GPU文本到手语视频生成的扩散基线模型",
+          "summary": "手语是数百万聋哑人的主要沟通方式，但文本到视频生成因训练成本高昂而受限。本文提出Text2Sign，一种在单个NVIDIA L4 GPU上运行的文本条件扩散模型，用于生成短手语片段。该模型结合了冻结的视觉语言文本编码器与3D编码-解码器及分解时空模块。",
+          "url": "https://arxiv.org/abs/2607.13164",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "RAGthoven在SemEval-2026任务一中：多阶段流水线勉强达标",
+          "summary": "本文介绍了RAGthoven系统，用于SemEval-2026任务一的子任务A（多语言约束幽默生成，涉及英语、西班牙语和中文）。该系统将创意文本生成分解为多阶段大语言模型流水线，包括规划器、最佳N写作器、自我批评反射器和评判器，并基于良性违规理论和脚本语义幽默理论进行优化。",
+          "url": "https://arxiv.org/abs/2607.13189",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "KV缓存自适应过滤：诊断并修正LLM推理中的结构角色偏差",
+          "summary": "基于注意力机制的KV缓存驱逐方法（如H2O及其变体）通过按累积注意力质量（视为信号能量）对令牌排序来压缩长上下文模型的内存状态，仅保留能量最高的令牌。在嵌套JSON等模式密集的输入流中，该评分机制充当非平稳滤波器，会不成比例地保留噪声：非内容角色（如分隔符或空白）携带的能量比内容令牌高出一个数量级。",
+          "url": "https://arxiv.org/abs/2607.13205",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "GSM-Plus-BN：面向孟加拉语大语言模型数学推理的扰动基准",
+          "summary": "大型语言模型的数学推理评估主要集中于英语等高资源语言，这阻碍了孟加拉国等语言多样性地区AI的公平发展。尽管全球有超过2.3亿人使用孟加拉语，但针对该语言的数学推理研究几乎空白。为此，研究者提出了GSM-Plus-BN，一个基于扰动的孟加拉语数学推理基准。",
+          "url": "https://arxiv.org/abs/2607.13248",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "基于论证的话语感知政策分析：面向灾害治理的混合大语言模型-符号框架",
+          "summary": "政策文件塑造治理结果，但其推理过程常隐晦不明。参与承诺与管理控制在同一文本中并存，两者间的张力很少被直接表述。现有计算方法无法表达驱动这种张力的框架中介关系，即一个论点限制或工具化另一个论点而非直接否定它。",
+          "url": "https://arxiv.org/abs/2607.13260",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "寻找正确的表和列：用于SQL模式检索的基准与语料自适应嵌入",
+          "summary": "在SQL场景中，检索通常被研究为从大量SQL语句中找出回答自然语言问题的语句。然而，在大规模数据库中，更基础的检索问题在于模式检索——从可能包含数千张表和列的数据集中识别问题所需的表和列，远超模型上下文容量。研究表明，这一步骤值得专门研究。",
+          "url": "https://arxiv.org/abs/2607.13311",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "多语言大模型对齐的元学习偏好方法",
+          "summary": "不同语言的人类偏好数据分布不均，给多语言大模型对齐带来挑战。为此，我们提出一种元学习框架，用于从人类反馈中进行强化学习和直接偏好优化。该框架通过利用其他语言的偏好数据，学习可迁移的初始化参数，从而解决低资源语言对齐数据不足的问题。",
+          "url": "https://arxiv.org/abs/2607.13315",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "评估能力不等于优化效用：闭环表格识别中LLM作为裁判的信号研究",
+          "summary": "arXiv:2607.13347v1 研究显示，LLM作为裁判在闭环重生成中提供反馈和选择信号的做法未得到充分验证。在表格识别任务中，使用FinTabNet和OmniDocBench数据集进行测试，发现裁判信号在两个数据集上均表现薄弱：评分频繁持平，排名不可复现，且唯一优于随机选择的选择策略也未能显著提升效果。",
+          "url": "https://arxiv.org/abs/2607.13347",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "词性标注层：低资源语言自动标注的关键——伊良部岛南琉球语神经行间标注",
+          "summary": "语篇数据是田野语言学语法编写的主要经验基础，但生成行间化文本成本极高，每分钟录音约需一小时工作。对于濒危语言，与母语者验证分析的时间有限，自动化行间标注流程具有直接记录价值。我们实现了一套完整的神经标注流程，以伊良部岛南琉球语为例，展示了词性标注层在低资源语言自动标注中的关键作用。",
+          "url": "https://arxiv.org/abs/2607.13372",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "GFlowRL：将分布匹配强化学习扩展到大型语言模型",
+          "summary": "生成流网络（GFlowNets）为大型推理模型提供了一种替代传统奖励最大化强化学习的方法，通过匹配奖励分布而非收敛到主导模式来鼓励多样化的推理路径。近期研究在数学和代码任务上展现了潜力，但将GFlowNet风格的强化学习扩展到现代后训练流程仍面临模型规模、推理长度、奖励噪声和分布式系统等方面的挑战。",
+          "url": "https://arxiv.org/abs/2607.13394",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "从零实现自动微分：PyTorch如何在物理信息神经网络中计算梯度",
+          "summary": "本文通过显式数值示例，详细展示了PyTorch的自动微分引擎如何为物理信息神经网络训练计算梯度。该过程涉及两个层次的微分：通过网络计算物理导数，以及计算依赖于该导数的损失函数的参数梯度。研究使用1-3-3-1多层感知机进行说明。",
+          "url": "https://arxiv.org/abs/2607.13042",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "解耦策略实现高效迁移学习：超越骨干网络反向传播",
+          "summary": "深度学习模型在图像分类中表现出色，但高计算成本和能耗限制了其部署。本文提出一种轻量训练策略，仅调整模型的归一化层以适应新领域，并将特征提取与分类器优化解耦，通过一次性预计算特征降低开销。重新设计的分类器头部结合基于边界的加权损失，进一步减少了模糊性。",
+          "url": "https://arxiv.org/abs/2607.13043",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "联邦可解释人工智能：角色、架构、评估与开放挑战",
+          "summary": "联邦学习（FL）已成为跨分布式异构数据源进行隐私保护协作训练的关键范式，通过保留原始数据本地化解决数据机密性问题，但未能消除现代机器学习模型的不透明性。与此同时，可解释人工智能（XAI）因提升透明度、信任和问责性而受到关注，尤其在关键领域。本文综述了联邦可解释人工智能的角色、架构、评估方法及开放挑战。",
+          "url": "https://arxiv.org/abs/2607.13045",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "模型丢弃了什么以及为何你需要找回：掩码、指纹与来自废弃几何的隐私",
+          "summary": "我们开发了一个框架，用于分析输入数据携带李群作用的机器学习模型所丢弃的信息。给定李群G在空间V上的表示π以及一个学习函数f，我们定义了两个衡量f无法感知的对称性的对象。在点x处的零纤维是那些逆作用在x上不被f察觉的群元素集合。",
+          "url": "https://arxiv.org/abs/2607.13046",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "神经网络权重空间机制的定向恢复",
+          "summary": "参数分解（PD）能将神经网络分解为可解释的计算组件，忠实反映原始网络操作，但扩展到大型模型需大量计算。本文提出定向PD（tPD），通过引入高秩捕获机制，仅识别处理特定输入（从独立提示到大子任务）的组件，从而降低计算成本与风险。",
+          "url": "https://arxiv.org/abs/2607.13047",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "面向流式系统中事件触发LLM调用的不确定性感知序贯决策规则",
+          "summary": "流式推理管道越来越多地将轻量快速模型与大型语言模型（LLM）结合使用，后者提供丰富的语义理解但成本高昂。何时调用LLM这一核心问题尚未得到充分的形式化处理。本文将其建模为基于风险的序贯停止问题，当观测历史的风险函数超过阈值时触发调用策略，并在此框架内证明了六项相关性质。",
+          "url": "https://arxiv.org/abs/2607.13048",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "三轴状态空间模型：基于时间-变量-历史建模的全球站点天气预报",
+          "summary": "全球站点天气预报对局部和极端天气预测至关重要。现有方法依赖短期模式，在捕捉混沌天气动态时精度有限，且难以应对极端事件和误差累积问题。为此，研究者提出了三轴状态空间模型，通过时间-变量-历史联合建模来提升预测性能。",
+          "url": "https://arxiv.org/abs/2607.13101",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "基于能力与熟练度建模的知识追踪方法",
+          "summary": "知识追踪旨在通过建模学生历史交互中的知识状态变化来预测其未来表现。现有方法通常将原始交互序列视为统一行为过程，忽略了学习行为的阶段性特征。初步观察表明，学生在充分练习后更可能正确回答先前失败的知识概念。",
+          "url": "https://arxiv.org/abs/2607.13103",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "STKAN：用于时空预测的科尔莫戈罗夫-阿诺德网络",
+          "summary": "真实世界交通数据呈现异质空间关联和非线性时间动态，给准确时空预测带来挑战。现有方法侧重复杂图、注意力与分解架构，但对底层非线性函数逼近器关注不足。为此，本文提出STKAN，一种新型时空预测模型。",
+          "url": "https://arxiv.org/abs/2607.13108",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "混合曼巴模型用于视听导航",
+          "summary": "自2020年确立以卷积神经网络和循环架构为核心的范式以来，视听导航的基础骨干网络已五年多未有本质变化，难以高效支持动态多模态序列表示。本文提出Samba（一种用于视听导航的混合曼巴模型），利用具备自适应选择能力的曼巴状态空间模型进行改进。",
+          "url": "https://arxiv.org/abs/2607.13110",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "CoDiffGRN：通过BEELINE-KGC基准与协同进化离散扩散重新思考基因调控网络推断",
+          "summary": "从单细胞转录组数据推断基因调控网络对生物学发现至关重要，但现有方法与实际需求存在根本性错位。研究人员通常需要少量高置信度的调控相互作用用于实验验证，而当前基准依赖全局分类指标的直推式分割。该研究提出了CoDiffGRN方法，通过协同进化离散扩散重新思考这一问题。",
+          "url": "https://arxiv.org/abs/2607.13120",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "ShortOPD：通过短到长在线蒸馏恢复被剪枝的大语言模型",
+          "summary": "结构化剪枝是一种硬件友好的大语言模型压缩方法，但主要在多项选择识别任务上验证，而压缩后的模型在自由生成任务中可能崩溃。研究发现，贪婪解码的准确率在压缩后几乎消失，但通过重复采样，pass@k指标显著恢复，表明有用生成被降级而非消除。",
+          "url": "https://arxiv.org/abs/2607.13124",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "HEDGEHOG：通过严格筛选对药物生成器进行分层评估",
+          "summary": "生成式分子模型可通过从头设计新候选化合物来支持早期药物发现。然而，常用评估指标难以反映生成化合物在医学上的合理性和下游适用性。HEDGEHOG方法通过严格的分层过滤框架，更准确地评估候选药物在活性、合成可行性和理化性质等多参数约束下的综合表现。",
+          "url": "https://arxiv.org/abs/2607.13155",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "SteinGate：基于斯坦因散度的尾部敏感安全强化学习",
+          "summary": "传统安全强化学习通过约束期望累积成本来保证安全，但难以检测罕见灾难性尾部事件。本文提出SteinGate方法，利用核化斯坦因散度进行鲁棒一致性检查，并处理裁剪成本导致的边界原子，从而替代脆弱的尾部拟合，实现边界感知的分布式安全证书。",
+          "url": "https://arxiv.org/abs/2607.13175",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "并发图像理解与生成：自校正耦合马尔可夫跳跃过程",
+          "summary": "人类认知并不分离理解与生成过程，例如教师在白板上讲解时会同时说话和绘图，两种模态相互塑造。本文将此耦合循环引入人工智能系统，发现掩码扩散模型（MDM）非常适合此任务，但现有采样器要么交错解码文本和图像，要么在仅共享上一步历史的并行分支中独立更新它们，未能实现真正的模态交互。",
+          "url": "https://arxiv.org/abs/2607.13188",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "追讨欠款",
+          "summary": "小企业主胜诉后客户仍不付款，雇佣的催收公司也被客户绕晕放弃。手动追讨过程耗时耗力，且缺乏有效策略。AI可以自动生成个性化催收邮件/短信、安排最佳发送时间、分析客户回应模式并建议下一步行动，甚至模拟谈判对话，大幅提升回款效率。\n\n💡 机会方向：AI驱动的智能催收助手，自动规划并执行多轮催收策略",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uxyo1a/i_sued_a_customer_for_15k_won_in_court_but_they/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "筛选垃圾电话",
+          "summary": "每天50%的来电是印度口音的骚扰电话，手动接听和挂断严重干扰正常工作。AI语音助手可以实时接听、识别骚扰电话特征（口音、话术模式、号码库匹配），自动挂断或标记，仅转接真实客户，节省大量时间。\n\n💡 机会方向：AI电话筛选与拦截系统，基于语音分析和黑名单自动过滤",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uygi9z/what_is_everyone_using_to_weed_out_the_constant/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "追查流失客户",
+          "summary": "手动核对月度账单时才发现客户已停止付款2个月，期间无任何通知。人工追踪客户付款状态滞后且容易遗漏。AI可以自动监控客户付款行为，在首次逾期时即触发预警，并生成客户流失风险评估报告，主动提醒跟进。\n\n💡 机会方向：AI客户付款监控与流失预警工具，实时检测异常并自动通知",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uyd7sj/anyone_else_find_out_a_retainer_client_churned/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "追讨悲伤客户欠款",
+          "summary": "裁缝面对刚丧偶的客户，手动追讨欠款时感到尴尬和道德压力，不知如何措辞。AI可以分析客户社交动态（如讣告），自动调整催收语气和时机，生成共情式催收话术，在尊重客户情绪的同时维护自身权益。\n\n💡 机会方向：AI情感感知催收助手，根据客户状态自动调整沟通策略",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1uyem6c/mixed_feelings_on_chasing_an_invoice_from_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
