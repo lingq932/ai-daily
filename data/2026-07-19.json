@@ -1,0 +1,380 @@
+{
+  "date": "2026-07-19",
+  "timeRange": "2026-07-18 09:00 ~ 2026-07-19 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Kimi 相关报道",
+          "coverage": [
+            {
+              "source": "HN Show",
+              "summary": "我想试试kimi k3。它把我简单的一句话提示变成了……",
+              "url": "https://ilya-papers-quest.naigap.com/#/"
+            },
+            {
+              "source": "GitHub Trending",
+              "summary": "这是月之暗面推出的Kimi Code CLI，一个命令行AI代理工具，可直接在终端中辅助编程、代码审查等任务。它代表了AI从聊天界面走向开发者工作流的趋势。今日",
+              "url": "https://github.com/tirth8205/code-review-graph"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "中国公司月之暗面本周发布了新版本的Kimi模型，引发了对“全面AI共产主义”的担忧。",
+              "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "伊利亚·苏茨克维的AI阅读清单变成了一款学习RPG游戏——使用kimi k3",
+          "summary": "我想试试kimi k3。它把我简单的一句话提示变成了……",
+          "url": "https://ilya-papers-quest.naigap.com/#/",
+          "time": "06:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Graph Context Engine：用于可靠AI的图上下文引擎",
+          "summary": "过去两年一直在做这个。网站上有一个视频解释了……",
+          "url": "https://kritama.com",
+          "time": "05:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Medows——面向医生查房的AI临床工作空间",
+          "summary": "文章URL：https://www.medows.ai/demo 评论URL：https://news.ycombinator.c",
+          "url": "https://www.medows.ai/demo",
+          "time": "03:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Peek-CLI：让Claude Code迭代前端设计",
+          "summary": "文章URL：https://github.com/puffinsoft/peek-cli 评论URL：https://news.y",
+          "url": "https://github.com/puffinsoft/peek-cli",
+          "time": "03:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AI构建应用的预发布扫描器（它给自己打了60/100分）",
+          "summary": "文章URL：https://shippingszn.com/ 评论URL：https://news.ycombinator.com",
+          "url": "https://shippingszn.com/",
+          "time": "02:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Warden——面向智能体RAG的授权网关",
+          "summary": "文章URL：https://github.com/geminimir/warden 评论URL：https://news.ycom",
+          "url": "https://github.com/geminimir/warden",
+          "time": "01:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "用于牧羊的强化学习环境",
+          "summary": "创建了一个新的强化学习环境来测试世界模型。它的难度足以……",
+          "url": "https://github.com/midhunharikumar/sheepdog-rl",
+          "time": "00:45",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Robbyant/lingbot-map",
+          "summary": "这是一个前馈式3D基础模型，用于从流式数据中重建场景。它能够实时处理连续输入的数据流并生成三维场景表示，适用于机器人导航、自动驾驶等需要动态环境感知的AI应用。今日获得831颗星，表明其在3D视觉与AI结合领域有较高关注度。\n\n💼 商业缺口：缺乏针对流式3D重建结果的实时质量审计与合规性验证工具，例如在自动驾驶场景中验证重建场景是否符合安全标准。",
+          "url": "https://github.com/Robbyant/lingbot-map",
+          "time": "831 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rohitg00/ai-engineering-from-scratch",
+          "summary": "这是一个从零开始学习AI工程化的教程项目，涵盖构建、部署和交付AI系统的完整流程。它帮助开发者掌握AI工程实践，而非仅停留在理论层面。今日获得191颗星，反映了开发者对系统性AI工程知识的需求。\n\n💼 商业缺口：缺少配套的AI工程成本估算与资源优化付费工具，帮助团队在构建前评估GPU/API开销。",
+          "url": "https://github.com/apache/ossie",
+          "time": "47 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "elder-plinius/G0DM0D3",
+          "summary": "这是一个名为“解放AI聊天”的项目，旨在提供不受限制的AI对话体验。它可能涉及绕过内容过滤或实现更自由的交互模式。今日获得69颗星，表明部分用户对AI对话的开放性和自主性有强烈需求。\n\n💼 商业缺口：缺乏针对此类“解放”式AI聊天的安全审计与内容治理付费服务，以平衡自由表达与合规风险。",
+          "url": "https://github.com/PostHog/posthog",
+          "time": "338 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "lyogavin/airllm",
+          "summary": "AirLLM能够在仅4GB显存的GPU上运行70B参数的大语言模型推理，极大降低了LLM部署的硬件门槛。它通过优化内存和计算策略，使消费级显卡也能运行大型模型。今日获得161颗星，说明低成本LLM推理是当前热点。\n\n💼 商业缺口：缺少针对AirLLM等低显存推理方案的模型性能基准测试与成本对比付费报告，帮助用户选择最佳部署配置。",
+          "url": "https://github.com/ibelick/ui-skills",
+          "time": "123 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "KnockOutEZ/wigolo",
+          "summary": "这是一个专为AI编码代理设计的本地优先搜索、抓取、爬取和研究工具。它帮助AI代理高效获取网络信息，增强其自主决策能力。今日获得203颗星，显示AI代理工具链需求旺盛。\n\n💼 商业缺口：缺乏针对AI代理网络搜索行为的合规审计与数据溯源付费服务，确保抓取内容不侵犯版权或违反网站政策。",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "191 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "MoonshotAI/kimi-cli",
+          "summary": "这是月之暗面推出的Kimi Code CLI，一个命令行AI代理工具，可直接在终端中辅助编程、代码审查等任务。它代表了AI从聊天界面走向开发者工作流的趋势。今日获得65颗星，表明开发者对CLI形式AI助手有持续兴趣。\n\n💼 商业缺口：缺少针对CLI AI代理的代码安全审计与依赖漏洞扫描付费插件，防止AI生成的代码引入安全隐患。",
+          "url": "https://github.com/tirth8205/code-review-graph",
+          "time": "355 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Kimi K3 性能媲美 Fable 5，价格仅为其35%",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "Kimi K3 在软件工程任务中表现与 Fable 5 相当，但成本仅约35%，在高 pass@k 指标上甚至更优。用户用其仅花费3.24美元就克隆了《CS:GO》与《传送门》结合的FPS游戏，而同等任务使用Fable 5需10.80美元。此外，K3还成功构建了3D地球仪表盘、开放世界探索游戏及《动物森友会》风格游戏，展现出强大的前端与游戏开发能力。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "杨立昆批评开放权重模型“本质上是减速主义”言论",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆驳斥了“开放权重模型本质上是减速主义”的说法，称其毫无逻辑且与行业50年经验相悖。他认为开放权重模型能促进权力分散与创新，而非导致停滞。同时，他批评AI安全派的预测屡屡失准，呼吁关注现实问题而非虚构的未来风险。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "戴夫·艾格斯告诉OpenAI员工：ChatGPT正在‘沉默一代人’",
+          "summary": "去年，山姆·奥特曼邀请作家戴夫·艾格斯为约200名OpenAI员工发表演讲。艾格斯创作了无数小说、剧本和新闻作品，并创办了多家支持作家与艺术的机构。他在演讲中批评ChatGPT正在“沉默一代人”，引发广泛关注。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation",
+          "time": "04:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "每位读者必备的应用、设备和工具",
+          "summary": "欢迎阅读第136期《Installer》指南，为你推荐全球最优质、最具Verge特色的产品。本周我一直在录制下一季的《版本历史》节目。",
+          "url": "https://www.theverge.com/tech/967544/best-apps-gadgets-reading-installer",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Kimi：威胁还是隐患？",
+          "summary": "中国公司月之暗面本周发布了新版本的Kimi模型，引发了对“全面AI共产主义”的担忧。",
+          "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+          "time": "02:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "尼尔·里默认为AI资金将回流",
+          "summary": "风险投资家、Index Ventures联合创始人尼尔·里默预测，硅谷由AI创造的巨额财富将不得不以自愿或非自愿的方式重新分配。",
+          "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+          "time": "12:47",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、保险科技等领域。入选企业通过技术创新推动金融服务变革，展现了行业最新趋势与增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统金融机构与科技公司加速融合，推动支付、借贷和财富管理领域的创新。监管环境日益严格，同时人工智能和大数据技术的应用正在重塑用户体验和风险管理模式。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业竞相利用人工智能、大数据和自动化技术优化承保、理赔和客户服务。尽管投资有所降温，但技术创新仍在加速，推动行业向更高效、个性化的方向发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "离谱的AI垃圾竟赢得DeepMind/Kaggle 2.5万美元大奖？",
+          "summary": "谷歌DeepMind赞助的Kaggle挑战赛“衡量通往AGI的进展——认知能力”要求参赛者设计基于认知科学的新AI基准，并于本周公布结果。有证据表明，DeepMind和Kaggle将一个无意义的数字生成机器及一系列毫无根据的声称评为大奖得主，授予2.5万美元奖金。分析指出，该作品本意是用替代方法测试大语言模型，但实际产出毫无价值。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
+          "time": "23:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "GPT-2 Small中“特朗普”的嵌入几何：离散与连续最近邻对比",
+          "summary": "该可视化分析了GPT-2 Small静态嵌入表中“特朗普”一词的几何结构，未考虑注意力或上下文。通过t-SNE投影和两种嵌入表示的比较发现，离散化最近邻主要产生“米特”、“希拉里”等泛政治术语，而连续表示则揭示更丰富的语义关联。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/",
+          "time": "05:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "GPT-2词嵌入空间交互地图：点击任意词元探索",
+          "summary": "该交互式地图展示了GPT-2-small模型中32,070个字母词元的嵌入空间关系，无需前向传播或上下文即可使用。用户可通过缩放、点击词元查看其最近连接，或搜索跳转至任意位置。布局基于嵌入表压缩表示的t-SNE算法，边为最小生成树，每条线代表真实的最近邻关系。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/",
+          "time": "06:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "深度学习攻克单细胞分析：基于scRNA-seq的深度学习综述",
+          "summary": "本文综述了深度学习在单细胞RNA测序分析中的应用，涵盖6个子类别的25种不同方法。作者整理了一份包含类别、方法、目的、架构、指标、解释及创新点的表格，以总结这些方法的核心内容。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v06nc1/deep_learning_tackles_singlecell_analysis_a/",
+          "time": "04:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "AAAI 27 人工智能对齐方向征稿",
+          "summary": "AAAI 2027会议开设了人工智能对齐方向（AI Alignment track），目前可在OpenReview上提交。该方向与人工智能社会影响、创新应用等并列，是会议新增的投稿主题之一。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uzxrn4/aaai_27_ai_alignment_track_d/",
+          "time": "22:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "TabFM Studio：在电子表格中点选预测的表格基础模型工具，完全本地运行",
+          "summary": "开发者创建了一个小型网页应用，无需编写代码即可在电子表格上运行表格基础模型（目前仅支持Google的TabFM）。用户只需拖入CSV或Excel文件，点击列标题标记预测目标，即可自动对空白单元格进行预测。该工具旨在让非程序员也能轻松使用这些模型。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uzx1el/tabfm_studio_pointandclick_predictions_on/",
+          "time": "22:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "在S26 Ultra上测试Qwen 35B MoE模型，精度无损",
+          "summary": "有人在S26 Ultra手机上测试了私有Qwen 35B MoE大模型，早期结果显示模型可适配设备内存。优化后输入处理速度约90 token/秒，输出生成约8 token/秒。该测试者非博士出身，凭兴趣自学AI，并邀请合作者共同测试。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
+          "time": "09:40",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动记账与对账",
+          "summary": "小企业主（如第6帖）计划开展单人业务，需要手动记录收支、核对银行流水，过程繁琐且易出错。AI可自动从银行API抓取交易记录，分类并生成财务报表，减少手工操作和错误。\n\n💡 机会方向：面向个体户的AI自动记账与对账SaaS工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v04blb/book_keeping/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "网站搭建与SEO优化",
+          "summary": "第2帖的家具卖家从Facebook转向自建网站，需手动设计页面、配置Google Reviews和SEO。AI可一键生成专业网站模板，自动优化关键词和元标签，并集成评价系统。\n\n💡 机会方向：AI驱动的极简建站与本地SEO优化平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v09aal/website/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "寻找海外供应商",
+          "summary": "第5帖的意大利创业者需手动搜索小型意大利生产商，耗时且信息零散。AI可聚合全球B2B数据，通过自然语言描述需求（如“都灵手工皮革作坊”），自动匹配并验证供应商资质。\n\n💡 机会方向：AI驱动的跨境供应商智能匹配与验证引擎",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v07832/how_do_you_find_small_italian_producers/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社交媒体内容营销",
+          "summary": "第26帖的SaaS创始人作为单人创业者，没时间手动制作和发布营销视频。AI可自动分析产品卖点，生成短视频脚本、配音和字幕，并定时发布到YouTube/社交媒体。\n\n💡 机会方向：面向单人创始人的AI社交媒体内容工厂",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=48957982",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "库存与仓库临时租赁",
+          "summary": "第13帖的 flooring 商家需手动联系仓库寻找1-3天短期租赁，沟通成本高。AI可聚合本地仓储平台，根据货物体积、日期和位置自动匹配可用空间并完成预订。\n\n💡 机会方向：按需短期仓库租赁的AI匹配与预订平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v0a300/13_day_warehouse_space_rental/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
