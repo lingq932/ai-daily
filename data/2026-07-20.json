@@ -1,0 +1,370 @@
+{
+  "date": "2026-07-20",
+  "timeRange": "2026-07-19 09:00 ~ 2026-07-20 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Headroom – 测量你的GPU在本地AI场景下的真实带宽上限",
+          "summary": "一个用于测量GPU在本地AI推理中实际内存带宽峰值的工具。",
+          "url": "https://ar5en1c.github.io/headroom/",
+          "time": "08:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "用5行代码部署AI智能体",
+          "summary": "一个极简的AI智能体部署工具，仅需5行代码即可完成部署。",
+          "url": "https://www.custodianlabs.io",
+          "time": "06:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Promptdna.org – 一个包含可组合提示块和MCP的社区库",
+          "summary": "一个社区驱动的提示词（prompt）组件库，支持可组合的提示块和MCP协议。",
+          "url": "https://promptdna.org",
+          "time": "06:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一个自托管的AI，将Hacker News转化为每日简报",
+          "summary": "一个自托管AI工具，每天自动将Hacker News上的优质内容整理成简报。",
+          "url": "https://github.com/RecNes/hn-ai-summarizer",
+          "time": "06:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Rate A Human – AI智能体评价它们为之工作的人类",
+          "summary": "一个让AI智能体反向评价人类工作表现的工具，每天针对不同用例进行评分。",
+          "url": "https://rateahuman.xyz/",
+          "time": "06:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一个通过对话即可修改的数据库模式，无需模型编写SQL",
+          "summary": "一个可变的CRM系统，通过自然语言对话修改数据库模式，无需手动编写SQL。",
+          "url": "https://github.com/leandrobon/mutable-crm",
+          "time": "04:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Chalie – AI同伴而非员工",
+          "summary": "一个定位为AI同伴而非雇员的工具，旨在提供协作而非替代。",
+          "url": "https://github.com/chalie-ai/chalie",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Bothread – 多个AI编程智能体共享一个仓库，无冲突协作",
+          "summary": "一个允许多个AI编程智能体同时对话、共享同一代码仓库且避免冲突的工具。",
+          "url": "https://github.com/AdamACE9/bothread",
+          "time": "03:09",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "bojieli/ai-agent-book | 《深入理解 AI Agent：设计原理与工程实践》",
+          "summary": "这是一本关于AI Agent的书籍开源仓库，包含全书正文、编译版PDF以及配套代码。作者李博杰系统讲解了AI Agent的设计原理与工程实践，适合希望深入理解Agent架构的开发者。今日获得1734颗星，说明社区对Agent理论+实践结合的内容需求旺盛。\n\n💼 商业缺口：缺少面向企业的Agent设计模式合规性审计工具，用于验证书中架构是否符合行业安全标准。",
+          "url": "https://github.com/bojieli/ai-agent-book",
+          "time": "1,734 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "tirth8205/code-review-graph | 代码审查图",
+          "summary": "这是一个本地优先的代码智能图工具，专为MCP和CLI设计，能构建持久化的代码关系映射。它帮助开发者理解代码库的结构和依赖关系，提升代码审查效率。今日663颗星表明开发者对本地化、离线可用的代码分析工具需求强烈。\n\n💼 商业缺口：缺少基于该图结构的代码变更影响分析SaaS服务，用于预测修改后的连锁故障风险。",
+          "url": "https://github.com/tirth8205/code-review-graph",
+          "time": "663 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "kvcache-ai/ktransformers | KTransformers：异构LLM推理/微调优化框架",
+          "summary": "这是一个灵活的框架，用于体验异构大语言模型推理和微调优化。它支持在不同硬件上高效运行LLM，降低部署门槛。今日360颗星说明社区对跨平台、异构计算下的LLM优化方案持续关注。\n\n💼 商业缺口：缺少针对异构部署场景的自动化成本-性能权衡分析工具，帮助用户选择最优硬件组合。",
+          "url": "https://github.com/kvcache-ai/ktransformers",
+          "time": "360 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rohitg00/ai-engineering-from-scratch | 从零开始学AI工程",
+          "summary": "这是一个AI工程学习资源库，强调从基础学习到构建并交付产品的完整流程。它适合希望系统掌握AI工程实践的开发者。今日501颗星反映出初学者对结构化、实战导向的AI学习路径有巨大需求。\n\n💼 商业缺口：缺少配套的AI工程能力评估与认证平台，用于验证学习者是否达到企业级交付标准。",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "501 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "jamiepine/voicebox | VoiceBox：开源AI语音工作室",
+          "summary": "这是一个开源的AI语音工作室，支持语音克隆、听写和创作。它让用户能够轻松生成和编辑语音内容，适用于内容创作、辅助技术等场景。今日610颗星表明AI语音合成领域对开源、可自托管的解决方案需求旺盛。\n\n💼 商业缺口：缺少语音克隆的深度伪造检测与溯源服务，用于防止滥用并满足监管合规要求。",
+          "url": "https://github.com/jamiepine/voicebox",
+          "time": "610 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "KnockOutEZ/wigolo | Wigolo：AI编码代理的本地优先搜索与爬取工具",
+          "summary": "这是一个专为AI编码代理设计的本地优先搜索、抓取和爬虫工具。它帮助AI代理高效获取网络信息，增强代码生成和问题解决能力。今日595颗星说明AI代理对本地化、可控的数据获取能力有迫切需求。\n\n💼 商业缺口：缺少针对AI代理爬取行为的合规性审计与数据使用许可管理服务。",
+          "url": "https://github.com/KnockOutEZ/wigolo",
+          "time": "595 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "github/copilot-sdk | GitHub Copilot SDK",
+          "summary": "这是GitHub官方推出的多平台SDK，用于将Copilot Agent集成到应用和服务中。它让开发者能够利用Copilot的能力构建自定义AI助手。今日39颗星虽不高，但作为官方SDK具有战略意义。\n\n💼 商业缺口：缺少围绕Copilot Agent集成的企业级治理与监控平台，用于管理API调用、成本和安全策略。",
+          "url": "https://github.com/github/copilot-sdk",
+          "time": "39 stars today",
+          "language": "Java",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AstrBotDevs/AstrBot | AstrBot：AI代理助手与开发框架",
+          "summary": "这是一个集成了多种即时通讯平台的AI代理助手与开发框架。它帮助开发者快速构建跨平台的AI聊天机器人，支持插件扩展。今日83颗星表明社区对多平台、可扩展的AI代理框架持续感兴趣。\n\n💼 商业缺口：缺少针对多平台AI代理的对话审计与合规存档服务，满足金融、医疗等行业监管要求。",
+          "url": "https://github.com/AstrBotDevs/AstrBot",
+          "time": "83 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "1jehuang/jcode | JCode：编码代理工具集",
+          "summary": "这是一个编码代理的工具集，旨在为AI编码代理提供基础能力。它可能包含代码生成、测试、调试等功能的抽象层。今日235颗星说明开发者对标准化、可复用的编码代理基础设施有需求。\n\n💼 商业缺口：缺少编码代理生成代码的漏洞自动扫描与修复验证服务。",
+          "url": "https://github.com/1jehuang/jcode",
+          "time": "235 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "trycua/cua | CUA：开源计算机使用2.0驱动",
+          "summary": "这是一个开源的计算机使用驱动框架，支持跨操作系统集群和基准测试。它旨在让AI代理能够像人类一样操作计算机界面。今日64颗星表明该领域仍处于早期探索阶段。\n\n💼 商业缺口：缺少针对计算机使用代理的GUI操作录制与回放审计工具，用于验证代理行为是否符合预期。",
+          "url": "https://github.com/trycua/cua",
+          "time": "64 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "MoonshotAI/kimi-cli | Kimi Code CLI：下一代CLI代理",
+          "summary": "这是月之暗面推出的Kimi Code命令行界面代理，旨在提供智能化的终端交互体验。它可能集成代码生成、解释、调试等能力。今日410颗星说明AI CLI代理正成为开发者工具的新热点。\n\n💼 商业缺口：缺少针对CLI代理命令执行的沙箱隔离与权限最小化控制服务。",
+          "url": "https://github.com/MoonshotAI/kimi-cli",
+          "time": "410 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "lyogavin/airllm | AirLLM：单4GB GPU运行70B模型推理",
+          "summary": "这是一个让70B参数大模型在单张4GB GPU上运行推理的优化方案。它通过内存优化和量化技术大幅降低硬件门槛。今日358颗星表明社区对低成本部署大模型的需求极其强烈。\n\n💼 商业缺口：缺少针对AirLLM部署场景的模型性能监控与自动调优服务，帮助用户在资源受限下保持服务质量。",
+          "url": "https://github.com/lyogavin/airllm",
+          "time": "358 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Canner/WrenAI | WrenAI：面向AI代理的生成式BI引擎",
+          "summary": "这是一个开源的、受治理的文本到SQL引擎，专为AI代理设计，实现生成式商业智能。它让非技术用户通过自然语言查询数据。今日121颗星说明AI驱动的数据分析工具持续受到关注。\n\n💼 商业缺口：缺少针对文本到SQL查询结果的业务规则验证与异常检测服务，防止生成错误分析结论。",
+          "url": "https://github.com/Canner/WrenAI",
+          "time": "121 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "阿里Qwen3.8即将开源发布",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "阿里发布Qwen3.8模型，拥有2.4万亿参数，性能接近前沿AI模型，仅次于Fable 5。该模型即将开放权重，预览版已在阿里Token计划、Qoder等平台上线，用户可抢先体验。",
+          "source": "Twitter @Alibaba_Qwen"
+        },
+        {
+          "title": "Kimi K3需求激增，暂停新订阅以保障现有用户",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "Kimi K3上线后需求远超预期，GPU负载接近极限。为保障现有用户体验，团队暂停新订阅并优先为当前用户分配算力，同时加速扩容并分批恢复新订阅。未来将拆分会员计划，以更精准匹配算力需求。",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "杨立昆质疑开源定义：Linux、PyTorch等算不算“倾倒”？",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆在社交媒体上连发数问，质疑将Linux、Apache、PyTorch、Llama等开源项目视为“倾倒”的观点。同时，他转发了一条关于特朗普涉嫌阻止邮寄选票的突发新闻，引发广泛关注。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "我讨厌自己并不讨厌这首用Suno制作的歌",
+          "summary": "我通常认为生成式AI制作的音乐极其乏味，尤其是Suno的输出。但这次我很难接受自己竟然不讨厌这首歌，尽管我并非完全否定AI在音乐中的价值。",
+          "url": "https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music",
+          "time": "01:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋访日后，值得关注的动向",
+          "summary": "黄仁勋结束日本之行，期间达成覆盖日本整个科技生态系统的多项协议。这些合作将推动当地AI与半导体产业发展，后续影响值得持续关注。",
+          "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+          "time": "05:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果诉讼会阻碍OpenAI的硬件计划吗？",
+          "summary": "在最新一期《Equity》节目中，我们讨论了苹果的诉讼是否会为OpenAI备受关注的硬件开发和上市计划蒙上阴影。",
+          "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+          "time": "03:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "《奥德赛》导演诺兰称AI是明显的“特洛伊木马”",
+          "summary": "克里斯托弗·诺兰将人工智能比作“特洛伊木马”，暗示其表面看似有益，实则暗藏风险。他指出，所有人都知道“希腊人就在里面”，意指AI的潜在威胁已显而易见。",
+          "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+          "time": "22:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "非营利组织Current AI正竞相构建人人免费的人工智能万维网",
+          "summary": "非营利组织Current AI致力于打造不忽视任何文化的人工智能，并在设备端、AI对话等领域取得显著进展。其目标是构建一个免费开放的人工智能生态系统，让所有人都能受益。",
+          "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，展示了全球金融科技领域最具创新力和影响力的公司。这些企业在支付、借贷、保险和财富管理等领域推动技术变革，重塑传统金融服务模式。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资领域。监管环境也在不断演变，以适应这些创新并确保消费者保护。整体而言，行业正朝着更高效、更包容的金融服务体系发展。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业竞相利用人工智能、大数据和自动化技术优化承保、理赔和客户服务。尽管面临监管挑战和盈利压力，行业整体仍保持增长态势，预计未来几年将加速数字化转型。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "AI工具跟踪",
+          "summary": "小企业主需要手动跟踪多个AI工具（ChatGPT、Claude、Canva AI等）的更新、功能变化和最佳实践，感觉这本身成了一项兼职工作。AI可以自动聚合各工具更新日志、推送关键变化、并生成个性化使用建议，节省大量手动调研时间。\n\n💡 机会方向：AI工具聚合与智能助手，自动跟踪更新并推送定制化建议",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v0p53w/does_anyone_else_feel_like_keeping_up_with_ai_is/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "合同条款审查",
+          "summary": "小企业主在签订合同时需要手动分析条款风险，尤其是专有软件许可和知识产权部分。AI可以自动扫描合同文本，标记潜在风险条款（如责任限制、自动续约、数据所有权），并生成通俗解释和修改建议，避免因疏忽导致法律纠纷。\n\n💡 机会方向：AI合同审查助手，自动识别风险条款并给出修改建议",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v16yfl/advice_for_a_possible_upcoming_contract/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "冷冻食品周末发货拦截",
+          "summary": "卖家需要手动判断订单时间，避免冷冻/生鲜食品在周末发货导致变质。AI可以自动根据订单时间、物流路线和承运商周末服务政策，智能计算是否应延迟发货，并自动调整发货计划或通知客户，减少人工判断和客户投诉。\n\n💡 机会方向：AI物流调度优化工具，自动拦截周末发货并调整计划",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v13fef/if_you_ship_frozenperishable_food_how_do_you_stop/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "品牌发布物料准备",
+          "summary": "初创工作室在品牌发布前需要手动设计、排版和校对大量宣传物料（如贴纸、文具、社交媒体图）。AI可以一键生成多版本设计稿、自动检查排版一致性、并批量生成不同尺寸的发布素材，大幅缩短准备周期。\n\n💡 机会方向：AI品牌发布物料生成器，一键批量生成多版本设计",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v0q7ls/need_advice_for_brand_launch/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
