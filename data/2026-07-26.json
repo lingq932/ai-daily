@@ -1,0 +1,624 @@
+{
+  "date": "2026-07-26",
+  "timeRange": "2026-07-25 09:00 ~ 2026-07-26 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Banquish — Make the web your workspace",
+          "summary": "Clip living pieces of the web onto one canvas Discussion | Link",
+          "url": "https://www.producthunt.com/products/banquish-make-the-web-your-workspace",
+          "time": "10:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "OpenComputer",
+          "summary": "The easiest way to deploy a managed agent. Discussion | Link",
+          "url": "https://www.producthunt.com/products/opencomputer",
+          "time": "09:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Houhou – Resilience Policies Package for TypeScript Async Functions",
+          "summary": "Article URL: https://hou2.vercel.app/ Comments URL: https://news.ycombinator.com/item?id=49053121 Points: 1 # Comments: 0",
+          "url": "https://hou2.vercel.app/",
+          "time": "07:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Desktui – a remote desktop client for your terminal",
+          "summary": "Article URL: https://github.com/mishushakov/desktui Comments URL: https://news.ycombinator.com/item?id=49052913 Points: 4 # Comments: 0",
+          "url": "https://github.com/mishushakov/desktui",
+          "time": "07:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Routeveil – Shared-element and page transitions engine for React Router",
+          "summary": "Article URL: https://www.routeveil.dev/lab/shared-elements Comments URL: https://news.ycombinator.com/item?id=49052748 Points: 2 # Comments: 0",
+          "url": "https://www.routeveil.dev/lab/shared-elements",
+          "time": "07:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Cross-Platform Flutter and React-Native Plugin – FFmpeg-Kit-Extended",
+          "summary": "Full featured React-Native and Flutter plugin that lets you execute FFmpeg, FFprobe and FFplay commands without needing to deploy those executables. Get the full power of FFmpeg at native performance level. Includes support for 100+ external libraries with pre-bundled preset distributions for 24 different binaries distributed per platform with various included features plus the ability to deploy custom builds.https://github.com/akashskypatel/ffmpeg-kit-extendedhttps://www.npmjs.com/package/ffmpe...",
+          "url": "https://news.ycombinator.com/item?id=49052579",
+          "time": "06:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Hubo – two agents that implement and review code until they agree",
+          "summary": "Article URL: https://github.com/h0ngcha0/hubo Comments URL: https://news.ycombinator.com/item?id=49052552 Points: 3 # Comments: 1",
+          "url": "https://github.com/h0ngcha0/hubo",
+          "time": "06:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Rudoc – a 4.5MB Rust document converter",
+          "summary": "I built Rudoc because I wanted a smaller tool for simple file convertion workflow. (Pandoc was so heavy for me) I once wanted to try Pandoc, but after I downloaded it from GitHub, I found that it is around 70 MB. It also needed a lot of dependencies.Rudoc is not a substitue of Pandoc, it supports limited set of formats (only txt, md, html, typ, docx, pdf, pptx, xml, json) and doesn't support advanced formatting. The most common workflow is just turn a markdown file to a html. PDF generation can ...",
+          "url": "https://github.com/asong56/rudoc",
+          "time": "06:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: ActionRail, Runtime value/action grounding framework for AI agents",
+          "summary": "Article URL: https://github.com/ToolJet/ActionRail/ Comments URL: https://news.ycombinator.com/item?id=49051411 Points: 2 # Comments: 0",
+          "url": "https://github.com/ToolJet/ActionRail/",
+          "time": "04:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: PeerTree an Biological Inspired Network",
+          "summary": "PeerTree.js An Organic Inspired Network Architecture. Build Apps that scale just by cloning existing nodes for more power. Comments URL: https://news.ycombinator.com/item?id=49051290 Points: 2 # Comments: 0",
+          "url": "https://github.com/bitmonky/PeerTree",
+          "time": "04:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Writemark, a dependency free web component for inline Markdown editing",
+          "summary": "I like writing Markdown, but do not like writing it inside a plain textarea.I wanted something I could use anywhere by dropping in a single web component:``````That became Writemark.It renders Markdown while you write, but Markdown remains the value you read, store, and submit. It also has source, split, and preview modes, along with slash commands, tables, task lists, code blocks, native form support, and an API for adding your own controls. There are no runtime dependencies and no required fra...",
+          "url": "https://news.ycombinator.com/item?id=49051130",
+          "time": "04:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Awsmux – Multi-account AWS CLI, up to 5.4x faster, 7.4x fewer tokens",
+          "summary": "awsmux fans one AWS CLI command out across hundreds of accounts and regions in parallel and merges the results into a single stream. There's an MCP server built in for agents.In a 150-session benchmark, agents using awsmux beat agents using the raw AWS CLI in every test: up to 5.4x faster, up to 2.9x cheaper, up to 7.4x fewer tokens.Single Go binary, stdlib plus cobra only. Feedback welcome. Comments URL: https://news.ycombinator.com/item?id=49051043 Points: 7 # Comments: 4",
+          "url": "https://github.com/0hardik1/awsmux",
+          "time": "04:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Open-source AI bookmark manager for busy people",
+          "summary": "Article URL: https://github.com/rortan134/cache-app Comments URL: https://news.ycombinator.com/item?id=49050909 Points: 2 # Comments: 2",
+          "url": "https://github.com/rortan134/cache-app",
+          "time": "03:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Proxmox -> Share your host's Bluetooth with a VM over the network",
+          "summary": "Article URL: https://github.com/lucid-fabrics/proxmox-bluetooth Comments URL: https://news.ycombinator.com/item?id=49050824 Points: 26 # Comments: 11",
+          "url": "https://github.com/lucid-fabrics/proxmox-bluetooth",
+          "time": "03:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: I created a way to turn your GitHub contribution graph into a game",
+          "summary": "Article URL: https://ykdojo.github.io/gh-commit-history/ Comments URL: https://news.ycombinator.com/item?id=49050804 Points: 2 # Comments: 1",
+          "url": "https://ykdojo.github.io/gh-commit-history/",
+          "time": "03:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Minesweeper Raycasted",
+          "summary": "Article URL: https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f Comments URL: https://news.ycombinator.com/item?id=49050803 Points: 15 # Comments: 10",
+          "url": "https://claude.ai/public/artifacts/725f961b-09dc-4a66-8dac-8fefeeb69a1f",
+          "time": "03:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Tasku. Manage Tasks from the Terminal",
+          "summary": "No more switching to the browser to manage your tasks. Improve your workflow with this free open source TUI. Over 1000 downloads. Comments URL: https://news.ycombinator.com/item?id=49050793 Points: 2 # Comments: 0",
+          "url": "https://github.com/tomdringer/tasku",
+          "time": "03:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: HN Glance – a visual way to read Hacker News",
+          "summary": "Article URL: https://hnglance.com Comments URL: https://news.ycombinator.com/item?id=49050701 Points: 5 # Comments: 2",
+          "url": "https://hnglance.com",
+          "time": "03:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Pastport – Your iPhone Left an Airbnb",
+          "summary": "I got up and was switching between Airbnbs, already annoyed at the Airbnb app sending me back and forth to Safari and Google Maps.Safari even warned me: “You are leaving airbnb.com.”Later, I applied my agents to my Safari history. It showed how many times I edited a flight booking, when my iPhone left an Airbnb, and that I had requested wheelchair assistance.That last detail was easy to explain: I was recovering from a surfing injury.That became Pastport—not another chatbot for browser history, ...",
+          "url": "https://github.com/anupamchugh/pastport",
+          "time": "03:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Nore – Write in Notion, publish a production-ready blog",
+          "summary": "Article URL: https://nore.sh/ Comments URL: https://news.ycombinator.com/item?id=49050602 Points: 2 # Comments: 0",
+          "url": "https://nore.sh/",
+          "time": "03:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Bribes.fyi – Know before you go. New feature added",
+          "summary": "Article URL: https://bribes.fyi/before-you-go Comments URL: https://news.ycombinator.com/item?id=49050566 Points: 66 # Comments: 47",
+          "url": "https://bribes.fyi/before-you-go",
+          "time": "03:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: new DOS paint app",
+          "summary": "so, i made a dos paint app and i need feedbackyou only need nasm, dosbox, and a bit of time to run it. still no save feature, is planned Comments URL: https://news.ycombinator.com/item?id=49050060 Points: 4 # Comments: 2",
+          "url": "https://news.ycombinator.com/item?id=49050060",
+          "time": "02:09",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "block/buzz",
+          "summary": "A hive mind communication platform",
+          "url": "https://github.com/block/buzz",
+          "time": "2,491 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alibaba/open-code-review",
+          "summary": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "url": "https://github.com/alibaba/open-code-review",
+          "time": "431 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "citrolabs/ego-lite",
+          "summary": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+          "url": "https://github.com/citrolabs/ego-lite",
+          "time": "986 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ComposioHQ/awesome-claude-skills",
+          "summary": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+          "time": "577 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-cookbooks",
+          "summary": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "time": "132 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Automattic/harper",
+          "summary": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+          "url": "https://github.com/Automattic/harper",
+          "time": "503 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "shiyu-coder/Kronos",
+          "summary": "Kronos: A Foundation Model for the Language of Financial Markets",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "319 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "An agentic skills framework & software development methodology that works.",
+          "url": "https://github.com/obra/superpowers",
+          "time": "479 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Pumpkin-MC/Pumpkin",
+          "summary": "Empowering everyone to host fast and efficient Minecraft servers.",
+          "url": "https://github.com/Pumpkin-MC/Pumpkin",
+          "time": "358 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "permissionlesstech/bitchat",
+          "summary": "bluetooth mesh chat, IRC vibes",
+          "url": "https://github.com/permissionlesstech/bitchat",
+          "time": "1,720 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills",
+          "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "1,740 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "palmier-io/palmier-pro",
+          "summary": "macOS video editor built for AI",
+          "url": "https://github.com/palmier-io/palmier-pro",
+          "time": "412 stars today",
+          "language": "Swift",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "CoreBunch/Instatic",
+          "summary": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+          "url": "https://github.com/CoreBunch/Instatic",
+          "time": "426 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Lordog/dive-into-llms",
+          "summary": "《动手学大模型Dive into LLMs》系列编程实践教程",
+          "url": "https://github.com/Lordog/dive-into-llms",
+          "time": "408 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "RyanCodrai/turbovec",
+          "summary": "A vector index built on TurboQuant, written in Rust with Python bindings",
+          "url": "https://github.com/RyanCodrai/turbovec",
+          "time": "86 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OtterMind/Chat2DB",
+          "summary": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+          "url": "https://github.com/OtterMind/Chat2DB",
+          "time": "360 stars today",
+          "language": "Java",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "andrewyng/aisuite",
+          "summary": "Simple, unified interface to multiple Generative AI providers",
+          "url": "https://github.com/andrewyng/aisuite",
+          "time": "77 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "affaan-m/ECC",
+          "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "377 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "@MiniMax_AI",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "· <p>Open weights.<br />\nOpen research.<br />\nOpen innovation.🫶<br />\n<br />\nMarching for an open future.🤍</p>\n<a href=\"https://nitter.net/MiniMax_AI/status/2081167102753517574#m\">\n<br />Video<br />\n  <img src=\"https://nitter.net/pic/amplify_video_thumb%2F2081167007945576448%2Fimg%2FkjxKgujWz4WUkb5r.jpg\" />\n</a>\n\n<img src=\"https://nitter.net/pic/media%2FHOHKXgEbEAACBWH.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHOHKXgGbUAACf4A.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHOHKXgEbYAAYuy5.jpg\" />\n\n<hr />\n<blockquote>\n<b>clem 🤗 (@ClementDelangue)</b>\n<p>\n<p>Preparation in progress for the San Francisco Open Weights mini-march tomorrow. Hope all these big tech CEOs won’t show up otherwise I might end up in jail (haven’t had time to ask for a permit 😅)</p>\n<img src=\"https://nitter.net/pic/media%2FHOBsQiEaUAA74B_.jpg\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/ClementDelangue/status/2080782086907281409#m\">https://nitter.net/ClementDelangue/status/2080782086907281409#m</a>\n</footer>\n</blockquote>\n\n· <p>Great to see <a href=\"https://nitter.net/FireworksAI_HQ\" title=\"Fireworks\">@FireworksAI_HQ</a>  continuous optimizations on MiniMax Sparse Attention (MSA). <br />\n<br />\nBy refining the attention kernel’s load and store pipelines, they’ve achieved a 1.6x throughput uplift. <br />\n<br />\nThis work should bring meaningful value to open-source implementations.<br />\n<a href=\"https://fireworks.ai/blog/kernel-optimization-for-minimax-m3-on-nvidia-blackwell\">fireworks.ai/blog/kernel-opt…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHOCof01bYAA1g7A.png\" />",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "@sama",
+          "url": "https://twitter.com/sama",
+          "summary": "<p>stories like this should be told more</p>\n<hr />\n<blockquote>\n<b>Polymarket (@Polymarket)</b>\n<p>\n<p>JUST IN: ChatGPT surfaces a crucial mutation in a woman’s old biopsy records, helping doctors determine her terminal glioblastoma diagnosis was incorrect.</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/Polymarket/status/2080759839513280770#m\">https://nitter.net/Polymarket/status/2080759839513280770#m</a>\n</footer>\n</blockquote>",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "@demishassabis",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "· <p>A strong and secure open ecosystem is important for the world to benefit from AI. We’ve always supported and contributed heavily to open source and science from Jax to Transformers to AlphaFold to Gemma open models which have now been downloaded 300M+ times. And the standards framework we’ve proposed supports responsible deployment of both open and proprietary models.</p>\n<hr />\n<blockquote>\n<b>Jensen Huang (@JensenHuang)</b>\n<p>\n<p>For my first post, I’m sharing a letter <a href=\"https://nitter.net/NVIDIA\" title=\"NVIDIA\">@NVIDIA</a> signed on why open models matter.<br />\n<br />\nAI will transform every industry, power every company, and be built by every country.<br />\n<br />\nOpen models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty.<br />\n<br />\nThe world needs both frontier closed models and frontier open models.<br />\n<br />\n<a href=\"https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf\">images.nvidia.com/pdf/Open-W…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHN_qDVsa4AAI6XJ.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHN_qDV1a8AARQwg.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHN_qDV1awAAPTlH.jpg\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/JensenHuang/status/2080643682408321103#m\">https://nitter.net/JensenHuang/status/2080643682408321103#m</a>\n</footer>\n</blockquote>\n\n· <p>just to clarify: Gemma 4 models have been downloaded 300M+ times, the Gemma open model series as a whole has been downloaded an incredible 900M+ times!!</p>\n<hr />\n<blockquote>\n<b>Olivier Lacombe (@o_lacombe)</b>\n<p>\n<p>Gemma model family crossed the 900M downloads.<br />\nWhat a milestone!</p>\n<img src=\"https://nitter.net/pic/media%2FHOFkuPsaAAI0Byg.jpg\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/o_lacombe/status/2081055512481976722#m\">https://nitter.net/o_lacombe/status/2081055512481976722#m</a>\n</footer>\n</blockquote>",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "@ylecun",
+          "url": "https://twitter.com/ylecun",
+          "summary": "· <p>America’s Quiet Exodus!<br />\n<br />\nNeil deGrasse Tyson has been unusually blunt lately: he compared federal science cuts to an act of war, arguing that if a foreign rival gutted American research budgets this way, Washington would call it sabotage. Instead, it’s self-inflicted.<br />\n<br />\nThe numbers back him up. NSF grant awards recently hit their slowest pace in decades, with physics funding down over 80 percent and biology nearly halved. A Nature poll found roughly three-quarters of US researchers now considering leaving the country entirely.<br />\n<br />\nThe beneficiaries are obvious. France, Canada, and Australia are actively recruiting displaced American talent, dangling stable funding and political neutrality. China, meanwhile, has overtaken the US in total research spending, a shift analysts warn could cost America a trillion dollars in lost competitiveness over time.<br />\nTyson’s warning isn’t nostalgia. It’s a balance-sheet argument: brains, once they leave, rarely come back.<br />\n<br />\n<a href=\"https://piped.video/dYiUI6y1nKg?is=gZ0jdubmLC9mtCt\">piped.video/dYiUI6y1nKg?is=gZ0j…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://piped.video/dYiUI6y1nKg?is=gZ0jdubmLC9mtCt\">\n<img src=\"https://nitter.net/pic/card_img%2F2080350233557655552%2FlVOJwmof%3Fformat%3Djpg%26name%3D800x419\" />\n<br />\n<b>America’s Scientists Are Disappearing</b>\n</a>\n<p>Are we risking an America where we no longer innovate? Neil deGrass...</p>\n<small><a href=\"https://piped.video/dYiUI6y1nKg?is=gZ0jdubmLC9mtCt\">youtube.com</a></small>\n\n· <p>January: Trump’s account buys $1–5 million of Nvidia in a single trade.<br />\n<br />\nApril: He bans Nvidia from selling its chips to China. The stock craters, Nvidia takes a $4.5 billion write-down.<br />\n<br />\nThrough the spring: his accounts keep buying the dip, over a dozen Nvidia purchases.<br />\n<br />\nAugust: He reverses his own ban. Nvidia can sell to China again, if it pays the U.S. government 15% of the revenue. A deal he cut personally.<br />\n<br />\nAugust 18: his account buys $5–25 million of Nvidia, the single biggest stock purchase of his entire year.<br />\n<br />\nDecember: He greenlights the even more powerful H200 chips for China, now at a 25% cut.<br />\n<br />\nThe President banned the stock, bought the crash, un-banned the stock, then made his biggest purchase of the year.<br />\n<br />\nHe controls the switch. He owns the stock. He flips the switch.</p>\n\n· <p>Wonderful to have a broad base acknowledgement of the need for open weights. We are delighted to support as signatories.<br />\n<br />\nOpen weights is the key to ensuring security, research, innovation and competition. <br />\n<br />\nAnd let's not confuse misappropriation with openness.</p>\n<hr />\n<blockquote>\n<b>Jensen Huang (@JensenHuang)</b>\n<p>\n<p>For my first post, I’m sharing a letter <a href=\"https://nitter.net/NVIDIA\" title=\"NVIDIA\">@NVIDIA</a> signed on why open models matter.<br />\n<br />\nAI will transform every industry, power every company, and be built by every country.<br />\n<br />\nOpen models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty.<br />\n<br />\nThe world needs both frontier closed models and frontier open models.<br />\n<br />\n<a href=\"https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf\">images.nvidia.com/pdf/Open-W…</a></p>\n<img src=\"https://nitter.net/pic/media%2FHN_qDVsa4AAI6XJ.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHN_qDV1a8AARQwg.jpg\" />\n\n<img src=\"https://nitter.net/pic/media%2FHN_qDV1awAAPTlH.jpg\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/JensenHuang/status/2080643682408321103#m\">https://nitter.net/JensenHuang/status/2080643682408321103#m</a>\n</footer>\n</blockquote>\n\n· <p>The Gemma series is an amazing set of highly performant open-weight models. They have proven extremely effective in industrial settings where site-deployed agents need exactly this as a base for domain-specific fine-tuning that even Fable-class models cannot match in accuracy.<br />\n<br />\nPresumably the Gemma team has been excellent at “distilling” from the Gemini-class models to get such capabilities.<br />\n<br />\nThis is a $25T category. Remember, the “frontier” is not spherical. It is extremely jagged,  and it isn’t just among the trillion-parameter group.</p>\n<hr />\n<blockquote>\n<b>Clément Farabet (@clmt)</b>\n<p>\n<p>Very much agree with this letter. <br />\n<br />\n3 years ago we started Gemma aligned with this vision, that building a thriving open weight model ecosystem was critical and likely a huge component of our future industry. <br />\n<br />\nToday we continue to invest and push Gemma to be maximally useful for developers, and I’m personally very bullish on the open ecosystem it enables. <br />\n<br />\nThanks <a href=\"https://nitter.net/JensenHuang\" title=\"Jensen Huang\">@JensenHuang</a> and also great to see you here!</p>\n\n</p>\n<footer>\n— <cite><a href=\"https://nitter.net/clmt/status/2080924926010097719#m\">https://nitter.net/clmt/status/2080924926010097719#m</a>\n</footer>\n</blockquote>",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+          "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+          "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+          "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+          "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+          "time": "21:05",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "Fintech 100",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Fintech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Insurtech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "学术论文",
+      "items": [
+        {
+          "source": "arXiv cs.CL",
+          "title": "What is Good? Extracting and Testing Implicit Theories of Literary Quality from LLM Reasoning Traces",
+          "summary": "arXiv:2607.20425v1 Announce Type: new Abstract: What makes writing \"good\" remains a persistent question in literary studies and computational linguistics. We present a two-study investigation of how reasoning-enabled LLMs evaluate literary quality. In Study 1, we construct a benchmark of 30 real texts spanning six quality tiers, from canonical literature to anonymous forum posts, and extract the model's implicit theory of quality from its reasoning traces. Across five DeepSeek replications, the ...",
+          "url": "https://arxiv.org/abs/2607.20425",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations",
+          "summary": "arXiv:2607.20426v1 Announce Type: new Abstract: Existing LLM hallucination mitigation methods, including prompt engineering and model optimization, either hardly alter models'internal knowledge or have poor cross-domain generalization. Contrastive decoding mitigates hallucinations by using layer-wise differences in LLMs. However, prior studies only explore transformer-based models (e.g., GPT), ignoring other effective frameworks like mixture-of-experts (MoE) models. Since MoE alters the traditio...",
+          "url": "https://arxiv.org/abs/2607.20426",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Is MoE Routing a Huffman Code? Discovering the Frequency-Diversity Law in Chain-of-Thought",
+          "summary": "arXiv:2607.20427v1 Announce Type: new Abstract: Mixture-of-Experts architectures have revolutionized scaling, yet the underlying logic of their routing remains a black box. In this paper, we uncover a fundamental governing principle: MoE routing is not merely selection, but a manifestation of Huffman Coding. We introduce the Frequency-Diversity Law, revealing that state-of-the-art models, such as Phi-3.5-MoE and Gemma-4-27B-A4B, spontaneously act as information-theoretic engines. These models al...",
+          "url": "https://arxiv.org/abs/2607.20427",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Human-in-the-Loop Large Language Model Framework for Identification of Cutaneous Immune-Related Adverse Events",
+          "summary": "arXiv:2607.20428v1 Announce Type: new Abstract: This study evaluated a retrieval-augmented, multi-agent large language model (LLM)-driven, human-in-the-loop framework for detecting cutaneous immune-related adverse events (cirAEs) from clinical notes. Compared with unassisted manual review, the LLM-assisted workflow improved accuracy (F1 = 0.88 vs 0.77), inter-rater agreement measured by Cohen's kappa (kappa = 0.82 vs 0.50), and reduced average review time by approximately half. This framework pi...",
+          "url": "https://arxiv.org/abs/2607.20428",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "More Is Not More: What Matters for Diversity in LLM Opinions?",
+          "summary": "arXiv:2607.20429v1 Announce Type: new Abstract: Large language models are increasingly used to simulate diverse human opinions in open-ended tasks such as synthetic surveys, focus group modeling, and public opinion prediction. However, LLM outputs exhibit systematic opinion homogenization. Practitioners have explored various interventions to increase diversity, but the landscape remains fragmented: different methods are evaluated in isolation with incomparable metrics, and in practice they are t...",
+          "url": "https://arxiv.org/abs/2607.20429",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "LLM-INSTRUCT at UZH Shared Task 2026: Constraint-Aware Retrieval and Selective Debate for Paragraph-Level Argument Mining",
+          "summary": "arXiv:2607.20430v1 Announce Type: new Abstract: We present LLM-INSTRUCT, the winning system for the UZH Shared Task at ArgMining 2026 on paragraph-level argument mining in UN and UNESCO resolutions. The task requires paragraph-type classification, prediction of a subset of 141 official tags, and directed relation prediction under a strict JSON schema setting using only open-weight models up to 8B parameters. We frame the task as constrained structured prediction. The system first narrows the can...",
+          "url": "https://arxiv.org/abs/2607.20430",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Skill-Contracted Agents for Evidence-Aware Materials Literature Analysis",
+          "summary": "arXiv:2607.20431v1 Announce Type: new Abstract: Materials science literature analysis requires simultaneous attention to composition, processing, characterization, and property relationships, yet conventional retrieval-augmented generation pipelines struggle to reconcile heterogeneous tasks within a single retrieve-then-generate architecture. Here we present AlphaAgent, a skill-driven agent framework that decouples retrieval-based question answering from paper-level report generation through exp...",
+          "url": "https://arxiv.org/abs/2607.20431",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Position: Natural Language Should Not Fully Replace Formal Languages",
+          "summary": "arXiv:2607.20432v1 Announce Type: new Abstract: Recent advances in large language models and their widespread adoption have prompted claims that natural language could entirely replace formal languages, such as programming languages for software design. In this position paper, we argue that this perspective overlooks fundamental linguistic properties of natural language, specifically that it is optimized for underspecification in open-ended contexts. We introduce a formal framework centered on *...",
+          "url": "https://arxiv.org/abs/2607.20432",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Moir: Let the Model Direct Its Own Story for Robust Cross-Domain Knowledge Editing",
+          "summary": "arXiv:2607.20433v1 Announce Type: new Abstract: While language models remain frozen at their training state, the world evolves continuously. Knowledge editing has emerged as a key alternative to full retraining, but its deployment is bottlenecked by the erosion of core capabilities: mathematical and programmatic reasoning collapse while encyclopedic recall remains intact. We trace this asymmetric degradation to a distributional mismatch. Covariance-based editors preserve only the subspaces spann...",
+          "url": "https://arxiv.org/abs/2607.20433",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Break Through the Compression Bottleneck: From Theory to Practice",
+          "summary": "arXiv:2607.20434v1 Announce Type: new Abstract: As the parameter size of language models continues to grow, effective model compression is required to reduce their computational and memory overhead. Existing compression methods suffer from bottleneck issues: when the compression ratio is increased, performance degrades significantly. Low-rank decomposition and quantization are two prominent compression methods that have been proven to significantly reduce the computational and memory requirement...",
+          "url": "https://arxiv.org/abs/2607.20434",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Making Open-Source Text LLM Watermarks Durable Against Merging",
+          "summary": "arXiv:2607.20435v1 Announce Type: new Abstract: Open-source LLMs (OSMs)arereaching near state-of-the-art performance, prompting prior works to trace the text they generate by embedding text watermarking algorithms directly into their weights. Yet, OSMs are subject to post-training modifications, which has been shown to remove the watermark. Model merging in particular, a prominent method used for combining expert knowledge and preventing catastrophic forgetting, strongly removes such OSM waterma...",
+          "url": "https://arxiv.org/abs/2607.20435",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Routing Subspaces: Auditing Evaluation-to-Deployment Mismatch in Fine-Tuned Language Models",
+          "summary": "arXiv:2607.20436v1 Announce Type: new Abstract: Safety evaluations often assume that behavior observed during testing reflects behavior in ordinary use, but fine-tuning can break this assumption. A checkpoint can appear fixed under evaluation-style prompts while the same behavior persists under ordinary-use prompts. Output scores reveal this mismatch but do not locate it. We investigate whether the distinction is encoded in a stable internal site and introduce an approach that fits a paired acti...",
+          "url": "https://arxiv.org/abs/2607.20436",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "TopoGuard: Graph Theory Based Defenses Against Split-Knowledge Attacks on RAG",
+          "summary": "arXiv:2607.20437v1 Announce Type: new Abstract: Production Retrieval Augmented Generation (RAG) systems rely on aggregating multiple external documents to answer complex queries. However, the retrieved documents introduce a new threat surface that can be exploited to launch split-knowledge attacks. In this attack, the adversary injects documents that are individually benign but create false associations when combined and fed to language models. This paper shows that the new attack is structurall...",
+          "url": "https://arxiv.org/abs/2607.20437",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Preference Tuning as Spectral Update Reorganization",
+          "summary": "arXiv:2607.20438v1 Announce Type: new Abstract: Preference-based post-training is usually understood through endpoint behavior, yet the learned update that produces this behavior remains largely opaque. We study RLHF and related preference optimization through the spectral structure of their induced parameter updates. By decomposing effective LoRA updates and reloading their spectral components as plug-in modules, we turn preference-induced updates into objects that can be isolated, recomposed, ...",
+          "url": "https://arxiv.org/abs/2607.20438",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "AsymVerify at SemEval-2026 Task 6: Asymmetric Confidence-Gated Verification for Political Evasion Detection",
+          "summary": "arXiv:2607.20439v1 Announce Type: new Abstract: Political evasion is difficult to detect because evasive answers often appear cooperative while avoiding concrete commitment. We present AsymVerify, a confidence-gated verification system for SemEval-2026 Task 6, a three-way classification of Clear Reply, Ambivalent, and Clear Non-Reply responses. AsymVerify scored 0.85 Macro F1 on the evaluation split (D_eval, n=237), placing 2nd out of 41 teams on the official leaderboard. The system first classi...",
+          "url": "https://arxiv.org/abs/2607.20439",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
