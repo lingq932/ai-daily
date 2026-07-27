@@ -10,16 +10,20 @@ from config import (
     RSS_SOURCES, WEB_SCRAPE_SOURCES,
     PRODUCT_LAUNCH_SOURCES, PAIN_POINT_SOURCES,
     TWITTER_ACCOUNTS, DATA_DIR, MAX_DAYS,
+    TECH_DECODE_RSS, AIHOT_API, LEARNING_FILE,
 )
 from fetchers.rss_fetcher import fetch_rss_section
 from fetchers.twitter_fetcher import fetch_twitter_section
 from fetchers.web_scraper import fetch_web_scrape_section, fetch_github_trending
+from fetchers.aihot_fetcher import fetch_aihot_items
+from learning_store import merge_learning
 from ai_processor import (
     translate_and_summarize,
     filter_ai_relevant,
     detect_pain_points,
     generate_opportunities,
     detect_hot_topics,
+    curate_tech_learning,
 )
 
 
@@ -195,6 +199,60 @@ def main(target_date=None):
     print(f"\n=== 完成 {target_date} === {len(sections)} 板块 / {total} 条")
 
 
+def run_tech_decode(target_date=None):
+    """第四版·工程解码：采集专属源 + AI 严筛 + 累积进 learning.json。
+
+    独立于每日 json：不写进 data/YYYY-MM-DD.json，而是追加到 data/learning.json，
+    长期留存、不受 90 天清理。某个源失败不影响主日报。
+    """
+    if target_date is None:
+        target_date = datetime.now().strftime("%Y-%m-%d")
+    time_from, time_to, _ = get_time_range(target_date)
+
+    print("\n=== 工程解码（技术边界 / vibe coding 闭环）===")
+    try:
+        rss = fetch_rss_section("tech_decode", TECH_DECODE_RSS,
+                                time_from=time_from, time_to=time_to, max_per_feed=15)
+        aihot = fetch_aihot_items(AIHOT_API["base"], AIHOT_API["items_endpoint"],
+                                  take=AIHOT_API["take"], user_agent=AIHOT_API["user_agent"])
+        candidates = rss["items"] + aihot
+        print(f"候选 {len(candidates)} 条")
+        if not candidates:
+            return
+        picks = curate_tech_learning(candidates)
+        if picks:
+            added, total = merge_learning(LEARNING_FILE, picks, today=target_date)
+            print(f"工程解码：新增 {added} / 累计 {total}")
+        else:
+            print("工程解码：今日无合格内容（宁缺毋滥）")
+    except Exception as e:
+        print(f"[WARN] 工程解码失败（不影响主日报）: {e}")
+
+
+def run_tech_decode(target_date):
+    """第四版·工程解码：采集专属源 + DeepSeek 严筛 + 累积进 learning.json。
+    独立于每日 json，自带去重，不受 90 天清理。"""
+    if target_date is None:
+        target_date = datetime.now().strftime("%Y-%m-%d")
+    time_from, time_to, _ = get_time_range(target_date)
+
+    print("\n=== 工程解码（技术边界 / vibe coding 闭环）===")
+    rss = fetch_rss_section("tech_decode", TECH_DECODE_RSS,
+                            time_from=time_from, time_to=time_to, max_per_feed=15)
+    aihot = fetch_aihot_items(AIHOT_API["base"], AIHOT_API["items_endpoint"],
+                              take=AIHOT_API["take"], user_agent=AIHOT_API["user_agent"])
+    candidates = rss["items"] + aihot
+    print(f"候选 {len(candidates)} 条")
+    if not candidates:
+        return
+    picks = curate_tech_learning(candidates)
+    if picks:
+        added, total = merge_learning(LEARNING_FILE, picks, today=target_date)
+        print(f"工程解码：新增 {added} / 累计 {total}")
+    else:
+        print("工程解码：今日无合格内容")
+
+
 def cleanup_old_data():
     cutoff = datetime.now() - timedelta(days=MAX_DAYS)
     cutoff_str = cutoff.strftime("%Y-%m-%d")
@@ -214,4 +272,5 @@ if __name__ == "__main__":
     parser.add_argument("--date", help="目标日期 YYYY-MM-DD，默认今天")
     args = parser.parse_args()
     main(args.date)
+    run_tech_decode(args.date)
     cleanup_old_data()

@@ -25,7 +25,14 @@
     <div class="header-rule"></div>
   </header>
 
-  <main class="main-layout">
+  <div class="view-tabs">
+    <div class="view-tabs-inner">
+      <button class="view-tab active" data-view="report">AI 日报</button>
+      <button class="view-tab" data-view="decode">工程解码</button>
+    </div>
+  </div>
+
+  <main class="main-layout" id="reportView">
 
     <aside class="sidebar">
       <div class="calendar-widget" id="calendarWidget">
@@ -209,6 +216,35 @@
     </div>
   </main>
 
+  <main class="decode-layout" id="decodeView" style="display:none">
+    <div class="decode-inner">
+      <div class="decode-head">
+        <h2 class="decode-title">工程解码</h2>
+        <p class="decode-sub">帮你建立技术边界判断力 · 累积不清零，越攒越厚</p>
+      </div>
+
+      <div class="decode-controls">
+        <div class="decode-filters" id="decodeFilters">
+          <button class="decode-chip active" data-cat="all">全部</button>
+          <button class="decode-chip" data-cat="技术实现">技术实现</button>
+          <button class="decode-chip" data-cat="技术边界">技术边界</button>
+          <button class="decode-chip" data-cat="vibe coding 企业闭环">vibe coding 企业闭环</button>
+        </div>
+        <input type="search" class="decode-search" id="decodeSearch" placeholder="搜索关键词，如 agent 边界…" autocomplete="off">
+      </div>
+
+      <div class="decode-count" id="decodeCount"></div>
+      <div class="decode-list" id="decodeList"></div>
+
+      <div class="decode-archive-toggle" id="decodeArchiveToggle" style="display:none">
+        <button id="decodeArchiveBtn">展开往期归档（<span id="decodeArchiveCount">0</span> 条）</button>
+      </div>
+      <div class="decode-list decode-archive" id="decodeArchiveList" style="display:none"></div>
+
+      <div class="decode-empty" id="decodeEmpty" style="display:none">暂无匹配内容</div>
+    </div>
+  </main>
+
   <footer class="site-footer">
     <p>AI 日报 — 数据来源</p>
     <p>总览：热点头条（跨源聚合）· 今日AI机会（AI推导）</p>
@@ -220,5 +256,6 @@
   </footer>
 
   <script src="app.js"></script>
+  <script src="learning.js"></script>
 </body>
 </html>

@@ -361,3 +361,71 @@ JSON格式（严格）：
     except Exception as e:
         print(f"  [WARN] 热点检测失败: {e}")
         return []
+
+
+def curate_tech_learning(candidates, max_keep=8):
+    """第四版·工程解码：从候选池严筛 + 归主题 + 重写三段式。
+
+    candidates: [{source, title, summary, url, ...}]
+    返回: [{category, title, whatIsIt, boundary, whyLearn, source, url}]
+    宁缺毋滥——没有合格的返回空数组。
+    """
+    client = get_client()
+    if not client or not candidates:
+        return []
+
+    lines = [
+        f"{i}. [{c.get('source','')}] {c.get('title','')} | {c.get('summary','')[:120]}"
+        for i, c in enumerate(candidates)
+    ]
+
+    prompt = f"""你是一位专门帮【非技术出身的 AI 产品经理】挑技术选题的导师。她的目标是建立技术边界判断力——搞懂某类技术能做到什么、做不到什么、代价多大，以及企业怎么把 vibe coding 落成闭环。
+
+以下是今日候选内容（来源 + 标题 + 摘要）：
+{chr(10).join(lines)}
+
+第一步 严筛（宁缺毋滥）：只保留真正能帮她长技术判断力的，满足其一：
+- 讲某个 AI 技术/能力怎么实现、原理或架构
+- 讲某技术的边界、局限、失败案例、代价
+- 讲 AI coding / agent 在真实团队或企业里怎么落地、怎么跑成闭环
+明确丢弃：纯融资/人事/发布会八卦、泛泛"AI 很厉害"、纯产品导购、和技术认知无关的行业新闻。没有合格的就返回空数组，不要凑数。
+
+第二步 归主题：每条归入 技术实现 / 技术边界 / vibe coding 企业闭环 之一。
+
+第三步 重写三段式（中文，PM 水位，不堆术语）：
+- whatIsIt：一句话讲清这是什么
+- boundary：技术边界（重点）——能做到 X，做不到 Y，前提/代价是 Z
+- whyLearn：为什么值得她学，能用在哪
+
+严格按 JSON 返回，最多 {max_keep} 条，不要输出其他内容：
+[{{"category":"技术边界","title":"中文标题","whatIsIt":"...","boundary":"...","whyLearn":"...","idx":原候选序号}}]"""
+
+    try:
+        resp = client.chat.completions.create(
+            model=DEEPSEEK_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+            max_tokens=3000,
+        )
+        text = resp.choices[0].message.content.strip()
+        text = text.replace("```json", "").replace("```", "").strip()
+        results = _json.loads(text)
+
+        items = []
+        for r in results:
+            idx = r.get("idx")
+            src = candidates[idx] if (idx is not None and 0 <= idx < len(candidates)) else {}
+            items.append({
+                "category": r.get("category", "技术实现"),
+                "title": r.get("title", src.get("title", "")),
+                "whatIsIt": r.get("whatIsIt", ""),
+                "boundary": r.get("boundary", ""),
+                "whyLearn": r.get("whyLearn", ""),
+                "source": src.get("source", ""),
+                "url": src.get("url", ""),
+            })
+        print(f"  工程解码严筛：{len(candidates)} → {len(items)} 条")
+        return items[:max_keep]
+    except Exception as e:
+        print(f"  [WARN] 工程解码筛选失败: {e}")
+        return []

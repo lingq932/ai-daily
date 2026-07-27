@@ -176,3 +176,33 @@ TWITTER_ACCOUNTS = [
     "sama", "karpathy", "demishassabis", "geoffreyhinton",
     "ylecun", "yoshua_bengio", "lexfridman",
 ]
+
+# ══════════════════════════════════════════════════════════════
+# 第四版：工程解码（独立学习页）
+# 面向非技术 PM，累积精选技术深度内容，建立技术边界判断力 + vibe coding 企业闭环认知
+# ══════════════════════════════════════════════════════════════
+
+# RSS 源：讲技术实现 / 技术边界 / 工程落地闭环
+TECH_DECODE_RSS = {
+    "name": "工程解码",
+    "feeds": [
+        {"source": "Simon Willison", "url": "https://simonwillison.net/atom/everything/"},
+        {"source": "Latent Space", "url": "https://www.latent.space/feed"},
+        {"source": "GitHub Blog", "url": "https://github.blog/ai-and-ml/feed/"},
+    ],
+}
+
+# AI HOT 只读聚合 API（匿名，无需 API Key，仅需 User-Agent）
+# ⚠️ 只走公开 REST 接口，不安装其第三方 skill
+AIHOT_API = {
+    "base": "https://aihot.virxact.com/api/public",
+    "items_endpoint": "/items",
+    "user_agent": "ai-daily-tech-decode/1.0 (+https://github.com/lingq932/ai-daily)",
+    "take": 60,
+}
+
+# 工程解码累积数据文件（长期留存，不受 90 天清理）
+LEARNING_FILE = os.path.join(DATA_DIR, "learning.json")
+
+# 工程解码三大主题
+TECH_DECODE_CATEGORIES = ["技术实现", "技术边界", "vibe coding 企业闭环"]
