@@ -1,0 +1,377 @@
+{
+  "date": "2026-07-27",
+  "timeRange": "2026-07-26 09:00 ~ 2026-07-27 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "AI编程代理与模型蒸馏",
+          "coverage": [
+            {
+              "source": "HN Show",
+              "summary": "我们构建了world-model-optimizer，一个开源工具，用于持续改进模型。",
+              "url": "https://github.com/experientiallabs/world-model-optimizer"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "一位软件工程师想用AI编程代理（如Codex、Claude Code）在云GPU上运行机器学习代码。他希望能用本地编辑器配合AI代理，同时在云端执行ML代码，类",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1v758ek/i_want_to_use_ai_coding_agents_for_machine/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "一个60行的PreToolUse钩子，可阻止Claude Code编辑你的.env文件",
+          "summary": "文章URL: https://github.com/avenna01-ceo/claude-code-survival-kr/tree/main/g",
+          "url": "https://github.com/avenna01-ceo/claude-code-survival-kr/tree/main/guard",
+          "time": "08:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "RelativeDB – 关系型基础模型的开源查询引擎",
+          "summary": "结构化数据可能成为基础模型的下一个重大前沿。RelativeDB",
+          "url": "https://github.com/RelativeDB/RelQL",
+          "time": "08:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "以一半成本蒸馏和提供具有前沿质量的模型",
+          "summary": "我们构建了world-model-optimizer，一个开源工具，用于持续改进模型。",
+          "url": "https://github.com/experientiallabs/world-model-optimizer",
+          "time": "07:35",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "citrolabs/ego-lite",
+          "summary": "专为AI代理设计的极速浏览器，用于运行网页自动化任务，并支持共享。基于JavaScript构建，今日获得900星，表明开发者对AI代理浏览器工具需求旺盛。它解决了AI代理在网页环境中执行复杂操作时的性能瓶颈问题。\n\n💼 商业缺口：缺乏针对AI代理浏览器行为的审计与合规监控层，例如记录代理操作轨迹、检测异常行为的企业级SaaS产品。",
+          "url": "https://github.com/citrolabs/ego-lite",
+          "time": "900 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "CoreBunch/Instatic",
+          "summary": "Webflow、Framer和WordPress的开源替代品，支持代理式自托管网站构建。基于TypeScript开发，今日获得888星，反映了市场对AI驱动、可自托管的建站工具的兴趣。它降低了网站开发门槛，同时赋予用户更多控制权。\n\n💼 商业缺口：缺少围绕代理式建站的成本优化与资源治理工具，例如自动评估不同托管方案费用、监控站点性能的付费服务。",
+          "url": "https://github.com/CoreBunch/Instatic",
+          "time": "888 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OtterMind/Chat2DB",
+          "summary": "AI驱动的数据库工具和SQL客户端，号称最热门的GUI客户端，支持多种数据库。基于Java开发，今日获得398星，说明AI辅助数据库操作的需求持续增长。它通过自然语言交互简化了数据库查询与管理流程。\n\n💼 商业缺口：缺乏针对AI生成SQL的准确性验证与安全审计层，例如自动检测SQL注入风险、对比AI建议与最佳实践的付费插件。",
+          "url": "https://github.com/OtterMind/Chat2DB",
+          "time": "398 stars today",
+          "language": "Java",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pbakaus/impeccable",
+          "summary": "一种设计语言，旨在提升AI在视觉设计方面的表现。基于JavaScript构建，今日获得413星，表明开发者对改善AI生成内容的设计质量有强烈需求。它通过规范设计语言来弥补AI在美学判断上的不足。\n\n💼 商业缺口：缺少将设计语言转化为可量化设计质量评估指标的付费工具，例如自动评分AI生成设计是否符合品牌指南的SaaS平台。",
+          "url": "https://github.com/pbakaus/impeccable",
+          "time": "413 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "shiyu-coder/Kronos",
+          "summary": "专为金融市场语言打造的基础模型，基于Python开发，今日获得321星。它解决了通用大模型在金融领域术语理解与预测上的局限性，为量化交易和金融分析提供专用AI能力。\n\n💼 商业缺口：缺乏围绕金融基础模型的合规性验证与风险审计层，例如验证模型输出是否符合监管要求、检测市场操纵风险的付费服务。",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "321 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alibaba/open-code-review",
+          "summary": "阿里巴巴开源的免费代码审查工具，采用混合架构，经过大规模实战验证。基于Go开发，今日获得832星，反映了AI辅助代码审查的广泛需求。它通过自动化审查提升代码质量与开发效率。\n\n💼 商业缺口：缺少针对AI审查结果的优先级排序与决策支持层，例如自动标记高风险代码段、生成修复建议的付费企业版。",
+          "url": "https://github.com/alibaba/open-code-review",
+          "time": "832 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "andrewyng/aisuite",
+          "summary": "提供统一、简洁的接口，用于访问多个生成式AI提供商。基于Python开发，今日获得187星，解决了开发者需要切换不同AI服务时的集成痛点。它简化了多模型调用与管理流程。\n\n💼 商业缺口：缺乏跨AI提供商的成本对比与性能基准测试层，例如自动推荐最经济模型组合、监控调用延迟的付费管理平台。",
+          "url": "https://github.com/andrewyng/aisuite",
+          "time": "187 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-cookbooks",
+          "summary": "收录了展示Claude模型有趣且有效使用方式的笔记本和食谱集合，基于Jupyter Notebook，今日获得379星。它为开发者提供了实用的Claude应用范例，降低了学习与实验门槛。\n\n💼 商业缺口：缺少围绕Claude cookbooks的企业级采用证据与最佳实践验证层，例如提供案例研究、ROI计算器的付费咨询或认证服务。",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "time": "379 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "山姆·奥特曼：我想要一种新型计算机",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼回应了关于ChatGPT语音功能的讨论，认为其潜力巨大，并称“工作”一词不足以形容其能力。他分享了自己通过语音指令完成复杂任务的经历，例如规划旅行并自动生成协调网站，强调这种新型人机交互方式将彻底改变工作模式。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "杨立昆抨击特朗普：无知且疯狂",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆在社交媒体上发文，严厉批评特朗普，称其对自己试图做什么、如何做、为何失败以及下一步如何弥补都毫无头绪，并形容他为“妄想、疯狂的白痴”。该言论是对特朗普暂停对伊朗重大军事升级计划及联邦法院驳回其限制邮寄投票等新闻的回应。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "脑电波将成为物理AI的下一个突破口？",
+          "summary": "前沿物理AI模型不再依赖YouTube视频，而是需要多角度摄像头、密集标注，以及即将引入的脑电波读取技术。",
+          "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/",
+          "time": "08:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "解读对中国AI的恐慌",
+          "summary": "在最新一期《Equity》节目中，我们探讨了为何月之暗面的Kimi让硅谷和华尔街感到恐慌。",
+          "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+          "time": "03:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Hugging Face CEO呼吁OpenAI遭“前所未有”黑客攻击后实行“彻底透明”",
+          "summary": "Hugging Face首席执行官在OpenAI遭遇“前所未有”的黑客攻击后，呼吁采取“彻底透明”的应对措施。他表示，首次自主智能体网络攻击是一次空前事件，需要以同样空前的态度进行回应。",
+          "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+          "time": "00:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Monday.com成最新一家将裁员归咎于AI的科技公司——另有20家已如此",
+          "summary": "Monday.com成为最新一家将裁员归因于AI的科技公司。本文按时间倒序梳理了今年以AI为因素宣布大规模裁员的主要科技企业，目前已有20多家公司采取类似行动。",
+          "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+          "time": "09:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "金融科技100强榜单发布，聚焦全球最具创新力的金融科技公司。这些企业在支付、借贷、保险等领域推动技术变革，引领行业发展趋势。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速发展，涵盖数字支付、区块链、人工智能等领域的创新应用。这些技术正在重塑传统金融服务模式，提高效率并降低成本。未来，监管合规与技术创新将成为行业发展的关键平衡点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合，通过人工智能、大数据和区块链技术优化承保、理赔及客户服务流程。市场增长强劲，但面临监管合规与数据安全挑战，未来竞争将聚焦于个性化产品与用户体验创新。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 2026主赛道理论论文评分讨论",
+          "summary": "NeurIPS 2026主赛道理论论文的初始评分引发讨论。有投稿者称其论文得分为4/3/3，置信度3/3/3，并指出理论论文通常评分更保守，且今年多领域初始评分普遍偏低。该帖邀请其他理论论文作者分享评分与置信度。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v77r9s/neurips_2026_main_track_theory_paper_tracker/",
+          "time": "23:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "用ARM64汇编从零实现YOLO26n模型推理",
+          "summary": "该项目是本科毕业设计，完全使用ARM64汇编语言和C语言从零实现YOLO26n推理，不依赖任何现有框架。目标是在Raspberry Pi 4上深入理解现代神经网络推理引擎底层原理，并探索边缘AI的高效优化技术，包括ARM NEON SIMD优化和Winograd卷积等。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/",
+          "time": "14:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "直播部署技术面试问题",
+          "summary": "有用户询问直播部署技术面试应准备哪些问题，涉及CICD、Kafka、Kubernetes等技能。该问题由一位自称替朋友询问的用户在论坛提出，寻求面试准备建议。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v7jvsx/cicd_kafka_kubernetes_interview_questions_mle_r/",
+          "time": "07:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "开源4B模型在瑞典语医学问答中接近o3水平",
+          "summary": "一项实验使用小型开源LLM在瑞典医学执照考试选择题上进行测试。在MedQA-SWE数据集上，GPT-4在2024年达到84%准确率，o3在2025年达88%。通过早期数据微调，MedGemma-1.5-4B在最终年考试中获得60%的及格分数。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/",
+          "time": "19:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS rebuttal中链接图表的问题",
+          "summary": "审稿人要求补充实验，但作者担心表格形式不如图表直观。尽管官方规定不允许链接，作者仍考虑是否冒险插入图表链接，并询问若违规会受轻微警告还是直接拒稿。作者认为OpenReview应支持更现代的标记格式。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v6qt8l/link_plotsfigures_in_neurips_rebuttal_r/",
+          "time": "10:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "不同大模型在IMO 2026上的表现对比",
+          "summary": "国际数学奥林匹克竞赛题目因新颖、未出现在训练数据中，且能有效衡量通用智能，成为评估大语言模型的优质基准。结果显示，前沿模型（sol和fable）无论采用何种编排方式，均能获得接近满分的成绩。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/",
+          "time": "15:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "错过AAAI互审推荐截止日期：面临直接拒稿风险？",
+          "summary": "作者向AAAI AISI提交摘要时，意外错过了要求提名互审评审员的7月21日截止日期。提交时作者本人不符合评审资格，随后发现一位合著研究生符合条件，但未能在截止前完成提名。目前面临稿件可能被直接拒稿的风险。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v7hgrh/missed_aaai_reciprocal_reviewer_nomination/",
+          "time": "05:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "多租户SaaS：你会选择哪种架构？",
+          "summary": "一位开发者正在斯里兰卡构建处理文档和敏感数据的SaaS平台，用户可上传资料，平台通过RAG技术基于用户数据回答问题。核心挑战在于当用户上传信息不足时，仍需让大语言模型提供有效回答。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v794kw/multitenant_saas_which_architecture_would_you/",
+          "time": "00:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "理解GPU推理工作负载",
+          "summary": "作者正在调研人们如何为推理工作负载获取计算资源，并希望了解其中的具体痛点。如果你使用过Runpod或vast.ai等在线服务，你的观点将非常有价值。作者邀请大家在评论区或私信分享经验，并附有一份两分钟的调查问卷链接。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/",
+          "time": "11:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我想用AI编程代理做机器学习项目",
+          "summary": "一位软件工程师想用AI编程代理（如Codex、Claude Code）在云GPU上运行机器学习代码。他希望能用本地编辑器配合AI代理，同时在云端执行ML代码，类似Google Colab但更灵活。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1v758ek/i_want_to_use_ai_coding_agents_for_machine/",
+          "time": "22:21",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "客户获取瓶颈",
+          "summary": "一位小型记账业务老板在多个免费社交媒体平台手动发布税务提示和截止日期提醒，但客户获取效果不佳。这种重复性内容创作和发布耗时且低效，AI可以自动生成个性化营销内容、分析受众互动数据并优化发布策略，甚至自动回复潜在客户咨询。\n\n💡 机会方向：面向小企业的AI营销自动化工具，自动生成并分发行业定制内容。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v777p8/i_run_a_small_bookkeeping_business_and_im_hitting/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "银行流水核对",
+          "summary": "小企业主困惑于‘盈利但现金不足’，常见原因是未及时核对银行流水与账目。手动逐笔核对银行对账单和内部记录非常繁琐且易出错，AI可自动抓取银行数据、匹配交易、标记差异并生成现金流报告。\n\n💡 机会方向：AI驱动的现金流对账与预警系统，自动同步银行数据并分析资金缺口。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v7e7fz/why_is_my_business_profitable_but_i_have_no_cash/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工薪资调查",
+          "summary": "小企业主在Reddit发帖手动询问其他同行‘你们给员工付多少工资？’，以获取市场薪资参考。这种手动收集零散数据的方式不系统且样本有限，AI可以实时聚合行业、地区、职位薪资数据，并生成定制化薪资建议。\n\n💡 机会方向：AI薪资基准工具，自动爬取并分析行业薪资数据，提供动态建议。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1v7g0yj/what_are_you_all_paying_your_employees/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "浏览历史检索",
+          "summary": "用户手动回忆数月前看到的网页，但无法通过历史记录快速找到。手动翻找浏览器历史或书签非常低效，AI可以自动索引浏览内容，支持自然语言搜索（如‘上个月看到的那篇关于Python性能优化的文章’）。\n\n💡 机会方向：AI驱动的个人浏览历史语义搜索引擎，支持模糊查询。",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49060245",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
