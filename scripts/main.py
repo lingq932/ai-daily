@@ -11,12 +11,14 @@ from config import (
     PRODUCT_LAUNCH_SOURCES, PAIN_POINT_SOURCES,
     TWITTER_ACCOUNTS, DATA_DIR, MAX_DAYS,
     TECH_DECODE_RSS, AIHOT_API, LEARNING_FILE,
+    BEST_PRACTICE_FILE, BEST_PRACTICE_WEEKDAY,
 )
 from fetchers.rss_fetcher import fetch_rss_section
 from fetchers.twitter_fetcher import fetch_twitter_section
 from fetchers.web_scraper import fetch_web_scrape_section, fetch_github_trending
 from fetchers.aihot_fetcher import fetch_aihot_items
 from learning_store import merge_learning
+from best_practices_store import merge_bp
 from ai_processor import (
     translate_and_summarize,
     filter_ai_relevant,
@@ -24,6 +26,7 @@ from ai_processor import (
     generate_opportunities,
     detect_hot_topics,
     curate_tech_learning,
+    generate_best_practices,
 )
 
 
@@ -253,6 +256,44 @@ def run_tech_decode(target_date):
         print("工程解码：今日无合格内容")
 
 
+def run_best_practices(target_date=None):
+    """工程解码·最佳实践：每周日归纳一次。
+
+    抓最近 7 天候选 → DeepSeek 提炼"某场景/某技术怎么落地" → 累积进 best_practices.json。
+    非周日直接跳过。独立于每日 json 与工程解码卡片流，失败不影响主日报。
+    """
+    if target_date is None:
+        target_date = datetime.now().strftime("%Y-%m-%d")
+
+    if datetime.strptime(target_date, "%Y-%m-%d").weekday() != BEST_PRACTICE_WEEKDAY:
+        print("\n=== 最佳实践：非生成日（每周日跑），跳过 ===")
+        return
+
+    print("\n=== 最佳实践（每周归纳·某场景/某技术怎么落地）===")
+    try:
+        tz_cst = timezone(timedelta(hours=8))
+        target = datetime.strptime(target_date, "%Y-%m-%d")
+        time_to = target.replace(hour=9, minute=0, second=0, tzinfo=tz_cst)
+        time_from = (target - timedelta(days=7)).replace(hour=9, minute=0, second=0, tzinfo=tz_cst)
+
+        rss = fetch_rss_section("best_practice", TECH_DECODE_RSS,
+                                time_from=time_from, time_to=time_to, max_per_feed=30)
+        aihot = fetch_aihot_items(AIHOT_API["base"], AIHOT_API["items_endpoint"],
+                                  take=AIHOT_API["take"], user_agent=AIHOT_API["user_agent"])
+        candidates = rss["items"] + aihot
+        print(f"最近 7 天候选 {len(candidates)} 条")
+        if not candidates:
+            return
+        picks = generate_best_practices(candidates)
+        if picks:
+            added, total = merge_bp(BEST_PRACTICE_FILE, picks, today=target_date)
+            print(f"最佳实践：新增 {added} / 累计 {total}")
+        else:
+            print("最佳实践：本周无合格内容（宁缺毋滥）")
+    except Exception as e:
+        print(f"[WARN] 最佳实践失败（不影响主日报）: {e}")
+
+
 def cleanup_old_data():
     cutoff = datetime.now() - timedelta(days=MAX_DAYS)
     cutoff_str = cutoff.strftime("%Y-%m-%d")
@@ -273,4 +314,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     main(args.date)
     run_tech_decode(args.date)
+    run_best_practices(args.date)
     cleanup_old_data()

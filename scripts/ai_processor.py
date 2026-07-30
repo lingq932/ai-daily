@@ -1,4 +1,5 @@
 import json as _json
+import hashlib
 from openai import OpenAI
 from config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL
 
@@ -428,4 +429,87 @@ def curate_tech_learning(candidates, max_keep=8):
         return items[:max_keep]
     except Exception as e:
         print(f"  [WARN] 工程解码筛选失败: {e}")
+        return []
+
+
+def generate_best_practices(candidates, max_keep=3):
+    """工程解码·最佳实践：从最近 7 天真实案例提炼"某场景/某技术怎么落地"的方法论。
+
+    candidates: [{source, title, summary, url, ...}]
+    返回: [{id, date, viewType, label, title, whatIsIt, howTo, pitfalls, cases}]
+    宁缺毋滥——没有够格（尤其"怎么做"讲不清架构）的返回空数组。
+    """
+    from datetime import datetime as _dt
+    client = get_client()
+    if not client or not candidates:
+        return []
+
+    lines = [
+        f"{i}. [{c.get('source','')}] {c.get('title','')} | {c.get('summary','')[:120]}"
+        for i, c in enumerate(candidates)
+    ]
+
+    prompt = f"""你在为一位非技术出身的 AI 产品经理提炼「最佳实践」。她想从真实案例里看懂：某个业务场景 / 某个新技术，在实际中是怎么落地的、架构怎么搭、有哪些坑。她尤其关注 2C（面向消费者/个人用户）的实践。
+
+以下是最近 7 天采集的真实案例（来源 + 标题 + 摘要）：
+{chr(10).join(lines)}
+
+任务：从中提炼 1-3 条「最佳实践」。宁缺毋滥——没有够格的就返回空数组 []。
+
+【硬门槛：任何一条不满足就丢弃】
+1. 必须基于上面列表里的真实案例，不许编造；每条必须附来源链接（用列表里给出的来源）。
+2. 「怎么做」必须能讲清架构链路——案例本身没披露技术怎么搭的，直接丢弃，不许脑补通用流程。
+3. 优先 2C（面向消费者/个人用户）场景；2B 企业内部工程实践只在特别典型时才收。
+
+【每条归类】
+- viewType：这条是讲某个「场景」还是某个「技术」，二选一填 "场景" 或 "技术"。
+- label：具体场景名（常见有 客服/办公/销售/数据分析/营销，也可自行归纳其他）或技术名（如 harness/loop/agent 等，自行归纳）。
+
+【四段内容，中文，PM 水位，不堆术语】
+- whatIsIt：{{scenario 什么场景, users 用户群是谁, painpoint 痛在哪}}
+- howTo：{{architecture 架构链路——用"输入→环节→环节→输出"一条链说清、点明 AI 在哪一环及其边界; keyMoves 架构之外的关键做法与取舍 2-4 条，每条是具体可执行动作、不是"加强管理"这种空话}}
+- pitfalls：别人踩过的坑
+- cases：支撑这条的真实来源 [{{source, url}}]
+
+严格按 JSON 返回，最多 {max_keep} 条，不要输出其他内容（idx 填对应候选序号）：
+[{{"viewType":"场景","label":"客服","title":"...","whatIsIt":{{"scenario":"...","users":"...","painpoint":"..."}},"howTo":{{"architecture":"...","keyMoves":["...","..."]}},"pitfalls":"...","cases":[{{"source":"...","url":"..."}}],"idx":0}}]"""
+
+    try:
+        resp = client.chat.completions.create(
+            model=DEEPSEEK_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.3,
+            max_tokens=3000,
+        )
+        text = resp.choices[0].message.content.strip()
+        text = text.replace("```json", "").replace("```", "").strip()
+        results = _json.loads(text)
+
+        today = _dt.now().strftime("%Y-%m-%d")
+        items = []
+        for r in results:
+            cases = r.get("cases") or []
+            # 兜底：来源缺失时用候选原始来源/链接补上
+            if not cases:
+                idx = r.get("idx")
+                src = candidates[idx] if (idx is not None and 0 <= idx < len(candidates)) else {}
+                if src.get("url"):
+                    cases = [{"source": src.get("source", ""), "url": src.get("url", "")}]
+            first_url = cases[0].get("url", "") if cases else ""
+            iid = hashlib.md5((first_url or r.get("title", "")).encode("utf-8")).hexdigest()[:12]
+            items.append({
+                "id": iid,
+                "date": today,
+                "viewType": r.get("viewType", "场景"),
+                "label": r.get("label", ""),
+                "title": r.get("title", ""),
+                "whatIsIt": r.get("whatIsIt", {}),
+                "howTo": r.get("howTo", {}),
+                "pitfalls": r.get("pitfalls", ""),
+                "cases": cases,
+            })
+        print(f"  最佳实践归纳：{len(candidates)} → {len(items)} 条")
+        return items[:max_keep]
+    except Exception as e:
+        print(f"  [WARN] 最佳实践归纳失败: {e}")
         return []

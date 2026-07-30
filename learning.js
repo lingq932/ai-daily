@@ -177,3 +177,149 @@
   initTabs();
   initControls();
 })();
+
+/* ========== 最佳实践子区（独立 IIFE，不触碰上面的三主题卡片流）==========
+ * 加载 data/best_practices.json，两个视角「按场景 / 按技术」切换，
+ * 同视角内按 label 分组展示，卡片渲染四段：是什么 / 怎么做 / 常见的坑 / 案例来源。
+ */
+(function () {
+  let bpItems = [];
+  let bpView = "场景";
+  let bpLoaded = false;
+
+  function esc(s) {
+    if (!s) return "";
+    const d = document.createElement("div");
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  async function loadBP() {
+    bpLoaded = true;
+    try {
+      const resp = await fetch("data/best_practices.json");
+      if (!resp.ok) throw new Error("no bp data");
+      const data = await resp.json();
+      bpItems = (data.items || []).slice()
+        .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+    } catch (e) {
+      bpItems = [];
+    }
+    renderBP();
+  }
+
+  function renderBP() {
+    const list = document.getElementById("bpList");
+    const empty = document.getElementById("bpEmpty");
+    if (!list) return;
+    list.innerHTML = "";
+
+    const items = bpItems.filter(it => (it.viewType || "场景") === bpView);
+    if (items.length === 0) {
+      empty.style.display = "block";
+      return;
+    }
+    empty.style.display = "none";
+
+    // 同视角内按 label 分组
+    const groups = {};
+    const order = [];
+    items.forEach(function (it) {
+      const key = it.label || "其他";
+      if (!groups[key]) { groups[key] = []; order.push(key); }
+      groups[key].push(it);
+    });
+
+    order.forEach(function (label) {
+      const groupEl = document.createElement("div");
+      groupEl.className = "bp-group";
+      groupEl.innerHTML = '<div class="bp-group-label">' +
+        '<span class="bp-group-type">' + esc(bpView) + '</span>' +
+        '<span class="bp-group-name">' + esc(label) + '</span></div>';
+      groups[label].forEach(it => groupEl.appendChild(bpCard(it)));
+      list.appendChild(groupEl);
+    });
+  }
+
+  function bpCard(it) {
+    const el = document.createElement("article");
+    el.className = "bp-card";
+    const w = it.whatIsIt || {};
+    const h = it.howTo || {};
+    const keyMoves = Array.isArray(h.keyMoves) ? h.keyMoves : [];
+    const cases = Array.isArray(it.cases) ? it.cases : [];
+    const dateShort = (it.date || "").slice(5);
+
+    let html =
+      '<div class="bp-card-top">' +
+        '<span class="bp-tag">' + esc(it.viewType || "场景") + ' · ' + esc(it.label || "") + '</span>' +
+        '<span class="bp-card-date">' + esc(dateShort) + '</span>' +
+      '</div>' +
+      '<h4 class="bp-card-title">' + esc(it.title) + '</h4>';
+
+    // 是什么
+    let whatRows = "";
+    if (w.scenario) whatRows += '<p><b>场景</b>' + esc(w.scenario) + '</p>';
+    if (w.users) whatRows += '<p><b>用户群</b>' + esc(w.users) + '</p>';
+    if (w.painpoint) whatRows += '<p><b>痛点</b>' + esc(w.painpoint) + '</p>';
+    if (whatRows) {
+      html += '<div class="bp-seg"><span class="bp-seg-label">是什么</span>' +
+        '<div class="bp-what">' + whatRows + '</div></div>';
+    }
+
+    // 怎么做：架构链路 + 关键做法
+    let howInner = "";
+    if (h.architecture) {
+      howInner += '<div class="bp-arch"><span class="bp-arch-label">架构链路</span>' +
+        '<p>' + esc(h.architecture) + '</p></div>';
+    }
+    if (keyMoves.length) {
+      howInner += '<div class="bp-moves"><span class="bp-moves-label">关键做法</span><ul>' +
+        keyMoves.map(m => '<li>' + esc(m) + '</li>').join("") + '</ul></div>';
+    }
+    if (howInner) {
+      html += '<div class="bp-seg"><span class="bp-seg-label">怎么做</span>' + howInner + '</div>';
+    }
+
+    // 常见的坑
+    if (it.pitfalls) {
+      html += '<div class="bp-seg bp-seg--pit"><span class="bp-seg-label">常见的坑</span>' +
+        '<p>' + esc(it.pitfalls) + '</p></div>';
+    }
+
+    // 案例来源
+    if (cases.length) {
+      const links = cases.map(function (c) {
+        const name = esc(c.source || "来源");
+        return c.url
+          ? '<a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + name + ' ↗</a>'
+          : '<span>' + name + '</span>';
+      }).join("");
+      html += '<div class="bp-card-foot"><span class="bp-foot-label">案例来源</span>' + links + '</div>';
+    }
+
+    el.innerHTML = html;
+    return el;
+  }
+
+  function initBP() {
+    const tabs = document.querySelectorAll(".bp-view-tab");
+    tabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        tabs.forEach(t => t.classList.remove("active"));
+        this.classList.add("active");
+        bpView = this.dataset.bpview;
+        renderBP();
+      });
+    });
+
+    // 用户切到「工程解码」视图时再懒加载
+    document.querySelectorAll(".view-tab").forEach(function (t) {
+      t.addEventListener("click", function () {
+        if (this.dataset.view === "decode" && !bpLoaded) loadBP();
+      });
+    });
+  }
+
+  initBP();
+})();

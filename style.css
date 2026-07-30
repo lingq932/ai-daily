@@ -1046,3 +1046,245 @@ a:hover {
   .decode-search { width: 100%; }
   .decode-card { padding: 15px 16px; }
 }
+
+/* ========== 最佳实践子区 ========== */
+.bp-section {
+  margin-bottom: 28px;
+  padding: 20px 22px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius);
+}
+
+.bp-head {
+  margin-bottom: 14px;
+}
+
+.bp-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.03em;
+  color: var(--accent);
+}
+
+.bp-sub {
+  font-family: var(--font-serif);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 3px;
+  line-height: 1.6;
+}
+
+.bp-view-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.bp-view-tab {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 5px 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.bp-view-tab:hover {
+  border-color: var(--accent-light);
+  color: var(--accent);
+}
+
+.bp-view-tab.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.bp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.bp-group-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px dashed var(--accent-border);
+}
+
+.bp-group-type {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  color: #fff;
+  background: var(--accent-light);
+  padding: 1px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+}
+
+.bp-group-name {
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.bp-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 12px;
+}
+
+.bp-card:last-child {
+  margin-bottom: 0;
+}
+
+.bp-card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.bp-tag {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  padding: 2px 9px;
+  border-radius: 100px;
+}
+
+.bp-card-date {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+.bp-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.45;
+  margin-bottom: 12px;
+}
+
+.bp-seg {
+  margin-bottom: 12px;
+}
+
+.bp-seg-label {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.bp-what p,
+.bp-moves li,
+.bp-arch p,
+.bp-seg--pit p {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.bp-what p b {
+  display: inline-block;
+  min-width: 3.6em;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-right: 6px;
+}
+
+/* 架构链路——单独高亮 */
+.bp-arch {
+  background: rgba(61, 90, 128, 0.06);
+  border-left: 2px solid var(--accent-light);
+  border-radius: 2px;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+}
+
+.bp-arch-label,
+.bp-moves-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.64rem;
+  color: var(--accent);
+  letter-spacing: 0.04em;
+  margin-bottom: 3px;
+}
+
+.bp-arch p {
+  color: var(--text-primary);
+}
+
+.bp-moves ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.bp-moves li {
+  margin-bottom: 3px;
+}
+
+/* 常见的坑 */
+.bp-seg--pit p {
+  background: rgba(166, 82, 46, 0.06);
+  border-left: 2px solid rgba(166, 82, 46, 0.3);
+  border-radius: 2px;
+  padding: 6px 12px;
+  color: var(--text-primary);
+}
+
+.bp-card-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-light);
+}
+
+.bp-foot-label {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--text-muted);
+}
+
+.bp-card-foot a {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+}
+
+.bp-empty {
+  font-family: var(--font-serif);
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 28px 0;
+}
+
+@media (max-width: 720px) {
+  .bp-section { padding: 16px 14px; }
+  .bp-card { padding: 13px 14px; }
+}

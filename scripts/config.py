@@ -206,3 +206,17 @@ LEARNING_FILE = os.path.join(DATA_DIR, "learning.json")
 
 # 工程解码三大主题
 TECH_DECODE_CATEGORIES = ["技术实现", "技术边界", "vibe coding 企业闭环"]
+
+# ══════════════════════════════════════════════════════════════
+# 工程解码·最佳实践子区
+# 从真实案例提炼"某场景 / 某技术怎么落地"的方法论，每周归纳一次
+# ══════════════════════════════════════════════════════════════
+
+# 保底关注的业务场景（其余由 AI 从案例自动归纳）
+BEST_PRACTICE_SCENARIOS = ["客服", "办公", "销售", "数据分析", "营销"]
+# 偏好：优先 2C（面向消费者/个人用户）实践
+BEST_PRACTICE_PREFER_2C = True
+# 累积数据文件（长期留存，不受 90 天清理）
+BEST_PRACTICE_FILE = os.path.join(DATA_DIR, "best_practices.json")
+# 每周生成日：6 = 周日（Python weekday，周一=0）
+BEST_PRACTICE_WEEKDAY = 6
