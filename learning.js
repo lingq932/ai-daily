@@ -17,23 +17,25 @@
   let archiveOpen = false;
   let loaded = false;
 
-  // ========== 视图切换 ==========
+  // ========== 视图切换（三页：日报 / 工程解码 / 最佳实践）==========
   function initTabs() {
     const tabs = document.querySelectorAll(".view-tab");
-    const reportView = document.getElementById("reportView");
-    const decodeView = document.getElementById("decodeView");
+    // 每个视图对应容器 + 其显示时的 display 值（.main-layout 原本是 flex）
+    const views = {
+      report: { el: document.getElementById("reportView"), display: "flex" },
+      decode: { el: document.getElementById("decodeView"), display: "block" },
+      bp: { el: document.getElementById("bpView"), display: "block" },
+    };
     tabs.forEach(function (tab) {
       tab.addEventListener("click", function () {
         tabs.forEach(t => t.classList.remove("active"));
         this.classList.add("active");
-        if (this.dataset.view === "decode") {
-          reportView.style.display = "none";
-          decodeView.style.display = "block";
-          if (!loaded) loadLearning();
-        } else {
-          decodeView.style.display = "none";
-          reportView.style.display = "flex"; // .main-layout 原本是 flex
-        }
+        const cur = this.dataset.view;
+        Object.keys(views).forEach(function (key) {
+          const v = views[key];
+          if (v.el) v.el.style.display = (key === cur) ? v.display : "none";
+        });
+        if (cur === "decode" && !loaded) loadLearning();
         window.scrollTo({ top: 0 });
       });
     });
@@ -313,10 +315,10 @@
       });
     });
 
-    // 用户切到「工程解码」视图时再懒加载
+    // 用户切到「最佳实践」视图时再懒加载
     document.querySelectorAll(".view-tab").forEach(function (t) {
       t.addEventListener("click", function () {
-        if (this.dataset.view === "decode" && !bpLoaded) loadBP();
+        if (this.dataset.view === "bp" && !bpLoaded) loadBP();
       });
     });
   }

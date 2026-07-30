@@ -29,6 +29,7 @@
     <div class="view-tabs-inner">
       <button class="view-tab active" data-view="report">AI 日报</button>
       <button class="view-tab" data-view="decode">工程解码</button>
+      <button class="view-tab" data-view="bp">最佳实践</button>
     </div>
   </div>
 
@@ -223,20 +224,6 @@
         <p class="decode-sub">帮你建立技术边界判断力 · 累积不清零，越攒越厚</p>
       </div>
 
-      <!-- 最佳实践子区：从真实案例提炼"某场景/某技术怎么落地" -->
-      <section class="bp-section" id="bestPractice">
-        <div class="bp-head">
-          <h3 class="bp-title">最佳实践</h3>
-          <p class="bp-sub">从真实案例拆解：某场景 / 某技术，实际怎么落地、架构怎么搭、有哪些坑</p>
-        </div>
-        <div class="bp-view-tabs" id="bpViewTabs">
-          <button class="bp-view-tab active" data-bpview="场景">按场景</button>
-          <button class="bp-view-tab" data-bpview="技术">按技术</button>
-        </div>
-        <div class="bp-list" id="bpList"></div>
-        <div class="bp-empty" id="bpEmpty" style="display:none">本视角暂无内容，每周日自动归纳</div>
-      </section>
-
       <div class="decode-controls">
         <div class="decode-filters" id="decodeFilters">
           <button class="decode-chip active" data-cat="all">全部</button>
@@ -256,6 +243,23 @@
       <div class="decode-list decode-archive" id="decodeArchiveList" style="display:none"></div>
 
       <div class="decode-empty" id="decodeEmpty" style="display:none">暂无匹配内容</div>
+    </div>
+  </main>
+
+  <!-- 最佳实践页：从真实案例提炼"某场景/某技术怎么落地"，与工程解码平级 -->
+  <main class="decode-layout" id="bpView" style="display:none">
+    <div class="decode-inner">
+      <div class="decode-head">
+        <h2 class="decode-title">最佳实践</h2>
+        <p class="decode-sub">从真实案例拆解：某场景 / 某技术，实际怎么落地、架构怎么搭、有哪些坑 · 每周日自动归纳</p>
+      </div>
+
+      <div class="bp-view-tabs" id="bpViewTabs">
+        <button class="bp-view-tab active" data-bpview="场景">按场景</button>
+        <button class="bp-view-tab" data-bpview="技术">按技术</button>
+      </div>
+      <div class="bp-list" id="bpList"></div>
+      <div class="bp-empty" id="bpEmpty" style="display:none">本视角暂无内容，每周日自动归纳</div>
     </div>
   </main>
 
