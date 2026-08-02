@@ -1,0 +1,353 @@
+{
+  "date": "2026-08-02",
+  "timeRange": "2026-08-01 09:00 ~ 2026-08-02 09:00",
+  "sections": [
+    {
+      "id": "opportunities",
+      "name": "今日 AI 机会",
+      "items": [
+        {
+          "title": "BillMatch - 银行流水自动核对助手",
+          "summary": "买家：小企业财务负责人（如月流水<500笔的初创公司财务）\n痛点：每月需手动将银行流水与发票、合同逐笔核对，耗时且易漏\nMVP：输入银行流水CSV和发票/合同PDF，输出差异报告（匹配项/未匹配项/可疑项）\n今日触发信号（2个板块佐证）：痛点信号板块的'手动核对银行流水'；GitHub热榜的'面向初学者的AI课程'（提供NLP/文档处理基础）\n最快验证：找3位小企业财务负责人，发给他们一个demo链接（上传CSV和PDF后返回差异报告），问'这个报告能帮你节省多少时间？'",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "LeadScore - 高意向客户自动评分器",
+          "summary": "买家：营销代理机构（如服务5-10个B2B客户的营销经理）\n痛点：需从大量线索中手动筛选高意向客户，查看社交媒体和网站信息，效率低且易漏\nMVP：输入线索列表（公司名/网址），输出评分排序的潜在客户名单（附行为信号摘要）\n今日触发信号（2个板块佐证）：痛点信号板块的'手动筛选潜在客户'；新产品发布板块的'Pronto – 面向AI代理的实时信息流'（提供数据源）\n最快验证：联系2家本地营销代理，提供5条真实线索，展示评分结果，问'这个名单的准确率如何？你愿意为每月自动生成付费吗？'",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "VoiceClip - 多平台语音内容分发器",
+          "summary": "买家：独立内容创作者（如YouTube博主或播客主，需同步到TikTok/Instagram）\n痛点：需手动为不同平台剪辑和适配语音内容，重复操作且难以统一管理\nMVP：输入一段音频/视频，输出适配不同平台的语音片段（自动转文字、生成字幕和平台特定格式）\n今日触发信号（3个板块佐证）：GitHub热榜的'Voice Pro（语音创作工具）'和'语音到语音（语音智能体）'；痛点信号板块的'手动发布与推广内容'\n最快验证：在创作者社群（如Reddit或Discord）发帖，提供demo（上传音频返回3个平台片段），收集'你会用它替代手动剪辑吗？'的反馈",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "PhaseProbe – 查找仿真转换并将其转化为测试",
+          "summary": "PhaseProbe 是一款工具，用于查找仿真中的状态转换，并将其转化为测试用例。",
+          "url": "https://github.com/aliengineering-byte/phaseprobe",
+          "time": "07:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Symbio 自我微调 AI 循环",
+          "summary": "它根据你给出的解决方案中犯下的错误，或者它得到的反馈进行训练。",
+          "url": "https://github.com/huyedits/Symbio",
+          "time": "07:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Wage Against the Machine – AI 任务的 MacWages 指数",
+          "summary": "一个用于衡量 AI 任务报酬的指数工具。",
+          "url": "https://watm.ddyo.dev/",
+          "time": "06:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Pronto – 面向 AI 代理的实时信息流（已连接 7 万多个数据源）",
+          "summary": "Pronto 是一个为 AI 代理提供实时数据流的平台，已接入超过 7 万个数据源。",
+          "url": "https://pronto.stream/",
+          "time": "06:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Evidence-to-Skill – 在不可信来源与代理技能之间建立的门槛",
+          "summary": "该工具旨在为 AI 代理提供一种机制，以验证来自不可信来源的信息，再将其转化为可用的技能。",
+          "url": "https://github.com/Sanexxxx777/evidence-to-skill",
+          "time": "05:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Lumaris – AI 生物技术情报简报（示例：EGFR 耐药性）",
+          "summary": "Lumaris 提供由 AI 生成的生物技术领域情报简报，例如关于 EGFR 耐药性的分析报告。",
+          "url": "https://lumaris.nanocorp.app/reports/egfr-resistance-nsclc-2026",
+          "time": "04:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Voris：面向 AI 影响下网络的隐私优先分析工具",
+          "summary": "Voris 是一款注重隐私保护的网络分析工具，专为受 AI 影响的网络环境设计。",
+          "url": "https://voris.ai/",
+          "time": "04:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Crew，一个本地协作（人与代理）IDE",
+          "summary": "我和我哥哥构建了 Crew，这是一种让我们（与我们的代理）一起构建东西的方式。",
+          "url": "https://github.com/JamelHammoud/crew",
+          "time": "04:06",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "面向初学者的AI课程",
+          "summary": "微软官方出品的12周24课时的AI入门教程，覆盖从传统机器学习到深度学习、神经网络、计算机视觉与NLP等核心主题，配有Jupyter Notebook实战练习。今日获得949星，是AI学习领域最受欢迎的开源课程之一，适合零基础开发者系统入门AI。\n\n💼 商业缺口：缺少面向企业团队的AI技能评估与认证付费服务，帮助HR和团队管理者量化学习成果。",
+          "url": "https://github.com/microsoft/AI-For-Beginners",
+          "time": "949 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向初学者的生成式AI课程",
+          "summary": "微软推出的21课时的生成式AI入门课程，涵盖提示工程、RAG、微调、AI Agent等前沿主题，帮助开发者快速上手构建生成式AI应用。今日获得108星，延续了微软AI教育系列的高质量风格，是学习大语言模型应用开发的优质免费资源。\n\n💼 商业缺口：缺少配套的企业级生成式AI项目模板库与代码审查服务，降低从教程到生产落地的鸿沟。",
+          "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+          "time": "523 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "GitHub Copilot SDK",
+          "summary": "GitHub官方发布的Copilot Agent多平台SDK，允许开发者将Copilot能力集成到自己的应用和服务中，支持Java等多种语言。今日获得142星，标志着Copilot从IDE插件走向开放平台生态，为第三方AI编程助手开发提供了官方基础设施。\n\n💼 商业缺口：缺少围绕Copilot SDK的企业级用量审计、成本分摊与安全合规监控面板。",
+          "url": "https://github.com/usekaneo/kaneo",
+          "time": "760 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "语音到语音（语音智能体）",
+          "summary": "Hugging Face推出的开源语音到语音框架，支持使用开源模型构建本地语音智能体，实现语音识别、理解与合成的完整链路。今日获得442星，反映了语音交互Agent的爆发需求，为开发者提供了不依赖闭源API的本地化语音方案。\n\n💼 商业缺口：缺少语音Agent的延迟优化、并发性能测试与生产级SLA保障的商业服务。",
+          "url": "https://github.com/zhaoxuya520/reverse-skill",
+          "time": "1,320 stars today",
+          "language": "PowerShell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Voice Pro（语音创作工具）",
+          "summary": "面向创作者和开发者的Gradio WebUI工具，集成Edge-TTS、kokoro等主流TTS引擎，提供便捷的语音合成界面。今日获得58星，降低了语音内容创作门槛，适合播客、短视频、有声书等场景的快速配音需求。\n\n💼 商业缺口：缺少语音合成内容的版权溯源与AI生成内容标识合规服务。",
+          "url": "https://github.com/microsoft/generative-ai-for-beginners",
+          "time": "108 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "TRELLIS.2（3D生成模型）",
+          "summary": "微软研究院推出的3D生成模型，采用原生紧凑结构化潜空间表示，实现高质量3D内容生成。今日获得107星，代表了3D AIGC的前沿方向，对游戏、影视、XR等行业的内容生产流程有重要变革潜力。\n\n💼 商业缺口：缺少3D生成模型的资产质量评估、格式标准化与商业授权管理平台。",
+          "url": "https://github.com/github/copilot-sdk",
+          "time": "142 stars today",
+          "language": "Java",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "腾讯云Agent记忆中心",
+          "summary": "腾讯云开源的团队级AI Agent记忆中枢，将对话历史转化为可共享的团队记忆，解决多Agent协作中的上下文一致性问题。今日获得227星，是AI Agent基础设施的重要拼图，对构建企业级多智能体系统具有实用价值。\n\n💼 商业缺口：缺少跨云厂商的Agent记忆迁移、备份与隐私合规审计服务。",
+          "url": "https://github.com/github/gh-stack",
+          "time": "46 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Deer Flow（长周期智能体框架）",
+          "summary": "字节跳动开源的长周期SuperAgent框架，能够自主完成研究、编码和创意任务，支持复杂多步骤工作流。今日获得209星，展示了字节在AI Agent领域的技术积累，为自动化研发和复杂任务执行提供了新的开源选择。\n\n💼 商业缺口：缺少长周期Agent的任务中断恢复、成本预算控制与结果可验证性工具。",
+          "url": "https://github.com/huggingface/speech-to-speech",
+          "time": "442 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Runway上线Grok Imagine视频1.5版",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway平台正式推出Grok Imagine Video 1.5版本，用户现可立即体验。该版本支持通过文本生成视频，进一步简化创作流程，满足用户多样化的内容制作需求。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax H3开源模型：视频生成新标杆",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax发布开源视频生成模型H3，在视频编辑领域排名第一，支持文本、图像、视频和音频多模态输入，可生成2K分辨率、24fps、带原生立体声的5-15秒视频片段。该模型定价为每分钟2K视频7.80美元，远低于竞争对手，且即将开放权重，成为最强开源视频模型。H3在机器人技术领域也展现出巨大潜力，开源特性使具身AI社区无需许可即可构建数据引擎和世界模型。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "OpenAI新模型Astra破解十大数学难题",
+          "url": "https://twitter.com/sama",
+          "summary": "OpenAI下一代模型Astra的内部版本解决了数学、量子复杂性和理论计算机科学领域的10个重大开放问题，包括推翻Connes刚性猜想、改进高维球堆积边界等。OpenAI已发布这些证明，附带Lean证书和思维链详解，并认为这将是科学推理的重大进步。",
+          "source": "Twitter @sama"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "这首公告牌热曲是AI垃圾吗？",
+          "summary": "Fenix Flexin因洛杉矶说唱组合Shoreline Mafia而知名，其单曲《Rubberz》近期升至公告牌百强榜第58位。然而，歌曲来源随即引发质疑，许多人猜测其大部分内容由AI生成。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+          "time": "02:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "法官驳回xAI请求，明尼苏达州‘脱衣’应用禁令得以推进",
+          "summary": "尽管xAI提起诉讼，明尼苏达州针对允许用户“脱衣”图片的应用的禁令仍可继续执行。法官驳回了xAI的阻止请求，裁定该禁令合法有效。此举标志着州级监管在AI图像处理领域的一次重要胜利。",
+          "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+          "time": "04:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "YouTuber汉克·格林称其AI使用‘不健康’",
+          "summary": "汉克·格林公开道歉，表示自己与大型语言模型互动所获得的多巴胺水平“对自己不健康，对世界也无益”。他承认这种过度依赖AI的行为已引发担忧。",
+          "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+          "time": "03:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "山姆·奥特曼仍在为通过ChatGPT育儿辩护",
+          "summary": "OpenAI首席执行官山姆·奥特曼似乎很乐意分享一个面向家长的“酷炫用例”。他继续倡导使用ChatGPT辅助育儿，认为这能为父母提供实用支持。尽管存在争议，奥特曼仍坚持这一技术应用的价值。",
+          "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+          "time": "01:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "9美元实体钥匙，物理锁定你的上瘾应用",
+          "summary": "这款售价9美元的NFC钥匙，要求用户必须物理扫描才能解锁手机上的分心应用。通过实体操作增加解锁门槛，帮助用户减少对成瘾应用的依赖。",
+          "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
+          "time": "23:58",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具创新力的100家金融科技公司，涵盖支付、借贷、财富管理等领域。这些企业通过技术驱动金融服务变革，推动行业数字化转型。榜单旨在展示金融科技领域的最新趋势与领先者。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技行业的最新发展态势，涵盖支付、借贷、财富管理等领域的创新趋势。报告指出，人工智能与区块链技术的融合正在重塑行业格局，同时监管环境的变化对市场参与者提出了新的挑战与机遇。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业加速融合，推动产品创新与运营效率提升。人工智能和大数据分析在承保、理赔等环节的应用日益广泛，显著改善客户体验并降低运营成本。同时，监管环境的变化和资本市场的波动为行业发展带来新的挑战与机遇。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对银行流水",
+          "summary": "小企业主每月需将银行流水与发票、合同逐笔核对，耗时且易漏。AI可自动抓取银行交易记录，匹配对应发票和合同，生成差异报告，并标记异常交易，大幅减少人工对账时间。\n\n💡 机会方向：面向个体户的自动化对账与差异提醒工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vckpjj/smallsolo_business_owners_whats_your_actual/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "整理合同与文档",
+          "summary": "企业扩张后，合同、发票、协议堆积，手动分类和检索困难，常导致文件丢失或过期未续。AI可自动识别文档类型、提取关键日期和条款，建立可搜索的索引，并提醒续约或付款节点。\n\n💡 机会方向：智能文档管理系统，自动分类、提取关键信息并设置提醒",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vcqty7/how_do_yall_keep_important_business_documents/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选潜在客户",
+          "summary": "营销代理需从大量线索中筛选出高意向客户，手动查看社交媒体和网站信息，效率低且易漏。AI可自动抓取潜在客户行为数据，评分并排序，甚至生成个性化触达文案，节省前期调研时间。\n\n💡 机会方向：基于行为数据的潜在客户评分与自动触达工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vd05xr/i_am_struggling_to_gain_clients/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动发布与推广内容",
+          "summary": "辅导业务需在多个平台发布课程信息并跟进咨询，手动操作重复且难以统一管理。AI可自动生成适配不同平台的推广文案，定时发布，并自动回复常见咨询，提升获客效率。\n\n💡 机会方向：多平台内容自动分发与智能客服回复系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vcuye4/how_do_i_promote_my_tutoring_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
