@@ -1,0 +1,321 @@
+{
+  "date": "2026-08-03",
+  "timeRange": "2026-08-02 09:00 ~ 2026-08-03 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Termexo | 面向Claude Code和Codex的本地Windows工作台",
+          "summary": "一个用于Claude Code和Codex的本地Windows工作台",
+          "url": "https://www.producthunt.com/products/termexo",
+          "time": "14:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "mlxsh | 在Apple设备上服务多个本地大语言模型的轻量级CLI",
+          "summary": "一个轻量级命令行工具，用于在Apple设备上服务多个本地大语言模型",
+          "url": "https://github.com/ansnadeem/mlxsh",
+          "time": "08:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Sixwhyo | 一个六岁AI代理审查你的代码",
+          "summary": "一个六岁AI代理审查你的代码",
+          "url": "https://6yo.dev/",
+          "time": "07:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Atomadic | 零LLM、亚200微秒MCP动作互锁（店面已恢复）",
+          "summary": "零LLM、亚200微秒MCP动作互锁（店面已恢复）",
+          "url": "https://atomadic.tech/orchard.html",
+          "time": "07:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "我16岁，构建了唯一的软硬件开发AI代理",
+          "summary": "我16岁，构建了唯一的软硬件开发AI代理",
+          "url": "https://github.com/spikonado/sprocket",
+          "time": "07:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Cl33-opLM | 一个具有可逆算子瓶颈的236M语言模型",
+          "summary": "一个具有可逆算子瓶颈的236M语言模型",
+          "url": "https://cl33.t3atlas.dev/",
+          "time": "06:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Mu | 面向代理的工具",
+          "summary": "面向代理的工具",
+          "url": "https://github.com/micro/mu",
+          "time": "06:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Alfa | 用共振消除AI幻觉",
+          "summary": "该代码预测未来价格点的确切时间和价格，并且还可以...",
+          "url": "https://github.com/ConsciousGroupMind/SKYNET-800---Collective-Intelligence-Forecasting-System",
+          "time": "05:51",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "微软AI初学者教程",
+          "summary": "微软推出的12周24课时的AI入门课程，覆盖神经网络、深度学习、计算机视觉、NLP等核心主题，配有Jupyter Notebook实践练习。今日获得2629星，是学习AI基础知识的优质免费资源，适合初学者系统入门。\n\n💼 商业缺口：缺少面向企业团队的AI技能评估与认证体系，帮助组织量化员工学习进度和技能达标情况。",
+          "url": "https://github.com/microsoft/AI-For-Beginners",
+          "time": "2,629 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AirLLM：单GPU运行70B大模型推理",
+          "summary": "AirLLM允许在仅有4GB显存的GPU上运行70B参数的大语言模型推理，通过分层加载和内存优化技术突破显存限制。今日获得819星，大幅降低了本地运行大模型的硬件门槛，对个人开发者和资源受限环境极具价值。\n\n💼 商业缺口：缺少针对AirLLM推理性能的基准测试与调优服务，帮助用户在不同硬件组合下获得最佳吞吐和延迟表现。",
+          "url": "https://github.com/lyogavin/airllm",
+          "time": "819 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenWork：Claude Cowork的开源替代品",
+          "summary": "OpenWork是基于opencode构建的开源AI协作工作区，旨在替代Claude Cowork，提供AI辅助的团队协作与开发环境。今日获得280星，为希望自主掌控AI协作工具的企业提供了开源选择，避免供应商锁定。\n\n💼 商业缺口：缺少面向企业的合规审计层，用于追踪AI协作过程中的数据流向、权限边界和操作留痕。",
+          "url": "https://github.com/different-ai/openwork",
+          "time": "280 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "微软生成式AI初学者教程",
+          "summary": "微软推出的21课时的生成式AI入门课程，涵盖提示工程、RAG、微调、AI Agent等前沿主题，配有实践代码和案例。今日获得588星，是学习生成式AI开发的主流免费课程，内容紧跟技术趋势，适合开发者快速上手。\n\n💼 商业缺口：缺少配套的企业级项目实战沙盒，提供真实业务场景下的生成式AI落地演练和评估标准。",
+          "url": "https://github.com/microsoft/generative-ai-for-beginners",
+          "time": "588 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agent-Reach：AI代理全网信息获取工具",
+          "summary": "Agent-Reach赋予AI代理浏览整个互联网的能力，支持搜索和阅读Twitter、Reddit等平台内容，扩展AI的信息获取边界。今日获得659星，解决了AI代理在实时信息获取方面的痛点，对构建信息密集型Agent应用很有帮助。\n\n💼 商业缺口：缺少针对Agent信息获取的合规与内容过滤层，确保AI代理在抓取社交平台数据时符合平台条款和隐私法规。",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "time": "659 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "腾讯云Agent记忆中心",
+          "summary": "TencentDB Agent Memory是面向AI Agent的团队级记忆中枢，将对话上下文和知识沉淀为可共享的持久化记忆，支持多Agent协作场景。今日获得602星，解决了Agent会话记忆丢失和团队知识复用问题，是企业级Agent应用的重要基础设施。\n\n💼 商业缺口：缺少记忆数据的版本管理与回滚机制，帮助团队在Agent行为异常时快速定位和恢复历史记忆状态。",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "time": "602 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "last30days技能：跨平台研究助手",
+          "summary": "这是一个AI Agent技能包，可自动研究Reddit、X、YouTube、HN、Polymarket等平台上的任意话题，聚合近30天的讨论和趋势。今日获得206星，为市场调研、舆情监测和趋势分析提供了自动化工具，节省大量人工搜集时间。\n\n💼 商业缺口：缺少跨平台数据的去重与可信度评分服务，帮助用户过滤噪音信息并评估各来源的可靠性。",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "206 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ds4：DeepSeek 4本地推理引擎",
+          "summary": "ds4是专为DeepSeek 4 Flash和PRO模型设计的本地推理引擎，支持Metal、CUDA和ROCm三种硬件加速后端。今日获得139星，为DeepSeek模型在Mac、NVIDIA和AMD平台上的高效本地部署提供了统一方案，兼顾性能和兼容性。\n\n💼 商业缺口：缺少针对不同硬件配置的自动优化配置工具，帮助用户一键获得最佳推理参数和内存分配方案。",
+          "url": "https://github.com/antirez/ds4",
+          "time": "139 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DeepSeek-Reasonix：终端AI编码代理",
+          "summary": "DeepSeek-Reasonix是面向终端的AI编码代理，基于DeepSeek模型构建，利用前缀缓存技术优化推理效率，提升编码辅助的响应速度。今日获得333星，为开发者提供了轻量高效的终端AI编程助手，特别适合习惯命令行工作流的用户。\n\n💼 商业缺口：缺少团队级编码代理的使用分析与成本管控面板，帮助管理者了解AI辅助编码的ROI和资源消耗。",
+          "url": "https://github.com/esengine/DeepSeek-Reasonix",
+          "time": "333 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "MiniMax AI 即将开源权重",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax AI 宣布即将开放其模型权重。有用户反馈，其H3模型生成的视频质量优于2.5版本，且数量更多。分析认为，成本、推理速度和自定义音频上传功能是主要优势。只要规模化运营，无限生成并非空想。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "卡帕西：AI生成《指环王》3D世界，开启“定制GTA”时代",
+          "url": "https://twitter.com/karpathy",
+          "summary": "安德烈·卡帕西分享了一个实验：让AI模型Opus 5基于《指环王》首段文字，用约2小时生成5500行代码，构建出可玩的3D故事场景。他认为这类“超定制世界”将变得廉价易得，但也指出AI在视频感知和游戏内审计方面仍有明显短板。",
+          "source": "Twitter @karpathy"
+        },
+        {
+          "title": "杨立昆：AI让世界更安全，现在不是减速而是加速的时候",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆表示，尽管AI驱动的网络攻击引发担忧，但AI也能让世界更安全。他主张通过强制透明度、保持攻击非法并严惩、以及用开放模型增强防御能力来应对挑战，认为AI将从根本上加强网络安全。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Fender CEO：你的乐队成员不过是模拟AI",
+          "summary": "Fender CEO爱德华·“巴德”·科尔在五月接受T3采访时，庆祝Telecaster吉他75周年，并发表了关于AI与音乐的言论，起初未受关注。但近期该言论开始传播，为公司本已糟糕的公关火上浇油。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
+          "time": "03:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "付费给艺术家就能让他们接受AI吗？",
+          "summary": "插画师多年来一直警告生成式AI初创公司未经许可使用其作品训练模型，认为这无异于盗窃。AI支持者则辩称这是技术发展的必要之举，双方因此陷入激烈法律纠纷。付费能否化解这一根本矛盾，仍是未解之问。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "山姆·奥特曼与AI减速之争",
+          "summary": "在最新一期《Equity》节目中，我们探讨了山姆·奥特曼为何呼吁业界“放缓AI发展速度”。这一表态引发了关于AI安全与创新平衡的广泛讨论。",
+          "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+          "time": "04:54",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具影响力的100家金融科技公司，涵盖支付、借贷、财富管理等领域。这些企业通过技术创新推动金融服务变革，并展现出强劲的增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司加速融合，数字支付、区块链和人工智能成为核心驱动力。监管环境趋严，但投资热度不减，行业聚焦于提升效率与用户体验。未来，金融科技将更注重合规与创新平衡，推动普惠金融发展。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技领域正经历深刻变革，传统保险公司与新兴科技企业加速融合，推动产品创新与服务效率提升。人工智能和大数据分析在风险评估、理赔处理等环节的应用日益广泛，成为行业转型的核心驱动力。同时，监管环境的变化和消费者需求的升级，正促使保险科技公司重新审视其商业模式与增长策略。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "供应商报价谈判",
+          "summary": "小企业主发现供应商也是最大竞争对手，需要向对方询价，但担心对方利用信息优势压价或拒绝。手动谈判耗时且信息不对称，AI可分析历史交易、市场行情和供应商行为模式，自动生成最优报价策略或替代供应商推荐，降低谈判风险和成本。\n\n💡 机会方向：AI驱动的供应链谈判助手，提供数据支持的报价建议和替代方案。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vdu7s5/my_supplier_is_also_my_biggest_competitor_how_do/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户绕过前台干扰",
+          "summary": "客户经常直接走进工作区打断员工，影响效率和秩序。前台手动拦截效果差，且员工需反复解释。AI可通过访客登记系统、自动提醒和门禁控制，识别并引导客户至前台，同时生成访客记录和员工通知，减少干扰并提升专业形象。\n\n💡 机会方向：AI访客管理与工作区保护系统，自动识别并引导客户至正确区域。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vduizw/how_do_you_stop_clients_from_bypassing_the_office/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "定制订单争议预防",
+          "summary": "定制产品客户常否认批准过设计，导致纠纷和退款。手动保存聊天记录和邮件易遗漏，且难以作为有效证据。AI可自动记录所有沟通和审批节点，生成时间戳确认单，并在关键变更时提醒双方，减少争议并提高订单履约率。\n\n💡 机会方向：AI订单审批追踪工具，自动生成可验证的客户确认记录。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vdvass/how_do_you_protect_yourself_from_i_never_approved/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "企业估值资产归属",
+          "summary": "收购方已拥有目标公司关键资产，手动估值时难以区分资产归属，导致价格争议。AI可自动分析资产清单、合同和财务数据，识别重复或已归属资产，并生成调整后的估值模型，减少谈判摩擦和主观判断。\n\n💡 机会方向：AI资产归属分析器，自动剥离买方已有资产并计算净估值。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vdy3en/how_do_you_value_a_business_when_many_of_the_key/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "教练业务规模化",
+          "summary": "教练享受一对一辅导但难以扩展，手动安排日程、跟进学员进度和整理反馈耗时。AI可自动化预约管理、生成个性化练习计划、跟踪学员表现并发送提醒，同时提供内容模板和数据分析，帮助教练在不增加工作量的情况下服务更多客户。\n\n💡 机会方向：AI教练运营助手，自动化日程、进度跟踪和客户沟通。",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49143243",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
