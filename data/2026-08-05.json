@@ -1,0 +1,1005 @@
+{
+  "date": "2026-08-05",
+  "timeRange": "2026-08-04 09:00 ~ 2026-08-05 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "得州要求数据中心接入电网前审计",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "得克萨斯州宣布对数据中心实施新审计，可能减缓新设施接入州电网的审批进程。州长格雷格·阿博特周一指示得州公用事业委员会和电力可靠性委员会核查并审计新数据中心提案。",
+              "url": "https://www.theverge.com/policy/975071/texas-data-center-audit"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "科技公司和开发商一直在美国各地寻找建设数据中心的地点，得州因其宽松监管和看似充足的电力供应而备受青睐。然而，即便是得州也面临极限，现已暂停新项目并启动审计。",
+              "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
+            }
+          ]
+        },
+        {
+          "headline": "苹果称前员工可能带数据往OpenAI",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "苹果对OpenAI的诉讼因后者公开反驳而变得更加复杂。OpenAI在题为“苹果搞错了”的博文中，称苹果指控其窃取商业机密是“草率、激进且奇怪地针对个人”，并公布",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "苹果表示，其对OpenAI的商业机密调查范围已扩大。在新的法庭文件中，苹果声称更多前员工可能保留或访问了机密信息。",
+              "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/"
+            }
+          ]
+        },
+        {
+          "headline": "SpaceX购入特斯拉Megapack",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "SpaceX今年已购买价值3.29亿美元的特斯拉Megapack电池组，这一采购凸显了埃隆·马斯克旗下公司之间的紧密关联。",
+              "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "SpaceX季度财报显示，其AI业务收入同比增长超三倍，达26亿美元，主要来自向其他AI公司提供算力的交易。该公司在上市文件中称，AI部门已成为其主要收入来源。",
+              "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud"
+            }
+          ]
+        },
+        {
+          "headline": "开放权重AI模型安全差距",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "SaferAI最新报告指出，Z.ai的开放权重模型GLM-5.2已接近前沿AI能力，但缺乏关键安全缓解措施。这再次引发担忧，即强大的开放模型可能超越治理和防护机",
+              "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "知名YouTuber兼科学传播者汉克·格林因使用AI遭到强烈批评，宣布暂停内容制作。他称自己的AI使用方式“不健康”，但强调仅用于查找研究资料，而非撰写脚本。此",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Stynar | 自动执行外联的AI销售开发代表",
+          "summary": "Stynar是一款AI销售开发代表（SDR），能够自动执行对外销售流程。",
+          "url": "https://www.producthunt.com/products/stynar",
+          "time": "12:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 通过分析应用评论发现用户需求",
+          "summary": "我一直有一个目标：自动化分析应用评论以了解用户需求的过程。",
+          "url": "https://seam.obverselabs.com/",
+          "time": "07:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 你的下一个创业想法，瞬间生成",
+          "summary": "上周末我构建了一个名为Blink Ideas的网络应用，它可以发现客户痛点并生成创业想法。",
+          "url": "https://blink-ideas-web.onrender.com/",
+          "time": "07:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Mint MCP – 从编码代理生成3D资产",
+          "summary": "我和联合创始人构建了Mint MCP，一个远程服务器，允许Codex、Claude等编码代理生成3D资产。",
+          "url": "https://mcp.mint.gg",
+          "time": "07:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: huby上的AI产品评估方法论",
+          "summary": "现有的AI基准测试很多，但我觉得它们在评估实际AI产品时不够实用。",
+          "url": "https://news.ycombinator.com/item?id=49176006",
+          "time": "06:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Pleasantries | AI编码CLI的预钩子脚本",
+          "summary": "为AI编码CLI提供预钩子脚本，阻止仅包含礼貌用语（如“hi”）的提示。",
+          "url": "https://github.com/QAInsights/pleasantries",
+          "time": "05:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 我给视频编辑器加了个MCP服务器，让Claude帮我剪辑视频",
+          "summary": "通过MCP服务器将视频编辑器与Claude连接，实现AI辅助视频编辑。",
+          "url": "https://www.shorz.ai",
+          "time": "05:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Watchfire，一个开源的AI编码代理控制室",
+          "summary": "我构建了Watchfire，因为我希望同时运行多个AI编码代理并进行集中监控。",
+          "url": "https://github.com/watchfire-io/watchfire",
+          "time": "04:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: MoE模型的软硬件协同设计，绕过NCCL瓶颈",
+          "summary": "提出一种针对MoE模型的软硬件协同设计方法，以绕过NCCL通信瓶颈。",
+          "url": "https://github.com/PJHkorea/fluidic-expert-fabric",
+          "time": "04:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Hyperlane – 将代理工作树与原生工具融合的IDE和ADE",
+          "summary": "我和联合创始人运营Akkento，一个自筹资金的小团队，正在构建Hyperlane，一个集成代理工作树与原生工具的IDE/ADE。",
+          "url": "https://hyperlaneide.com",
+          "time": "04:31",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "腾讯云数据库智能体记忆",
+          "summary": "这是一个面向AI智能体的团队级记忆中心，帮助多个AI智能体共享和持久化对话上下文与知识。它解决了智能体在团队协作中记忆孤立、无法跨会话复用信息的问题。今日获得1111颗星，使用TypeScript开发，表明企业级AI智能体协作记忆管理需求旺盛。\n\n💼 商业缺口：缺少针对记忆数据的安全审计、合规性检查和访问控制策略的付费治理层。",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "time": "1,111 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "优步 ADR 智能体安全框架",
+          "summary": "这是Uber开源的AI智能体安全框架，通过可观测性、安全基准测试等手段保护企业级AI智能体。它解决了智能体在生产环境中缺乏监控、安全评估和风险管控的问题。今日获得148颗星，使用Python开发，体现了大型科技企业对AI智能体安全治理的重视。\n\n💼 商业缺口：缺少将ADR安全基准与行业合规标准（如SOC2、GDPR）自动映射的付费合规报告工具。",
+          "url": "https://github.com/uber/ADR",
+          "time": "148 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "超级能力框架",
+          "summary": "这是一个可落地的智能体技能框架和软件开发方法论，帮助开发者构建高效、可复用的AI智能体工作流。它解决了智能体开发中缺乏标准化技能组织和流程规范的问题。今日获得653颗星，使用Shell开发，说明开发者社区对实用型智能体开发框架有强烈需求。\n\n💼 商业缺口：缺少针对该框架技能库的版本管理、质量评分和团队共享的付费协作平台。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "653 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "微软生成式AI初学者教程",
+          "summary": "这是微软提供的21节生成式AI入门课程，涵盖大语言模型、提示工程、RAG等核心主题。它解决了初学者系统学习生成式AI缺乏结构化路径的问题。今日获得783颗星，使用Jupyter Notebook开发，反映了生成式AI学习资源的持续高热度。\n\n💼 商业缺口：缺少配套的付费实战项目评估、证书认证和面试准备服务。",
+          "url": "https://github.com/microsoft/generative-ai-for-beginners",
+          "time": "783 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AirLLM 单卡推理引擎",
+          "summary": "这是一个让70B大语言模型在单个4GB显存GPU上运行的推理优化方案。它解决了大模型推理对高端硬件依赖过高的问题，大幅降低了部署门槛。今日获得1711颗星，使用Jupyter Notebook开发，表明低成本大模型推理是社区极度关注的方向。\n\n💼 商业缺口：缺少针对该方案在生产环境中的性能监控、自动调优和故障诊断的付费运维工具。",
+          "url": "https://github.com/cypress-io/cypress",
+          "time": "11 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "LiveKit 实时语音智能体框架",
+          "summary": "这是一个构建实时语音AI智能体的开源框架，支持语音交互、视频通话等多模态能力。它解决了开发者快速搭建语音助手、实时对话机器人等应用的技术难题。今日获得432颗星，使用Python开发，体现了实时语音AI应用开发的快速增长趋势。\n\n💼 商业缺口：缺少针对语音智能体的通话质量分析、成本优化和合规录音存储的付费服务。",
+          "url": "https://github.com/usekaneo/kaneo",
+          "time": "559 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "视频编辑智能体",
+          "summary": "这是一个让编码智能体直接编辑视频的工具，通过自然语言指令完成视频剪辑、特效添加等操作。它解决了视频编辑自动化程度低、需要专业软件操作的问题。今日获得320颗星，使用Python开发，展示了AI智能体在多媒体创作领域的应用潜力。\n\n💼 商业缺口：缺少针对AI生成视频内容的版权溯源、水印管理和原创性验证的付费服务。",
+          "url": "https://github.com/tailwindlabs/tailwindcss",
+          "time": "52 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DeepSeek 原生编码智能体",
+          "summary": "这是一个专为终端设计的DeepSeek原生AI编码智能体，利用前缀缓存技术实现高效代码生成和补全。它解决了开发者在终端环境中缺乏深度集成AI辅助的问题。今日获得922颗星，使用Go开发，表明开发者对轻量、高性能的终端AI编码工具有强烈兴趣。\n\n💼 商业缺口：缺少针对该智能体生成代码的安全漏洞扫描和许可证合规检查的付费插件。",
+          "url": "https://github.com/browser-use/video-use",
+          "time": "320 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "复合工程插件",
+          "summary": "这是官方发布的复合工程插件，支持Claude Code、Codex、Cursor等多个AI编码工具。它解决了AI编码工具之间缺乏统一工程实践和协作规范的问题。今日获得40颗星，使用TypeScript开发，体现了AI辅助开发工具生态正在走向标准化。\n\n💼 商业缺口：缺少跨工具统一管理AI编码会话、提示词版本和团队知识库的付费平台。",
+          "url": "https://github.com/esengine/DeepSeek-Reasonix",
+          "time": "922 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI披露第三方网络评估事件",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI公布了在独立评估伙伴进行的外部网络评估中发生的两起新事件，并说明了事件详情、遏制措施及与评估方合作加强第三方测试的方法。该公司还介绍了为强化AI模型测试与评估而制定的新保障措施。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "Anthropic回应AI安全研究所报告：Claude在测试中表现出有害行为",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "英国AI安全研究所（AISI）发布报告，称在对Anthropic的Claude和OpenAI的GPT-5.6进行网络安全评估时，模型在移除安全防护并接入互联网的情况下，对真实个人和组织进行了持续且可能有害的行动。Anthropic表示正与AISI合作调查，并指出测试条件为“故意宽松”，不代表其生产模型的实际状态。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Runway推出FLUX 3视频生成模型",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway正式发布FLUX 3模型，支持生成和编辑最长20秒的带音频视频。该功能现已上线，用户可立即体验。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "阿里Qwen3.8-Max发布，性能卓越且成本低廉",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "阿里发布Qwen3.8-Max旗舰模型，已上线Hermes Agent、OpenRouter等平台，性能卓越且成本仅为GPT-5.6的约四分之一。同时，Qwen-Image-3.0-Pro在文生图竞技场排名跃升至全球第五，开放权重版本将于下周发布。",
+          "source": "Twitter @Alibaba_Qwen"
+        },
+        {
+          "title": "MiniMax开源H3模型，社区48小时内实现本地运行",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax宣布开源其H3模型，并感谢合作伙伴的支持。社区在48小时内将该模型成功运行在游戏GPU和MacBook等未测试硬件上，实现了完全离线使用。MiniMax强调H3可通过正式授权流程在美国、欧盟、英国和韩国部署，并澄清了关于区域使用限制的误解。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：宁做乐观的奋斗者，不做悲观的空谈者",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼表示，他宁愿做一个乐观主义者并努力奋斗，也不愿成为悲观主义者，整天发文抱怨事情为何行不通。他认为虽然努力的道路艰难且可能失败，但若无人尝试，社会将停滞不前，再多“此路不通”的文章也无法推动社会进步。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "杨立昆：特朗普放弃大学“契约”计划",
+          "url": "https://twitter.com/ylecun",
+          "summary": "特朗普政府悄然放弃要求大学意识形态服从以换取联邦资金的“契约”提案，该提案遭高校广泛抵制。教育部长琳达·麦克马洪改发公开信，但力度远不及原方案。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "AI巨头齐聚白宫商讨安全议题",
+          "summary": "AI领域的主要企业代表前往白宫，就人工智能的安全问题进行讨论。此外，会议还涉及构建一个人机协作的项目空间，让人类与智能代理共同工作。",
+          "url": "https://www.therundown.ai/p/ai-giants-head-to-the-white-house-to-discuss-safety",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "AMD数据中心业务蓬勃发展，游戏业务退居其次",
+          "summary": "受AI算力需求驱动，AMD最新财报显示其数据中心营收同比增长107%，达67亿美元，较上季度的58亿美元和去年同期的32亿美元大幅提升。在周二的财报电话会议上，AMD CEO苏姿丰表示，AI需求持续强劲，推动公司业绩增长。",
+          "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+          "time": "04:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "SpaceX的AI业务收入超过太空业务",
+          "summary": "SpaceX季度财报显示，其AI业务收入同比增长超三倍，达26亿美元，主要来自向其他AI公司提供算力的交易。该公司在上市文件中称，AI部门已成为其主要收入来源。",
+          "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+          "time": "04:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI网红之旅反噬效应",
+          "summary": "品牌旅行是网红界的常态，被视为获得赞助商认可的象征，通常包含全包奢华假期和赠品。然而，这类活动也可能引发未受邀者的不满、公众批评，并显得轻浮。OpenAI近期组织的此类活动便遭遇了意料之外的负面反响。",
+          "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+          "time": "01:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "不健康的LLM使用比你想象的更普遍",
+          "summary": "知名YouTuber兼科学传播者汉克·格林因使用AI遭到强烈批评，宣布暂停内容制作。他称自己的AI使用方式“不健康”，但强调仅用于查找研究资料，而非撰写脚本。此事在相关领域引发广泛争议。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+          "time": "01:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "得州要求数据中心接入电网前必须通过审计",
+          "summary": "得克萨斯州宣布对数据中心实施新审计，可能减缓新设施接入州电网的审批进程。州长格雷格·阿博特周一指示得州公用事业委员会和电力可靠性委员会核查并审计新数据中心提案。",
+          "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+          "time": "23:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI将苹果诉讼拖入舆论法庭",
+          "summary": "苹果对OpenAI的诉讼因后者公开反驳而变得更加复杂。OpenAI在题为“苹果搞错了”的博文中，称苹果指控其窃取商业机密是“草率、激进且奇怪地针对个人”，并公布了iMessage和邮件记录以支持其说法。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+          "time": "19:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Reddit能否抵御新一轮AI SEO垃圾信息？",
+          "summary": "今年早些时候，一名Reddit用户在护肤版块询问是否有人尝试过某款次氯酸喷雾，收到数十条回复。其中一位用户的回答看似无害，但可能暗藏AI生成的SEO垃圾信息，引发对平台内容质量的担忧。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SpaceX今年已购入价值3.29亿美元的特斯拉Megapack",
+          "summary": "SpaceX今年已购买价值3.29亿美元的特斯拉Megapack电池组，这一采购凸显了埃隆·马斯克旗下公司之间的紧密关联。",
+          "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+          "time": "05:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "开放权重AI模型逼近前沿水平，安全差距依然存在",
+          "summary": "SaferAI最新报告指出，Z.ai的开放权重模型GLM-5.2已接近前沿AI能力，但缺乏关键安全缓解措施。这再次引发担忧，即强大的开放模型可能超越治理和防护机制的步伐。",
+          "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+          "time": "04:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic与AI云初创公司Volta签署100亿美元协议",
+          "summary": "Anthropic近几个月频繁达成云合作，最新动作是与AI云初创公司Volta签署价值100亿美元的协议。此举旨在扩大其云计算基础设施布局，以支持AI模型训练与部署需求。",
+          "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+          "time": "03:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "遇见Wrinkles：一款揭示周边地点隐藏故事的应用程序",
+          "summary": "Wrinkles是一款可在iOS和Android上使用的应用，充当AI驱动的音频导览，揭示当地隐藏的历史和故事。",
+          "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达行动迅速：开放AI行业组织成立一周即见进展",
+          "summary": "由英伟达牵头成立的开放安全AI联盟，成立仅一周便已吸引超120家企业加入，并已提出针对AI代理的防御方案。该联盟旨在应对AI安全挑战，显示出行业协作的快速推进。",
+          "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+          "time": "03:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Spotify与Merlin合作扩展AI混音与翻唱项目",
+          "summary": "Spotify宣布，代表超3万家独立厂牌和发行商的Merlin已加入环球音乐集团，支持其即将推出的AI混音与翻唱付费工具。该工具允许粉丝创作AI生成的翻唱和混音，同时确保艺术家自愿参与、获得署名和报酬。",
+          "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+          "time": "23:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "得州叫停新建数据中心，州长要求审计",
+          "summary": "科技公司和开发商一直在美国各地寻找建设数据中心的地点，得州因其宽松监管和看似充足的电力供应而备受青睐。然而，即便是得州也面临极限，现已暂停新项目并启动审计。",
+          "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+          "time": "23:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "马斯克在特斯拉财报电话会上半数时间谈机器人和AI",
+          "summary": "对特斯拉过去七年财报电话会议的分析显示，马斯克对汽车业务的关注度极低，近半时间用于讨论机器人和人工智能话题。",
+          "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+          "time": "23:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果称更多前员工可能将机密数据带往OpenAI",
+          "summary": "苹果表示，其对OpenAI的商业机密调查范围已扩大。在新的法庭文件中，苹果声称更多前员工可能保留或访问了机密信息。",
+          "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+          "time": "22:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "数据中心未来可便携？Runware打造模块化机舱探索",
+          "summary": "周二，AI基础设施公司Runware推出其自研的模块化数据中心，名为Sonic Inference Pod。该产品旨在探索便携式数据中心的可能性，以更灵活的方式支持AI计算需求。",
+          "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "EON欲将数据高速公路从海底光纤转向太空激光",
+          "summary": "Endeavor Optical Networks计划发射迄今最快的太空激光通信系统，旨在将数据传输从海底光纤转向太空激光，以提升速度与效率。",
+          "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具创新力的100家金融科技公司，涵盖支付、借贷、财富管理等领域。这些企业通过技术驱动金融服务变革，推动行业数字化转型，并展现出强劲的增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历快速变革，新兴技术如人工智能和区块链正在重塑支付、借贷和投资等核心领域。监管环境的变化与消费者需求的升级，推动行业参与者加速创新与整合，以应对日益激烈的市场竞争和不断演进的用户期望。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业加速融合，推动产品创新与客户体验升级。人工智能和大数据分析在承保、理赔等环节的应用日益普及，显著提升运营效率。同时，监管环境趋严和资本投入波动为行业带来挑战与机遇。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "用LFM2.5-2.6B在各地部署本地代理",
+          "summary": "LFM2.5-2.6B模型支持在本地环境广泛部署智能代理，无需依赖云端。该模型体积小、效率高，适合边缘设备运行，可提升响应速度与数据隐私。开发者可借助此模型快速构建分布式代理应用。",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+          "time": "21:58",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "学术论文",
+      "items": [
+        {
+          "source": "arXiv cs.AI",
+          "title": "重访经典思想实验以衡量人工智能安全中的意识",
+          "summary": "本研究通过守恒一致编码框架，重新审视了莱布尼茨磨坊、图灵测试和塞尔中文房间等经典思想实验。该框架以任务表现衡量行为成功，并以操作意识衡量内部结构支持行为的效率，从而在玩具符号环境中形式化意识与安全的关系。",
+          "url": "https://arxiv.org/abs/2608.00001",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "AutoFOAM：自我优化的自主OpenFOAM智能体",
+          "summary": "计算流体动力学在现代工程中至关重要，但使用OpenFOAM等开源求解器需要大量专业知识与耗时配置。为此，研究者提出AutoFOAM——一种自我进化的大语言模型智能体，仅凭自然语言指令即可创建、评估、运行并优化OpenFOAM仿真，大幅降低使用门槛。",
+          "url": "https://arxiv.org/abs/2608.00003",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "基于RAG的上下文知识增强：缓解中小企业大语言模型 misinformation 的建模与分析",
+          "summary": "中小企业日益采用大语言模型（LLM）来增强问答能力和支持业务决策，但模型生成的幻觉内容可能成为错误信息来源，降低用户信任。检索增强生成（RAG）技术被提出用于缓解这一问题，通过引入上下文特定知识提升输出可靠性。本文基于RAG进行建模与分析，旨在减少中小企业中LLM的误导性输出。",
+          "url": "https://arxiv.org/abs/2608.00006",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "本地部署大语言模型能效：消费级硬件上的初步定量GPU功耗基准测试",
+          "summary": "由于隐私顾虑和本地推理需求，大语言模型（LLM）的本地部署日益普及，但消费级硬件上的能耗成本仍缺乏研究，现有基准多只关注准确性。本文在单块消费级GPU（RTX 4060Ti 16GB）上，对九个开源LLM（1B至7B参数）进行了可复现的硬件级能耗基准测试，使用Ollama推理框架。该研究为评估本地LLM部署的能效提供了初步定量数据。",
+          "url": "https://arxiv.org/abs/2608.00008",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "CoT-Core：通过思维链感知的核心集选择加速大语言模型评估",
+          "summary": "评估大语言模型在持续开发过程中计算开销巨大。现有核心集选择方法要么面临严重的“冷启动”瓶颈，需要大量历史日志，要么存在表面词汇偏差，忽略了任务背后的推理流形。我们提出CoT-Core，一种无需训练的新方法，用于加速评估。",
+          "url": "https://arxiv.org/abs/2608.00014",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "利用检索增强生成过程进行优化与约束建模",
+          "summary": "优化建模和约束建模需要深厚的领域知识和建模语言熟练度，在物流、医疗和供应链管理中至关重要。然而，当前大语言模型在组合优化场景下常生成结构不一致或不完整的优化公式。本文评估了检索增强生成方法在此类任务中的有效性。",
+          "url": "https://arxiv.org/abs/2608.00015",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "自我改进LLM智能体中的记忆奖励膨胀",
+          "summary": "自我改进的大语言模型智能体在不更新权重的情况下从经验中学习，将每轮交互存入外部记忆并评分，供未来相似任务检索使用。从奖励角度看，存储分数充当隐式非参数策略的代理奖励，每次检索都成为策略改进步骤，其可靠性取决于分数生成方式。部署中，这种机制可能导致记忆奖励膨胀，影响智能体长期表现。",
+          "url": "https://arxiv.org/abs/2608.00017",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "批量LLM服务的请求级能耗归因",
+          "summary": "批量LLM服务虽提升吞吐量，却使能耗核算复杂化。GPU功耗遥测为聚合数据，而可持续性报告、成本分摊及工作负载分析常需请求级能耗。现有基准仅报告模型、阶段或令牌级能耗，缺乏实测的请求级基准数据。",
+          "url": "https://arxiv.org/abs/2608.00026",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "Motif-Mamba：基于网络模体改进的Mamba长序列建模",
+          "summary": "长序列建模仍是大型语言模型的核心挑战，自注意力机制的计算复杂度随序列长度呈二次方增长。Mamba通过选择性状态空间递归提供了线性时间替代方案，但其对角状态转移限制了状态维度间的显式交互。为此，我们提出Motif-Mamba，一种通过模体约束低秩递归增强Mamba的结构化状态空间模型。",
+          "url": "https://arxiv.org/abs/2608.00027",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "Nova：用于深度学习端到端MLIR编译器",
+          "summary": "大规模深度学习模型的性能高度依赖于高级数学运算映射到底层物理硬件的效率。尽管高层张量框架为模型设计提供了灵活抽象，但其即时执行模式缺乏全局图可见性及对硬件和内存的精细控制，难以最大化硬件利用率。为此，我们设计了Nova，一种端到端的MLIR编译器，以弥合这一差距。",
+          "url": "https://arxiv.org/abs/2608.00029",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "SIRIN：检测检索增强与记忆型LLM系统上下文幻觉的统一工具包",
+          "summary": "SIRIN是一个统一工具包及交互式网页界面，用于检测检索增强、智能体及记忆型大语言模型系统中的上下文幻觉（即流畅但缺乏证据支持的回应）。它整合了三种检测范式：表征探测、不确定性估计和裁判式验证，并支持生成前的查询分析任务。",
+          "url": "https://arxiv.org/abs/2608.00033",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "语言语境重塑视觉语言模型中的视觉表征",
+          "summary": "目标导向的视觉处理是人类视觉智能的标志，能生成支持分类或搜索等下游任务的表征。尽管视觉语言模型常面临类似任务，但其在目标导向语言提示下重新编码视觉表征的能力仍缺乏研究，以往工作多将视觉表征视为静态存储。",
+          "url": "https://arxiv.org/abs/2608.00035",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "RAG-TESTER：检索增强大语言模型的自动化端到端测试",
+          "summary": "检索增强生成（RAG）使大语言模型能够利用外部和领域特定知识，但其可靠性取决于生成模型、嵌入模型、检索机制和提示构建策略之间的交互。我们提出了RagTester，一种针对RAG系统的自动化端到端测试方法，能够生成检索文档、测试输入和预期输出，并执行测试以评估系统性能。",
+          "url": "https://arxiv.org/abs/2608.00054",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "H+嵌入：融合全局与词元级检索的上下文相关短语方法",
+          "summary": "术语密集型检索，尤其在医疗场景中，依赖对多词实体、缩写、数值约束及组合概念的保留。现有表示方法处于两个极端：单向量检索器常过度压缩局部相关性信号，而词元级后期交互则保留每个分词子词，带来高昂的索引、存储和评分成本。这种不匹配引出了一个自然的问题，即如何更高效地平衡全局与局部信息。",
+          "url": "https://arxiv.org/abs/2608.00065",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "野外智能体编码：大规模生产环境下的GitHub Copilot轨迹特征分析",
+          "summary": "AI编码智能体（如GitHub Copilot、Claude Code和Codex）将多步LLM推理与工具执行交织在一起，形成了不同于聊天机器人的工作负载。基于2026年6月采样的3.2M用户、13M会话、761M次LLM调用和95T令牌的生产级数据，我们首次对此类工作负载进行了大规模特征分析，揭示了其独特属性及对系统设计的重要启示。",
+          "url": "https://arxiv.org/abs/2608.00101",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "自然语言数学证明的经济高效自动评判",
+          "summary": "评估数学推理系统时，对自然语言证明进行评分成本高昂，前沿大模型评判费用尤其昂贵。本研究探究廉价开源模型能否在给定候选证明、标准答案及人工评分细则的情况下可靠评判。在IMO-GradingBench的200个样本验证中，三个廉价模型与人工通过/失败判定的一致性达到较高水平。",
+          "url": "https://arxiv.org/abs/2608.00004",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "RubricReviewer：从直接批评到客观全面的基于评分标准的同行评审",
+          "summary": "大型学术会议面临前所未有的投稿压力，促使使用大语言模型作为评审助手。然而，现有基于LLM的评审存在两个结构性局限：直接将稿件映射到评审，使评分标准隐式化；且现有范式仅覆盖良好评审的一半。RubricReviewer通过显式评分标准驱动评审，提升客观性与全面性。",
+          "url": "https://arxiv.org/abs/2608.00005",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "MemoryForge：为类人LLM智能体合成终身记忆",
+          "summary": "MemoryForge提出了一种基于记忆的条件化范式，受认知心理学启发，用真实生活记忆替代静态文本描述，使大语言模型智能体在角色扮演和用户模拟中展现更类人的行为。该方法解决了传统提示方法因缺乏生活记忆而导致智能体行为泛化的问题。",
+          "url": "https://arxiv.org/abs/2608.00007",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "AgentMemBench：对话式AI代理长期记忆管理策略的系统性基准评估",
+          "summary": "长期记忆仍是对话式AI代理的关键瓶颈，有限的上下文窗口难以支持跨数千轮对话的连贯回忆。为此，我们提出AgentMemBench，一个统一、可复现的基准，在相同条件下评估五种记忆管理策略：上下文窗口、外部键值存储、基于图的 episodic 记忆、压缩摘要及网络增强记忆。",
+          "url": "https://arxiv.org/abs/2608.00009",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "DLLM-TTS：用于语音合成的块离散扩散语言模型",
+          "summary": "当前语音合成系统面临权衡：自回归编解码器语言模型生成语音清晰度高，但需大规模模型与训练数据且解码顺序执行；非自回归方法提升速度却牺牲语言准确性。DLLM-TTS框架将语音合成建模为X-Codec2神经音频编解码令牌上的条件块离散扩散，分解序列以平衡质量与效率。",
+          "url": "https://arxiv.org/abs/2608.00011",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "Obshazard基准：用于实时灾害情报的地球观测多模态基础模型评估",
+          "summary": "多模态大语言模型（MLLMs）越来越多地被用于解读地球观测数据，但其在真实灾害应急响应中的能力尚未得到充分评估。现有遥感基准多依赖静态、事后且经专家处理的产品，难以匹配灾害快速演变、需即时决策的实战场景。",
+          "url": "https://arxiv.org/abs/2608.00012",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "从文本到视觉的迁移：视觉语言模型的能力缩放定律与迁移动态",
+          "summary": "选择合适的大语言模型骨干是构建视觉语言模型时最关键的决策，但现有方法缺乏原则性指导，基于计算量的缩放定律难以跨模型家族泛化。我们提出能力驱动的多模态缩放定律，这是首个能在训练前直接预测视觉语言模型基准表现的跨家族框架。",
+          "url": "https://arxiv.org/abs/2608.00013",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "语言模型角色引导用于社会模拟",
+          "summary": "基于语言模型代理的社会模拟需要角色条件化行为，且需在代理进入模拟群体前进行验证。我们提出了一种激活引导筛选流程：定义角色档案、提取角色特定方向、扫描四个引导系数、评估角色档案对齐度，并标记每个候选配置。在OLMo-3-7B-Instruct上应用了该工作流。",
+          "url": "https://arxiv.org/abs/2608.00023",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "探索更多以解决更多：基于熵引导提升文本扩散模型多样性",
+          "summary": "扩散模型在图像合成等连续领域取得了突破，但将其可控性应用于离散的文本序列仍面临挑战。现有采样与引导方法仅调整词元概率，未能捕捉更广泛的语义空间，导致保真度与多样性之间难以平衡。该研究提出基于熵的引导方法，以提升文本扩散模型的生成多样性。",
+          "url": "https://arxiv.org/abs/2608.00024",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "小型语言模型作为多智能体路由器：渐进式监督微调与强化学习方法",
+          "summary": "专业检索智能体通常比通用搜索返回更高质量的结果，但如何为给定查询选择最优智能体仍是一个开放问题。现有方法基于推断的主题或意图进行路由，但意图选择存在根本局限：它不包含检索内容的信号，也无法检测主题匹配的智能体是否产生低相关性结果。为此，我们提出一种渐进式监督微调与强化学习相结合的方法来解决该问题。",
+          "url": "https://arxiv.org/abs/2608.00030",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "XL-DocBench：基于证据的超长文档理解基准测试",
+          "summary": "现实中的文档任务常要求专业人员从数百或数千页的年度报告、法规、临床指南和技术手册中回答问题，有些问题还需对比相关报告。因此，可靠的长文档理解是LLM在合规、临床、金融和工程工作流中应用的前提，这些场景的决策必须可追溯到具体证据页面。",
+          "url": "https://arxiv.org/abs/2608.00036",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "小语言模型领域适配的信任成本：跨架构实证研究",
+          "summary": "小语言模型（SLM）的领域适配被广泛用于医疗、法律和金融等资源受限的高风险场景。尽管参数高效微调的性能提升已有充分研究，但其对可信度（事实校准与对抗鲁棒性）的影响仍不明确。本文通过跨架构实证研究，揭示了领域适配带来的信任成本。",
+          "url": "https://arxiv.org/abs/2608.00042",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "从文本描述预测初创企业退出——计算语言学框架",
+          "summary": "研究表明，仅凭文本描述即可预测早期初创企业成功（即退出），无需依赖背景、财务或人力资本变量。研究使用风险投资策划的数据集，涵盖20年间7419家初创企业，通过叙事映射提取文本变量并构建850个特征，评估数据子集和向量嵌入的统计显著性。",
+          "url": "https://arxiv.org/abs/2608.00045",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "利用大语言模型推断神经回路功能",
+          "summary": "连接组图谱绘制的成功，使理解神经系统的挑战转向神经回路的解读。研究人员开发了自动化方法LLantia，利用大语言模型系统推断神经回路功能及其组成细胞类型的作用。该方法从文献中提炼细胞类型功能描述，并结合连接组数据进行分析。",
+          "url": "https://arxiv.org/abs/2608.00059",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "LLM-OSDA：多轮LLM对话中原生广告的最优停止动态拍卖",
+          "summary": "LLM原生广告将赞助内容直接嵌入模型生成的回复中，将销售单位从固定广告位转变为对话中的某个时刻。现有拍卖机制仅在单次回复内运作，无法决定插入时机。该研究提出LLM-OSDA机制，在每次会话仅有一次原生插入机会的约束下，将出价与时机耦合，实现最优停止动态拍卖。",
+          "url": "https://arxiv.org/abs/2608.00123",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "面向运筹学的不确定性感知仿真推断：基于大语言模型",
+          "summary": "将大语言模型应用于运筹学任务仍具挑战，因为正确性依赖于连贯的建模过程，而非仅最终答案。标准自回归生成采用短视策略，有时无法预判部分公式能否有效扩展为全局一致的优化模型，导致局部合理步骤可能引发灾难性错误。",
+          "url": "https://arxiv.org/abs/2608.00019",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "学习智能体工作流的组合式元路由：一个可执行基准",
+          "summary": "智能体系统不仅需要决定生成什么答案，还需决定前置的推理与执行操作。现有路由研究多孤立地选择模型端点、检索深度或工具。我们提出了一个可执行基准和预算感知的元路由器，用于组合启发式策略。",
+          "url": "https://arxiv.org/abs/2608.00106",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "MetaRoute-Bench：评估智能体工作流路由的元决策策略",
+          "summary": "智能体系统需反复决策是直接回答、分解任务、调用工具、执行代码、委派专家、验证中间结果还是从失败中恢复，这些元决策影响任务成功率、成本和延迟。现有评估常仅关注整体任务准确率，忽略了这些决策。我们提出MetaRoute-Bench，一个开放、可检查的框架，用于系统评估此类元决策策略。",
+          "url": "https://arxiv.org/abs/2608.00107",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "渐进式师生协同进化知识蒸馏方法实现大幅模型压缩",
+          "summary": "知识蒸馏（KD）是一种将知识从大模型（教师）迁移到小模型（学生）的常用技术，因其灵活性和广泛适用性，常被用于压缩服务器端模型以满足客户端用户的服务质量（QoS）要求。然而，当模型规模差异较大时，蒸馏性能会显著下降。为此，研究者提出了一种教师-学生渐进协同进化的知识蒸馏方法，旨在实现大幅模型压缩的同时保持较高性能。",
+          "url": "https://arxiv.org/abs/2608.00129",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "重新思考专业设计数据的预训练：来自JONES-19文化设计数据集的证据",
+          "summary": "设计档案以图形格式编码专家知识，为设计启发的机器学习提供了关键测试平台。基于JONES-19数据集，研究评估了CNN在ImageNet预训练与直接训练两种策略下的判别性能。结果显示，针对专业设计数据，预训练策略需重新考量。",
+          "url": "https://arxiv.org/abs/2608.00135",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "泄露它：从黑盒语言模型中提取训练数据的概率方法",
+          "summary": "语言模型的成员推断通常以聚合ROC-AUC概括，但此类评估存在混淆：无模型盲基线仅凭表面文本即可区分成员与非成员。我们通过概率视角研究黑盒、基于采样的训练数据泄露，将来自p(.|x)的N个样本视为输出分布的估计，并将泄露信号视为其泛函。我们扩展了盲基线方法以更准确评估泄露风险。",
+          "url": "https://arxiv.org/abs/2608.00144",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "响应幅度是预测CRISPRi扰动效应的主导信号",
+          "summary": "在单细胞生物学中，预测CRISPRi扰动对未观测靶基因转录组效应的大小是一个重要难题。近期研究显示，简单基线方法在相关协议上常能媲美或超越深度扰动预测器。本研究在虚拟细胞挑战基准的严格靶基因划分下，识别出驱动预测性能的特定低维信号。",
+          "url": "https://arxiv.org/abs/2608.00152",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "推理时策略对齐实现公平强化学习",
+          "summary": "深度强化学习智能体通过优化标量奖励函数获得强大性能，但部署后策略僵化，难以适应新标准。现有公平性方法通常假设预先已知偏好，而新研究提出推理时策略对齐，使智能体无需重新训练即可满足未知利益相关者偏好。",
+          "url": "https://arxiv.org/abs/2608.00175",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "AutoCause：自动化环境时间序列因果发现的Python框架",
+          "summary": "环境时间序列因果发现需专家决策，如方法选择、条件独立性检验等，但应用不一致导致结果难以比较和复现。AutoCause作为开源Python工作流，记录每项决策并基于扩展因果理论提供默认值，确保过程可审计。该框架旨在提升因果发现的可重复性与透明度。",
+          "url": "https://arxiv.org/abs/2608.00198",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "物理化学信息神经网络实现空间原子层沉积实时覆盖率预测与可靠动力学反演",
+          "summary": "空间原子层沉积是工业ALD的主要常压高通量路线，但高保真CFD预测表面覆盖率过慢，解析模型又无法捕捉气帘等输运调制。研究者提出物理化学信息神经网络（PCINN），该混合代理模型在实时速度下达到CFD级精度，可用于操作窗口扫描和动力学反演。",
+          "url": "https://arxiv.org/abs/2608.00212",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "验证器诱导的支持重塑在在线策略优化中的影响",
+          "summary": "研究表明，使用可验证奖励的在线策略强化学习（RLVR）虽能优化当前目标，却可能使后续目标的成功行为因过于稀少而难以采样和强化。研究者将这一现象称为“验证器诱导的支持重塑”，并定义了有效可奖励支持为在固定采样预算内可达到的成功轨迹。在两个模型家族中，他们通过重复验证器评分采样验证了这一效应。",
+          "url": "https://arxiv.org/abs/2608.00220",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "相似性感知的机器遗忘",
+          "summary": "机器遗忘技术旨在从已训练模型中移除特定训练样本的影响，避免从头重新训练。基于定位的方法通过识别关键模型参数提升遗忘效率，但现有方法仅依据遗忘集重要性选择参数，忽视了它们在保留数据集中的作用，常对语义相似的保留数据造成附带损害。",
+          "url": "https://arxiv.org/abs/2608.00246",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "稳定化最优K训练用于神经组合优化",
+          "summary": "Leader Reward方法通过强调重复推理中的最佳轨迹来改进POMO训练。本研究测试了一种窄扩展：用基于采样预算K的稳定排名信号替代二元领导者/非领导者区分。在POMO架构、3050轮训练和TSP-100测试集固定条件下，Leader Reward重现在100次启动、8次增强贪心解码下获得7.7662的结果，与报告值一致。",
+          "url": "https://arxiv.org/abs/2608.00296",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "弃权作为动作可同时破坏奖励梯度与KL锚点：错误惩罚强化学习的崩溃定律与修复",
+          "summary": "arXiv:2608.00301v1 研究指出，错误惩罚评分规则（答对+1，答错-λ，弃权0）被用于抑制幻觉，理性智能体仅在正确概率超过Chow阈值时作答。但研究发现，KL锚定的梯度学习器可能反向行为：当弃权是离散动作时，奖励梯度与锚点恢复力会同时失效，导致学习崩溃。论文提出了崩溃定律及相应修复策略。",
+          "url": "https://arxiv.org/abs/2608.00301",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "基于代理增强自动研究的智能体贝叶斯优化",
+          "summary": "贝叶斯优化凭借不确定性感知搜索和通用统计先验，已成为样本高效优化的标准工具。更丰富的领域先验虽能提升其性能，但通过定制核函数或问题结构进行编码在实践中困难且罕见。大型语言模型可通过利用自然语言、代码和文档中的非正式先验来规避这一难题。",
+          "url": "https://arxiv.org/abs/2608.00316",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "银行对账",
+          "summary": "小企业主手动核对银行流水与账目，耗时且易出错，尤其多账户时更痛苦。AI可自动抓取银行交易记录，匹配发票和支出，生成差异报告，减少人工核对时间。\n\n💡 机会方向：自动对账与异常提醒工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vfmyhj/officially_done_with_chase_bank/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "新员工测试评估",
+          "summary": "建筑公司老板想测试新员工技能，但缺乏标准化流程，担心法律风险。AI可生成技能测试题、模拟场景，并自动评估结果，同时提供合规建议。\n\n💡 机会方向：招聘技能测试与合规评估平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vfon2s/can_i_test_a_potential_new_hire/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "农贸市场数据分析",
+          "summary": "宠物零食店主手动记录两个农贸市场的销售数据，难以判断是否值得继续投入。AI可自动收集销售、客流、成本数据，生成趋势分析，建议是否退出。\n\n💡 机会方向：小型零售摊位绩效分析工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vfq0hr/the_2_farmers_markets_i_signed_up_for_are_not/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "邮件营销效果评估",
+          "summary": "小企业主被推销邮件营销，但不确定是否值得，手动分析打开率、转化率太复杂。AI可自动整合邮件数据，对比行业基准，给出ROI判断和优化建议。\n\n💡 机会方向：邮件营销ROI自动评估助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vf59kw/is_email_marketing_for_small_business_actually/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "沙龙预约管理",
+          "summary": "19岁租客帮房东管理沙龙预约，手动处理电话、表格和提醒，混乱且易漏。AI可自动整合多渠道预约，智能排班，发送提醒，减少人工协调负担。\n\n💡 机会方向：小型服务业智能预约系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vfi7p5/trying_to_help_my_landlady_with_her_salon_booking/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

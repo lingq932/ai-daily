@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-08-04",
+  "updatedAt": "2026-08-05",
   "items": [
+    {
+      "category": "技术实现",
+      "title": "LLM 0.32：推理轨迹与服务器端工具支持",
+      "whatIsIt": "Simon Willison 发布的 LLM 命令行工具新版本，新增了对推理轨迹、OpenAI Responses API 和服务器端工具的支持。",
+      "boundary": "能做到：让开发者通过命令行直接查看模型推理过程，并调用服务器端定义的工具。做不到：不改变模型本身的推理能力，只是暴露了更多接口信息。前提是模型和 API 提供商支持这些新特性。",
+      "whyLearn": "理解推理轨迹（reasoning traces）是判断模型是否在'认真思考'还是'走捷径'的关键，对评估模型可靠性有直接帮助。服务器端工具则代表了 AI 应用架构从'客户端调工具'向'服务端托管'演进的趋势。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+      "id": "9d816776904b",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "技术边界",
+      "title": "MiniMax-H3：全模态生成的边界与代价",
+      "whatIsIt": "MiniMax 发布的开源全模态生成系统，可统一理解文本、图像、音频和视频，并生成最长 15 秒带音频的视频片段。",
+      "boundary": "能做到：输入多种模态，输出带原生立体声的 2K 视频，支持多图多视频输入。做不到：生成时长仅限 15 秒，无法生成完整长片；'全模态'不等于'全理解'，对复杂语义和长程逻辑的把握仍有限。代价是模型体积大，需要 MLX 移植才能在 Apple Silicon 上运行，普通硬件难以部署。",
+      "whyLearn": "这是多模态生成的前沿方向，了解其能力边界（短片段、强风格化）和硬件门槛，有助于判断视频生成类产品在真实业务中的可用性，避免过度承诺。",
+      "source": "AI HOT",
+      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
+      "id": "1957689c4b8a",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "技术边界",
+      "title": "4GB 显存微调 8B 模型：QLoRA 的极限",
+      "whatIsIt": "Soup 工具链支持在仅 4GB 显存的笔记本 GPU 上通过 QLoRA 微调 8B 参数模型。",
+      "boundary": "能做到：在极低显存下完成微调，无需云服务。做不到：只能微调部分参数（LoRA），无法全量微调；训练速度和稳定性受限于硬件，batch size 极小，可能影响收敛效果。前提是模型本身支持 QLoRA 量化。",
+      "whyLearn": "这直接关系到'微调'这件事的入门门槛。知道 4GB 能做什么、不能做什么，能帮 PM 判断是选择 API 微调还是本地微调，以及评估微调项目的硬件成本。",
+      "source": "AI HOT",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "id": "839948fdcd0c",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "GitHub 用堆叠式 PR 拆解 AI 生成的巨型代码",
+      "whatIsIt": "GitHub 介绍用堆叠式 Pull Request（stacked PR）方法，将 AI 编码智能体生成的 1000+ 行大 diff 拆分为多个独立分层，以便审查和合并。",
+      "boundary": "能做到：将巨型代码变更拆分为逻辑独立的多个 PR，降低单次审查负担，提高合并效率。做不到：不能解决 AI 生成代码本身的质量问题，只是改变了审查流程；需要人工设计拆分层次，对团队协作规范要求高。",
+      "whyLearn": "这是 AI coding 落地中的真实痛点——代码生成容易，审查困难。理解 stacked PR 是解决'AI 产出如何进入生产'的关键实践，对设计 AI 辅助开发流程有直接参考价值。",
+      "source": "AI HOT",
+      "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack",
+      "id": "e85d3e294ae3",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Cloudflare 用 AI 子代理将 GitHub issue 归零",
+      "whatIsIt": "Cloudflare 在 Astro 仓库上运行自动化 triage 流水线，通过隔离的 AI 子代理复现、诊断并修复 bug，将开放 issue 从 200 多个降至约 30 个。",
+      "boundary": "能做到：自动化处理大量重复性 bug 的复现和修复，显著降低 issue 积压。做不到：无法处理需要产品决策或跨模块架构判断的复杂问题；流水线依赖 issue 标签驱动，对 issue 质量有要求。前提是团队有清晰的 issue 规范。",
+      "whyLearn": "这是 AI 智能体在真实开源项目中跑通闭环的罕见案例。它展示了 AI 不仅能写代码，还能承担维护工作，为 PM 设计'AI 运维'类产品提供了实证。",
+      "source": "AI HOT",
+      "url": "https://blog.cloudflare.com/astro-issue-triage",
+      "id": "7e7007e085f9",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "技术边界",
+      "title": "单颗 AMD MI300X 运行 304B 模型：推理效率的极限",
+      "whatIsIt": "开源仓库提供了在单颗 AMD MI300X（192GB HBM）上生产运行 DeepSeek-V4-Flash-0731（304B 参数）的完整配置，实现 168.6 tok/s 解码速度。",
+      "boundary": "能做到：在单卡上运行超大模型，无需多卡或量化卸载，速度可观。做不到：需要 192GB 的顶级硬件，普通服务器无法承担；该配置是特定模型和硬件的深度优化，不具备普适性。",
+      "whyLearn": "这展示了'大模型推理'的硬件成本下限。了解 304B 模型需要什么样的硬件才能跑起来，能帮 PM 估算部署成本，判断是自建还是用 API。",
+      "source": "AI HOT",
+      "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "id": "0f8ccd6fbece",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "技术实现",
+      "title": "Swiftlet：在 Mac 和 iPhone 上运行 80B 模型",
+      "whatIsIt": "Swiftlet 是一个 Swift + Metal 运行时，通过仅驻留小型稠密核心、按需流式加载路由专家权重的方式，在普通 Apple 设备上运行 Qwen3-Next 等 MoE 混合模型。",
+      "boundary": "能做到：在内存仅 4.3GB 的 Mac 上运行 80B 模型，在 iPhone 上运行 35B 模型。做不到：依赖 MoE 架构的稀疏激活特性，不适用于稠密模型；流式加载专家权重会带来延迟，交互式场景可能受影响。",
+      "whyLearn": "这是'端侧大模型'的重要突破。了解 MoE 架构如何让大模型在本地运行，有助于 PM 判断端侧 AI 产品的可行性，比如离线助手、隐私敏感应用。",
+      "source": "AI HOT",
+      "url": "https://github.com/leonickson1/Swiftlet",
+      "id": "c75a733e6777",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "技术边界",
+      "title": "欧盟 AI 法案透明度规则生效：合规的代价",
+      "whatIsIt": "欧盟《人工智能法案》下的新透明度义务于 8 月 2 日生效，要求公司披露 AI 交互，并为合成内容添加机器可读标记，违规最高罚 1500 万欧元。",
+      "boundary": "能做到：强制要求 AI 产品标注合成内容，提供可选的披露标签。做不到：不限制 AI 能力本身，只规范使用方式；机器可读标记的技术标准尚在演进，跨平台互操作存在不确定性。",
+      "whyLearn": "这是 AI 产品落地的硬性合规约束。PM 需要知道，做面向欧盟市场的 AI 产品，必须预留内容标注和披露功能，否则面临高额罚款。",
+      "source": "AI HOT",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+      "id": "41b2e08c39eb",
+      "date": "2026-08-05"
+    },
     {
       "category": "vibe coding 企业闭环",
       "title": "AI 智能体攻击：企业安全的新战场",
