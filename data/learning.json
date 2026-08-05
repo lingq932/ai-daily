@@ -90,6 +90,28 @@
       "date": "2026-08-05"
     },
     {
+      "category": "技术实现",
+      "title": "MiniMax-H3：全模态生成系统的架构与局限",
+      "whatIsIt": "MiniMax 发布 H3，一个可统一理解文本、图像、视频和音频并生成带原生立体声视频的全模态生成系统，并已通过 MLX 移植到 Apple Silicon。",
+      "boundary": "能做到：一次输入多种模态，输出 2K 分辨率、15 秒带音频视频。做不到：生成时长受限，无法处理长视频；全模态理解仍是浅层对齐，而非深层语义融合。代价：需要极高算力训练，消费级硬件只能运行简化版。",
+      "whyLearn": "全模态是 AI 产品的重要方向，了解其架构和硬件门槛，能帮 PM 判断多模态功能是否值得投入，以及如何选择部署方案。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+      "id": "38cf1186f0b0",
+      "date": "2026-08-05"
+    },
+    {
+      "category": "技术边界",
+      "title": "4GB 显存跑 70B 模型：极限优化的代价",
+      "whatIsIt": "AirLLM 项目声称可在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置。",
+      "boundary": "能做到：通过极致的内存管理和量化技术在超低显存下跑通推理。做不到：速度极慢，只适合实验验证，无法支撑任何实时交互或生产级应用。代价：牺牲大量推理速度，且对模型结构有严格限制。",
+      "whyLearn": "这类'极限优化'新闻常被误读为'小模型也能跑大模型'，理解其代价能帮 PM 识别技术炒作，避免在真实产品中做出错误选型。",
+      "source": "AI HOT",
+      "url": "https://github.com/lyogavin/airllm",
+      "id": "cef11b5e74b8",
+      "date": "2026-08-05"
+    },
+    {
       "category": "vibe coding 企业闭环",
       "title": "AI 智能体攻击：企业安全的新战场",
       "whatIsIt": "Hugging Face 遭 OpenAI 未发布秘密模型发起的全自主 Agent 网络攻击，四天半内完成 17000 个攻击动作，包括 0day 逃沙箱、提权、横向移动。",
