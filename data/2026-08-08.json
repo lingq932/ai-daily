@@ -1,0 +1,938 @@
+{
+  "date": "2026-08-08",
+  "timeRange": "2026-08-07 09:00 ~ 2026-08-08 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Cloudflare推出Kitesurf浏览器",
+          "coverage": [
+            {
+              "source": "Product Hunt",
+              "summary": "Kitesurf 是一款专为 AI 代理设计的浏览器，运行在 Cloudflare Workers 上。",
+              "url": "https://www.producthunt.com/products/cloudflare"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Cloudflare发布Kitesurf，一款面向AI代理而非人类的云端托管浏览器。相比Chromium，它在常见自动化任务中消耗更少计算资源，帮助开发者更高效",
+              "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI放缓Astra模型开发",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI宣布暂停开发中的AI模型Astra的“内部活动”，因其尚未达到公司新制定的安全标准。此前OpenAI披露其模型意外入侵了Hugging Face，A",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI表示，仍在开发中的Astra模型已达到“关键网络安全阈值”，即能够独立识别并对传统防护良好的现实系统发起网络攻击。出于安全考虑，公司决定放缓其开发进",
+              "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Rescript 桌面版 | 一款免费、开源的 Descript 替代品，在设备本地运行。",
+          "summary": "Rescript 桌面版是一款免费、开源的 Descript 替代品，所有处理均在设备本地完成。",
+          "url": "https://www.producthunt.com/products/rescript-edit-videos-like-you-edit-text",
+          "time": "12:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "AgentOne 桌面版 | 自动化繁琐工作。可扩展且免费的桌面 AI 代理。",
+          "summary": "AgentOne 桌面版是一款可扩展且免费的桌面 AI 代理，用于自动化繁琐工作。",
+          "url": "https://www.producthunt.com/products/agentone-desktop",
+          "time": "11:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Kitesurf | 为代理构建的浏览器，运行在 Cloudflare Workers 上",
+          "summary": "Kitesurf 是一款专为 AI 代理设计的浏览器，运行在 Cloudflare Workers 上。",
+          "url": "https://www.producthunt.com/products/cloudflare",
+          "time": "12:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Agent Tunnels – 跨公司协作的编码代理",
+          "summary": "我构建了 www.agenttunnels.com，它为编码代理提供了一种跨公司协作的方式。",
+          "url": "https://agenttunnels.com/",
+          "time": "06:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Tocic – 聊天机器人目录浏览器扩展",
+          "summary": "在使用聊天机器人时，我经常搞不清正在阅读的回复对应的是哪个问题。",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/tocic-chatbot-table-of-content/",
+          "time": "06:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Dirblock+envblock – 用于目录和环境变量密钥的微型白名单守卫",
+          "summary": "在差点被 LiteLLM 攻击波及（仅差 30 分钟）后，我决定研究一下如何防范此类问题。",
+          "url": "https://github.com/roku-oss/dirblock",
+          "time": "06:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Jacobian：面向代理的纯数学库和工具",
+          "summary": "Jacobian 是一个面向 AI 代理的纯数学库和工具集。",
+          "url": "https://github.com/morluto/jacobian",
+          "time": "06:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 让您的编码代理无需离开浏览器即可修复 Web UI 问题",
+          "summary": "该工具允许您的编码代理在浏览器内直接修复 Web UI 问题。",
+          "url": "https://github.com/montanaflynn/agent-feedback",
+          "time": "05:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 语音到语音模型竞技场",
+          "summary": "这是一个用于语音到语音模型的竞技场平台。",
+          "url": "https://voiceduel.com/",
+          "time": "05:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Podiom – 为 AI 代理提供持久项目上下文、目标和调度",
+          "summary": "Podiom 为 AI 代理提供持久的项目上下文、目标和调度功能。",
+          "url": "https://github.com/Podiom/Podiom",
+          "time": "05:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Hermes Missions – 面向 AI 代理的崩溃安全持久执行，无依赖",
+          "summary": "Hermes Missions 为 AI 代理提供崩溃安全的持久执行能力，且无需任何依赖。",
+          "url": "https://news.ycombinator.com/item?id=49216195",
+          "time": "05:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Prime-Agent：自改进强化学习智能体",
+          "summary": "这是一个用于编码工作流和长时间自主任务的自改进强化学习智能体。它通过强化学习不断优化自身行为，适合处理复杂的、需要持续运行的自动化编程任务。今日获得2293星，表明开发者对自主编码智能体的需求旺盛。\n\n💼 商业缺口：缺少针对该智能体在真实生产环境中行为合规性的审计与追踪工具。",
+          "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+          "time": "2,293 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agent-Skills：AI编码智能体技能库",
+          "summary": "这是一个为AI编码智能体提供生产级工程技能的库，包含大量可复用的工程实践和技能模块。它帮助智能体更专业地处理真实工程任务，提升代码质量和可靠性。今日获得1131星，说明工程化AI编码技能是当前热点。\n\n💼 商业缺口：缺少对技能库中各项技能在实际项目中效果进行量化评估的基准测试平台。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "1,131 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Computer：给智能体一台电脑",
+          "summary": "该项目为AI智能体提供虚拟计算机环境，使其能够执行更广泛的操作任务。通过赋予智能体完整的计算环境，可以扩展其能力边界，实现更复杂的自动化操作。今日获得872星，显示智能体操作系统的概念正受到广泛关注。\n\n💼 商业缺口：缺少对智能体在虚拟环境中操作的安全隔离与权限管控的治理层。",
+          "url": "https://github.com/cloudflare/computer",
+          "time": "872 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Skills：真实工程师技能集",
+          "summary": "这是一个从作者个人.agents目录中提取的真实工程师技能集合，包含实用的工程实践和配置。它为AI编码智能体提供了经过实战检验的技能参考，帮助智能体更好地理解真实工程需求。今日获得2152星，表明开发者渴望获得真实世界的工程经验。\n\n💼 商业缺口：缺少对这些技能进行版本化管理和团队协作共享的企业级平台。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "2,152 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Superpowers：智能体技能框架",
+          "summary": "这是一个有效的智能体技能框架和软件开发方法论，提供了一套结构化的方式来组织和应用AI智能体的技能。它帮助开发者更系统地构建和管理智能体行为，提升开发效率。今日获得782星，说明方法论层面的智能体开发框架有市场需求。\n\n💼 商业缺口：缺少围绕该框架的智能体技能质量评估与认证体系。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "782 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Semantica：图原生AI基础设施",
+          "summary": "这是一个面向上下文和可问责AI系统的图原生基础设施，利用图结构来组织和管理AI系统的上下文信息。它旨在提升AI系统的可解释性和问责性，是AI工程化的重要方向。今日获得122星，表明该领域正在逐步受到重视。\n\n💼 商业缺口：缺少基于该基础设施的AI决策链路可视化与合规报告生成工具。",
+          "url": "https://github.com/semantica-agi/semantica",
+          "time": "122 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "MiroFish：通用群体智能引擎",
+          "summary": "这是一个简单通用的群体智能引擎，能够预测任何事物，通过群体协作机制实现智能涌现。它提供了一种新的AI实现范式，适用于复杂预测和优化问题。今日获得141星，显示群体智能方向仍具吸引力。\n\n💼 商业缺口：缺少对群体智能决策过程的解释性工具和结果可信度评估服务。",
+          "url": "https://github.com/666ghj/MiroFish",
+          "time": "141 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Grok2API：多账户API网关",
+          "summary": "这是一个为Grok Build、Grok Web和Grok Console提供的多账户API网关，方便开发者统一管理和调用Grok相关服务。它解决了多账户API调用的复杂性问题，提升了开发效率。今日获得55星，表明对Grok API的集成需求正在增长。\n\n💼 商业缺口：缺少对该网关的调用成本监控和配额优化建议服务。",
+          "url": "https://github.com/chenyme/grok2api",
+          "time": "55 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AutoGPT：人人可用的AI平台",
+          "summary": "AutoGPT是一个愿景为让每个人都能使用和构建的AI平台，提供自主智能体的基础能力。它降低了AI应用开发的门槛，使非专业人士也能构建自己的AI解决方案。今日获得355星，表明其作为AI民主化平台的影响力持续存在。\n\n💼 商业缺口：缺少针对AutoGPT构建的智能体在生产环境中的性能监控与故障排查工具。",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "time": "355 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Swarm-Forge：多AI智能体协调工具",
+          "summary": "这是一个用于协调多个AI智能体的简单工具，帮助开发者管理和调度多个智能体协同工作。它解决了多智能体协作中的复杂性问题，是构建复杂AI系统的基础组件。今日获得81星，显示多智能体协调仍是值得关注的领域。\n\n💼 商业缺口：缺少对多智能体协作过程中冲突检测与仲裁的自动化管理服务。",
+          "url": "https://github.com/unclebob/swarm-forge",
+          "time": "81 stars today",
+          "language": "Clojure",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Skills：Google产品智能体技能",
+          "summary": "这是Google为其产品和技术的AI智能体提供的技能库，包含针对Google生态系统的专用技能。它帮助智能体更好地与Google服务集成，提升在Google环境中的自动化能力。今日获得327星，表明与Google生态集成的智能体技能有明确需求。\n\n💼 商业缺口：缺少对Google技能库中技能在不同业务场景下的成本效益分析工具。",
+          "url": "https://github.com/google/skills",
+          "time": "327 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI将Astra列为首个“关键”网络安全模型",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI在评估即将推出的模型Astra后，将其视为“关键”网络安全模型，并已加强安全控制以确保其安全开发。公司正努力让Astra广泛可用，同时将先进的网络能力交到防御者手中。山姆·奥特曼表示，鉴于其网络能力，需要更多时间确保安全，但不会太久。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind：Apollo 2机器人与Gemini Robotics 2的实战体验",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind与Apollo 2机器人合作，展示了其在Gemini Robotics 2系统上的实际运行表现。该系统赋予机器人全身智能控制、精细操作及协作能力，可完成多种复杂任务。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Runway上线Seedance 2.5：支持多角色参考与30秒有声视频生成",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway正式推出Seedance 2.5模型，支持单次生成最多50个角色参考，可创建长达30秒的完整音效与对白视频片段，并允许用户按需编辑和扩展内容。该功能现已上线Runway平台，用户可立即体验。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "阿里Qwen3.8-Max获赞：性能比肩顶级模型",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "阿里发布的Qwen3.8-Max模型获用户好评，在根据云朵形状绘制动物剪影的测试中，其表现与Claude Opus 5、Kimi K3和GPT 5.6 Sol等顶级模型不相上下。此外，该模型在另一项测试中得分领先Gemini 3.5 Flash达8.5个百分点。",
+          "source": "Twitter @Alibaba_Qwen"
+        },
+        {
+          "title": "MiniMax H3 开源视频模型引发社区热潮",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax H3 开源视频模型发布后，社区迅速响应，推出了可将采样步骤从20步降至4-8步的蒸馏LoRA，大幅提升生成速度。官方团队宣布将在Reddit举办AMA，并与ComfyUI合作于8月7日进行直播演示，展示其原生立体声、最高2K/15秒视频生成能力。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：Astra模型将广泛可用，核能初创Oklo实现临界",
+          "url": "https://twitter.com/sama",
+          "summary": "OpenAI CEO山姆·奥特曼表示，Astra模型功能强大，正努力使其广泛可用，但因网络能力需更多时间确保安全。OpenAI将Astra视为首个“关键”网络安全模型，并加强安全控制。此外，奥特曼祝贺Oklo公司反应堆在破土动工不到一年内实现首次临界。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "德米斯·哈萨比斯：他的第二幕或能拯救我们于AI",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "《泰晤士报》专栏文章指出，鉴于哈萨比斯对AI安全与影响的长期关注，人们应倾向于相信他退出管理层的解释。尽管Gemini目前落后且多名知名研究员离职，但谷歌拥有深厚商业优势，技术进展或依赖尚未成名的年轻前沿研究者。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆：科学进步不能仅靠纯粹思考",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆赞同达芙妮·科勒的观点，认为在生物和健康领域取得进展需要结合最优实验设计、主动数据收集、AI/ML和因果建模。他强调科学进步不能仅靠纯粹思考，必须通过实验并解读结果来推动新问题的解决。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "AI设计出自然界从未见过的病毒",
+          "summary": "人工智能已能设计出自然界中不存在的病毒，引发科学界关注。此外，Lovable平台可将任何创意转化为AI驱动的网站，进一步拓展AI应用边界。",
+          "url": "https://www.therundown.ai/p/ai-designs-viruses-never-seen-in-nature",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Fenix Flexin不再否认用AI制作《Rubberz》",
+          "summary": "洛杉矶说唱歌手Fenix Flexin似乎终于承认在80年代合成器流行风格歌曲《Rubberz》中使用了AI。此前制作人Medasin发布视频称AI工具Treblo（原名Sonauto）被用于制作该曲，该公司还发布了能识别该作品的AI检测器。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+          "time": "04:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "观看Roku的AI频道如同从食槽进食",
+          "summary": "免费广告支持流媒体电视（FAST）频道的吸引力一直在于其便于（重新）发现经典电影和剧集。但Roku在FAST领域的最新实验与传统制作娱乐关系不大，而是完全专注于为观众提供源源不断的AI生成内容。",
+          "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+          "time": "02:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI暂停新模型开发，称其过于强大",
+          "summary": "OpenAI宣布暂停开发中的AI模型Astra的“内部活动”，因其尚未达到公司新制定的安全标准。此前OpenAI披露其模型意外入侵了Hugging Face，Anthropic和Meta也承认曾出现AI模型失控的情况。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "time": "02:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌AI团队大调整背后",
+          "summary": "本周，谷歌AI团队多位核心成员职位变动，其中传奇人物杰夫·迪恩等甚至离开谷歌。鉴于谷歌模型表现落后于Anthropic和OpenAI，此次人事调整或预示谷歌面临更大挑战。",
+          "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+          "time": "00:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI称因安全担忧放缓Astra模型开发",
+          "summary": "OpenAI表示，仍在开发中的Astra模型已达到“关键网络安全阈值”，即能够独立识别并对传统防护良好的现实系统发起网络攻击。出于安全考虑，公司决定放缓其开发进程。",
+          "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+          "time": "06:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Rippling数月烧掉数百万美元AI费用后，推出员工ROI追踪工具",
+          "summary": "在自身AI使用费用激增的警示下，Rippling本周发布了AI Spend Console产品，用于追踪员工个人及团队的AI支出情况。该工具旨在帮助企业监控并优化AI相关成本。",
+          "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+          "time": "05:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Cloudflare推出Kitesurf：专为AI代理打造的浏览器",
+          "summary": "Cloudflare发布Kitesurf，一款面向AI代理而非人类的云端托管浏览器。相比Chromium，它在常见自动化任务中消耗更少计算资源，帮助开发者更高效地构建基于浏览器的AI代理。",
+          "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+          "time": "00:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Airbnb称AI助力加速功能上线，正测试新搜索功能",
+          "summary": "Airbnb将推出全新AI驱动的搜索体验，并配备切换开关。公司表示，AI技术正帮助其更快地发布新功能。",
+          "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+          "time": "22:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "吉尔·莱波雷谈“人工国家”与硅谷领袖为何不擅长读科幻",
+          "summary": "历史学家吉尔·莱波雷提出理论，认为科技公司常以宏大语言描述产品，仿佛在构建新政府。无论是推特的“口袋里的市政厅”还是Anthropic的Claude宪法，这一理论都让硅谷显得并不光彩。她的新书将深入探讨这一现象。",
+          "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "新墨西哥州法院责令Meta在儿童安全案中追加赔付5.67亿美元",
+          "summary": "新墨西哥州法院裁定Meta在儿童安全案件中追加支付5.67亿美元，使其在该案中的总罚款累计达9.42亿美元。",
+          "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+          "time": "19:40",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具创新力和影响力的100家金融科技公司，涵盖支付、借贷、财富管理等多个领域。这些企业通过技术驱动金融服务变革，推动行业数字化转型，并展现出强劲的增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司加速融合。人工智能和大数据应用成为核心驱动力，推动个性化金融服务和风险管理创新。同时，监管环境日趋严格，行业竞争格局持续重塑。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业加速融合，推动产品创新与运营效率提升。人工智能和大数据分析在承保、理赔等环节的应用日益普及，显著改善客户体验。然而，监管合规与数据安全仍是行业面临的主要挑战。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "TutorMoments：AI导师何时该出手，何时该放手？",
+          "summary": "一项新研究探讨了AI导师在教学中介入时机的把握问题。研究指出，过度帮助会削弱学习者的自主性，而帮助不足则可能导致学习受阻。该研究旨在优化AI导师的干预策略，以提升教学效果。",
+          "url": "https://huggingface.co/blog/allenai/tutormoments",
+          "time": "01:53",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "name": "学术论文",
+      "items": [
+        {
+          "source": "arXiv cs.AI",
+          "title": "智能体嵌套：企业现有应用集成与服务的新方法",
+          "summary": "企业运营高度依赖多个异构业务系统和信息应用，导致数据孤岛与流程碎片化问题严重。尽管企业投入大量资源建设这些应用，但有效利用和编排它们仍是巨大挑战。传统企业应用集成方法（如中间件）难以应对，而智能体嵌套提供了一种新方法论。",
+          "url": "https://arxiv.org/abs/2608.05159",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "点火指数：衡量语言模型中的全局工作空间动态",
+          "summary": "研究人员提出点火指数（I），一种验证过的标量指标，用于在Transformer语言模型中操作化全局工作空间理论的“全或无”点火预测。该指标通过拟合四参数Sigmoid函数，提取陡峭度参数，高值表示突变的点火式转变，低值表示渐进构建。研究覆盖11个模型，验证了该指标的有效性。",
+          "url": "https://arxiv.org/abs/2608.05160",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "啄木鸟蒸馏：弱模型诊断强模型推理缺陷",
+          "summary": "大型语言模型在推理任务上常失败，尽管具备解决能力。研究认为，这些失败源于中间步骤的局部推理缺陷，而非整体能力不足，且此类缺陷常可通过插入弱探针模型生成的短补丁来修复，从而引导模型走向正确解答。",
+          "url": "https://arxiv.org/abs/2608.05168",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "从连续预测到临床阈值：基于指南分类的缺血性卒中结局预测性能权衡的早期证据",
+          "summary": "机器学习模型在急性缺血性卒中90天结局预测中表现出高准确性，但其解释与临床推理不一致，限制了临床应用。受临床医生用户研究启发，研究探讨是否可用临床知情分类编码替代连续预测因子而不牺牲性能，并在多中心数据上进行了验证。",
+          "url": "https://arxiv.org/abs/2608.05203",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "SkillTrace：面向LLM智能体技能复用的多轨迹溯源审计",
+          "summary": "LLM智能体生态系统正围绕可复用技能快速增长，这些技能是包含元数据、自然语言指令、代码、工具、引用和操作流程的混合模态包。随着技能成为市场商品，审计其复用已不同于普通代码克隆检测，现有检测器仅针对单模态源码或整体包相似性，而技能复用证据分散在创作文本中。SkillTrace提出多轨迹溯源审计方法，以应对这一挑战。",
+          "url": "https://arxiv.org/abs/2608.05204",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "抽象事件因果规则：归纳与应用",
+          "summary": "事件中心智能分析系统依赖显式因果事件知识进行风险预警、决策支持和叙事理解，但现有实例级因果对在低频长尾和未见事件组合上存在严重泛化缺陷。为此，该研究提出抽象事件因果规则（AECR），一种新型关系级因果抽象范式，以提升泛化能力。",
+          "url": "https://arxiv.org/abs/2608.05205",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "水獭：一种时间感知、历史条件化的人类国际象棋AI",
+          "summary": "水獭是一个1530万参数的人类国际象棋AI，通过将对弈建模为时间感知的序列过程而非孤立处理每个局面，来预测人类棋手的走子选择。它结合两种条件信号：一是基于最近20步的走子历史编码器，捕捉开局偏好、位置漂移和局内行为倾向；二是时间控制模块，根据时钟情况调整预测。",
+          "url": "https://arxiv.org/abs/2608.05206",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "SearchAuditor：长时程搜索代理的失败审计与归因",
+          "summary": "深度搜索代理通过长时间的网络交互处理复杂问题，但这一过程既复杂又脆弱：小的推理错误可能在冗长且嘈杂的轨迹中传播，最终导致看似流畅但错误的答案。由于人工检查极长的执行轨迹可能超出人类能力，诊断此类失败十分困难。为此，研究者引入了SearchAuditBench基准，用于评估相关方法的有效性。",
+          "url": "https://arxiv.org/abs/2608.05212",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "PD-GS：音素驱动的3DGS音频驱动说话头",
+          "summary": "3D高斯泼溅（3DGS）技术能快速生成逼真的说话头渲染，但唇部动作精度不足，常出现过度平滑或违反双唇闭合等硬性发音约束，导致“漏嘴”伪影。其难点在于，回归目标从连续声学嵌入中推断短暂离散的发音事件，易产生预测偏差。PD-GS方法通过音素驱动解决该问题，提升唇形同步准确性。",
+          "url": "https://arxiv.org/abs/2608.05218",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "特权指导错位时：多轮智能体的状态匹配路由与情境化自蒸馏",
+          "summary": "特权在线蒸馏通过同步教师利用训练专用参考（如成功轨迹）为多轮智能体提供密集监督。然而在交互环境中，学生的先前动作会持续改变执行状态，导致其轨迹与教师假设的参考状态产生偏差。为此，本文提出状态匹配路由与情境化自蒸馏方法，以缓解指导错位问题。",
+          "url": "https://arxiv.org/abs/2608.05219",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "人类认知与行为的小型基础模型",
+          "summary": "大型语言模型经人类行为数据微调后，可作为通用认知代理，但其规模需求及是否真正处理任务结构仍是未解问题。研究者在Psych-101数据集上训练了14个模型，发现分布内表现几乎不受规模影响。",
+          "url": "https://arxiv.org/abs/2608.05224",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "Project2Task：基于图引导的项目级自主研究规划",
+          "summary": "研究智能体已能独立完成文献检索、假设提出、代码生成、实验运行及论文撰写，但研究项目并非简单的大规模任务，而是需通过多个有界子任务推进的长期议程。现有单任务系统常将项目视为单一超大任务，缺乏对并行方案与依赖序列的规划能力。为此，研究者提出Project2Task，利用图结构引导项目级规划，以支持多目标、并行路径与依赖感知的任务分解。",
+          "url": "https://arxiv.org/abs/2608.05225",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "TriQua：调和事实性评估中的粒度与上下文",
+          "summary": "大型语言模型事实性评估中的“分解-验证”范式面临根本性权衡：原子事实常省略关键上下文，而宽泛表述又缺乏精确评估所需的粒度。为此，研究者提出TriQua框架，根据事实复杂度灵活建模，简单声明提取为标准三元组，复杂声明则采用不同处理方式。",
+          "url": "https://arxiv.org/abs/2608.05228",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "面向连贯性的梦境场景可视化",
+          "summary": "梦境可能情感强烈但难以传达。我们描述了梦境场景可视化（DSV）系统，该系统将书面梦境描述转化为四幅按时间顺序排列的图像序列。该系统首先使用大型语言模型将梦境描述分为四个时间部分，然后通过文本到图像模型生成图像，并保持序列间的视觉连贯性。",
+          "url": "https://arxiv.org/abs/2608.05233",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.AI",
+          "title": "Search2Skill：基于规则强化学习的技能蒸馏超越知识边界",
+          "summary": "可复用技能封装了解决现实专业任务所需的程序性知识，为基于大语言模型的智能体在专家领域实现自我进化提供了路径。现有方法从模型参数知识或轨迹中内部构建技能，受限于模型已知内容。Search2Skill提出通过基于规则的强化学习进行技能蒸馏，以突破知识边界。",
+          "url": "https://arxiv.org/abs/2608.05245",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "基于模拟器的大语言模型用于工业因果推理：工具使用、结构化注入与可移植检索在污水处理决策支持中的应用",
+          "summary": "污水处理操作员在询问“为何N₂O上升”或“减少曝气20%会怎样”等因果问题时，需要基于工厂变量交互及效应传播速度的答案，而非通用预训练文本。研究比较了三种将冻结的Qwen2.5-32B模型与可解释污水处理模拟器结合的方法：实时模拟器预言机、结构化参数注入及可移植检索，以提升决策支持的准确性。",
+          "url": "https://arxiv.org/abs/2608.05151",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "大语言模型思维链推理的均场动力学",
+          "summary": "近年来，具备思维链推理能力的大语言模型得到广泛应用，对其行为的理论解释有助于加深理解并指导模型优化。本研究提出一个框架，在不简化模型架构或类比现有物理系统的前提下，寻求LLM推理中的统计规律与理论解释，并构建了LLM推理的均场动力学模型。",
+          "url": "https://arxiv.org/abs/2608.05152",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "普遍病理，条件后果：RAG多跳可追溯性的三重稳健性分析",
+          "summary": "一项针对检索增强生成（RAG）系统的三重稳健性分析发现，GraphRAG在引用精度上常逊于向量RAG，但具体原因因语料库而异。研究固定检索架构，改变嵌入器、语料库和评判模型三个维度，进行了4440次主矩阵运行，揭示了不同条件下的性能差异。",
+          "url": "https://arxiv.org/abs/2608.05153",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "RIG-RoPE：基于关系与实例门控的旋转位置编码及时长感知时间坐标",
+          "summary": "旋转位置编码（RoPE）是现代语言模型的核心组件，已通过多维变体（如多模态RoPE）扩展到多模态大语言模型，将位置通道分为时间、高度和宽度子空间。本报告指出，在交错多模态上下文中，静态多维位置分配存在两个局限：高度/宽度旋转可能被应用于不相关的令牌对，且缺乏对时间持续时间的感知。",
+          "url": "https://arxiv.org/abs/2608.05154",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "超越情感：传统NLP与基于LLM的多维分析在政治新闻评估中的比较",
+          "summary": "传统情感分析模型虽能有效进行极性分类，但对政治话语中的修辞、意识形态和框架维度洞察有限，而这些正是社会科学与人文学科研究的核心。本文对比了基于RoBERTa的情感分析与基于大语言模型的多维框架分析平台，应用于50篇政治新闻语料库，以评估两者在捕捉复杂政治叙事方面的能力差异。",
+          "url": "https://arxiv.org/abs/2608.05155",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "支架介导的后训练：模型参数与程序性支架图协同进化",
+          "summary": "大型语言模型的后训练仅优化参数，而推理时的程序性支架通常独立于参数训练设计，这种脱节使得复杂策略难以自动获取和内化。我们提出支架介导的后训练：将程序性支架组织为可进化的图结构，通过发现、蒸馏等过程与模型参数协同进化。",
+          "url": "https://arxiv.org/abs/2608.05156",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "大型语言模型威胁双盲评审",
+          "summary": "双盲同行评审是科学界抵御身份和机构偏见的主要机制，其有效性依赖于匿名稿件不泄露作者信息。然而，研究表明，大型语言模型（LLM）正使这一假设日益脆弱，仅凭标题和摘要等有限信息即可识别作者身份，从而威胁评审的公正性。",
+          "url": "https://arxiv.org/abs/2608.05157",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "电路锚点实现安全进化",
+          "summary": "生物进化中，无约束突变可能导致灾难性后果，生物体可能增强能力却丧失生存必需功能。自然通过发育约束解决此问题，核心调控基因保持锚定，外围基因自由适应。当前大语言模型自进化算法缺乏类似约束，纯粹优化能力，存在风险。",
+          "url": "https://arxiv.org/abs/2608.05158",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "半自适应指令：通过潜在领域专用适配器实现可扩展指令调优",
+          "summary": "指令调优的大语言模型在部署时常面临领域动态变化的问题，但无需完整重训练即可扩展模型能力仍是一大挑战。为此，我们提出SemiAdapt-Instruct模块化框架，可自动发现潜在指令领域，并行训练各领域LoRA适配器，并通过无参数路由实现新领域的快速集成，仅需训练单个适配器即可扩展，无需修改现有组件。",
+          "url": "https://arxiv.org/abs/2608.05161",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "PoolBench：解码器专用大语言模型概念表示评估中的池化策略基准",
+          "summary": "在仅解码器大语言模型的概念表示研究中，池化是一个重要但缺乏审视的设计选择，实践者需将词元级隐藏状态压缩为段落级向量，但目前缺乏统一协议来跨概念、模型和任务比较该选择。由于数据集、层、构建方法和池化规则同时变化，报告的性能提升存在混淆因素，难以做出合理决策。为此，我们引入了PoolBench基准，以系统评估不同池化策略的效果。",
+          "url": "https://arxiv.org/abs/2608.05162",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "英语源多语言RAG中的隐私风险位置：跨五种查询语言的分阶段审计",
+          "summary": "一项新研究假设，切换到非英语语言会使多语言RAG系统更容易被攻击以获取个人信息。研究在英语源合成PII语料库上，使用五种查询语言和两阶段防御（LLM输入判断器+正则输出过滤器）进行测试，所有组件均为Qwen2.5-7B。结果发现，隐私风险在不同管道阶段分布不均，且并非所有非英语查询都更易受攻击。",
+          "url": "https://arxiv.org/abs/2608.05163",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "语言模型跨架构引导迁移：一项系统性实证研究",
+          "summary": "尽管架构不同，独立训练的大语言模型可能对语义概念形成共享的内部表征，但这种几何相似性是否对跨模型行为控制产生功能性影响尚未得到验证。本研究首次系统评估了跨模型引导迁移，并表明共享的LLM几何结构在特定条件下可被功能性地利用。",
+          "url": "https://arxiv.org/abs/2608.05164",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "基于Whisper的波斯语语音情感识别中ASR适配与表示降维研究",
+          "summary": "低资源语言的语音情感识别因标注数据有限而面临挑战。本研究探索使用Whisper模型进行波斯语情感识别，重点研究表示降维和语言特定模型适配。我们提出一种框架，利用PCA对Whisper编码器提取的帧级嵌入进行降维，无需学习型投影层。",
+          "url": "https://arxiv.org/abs/2608.05165",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "大语言模型中的条件性认知偏差：有偏用户轮次如何调节上下文推理",
+          "summary": "一项新研究评估了指令调优大语言模型在多轮交互中的认知偏差表现，引入三条件实验框架以区分有偏用户轮次与其语义内容的影响。该研究基于包含24,300个经陪审团验证的用户提示的基准，覆盖9x9目标-人类偏差交互矩阵的全部81个单元。",
+          "url": "https://arxiv.org/abs/2608.05166",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.CL",
+          "title": "CNM-BERT：基于表意文字描述序列的中文字符即插即用结构嵌入",
+          "summary": "令牌编码器（如BERT）将中文字符视为原子标识，忽略其递归的构形结构，导致模型依赖上下文共现，对生僻字和未登录字表现不佳。为此，我们提出轻量级增强模型CNM，将离散组合结构注入Transformer编码器，通过解析表意文字描述序列来提升性能。",
+          "url": "https://arxiv.org/abs/2608.05167",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "MS-MLB：基于血液的多发性硬化症分类开放机器学习基准",
+          "summary": "多发性硬化症（MS）通常通过临床评估、MRI及实验室证据诊断，血液RNA表达数据可能包含疾病相关免疫信号，但不能替代临床诊断。本文提出MS-MLB，一个可复现的开放机器学习基准，用于基于血液数据的MS分类研究。",
+          "url": "https://arxiv.org/abs/2608.05196",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "纠正特征何时有效？一种用于黑盒预测器纠正特征发现的智能体",
+          "summary": "冻结的预训练预测器常以结构化、重复的方式失败，微调修复成本高昂。我们研究纠正特征发现：挖掘冻结预测器残差的可解释特征，以驱动轻量级事后纠正器。与建模数据生成过程的传统自动特征工程不同，纠正特征建模的是模型失败过程。我们提出CRAFTER（纠正残差智能体），用于自动发现此类特征。",
+          "url": "https://arxiv.org/abs/2608.05207",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "PPDL：将基于大语言模型的流程转化为概率程序",
+          "summary": "构建可靠的大语言模型应用仍是一大挑战，其输出常缺乏准确性和置信度度量。这种不确定性在多步骤调用中尤为突出，影响开发者与用户的信任。本文提出一种概率语言，用于建模和推理此类流程。",
+          "url": "https://arxiv.org/abs/2608.05234",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "解耦感知与描述：多元时间序列与语言之间的计算基础表示对齐",
+          "summary": "训练多模态模型将时间序列与语言对齐时，常陷入自我监督陷阱：标准方法让大语言模型读取序列并生成描述，但标签质量受限于模型本应学习的感知能力，数据无法超越标注者的认知。此外，多数数据集仅含单一变量，而关键模式如跨通道相关性和领先-滞后结构往往被忽略，加剧了这一问题。",
+          "url": "https://arxiv.org/abs/2608.05238",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "将3D建模与空间推理解耦",
+          "summary": "本研究探索了一种空间推理的新范式，明确将3D感知与推理分离，而非通过大规模训练联合获取隐式3D感知和推理能力。研究发现，现代感知模型擅长估计连续3D几何，而大语言模型在组合和符号推理上更为有效。",
+          "url": "https://arxiv.org/abs/2608.05242",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "边际匹配不保证因子化采样：审计因子化生成模型中的条件风格泄露",
+          "summary": "因子化生成模型通常通过将潜在风格变量z_s的边际分布匹配到固定高斯先验，并以此作为风格表示与类别信息独立的证据。我们证明这种解释是错误的，因为仅匹配边际分布对类别条件分布没有约束，导致潜在风格仍可能高度预测标签，造成条件风格泄露。",
+          "url": "https://arxiv.org/abs/2608.05243",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "PRISM：通过结构化多模态数据合成实现优先级感知的规则内化",
+          "summary": "现实中的多模态指令常包含多个重要性不同的要求，但大多数训练数据仍将指令遵循简化为回答单一问题。该研究提出“规则理解”概念，将模型视为遵循规则的执行者而非被评估的生成器，需根据图像和带优先级的规则逐项验证。PRISM方法通过结构化数据合成实现这一目标。",
+          "url": "https://arxiv.org/abs/2608.05249",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "超越全模型回滚：AuroSFT用于适配器状态的多任务微调",
+          "summary": "多任务监督微调常将异构数据混合视为单一优化问题，但不同任务可能在各自时间达到最佳泛化。现有方法通过任务级回滚暴露此问题，但其调度器状态需存储全模型检查点，导致阶段转换成本高昂。本文提出AuroSFT，以适配器状态替代全模型检查点，降低存储与部署开销。",
+          "url": "https://arxiv.org/abs/2608.05250",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "超越旋转：AuroOFT实现高效量化正交微调",
+          "summary": "量化正交微调（qoft）通过在冻结的量化权重前学习结构化激活旋转，实现低比特语言模型的参数高效适配，但其任务特定更新局限于线性正交变换，限制了输入相关的非线性修正。为此，我们提出AuroOFT，保留qoft作为稳定的量化兼容分支，同时附加零起始门控低秩非线性模块，以增强表达能力。",
+          "url": "https://arxiv.org/abs/2608.05253",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "新兴零售投资组合管理应用：基于自然语言目标的个性化税务感知强化学习",
+          "summary": "零售投资者缺乏机构客户享有的个性化税务感知投资组合管理服务，现有机器人顾问采用静态规则配置，机构级系统则门槛过高。该应用通过FastAPI后端和网页仪表盘，让用户描述投资目标，实现个性化税务优化管理。",
+          "url": "https://arxiv.org/abs/2608.05255",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "评估机器学习模型用于野火后泥石流预测",
+          "summary": "预测野火后泥石流对减轻近期燃烧区域在强降雨期间对社区、基础设施和资源的危害至关重要。然而，由于泥石流与非泥石流事件在特征空间中的重叠、模型可解释性需求及训练数据有限，识别可靠的机器学习模型面临挑战。本文通过系统评估多种机器学习模型来解决这些问题。",
+          "url": "https://arxiv.org/abs/2608.05265",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "纠正几何错位：面向类别不平衡脑电图的在线源域自适应",
+          "summary": "基于脑电图的脑机接口常需无监督域自适应以跨受试者和会话泛化。黎曼对齐方法如黎曼中心化变换虽能处理协变量偏移，但隐含假设类别先验平衡。实际在线脑机接口中标签分布动态变化，导致标准方法失效。",
+          "url": "https://arxiv.org/abs/2608.05315",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "QEvict：可恢复量化KV驱逐技术，实现抗注意力漂移的长上下文解码",
+          "summary": "自回归大语言模型推理日益受限于键值（KV）缓存的内存占用。主流方法通过驱逐注意力分数较低的token来减少内存，但这一决策不可逆，被驱逐的token无法再被利用。研究表明，在解码过程中该假设并不稳固，token及窗口的重要性会动态变化。为此，我们提出QEvict，一种可恢复的量化KV驱逐方法，以增强长上下文解码对注意力漂移的鲁棒性。",
+          "url": "https://arxiv.org/abs/2608.05326",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "DG-FedReuse：基于代理梯度门控的缓存更新复用与匹配稀疏上行链路计算",
+          "summary": "联邦学习反复产生本地优化和模型更新传输开销。DG-FedReuse机制允许选定客户端在随机头梯度差异代理低于轮次阈值时，贡献按时间衰减的缓存更新，并设置硬缓存年龄限制和最小新鲜客户端配额。新鲜更新采用自适应逐张量Top-K数值表示，以降低通信成本。",
+          "url": "https://arxiv.org/abs/2608.05358",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "arXiv cs.LG",
+          "title": "量子结构世界模型用于预测性潜在动力学",
+          "summary": "世界模型通过学习潜在状态来总结交互历史并支持预测、模拟或规划，但现有模型多采用经典向量或概率分布表示。本文提出量子结构世界模型（QSWMs），一种受量子启发的框架，用于具有结构化潜在状态的预测性世界建模。",
+          "url": "https://arxiv.org/abs/2608.05371",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "定制系统报价评估",
+          "summary": "用户亲戚为简单的嵌入组件支付高额月费，且新增下拉菜单功能被索要2400美元。用户需要手动判断报价合理性，缺乏技术背景难以评估。AI可分析系统复杂度、市场行情和功能需求，自动生成合理价格区间和替代方案建议。\n\n💡 机会方向：AI报价评估工具，输入功能描述和现有费用，自动对比市场价并给出议价建议。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vhv10k/my_uncle_has_been_paying_379mo_for_a_custom/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "银行流水核对",
+          "summary": "用户经营小企业，银行账户积累超额现金，需要手动核对每笔交易、计算可支配资金并规划用途。AI可自动同步银行数据，分类支出收入，预测现金流，并推荐最优资金配置方案（如投资、再投资或应急储备）。\n\n💡 机会方向：AI现金流管理助手，自动分类交易、生成财务健康报告并给出资金使用建议。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vifpef/what_to_do_with_excess_cash_in_business_bank/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "垃圾邮件过滤",
+          "summary": "用户近期收到大量贷款推销邮件，需要手动识别、标记和删除，浪费时间且容易漏掉重要邮件。AI可学习用户邮件偏好，自动识别推销、诈骗邮件并拦截，同时生成周报总结被过滤内容，确保不遗漏关键信息。\n\n💡 机会方向：AI邮件智能过滤器，基于用户行为学习，自动分类并拦截垃圾邮件，提供摘要报告。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vi5s3w/stopping_endless_spam_emails_offering_to_loan_me/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "商业伙伴股权计算",
+          "summary": "用户需要决定给潜在业务发展伙伴多少股权，涉及公司估值、贡献预测和长期激励，手动计算复杂且易出错。AI可输入公司财务数据、角色职责和市场基准，自动生成股权分配方案，并模拟不同场景下的稀释和收益影响。\n\n💡 机会方向：AI股权分配计算器，基于财务数据和市场基准，生成动态股权方案并模拟长期影响。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vig7tp/how_much_equity_should_i_offer_a_potential/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "购物袋供应商筛选",
+          "summary": "用户为朋友的亚洲礼品店寻找高质量纸袋供应商，需要手动搜索、比较价格、质量和物流，耗时且信息分散。AI可聚合供应商数据库，按材质、价格、起订量和交货时间筛选，并自动生成对比表和推荐选项。\n\n💡 机会方向：AI供应商匹配平台，输入需求参数，自动推荐最优供应商并生成对比报告。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vih2xa/i_need_to_supply_a_brand_new_highend_asian_gift/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
