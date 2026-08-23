@@ -1,0 +1,386 @@
+{
+  "date": "2026-08-23",
+  "timeRange": "2026-08-22 09:00 ~ 2026-08-23 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Lens AI – 生成并保持你的JSON-LD文件最新",
+          "summary": "文章网址：https://knowledgelens.ai/ 评论网址：https://news.ycombinator.co",
+          "url": "https://knowledgelens.ai/",
+          "time": "08:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "MacAIApps – 一个AI驱动的Mac应用目录",
+          "summary": "我喜欢发现使用AI的Mac应用，所以我建立了MacAIApps来收集它们。",
+          "url": "https://www.macaiapps.com/",
+          "time": "07:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Structo – 用于短篇写作的Claude Code",
+          "summary": "文章网址：https://structo.redbeardlab.com/ 评论网址：https://news.ycombin",
+          "url": "https://structo.redbeardlab.com/",
+          "time": "06:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "代理式开发的完整伴侣 - 缅甸语",
+          "summary": "文章网址：https://www.theburmese.xyz/ 评论网址：https://news.ycombinator.",
+          "url": "https://www.theburmese.xyz/",
+          "time": "05:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Locum – Grok Bot在你的机器上委托任务给Claude/Codex CLI",
+          "summary": "文章网址：https://github.com/HarjjotSinghh/locum 评论网址：https://news.y",
+          "url": "https://github.com/HarjjotSinghh/locum",
+          "time": "04:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "让您的编码代理可以同步阅读的ePub阅读器",
+          "summary": "文章网址：https://github.com/baturyilmaz/readingisfun 评论网址：https://n",
+          "url": "https://github.com/baturyilmaz/readingisfun",
+          "time": "03:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Faber，使用代码图的高性价比开源编码代理",
+          "summary": "文章网址：https://www.npmjs.com/package/faberwright 评论网址：https://new",
+          "url": "https://www.npmjs.com/package/faberwright",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "openai/codex",
+          "summary": "OpenAI 推出的轻量级编码代理，直接在终端中运行，能够理解代码库并自动完成编码任务。基于 Rust 实现，性能出色，今日获得 1,544 星，反映出开发者对终端 AI 编程助手的高度兴趣。\n\n💼 商业缺口：缺少针对企业级 codex 使用场景的合规审计与代码变更追踪工具。",
+          "url": "https://github.com/openai/codex",
+          "time": "1,544 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills",
+          "summary": "来自知名 TypeScript 教育者 Matt Pocock 的实战技能集合，直接取自其 .agents 目录，为 AI 代理提供可复用的工程技能配置。今日获得 2,683 星，说明开发者对高质量 AI 代理技能模板需求旺盛。\n\n💼 商业缺口：缺少技能包的版本管理与质量评分/认证市场。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "2,683 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "affaan-m/ECC",
+          "summary": "代理性能优化系统，涵盖技能、直觉、记忆等模块，帮助 AI 代理更高效地执行任务。基于 JavaScript 实现，今日 411 星，适合需要精细化调优代理行为的开发者。\n\n💼 商业缺口：缺少针对代理性能瓶颈的可视化诊断与基准测试平台。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "411 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "一套可落地的代理技能框架与软件开发方法论，帮助团队系统化地构建和部署 AI 代理。今日获得 592 星，Shell 实现，强调实用性和工程化落地。\n\n💼 商业缺口：缺少围绕该框架的团队协作与流程治理 SaaS 层。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "592 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Wei-Shaw/sub2api",
+          "summary": "一站式开源中转服务，将 Claude、OpenAI、Gemini、Grok 等订阅统一接入 API，支持拼车共享以分摊成本，原生工具可无缝使用。Go 实现，今日 278 星，解决多模型订阅管理痛点。\n\n💼 商业缺口：缺少订阅用量审计、配额管理与多用户计费结算面板。",
+          "url": "https://github.com/Wei-Shaw/sub2api",
+          "time": "278 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "n8n-io/n8n",
+          "summary": "公平代码的工作流自动化平台，原生集成 AI 能力，可结合可视化界面构建复杂自动化流程。TypeScript 实现，今日 149 星，是自托管自动化领域的领先选择。\n\n💼 商业缺口：缺少面向企业的工作流合规审计、版本回滚与跨团队协作治理层。",
+          "url": "https://github.com/n8n-io/n8n",
+          "time": "149 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-code",
+          "summary": "Anthropic 推出的代理式编码工具，运行在终端中，能理解项目上下文并辅助完成编码任务。Python 实现，今日 127 星，是 Claude 生态的核心开发者工具。\n\n💼 商业缺口：缺少针对 claude-code 的提示词安全审计与敏感信息泄露检测工具。",
+          "url": "https://github.com/anthropics/claude-code",
+          "time": "127 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "modular/modular",
+          "summary": "Modular 平台，包含 MAX 与 Mojo 语言，旨在统一 AI 基础设施与高性能计算。Mojo 语言实现，今日 395 星，面向需要极致性能的 AI 开发者。\n\n💼 商业缺口：缺少围绕 Mojo 生态的模型部署监控与性能成本优化服务。",
+          "url": "https://github.com/modular/modular",
+          "time": "395 stars today",
+          "language": "Mojo",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "multica-ai/andrej-karpathy-skills",
+          "summary": "基于 Andrej Karpathy 的工程实践提炼出的单一 CLAUDE.md 文件，用于改善 Claude Code 的行为表现。今日 315 星，是社区对顶级 AI 工程方法论的高度认可。\n\n💼 商业缺口：缺少将这些技能文件转化为可动态更新、跨项目同步的托管服务。",
+          "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "time": "315 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cursor/plugins",
+          "summary": "Cursor 编辑器的插件规范与官方插件集合，TypeScript 实现，今日 286 星。为 AI 原生 IDE 扩展生态奠定基础，吸引开发者构建定制化 AI 编码体验。\n\n💼 商业缺口：缺少插件市场的安全审查、兼容性测试与质量评级体系。",
+          "url": "https://github.com/cursor/plugins",
+          "time": "286 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Tencent/AI-Infra-Guard",
+          "summary": "腾讯开源的 AI 红队全栈平台，通过 Agent 扫描、技能检测等手段保障 AI 生态系统安全。Python 实现，今日 150 星，填补了 AI 安全治理领域的开源空白。\n\n💼 商业缺口：缺少面向企业的 AI 红队报告合规化与自动化修复闭环服务。",
+          "url": "https://github.com/Tencent/AI-Infra-Guard",
+          "time": "150 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "哈佛699美元创业训练营推出AI导师化身",
+          "summary": "哈佛商学院Foundry项目推出AI化身，在模拟路演和董事会会议中为学员提供反馈。该项目费用为699美元，旨在通过AI技术提升创业培训的互动性和实用性。",
+          "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+          "time": "05:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "DeepMind校友创立的Inherent称其AI‘队友’在复现研究上超越Anthropic和OpenAI",
+          "summary": "由DeepMind校友创立的英国AI实验室Inherent发布了AI代理Faraday，其复现科学论文的能力或成为创新的垫脚石。该代理在复现研究任务上表现优于Anthropic和OpenAI的同类系统。",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "time": "03:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI呼吁加州加强AI安全法案",
+          "summary": "OpenAI呼吁加州加强SB 53号AI安全法案，该公司此前曾反对该法案。这一立场转变表明OpenAI对AI监管态度的调整，并可能影响加州乃至全美的AI治理政策。",
+          "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前沿AI实验室仍未说明如何控制失控模型",
+          "summary": "一项新研究发现，领先的AI实验室鲜有公开记录应对失控模型的方案。随着AI系统日益展现出意外且可能危险的行为，这引发了对行业准备程度的质疑。",
+          "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具创新力的100家金融科技公司，涵盖支付、借贷、财富管理等领域。入选企业通过技术驱动金融服务变革，展现了行业最新趋势与增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技行业的最新发展态势，涵盖支付、借贷、财富管理等领域的创新趋势。报告指出，人工智能与区块链技术正加速重塑行业格局，同时监管环境的变化对市场参与者提出新的挑战与机遇。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与初创企业加速融合，推动产品创新与运营效率提升。人工智能和大数据分析在承保、理赔及客户服务中广泛应用，重塑价值链。尽管面临监管与盈利挑战，行业整体仍保持增长态势，未来竞争将聚焦于技术赋能与用户体验优化。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "我自研量化LLM：30B训练，60MB部署",
+          "summary": "我从头训练了一个2.5亿参数的模型，使用30B tokens的fineweb数据，量化至2比特以下，整个部署仅60MB，运行需约80MB内存。在普通笔记本CPU上无需GPU即可达到约400 tok/s的速度。长上下文处理方面，最近2048个token以fp16存储，更早的则压缩至1比特写入磁盘，每token约320字节，百万token历史约占用320MB磁盘空间。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vv2nkh/i_developed_my_own_quantized_llm_from_scratch/",
+          "time": "12:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "移除象棋Transformer模型一个注意力头，导致其无法找到著名棋局中的皇后弃子",
+          "summary": "一项新研究发现，移除象棋Transformer模型Maia-3 23m的128个注意力头中的一个，会导致模型无法识别著名棋局中的皇后弃子。该研究使用chessformer_lens库进行钩子读取，相关代码和DOI已公开。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vvsf5b/ablating_1_of_a_chess_transformers_128_attention/",
+          "time": "08:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了一个专为训练游戏智能体设计的开源Roguelike游戏",
+          "summary": "受DeepMind和OpenAI项目启发，我开发了DelveRL，一个从零构建的可供人类游玩的游戏，具备结构化API、确定性模拟、程序化关卡和部分可观测性。该游戏为回合制无尽Roguelike，智能体需在其中探索、管理资源并提升策略能力。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vvii1j/i_built_an_opensource_roguelike_specifically_for/",
+          "time": "01:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ACL ARR 2026年8月投稿遭桌面拒绝求助",
+          "summary": "一位研究者表示，其两篇论文被程序委员会以“曾在ARR中审阅过”为由桌面拒绝，但实际从未提交过。该用户正在寻求应对建议，以解决这一误判问题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vvd9ub/acl_arr_august_2026_desk_rejected_d/",
+          "time": "22:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如何发展一个项目？",
+          "summary": "作者的首篇论文被EMNLP接收并开源了代码，核心思想是基础性变革，因此正将其扩展为包含聊天代理等组件的更大系统。尽管作者在不同社区发布更新并强调开放研究问题，但几乎无人参与互动，这让他感到困惑。他计划在其他项目中使用该系统，并希望围绕它建立社区，但目前的冷遇让他反思推广策略。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/",
+          "time": "08:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "为何LightGBM无法拟合我的简单示例而CatBoost可以？（二阶交互）",
+          "summary": "作者试图理解树回归模型如何处理目标变量对解释变量交互的依赖，但实验表明其对LightGBM拟合过程的理解有误。实验设置简单：目标变量取值在[0,1]，两个解释变量各有两个值，且目标均值在解释变量各取值下相同，但LightGBM未能正确拟合交互效应，而CatBoost表现正常。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vv7wx3/why_does_lightgbm_not_fit_my_toy_example_but/",
+          "time": "17:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "评估分辨率显著影响V1脑相似性学习规则的识别",
+          "summary": "一项新研究指出，在模型与大脑的比较中，评估分辨率对识别最接近V1脑区特征的学习规则有显著影响。该研究挑战了“未训练的卷积神经网络在早期视觉皮层可媲美或超越反向传播训练网络”的常见论断，并提供了论文与代码链接。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vvdxwt/the_evaluation_resolution_has_been_shown_to_have/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "银行流水核对",
+          "summary": "小企业主需要每周手动将银行交易记录与会计软件中的账目进行核对，确保收支一致。这个过程耗时且容易出错，尤其是当交易量大或存在多个支付渠道时。AI可以自动抓取银行流水、分类交易、匹配发票，并标记异常项，大幅减少人工核对时间。\n\n💡 机会方向：开发自动对账工具，连接银行API与会计软件，实现实时匹配和异常预警。",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49399160",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户询价响应",
+          "summary": "家庭护理机构需要手动接听电话、记录客户需求、安排护理人员并回复邮件，高峰期容易漏接或延迟响应。AI可以自动接听电话、识别意图、生成工单、安排日程，并通过短信或邮件自动回复客户，提升响应速度和客户满意度。\n\n💡 机会方向：构建语音+文本AI客服系统，自动处理预约、咨询和调度。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vvpu2o/best_phone_system_for_a_growing_home_care_agency/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "库存与网站同步",
+          "summary": "小企业主使用Square管理库存和网站，但每次商品更新、价格调整或库存变化都需要手动在后台操作，容易导致线上线下不一致。AI可以自动同步库存数据、生成商品描述、更新价格，并监控缺货情况，减少重复劳动。\n\n💡 机会方向：开发电商库存自动同步插件，支持多平台实时更新。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vvpq3i/advice_on_website/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "发票分类记账",
+          "summary": "自由职业者和小企业主需要手动整理发票、分类支出、录入会计软件，月底对账时尤其繁琐。AI可以自动识别发票内容、提取金额和日期、分类到对应科目，并生成月度财务报告，节省大量时间。\n\n💡 机会方向：推出智能发票扫描与记账工具，自动生成财务报表。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vvrq84/hra_as_sole_proprietor/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户邮件回复",
+          "summary": "企业主每天需要手动回复大量客户邮件，包括询价、投诉、预约等，重复性高且容易遗漏。AI可以自动分类邮件、生成个性化回复草稿、标记紧急事项，并跟踪未回复邮件，提升沟通效率。\n\n💡 机会方向：开发邮件智能助手，自动分类、起草回复并提醒跟进。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vv3h4l/what_business_habit_or_best_practice_has_saved/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
