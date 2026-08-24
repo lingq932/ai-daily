@@ -1,0 +1,462 @@
+{
+  "date": "2026-08-24",
+  "timeRange": "2026-08-23 09:00 ~ 2026-08-24 09:00",
+  "sections": [
+    {
+      "id": "opportunities",
+      "name": "今日 AI 机会",
+      "items": [
+        {
+          "title": "AgentSkillBridge",
+          "summary": "买家：使用Claude Code和Codex等AI编码代理的独立开发者\n痛点：需要在不同AI编码代理之间切换，手动复制粘贴上下文和配置，工作流割裂且效率低下\nMVP：输入Claude Code的会话配置和任务描述，输出可直接在Codex中执行的命令序列和上下文摘要\n今日触发信号（3个板块佐证）：新产品发布板块的'Harness编排器'、GitHub热榜的'openai/codex'和'mattpocock/skills'\n最快验证：在X和Reddit的r/ChatGPTCoding发帖，询问开发者跨代理工作流的痛点，附上MVP原型链接",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "LocalStyleGuard",
+          "summary": "买家：需要确保AI生成内容符合品牌风格指南的内容营销经理\n痛点：AI生成草稿后仍需人工逐条检查风格一致性，耗时且容易遗漏，缺乏自动化校验工具\nMVP：输入品牌风格指南和AI草稿，输出带具体修改建议的风格合规报告\n今日触发信号（2个板块佐证）：新产品发布板块的'写作评估'、GitHub热榜的'freestylefly/awesome-gpt-image-2'（Prompt as Code理念）\n最快验证：在LinkedIn联系3-5位内容营销经理，发送风格检查样本报告，询问是否愿意付费试用",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "BizComplyKit",
+          "summary": "买家：需要管理分包商合规流程的小型装修公司老板（如墙纸安装）\n痛点：手动研究合同、保险和税务要求，耗时且易出错，缺乏标准化分包商管理流程\nMVP：输入公司基本信息和分包商类型，输出包含合同模板、保险要求和税务清单的合规包\n今日触发信号（2个板块佐证）：痛点信号板块的'分包商合规管理'、投资视角板块的'保险科技现状'（AI提升风险评估）\n最快验证：在装修行业Facebook群组发布问卷，收集10位老板对合规包的需求反馈，附上样本截图",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "写作评估：面向AI撰写草稿的本地确定性风格检查",
+          "summary": "写作评估，一个用于AI撰写草稿的本地确定性风格检查工具。",
+          "url": "https://github.com/majesticlabs-dev/writing-eval",
+          "time": "22:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Froging AI – 在一个工作流中处理图像和视频模型",
+          "summary": "Froging AI，一个将图像和视频模型整合到同一工作流中的平台。",
+          "url": "https://www.froging.ai",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "想过从Claude Code调用Codex吗？我的Harness编排器",
+          "summary": "Harness编排器，一个用于从Claude Code调用Codex的工具。",
+          "url": "https://github.com/ptmrio/harness-subagent",
+          "time": "20:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "面向AI代理的声明式、可复现配置物化器",
+          "summary": "一个用于AI代理的声明式、可复现配置物化器。",
+          "url": "https://github.com/tooppoo/enozunu",
+          "time": "19:48",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "openai/codex",
+          "summary": "Lightweight coding agent that runs in your terminal",
+          "url": "https://github.com/openai/codex",
+          "time": "2,715 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "freestylefly/awesome-gpt-image-2",
+          "summary": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+          "time": "401 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills",
+          "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "2,447 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "basecamp/omarchy",
+          "summary": "Beautiful, Modern & Opinionated Linux",
+          "url": "https://github.com/basecamp/omarchy",
+          "time": "750 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AprilNEA/OpenLogi",
+          "summary": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+          "url": "https://github.com/AprilNEA/OpenLogi",
+          "time": "1,009 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "block/buzz",
+          "summary": "A hive mind communication platform",
+          "url": "https://github.com/block/buzz",
+          "time": "410 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "apache/maka",
+          "summary": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+          "url": "https://github.com/apache/maka",
+          "time": "51 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Alishahryar1/free-claude-code",
+          "summary": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "time": "1,081 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "tinyhumansai/openhuman",
+          "summary": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "time": "39 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "affaan-m/ECC",
+          "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "427 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ruvnet/ruflo",
+          "summary": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+          "url": "https://github.com/ruvnet/ruflo",
+          "time": "131 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "VoltAgent/awesome-agent-skills",
+          "summary": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+          "url": "https://github.com/VoltAgent/awesome-agent-skills",
+          "time": "156 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "virgiliojr94/book-to-skill",
+          "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+          "url": "https://github.com/virgiliojr94/book-to-skill",
+          "time": "417 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "dani-garcia/vaultwarden",
+          "summary": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+          "url": "https://github.com/dani-garcia/vaultwarden",
+          "time": "78 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-plugins-community",
+          "summary": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+          "url": "https://github.com/anthropics/claude-plugins-community",
+          "time": "225 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ripienaar/free-for-dev",
+          "summary": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+          "url": "https://github.com/ripienaar/free-for-dev",
+          "time": "615 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Comfy-Org/ComfyUI",
+          "summary": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "time": "201 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NousResearch/hermes-agent",
+          "summary": "The agent that grows with you",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "time": "454 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "神秘新模型Ox Alpha背后是谁？",
+          "summary": "一个名为Ox Alpha的神秘新AI模型引发了互联网部分角落的狂热猜测。该模型的来源和开发者身份尚未公开，外界对其技术背景和潜在影响充满好奇。",
+          "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+          "time": "04:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Linkdaze智能日历：管理家庭事务，而非仅追踪日程",
+          "summary": "Linkdaze的智能数字日历因其功能不设付费墙而脱颖而出，其中包括AI膳食规划工具。该日历旨在帮助用户管理家庭日常事务，而不仅仅是记录时间安排。",
+          "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+          "time": "03:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Flock CEO呼吁“妥协”，监控公司面临日益强烈的反对",
+          "summary": "Flock Safety公司因其监控技术可能被滥用的担忧而面临日益强烈的公众抗议。该公司CEO呼吁各方达成“妥协”，以回应外界对其产品用途的质疑。",
+          "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+          "time": "23:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "训练AI模型使用受版权保护的书籍是否合法？情况复杂",
+          "summary": "大多数已出版作者在不知情或未同意的情况下，其作品被用于训练AI模型，而这些模型可能威胁到他们的生计。这看似违法，但法律界定尚不明确，情况颇为复杂。",
+          "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具创新力的100家金融科技公司，涵盖支付、借贷、财富管理等领域。入选企业通过技术驱动金融服务变革，展现了行业最新趋势与增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "本文概述了金融科技行业的最新发展态势，涵盖支付、借贷、财富管理及区块链等关键领域的创新与挑战。报告指出，尽管监管压力增大，但人工智能与嵌入式金融的融合正推动行业进入新一轮增长期。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技领域正经历深刻变革，新兴技术如人工智能、大数据和区块链正在重塑保险行业的运营模式。这些技术提升了风险评估的准确性，优化了理赔流程，并推动了个性化保险产品的开发。尽管面临监管和数据隐私等挑战，保险科技的创新势头依然强劲，预计将继续引领行业转型。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "如何引用/讨论预印本后续工作以准备最终版论文？",
+          "summary": "一篇论文被会议接收，原为预印本，后续工作引用并扩展了其方法。作者在准备最终版时，不确定是否应引用自己的预印本，同时希望妥善处理相关工作部分，避免遗漏或不当引用。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vwg5br/how_to_citetalk_about_preprintsubsequent_works/",
+          "time": "03:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "存档与非存档研讨会 [R]",
+          "summary": "一位用户刚意识到所有NeurIPS研讨会都是非存档的。他询问在研究生申请中，论文被收录进会议论文集是否会影响其价值。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/",
+          "time": "00:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "COLM 2026注册售罄，作者错失机会",
+          "summary": "一位COLM 2026论文作者因误以为注册截止日期为8月24日，未及时操作，导致在8月23日发现注册已售罄。此前其合著者已通过作者专属期注册，而作者本人仅加入候补名单，最终错失参会资格。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vwfccx/colm_2026_registration_sold_out_as_an_author_d/",
+          "time": "02:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "为语言模型实现水印技术",
+          "summary": "我最近实现了一个简化版、用于教学目的的SynthID-Text风格语言模型水印。受Anthropic将为其模型回复添加水印的启发，我探究了水印的实际含义——它并非可见信息，而是一种微妙的技术手段。该实现旨在帮助理解水印如何在不影响文本可读性的情况下嵌入模型输出。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vw18ys/implementing_watermarking_for_language_models_p/",
+          "time": "16:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "EACL 2027工业轨道征稿截止日期为9月11日",
+          "summary": "EACL 2027工业轨道主席提醒，距投稿截止仅剩约三周。该轨道旨在展示语言技术在实际应用开发与部署中的关键见解和新研究挑战，欢迎来自工业界、非营利组织、政府及公共部门的投稿。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vw4un3/n_eacl_2027_industry_track_deadline_11_september_n/",
+          "time": "19:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Qwen2.5-7B跨双云区域公网推理：投机解码+ CUDA Graphs实现28 TPS",
+          "summary": "开发者历时数月构建ShardFlow分布式LLM推理框架，可将任意HuggingFace transformer拆分至多台GPU机器，并利用神经投机解码应对广域网延迟。基准测试中，两个GCP区域（爱荷华与俄勒冈）的T4节点通过AWS EC2中继通信，公网RTT约86ms，最终实现28 TPS。关键思路在于将WAN延迟从逐token成本转为逐轮成本。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vw5ysj/28_tps_on_qwen257b_across_two_separate_cloud/",
+          "time": "20:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "AI代理说“完成”时，如何确认任务真的完成了？",
+          "summary": "我正在测试一个名为agentuptime的早期概念，目前尚无产品或SDK。灵感源于AI代理常让我困扰的问题：代理声称“完成”并不代表任务真正成功，工具可能返回成功，追踪看似正常，但外部系统状态却出错。因此，我尝试引入一种“收据”机制，将代理的声明与独立验证的结果分开，例如数据库写入后需额外确认。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/",
+          "time": "23:32",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "网站搭建选择",
+          "summary": "用户反复询问网站构建器，担心选错平台，需手动比较功能、价格、可扩展性。AI可基于业务类型、预算、技术能力自动推荐并生成对比报告，甚至直接生成网站框架，减少决策焦虑和试错成本。\n\n💡 机会方向：AI网站构建顾问，输入业务信息自动生成最优方案和原型",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vwc8ad/what_app_do_you_use_to_keep_track_of_construction/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "营销策略制定",
+          "summary": "LED灯泡更换业务老板不知如何推广，只能靠个人经验摸索，缺乏系统化渠道分析。AI可分析本地市场、竞品、客户画像，自动生成分渠道营销计划（如Google Ads、社交媒体、本地SEO），并持续优化投放策略。\n\n💡 机会方向：本地服务AI营销助手，自动生成并执行获客方案",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vwo4i6/i_own_an_led_bulb_replacement_business_help_on/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户名单估值",
+          "summary": "出售宠物美容业务时，需手动估算客户名单价值，缺乏行业基准和量化模型，容易定价失误。AI可基于客户数量、消费频率、留存率、生命周期价值等数据，自动生成估值报告，并对比市场交易案例。\n\n💡 机会方向：小企业转让估值工具，AI自动计算客户资产价值",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vwlynw/selling_my_small_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "分包商合规管理",
+          "summary": "墙纸安装公司老板想引入分包商，但不懂合同、保险、税务等法律流程，需手动研究或咨询律师，耗时且易出错。AI可生成分包合同模板、检查保险要求、提醒税务申报节点，并基于当地法规自动更新。\n\n💡 机会方向：分包商合规自动化平台，一键生成法律文件和风险清单",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vwnqo1/subcontractor_questions/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "免费试用转付费",
+          "summary": "SEM代理机构老板免费服务客户3个月后，不知如何推动付费转化，只能靠感觉沟通，缺乏数据支撑和话术策略。AI可分析客户使用数据、效果指标，自动生成个性化转化报告和报价方案，并模拟最佳沟通时机。\n\n💡 机会方向：SaaS试用转化AI，自动生成数据驱动的续费提案",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1vwasca/suitable_website_builder/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
