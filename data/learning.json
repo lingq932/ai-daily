@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-26",
+  "updatedAt": "2026-08-27",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "C2PA相机认证在安卓上可被攻破：内容溯源技术的现实局限",
+      "whatIsIt": "安全研究员演示了通过root权限提升漏洞，可伪造C2PA签名图像和视频，且无需硬件攻击。",
+      "boundary": "能做到：在特定条件下（利用系统漏洞获取root）伪造签名。做不到：在未受攻击的设备上伪造。前提是：C2PA的安全性依赖于终端设备的系统安全，安卓的开放生态使其成为薄弱环节。",
+      "whyLearn": "这关系到AI生成内容监管和溯源。作为PM，如果你在规划内容审核或版权保护功能，需要知道C2PA不是银弹，不能作为唯一信任锚点，需结合其他检测手段。",
+      "source": "AI HOT",
+      "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+      "id": "27ae8757ad0a",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "AI写了100万行代码后：可靠性打磨才是真正的成本",
+      "whatIsIt": "Paul Dix分享其项目经验：AI在两个月内生成了100万行代码，但后续花了数月时间进行精炼和修复，才产出可靠的产品。",
+      "boundary": "能做到：AI大幅提升代码生成速度，快速产出海量代码。做不到：直接生成生产级可靠的代码。前提是：需要投入大量人力进行代码审查、测试和重构，'生成'只是起点，'打磨'才是成本大头。",
+      "whyLearn": "这是对'AI编程=免费劳动力'幻想的直接纠正。它帮你建立对vibe coding闭环的合理预期：真正的ROI计算必须包含后期大量的工程化成本，而非只看生成速度。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "id": "d6392f8d4469",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Lovable CTO：未来SaaS是Agent能用的应用",
+      "whatIsIt": "Lovable从AI网页应用生成转向MCP驱动的'capabilities'，探讨了SaaS应用如何为AI Agent设计接口。",
+      "boundary": "能做到：通过MCP协议让Agent调用外部应用能力，扩展AI的行动范围。做不到：让现有SaaS应用无需改造即可被Agent使用。前提是：应用需要重新设计API和交互逻辑，从'为人设计'转向'为人与Agent共同设计'。",
+      "whyLearn": "这代表了AI应用的前沿方向。作为PM，理解MCP和Agent-ready应用的概念，能帮你在规划产品时，避免做出'Agent无法使用'的封闭系统，把握下一代软件交互的入口。",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/lovable-future-of-saas",
+      "id": "a4a36347717b",
+      "date": "2026-08-27"
+    },
+    {
+      "category": "技术实现",
+      "title": "Qwen3.8-Flash-Next：1/9训练成本下的多模态MoE架构预览",
+      "whatIsIt": "通义千问开源的多模态MoE模型，是Qwen4架构的早期预览，总参数125B但每token仅激活6B，训练成本仅为前代的1/9。",
+      "boundary": "能做到：以极低的训练成本实现超越前代的性能，展示了MoE架构在效率上的巨大优势。做不到：在绝对性能上超越所有同代密集模型。前提是：需要专门的推理优化（如权重缓存）来发挥其稀疏激活的优势，否则可能受限于显存带宽。",
+      "whyLearn": "这是理解'高效AI'趋势的典型案例。它告诉你模型性能不是只看总参数，激活参数和训练成本才是决定落地可行性的关键，帮你建立评估新模型性价比的框架。",
+      "source": "AI HOT",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "id": "1a30f91284ee",
+      "date": "2026-08-27"
+    },
     {
       "category": "技术边界",
       "title": "AI智能体应该活多久？",
