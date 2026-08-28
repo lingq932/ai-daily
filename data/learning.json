@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-27",
+  "updatedAt": "2026-08-28",
   "items": [
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "豆包工作：企业接入Agent的最低门槛路径",
+      "whatIsIt": "字节跳动推出的办公Agent产品，与飞书深度整合，支持手机远程控制多设备。",
+      "boundary": "能做到：手机远程控制最多7台设备、定时任务、自动读取本地skill、侧边栏编辑同步飞书。做不到：需用飞书账号登录才能解锁满血功能，管理员看不到聊天记录（隐私与管控的权衡）。代价是：功能深度绑定飞书生态，跨平台能力受限。",
+      "whyLearn": "展示Agent在企业办公场景的真实落地形态，是理解vibe coding如何产品化的具体案例。",
+      "source": "AI HOT",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509950&idx=1&sn=18e7ecdceb66058f5ae1681009b4054e",
+      "id": "779aa6d34c55",
+      "date": "2026-08-28"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Warp在Claude上构建自我改进智能体",
+      "whatIsIt": "Warp团队基于Claude Agent Skills构建的自我改进循环系统，应用于开源仓库管理。",
+      "boundary": "能做到：通过基础技能与改进技能两个文件型技能，将人类反馈转化为持续优化，已覆盖数百名贡献者与数千次代码审查。做不到：无法完全自动化，仍需人类反馈作为改进信号。代价是：需要设计原则性的技能结构，初期投入较高。",
+      "whyLearn": "提供Agent自我改进的工程实践范式，对设计企业级AI coding闭环有直接借鉴意义。",
+      "source": "AI HOT",
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "id": "04cb0dbce6b2",
+      "date": "2026-08-28"
+    },
+    {
+      "category": "技术实现",
+      "title": "腾讯混元端侧翻译模型压缩至440MB",
+      "whatIsIt": "通过2-bit与1.25-bit量化将1.8B翻译模型压缩至440MB，已落地B站弹幕翻译。",
+      "boundary": "能做到：压缩至原体积约1/4，翻译质量几乎无损，在FLORES-200上优于商业API。做不到：无法在无量化损失的情况下达到此压缩比。代价是：需要针对特定硬件优化量化方案，通用性可能受限。",
+      "whyLearn": "理解模型压缩技术的实际效果与边界，对端侧AI产品设计中的资源权衡有参考价值。",
+      "source": "AI HOT",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498367&idx=1&sn=f1a5cf87eb06015cbe995bd5ef8b5d0a",
+      "id": "c674c30db3a5",
+      "date": "2026-08-28"
+    },
+    {
+      "category": "技术实现",
+      "title": "OpenRouter视频生成API接入指南",
+      "whatIsIt": "OpenRouter推出的统一异步视频生成API，支持Seedance、Veo、Wan等模型。",
+      "boundary": "能做到：通过统一接口提交视频生成任务、轮询状态并下载MP4，切换模型只需更改标识符。做不到：无法同步返回结果，必须异步轮询。代价是：需要处理任务状态管理，且不同模型的实际生成能力差异仍需自行评估。",
+      "whyLearn": "了解视频生成模型的API接入模式，是评估多模型集成成本和产品化路径的基础。",
+      "source": "AI HOT",
+      "url": "https://openrouter.ai/blog/tutorials/video-generation-api",
+      "id": "f136436c84f6",
+      "date": "2026-08-28"
+    },
     {
       "category": "技术边界",
       "title": "C2PA相机认证在安卓上可被攻破：内容溯源技术的现实局限",
