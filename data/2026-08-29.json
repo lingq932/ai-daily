@@ -1,0 +1,510 @@
+{
+  "date": "2026-08-29",
+  "timeRange": "2026-08-28 09:00 ~ 2026-08-29 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Anthropic黑名单案胜诉",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "周四，一名法官裁定五角大楼今年早些时候将Anthropic列入黑名单的行为违宪，使这家AI实验室在与特朗普政府长达数月的拉锯战中获胜。该诉讼于3月在加州地区法院",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "联邦法官裁定特朗普政府将Anthropic标记为供应链风险的行为非法，这家AI公司取得法律胜利。目前，该公司针对五角大楼的第二起诉讼仍在华盛顿进行中。",
+              "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/"
+            }
+          ]
+        },
+        {
+          "headline": "Claude官方插件目录发布",
+          "coverage": [
+            {
+              "source": "HN Show",
+              "summary": "文章URL: https://github.com/yevhens-hue/claude-skills-starter-kit 评论U",
+              "url": "https://github.com/yevhens-hue/claude-skills-starter-kit"
+            },
+            {
+              "source": "GitHub Trending",
+              "summary": "Anthropic官方管理的Claude Code高质量插件目录，为Claude Code提供官方认证的扩展能力。它解决了插件生态混乱、质量参差不齐的问题，是C",
+              "url": "https://github.com/anthropics/claude-plugins-official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opportunities",
+      "name": "今日 AI 机会",
+      "items": [
+        {
+          "title": "DocuParseFlow",
+          "summary": "买家：每周手动核对银行流水的小企业主/财务负责人\n痛点：他们每周需登录银行账户逐笔核对交易与账本，耗时易错，尤其在多账户或频繁交易时\nMVP：输入银行对账单PDF和账本CSV，输出自动匹配差异报告（含缺失、重复、金额不符条目）\n今日触发信号（2个板块佐证）：痛点信号板块提及'手动核对银行流水'；新产品发布板块Cohere Parse 5能将复杂文档和表格转化为AI就绪数据，为解析对账单提供技术基础\n最快验证：找3位小企业主，提供他们的银行对账单和账本样本，测试MVP能否在10分钟内生成准确差异报告，并询问付费意愿",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "ClinicSiteScout",
+          "summary": "买家：想购买或开设诊所的非从业者（如投资人、创业者）\n痛点：他们需手动调研GTA地区法规、牌照要求、租金成本、竞争密度和患者需求，信息分散且专业性强\nMVP：输入诊所位置和类型，输出合规清单（牌照、法规）和竞争/租金/需求摘要报告\n今日触发信号（3个板块佐证）：痛点信号板块提及'诊所选址与合规调研'；GitHub热榜板块scientific-agent-skills提供科学实验设计技能，可借鉴其结构化调研逻辑；新产品发布Cohere Parse 5可解析复杂法规文档\n最快验证：联系2位诊所投资人或创业者，提供GTA地区具体地址，测试报告是否覆盖关键决策点，并询问是否愿意为完整报告付费",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "CashFlowBalancer",
+          "summary": "买家：需定期估算账户现金余额的企业主/财务经理\n痛点：他们手动估算账户应保留多少现金，平衡运营需求与投资机会，依赖直觉和零散数据\nMVP：输入历史现金流数据和账单周期，输出建议现金余额范围及风险提示\n今日触发信号（3个板块佐证）：痛点信号板块提及'现金余额决策'；GitHub热榜板块archify提供可验证的架构图技能，可用于可视化现金流模型；新产品发布板块Revalvo支持多模型评分，可优化预测准确性\n最快验证：找3位企业主，收集他们过去6个月的现金流数据，生成建议余额，对比他们的实际决策，询问是否愿意使用此工具",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Cohere Parse 5 | 将复杂文档、表格和图像转化为AI就绪数据",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/cohere-2",
+          "time": "23:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Hy4预览 | 腾讯770B开源模型，面向长周期任务",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/hunyuan-a13b",
+          "time": "00:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Revalvo | 同时在所有模型上运行提示。评分。版本管理。发布。",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/revalvo",
+          "time": "14:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Leiolai，AI向用户支付其设备提供的算力费用",
+          "summary": "Leiolai在用户已有的设备上运行推理，而非数据中心",
+          "url": "https://leiolai.com/",
+          "time": "08:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "A2acast – 让不同计算机上的AI代理协同工作",
+          "summary": "文章URL: https://github.com/husker/a2acast 评论URL: https://news.ycombi",
+          "url": "https://github.com/husker/a2acast",
+          "time": "06:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "AdRiseLab – 我为自己的Meta广告构建了一个AI媒体购买器",
+          "summary": "文章URL: https://adriselab.com/blog/what-is-an-ai-performance-marketer 评论",
+          "url": "https://adriselab.com/blog/what-is-an-ai-performance-marketer",
+          "time": "05:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Claude Code技能 – 解决上下文膨胀问题",
+          "summary": "文章URL: https://github.com/yevhens-hue/claude-skills-starter-kit 评论U",
+          "url": "https://github.com/yevhens-hue/claude-skills-starter-kit",
+          "time": "05:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "archify | 智能体架构可视化技能",
+          "summary": "为AI智能体提供生成美观、可验证的架构图、工作流图、时序图和数据流图的技能包。它解决了AI生成图表缺乏规范性和可验证性的问题，让架构文档更可靠。今日获得4562星，说明开发者对AI辅助架构设计的需求非常旺盛。\n\n💼 商业缺口：缺少对AI生成架构图的合规性审计与版本追溯的付费服务。",
+          "url": "https://github.com/tt-a1i/archify",
+          "time": "4,562 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "scientific-agent-skills | 科学智能体技能库",
+          "summary": "将任意AI智能体转变为AI科学家的技能库，是科学领域排名第一的Agent Skills库。它提供科学实验设计、数据分析等专业能力，降低科研人员使用AI的门槛。今日720星，显示AI for Science赛道热度持续攀升。\n\n💼 商业缺口：缺少针对科研数据隐私和实验可重复性的企业级治理与审计层。",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "time": "720 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "claude-plugins-official | Claude官方插件目录",
+          "summary": "Anthropic官方管理的Claude Code高质量插件目录，为Claude Code提供官方认证的扩展能力。它解决了插件生态混乱、质量参差不齐的问题，是Claude生态的重要基础设施。今日457星，表明官方插件市场正快速获得开发者认可。\n\n💼 商业缺口：缺少插件安全扫描与供应链风险评估的付费服务。",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "time": "457 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "GitNexus | 零服务器代码智能引擎",
+          "summary": "客户端知识库驱动的代码智能引擎，无需服务器即可提供代码理解、搜索和生成能力。它解决了代码智能工具依赖云端服务、存在数据泄露风险的问题。今日202星，体现了本地化、隐私安全的AI代码工具需求。\n\n💼 商业缺口：缺少针对本地代码智能引擎的合规审计与数据泄露检测工具。",
+          "url": "https://github.com/abhigyanpatwari/GitNexus",
+          "time": "202 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "go-modern-guidelines | 现代Go编程AI指南",
+          "summary": "帮助AI编码智能体编写现代Go代码的指南，由JetBrains维护。它解决了AI生成Go代码风格老旧、不符合最佳实践的问题，提升AI生成代码的质量。今日574星，说明AI编程规范类工具需求强劲。\n\n💼 商业缺口：缺少将此类指南转化为自动化CI/CD检查规则的付费插件市场。",
+          "url": "https://github.com/JetBrains/go-modern-guidelines",
+          "time": "574 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMontage | 开源智能体视频制作系统",
+          "summary": "全球首个开源、智能体驱动的视频制作系统，包含12条生产级流水线。它解决了视频制作流程复杂、自动化程度低的问题，让AI智能体自主完成视频生产。今日1144星，显示AI视频生成领域对开源生产级方案渴求强烈。\n\n💼 商业缺口：缺少视频版权溯源与AI生成内容标识的合规审计服务。",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "time": "1,144 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "screenshot-to-code | 截图转代码工具",
+          "summary": "将截图转换为干净代码（HTML/Tailwind/React/Vue）的开源工具，是AI编程领域的经典项目。它极大降低了前端开发从设计稿到代码的转换成本。今日326星，持续稳定的热度证明其仍是开发者高频使用的效率工具。\n\n💼 商业缺口：缺少针对生成代码的可访问性（a11y）自动审计与修复的付费层。",
+          "url": "https://github.com/abi/screenshot-to-code",
+          "time": "326 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cursor/plugins | Cursor插件规范与官方插件",
+          "summary": "Cursor官方发布的插件规范及插件库，为Cursor代码编辑器定义插件标准。它解决了Cursor插件生态缺乏统一规范的问题，是Cursor生态扩展的关键。今日246星，显示AI原生IDE的插件生态正在快速成型。\n\n💼 商业缺口：缺少插件性能监控与质量评级的第三方认证服务。",
+          "url": "https://github.com/cursor/plugins",
+          "time": "246 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "awesome-gpt-image-2 | GPT-Image2工业级提示词引擎",
+          "summary": "GPT-Image2工业级提示词引擎与模板库，包含530+案例逆向工程和20+套工业级模板，提炼出Skills并持续更新。它解决了AI图像生成中提示词工程复杂、效果不可控的问题。今日1687星，说明高质量图像提示词资产是刚需。\n\n💼 商业缺口：缺少提示词模板的商业授权与版权合规交易平台。",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+          "time": "1,687 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "marin | 基础模型研发开源框架",
+          "summary": "用于基础模型研发的开源框架，支持从数据到训练再到评估的全流程。它解决了基础模型研发工具链分散、复现困难的问题。今日236星，表明社区对开源基础模型研发框架有持续需求。\n\n💼 商业缺口：缺少模型训练成本追踪与算力资源优化的商业分析层。",
+          "url": "https://github.com/marin-community/marin",
+          "time": "236 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "freellmapi | 免费LLM API聚合平台",
+          "summary": "聚合34个免费LLM提供商、635个免费模型端点，每月提供74亿token的免费API服务。它解决了开发者获取免费LLM资源分散、难以比较的问题。今日433星，显示低成本AI接入方案需求巨大。\n\n💼 商业缺口：缺少免费API服务的SLA保障与可靠性监控的付费服务。",
+          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "time": "433 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "chrome-devtools-mcp | Chrome开发者工具MCP",
+          "summary": "为编码智能体提供Chrome DevTools能力的MCP服务器，让AI智能体可以调试和分析网页。它解决了AI智能体无法直接操作浏览器调试工具的问题。今日67星，是AI辅助前端调试的重要基础设施。\n\n💼 商业缺口：缺少基于该MCP的自动化浏览器测试报告与回归分析服务。",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "time": "67 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ai-engineering-from-scratch | AI工程从零到一",
+          "summary": "从零开始学习AI工程并构建、交付产品的系统性教程项目。它解决了AI工程学习路径碎片化、缺乏实战指导的问题。今日703星，说明系统化AI工程教育需求旺盛。\n\n💼 商业缺口：缺少配套的实战项目评估与技能认证服务。",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "703 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ponytail | 让AI智能体像资深工程师一样思考",
+          "summary": "让AI智能体以最懒的资深工程师方式思考，生成最简洁、最省事的代码。它解决了AI生成代码过度设计、复杂度高的问题。今日1396星，表明开发者对AI生成代码的简洁性有强烈诉求。\n\n💼 商业缺口：缺少对AI生成代码复杂度与可维护性的量化评分工具。",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "time": "1,396 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "livekit/agents | 实时语音AI智能体框架",
+          "summary": "用于构建实时语音AI智能体的框架，支持音频、视频交互。它解决了实时语音AI应用开发复杂、延迟高的问题。今日22星，虽然今日星数不高，但作为实时语音AI的核心框架，长期价值显著。\n\n💼 商业缺口：缺少语音智能体的通话质量监控与成本优化分析服务。",
+          "url": "https://github.com/livekit/agents",
+          "time": "22 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "每台机器都将开口说话：Claude",
+          "summary": "人工智能技术正加速融入日常设备，使机器具备自然语言交互能力。掌握相关AI技能，有助于快速做出更明智的决策。",
+          "url": "https://therundownai.beehiiv.com/p/every-machine-is-about-to-speak-claude",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "特朗普环保署拟允许数据中心隐瞒空气污染",
+          "summary": "美国环保署计划废除一项联邦规定，该规定要求特定工业场所在建设前进行公众通知和意见征询。此举正值数据中心因污染问题面临社区反对之际，将使公众更难对数据中心产生的污染发表意见。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+          "time": "00:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "法院裁定特朗普政府将Anthropic列入黑名单违法",
+          "summary": "周四，一名法官裁定五角大楼今年早些时候将Anthropic列入黑名单的行为违宪，使这家AI实验室在与特朗普政府长达数月的拉锯战中获胜。该诉讼于3月在加州地区法院提起，指控特朗普政府因Anthropic设定“红线”而非法对其进行报复。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+          "time": "11:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Neocloud Lambda获10亿美元债务融资购买更多芯片",
+          "summary": "Neocloud Lambda已通过私人债务融资10亿美元，用于购买英伟达AI芯片并租赁给微软。这是其一系列贷款中的最新一笔，凸显了AI热潮的高昂成本。",
+          "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+          "time": "04:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic研究员展示自我改进AI新进展",
+          "summary": "Anthropic研究员展示了自我改进AI系统的能力。在10个针对特定错误行为的基准测试中，该系统均能提升性能，且不损害整体表现。",
+          "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+          "time": "03:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "开放权重AI公司成硅谷最热收购目标",
+          "summary": "大量资本正涌入免费提供模型的AI企业，使其成为硅谷最热门的收购对象。这一趋势反映出开放权重模式在行业中的战略价值日益凸显。",
+          "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+          "time": "02:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic首次胜诉，推翻五角大楼供应链风险标签",
+          "summary": "联邦法官裁定特朗普政府将Anthropic标记为供应链风险的行为非法，这家AI公司取得法律胜利。目前，该公司针对五角大楼的第二起诉讼仍在华盛顿进行中。",
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+          "time": "20:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta高管跳槽OpenAI，社交媒体巨头在印度面临日益严格的审查",
+          "summary": "Meta高管桑迪娅·德瓦纳坦离职，加入OpenAI，将负责该公司在东南亚和澳大利亚的部分运营。此举正值Meta在印度面临日益严格的审查之际。",
+          "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+          "time": "20:21",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具创新力的100家金融科技公司，涵盖支付、借贷、财富管理等领域。入选企业通过技术驱动金融服务变革，展现了行业最新趋势与增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司加速融合，数字支付、区块链和人工智能成为核心驱动力。监管环境趋严，数据安全与隐私保护成为焦点，同时全球市场对创新金融服务的需求持续增长。行业未来将更注重合规与可持续性，技术赋能与风险平衡成为关键挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技行业现状",
+          "summary": "保险科技领域正经历深刻变革，传统保险公司与新兴科技企业加速融合，推动产品创新与运营效率提升。人工智能和大数据分析在承保、理赔及客户服务中广泛应用，重塑行业价值链。同时，监管环境与消费者期望的变化促使企业更加注重个性化与合规性，市场竞争日趋激烈。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "在RP2350微控制器上实现微型图像生成模型",
+          "summary": "该模型参数规模为240万至400万，经int8量化后可在微控制器上约20秒内完成生成，输出128x128人脸图像并显示或通过USB传输。采用12层潜流变换器与AdaLN-Zero条件化，支持CFG显著提升画质，推理时通过DMA从闪存流式加载权重，并使用ReLU²激活函数。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w10tax/i_implemented_a_very_tiny_image_generation_model/",
+          "time": "03:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "世界模型到底是什么？",
+          "summary": "作者试图理解世界模型的概念，指出其源于认知科学与强化学习，但目前多数所谓的“世界模型”实为高级视频生成模型。他质疑模拟器（如物理引擎）是否算作世界模型，并探讨了模拟器作为世界模型一种类型的合理性。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w16jwj/wtf_is_a_world_model_d/",
+          "time": "07:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "谷歌计算机科学博士奖学金2026",
+          "summary": "有用户询问是否已收到谷歌2026年计算机科学博士奖学金的决定通知，并请求回复时注明结果（如批准/拒绝）及地理区域。官方通知日期为8月31日，但提前发帖以便大家及时更新状态。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w0qv95/google_cs_phd_fellowship_2026_r/",
+          "time": "21:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "统计与概率机器学习论文投稿去向探讨",
+          "summary": "一位统计与概率机器学习领域的研究者表示，其拥有稳定的顶级论文发表记录，但近年来LLM相关研究已完全占据顶级会议主导地位。在今年的ICLR上，每排10篇论文中难寻一篇非LLM主题，研讨会也多为智能体相关方向，令其感到失望。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w0kipf/where_to_submit_statprob_ml_d/",
+          "time": "16:16",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对银行流水",
+          "summary": "小企业主每周需手动登录银行账户，逐笔核对交易记录与账本，确保现金流准确。这个过程耗时且易出错，尤其在多账户或频繁交易时。AI可自动抓取银行数据，与会计软件同步，实时标记异常交易并生成对账报告，大幅减少人工核对时间。\n\n💡 机会方向：开发自动银行对账与现金流分析工具，集成主流会计平台。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w0yg4u/trying_to_get_myself_out_of_payroll_every_week/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "内容创作外包筛选",
+          "summary": "小企业主需在多个平台（如Fiverr、Upwork）搜索、筛选、联系内容创作者，评估其作品质量、价格和响应速度，过程繁琐且主观。AI可聚合创作者信息，基于企业行业、预算和风格偏好自动推荐匹配人选，并生成对比报告，甚至模拟试稿。\n\n💡 机会方向：构建AI驱动的创作者匹配与评估平台，提供个性化推荐。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w13wl9/how_do_you_guys_find_people_to_make_content_for/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "现金余额决策",
+          "summary": "企业主需定期手动估算账户应保留多少现金，平衡运营需求与投资机会，常依赖直觉和零散数据。AI可基于历史现金流、账单周期、季节性波动和未来支出预测，自动计算最优现金留存范围，并提醒超额或不足，减少猜测风险。\n\n💡 机会方向：开发智能现金管理助手，提供动态余额建议和预警。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w127t8/how_do_you_decide_how_much_cash_to_leave_in_your/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工离职证明开具",
+          "summary": "前员工请求企业主手动填写并签署就业证明信，用于房贷申请，需核实在职时间、职位和薪资，流程重复且耗时。AI可自动从HR系统提取员工历史数据，生成标准化证明文件，并支持电子签名，一键发送给银行或员工，减少人工干预。\n\n💡 机会方向：创建自动化就业验证与证明信生成工具，对接HR和银行系统。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w0zp45/former_employee_now_needs_my_help_am_i_being_petty/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "诊所选址与合规调研",
+          "summary": "非从业者想购买或开设诊所，需手动调研GTA地区法规、牌照要求、租金成本、竞争密度和患者需求，信息分散且专业性强。AI可整合政府数据库、商业地产列表和行业报告，生成可行性分析报告，标注风险点和合规清单，辅助决策。\n\n💡 机会方向：开发医疗诊所选址与合规智能咨询平台，提供一键尽调报告。",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w14ms7/nonpractitioner_looking_to_own_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
