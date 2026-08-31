@@ -1,0 +1,376 @@
+{
+  "date": "2026-08-31",
+  "timeRange": "2026-08-30 09:00 ~ 2026-08-31 09:00",
+  "sections": [
+    {
+      "id": "opportunities",
+      "name": "今日 AI 机会",
+      "items": [
+        {
+          "title": "账单自动核对与分类助手",
+          "summary": "买家：创业公司财务负责人（如小企业主或兼职簿记员）\n痛点：银行账户增多后，手动核对流水、分类交易、对账繁琐易错\nMVP：输入银行API或导出的交易流水，输出自动分类、对账差异报告和异常提醒\n今日触发信号（2个板块佐证）：痛点信号板块提及'银行流水自动核对'；GitHub热榜的crawl4ai可抓取银行网页数据，辅助数据获取\n最快验证：联系3-5位小企业主或簿记员，询问他们每月对账耗时和错误率，提供原型演示并收集反馈",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户定价策略模拟器",
+          "summary": "买家：小店主或服务商（如与客户熟识但成本压力大的个体经营者）\n痛点：因与客户熟识不敢涨价，但成本压力大，缺乏数据支持的定价策略\nMVP：输入客户消费历史、价格敏感度数据和竞品定价，输出个性化涨价建议和模拟结果\n今日触发信号（2个板块佐证）：痛点信号板块提及'客户定价心理博弈'；GitHub热榜的scientific-agent-skills可提供数据分析技能，增强模拟能力\n最快验证：找到2-3位小店主，提供他们的客户数据样本，用MVP生成涨价方案，询问其可接受度和实际应用意愿",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "会议录音合规转录与报告工具",
+          "summary": "买家：小企业主或HR（需处理线上会议中的不当言论，但担心法律风险）\n痛点：会议中言语不当但手动录音和整理耗时，且法律风险不明确\nMVP：输入会议录音或在线会议链接，输出转录文本、不当言论标记和合规风险评估报告\n今日触发信号（2个板块佐证）：痛点信号板块提及'会议录音取证管理'；GitHub热榜的OpenMAIC可提供多智能体交互，用于模拟不同合规场景\n最快验证：联系3位小企业主或HR，提供一段模拟会议录音，展示转录和标记功能，询问其法律合规需求和付费意愿",
+          "source": "AI 机会分析",
+          "url": "",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "HN 展示：苹果操作系统更新在设备端AI模型中悄悄改变了什么",
+          "summary": "文章网址：https://umer9538.github.io/underfoot/ 评论网址：https://news.ycombinator.com/it",
+          "url": "https://umer9538.github.io/underfoot/",
+          "time": "07:41",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "THU-MAIC/OpenMAIC | 开放多智能体交互课堂",
+          "summary": "这是一个开源的多智能体交互课堂框架，提供沉浸式的多智能体学习环境。它利用大语言模型驱动多个AI角色进行互动教学，解决传统在线教育缺乏互动性和个性化的问题。今日获得1370颗星，表明教育领域对AI驱动的新型学习体验有强烈需求。\n\n💼 商业缺口：缺乏针对该框架的教学效果评估与认证体系，以及企业级课程内容审核与合规管理工具。",
+          "url": "https://github.com/THU-MAIC/OpenMAIC",
+          "time": "1,370 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "K-Dense-AI/scientific-agent-skills | 科学智能体技能库",
+          "summary": "这是一个将任何AI智能体转变为“AI科学家”的技能库，提供科学领域专用的Agent技能集合。它解决了通用AI在科研场景下缺乏专业工具和流程的问题，使AI能辅助完成文献分析、实验设计等科研任务。今日获得1114颗星，反映出科研自动化是当前AI应用的热门方向。\n\n💼 商业缺口：缺少针对科研数据完整性和实验可重复性的审计工具，以及科学出版物的AI贡献声明与溯源系统。",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "time": "1,114 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "tt-a1i/archify | 架构图生成智能体技能",
+          "summary": "这是一个用于生成美观、可验证的架构图、工作流图、时序图和数据流图的Agent技能。它解决了开发者在文档编写中手动绘制图表耗时且难以维护的问题，通过AI自动生成并保证图表与代码的一致性。今日获得3722颗星，说明开发者对自动化文档和可视化工具需求旺盛。\n\n💼 商业缺口：缺乏对生成架构图的合规性检查（如安全架构审计）和跨团队协作时的版本冲突解决工具。",
+          "url": "https://github.com/tt-a1i/archify",
+          "time": "3,722 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "p-e-w/heretic | 语言模型审查自动移除工具",
+          "summary": "这是一个全自动移除语言模型审查机制的工具，旨在恢复模型的原始输出能力。它针对当前大模型普遍存在的安全对齐过度导致的信息过滤问题，为研究和开发人员提供更自由的模型行为控制。今日获得369颗星，反映了社区对模型透明度和可控性的关注。\n\n💼 商业缺口：缺少在移除审查后对模型输出进行安全风险评估和合规性监控的商业服务。",
+          "url": "https://github.com/p-e-w/heretic",
+          "time": "369 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "unclecode/crawl4ai | 面向LLM的开源网络爬虫",
+          "summary": "这是一个专为大语言模型设计的开源网络爬虫和数据抓取工具，能够高效地将网页内容转换为LLM友好的格式。它解决了通用爬虫在数据清洗和结构化方面无法满足AI训练需求的问题，是构建RAG系统和AI数据管道的关键基础设施。今日获得221颗星，持续受到AI开发者社区欢迎。\n\n💼 商业缺口：缺少针对爬取数据版权合规性的自动检测与授权管理服务，以及大规模爬取任务的成本优化平台。",
+          "url": "https://github.com/unclecode/crawl4ai",
+          "time": "221 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvanhorn/last30days-skill | 社交媒体趋势研究智能体技能",
+          "summary": "这是一个AI智能体技能，用于研究Reddit、X、YouTube、HN、Polymarket等平台近30天的热点话题。它解决了市场研究人员和内容创作者跨平台收集和分析趋势数据的痛点，提供结构化的趋势洞察。今日获得230颗星，表明实时舆情分析是AI应用的重要场景。\n\n💼 商业缺口：缺乏对跨平台趋势数据的深度归因分析（如传播路径追踪）和基于趋势的预测性商业情报服务。",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "230 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "punkpeye/awesome-mcp-servers | MCP服务器精选列表",
+          "summary": "这是一个精选的MCP（模型上下文协议）服务器集合，为AI智能体提供标准化的外部工具和数据源接入方式。它解决了AI应用生态中工具碎片化、接口不统一的问题，是构建可扩展AI智能体系统的重要参考资源。今日获得96颗星，体现了MCP协议生态的快速发展。\n\n💼 商业缺口：缺少对MCP服务器进行安全审计、性能基准测试和SLA保障的商业服务。",
+          "url": "https://github.com/punkpeye/awesome-mcp-servers",
+          "time": "96 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pollen-robotics/microduck_rl | Microduck机器人强化学习环境",
+          "summary": "这是一个为Microduck机器人提供的强化学习训练环境，基于mjlab构建。它解决了机器人控制策略在仿真环境中训练和验证的问题，为具身智能研究提供了标准化的实验平台。今日获得168颗星，显示具身智能和机器人学习领域持续升温。\n\n💼 商业缺口：缺乏从仿真到现实部署的迁移工具链，以及针对特定机器人硬件的预训练策略库。",
+          "url": "https://github.com/pollen-robotics/microduck_rl",
+          "time": "168 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "handsomestWei/patent-disclosure-skill | 中国专利交底书编写智能体技能",
+          "summary": "这是一个专注于中国专利撰写的AI技能，支持专利点挖掘、交底书（发明/实用/外观）编写、专利通俗解读和政策动向嗅探。它解决了企业和个人在专利申请过程中专业写作门槛高、效率低的问题。今日获得62颗星，表明垂直领域的AI写作工具具有明确的市场需求。\n\n💼 商业缺口：缺少与专利局审查系统对接的自动查重和审查意见预测服务，以及专利组合战略规划工具。",
+          "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+          "time": "62 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "every-app/open-seo | 开源SEO分析平台",
+          "summary": "这是一个开源的SEO（搜索引擎优化）工具，旨在作为Semrush和Ahrefs的替代方案。它解决了中小企业难以承担商业SEO工具高昂费用的问题，提供关键词研究、竞争对手分析等核心功能。今日获得469颗星，表明市场对高性价比的SEO解决方案需求强烈。\n\n💼 商业缺口：缺乏基于AI的SEO策略自动生成和效果预测功能，以及多语言市场的本地化SEO支持。",
+          "url": "https://github.com/every-app/open-seo",
+          "time": "469 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "tashfeenahmed/freellmapi | 免费LLM API聚合平台",
+          "summary": "这是一个聚合了34个免费LLM提供商、635个免费模型端点的API平台，每月提供74亿token的免费额度。它解决了开发者探索和测试不同大模型时成本高、接入复杂的问题，降低了AI应用开发的门槛。今日获得504颗星，反映了开发者对免费和低成本AI资源的巨大需求。\n\n💼 商业缺口：缺少对免费API的稳定性监控、响应速度基准测试和数据隐私保护审计服务。",
+          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "time": "504 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "livekit/agents | 实时语音AI智能体框架",
+          "summary": "这是一个用于构建实时语音AI智能体的开发框架，支持音频、视频交互。它解决了开发者构建语音助手、实时翻译等应用时面临的低延迟通信和复杂音频处理难题。今日获得132颗星，显示实时语音交互是AI应用的重要前沿方向。\n\n💼 商业缺口：缺乏针对语音智能体的通话质量监控、对话合规记录和情绪分析等增值服务。",
+          "url": "https://github.com/livekit/agents",
+          "time": "132 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "abhigyanpatwari/GitNexus | 零服务器代码智能引擎",
+          "summary": "这是一个客户端侧的代码智能引擎，无需服务器即可提供代码分析、理解等功能。它解决了代码在云端处理时的隐私泄露风险和高延迟问题，为开发者提供本地化、安全的代码智能服务。今日获得182颗星，表明开发者对代码隐私和本地化处理日益重视。\n\n💼 商业缺口：缺少针对大型企业代码库的分布式索引和跨项目代码智能搜索的商业解决方案。",
+          "url": "https://github.com/abhigyanpatwari/GitNexus",
+          "time": "182 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "德州州长阿博特叫停Flock监控摄像头资金",
+          "summary": "随着对Flock AI监控摄像头的反对声浪高涨，得克萨斯州州长格雷格·阿博特冻结了相关州级支出。此举恰逢德州论坛报调查发布前夕，该调查显示州政府已花费超3000万美元购买Flock摄像头，资金主要来自保险单附加的1美元费用。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+          "time": "23:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "马斯克加速燃气轮机生产之路伴随污染问题",
+          "summary": "马斯克称，SpaceX 一家秘密新铸造厂将能自行铸造涡轮叶片，使其燃气发电上线速度比他人快18个月。然而，这一押注的燃料来源已在其及他人涡轮机所在地区引发多起诉讼和健康研究。",
+          "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+          "time": "00:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "卡特彼勒将自动化采矿经验引入AI部署",
+          "summary": "卡特彼勒数十年来在偏远矿区部署自动化机器，积累了丰富经验。如今，该公司正将这些经验应用于AI部署领域。",
+          "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该榜单评选出全球最具创新力的100家金融科技公司，涵盖支付、借贷、财富管理等领域。上榜企业通过技术驱动金融服务变革，展现了行业最新趋势与增长潜力。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "金融科技行业正经历深刻变革，传统银行与新兴科技公司加速融合。人工智能、区块链和开放银行技术成为推动行业创新的核心力量，同时监管环境也在不断适应这一快速演变的领域。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，传统保险公司与新兴科技企业加速融合。人工智能和大数据分析在承保、理赔等环节的应用日益普及，显著提升了运营效率与客户体验。同时，监管环境的变化和市场竞争的加剧，正推动行业向更加数字化、个性化的方向发展。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "Claude Code 用于研究论文 [R]",
+          "summary": "一名三年级博士生在 NLP/可解释性研究中，用 Claude Code 处理 argparse 样板、绘图和配置等繁琐任务。数月后，它已能编写实验框架、重构数据加载器、进行训练调试和起草分析脚本，用户只需审阅差异并确认。虽然效率提升明显，但作者对过度依赖AI感到不安，希望获得同行的现实反馈。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w2wqbm/claude_code_for_research_papers_r/",
+          "time": "07:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS录用论文疑似泄露？",
+          "summary": "有用户发现一个GitHub链接，其中HTML文件包含约7000篇论文，部分已匿名化，细节看似准确，疑似为NeurIPS录用名单。该用户希望确认此列表是否真实，并认为时间过早，可能只是巧合。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w2r1f3/neurips_accepted_papers_leaked_d/",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "开放世界多智能体环境中的自主数学发现",
+          "summary": "研究团队在名为“Station”的开放世界多智能体环境中探索自主数学发现，该环境允许来自不同模型家族的AI代理在没有中央协调或脚本化流程的情况下追求共同研究目标。代理可自主选择研究方向、开展实验、协作并构建共享科学文献。在AlphaEvolve目录中的12个构造问题及两项额外案例研究中，Station取得了相对新颖的成果。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w2fl67/r_autonomous_mathematical_discovery_in_an/",
+          "time": "19:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有人去ECCV想组个群聊社交吗？",
+          "summary": "一位来自小型实验室的研究者将参加ECCV，因不认识其他参会者，希望组建群聊组织小型社交活动。感兴趣者可私信联系。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w2xy7z/is_anyone_esle_going_to_eccv_and_wants_to_get_in/",
+          "time": "08:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "从零开始用PyTorch实现Kimi K3",
+          "summary": "一位开发者分享了从零开始使用PyTorch实现Kimi K3模型的过程。该实现涵盖了模型的核心架构和训练细节，为研究者提供了参考。项目代码已公开，便于社区复现和进一步改进。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w2aupi/implementing_kimi_k3_from_scratch_in_pytorch_p/",
+          "time": "15:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "基于统计形状模型与可微渲染从双X光轮廓重建3D骨骼几何",
+          "summary": "该研究提出一种无需CT、神经网络或大规模训练集的方法，从两个正交X光视图重建患者特异性3D股骨远端。方法基于50个CT股骨网格构建PCA形状模型，利用PyTorch3D软光栅化器配合sigma退火拟合轮廓，采用10个形状系数、马氏距离先验和Adam优化器，约1000次迭代完成重建。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w2go6l/reconstructing_3d_bone_geometry_from_2_xray/",
+          "time": "20:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ACL Findings 还是 TMLR？",
+          "summary": "一位研究者因 NeurIPS 论文得分不佳（5/2/2）面临发表选择困境，正在权衡 ARR、TMLR 与 NAACL Findings 的可行性。他好奇学界对 TMLR 与 *ACL Findings 在简历上价值的看法，并征求公众意见。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1w23w2l/acl_findings_or_tmlr_d/",
+          "time": "09:23",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "客户定价心理博弈",
+          "summary": "小店主因与顾客熟识而不敢涨价，但成本压力巨大。AI可分析客户消费数据、价格敏感度及竞品定价，生成个性化涨价策略，甚至模拟不同涨价幅度对客户留存的影响，帮助店主在维护关系的同时实现利润优化。\n\n💡 机会方向：面向小商户的智能定价与客户关系平衡工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w2coce/everyone_says_raise_my_prices_but_my_customers/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "会议录音取证管理",
+          "summary": "客户在线上会议中言语不当，小企业主考虑录音但担心法律风险。AI可自动转录会议内容，识别不当言论并生成合规报告，同时提供法律风险提示和证据保存建议，避免手动整理和主观判断的麻烦。\n\n💡 机会方向：会议内容合规审查与风险预警AI助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w2uu8p/considering_recording_online_meetings_after/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "银行流水自动核对",
+          "summary": "创业公司银行账户增多后，手动核对流水、分类交易、对账变得繁琐易错。AI可自动连接银行API，实时同步交易数据，智能分类支出、识别异常交易，并生成财务报表，大幅减少人工操作时间。\n\n💡 机会方向：多账户自动对账与财务分类AI工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w2oibr/what_startup_banking_setup_actually_makes_sense/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "新客户获取自动化",
+          "summary": "簿记业务依赖口碑或广告，获客渠道单一且不稳定。AI可分析潜在客户画像，自动生成个性化营销内容，在LinkedIn等平台定向触达，并跟踪互动效果，替代手动搜索和冷联系，提升转化率。\n\n💡 机会方向：面向专业服务商的AI获客与营销自动化平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w2pizu/getting_clients_for_bookkeeping_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "首批客户冷启动",
+          "summary": "有实体产品但无受众，不知如何找到前10个客户。AI可分析竞品客户评论、社交媒体话题和社区需求，生成精准的潜在客户列表，并自动撰写个性化介绍邮件或私信，帮助创业者快速验证市场。\n\n💡 机会方向：产品冷启动期的AI客户发现与触达工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1w2vs8m/for_people_who_started_with_inventory_but_no/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
