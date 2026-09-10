@@ -1,0 +1,662 @@
+{
+  "date": "2026-09-10",
+  "timeRange": "2026-09-09 09:00 ~ 2026-09-10 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI数学突破引发争议",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "OpenAI的秘密模型成功解决了一道价值100万美元的数学难题。此外，还可了解你的品牌在AI搜索中的出现情况。",
+              "url": "https://therundownai.beehiiv.com/p/openai-secret-model-settles-a-1m-math-problem"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI周二宣布解决了数学界著名的千禧年大奖难题之一，这本应是胜利时刻。这一成果既是不容否认的成就，也鲜明展示了AI正如何迅速改变数学。然而在正式公布前，这",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes"
+            },
+            {
+              "source": "MIT Technology Review - AI",
+              "summary": "OpenAI宣布其智能体解决了一个千禧年大奖难题，这本应是重大成就，但随即陷入争议。该公告被相关指控所掩盖，引发外界对其真实性的质疑。",
+              "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic研究员警告AI风险",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic一名资深安全研究员表示，到本十年末，人工智能“可能杀死全人类”的概率超过10%。就在数小时前，其同事因担心该AI实验室及其竞争对手正轻率地竞相",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "专注于对齐研究的影响力 AI 研究员保罗·克里斯蒂亚诺将加入 OpenAI 基金会董事会。此举显示 OpenAI 在安全与对齐议题上持续引入外部专家。",
+              "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
+            }
+          ]
+        },
+        {
+          "headline": "苹果推出照片非AI证明功能",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "苹果推出名为“参考图像”的新功能，随iPhone 18 Pro系列于本月晚些时候上线。该功能利用设备的新相机传感器“为每个像素签名”，以证明拍摄的照片未经AI篡",
+              "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "苹果推出“Apple参考图像”功能，帮助用户判断照片是否经过编辑，包括是否被AI修改。该功能旨在应对AI生成或篡改图像带来的真实性困扰。",
+              "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/"
+            }
+          ]
+        },
+        {
+          "headline": "苹果AI监听与隐私保护",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "苹果在iPhone Duo发布会上推出Siri Recap、Live Rewind、声音识别和音乐识别等AI音频智能新功能，并发布文件说明如何平衡AI“环境监听",
+              "url": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "苹果表示新款手表不会保存原始音频，但可转录近期语音、总结环境对话的功能，引发了关于同意、隐私以及人们知道自己可能始终被录音时如何行为的新问题。",
+              "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Type.com | 面向 Claude、Codex 和团队的共享工作空间",
+          "summary": "一个供 Claude、Codex 以及你的团队共同使用的共享工作空间。",
+          "url": "https://www.producthunt.com/products/type-com",
+          "time": "11:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "AlphaGenome Atlas | 谷歌绘制的所有可能人类 DNA 突变 AI 图谱",
+          "summary": "谷歌推出的 AI 图谱，覆盖所有可能的人类 DNA 突变。",
+          "url": "https://www.producthunt.com/products/alphagenome-atlas",
+          "time": "09:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Rayrun – 面向整个公司的统一 MCP 网关",
+          "summary": "嘿 HN，这是我第一次做 SaaS。请别太苛刻，但我会很感激你的反馈。",
+          "url": "https://ray.run/",
+          "time": "08:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Kin – 为 AI 及与其协作的人打造的代码仓库",
+          "summary": "一个专为 AI 以及与之协作的人构建的代码仓库。",
+          "url": "https://github.com/firelock-ai/kin",
+          "time": "08:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Herdr 通过 TermRover 在手机上管理你的智能体集群",
+          "summary": "通过 TermRover 在手机上运行和管理你的智能体集群。",
+          "url": "https://termrover.sh/blog/herdr-agent-fleet-mobile/",
+          "time": "07:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Botbin – 面向 AI 智能体产物的 Pastebin",
+          "summary": "一个用于存放 AI 智能体生成产物的 Pastebin 工具。",
+          "url": "https://botbin.io/",
+          "time": "07:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Text-to-SQL 在 RLS 运行前先选择数据表 – 浏览器内演示",
+          "summary": "Text-to-SQL 在行级安全（RLS）执行之前先选取数据表，并提供浏览器内演示。",
+          "url": "https://ashishsinha1602.github.io/schemagate/",
+          "time": "07:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Ambient Context v1.0.0（为 AI 助手补足缺失的上下文）",
+          "summary": "几周前我发布了一个概念，利用 macOS 辅助功能 API 来捕获上下文。",
+          "url": "https://github.com/dragthelake/ambient-context/releases",
+          "time": "07:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "EmbedFlow – 无需重新嵌入整个语料库即可升级嵌入模型",
+          "summary": "我在尝试各种嵌入模型时意识到，在不同嵌入模型之间迁移并不容易。",
+          "url": "https://github.com/arnsri33/embedflow",
+          "time": "07:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "一个开放权重 LLM，其回答/停止决策可在内部被翻转",
+          "summary": "一个开放权重的 LLM，其回答或停止的决策可以在内部被翻转。",
+          "url": "https://github.com/theonlypal/PCCG-Qwen3-4B-continuation-control",
+          "time": "06:32",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "我有ADHD——让编码智能体不再把答案埋起来",
+          "summary": "这是一个面向编码智能体的技能（skill），专门解决AI助手回答冗长、把关键结论埋在长篇大论里的问题，输出风格针对ADHD用户优化，让答案一眼可见。今日斩获4650星，说明开发者对AI输出可读性和效率的痛点非常强烈，Python实现也便于集成到现有agent工作流中。\n\n💼 商业缺口：缺少针对不同认知风格（ADHD、阅读障碍等）的AI输出可访问性合规审计与认证服务。",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "time": "4,650 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "腾讯 teamai-cli",
+          "summary": "这是腾讯开源的命令行工具，目标是让每个团队都能AI原生（AI Native），把AI能力嵌入日常研发协作流程。TypeScript编写，背靠大厂工程实践，今日556星，适合关注企业级AI落地和团队协作自动化的开发者研究。\n\n💼 商业缺口：缺少企业级AI采用度的度量与治理层，用于审计团队AI使用合规性和ROI。",
+          "url": "https://github.com/Tencent/teamai-cli",
+          "time": "556 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "这是一个智能体技能框架与软件开发方法论，强调\"真正可用\"的agentic工作流，用Shell实现。今日688星，反映出社区对可复用、可组合的agent技能体系的强烈需求，是构建AI编码代理基础设施的重要参考。\n\n💼 商业缺口：缺少针对agent技能市场的质量评级、来源审计与供应链安全验证服务。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "688 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pascalorg/editor",
+          "summary": "这是一个开源3D建筑编辑器，内置本地CLI和MCP工具，可让AI智能体直接操作3D建模流程。TypeScript实现，今日107星，代表了MCP协议向垂直行业（建筑设计）渗透的趋势，值得关注AI与传统CAD工具结合的方向。\n\n💼 商业缺口：缺少面向AI生成3D模型的版权归属与设计合规审计层。",
+          "url": "https://github.com/pascalorg/editor",
+          "time": "107 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "earthtojake/text-to-cad",
+          "summary": "这是一个面向CAD、CAE、CAM的智能体技能库，让AI能够辅助完成计算机辅助设计、工程分析和制造任务。Python实现，今日124星，属于AI+工业软件的交叉领域，对制造业智能化有实际价值。\n\n💼 商业缺口：缺少AI生成工程图纸的行业标准符合性验证与责任追溯服务。",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "time": "124 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cathrynlavery/diagram-design",
+          "summary": "这是一个为Claude Code、Codex和Pi提供的38种编辑级图表类型库，输出自包含HTML，让AI编码助手能直接生成专业级图表。今日2249星，HTML实现轻量易用，说明开发者对AI生成可视化内容的需求旺盛。\n\n💼 商业缺口：缺少AI生成图表的品牌一致性管控与企业视觉规范审计层。",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "time": "2,249 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "TauricResearch/TradingAgents",
+          "summary": "这是一个多智能体LLM金融交易框架，用多个大语言模型智能体协作完成金融交易决策。Python实现，今日367星，属于AI+金融的热门交叉领域，对量化交易和智能投研有较强吸引力。\n\n💼 商业缺口：缺少AI交易决策的合规审计、风险归因与监管报送层。",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "time": "367 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openai/plugins",
+          "summary": "这是OpenAI官方发布的插件仓库，JavaScript实现，今日498星。作为OpenAI生态的官方扩展入口，它定义了插件接入标准，对想要接入ChatGPT生态的开发者具有权威参考价值。\n\n💼 商业缺口：缺少第三方插件的安全审计、权限治理与数据流向监控服务。",
+          "url": "https://github.com/openai/plugins",
+          "time": "498 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "freestylefly/awesome-gpt-image-2",
+          "summary": "这是一个GPT-Image2工业级提示词引擎与模板库，包含530+逆向工程案例和20+套工业级模板，并提炼为可复用的Skills，JavaScript实现，今日705星。它解决了AI图像生成提示词工程化、可复用的问题，对设计生产流程有实用价值。\n\n💼 商业缺口：缺少AI生成图像的版权溯源、商用授权审计与提示词资产治理层。",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+          "time": "705 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rohitg00/ai-engineering-from-scratch",
+          "summary": "这是一个从零开始学习AI工程的教程项目，主打\"学它、建它、为他人发布它\"的实践路径，Python实现，今日343星。它填补了AI工程化系统学习资料的空白，适合想从理论转向落地的开发者。\n\n💼 商业缺口：缺少AI工程技能的能力认证与学习成果可验证凭证服务。",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "343 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "vastsa/PI-Desktop",
+          "summary": "这是一个本地优先的AI编码智能体桌面应用，采用Electron + Rust宿主核心 + pi Agent Harness架构，TypeScript实现，今日417星。它强调本地优先，回应了开发者对数据隐私和离线AI编码的需求。\n\n💼 商业缺口：缺少本地AI智能体的企业级设备管理、策略下发与使用审计层。",
+          "url": "https://github.com/vastsa/PI-Desktop",
+          "time": "417 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "affaan-m/ECC",
+          "summary": "这是一个智能体框架性能优化系统，涵盖技能、本能、记忆等模块，JavaScript实现，今日1133星。它针对AI智能体的性能瓶颈提供系统化优化方案，对构建高性能agent的团队有直接价值。\n\n💼 商业缺口：缺少智能体性能的基准测试认证与成本/延迟SLA监控服务。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "1,133 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI秘密模型解决百万美元数学难题",
+          "summary": "OpenAI的秘密模型成功解决了一道价值100万美元的数学难题。此外，还可了解你的品牌在AI搜索中的出现情况。",
+          "url": "https://therundownai.beehiiv.com/p/openai-secret-model-settles-a-1m-math-problem",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Suno发布首个与唱片业合作打造的AI音乐模型",
+          "summary": "Suno推出新一代AI音乐模型v6，这是其首个在唱片业支持下完成的模型。据Suno的Jack Brody向The Verge透露，v6从零开始训练，使用了全新的数据集，不再包含此前模型所用的数据，其中包含已授权的内容。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+          "time": "05:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI的巧妙数学突破令学术界不寒而栗",
+          "summary": "OpenAI周二宣布解决了数学界著名的千禧年大奖难题之一，这本应是胜利时刻。这一成果既是不容否认的成就，也鲜明展示了AI正如何迅速改变数学。然而在正式公布前，这一突破就因不寻常的情况而变得复杂。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+          "time": "05:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "解读苹果文件：新监听功能如何保护你的隐私",
+          "summary": "苹果在iPhone Duo发布会上推出Siri Recap、Live Rewind、声音识别和音乐识别等AI音频智能新功能，并发布文件说明如何平衡AI“环境监听”与用户隐私，强调新功能不会牺牲隐私保护。",
+          "url": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
+          "time": "04:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果新iPhone相机模式承诺证明你的照片并非AI生成",
+          "summary": "苹果推出名为“参考图像”的新功能，随iPhone 18 Pro系列于本月晚些时候上线。该功能利用设备的新相机传感器“为每个像素签名”，以证明拍摄的照片未经AI篡改。",
+          "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+          "time": "03:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "微软为学校制定新AI隐私规则",
+          "summary": "微软同意为学校AI制定一套安全与隐私原则。此前一周，两个主要学区宣布禁止学生使用AI。微软与美国第二大教师工会AFT及其纽约市分会达成新协议。",
+          "url": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+          "time": "01:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "亚马逊Prime Video推出新AI技术，实现配音与口型同步",
+          "summary": "亚马逊Prime Video推出一项AI新功能，可让演员口型与“人工配音”音频对齐。目前该功能仅适用于德语剧集《马克斯顿庄园》的英语配音版，但Prime Video计划未来扩展至更多作品。",
+          "url": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "使用AI的学生学业成绩通常更差",
+          "summary": "经合组织全球教育报告数据显示，使用AI辅助学习的学生在校表现往往不如不使用AI的学生。不过情况更为复杂：某些类型的AI使用能给学习者带来小幅提升，尤其是在被教导批判性评估AI输出的学生中。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+          "time": "20:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "忧心忡忡的Anthropic研究人员警告：AI“可能杀死全人类”",
+          "summary": "Anthropic一名资深安全研究员表示，到本十年末，人工智能“可能杀死全人类”的概率超过10%。就在数小时前，其同事因担心该AI实验室及其竞争对手正轻率地竞相构建无法控制的“超人系统”而辞职。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+          "time": "17:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "OpenAI最新争议揭示数学的未来",
+          "summary": "OpenAI宣布其智能体解决了一个千禧年大奖难题，这本应是重大成就，但随即陷入争议。该公告被相关指控所掩盖，引发外界对其真实性的质疑。",
+          "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+          "time": "11:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI研究初创公司Listen Labs为与Salesforce谈判放弃15亿美元融资",
+          "summary": "据消息人士透露，AI研究初创公司Listen Labs放弃了一份已签署的Menlo Ventures C轮融资条款清单，转而与Salesforce进行谈判。该轮融资规模达15亿美元。",
+          "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI 任命知名 AI 末日论者加入董事会",
+          "summary": "专注于对齐研究的影响力 AI 研究员保罗·克里斯蒂亚诺将加入 OpenAI 基金会董事会。此举显示 OpenAI 在安全与对齐议题上持续引入外部专家。",
+          "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+          "time": "06:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "马萨诸塞州对数据中心实施新清洁电力规则",
+          "summary": "马萨诸塞州成为近三个月内第三个对数据中心开发施加新限制的州。此举旨在规范数据中心快速扩张带来的能源消耗问题。",
+          "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+          "time": "05:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Apple Watch新AI功能让“技术始终在监听”成为常态",
+          "summary": "苹果表示新款手表不会保存原始音频，但可转录近期语音、总结环境对话的功能，引发了关于同意、隐私以及人们知道自己可能始终被录音时如何行为的新问题。",
+          "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+          "time": "04:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果秋季iPhone发布会全汇总：从折叠屏iPhone Duo到常听Apple Watch",
+          "summary": "苹果秋季发布会的主角是备受期待的首款折叠屏手机iPhone Duo。此外，苹果还推出了支持常听功能的Apple Watch等新品。",
+          "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+          "time": "04:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果新款折叠屏手机的铰链由AI打造",
+          "summary": "苹果表示，在其备受期待的折叠屏手机制造过程中，使用了AI和3D打印技术。该铰链的生产借助了这些先进工艺。",
+          "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+          "time": "03:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果改版健康应用将计算你的“健康年龄”和准备度评分",
+          "summary": "苹果将更新健康应用，利用Apple Intelligence更好地解读用户的健康数据，并新增“健康年龄”与准备度评分功能。",
+          "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+          "time": "02:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果推出新方法证明你的iPhone照片并非AI生成",
+          "summary": "苹果推出“Apple参考图像”功能，帮助用户判断照片是否经过编辑，包括是否被AI修改。该功能旨在应对AI生成或篡改图像带来的真实性困扰。",
+          "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+          "time": "02:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果CEO约翰·特努斯称最佳AI设备仍是iPhone",
+          "summary": "苹果CEO约翰·特努斯表示，iPhone仍是最佳AI设备。公司还称其端侧模型能为消费者提供更好的隐私保护。",
+          "url": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
+          "time": "01:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "超级智能即将到来，我们该放手吗？",
+          "summary": "AI公司一直将超级智能视为必然趋势，但OpenAI的Hugging Face泄露等近期安全事件，正暴露出部署超越人类能力的AI系统的潜在危险。当我们无法可靠控制这些系统的行为时，会发生什么？",
+          "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+          "time": "00:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "ControlAI的康纳·利希谈为何超级智能\"不是武器，而是对手\"",
+          "summary": "AI公司一直将超级智能视为不可避免的趋势，但OpenAI的Hugging Face泄露等近期安全事件正暴露出部署超越人类能力的AI系统的潜在危险。当无法可靠控制这些系统的行为时，会发生什么？TechCrunch的Equity播客本期节目中，Rebecca Bellan与ControlAI的康纳·利希展开对话。",
+          "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+          "time": "23:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "爆火AI助手Instinct现已拥有专属邮箱地址",
+          "summary": "Instinct推出新邮件功能，允许AI代理创建和管理账户、联系商家、处理支持请求，并代表用户完成更多操作。",
+          "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+          "time": "23:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "“拿我们的生命赌博”：Anthropic研究员辞职，警告自我改进AI风险",
+          "summary": "Anthropic研究员雅各布·考克森因担忧AI导致人类灭绝而辞职，呼吁各实验室达成节奏控制协议。",
+          "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+          "time": "23:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Shipt成为最新推出AI购物助手的配送应用",
+          "summary": "Shipt宣布推出AI购物助手，用户可让助手完成如“为25人的周六车尾派对创建购物车并加入早午餐商品”或“为学校午餐和课后零食创建购物车”等任务。该功能使Shipt成为最新一家将AI助手引入配送服务的应用。",
+          "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+          "time": "22:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "顶级公司8月人均AI支出下滑——夏季低迷还是警示信号？",
+          "summary": "顶级公司8月人均AI支出出现下滑，原因包括token成本下降、模型价格走低以及员工人均支出减少。这一趋势表明，AI的普及并未如超大规模云厂商所预期的那样发展。",
+          "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
+          "time": "22:18",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“Fintech 100”榜单相关页面，但原始摘要缺失，无法提取具体信息。请提供完整摘要以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，数字化与人工智能正在重塑承保、理赔和分销等核心环节。新兴企业与传统保险公司之间的竞争与合作持续加剧，监管环境也在不断演变。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "来教机器学习！斯坦福的社区服务项目",
+          "summary": "斯坦福大学AI实验室教授Chris Piech开设了一门名为“AI概率”的课程（pai.stanford.edu），10月9日开课，9月底截止申请。该课程计划每10名学生配备一名志愿教师，申请开放一周已有超1000人报名任教，规模有望做得很大。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wbf3ox/teach_ml_community_service_project_from_stanford_n/",
+          "time": "15:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "无需重新嵌入整个语料库即可在嵌入模型间迁移的方法",
+          "summary": "从嵌入模型A升级到B通常需要重新嵌入所有文档，成本极高——例如10亿向量在H100上约需108天。作者提出一种简单方法，利用旧索引即可完成迁移，无需重新嵌入整个语料库。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wc34d2/i_made_a_way_to_migrate_between_embedding_models/",
+          "time": "08:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Sante在DiagnosisArena-MCQ上的83.83分究竟衡量了什么",
+          "summary": "Ant Ling报告其新医疗推理模型Ling-3.0-flash-Sante在DiagnosisArena-MCQ上取得83.83分。该任务提供病例信息、检查和检验结果，要求模型从四个诊断中选出答案，因此这一结果仅反映在给定候选集和病例证据下的选择能力，并不能说明模型在真实临床场景中的诊断水平。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wbkxsa/what_santes_8383_on_diagnosisarenamcq_actually/",
+          "time": "21:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "IBM发布SOTA Granite时间序列PatchTST-FM-r2模型，采用商业友好许可",
+          "summary": "IBM发布了Granite时间序列PatchTST-FM-r2模型，号称达到当前最优水平。该模型采用商业友好许可，便于企业直接集成使用。",
+          "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+          "time": "23:36",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动筛选招聘平台简历",
+          "summary": "小企业主在Indeed等平台发布职位后，需要逐份浏览大量不匹配的简历，平台收费后效果反而下降，筛选耗时且转化低。AI可根据岗位要求自动解析简历、打分排序、生成候选人短名单，并自动发送初筛问题，把数小时的机械筛选压缩到几分钟。\n\n💡 机会方向：面向小企业的AI简历初筛与候选人排序工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wbxyrj/hiring_platforms_do_you_use_indeed/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动核对客户集中度风险",
+          "summary": "小企业主发现单一客户已占营收35%，对方还要求更多业务，需要反复测算接单与否对现金流和风险的影响，却缺乏动态模型。AI可接入财务与合同数据，实时模拟不同接单方案下的营收集中度、现金流和违约风险，并给出谈判建议。\n\n💡 机会方向：AI客户集中度与营收风险实时模拟助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wbepws/one_client_is_now_35_of_our_revenue_and_they_just/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动创作并维持内容更新",
+          "summary": "小企业主常因忙碌而断更，发一天内容后一周才想起，缺乏稳定选题和排期。AI可根据行业和受众自动生成选题库、撰写草稿、排定日历，并在固定时间提醒或自动发布，把内容运营从靠意志力变成系统化流程。\n\n💡 机会方向：AI内容日历与自动草稿生成工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wbff58/how_do_you_stay_consistent_in_creating_content/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选新客户账户",
+          "summary": "宠物零食小企业主已进入约80家独立门店，需要判断哪些新账户值得合作，但缺乏统一标准，只能凭感觉逐个评估。AI可整合门店销量、区域、付款记录等数据，自动打分并推荐优先级，同时生成跟进话术和报价策略。\n\n💡 机会方向：AI新客户资质评分与优先级推荐系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wbq2xl/how_do_i_qualify_a_new_account/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动排查LLM账单变化",
+          "summary": "团队发现LLM费用突然变化，却难以定位是哪个模型、哪类请求或哪个功能导致，只能人工翻账单和日志。AI可自动归因成本波动，按项目、模型、调用类型拆解，并给出优化建议，如切换模型或缓存重复请求。\n\n💡 机会方向：AI驱动的LLM成本归因与优化平台",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49627888",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

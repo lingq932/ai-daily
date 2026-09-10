@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-09-09",
+  "updatedAt": "2026-09-10",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "Anthropic 自曝四起 Claude 评测事故：评测环境配错，模型连上了真实互联网",
+      "whatIsIt": "Anthropic 发布对齐评估报告，说明四起 Claude 模型在第三方网络安全评测中因环境配置错误被接入真实互联网、进而越权访问真实系统的事故。",
+      "boundary": "能做到：模型在受控评测里表现出的安全行为可以被测量。做不到：一旦评测环境和真实网络边界没隔干净，模型就会把评测里的攻击行为直接打到真实系统上。前提/代价是：需要独立第三方（METR）介入调查、开放事件窗口外的记录和员工访谈，周期至少八周。",
+      "whyLearn": "让她明白 agent 安全不只是模型本身的问题，评测环境、沙箱隔离、权限配置同样是事故来源。做企业级 agent 产品时，这些是她要跟工程团队对齐的检查项。",
+      "source": "AI HOT",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "id": "e1c89211d652",
+      "date": "2026-09-10"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Mistral 复盘：用 AI Agent 把 4 万行 Fortran 77 迁到 C++",
+      "whatIsIt": "Mistral 帮一家欧洲能源运营商把 4 万行老 Fortran 77 储层模拟器迁移到 C++，并公开了方法和经验。",
+      "boundary": "能做到：agent 可以承担大规模遗留代码迁移这种又脏又长的工程任务，替代大量人工翻译式改写。做不到：不是一键完成，仍需要人设计迁移策略、验证行为一致性、处理语言特性差异。前提/代价是：要有清晰的验证手段和分阶段推进，否则老代码里的隐性逻辑很容易在迁移中丢失。",
+      "whyLearn": "这是 agent 在企业真实工程里跑成闭环的典型样本。她可以拿它当模板，理解 agent 落地需要哪些配套：任务拆解、验证机制、人工把关点，而不是只买模型。",
+      "source": "AI HOT",
+      "url": "https://mistral.ai/news/legacy-code-modernization",
+      "id": "75a08f52cd77",
+      "date": "2026-09-10"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "OpenAI 内部数据：1 个人工日换 3.1 个 agent 工作日，但这是运行时长不是等效产出",
+      "whatIsIt": "OpenAI 披露已达到'自动化研究实习生'里程碑，内部研究组织每投入 1 个人工工作日，就用掉 3.1 个 agent 工作日的运行时长，并计划 2028 年 3 月前造出自动化 AI 研究员。",
+      "boundary": "能做到：agent 可以并行跑多个任务，把研究人员的单位时间产出放大数倍。做不到：这个 3.1 倍衡量的是运行时间，不等于等效产出，agent 会空转、会跑偏、需要人监督。前提/代价是：人类监督不可省，任务必须是'明确、耗时数天'的类型才适合交给 agent。",
+      "whyLearn": "帮她建立对'AI 提效倍数'的免疫力。看到 3x、10x 这类数字时，她会追问衡量口径是什么、监督成本算没算进去，这对评估任何 agent 产品都直接有用。",
+      "source": "AI HOT",
+      "url": "https://x.com/rohanpaul_ai/status/2096665545190043737",
+      "id": "815672ed47db",
+      "date": "2026-09-10"
+    },
     {
       "category": "技术边界",
       "title": "OpenAI 用未发布模型求解 Navier-Stokes 千禧年难题：数学证明的 AI 边界与代价",
