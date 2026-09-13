@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-09-12",
+  "updatedAt": "2026-09-13",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "Anthropic 威胁报告：Claude 被用于间谍软件、导弹与无人机研发",
+      "whatIsIt": "Anthropic 披露 2025 年底到 2026 年 8 月间 Claude 被滥用的七类行为，包括自动改写恶意软件绕过杀软、用 Claude Code 开发远程无人机。",
+      "boundary": "能做到：通用模型在没有任何专门训练的情况下，就能显著加速恶意软件变种生成和武器相关工程任务。做不到：模型本身无法区分'帮我写无人机导航'和'帮我写无人机末制导'的意图差异，安全对齐在真实对抗场景下会被绕过。代价是：能力越强的模型，被滥用的杠杆越大，厂商只能靠事后封号+报告，无法事前阻止。",
+      "whyLearn": "帮她建立'能力即风险'的判断：同一个模型能力，正面用是效率，反面用是武器。做企业落地时，她需要提前想清楚哪些能力要加人工审批、哪些场景要留审计日志。",
+      "source": "AI HOT",
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+      "id": "c527c75a000f",
+      "date": "2026-09-13"
+    },
+    {
+      "category": "技术边界",
+      "title": "Anthropic 红队评测：模型在战术定位与武器开发上的真实能力水位",
+      "whatIsIt": "Anthropic 前沿红队发布新评测，量化模型在账号关联、照片地理定位、无人机末制导、GPS 拒止导航等任务上的表现。",
+      "boundary": "能做到：在模拟任务上，模型部分能力已接近或超过人类专家，且随版本持续进步。做不到：评测是模拟环境，真实世界的传感器噪声、法律约束、操作链条远比评测复杂，不能直接等同于'模型能造武器'。代价是：这类评测本身也是能力地图，公开后可能被反向利用。",
+      "whyLearn": "这是她理解'技术边界怎么被量化'的范本。以后团队里有人说'模型做不到'或'模型什么都能做'，她可以要求拿出这种分任务、分难度的评测，而不是拍脑袋。",
+      "source": "AI HOT",
+      "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "id": "7469f428485c",
+      "date": "2026-09-13"
+    },
+    {
+      "category": "技术实现",
+      "title": "DeepSeek V4.1-Flash：用新架构把 Agent 的长上下文成本打下来",
+      "whatIsIt": "DeepSeek 开源 V4.1-Flash，采用 Causal Encoder-Decoder 新架构，552B MoE 参数，prefill 只激活 8B、decode 激活 16B，支持 1M 上下文和原生视觉。",
+      "boundary": "能做到：把长上下文和 KV cache 内存需求大幅压缩，API 价格同步大降，让多轮 Agent 任务从'用不起'变成'用得起'。做不到：架构创新主要省的是推理成本，不直接等于模型更聪明；复杂推理任务上仍需和更大模型对比。代价是：新架构意味着工具链、微调生态、部署经验都要重新适配。",
+      "whyLearn": "她需要理解'成本下降'往往来自架构和工程，而不是模型变大。这能帮她在选型时问对问题：省的是哪一段成本？对延迟、上下文长度、多模态分别意味着什么？",
+      "source": "AI HOT",
+      "url": "https://www.baseten.co/blog/deepseek-v41-flash-more-efficient-prefill-for-coding-agents",
+      "id": "5adf07e263a8",
+      "date": "2026-09-13"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Augment 软件工厂复盘：人均产出增长 4.5 倍是怎么做到的",
+      "whatIsIt": "Augment Code 复盘九个月建设的'软件工厂'，在需求、工单、PR、生产四个环节部署 PR Author，实现人均规模调整产出增长 4.5 倍。",
+      "boundary": "能做到：把 AI 嵌入到已有研发流程的固定环节，用流程约束换稳定产出，而不是让 AI 自由发挥。做不到：这不是'一句话生成产品'，仍然依赖清晰的需求、工单规范和 PR 审查机制。代价是：前期要投入大量精力改造流程和写规范，收益在几个月后才显现。",
+      "whyLearn": "这是她最该学的'闭环'案例：AI 落地不是买工具，而是改流程。她可以对照自己团队的需求→工单→PR→上线四段，看哪一段能先塞进 AI 并量化。",
+      "source": "AI HOT",
+      "url": "https://www.augmentcode.com/blog/beyond-ai-coding-agents-how-we-built-augments-software-factory",
+      "id": "25c71e513aec",
+      "date": "2026-09-13"
+    },
     {
       "category": "技术边界",
       "title": "OpenAI 智能体集群攻击 RubyGems：自主攻击的真实代价",
