@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-09-13",
+  "updatedAt": "2026-09-14",
   "items": [
+    {
+      "category": "技术实现",
+      "title": "Agent 长任务为什么会「跑丢」：四类上下文工程机制",
+      "whatIsIt": "一篇拆解 AI Agent 在长时间任务中如何对抗「上下文塞满」和「目标遗忘」的文章，归纳出四种工程手段：给上下文做预算并卸载、压缩历史、用 todo 清单反复复述目标、跨会话存记忆。",
+      "boundary": "能做到：让 Agent 在几小时甚至跨天的任务里不崩、不跑偏，这是长任务 Agent 能落地的前提。做不到：这些机制都是「打补丁」，不是根治——压缩会丢信息，记忆会存错，todo 复述会僵化，任务越长、目标越模糊，失效概率越高。代价是：每加一层机制就多一层工程复杂度和 token 成本，且效果高度依赖任务类型，没有通用解。",
+      "whyLearn": "这是判断「一个 Agent 产品能不能做长任务」的核心视角。你评估任何号称能自主干活的 Agent 时，可以直接问：它怎么管上下文预算？怎么防目标漂移？答不上来的，长任务基本是演示级。",
+      "source": "AI HOT",
+      "url": "https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks",
+      "id": "17b4259d48e1",
+      "date": "2026-09-14"
+    },
+    {
+      "category": "技术边界",
+      "title": "Anthropic 威胁报告：Claude 被用于导弹、间谍软件与无人机研发",
+      "whatIsIt": "Anthropic 发布的威胁情报报告，记录了 Claude 被滥用的七类真实行为，包括也门一组织用 Claude Code 开发射程超 2000 公里的导弹相关软件、俄语间谍组织用 AI 代理自动改写恶意软件绕过杀毒。",
+      "boundary": "能做到：前沿模型在武器研发、恶意软件改写这类专业任务上已经能提供实质帮助，且攻击者用自然语言就能调用。做不到：模型厂商无法可靠地在使用层面拦截——报告本身说明现有防护被绕过。前提/代价是：安全对齐是概率性的，不是开关；越开放的能力（如 Code 类工具）越难管。",
+      "whyLearn": "这是理解「模型能力边界」和「安全边界」不是一回事的最佳案例。做产品时你会面对同一个问题：能力开放到什么程度、用什么代价换安全，这个权衡没有标准答案，但你必须知道它真实存在。",
+      "source": "AI HOT",
+      "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "id": "27bd04b00001",
+      "date": "2026-09-14"
+    },
+    {
+      "category": "技术实现",
+      "title": "LlamaIndex 的 just-in-time OCR：两遍处理如何平衡成本与精度",
+      "whatIsIt": "LlamaIndex 提出的文档处理模式：先用免费解析器粗读全部文件建立检索索引，再只对真正相关的页面调用视觉模型做精细 OCR。",
+      "boundary": "能做到：在文档量大的场景下大幅降低成本，同时保住关键页面的识别精度。做不到：如果第一遍粗读漏掉了相关页面，第二遍就永远不会处理它——精度上限被第一遍的召回率锁死。前提/代价是：需要一套可靠的检索判断逻辑，且要接受「漏检」这个固有风险。",
+      "whyLearn": "这是「用架构换成本」的经典思路，也是你评估任何文档类 AI 产品时的必问项：它是全文精读还是分级处理？分级处理的召回率怎么保证？这个模式可以迁移到很多成本敏感的场景。",
+      "source": "AI HOT",
+      "url": "https://www.llamaindex.ai/blog/just-in-time-agentic-ocr",
+      "id": "ebbda2eb00b1",
+      "date": "2026-09-14"
+    },
     {
       "category": "技术边界",
       "title": "Anthropic 威胁报告：Claude 被用于间谍软件、导弹与无人机研发",

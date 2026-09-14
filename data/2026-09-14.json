@@ -1,0 +1,319 @@
+{
+  "date": "2026-09-14",
+  "timeRange": "2026-09-13 09:00 ~ 2026-09-14 09:00",
+  "sections": [
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Colibri：在自有硬件上运行前沿MoE模型",
+          "summary": "这是一个用纯C语言编写、零依赖的推理引擎，专门用于在普通消费级硬件上运行前沿的混合专家（MoE）大模型。它解决了大模型部署对高端GPU依赖的问题，让个人开发者也能本地跑起前沿模型。今日获得868星，C语言实现意味着极高的性能和可移植性，值得关注。\n\n💼 商业缺口：缺少针对本地MoE推理的显存/算力成本监控与性能基准审计服务。",
+          "url": "https://github.com/JustVugg/colibri",
+          "time": "868 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agent-skills：面向专业AI编程代理的安全技能注册表",
+          "summary": "这是一个经过安全验证的技能注册中心，专为专业AI编程代理设计，用于扩展其能力。它解决了AI代理技能来源不可信、缺乏验证的问题，为代理生态提供了可信的技能分发层。今日265星，TypeScript实现，适合关注AI代理安全与生态建设的开发者。\n\n💼 商业缺口：缺少对第三方AI代理技能进行合规审计、权限溯源和供应链风险评级的付费治理层。",
+          "url": "https://github.com/tech-leads-club/agent-skills",
+          "time": "265 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DeskcommCRM：开源AI销售操作系统",
+          "summary": "这是一个自托管的开源CRM系统，内置原生AI代理并集成WhatsApp（基于WAHA），定位为AI销售操作系统。它解决了中小企业销售流程自动化与客户管理的问题，将AI代理直接嵌入销售工作流。今日432星，TypeScript实现，适合需要私有化部署AI销售工具的企业。\n\n💼 商业缺口：缺少AI代理销售行为的合规审计、客户数据隐私治理及ROI归因分析层。",
+          "url": "https://github.com/melgarafael/DeskcommCRM",
+          "time": "432 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMontage：全球首个开源代理式视频制作系统",
+          "summary": "这是一个开源的代理式视频生产系统，内置12条生产流水线，能够自动化完成视频制作流程。它解决了视频内容生产高度依赖人工、效率低下的问题，将AI代理引入视频制作全流程。今日380星，Python实现，适合内容创作者和视频自动化研究者。\n\n💼 商业缺口：缺少AI生成视频的版权溯源、素材授权审计及内容合规审查的付费层。",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "time": "380 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "system_prompts_leaks：Anthropic系统提示词泄露合集",
+          "summary": "该项目提取并整理了Anthropic旗下多个模型（如Claude Fable 5.1、Opus 5、Claude Design等）的系统提示词。它揭示了商业大模型的行为约束与设计逻辑，对研究提示工程、模型对齐和安全边界具有参考价值。今日706星，JavaScript实现，热度极高。\n\n💼 商业缺口：缺少针对企业级LLM系统提示词泄露风险的监控、审计与防护咨询服务。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "706 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pentagi：全自主AI代理渗透测试系统",
+          "summary": "这是一个完全自主的AI代理系统，能够执行复杂的渗透测试任务。它将AI代理应用于网络安全攻防领域，解决了渗透测试对高级安全专家依赖度高、难以规模化的问题。今日590星，Go语言实现，性能与并发能力突出，适合安全团队关注。\n\n💼 商业缺口：缺少AI自主渗透测试的授权边界审计、攻击行为合规记录及法律责任归属治理层。",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "time": "590 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "YuE：前沿音乐生成模型",
+          "summary": "YuE2是一个前沿音乐生成系统，支持符号规划、零样本翻唱和代理式音乐创作。它解决了AI音乐生成中结构规划与风格迁移的难题，推动了生成式音频领域的发展。今日487星，Python实现，适合音乐AI研究者和创作者。\n\n💼 商业缺口：缺少AI生成音乐的版权确权、训练数据授权审计及商用授权结算层。",
+          "url": "https://github.com/multimodal-art-projection/YuE",
+          "time": "487 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenResearch：将编程代理转变为研究代理",
+          "summary": "该项目能将你的编程AI代理转化为研究代理，扩展其在学术调研、信息检索和知识发现方面的能力。它解决了通用编程代理缺乏研究场景专用能力的问题。今日289星，Rust实现，性能优异，适合科研人员和AI代理开发者。\n\n💼 商业缺口：缺少AI研究代理的引用溯源、事实核查审计及研究结论可信度评估层。",
+          "url": "https://github.com/alphaXiv/OpenResearch",
+          "time": "289 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "VoiceStudio：完全本地的开源ElevenLabs替代品",
+          "summary": "VoiceStudio是一个完全本地运行的开源语音克隆与合成工具，定位为ElevenLabs的替代方案。它解决了云端语音合成服务的隐私泄露和订阅成本问题，让用户完全掌控语音数据。今日2632星，Python实现，热度极高，适合注重隐私的语音应用开发者。\n\n💼 商业缺口：缺少语音克隆的声纹授权审计、深度伪造检测及合规使用证据留存层。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "2,632 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude-Red：面向Claude的攻防安全技能库",
+          "summary": "claude-red是一个精选的攻防安全技能库，专为Claude模型设计，用于红队测试和安全研究。它解决了AI模型安全评估缺乏系统化技能集的问题。今日506星，Python实现，适合安全研究者和AI红队成员。\n\n💼 商业缺口：缺少AI红队测试的授权范围审计、攻击技能滥用监控及合规报告生成层。",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "time": "506 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "open-code-review：阿里巴巴开源代码审查工具",
+          "summary": "这是阿里巴巴开源的高效代码审查工具，采用混合架构，经过阿里大规模生产环境验证。它解决了大规模代码库审查效率低、质量参差的问题，可能集成了AI辅助审查能力。今日443星，Go实现，适合企业级研发团队。\n\n💼 商业缺口：缺少AI代码审查的决策可解释性审计、审查质量度量及责任归属治理层。",
+          "url": "https://github.com/alibaba/open-code-review",
+          "time": "443 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "MathModelAgent：专为数学建模设计的AI代理",
+          "summary": "这是一个专为数学建模竞赛设计的AI代理与技能集，能自动完成数学建模并生成可直接提交的完整论文。它解决了数学建模中建模、求解、写作全流程自动化的问题。今日246星，Python实现，适合学生和数学建模研究者。\n\n💼 商业缺口：缺少AI生成学术论文的原创性审计、学术诚信检测及竞赛合规性验证层。",
+          "url": "https://github.com/jihe520/MathModelAgent",
+          "time": "246 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "transformers：Hugging Face模型定义框架",
+          "summary": "这是Hugging Face推出的Transformers库，是当前最主流的机器学习模型定义框架，支持各类最先进的预训练模型。它解决了模型加载、微调和部署的标准化问题，是AI开发的基础设施。今日152星，Python实现，生态影响力巨大。\n\n💼 商业缺口：缺少模型供应链的许可证合规审计、训练数据溯源及模型行为变更监控层。",
+          "url": "https://github.com/huggingface/transformers",
+          "time": "152 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "特朗普和迈克·约翰逊认为AI行业反应过度",
+          "summary": "Anthropic CEO达里奥·阿莫代伊发表公开信，呼吁放缓AI发展，山姆·奥特曼和埃隆·马斯克等公开表示支持。然而，特朗普和众议院议长迈克·约翰逊却认为AI行业对此反应过度。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+          "time": "03:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI行业最新末日警告背后是什么？",
+          "summary": "在Equity节目中，我们讨论了AI行业的最新争论：人工智能是否对人类构成生存威胁。这场辩论反映了业界对AI风险日益加剧的担忧。",
+          "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+          "time": "03:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "奥巴马敦促民主党制定人工智能保障的“明确计划”",
+          "summary": "奥巴马近日表示，民主党需要将人工智能列为“核心议程”之一，并“制定非常明确的计划”，以应对该技术在经济影响和安全方面的担忧。",
+          "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业在经历高速增长后进入调整期，头部企业估值回落，部分初创公司面临盈利压力。与此同时，传统保险公司加速数字化转型，与科技公司的合作与竞争并存。监管框架逐步完善，数据隐私和算法公平性成为关注焦点。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "Waymo AI 团队 AMA 即将开启——提前提问！",
+          "summary": "Waymo AI 团队将在 r/MachineLearning 举办 AMA，围绕基础模型、仿真以及 Waymo Driver 的规模化展开答疑。活动时间为 9 月 14 日周一下午 2:00 至 3:30（太平洋时间），现已开放提前提问。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wfesc0/upcoming_ama_waymo_ai_team_ama_drop_your/",
+          "time": "02:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "扎卡里·利普顿：\"计算机科学学术界搞坏了体系……也许体系重建只需要先烧成灰烬\"",
+          "summary": "2026年9月9日，cs.LG单日新上传机器学习论文达447篇，创历史新高，远超个人甚至大型阅读小组一年可消化的数量，此前此后日均约200篇。利普顿质疑我们是否已越过不可逆的临界点，是否必须先\"烧毁\"现有体系才能恢复好的科学。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wf4b5g/zachery_lipton_cs_academia_broke_the/",
+          "time": "18:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "赛马作为机器学习排序问题：118万匹赛马、前向验证与极强的市场基线",
+          "summary": "作者受比尔·本特香港赛马统计模型故事启发，将赛马视为高难度应用机器学习问题：参赛马匹数量可变、每场仅一个冠军、竞争者高度相关、数据缺失且不断变化。该研究使用118万匹赛马数据，采用前向验证，并建立了极强的市场基线。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wfivb2/horse_racing_as_an_ml_ranking_problem_118m/",
+          "time": "04:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "让 scipy 的 KD 树支持插入和删除而无需重建：我学到的三件事",
+          "summary": "我构建了一个名为 whitetree 的小型库，用于对持续到达的低维传感器数据进行精确的马氏距离最近邻搜索。思路是用协方差的 Cholesky 因子进行白化，使马氏距离变为欧氏距离，然后维护多个 scipy cKDTrees 而非单个树，从而避免插入和删除时强制全量重建。由此得出三项此前未见明确表述的测量结果。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wfg8e3/got_scipys_kdtree_to_handle_inserts_and_deletes/",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我训练了一个82.5万参数的模型，用于生成可在RP2040上精确执行的绘图程序",
+          "summary": "我开展了一个小型研究项目，探索百万参数以下的模型能否为受限硬件生成可执行的绘图程序。当前系统是一个82.5万参数的自回归Transformer，它生成约100字节的绘图字节码而非像素，随后将字节码传输到树莓派Pico上，由一个小型定点虚拟机执行，并通过UART回传生成的几何图形。模型在主机上运行。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wf611v/i_trained_an_825kparameter_model_to_generate/",
+          "time": "20:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 2026 最终决定何时公布？",
+          "summary": "NeurIPS 2026 的最终决定是否会严格在 9 月 24 日 AoE 公布？是否有可能在 9 月 18 日 AoE（ICLR 摘要提交截止日）之前发布？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wf48kt/when_neurips26_final_decision_release_d/",
+          "time": "18:38",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "小企业记账对账",
+          "summary": "小企业主用Wave Pro等工具仍要手动分类交易、核对银行流水、生成报表，切换软件时还要重新录入历史数据，耗时且易错。AI可自动抓取银行与支付流水、智能分类科目、生成税务报表并一键迁移旧账，大幅降低记账负担。\n\n💡 机会方向：面向小微企业的AI自动记账与报税助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wfow6t/accounting_software_reccomendations/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "本地客户线索筛选",
+          "summary": "小企业主在Google Business上收到大量外地或无关来电，需逐个判断是否真实潜在客户，浪费大量时间。AI可自动分析来电来源、地理位置、意图，过滤无效线索并优先推送本地高意向客户，提升转化效率。\n\n💡 机会方向：AI本地商机线索过滤与优先级排序工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wflvpq/got_my_google_business_profile_and_got_my_first/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社媒短内容营销",
+          "summary": "小企业主知道要做短视频和社媒营销，但缺乏时间与创意，手动拍摄剪辑、写文案、排期发布极其繁琐。AI可根据业务类型自动生成脚本、剪辑素材、配文案并定时发布，还能分析数据优化内容，让小企业主专注经营。\n\n💡 机会方向：面向小企业的AI社媒内容生成与自动发布平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wf18h8/how_do_you_deal_with_modern_marketing/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "UGC机构筛选比价",
+          "summary": "品牌方在挑选UGC机构时，需手动搜集大量机构信息、对比报价、查看案例、辨别真假评价，过程冗长且信息不透明。AI可爬取并结构化机构数据，按行业、预算、效果评分自动匹配推荐，并生成对比报告，节省调研时间。\n\n💡 机会方向：AI驱动的UGC机构智能匹配与比价平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wfaukc/best_and_worst_ugc_agencies_youve_actually_worked/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "域名与账号监控",
+          "summary": "用户需手动监控域名状态、账号异常、平台封禁等，往往在出事后才发现，缺乏实时预警。AI可持续扫描域名解析、SSL、账号健康度，异常时自动告警并提供修复建议，甚至自动申诉，降低业务中断风险。\n\n💡 机会方向：AI自动化域名与账号健康监控及应急响应服务",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49690102",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
