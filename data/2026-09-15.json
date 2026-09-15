@@ -1,0 +1,614 @@
+{
+  "date": "2026-09-15",
+  "timeRange": "2026-09-14 09:00 ~ 2026-09-15 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "AI发展放缓之争",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "顶级AI实验室希望放缓发展步伐。此外：销售电话后发送一页纸的提案。",
+              "url": "https://therundownai.beehiiv.com/p/top-ai-labs-want-to-pump-the-brakes"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI CEO山姆·奥特曼、Anthropic CEO达里奥·阿莫代伊、谷歌DeepMind联合创始人德米斯·哈萨比斯和SpaceX负责人埃隆·马斯克上周",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+            },
+            {
+              "source": "MIT Technology Review - AI",
+              "summary": "Anthropic CEO达里奥·阿莫代伊发表文章，呼吁放缓大语言模型的发展速度，并指出该技术带来的迫在眉睫的危险。这一表态反映出AI行业正转向悲观情绪。",
+              "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "尽管埃隆·马斯克和山姆·奥特曼支持达里奥·阿莫代伊放缓AI发展步伐的呼吁，但黄仁勋似乎持不同看法。",
+              "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/"
+            }
+          ]
+        },
+        {
+          "headline": "微软发布AI行为准则",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "微软发布了一份37页的“人本AI行为准则”，以应对日益加剧的AI模型安全担忧。Anthropic CEO达里奥·阿莫代伊此前呼吁协调放缓AI开发，因研究人员警告",
+              "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "微软发布AI“行为准则”，列出其AI模型应遵循的基本原则，如支持而非取代人类、促进人类福祉，并明确了落实这些原则的具体安全约束。",
+              "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/"
+            }
+          ]
+        },
+        {
+          "headline": "黄仁勋谈AI与机器人",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "英伟达CEO黄仁勋在All-In峰会上台时接到特朗普总统来电，并首次在众人面前开启免提。通话中特朗普谈及机器人不会接管世界等话题。",
+              "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "尽管埃隆·马斯克和山姆·奥特曼支持达里奥·阿莫代伊放缓AI发展步伐的呼吁，但黄仁勋似乎持不同看法。",
+              "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Slashy Assistant | 为你处理邮件的AI助手",
+          "summary": "一款AI助手，可以帮你自动处理电子邮件。",
+          "url": "https://www.producthunt.com/products/slashy-3",
+          "time": "10:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Pi-box：运行在WASM内VM中、再嵌入Electron的Pi编码代理",
+          "summary": "项目背景和人工撰写的摘要见：https://deepclause.substack.c",
+          "url": "https://github.com/deepclause/pi-box",
+          "time": "08:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Hazzel——一个微型编码代理，自带密钥",
+          "summary": "文章链接：https://github.com/mukundzha/hazzel 评论链接：https://news.ycom",
+          "url": "https://github.com/mukundzha/hazzel",
+          "time": "08:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 面向公司AI代理的开源控制平面",
+          "summary": "文章链接：https://github.com/vstorm-co/agenticos 评论链接：https://news.y",
+          "url": "https://github.com/vstorm-co/agenticos",
+          "time": "07:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Nowdex——在iPhone上查看AI代理使用情况",
+          "summary": "嗨，HN，我最近经常使用Claude Code、Codex和Cursor，然后我发现……",
+          "url": "https://nowdex.app/",
+          "time": "06:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: DevRecap——从Codex和Git重建你做过的工作",
+          "summary": "文章链接：https://github.com/jquinteiroo/devrecap 评论链接：https://news.",
+          "url": "https://github.com/jquinteiroo/devrecap",
+          "time": "05:19",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "JustVugg/colibri：在自有硬件上运行前沿MoE模型",
+          "summary": "这是一个用纯C语言编写、零依赖的推理引擎，专门用于在消费级硬件上运行前沿的混合专家（MoE）大模型。它解决了普通用户无法负担高端GPU却想本地运行大模型的问题，今日斩获2173星，说明本地化、轻量化推理需求极为旺盛。\n\n💼 商业缺口：缺少针对本地MoE推理的显存/算力成本监控与合规审计层，企业难以证明其本地部署的性价比与数据安全。",
+          "url": "https://github.com/JustVugg/colibri",
+          "time": "2,173 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "alibaba/open-code-review：阿里规模验证的混合架构代码审查工具",
+          "summary": "这是阿里巴巴开源的高效代码审查工具，采用混合架构，经过阿里内部大规模实战检验。它用Go语言编写，能帮助团队自动化审查代码质量，今日获得1571星，反映出企业对AI辅助代码审查的强烈需求。\n\n💼 商业缺口：缺少跨团队代码审查的合规留痕与责任归属审计层，无法满足金融、医疗等强监管行业的采用证据要求。",
+          "url": "https://github.com/alibaba/open-code-review",
+          "time": "1,571 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "multimodal-art-projection/YuE：前沿音乐生成模型YuE2",
+          "summary": "YuE2是一个前沿音乐生成模型，支持符号化规划、零样本翻唱和音频生成，用Python实现。它让普通用户也能创作高质量音乐，今日获得559星，体现了生成式AI在音乐创作领域的持续热度。\n\n💼 商业缺口：缺少AI生成音乐的版权溯源与商用授权审计层，音乐人和平台难以证明生成内容的合法性与原创性。",
+          "url": "https://github.com/multimodal-art-projection/YuE",
+          "time": "559 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "debpalash/VoiceStudio：完全本地的开源ElevenLabs替代品",
+          "summary": "VoiceStudio是一个完全本地运行的开源语音克隆与合成工具，定位为ElevenLabs的替代方案，用Python编写。它解决了用户对云端语音服务隐私和成本的担忧，今日狂揽2776星，是当日最热项目之一。\n\n💼 商业缺口：缺少语音克隆的授权同意管理与滥用审计层，无法防止声音被冒用，也难以满足监管对生物特征数据的要求。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "2,776 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "666ghj/MiroFish：简洁通用的群体智能预测引擎",
+          "summary": "MiroFish是一个简洁通用的群体智能引擎，号称可以预测任何事物，用Python实现。它将群体智能与AI结合，为预测类任务提供通用框架，今日获得560星，显示出AI预测工具的市场关注度。\n\n💼 商业缺口：缺少预测结果的准确率追踪与决策归因审计层，用户无法评估其预测可信度，难以在商业决策中采用。",
+          "url": "https://github.com/666ghj/MiroFish",
+          "time": "560 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Panniantong/Agent-Reach：为AI智能体装上互联网之眼",
+          "summary": "Agent-Reach让AI智能体能够读取和搜索Twitter、Reddit等互联网平台，相当于给智能体装上眼睛。它用Python编写，解决了智能体无法实时获取网络信息的问题，今日获得651星，是AI Agent生态的重要基础设施。\n\n💼 商业缺口：缺少智能体网络访问的合规审计与数据来源追溯层，企业难以证明其抓取行为合法、数据使用合规。",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "time": "651 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "asgeirtj/system_prompts_leaks：Anthropic系统提示词泄露合集",
+          "summary": "该项目收集了从Anthropic的Claude Fable 5.1、Opus 5、Claude Design等模型中提取的系统提示词，用JavaScript编写。它揭示了商业大模型的内部指令设计，对研究提示工程和模型行为有重要参考价值，今日获得764星。\n\n💼 商业缺口：缺少系统提示词泄露的合规风险监测与知识产权审计层，模型厂商难以追踪和维权其提示词资产被滥用。",
+          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "time": "764 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rlaope/oh-my-hermes：Hermes Agent全能插件",
+          "summary": "oh-my-hermes是Hermes Agent的一体化插件，集成了编码智能和长期记忆功能，用Python编写。它为AI编码智能体提供记忆增强能力，解决了智能体缺乏长期上下文的问题，今日获得77星，属于垂直细分工具。\n\n💼 商业缺口：缺少智能体长期记忆的数据治理与隐私合规审计层，用户无法控制记忆内容的存储、删除与跨境传输。",
+          "url": "https://github.com/rlaope/oh-my-hermes",
+          "time": "77 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "TauricResearch/TradingAgents：多智能体LLM金融交易框架",
+          "summary": "TradingAgents是一个基于多智能体大语言模型的金融交易框架，用Python编写。它让多个AI智能体协同进行金融分析与交易决策，今日获得745星，反映出AI在量化金融领域的应用热度持续攀升。\n\n💼 商业缺口：缺少AI交易决策的合规留痕与责任归属审计层，金融机构难以向监管证明交易决策的可解释性与风控合规。",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "time": "745 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "tech-leads-club/agent-skills：专业AI编码智能体的安全技能注册中心",
+          "summary": "这是一个面向专业AI编码智能体的安全、经过验证的技能注册中心，用TypeScript编写。它为AI编码智能体提供可信的技能扩展机制，解决了技能来源不可信的问题，今日获得512星，是AI Agent生态的治理基础设施。\n\n💼 商业缺口：缺少技能供应链的安全审计与版本溯源层，企业无法证明所用技能未被篡改、来源可信。",
+          "url": "https://github.com/tech-leads-club/agent-skills",
+          "time": "512 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenBMB/VoxCPM：无分词器多语言语音生成TTS模型",
+          "summary": "VoxCPM2是一个无需分词器的TTS模型，支持多语言语音生成和创意语音设计，用Python编写。它简化了传统TTS流程，提升了多语言语音合成的自然度，今日获得216星，是语音生成领域的前沿探索。\n\n💼 商业缺口：缺少合成语音的深度伪造检测与来源标注层，平台难以识别和标记AI生成语音，存在诈骗与 misinformation 风险。",
+          "url": "https://github.com/OpenBMB/VoxCPM",
+          "time": "216 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "huggingface/transformers：最先进的机器学习模型定义框架",
+          "summary": "这是Hugging Face的Transformers库，是业界最主流的机器学习模型定义框架，用Python编写。它提供了海量预训练模型的加载与微调能力，是AI开发者的基础设施，今日获得536星，持续保持高热度。\n\n💼 商业缺口：缺少模型许可证合规与商用授权审计层，企业难以追踪所用模型的许可条款，存在知识产权侵权风险。",
+          "url": "https://github.com/huggingface/transformers",
+          "time": "536 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "SnailSploit/Claude-Red：Claude攻击性安全技能库",
+          "summary": "claude-red是一个为Claude设计的攻击性安全技能精选库，用Python编写。它将AI与渗透测试等 offensive security 场景结合，今日获得579星，反映出AI在网络安全攻防领域的应用正在加速。\n\n💼 商业缺口：缺少AI攻击性安全工具的授权使用审计与滥用监测层，无法防止其被用于未授权渗透，也难以满足合规要求。",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "time": "579 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "谷歌DeepMind推出WeatherNext 3全球天气AI模型",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind发布最先进的全球天气AI模型WeatherNext 3，可每小时更新一次，为风电场预测100米高度风速和风向，为太阳能电站预测云量和辐射水平，帮助电网运营商和清洁能源生产商更智能地规划能源。该模型已集成至搜索、Gemini、谷歌地图及云平台。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "MiniMax H3 开源生态加速：视频生成突破 2 倍实时",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax H3 在 SGLang 与 VDN-H3 优化下，于 8×B200 上实现超 2 倍实时去噪，9 秒端到端生成 14.4 秒 768p 视频，且质量无回退。开源社区推出 FastH3、Sol-H3、LightX2V 等多项加速方案，持续推动 H3 更快、更易用。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "德米斯·哈萨比斯：谷歌获2026年设计创新奖",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "谷歌被《Fast Company》评为2026年设计创新奖得主，表彰其整体设计愿景和全新AI设计语言。该设计语言贯穿Gemini应用、谷歌地图沉浸式导航及搜索AI模式等产品。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "顶级AI实验室想要踩刹车",
+          "summary": "顶级AI实验室希望放缓发展步伐。此外：销售电话后发送一页纸的提案。",
+          "url": "https://therundownai.beehiiv.com/p/top-ai-labs-want-to-pump-the-brakes",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "大型科技公司的AI放缓是安全协议还是卡特尔？",
+          "summary": "OpenAI CEO山姆·奥特曼、Anthropic CEO达里奥·阿莫代伊、谷歌DeepMind联合创始人德米斯·哈萨比斯和SpaceX负责人埃隆·马斯克上周末大致同意放缓AI开发，宣称目标是“控制前沿节奏”。怀疑者立即察觉到了别有用心，认为这背后可能另有动机。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+          "time": "06:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "高管和政界人士对放缓AI发展的看法",
+          "summary": "达里奥·阿莫代伊发表长文《我们必须放慢前沿》，阐述应放缓AI发展的理由，引发广泛讨论。多位AI领袖和政界人士随后表态，支持或反对其观点。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+          "time": "05:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋在台上让特朗普免提通话，宣布机器人不会统治世界",
+          "summary": "英伟达CEO黄仁勋在All-In峰会上台时接到特朗普总统来电，并首次在众人面前开启免提。通话中特朗普谈及机器人不会接管世界等话题。",
+          "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+          "time": "04:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "微软称“人比AI更重要”，回应安全担忧",
+          "summary": "微软发布了一份37页的“人本AI行为准则”，以应对日益加剧的AI模型安全担忧。Anthropic CEO达里奥·阿莫代伊此前呼吁协调放缓AI开发，因研究人员警告模型进展可能超出安全部署和验证复杂系统的能力。",
+          "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "AI行业转向悲观，接下来会怎样？",
+          "summary": "Anthropic CEO达里奥·阿莫代伊发表文章，呼吁放缓大语言模型的发展速度，并指出该技术带来的迫在眉睫的危险。这一表态反映出AI行业正转向悲观情绪。",
+          "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+          "time": "01:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "AI智能体举报作弊同事",
+          "summary": "谷歌DeepMind最新实验让一组AI智能体解决数学问题，智能体分裂为对立派系，部分作弊时其他智能体试图阻止。这种首次出现的举报行为，可能对试图管控自主AI智能体集群的对齐研究者具有启示意义。",
+          "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达CEO黄仁勋对特朗普表示：我们不会让AI发展放缓",
+          "summary": "尽管埃隆·马斯克和山姆·奥特曼支持达里奥·阿莫代伊放缓AI发展步伐的呼吁，但黄仁勋似乎持不同看法。",
+          "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+          "time": "05:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI以3亿美元收购智能手机相机公司Glass Imaging",
+          "summary": "据报道，OpenAI以3亿美元收购了Glass Imaging。该公司由两位前苹果工程师创立，他们曾领导开发苹果人像模式的团队。",
+          "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+          "time": "04:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "iOS 27让我重新用起了Siri",
+          "summary": "苹果拖延已久的Siri改版终于随iOS 27到来，改变了这款助手在日常使用中的实用感受。",
+          "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+          "time": "01:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "时尚应用Daydream利用Apple Intelligence让你购买相册中的穿搭",
+          "summary": "随着iOS 27的发布，Daydream应用新增功能，可将保存的穿搭照片转化为可购买的商品结果，并支持通过Siri搜索产品而无需打开应用。",
+          "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "微软发布新AI“行为准则”，要求模型不得入侵系统或欺骗人类",
+          "summary": "微软发布AI“行为准则”，列出其AI模型应遵循的基本原则，如支持而非取代人类、促进人类福祉，并明确了落实这些原则的具体安全约束。",
+          "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+          "time": "00:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "仅在TechCrunch Disrupt 2026：当OpenAI把你的路线图抢先发布，会发生什么？",
+          "summary": "如果你正在创办AI公司，问题不在于基础模型是否会持续进化，而在于当它们进化时，你的公司能否继续创造价值。不要错过TechCrunch Disrupt 2026 Builders Stage上的这场互动会议。",
+          "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Superhuman 收购 YC 支持的笔记工具 Fathom，生产力平台竞逐智能体办公",
+          "summary": "笔记工具 Fathom 提供慷慨的免费方案，月活跃用户已超 40 万。该公司表示，迄今已有超过 100 万人在平台上录制会议。",
+          "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+          "time": "22:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "在TechCrunch Disrupt 2026聆听AI如何助力自然复苏",
+          "summary": "不久前，复活灭绝物种还只存在于科幻小说中，如今却已成为一家估值十亿美元初创公司的使命。欢迎参与这场对话，聆听科技界最非传统创始人之一的分享，立即锁定您的Disrupt通行证。",
+          "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026 参展申请仅剩5天",
+          "summary": "TechCrunch Disrupt 2026 参展申请将于9月18日截止，仅剩5天。抓住机会在展会现场展示你的业务，直面超过10,000名创始人、投资者和科技领袖。",
+          "url": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "涩谷黑胶酒吧：前Spotify高管创立的音乐应用初创公司",
+          "summary": "前Spotify高管创立公司，推出实验性“单曲”，让用户参与音乐创作。",
+          "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
+          "time": "21:55",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，数字化与AI技术推动承保、理赔和分销环节全面升级。新兴企业与传统保险公司加速融合，监管框架和盈利模式仍是行业关注的核心议题。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "递归自我改进不会发生",
+          "summary": "一篇新论文认为，递归自我改进（RSI）短期内不会出现，因为当前智能体无法进行开放式的机器学习研究。研究者让智能体（Codex/GPT-5.6 Sol 和 OpenClaw/Opus 4.8）复现 NeurIPS 已接收但未发表的论文，并由原作者评分，结果智能体均未能完成。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wgazy4/rsi_is_not_happening_r/",
+          "time": "02:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ARR 八月讨论 [D]",
+          "summary": "本轮讨论规模似乎很小，但仍创建此帖供大家交流。由 /u/Striking-Warning9533 提交。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wft2qd/arr_august_discussion_d/",
+          "time": "12:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "使用Accelerate与FSDP2时如何自动查找批次大小？",
+          "summary": "用户在使用Hugging Face SFTTrainer单GPU训练时，通过auto_find_batch_size=True可在CUDA OOM后自动降低批次大小。现希望在使用accelerate launch与FSDP2进行单节点多GPU训练时实现类似功能，询问是否有受支持的方式来自动确定或降低批次大小。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wg9u62/how_to_automatically_find_the_batch_size_when/",
+          "time": "01:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "使用VAE合成葡萄酒",
+          "summary": "我使用PyTorch在白葡萄酒数据集上创建了一个VAE模型，目标是发现全新的白葡萄酒配方。模型将所有葡萄酒映射到潜在空间，找到高分区域后以步长0.5迭代100步、每步乘以0.96，直至达到最高评分，再通过解码器生成新配方并由回归模型评估。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wg5wxy/p_wine_synthesis_using_vae_p/",
+          "time": "23:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "博士品牌问题 [R]",
+          "summary": "我即将开始攻读图机器学习方向的博士，研究介于图信号处理与图深度学习之间，目标是进入大型科技公司或拥有强研究部门的公司担任研究科学家。我担心当前及五年后的就业市场，纠结该在计算机科学系还是电子工程系读这个学位，因为我的研究处于EECS交叉领域。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wfte3b/phd_branding_question_r/",
+          "time": "12:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "MS MARCO点击翻译扩展表（“穷人版”DSSM）[P]",
+          "summary": "我构建了一个“穷人版”DSSM（深度结构化语义模型），即基于计数的翻译表，可用于丰富全文搜索的倒排索引，从而提升BM25基线效果。具体做法是：利用有监督的（查询，相关文档）对（如MS MARCO或点击日志），将双方分词为字符n-gram、词片或词，然后统计跨对共现——文档侧单元u与查询侧单元v的共现次数。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wg3g03/ms_marco_clicktranslation_expansion_tables_poor/",
+          "time": "21:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "重复使用基线基准测试结果是否构成抄袭",
+          "summary": "假设我为同一回归任务构建了树模型和神经网络两个模型，并将两篇论文分别投给不同期刊。由于两篇论文报告了相同的基线模型，我只需运行一次基线，导致RMSE表格除提出的模型外完全相同。这是否会引发抄袭等问题？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wg1tdn/duplicating_baseline_benchmarks_d/",
+          "time": "20:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "构建100%客户端实时棋盘与多棋盘检测视觉管线（Chrome/Firefox扩展）",
+          "summary": "受Chessvision.ai启发，开发者推出浏览器扩展ChessInsights AI，采用完全本地推理，实现100%客户端棋盘检测与棋子识别，图像数据永不离开用户设备。该工具支持单帧多棋盘检测，所有功能免费，旨在将YouTube、Twitch、PDF等被动棋类内容与主动引擎分析无缝衔接。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wfzzml/p_built_a_100_clientside_vision_pipeline_for/",
+          "time": "18:47",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "离婚时业务资产梳理",
+          "summary": "小企业主离婚时，公司股权、债务、现金流与个人财产高度混同，律师通常只懂家庭法，不懂企业财务。业主需要手动整理多年银行流水、合同、税务记录来厘清哪些是婚姻财产、哪些是业务资产，过程耗时数月且极易遗漏。AI可自动分类账目、标记混同交易并生成资产分割草案。\n\n💡 机会方向：面向小企业主的离婚财务尽调与资产分离AI助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wg6066/owners_who_went_through_a_divorce_with_the/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "本地B2B购买意向识别",
+          "summary": "发帖人擅长线上B2B购买意向挖掘，但转到本地小企业线索时完全失效，因为本地信号散落在Google评论、本地活动、招聘帖、许可证申请等非结构化渠道。手动逐个平台翻找、判断谁有采购意图，效率极低。AI可聚合本地多源信号并打分排序，输出可跟进的意向名单。\n\n💡 机会方向：本地小企业购买意向聚合与评分引擎",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wge4n9/im_good_at_finding_b2b_buying_intent_but_i_feel/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "小企业创意外包管理",
+          "summary": "小企业请不起月费5000美元的代理公司，又没时间自己设计海报、写文案、剪视频。业主只能在Fiverr、Canva、ChatGPT之间来回切换，反复沟通需求、改稿、对齐品牌风格，一个物料耗掉几天。AI可基于品牌规范一键生成多平台创意物料并自动迭代。\n\n💡 机会方向：面向小微企业的品牌一致性AI创意生成与托管服务",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wgactt/anyone_tried_doneforyou_creative_services/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "SaaS冷启动获客",
+          "summary": "独立开发者做了请假管理系统，目标客户是小企业，但从零获客时不知道去哪找、怎么触达、如何证明价值。手动在LinkedIn、Reddit、本地商会群发消息，回复率极低，也无法规模化验证渠道。AI可自动挖掘目标企业名单、生成个性化外联话术并跟踪转化。\n\n💡 机会方向：垂直SaaS冷启动AI外联与线索验证工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wgiwtz/how_do_you_get_your_first_saas_customers_when/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "信用卡拒付申诉",
+          "summary": "小企业完成大额工程后遭遇客户信用卡拒付，需要手动整理合同、完工照片、聊天记录、发票、签收单等证据，按银行格式提交申诉，流程繁琐且时限紧。业主往往不熟悉拒付规则而败诉。AI可自动归集证据、生成符合卡组织规则的申诉包并跟踪进度。\n\n💡 机会方向：小企业信用卡拒付AI证据整理与申诉代理",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wg19fn/chase_chargeback_where_to_go_now/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
