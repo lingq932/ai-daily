@@ -1,0 +1,636 @@
+{
+  "date": "2026-09-17",
+  "timeRange": "2026-09-16 09:00 ~ 2026-09-17 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Snap推出Specs AI工具",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Snap推出名为“Specs Intelligence”的全新AI助手，可连接其他数字账户，帮助处理工作任务和追踪旅行信息。该服务定位为“预判式AI服务”，与M",
+              "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "自今年早些时候Specs首次亮相以来，Snap一直在寻找机会解释这款智能眼镜为何值得存在。该公司再次尝试为这款售价2200美元的产品正名。",
+              "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/"
+            }
+          ]
+        },
+        {
+          "headline": "AI智能体控制智能家居",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌开放智能家居平台，允许Claude、Open Claw等AI工具通过标准化的模型上下文协议访问和控制联网设备，并分析家庭数据。Google Home MCP",
+              "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌推出Google Home MCP服务器早期访问，允许Claude、ChatGPT等AI智能体通过自然语言控制联网设备、查看摄像头摘要并访问智能家居活动。",
+              "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic合并Claude界面",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Claude今日新增Docs和Slides两款工具，用户可通过Claude对话创建文档和演示文稿，并支持导出、编辑和分享。Anthropic同时简化了Claud",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Anthropic将Claude聊天与Cowork功能整合到同一界面中。这些新功能最初面向Pro和Max订阅用户开放。",
+              "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：Hacker News，更专注一点",
+          "summary": "我和其他人一样喜欢AI和大语言模型，但有时候我只想浏览……",
+          "url": "https://hn-tags.beehivesoftware.xyz/?tags=programming",
+          "time": "08:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：帮助智能体以可监控的方式突破沙箱",
+          "summary": "文章链接：https://sparrowsystems.co/ 评论链接：https://news.ycombinator.c",
+          "url": "https://sparrowsystems.co/",
+          "time": "07:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：学习 Claude Code——交互式思维导图",
+          "summary": "文章链接：https://mikenikles.com/blog/learn-claude-code 评论链接：https:/",
+          "url": "https://mikenikles.com/blog/learn-claude-code",
+          "time": "06:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Fivetran CLI 发布 Beta 版",
+          "summary": "终于，Fivetran 有了一个 CLI 应用，人类和AI都可以用它轻松编排……",
+          "url": "https://pypi.org/project/fivetran-cli/",
+          "time": "06:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：OpenCode Mentor——一个反氛围编程的编程导师配置",
+          "summary": "文章链接：https://github.com/davejpeters/opencode-mentor 评论链接：https://",
+          "url": "https://github.com/davejpeters/opencode-mentor",
+          "time": "05:15",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "阿里巴巴开源代码审查工具",
+          "summary": "这是阿里巴巴开源的一款快速、高效的代码审查工具，经过阿里大规模生产环境验证，采用混合架构实现代码审查。它解决的是企业级代码审查效率问题，今日获得3231颗星，使用Go语言编写，适合需要大规模代码质量管控的团队。\n\n💼 商业缺口：缺少针对代码审查AI建议的采纳率追踪与合规审计层。",
+          "url": "https://github.com/alibaba/open-code-review",
+          "time": "3,231 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Cloudflare安全审计技能",
+          "summary": "这是Cloudflare推出的编码智能体技能，用于多阶段安全审计并支持独立验证。它解决的是AI编码代理在安全审计场景下的可信度问题，今日获得927颗星，使用JavaScript编写，值得关注是因为它将AI代理能力与安全审计流程结合。\n\n💼 商业缺口：缺少对AI安全审计结论的第三方验证与责任归属证据层。",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "time": "927 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Colibri：本地运行前沿MoE模型",
+          "summary": "这是一个纯C语言、零依赖的工具，让你在自有硬件上运行前沿的MoE（混合专家）模型。它解决的是大模型本地部署的硬件门槛问题，今日获得1546颗星，使用C语言编写，适合希望在本地运行大模型但缺乏高端硬件的开发者。\n\n💼 商业缺口：缺少本地模型推理的成本核算与性能基准对比服务。",
+          "url": "https://github.com/JustVugg/colibri",
+          "time": "1,546 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Voicebox：开源AI语音工作室",
+          "summary": "这是一个开源AI语音工作室，支持声音克隆、听写和创作。它解决的是语音合成与克隆工具的开放性问题，今日获得417颗星，使用TypeScript编写，适合需要定制化语音AI能力的开发者。\n\n💼 商业缺口：缺少声音克隆的授权合规与滥用检测治理层。",
+          "url": "https://github.com/jamiepine/voicebox",
+          "time": "417 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic知识工作插件库",
+          "summary": "这是Anthropic开源的知识工作者插件仓库，主要面向知识工作者使用。它解决的是AI能力在知识工作场景的落地问题，今日获得110颗星，使用Python编写，值得关注是因为它来自Claude的官方团队。\n\n💼 商业缺口：缺少插件在企业知识工作流中的采用效果度量与ROI证据层。",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "time": "110 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude Code：终端智能编码工具",
+          "summary": "这是Anthropic推出的智能编码工具，运行在终端中，能理解代码库并执行编码任务。它解决的是开发者与AI协作编码的效率问题，今日获得165颗星，使用TypeScript编写，是当前AI编码代理领域的标杆产品。\n\n💼 商业缺口：缺少AI编码代理的代码归属权与审计追踪合规层。",
+          "url": "https://github.com/anthropics/claude-code",
+          "time": "165 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Roboflow计算机视觉工具库",
+          "summary": "这是Roboflow推出的可复用计算机视觉工具集。它解决的是计算机视觉项目开发中重复造轮子的问题，今日获得260颗星，使用Python编写，适合需要快速构建视觉AI应用的开发者。\n\n💼 商业缺口：缺少视觉模型在生产环境中的漂移监控与再训练成本层。",
+          "url": "https://github.com/roboflow/supervision",
+          "time": "260 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenResearch：将编码代理变为研究代理",
+          "summary": "这个项目能将你的编码代理转变为研究代理。它解决的是AI代理在学术研究场景的应用问题，今日获得1017颗星，使用Rust编写，值得关注是因为它拓展了编码代理的能力边界。\n\n💼 商业缺口：缺少AI研究代理的引用溯源与学术诚信审计层。",
+          "url": "https://github.com/alphaXiv/OpenResearch",
+          "time": "1,017 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "oh-my-hermes：Hermes代理全能插件",
+          "summary": "这是Hermes代理的一体化插件，提供编码智能和长期记忆能力。它解决的是AI代理记忆与技能扩展问题，今日获得80颗星，使用Python编写，适合需要增强代理长期记忆的开发者。\n\n💼 商业缺口：缺少代理长期记忆的数据隐私与遗忘权治理层。",
+          "url": "https://github.com/rlaope/oh-my-hermes",
+          "time": "80 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "腾讯WeKnora：开源LLM知识平台",
+          "summary": "这是腾讯开源的大语言模型知识平台，能将原始文档转化为可查询的RAG系统。它解决的是企业知识管理与检索增强生成问题，今日获得1197颗星，使用Go编写，适合需要构建企业知识库的团队。\n\n💼 商业缺口：缺少RAG系统回答准确率的持续审计与幻觉检测层。",
+          "url": "https://github.com/Tencent/WeKnora",
+          "time": "1,197 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude-Red：Claude攻击性安全技能库",
+          "summary": "这是一个为Claude策划的攻击性安全技能库。它解决的是AI在渗透测试与红队场景的能力扩展问题，今日获得367颗星，使用Python编写，适合安全研究人员使用。\n\n💼 商业缺口：缺少AI攻击性安全技能的合法授权与使用边界审计层。",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "time": "367 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "YuE：前沿音乐生成模型",
+          "summary": "这是YuE2音乐生成模型，支持符号规划、零样本翻唱和高级音乐生成。它解决的是AI音乐创作的质量与控制问题，今日获得332颗星，使用Python编写，适合音乐AI研究者和创作者。\n\n💼 商业缺口：缺少AI生成音乐的版权归属与训练数据授权证据层。",
+          "url": "https://github.com/multimodal-art-projection/YuE",
+          "time": "332 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AI编码代理生产级工程技能",
+          "summary": "这是Addy Osmani推出的面向AI编码代理的生产级工程技能集。它解决的是AI编码代理在实际工程中的能力标准化问题，今日获得658颗星，使用JavaScript编写，适合希望提升AI编码质量的团队。\n\n💼 商业缺口：缺少AI编码技能的效果基准测试与团队采用证据层。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "658 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Cline：自主编码代理",
+          "summary": "这是一个自主编码代理，可作为SDK、IDE扩展或CLI助手使用。它解决的是AI编码代理的集成灵活性问题，今日获得112颗星，使用TypeScript编写，适合需要多形态AI编码助手的开发者。\n\n💼 商业缺口：缺少AI编码代理操作的可回滚性与变更审计层。",
+          "url": "https://github.com/cline/cline",
+          "time": "112 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ECC：代理框架性能优化系统",
+          "summary": "这是一个代理框架性能优化系统，包含技能、本能、记忆等模块。它解决的是AI代理框架的性能瓶颈问题，今日获得1057颗星，使用JavaScript编写，适合需要优化代理性能的开发者。\n\n💼 商业缺口：缺少代理性能优化的成本效益分析与资源配额治理层。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "1,057 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "ChatGPT 联合创始人推出新型 AI",
+          "summary": "ChatGPT 联合创始人推出了一种新型 AI。此外，还介绍了如何向 Codex 和 Claude Code 添加模型。",
+          "url": "https://therundownai.beehiiv.com/p/chatgpt-co-creator-launches-a-new-kind-of-ai",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Snap推出全新Specs AI工具，即将登陆iOS和Mac",
+          "summary": "Snap推出名为“Specs Intelligence”的全新AI助手，可连接其他数字账户，帮助处理工作任务和追踪旅行信息。该服务定位为“预判式AI服务”，与Meta的Muse和Gemini的Spark等AI助手类似。",
+          "url": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+          "time": "07:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "2.5小时AI生成的《奥德赛》电影，长了2.5小时",
+          "summary": "克里斯托弗·诺兰执导的《奥德赛》票房大卖，激发了观众对古典文学的兴趣。但一部完全由AI生成的新版电影《奥德修斯：陨落》质量极差，可能反而让观众厌恶原著故事。",
+          "url": "https://www.theverge.com/entertainment/996499/ai-odyssey-movie-review",
+          "time": "04:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI数据中心电子垃圾问题严峻且持续加剧",
+          "summary": "一份新报告警告称，AI热潮产生的电子垃圾被严重低估。到2050年，这些垃圾足以装满2300万个航运集装箱，若排成一列，可绕地球六圈。这一估算远超此前研究。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+          "time": "04:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果或重启服务器业务，借AI热潮获利",
+          "summary": "据The Information报道，苹果计划重返服务器市场，可能与英伟达合作。苹果曾于2011年停产Xserve系列，此后基本退出企业级服务器领域，但AI行业对算力的需求增长促使其重新考虑这一业务。",
+          "url": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia",
+          "time": "01:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌将允许任何AI智能体控制你的智能家居",
+          "summary": "谷歌开放智能家居平台，允许Claude、Open Claw等AI工具通过标准化的模型上下文协议访问和控制联网设备，并分析家庭数据。Google Home MCP是一项新集成，让第三方AI智能体能够控制、监控智能家居并执行操作。",
+          "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Claude推出Docs和Slides，对标Gemini",
+          "summary": "Claude今日新增Docs和Slides两款工具，用户可通过Claude对话创建文档和演示文稿，并支持导出、编辑和分享。Anthropic同时简化了Claude的对话机制，将普通聊天与Cowork合并为“一个Claude”。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "性感AI约会应用骗局来袭",
+          "summary": "安全研究员Matthew \"Zigula\" Gore-Kormanik在分析一款名为Dora的欺诈约会应用时，收到一条弹窗消息，显示Jennifer正在来电。根据她的个人简介，她是一位41岁的射手座，红发蓝眼，有穿孔，喜欢音乐、恐怖片、夜生活和运动。Gore-Kormanik接听了电话，但……",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+          "time": "22:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI高管呼吁监管简史",
+          "summary": "过去几天，多位将从AI中获利丰厚的高管公开一致认为，在失控之前应当让所有人放慢脚步，包括OpenAI CEO山姆·奥特曼、Anthropic CEO达里奥·阿莫代伊、谷歌DeepMind联合创始人德米斯·哈萨比斯以及微软CEO萨提亚·纳德拉。",
+          "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "为AI构建材料基础",
+          "summary": "AI热潮正演变为材料挑战。随着AI推动计算进入新领域，支撑基础设施的材料变得与算法同等关键。半导体和数据中心在性能、散热、能效和可靠性方面正接近物理极限，对材料提出了新需求。",
+          "url": "https://www.technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai/",
+          "time": "20:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Snap再次为其2200美元智能眼镜辩护",
+          "summary": "自今年早些时候Specs首次亮相以来，Snap一直在寻找机会解释这款智能眼镜为何值得存在。该公司再次尝试为这款售价2200美元的产品正名。",
+          "url": "https://techcrunch.com/2026/09/16/snap-tries-to-make-the-case-again-for-its-2200-smart-glasses/",
+          "time": "08:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "阿尔·戈尔：AI的真正风险不是数据中心",
+          "summary": "在接受TechCrunch采访时，阿尔·戈尔表示他并不担心AI数据中心的排放问题，更让他担忧的是AI行业自身对技术发展方向的警告。",
+          "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash/",
+          "time": "07:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic与OpenAI欲嵌入安全评估员，他们真能保持独立吗？",
+          "summary": "Anthropic和OpenAI希望在其AI实验室内部嵌入独立的安全评估员。研究人员对前所未有的访问权限表示欢迎，但警告称有意义的监督需要透明度、独立性，并最终需要监管。",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+          "time": "05:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "被指售卖“偷拍眼镜”后，Meta准备推出无摄像头版本",
+          "summary": "Meta因智能眼镜被指用于偷拍而饱受争议，如今计划推出一款不带摄像头的产品以规避相关指责。此举能否平息外界对其隐私问题的担忧，仍有待观察。",
+          "url": "https://techcrunch.com/2026/09/16/after-accusations-of-selling-perv-glasses-meta-prepares-to-sell-a-pair-without-a-camera/",
+          "time": "04:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI实验室想要内部审计员——但也许应该先关好前门",
+          "summary": "对于失控的AI代理，可能存在一个更简单有效的解决方案，只是它一直显而易见却被忽视。",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/",
+          "time": "02:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "你的AI智能体现在可以控制Google Home设备",
+          "summary": "谷歌推出Google Home MCP服务器早期访问，允许Claude、ChatGPT等AI智能体通过自然语言控制联网设备、查看摄像头摘要并访问智能家居活动。",
+          "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic将Claude聊天与Cowork合并至同一界面",
+          "summary": "Anthropic将Claude聊天与Cowork功能整合到同一界面中。这些新功能最初面向Pro和Max订阅用户开放。",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "机器人正等待属于自己的ChatGPT时刻：英伟达Les Karpas在TechCrunch Disrupt 2026上解释原因",
+          "summary": "机器人行业仍在等待融入日常生活的突破性时刻。英伟达的Les Karpas将在TechCrunch Disrupt 2026上解释这一现象背后的原因。9月25日前注册可节省最高200美元通行证费用。",
+          "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Threads推出新功能，助力播客推广节目并触达听众",
+          "summary": "Threads正在为播客推出新工具，包括个人资料卡、单集链接、文字稿、嘉宾标签、发帖提醒和受众洞察。Meta希望借此让这款X的竞品成为播客推广和讨论的更大平台。",
+          "url": "https://techcrunch.com/2026/09/16/threads-new-features-let-podcasters-promote-shows-and-reach-listeners/",
+          "time": "22:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026 公布新一批风投评委，将评审创业竞技场200强",
+          "summary": "TechCrunch Disrupt 2026 公布了五位顶级投资人，他们将在现场评审创业竞技场200强。9月25日前注册可节省最高200美元，不要错过这场终极创业路演大赛。",
+          "url": "https://techcrunch.com/2026/09/16/next-wave-of-vcs-judging-startup-battlefield-200-contenders-at-techcrunch-disrupt-2026-revealed/",
+          "time": "22:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "参展倒计时3天：在TechCrunch Disrupt 2026上让品牌直面风投和高价值潜在客户",
+          "summary": "预订Disrupt展位的最后截止日期为9月18日，仅剩三天。10月13日至15日，让你的初创公司直面超过1万名创始人、投资者、运营者和科技领袖。",
+          "url": "https://techcrunch.com/2026/09/16/3-days-left-to-exhibit-at-techcrunch-disrupt-2026/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SK海力士据悉与英特尔洽谈在美国生产存储芯片",
+          "summary": "SK海力士据报正与英特尔洽谈在美国建设存储芯片产能。SK海力士向TechCrunch表示，尚未敲定任何计划或安排。",
+          "url": "https://techcrunch.com/2026/09/16/sk-hynix-reportedly-in-talks-with-intel-to-build-memory-chips-in-us/",
+          "time": "21:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前印孚瑟斯CEO的AI初创公司再获5300万美元融资",
+          "summary": "这家总部位于帕洛阿尔托的初创公司表示，在成立后短短几个月内，已签下多份七位数美元的企业合同。该公司由前印孚瑟斯首席执行官创办，最新融资额达5300万美元。",
+          "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "亚马逊在印度推出支持印地语的Alexa+",
+          "summary": "亚马逊在印度推出Alexa+助手，并支持印地语。所有用户均可在早期体验阶段使用该助手。",
+          "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+          "time": "18:34",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原始摘要未提供，无法生成中文摘要。请补充摘要内容以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，数字化与AI技术推动承保、理赔和分销环节全面升级。新兴企业与传统保险公司加速融合，监管框架和盈利模式成为决定未来格局的关键因素。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "TMLR联系10篇拟被直接拒稿论文的作者，试图了解作者能否解释其提交的论文",
+          "summary": "TMLR联系了10篇拟被直接拒稿论文的作者，结果令人担忧：1篇被作者主动撤回，1篇作者称因其他事务无法参与，1篇约好会议但未出席，3篇作者无法回答关于论文的基本问题，仅3篇作者能回答相关问题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wid67h/tmlr_reached_out_to_the_authors_of_10_papers/",
+          "time": "07:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "LARA：为冻结大模型打造的小型可组合行为模块",
+          "summary": "LARA（轻量加性残差适配）是一项让冻结语言模型的后训练实现模块化的研究项目，并配有小型 PyTorch 库。其核心思路是在选定层训练低秩残差适配器，而非修改模型权重，所得行为模块体积小、可独立保存，并能在推理时加载、移除、混合或路由。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1whx9tr/lara_small_composable_behaviours_for_frozen_llms_p/",
+          "time": "21:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "GoBench：在围棋对局中评估大语言模型",
+          "summary": "GoBench 通过在 9x9 围棋中与从随机到超人的 KataGo 对手梯队对弈来评估大语言模型，衡量其通用推理能力，并与 ARC-AGI 2 高度相关（r=0.83），目前仍远未饱和。GPT-6 Astra 最高达到 2500 Elo，远低于最强 KataGo 的 4400 Elo；而配备编程工具并有两小时准备时间的 Codex with Astra 可达 3560 Elo。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wi68jg/gobench_evaluating_llms_on_the_game_of_go_r/",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有人测量过规范模糊性作为跨模型家族相关失败的预测因子吗？",
+          "summary": "当不同家族的模型面对同一欠规范任务时，往往以相同方式失败，而非独立失败。该问题关注的是测量而非解释：是否有人量化过任务规范的模糊程度，并检验其能否预测独立求解器出现相同失败的频率？具体而言，这种关系是平滑单调递增，还是存在某个模糊性阈值，超过后巧合率会骤升？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wi8lla/has_anyone_measured_specification_ambiguity_as_a/",
+          "time": "04:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "关于TMLR的疑问",
+          "summary": "我在TMLR有一篇论文正在审稿中。投稿不到一个月就收到了两份审稿意见，但此后一个月过去了，第三份审稿意见仍未收到。我已按建议修改了论文，但期刊建议在收到三份审稿意见后才在OpenReview上更新稿件，因此我尚未发布任何回复。我已联系行动编辑询问是否会收到另一份审稿意见，但消息发出后……",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wiadm9/question_about_tmlr_d/",
+          "time": "05:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 参考文献核查回复",
+          "summary": "作者收到 NeurIPS E&D 赛道参考文献审查邮件，指出存在 2 条幻觉参考文献。作者询问应通过 OpenReview 评论还是直接回复邮件来回应这一问题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1whxvvf/neurips_reference_check_responsed/",
+          "time": "21:53",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "小企业网站诊断",
+          "summary": "小企业主在浏览同行网站时，需要逐个手动检查首页加载速度、移动端适配、联系方式是否显眼、SEO基础要素等，往往看几十个站点才能总结出共性问题，耗时且容易遗漏。AI可以自动抓取并批量分析网站，生成结构化诊断报告和改进建议，几分钟完成人工数小时的工作。\n\n💡 机会方向：面向小企业的AI网站体检与优化建议生成工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wial6d/whats_the_first_thing_you_look_for_when_someone/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "创业启动资金规划",
+          "summary": "想创业但缺3000欧元的用户，需要自己摸索贷款渠道、政府补贴、众筹平台、亲友借款等路径，信息分散且不知道哪种最适合自己的情况。AI可以根据业务类型、所在地区和信用状况，自动匹配可用的融资渠道并生成申请材料清单和话术模板。\n\n💡 机会方向：AI创业融资路径匹配与申请材料自动生成助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wi933d/give_me_advice/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "季度税务测算纠错",
+          "summary": "小企业主依赖CPA计算Q3/Q4预缴税款，结果算错导致现金流紧张数月。人工核对税务计算容易出错且发现滞后。AI可以实时同步银行流水和收入数据，自动测算每季度应缴税额，提前预警偏差并给出调整建议，避免年底才发现资金缺口。\n\n💡 机会方向：小企业AI税务预缴测算与现金流预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wi5e5y/cpa_miscalculated_q3q4_tax_payments_things_are/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "云服务账单异常排查",
+          "summary": "用户收到Vercel账单暴涨10倍，需要手动翻查日志、对比历史用量、定位是哪个bot或爬虫导致的异常流量，排查过程繁琐且滞后。AI可以实时监控云服务用量，自动识别异常调用来源，在账单飙升前发出告警并建议限流或屏蔽策略。\n\n💡 机会方向：AI云服务用量异常检测与自动止损工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49732873",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Google商家资料申诉",
+          "summary": "经营15年的企业因搬迁导致Google商家资料被停用，用户需要自己研究申诉流程、准备证明材料、反复提交表单，且不知道审核标准和进度。AI可以引导用户整理所需文件，自动生成符合Google要求的申诉信，并跟踪申诉状态、提示补充材料。\n\n💡 机会方向：AI平台账号申诉材料生成与进度跟踪助手",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49730532",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
