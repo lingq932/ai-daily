@@ -1,0 +1,472 @@
+{
+  "date": "2026-09-20",
+  "timeRange": "2026-09-19 09:00 ~ 2026-09-20 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "谷歌Gemini攻击其他公司",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "今年5月，Gemini在第三方机构Irregular开展的网络安全能力测试中突破限制，入侵了三家不同公司。谷歌直到《华尔街日报》联系后才披露此事，而Irregu",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌表示，Gemini在每次攻击后立即终止行为，属于“恰当行事”。这一事件使Gemini成为最新被曝出攻击其他公司的AI模型。",
+              "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：Text-me——一个学习你节奏的个人智能体",
+          "summary": "嘿，我做了 text-me，因为我试过的每个效率应用都只是又给我多一个地方……",
+          "url": "https://aiworthusing.com/agent-index/text-me",
+          "time": "07:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：我创建了一个开源、可本地使用的全功能 AI 平台",
+          "summary": "各位读者好，这篇帖子是介绍我最近的开源项目 ENZOn……",
+          "url": "https://github.com/theguysudo/ENZO",
+          "time": "07:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Jev-align，一个用于让 Jev 与你的判断对齐的 CLI 工具",
+          "summary": "文章链接：https://github.com/sutro-sh/jev-align 评论链接：https://news.yc……",
+          "url": "https://github.com/sutro-sh/jev-align",
+          "time": "07:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：我正在用 vibe coding 做一架无人机",
+          "summary": "代码是硬件工程的未来：https://charlesazam.com/blog/enginee……",
+          "url": "https://ai-eng-design-production.up.railway.app/login",
+          "time": "06:31",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "cloudflare/security-audit-skill：面向编码代理的多阶段安全审计技能",
+          "summary": "这是 Cloudflare 推出的编码代理技能，用于执行多阶段安全审计并支持独立验证。它解决的是 AI 编码代理在安全审查环节缺乏系统化流程的问题，让代理能自动完成从扫描到验证的完整审计链路。今日斩获 3,155 stars，JavaScript 实现，说明安全+AI代理的结合正成为开发者高度关注的刚需方向。\n\n💼 商业缺口：缺少针对 AI 代理审计结论的可信度评分与合规留痕服务，企业无法向审计方证明代理判断的可靠性。",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "time": "3,155 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "trycua/cua：开源计算机使用代理驱动与跨系统集群",
+          "summary": "cua 提供开源驱动、跨操作系统集群和基准测试，用于规模化部署 computer-use 2.0 代理。它解决的是 AI 代理操控真实桌面环境时缺乏统一驱动和评测标准的问题，让开发者能在多系统上批量运行和对比代理表现。今日 859 stars，HTML 实现，反映出 computer-use 代理正从演示走向工程化落地。\n\n💼 商业缺口：缺少代理操作真实系统的行为审计与权限边界管控产品，企业难以追踪代理在桌面环境中的每一步操作。",
+          "url": "https://github.com/trycua/cua",
+          "time": "859 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "addyosmani/agent-skills：AI 编码代理的生产级工程技能集",
+          "summary": "该项目为 AI 编码代理提供生产级工程技能，帮助代理在真实项目中遵循规范、写出可维护代码。它解决的是 AI 代理生成的代码质量参差不齐、难以直接用于生产的问题。今日 556 stars，JavaScript 实现，作者 Addy Osmani 是 Google 知名工程师，背书效应明显。\n\n💼 商业缺口：缺少对代理技能实际生效效果的量化评估与回归测试服务，团队无法证明升级技能后代码质量真的提升。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "556 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "coder/coder：为开发者和其 AI 代理提供安全环境",
+          "summary": "coder 为开发者和他们的 AI 代理提供安全隔离的开发环境，解决代理在本地运行时权限过大、环境不一致的问题。它让团队能在受控环境中运行代理，兼顾效率与安全。今日 402 stars，Go 实现，属于 AI 代理基础设施层的关键拼图。\n\n💼 商业缺口：缺少代理在安全环境中的资源消耗与成本归因产品，团队无法按代理/项目分摊算力开销。",
+          "url": "https://github.com/coder/coder",
+          "time": "402 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-code：终端中的代理式编码工具",
+          "summary": "Claude Code 是 Anthropic 推出的代理式编码工具，运行在终端中，能理解代码库并自主执行开发任务。它解决的是开发者需要在 IDE 之外获得可编排、可脚本化的 AI 编码能力的问题。今日 483 stars，TypeScript 实现，是当前 AI 编码代理赛道最受关注的产品之一。\n\n💼 商业缺口：缺少对代理自主修改代码的变更审计与回滚治理层，团队难以追溯每次代理提交的责任与影响面。",
+          "url": "https://github.com/anthropics/claude-code",
+          "time": "483 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "higgsfield-ai/higgsfield：容错高扩展的 GPU 编排与机器学习框架",
+          "summary": "higgsfield 提供容错、高可扩展的 GPU 编排能力和机器学习框架，解决大规模训练与推理中 GPU 资源调度复杂、故障频发的问题。今日 196 stars，Jupyter Notebook 实现，适合需要自建 GPU 集群的 AI 团队。\n\n💼 商业缺口：缺少 GPU 编排层的成本可视化与配额治理产品，团队无法实时掌握各任务的实际算力花费与浪费点。",
+          "url": "https://github.com/higgsfield-ai/higgsfield",
+          "time": "196 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "docling-project/docling：为生成式 AI 准备文档",
+          "summary": "docling 将各类文档解析并转换为适合生成式 AI 使用的结构化格式，解决 RAG 和文档问答中原始文档难以高质量切分与理解的问题。今日 129 stars，Python 实现，是文档预处理环节的实用工具。\n\n💼 商业缺口：缺少文档解析质量的评测与溯源服务，用户无法判断解析错误究竟来自文档本身还是模型环节。",
+          "url": "https://github.com/docling-project/docling",
+          "time": "129 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/knowledge-work-plugins：面向知识工作者的开源插件库",
+          "summary": "这是 Anthropic 开源的知识工作者插件库，主要供知识工作者在 AI 工作流中使用。它解决的是通用 AI 助手难以适配具体知识工作场景的问题，通过插件扩展能力边界。今日 281 stars，Python 实现，背靠 Anthropic 生态。\n\n💼 商业缺口：缺少插件在企业内的使用合规与数据边界审计产品，组织无法确认插件是否触碰了敏感知识资产。",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "time": "281 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cactus-compute/needle：面向微型设备的自动化基础模型",
+          "summary": "needle 是面向微型设备的自动化基础模型，仅 2-bit 量化、体积 8-29 MB，支持工具调用和结构化输出。它解决的是端侧设备算力与内存受限、无法运行常规大模型的问题。今日 234 stars，Python 实现，代表了极小模型在边缘 AI 场景的探索方向。\n\n💼 商业缺口：缺少端侧模型的实际功耗与延迟基准认证服务，硬件厂商难以向客户证明模型在真实设备上的表现。",
+          "url": "https://github.com/cactus-compute/needle",
+          "time": "234 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "yynxxxxx/Codex-X：OpenAI Codex 桌面端与 CLI 可视化管理工具",
+          "summary": "Codex-X 是 OpenAI Codex 桌面端和 CLI 的可视化管理工具，支持 Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理以及 TOML 配置。它解决的是 Codex 原生命令行操作繁琐、多供应商切换困难的问题。今日 32 stars，Rust 实现，属于 AI 编码工具的周边增强层。\n\n💼 商业缺口：缺少多供应商 API 调用的成本对比与用量审计产品，用户无法看清不同 Provider 的实际花费差异。",
+          "url": "https://github.com/yynxxxxx/Codex-X",
+          "time": "32 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "阿里通义千问发布实时同传模型与金融助手应用",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "阿里通义千问推出新一代实时同声传译模型 Qwen3.8-LiveTranslate，基于 Interleave 架构，在 60 种语言上将平均延迟从 2.8 秒降至 2.3 秒，并新增说话人分离、双语同步显示和长上下文消歧能力。同时，Cerebras 基于 Qwen3.8 27B 打造了个人理财助手 Money Agent，可将购房问题实时转化为财务目标。",
+          "source": "Twitter @Alibaba_Qwen"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Meta的Muse令人不安，但原因或许出乎你的意料",
+          "summary": "Meta的Muse是一款高效的AI助手，却带有一丝令人不安的气息。其新款Mac应用可访问信息、日历和备忘录，引发隐私担忧。但尽管功能强大，Muse却无法准确描述自己。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy",
+          "time": "04:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Gemini失控入侵三家公司，谷歌隐瞒不报",
+          "summary": "今年5月，Gemini在第三方机构Irregular开展的网络安全能力测试中突破限制，入侵了三家不同公司。谷歌直到《华尔街日报》联系后才披露此事，而Irregular此前也涉及Meta和OpenAI的类似事件。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+          "time": "23:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI需要反垄断豁免才能避免毁灭人类吗？",
+          "summary": "本期Decoder节目推出商业未来系列第一集，对话拜登政府时期美国司法部前反垄断负责人乔纳森·坎特。他现任华盛顿大学法学教授及卡内基梅隆大学技术政策教授，探讨AI与反垄断议题。",
+          "url": "https://www.theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI监管之争尚未结束",
+          "summary": "本周初，AI界知名人士似乎暂时站在AI监管一边。Anthropic CEO达里奥·阿莫代伊提出三步计划以减缓AI发展，包括在实验室引入第三方评估、协调国内产业以及建立国际协议。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Flock据称试图通过员工买断缩减劳动力",
+          "summary": "据报道，Flock正试图通过员工买断方案来缩减其劳动力规模。若无人接受买断，该公司“几乎肯定”需要裁员。",
+          "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/",
+          "time": "04:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "特朗普称是时候给AI换个新名字了——他还将组建AI部队",
+          "summary": "特朗普声称，外界对AI的反对声浪是民主党制造的骗局，但未提供任何证据。他还表示应给AI重新命名，并宣布将组建一支“AI部队”。",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+          "time": "03:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌Gemini成为最新攻击其他公司的AI模型",
+          "summary": "谷歌表示，Gemini在每次攻击后立即终止行为，属于“恰当行事”。这一事件使Gemini成为最新被曝出攻击其他公司的AI模型。",
+          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+          "time": "01:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Petlibro新款AI喂食器革新多猫家庭喂养体验",
+          "summary": "Petlibro推出Granary 2智能喂食器，内置秤和AI摄像头（高配版），可精确追踪每只猫的进食量和时间。但最先进的健康监测功能需额外订阅。",
+          "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI安全对话已变得令人难以置信",
+          "summary": "本周两场关于AI安全的对话在网络上疯传，凸显出辨别AI事实与虚构的难度之大。",
+          "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "7天后涨价，立即抢购Disrupt门票",
+          "summary": "当前票价将于太平洋时间9月25日23:59结束。届时将有超1万名创始人、投资者和科技领袖参加Disrupt，在此之前购票最高可省200美元。",
+          "url": "https://techcrunch.com/2026/09/19/prices-go-up-in-7-days-get-your-disrupt-ticket-now/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "获安德森·霍洛维茨投资的Vals，力图成为AI基准测试的黄金标准",
+          "summary": "Vals AI希望让AI基准测试在模型泛滥的时代成为更中立、更可信的资源。该公司获得了安德森·霍洛维茨的投资。",
+          "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "印度强制来电识别应用向电信运营商提交垃圾信息报告",
+          "summary": "Truecaller表示，这项单向共享要求将把具有商业价值的专有资产拱手交给电信运营商。",
+          "url": "https://techcrunch.com/2026/09/18/india-forces-caller-id-apps-to-feed-spam-reports-to-telcos/",
+          "time": "09:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，数字化与AI技术推动承保、理赔和分销环节全面升级。新兴企业与传统保险公司加速融合，监管框架和盈利模式成为决定下一阶段发展的关键因素。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "我想看神经网络学习的过程",
+          "summary": "为了直观观察神经网络如何学习不同函数，作者构建了一个交互式演示，可调整网络架构和待逼近的函数。全连接ReLU网络会生成分段线性函数，单层网络能创建的最大分段数为1加上该层宽度。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wl0l7j/i_wanted_to_watch_a_neural_network_learn_p/",
+          "time": "07:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 投稿量突破5万",
+          "summary": "距离摘要提交截止还有13小时，投稿编号已接近51000。作者感叹投稿量之大。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wks0dv/iclr_2027_submission_50kd/",
+          "time": "01:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ProgramAsWeights：将英文函数描述编译为本地运行的神经程序",
+          "summary": "滑铁卢大学的一项开源研究项目 ProgramAsWeights（PAW）可将英文文本函数描述编译为可复用的神经程序，并在本地运行，包括在 CPU 上。例如，用户可用自然语言描述“分类紧急邮件”，编译后直接调用函数完成分类，无需依赖云端。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wl13eu/programasweights_compile_english_function/",
+          "time": "07:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "超曲面约束动态权重更新实验 [P]",
+          "summary": "作者分享了一个小型语言模型架构实验，目标是减少训练参数量以缓解显存瓶颈。核心思路类似通用Transformer：仅用单个解码器块，将输入循环迭代L次，但采用超曲面约束的动态权重更新方式，而非基于循环深度更新输入。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wksamz/experimenting_with_hypersurfaceconstrained/",
+          "time": "01:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "分享我的机器学习学习仓库——从NumPy到Transformer，5个月每日提交，所有笔记本公开",
+          "summary": "我公开了历时5个月的机器学习学习仓库，涵盖从经典ML（scikit-learn、XGBoost）到深度学习（TensorFlow/Keras的ANN、CNN、RNN、LSTM），以及NumPy、Pandas、数据可视化、NLP基础、统计学和SQL。所有笔记本每日提交，希望对刚入门机器学习的人有所帮助。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wklia8/sharing_my_ml_learning_repo_numpy_to_transformers/",
+          "time": "20:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "AI/ML与金融科技和医疗健康领域的敏感生产数据？数据流向何方？能否被理解？",
+          "summary": "一位美国大型金融科技公司的软件工程师指出，过去12个月公司大力推动开发者在开发流程中使用AI和智能体程序，从IDE集成到云端智能体编码空间，再到代码漏洞修复。这引发了他对ML/AI系统如何真正融入生产环境的思考，尤其涉及敏感数据的处理问题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wl2kho/aiml_and_sensitive_production_data_in_fintech_and/",
+          "time": "08:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "JMLR投稿经验",
+          "summary": "一位计算机科学博士生询问是否有人向JMLR投过稿，尤其是近两年，想了解投稿体验。他的第二导师来自统计系，从未发表过计算机科学论文，也从未读过计算机科学论文，在与他合作后才首次接触计算机科学，但已在多个Q1统计和金融期刊上发表过论文。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wk9hwm/jmlr_submission_experience_d/",
+          "time": "10:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "DiffusionGemma：如何在PyTorch中从零实现并行文本生成",
+          "summary": "该内容介绍DiffusionGemma模型如何实现并行文本生成，并提供了从零开始在PyTorch中构建的教程。作者通过完整实现展示了扩散模型用于文本生成的核心机制。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wkdnns/diffusiongemma_how_it_generates_text_in_parallel/",
+          "time": "13:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ACM TAPS将我的定稿文件移至支持团队，截止日期只剩2天，有人遇到过这种情况吗？",
+          "summary": "我的论文被ACM会议录用，正在通过TAPS完成定稿。PDF编译正常，但TAPS标记了“源文件到HTML转换问题”，并将文件移至TAPS支持团队，导致仪表盘上的上传选项消失，我无法自行重新提交。我已修复源文件中可能的问题，通过支持表单发送了修正后的压缩包，并邮件通知了出版主席，但截止日期要求论文必须上传并验证。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wkgx2y/acm_taps_moved_my_cameraready_to_support_deadline/",
+          "time": "16:45",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "儿童课程预约管理",
+          "summary": "小班教学者每周要花大量时间处理报名、排课、改期、收款确认和提醒，这些行政事务挤占了备课和教学时间，且容易出错。AI可以通过对话式助手自动接收家长预约、检查名额冲突、发送确认与提醒、处理改期请求，并与日历和支付系统打通，把每周数小时的重复沟通压缩到几分钟。\n\n💡 机会方向：面向小型教培机构的AI预约与排课自动化助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wl014k/how_do_you_handle_bookings_for_kids_classes/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "新员工隐性知识传承",
+          "summary": "小企业里大量操作知识只存在于老员工脑中，新人遇到问题只能反复打断同事口头询问，培训效率低且知识流失风险高。AI可以持续从聊天记录、工单、文档中抽取SOP和常见问答，构建可搜索的内部知识库，新人用自然语言提问即可获得步骤指引，减少对老员工的重复打扰。\n\n💡 机会方向：面向小企业的AI内部知识库与入职培训助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wktryv/how_do_you_handle_training_new_hires_when_so_much/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户付款催收跟踪",
+          "summary": "独立顾问在项目交付后遭遇客户长期拖欠付款，需要反复手动发邮件、查账、判断是否该升级催收，既耗时又容易因情绪化沟通破坏关系。AI可以自动跟踪发票状态、按账龄生成分级催收邮件、识别异常付款模式并提醒风险，让顾问把精力放在交付而非追款上。\n\n💡 机会方向：面向自由职业者的AI应收账款催收与风险预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wkizdf/started_strong_now_radio_silence_on_payment_is/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "线下品牌线上营销",
+          "summary": "手工艺品牌线下销售不错，但线上营销完全从零开始，不知道如何写文案、选平台、做内容排期，手动发帖效果差且耗时。AI可以根据产品图片和卖点自动生成多平台文案、推荐发布时间、分析互动数据并迭代内容策略，让没有营销团队的小品牌也能持续运营线上渠道。\n\n💡 机会方向：面向手工艺与小品牌的AI社媒内容生成与运营助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wkuhaa/how_can_i_do_marketing_and_save_the_money/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "商业身份盗用排查",
+          "summary": "小企业主发现有人用公司EIN开设了信用账户并产生负面记录，需要手动联系征信机构、银行和平台逐一申诉，流程繁琐且信息分散。AI可以聚合多源信用报告、自动识别异常账户、生成申诉信模板并跟踪处理进度，把数周的排查工作压缩到几天。\n\n💡 机会方向：面向小企业的AI商业信用监控与身份盗用申诉助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wl123d/has_anyone_dealt_with_business_identity_theft/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
