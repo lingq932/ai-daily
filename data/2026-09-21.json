@@ -1,0 +1,385 @@
+{
+  "date": "2026-09-21",
+  "timeRange": "2026-09-20 09:00 ~ 2026-09-21 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：Lain，面向编码代理的结构化代码图与代理协调器",
+          "summary": "文章链接：https://github.com/spuentesp/lain 评论链接：https://news.ycombi",
+          "url": "https://github.com/spuentesp/lain",
+          "time": "08:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：使用 GPT 5.6 将 AVS 音频可视化转换为 WebAssembly",
+          "summary": "文章链接：https://strlns.github.io/very-serious-vibecoding/AVS-Web-Native-Edi",
+          "url": "https://strlns.github.io/very-serious-vibecoding/AVS-Web-Native-Editor-Alpha/",
+          "time": "07:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：AI 采用率调查（普查）",
+          "summary": "文章链接：https://www.crawlspider.com/pages/ai-adoption-rate 评论链接：ht",
+          "url": "https://www.crawlspider.com/pages/ai-adoption-rate",
+          "time": "06:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：jevals——用类型化 Jev 决策取代 LLM 评审",
+          "summary": "文章链接：https://github.com/openlayer-ai/jevals 评论链接：https://news.y",
+          "url": "https://github.com/openlayer-ai/jevals",
+          "time": "06:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：在单张 3090 上让 Qwen 3.8 27B 自主（近似）运行 3 周",
+          "summary": "文章链接：https://huggingface.co/datasets/skeole/qwen-cpp-agent-0-protocol Co",
+          "url": "https://huggingface.co/datasets/skeole/qwen-cpp-agent-0-protocol",
+          "time": "05:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：AgentTrace——面向 AI 代理的可观测性与运行时自愈引擎",
+          "summary": "文章链接：https://github.com/mohitkumar188/AgentTrace 评论链接：https://n",
+          "url": "https://github.com/mohitkumar188/AgentTrace",
+          "time": "05:24",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "ECC：智能体运行框架性能优化系统",
+          "summary": "这是一个面向AI智能体（agent）的性能优化框架，提供技能、本能、记忆等模块化能力，帮助开发者构建更高效的智能体应用。今日获得826颗星，使用JavaScript编写，说明智能体基础设施仍是当前热门方向，值得关注其对agent harness的抽象设计。\n\n💼 商业缺口：缺少针对智能体技能/记忆模块的版本治理与效果审计层，难以证明某次优化是否真正提升了任务成功率。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "826 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "BuilderIO/agent-native：构建智能体应用的框架",
+          "summary": "这是一个用于构建智能体（agentic）应用的开发框架，帮助开发者以更原生的方式组织AI智能体的逻辑与交互。使用TypeScript编写，今日新增98颗星，适合关注AI应用层架构的开发者参考。\n\n💼 商业缺口：缺少智能体应用上线后的行为合规审计与成本归因工具，团队难以追踪每个agent决策的付费责任。",
+          "url": "https://github.com/BuilderIO/agent-native",
+          "time": "98 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cloudflare/security-audit-skill：多阶段安全审计的编码智能体技能",
+          "summary": "这是Cloudflare推出的编码智能体技能，用于执行多阶段安全审计并支持独立验证，让AI智能体能够自动化完成代码安全审查流程。今日暴涨2428颗星，使用JavaScript编写，反映出AI驱动的安全审计是当前极受关注的落地场景。\n\n💼 商业缺口：缺少对AI审计结论的可信度评级与人工复核留痕层，企业无法向合规方证明审计结果经过独立验证。",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "time": "2,428 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "trycua/cua：开源计算机使用智能体驱动与基准",
+          "summary": "这是一个面向computer-use（计算机操作）智能体的开源项目，提供跨操作系统驱动、设备集群管理和基准测试能力，目标是规模化扩展computer-use 2.0。今日获得1018颗星，使用HTML编写，是AI智能体操控真实桌面环境这一前沿方向的重要基础设施。\n\n💼 商业缺口：缺少computer-use智能体操作行为的录制回放与责任追溯层，企业难以审计AI在真实系统上执行了哪些敏感操作。",
+          "url": "https://github.com/trycua/cua",
+          "time": "1,018 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/financial-services",
+          "summary": "这是Anthropic推出的金融服务相关项目，使用Python编写，今日获得260颗星。结合Anthropic在Claude系列模型上的布局，该项目很可能面向金融行业的AI应用场景，值得关注大模型在垂直金融领域的落地方式。\n\n💼 商业缺口：缺少面向金融AI的监管合规证据链与模型决策可解释性报告层，机构难以满足审计与监管报送要求。",
+          "url": "https://github.com/anthropics/financial-services",
+          "time": "260 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/claude-code：终端中的智能体编程工具",
+          "summary": "这是Anthropic官方推出的Claude Code，一个运行在终端中的智能体编程工具，能够理解代码库并协助完成编码任务。今日获得419颗星，使用TypeScript编写，是当前AI编程助手赛道最受关注的产品之一，代表了LLM驱动开发工作流的演进方向。\n\n💼 商业缺口：缺少团队级的AI编码使用成本分摊与代码归属审计层，企业无法量化AI生成代码的维护责任与许可风险。",
+          "url": "https://github.com/anthropics/claude-code",
+          "time": "419 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "higgsfield-ai/higgsfield：容错高扩展GPU编排与机器学习框架",
+          "summary": "这是一个面向机器学习的GPU编排框架，强调容错性和高可扩展性，帮助团队高效调度大规模GPU资源用于模型训练与推理。今日获得465颗星，使用Jupyter Notebook编写，反映出AI基础设施层对弹性算力调度的持续需求。\n\n💼 商业缺口：缺少GPU算力使用的成本归因与配额治理层，团队无法按项目/用户精确核算AI训练推理的算力开销。",
+          "url": "https://github.com/higgsfield-ai/higgsfield",
+          "time": "465 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "coder/coder：为开发者和其智能体提供安全环境",
+          "summary": "这是一个为开发者和AI智能体提供安全隔离开发环境的平台，让智能体能够在受控环境中执行任务。今日获得379颗星，使用Go编写，随着AI编码智能体普及，为其提供安全运行沙箱成为关键基础设施需求。\n\n💼 商业缺口：缺少智能体在安全环境中的权限边界审计与越权行为告警层，企业难以证明AI智能体未触碰敏感资源。",
+          "url": "https://github.com/coder/coder",
+          "time": "379 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "vercel-labs/json-render：生成式UI框架",
+          "summary": "这是Vercel Labs推出的生成式UI（Generative UI）框架，让界面能够由AI动态生成而非预先硬编码。今日获得291颗星，使用TypeScript编写，代表了生成式AI从文本、图像向交互界面延伸的前沿探索方向。\n\n💼 商业缺口：缺少生成式UI的组件合规与品牌一致性审查层，企业难以保证AI动态生成的界面符合设计规范与无障碍标准。",
+          "url": "https://github.com/vercel-labs/json-render",
+          "time": "291 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "addyosmani/agent-skills：AI编码智能体的生产级工程技能",
+          "summary": "这是由知名开发者Addy Osmani推出的项目，为AI编码智能体提供生产级工程技能集合，帮助智能体掌握更规范的软件开发实践。今日获得736颗星，使用JavaScript编写，反映出社区对提升AI编码智能体工程质量的强烈需求。\n\n💼 商业缺口：缺少智能体技能库的版本溯源与技能效果评估层，团队无法判断某个技能是否真正提升了代码质量或引入了风险。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "736 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "英伟达黄仁勋认为AI恐惧被夸大，无人感到意外",
+          "summary": "可能从AI热潮中获利最多的黄仁勋似乎认为自己比任何人都更懂AI，包括研究AI数十年的研究人员。在接受CBS《周日晨间》采访时，他声称AI终结人类的概率为“0%”。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+          "time": "02:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "特朗普称希望组建“AI部队”",
+          "summary": "特朗普在Truth Social发文称，希望任命一名“AI沙皇”来领导新的“AI部队”。此举正值政界乃至业界越来越多呼吁放缓AI发展之际。他表示其政府“不会以任何方式阻碍”AI发展。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "time": "23:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "人类而非失控的AI仍是能源系统最大的网络安全风险",
+          "summary": "在近期备受关注的黑客攻击引发AI可能“杀死全人类”的担忧之前，我们的能源系统早已极易受到网络攻击，且风险还在不断增长。专家约书亚·科曼形容说：“我们一直是猎物，只是靠着捕食者的胃口勉强生存。”",
+          "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026 早鸟票倒计时6天，最高可省200美元",
+          "summary": "TechCrunch Disrupt 2026 当前票价将于9月25日太平洋时间晚上11:59结束，仅剩6天。届时将有超过1万名创始人、投资者和科技领袖参会，在此之前购票最高可节省200美元。",
+          "url": "https://techcrunch.com/2026/09/20/6-days-left-to-get-ahead-at-techcrunch-disrupt-2026/",
+          "time": "05:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "世界模型公司守口如瓶",
+          "summary": "世界模型领域的公司手握大量资金和关注度，但无论是创始人还是其数据供应商，都不愿透露他们究竟在构建什么。",
+          "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+          "time": "04:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI行业真的准备好放缓脚步了吗？",
+          "summary": "在Equity节目中，我们讨论了AI高管们是否真心希望放缓发展速度。",
+          "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+          "time": "02:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Vocci 戒指为会议记录带来全新形态",
+          "summary": "Vocci 推出了一款售价 249 美元的轻量级戒指，可用于会议记录，为这一场景增添了新的硬件形态。不过，该产品也可能引发一些隐私方面的担忧。",
+          "url": "https://techcrunch.com/2026/09/20/voccis-ring-adds-a-new-form-factor-to-meeting-note-taking/",
+          "time": "02:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "ScrollEd想将教科书变成TikTok",
+          "summary": "ScrollEd将教科书转化为类似Instagram的可滚动信息流，包含视频、音频和测验。这家帕洛阿尔托初创公司由学生联合创始人（也是夫妻）Utsav Gupta和Rebecca Neff创立，并在TechCrunch Disrupt上进行了推介。",
+          "url": "https://techcrunch.com/2026/09/20/scrolled-wants-to-turn-textbooks-into-tiktok/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业在经历高速增长后进入调整期，头部企业面临盈利压力与估值回调，而专注于细分场景和AI驱动风控的初创公司仍获资本青睐。传统保险公司加速数字化转型，通过合作与并购整合技术能力，监管框架也在逐步完善以平衡创新与风险。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "你对ICLR LLM反馈的体验如何？[D]",
+          "summary": "除了投稿数量离谱之外，想听听大家的体验。对我来说，反馈中有1-2条有效意见，但有3页吹毛求疵的内容。我有时间处理这两类问题，但想知道你们是否也有同感。总体而言，我认为这是一个有趣的尝试，最终在某种意义上确实改进了我的论文。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wllbz0/how_is_your_experience_with_iclr_llm_feedback_d/",
+          "time": "00:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Hemmingway-1：Apache-2.0 许可的 27B 创意写作微调模型（基于 Qwen3.8-27B，EQ-Bench 4 得分 1330）",
+          "summary": "一家来自瑞士和南非的小型实验室开源了首个模型 Hemmingway-1，这是基于 Qwen3.8-27B 微调的 27B 模型，专攻创意写作和短篇个人文本（故事、对话、角色扮演、短信、邮件）。模型采用 Apache-2.0 许可，在 Hugging Face 上发布纯权重，bf16 格式共 54.7 GB，兼容 vLLM，并包含 MTP 层。其 EQ-Bench 4 得分为 1330，在内部盲测写作基准中排名第一。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wlr1w5/hemmingway1_an_apache20_27b_creativewriting/",
+          "time": "03:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "深入解析 sanoTTS——一个仅 294,279 参数的 TTS 系统",
+          "summary": "sanoTTS 是一个仅 294,279 参数的轻量级文本转语音系统。作者通过交互式可视化网站展示其内部机制，页面中每个张量都是 int8 模型合成真实句子时捕获的实际中间值，而非模拟数据，旨在帮助直观理解其处理句子的完整流程。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wlbhw8/inside_sanotts_a_294279parameter_tts_system_p/",
+          "time": "16:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Autograd 项目 [P]",
+          "summary": "一名高三学生出于对机器学习的兴趣，用 C++ 实现了一个简单的张量库和自动微分（autograd）系统，作为学习机器学习基础的小项目。他希望获得机器学习与 C++ 爱好者的建议和建设性批评。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wlj8vv/autograd_project_p/",
+          "time": "22:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "为什么去污染报告无法解决基准污染问题，评估者应该怎么做",
+          "summary": "今年2月，OpenAI停止报告SWE-bench Verified并建议其他实验室也停止使用。他们测试的每个前沿模型都能在某些任务中复现人类编写的参考修复或问题陈述的逐字细节。进展已放缓至六个月仅提升六分，且剩余分数中有多少真正代表能力已不明朗。构建该基准且最有理由保留它的实验室，恰恰是将其退役的那一个。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wlimaj/why_decontamination_reports_cant_fix_benchmark/",
+          "time": "22:31",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "现金流缺口预测",
+          "summary": "小企业主用两辆卡车跑运输，大客户走Net 30/60账期，但油费、工资、保险等支出到期更早，只能靠脑子记、Excel表或临时垫资来硬扛，经常半夜睡不着。AI可接入银行流水与应收账款，自动预测未来60天现金流缺口并提前预警。\n\n💡 机会方向：面向小企业的AI现金流预测与账期错配预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wlt3eb/how_do_you_all_handle_cash_flow_gaps_when_a_big/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户流失早期预警",
+          "summary": "老客户突然停止下单，没有投诉、没有差评，商家直到月底对账才发现少了一笔收入，完全不知道对方为什么走。AI可监控订单频率、金额、互动记录的变化，在客户沉默前自动标记异常并生成挽回话术或回访提醒。\n\n💡 机会方向：基于订单行为的小微客户流失预警与自动挽回助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wlpyrs/how_do_you_find_out_a_customer_was_unhappy_before/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "采购订单条款解读",
+          "summary": "小企业主收到一封充满术语的采购订单邮件，看不懂PO到底意味着什么、有什么法律和付款义务，只能发帖求人“像给傻子一样解释”。AI可上传PO或合同截图，自动提取关键条款、付款条件、违约责任，并用大白话逐条解释风险。\n\n💡 机会方向：面向非法律背景小企业主的AI合同/订单条款解读工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wlqv90/what_does_purchase_order_mean_exactly_spell_it/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "供应商合同起草",
+          "summary": "小企业主想从中国采购品牌手机壳，知道要签供应商合同但不知道应该写哪些条款，只能上网发帖问陌生人该放什么内容。AI可根据品类、付款方式、交期、质检标准等输入，自动生成包含知识产权、验货、违约赔偿等条款的采购合同草稿。\n\n💡 机会方向：面向跨境小卖家的AI采购合同自动生成与风险条款推荐",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wlsf10/sourcing_branded_phone_cases_from_china_what/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "经营数据月度复盘",
+          "summary": "小企业主发现某月销售暴跌70%，却不知道这是季节性波动还是经营出了问题，只能发帖问“这正常吗”。AI可自动汇总每月销售、成本、客流数据，对比历史同期和行业基准，生成异常归因和行动建议，而不是让老板凭感觉焦虑。\n\n💡 机会方向：小企业AI经营月报与异常波动自动归因工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wlxcac/is_it_normal_for_sales_to_go_down_like_70_down/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
