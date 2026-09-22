@@ -1,0 +1,558 @@
+{
+  "date": "2026-09-22",
+  "timeRange": "2026-09-21 09:00 ~ 2026-09-22 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Meta的Muse AI代理被亚马逊封禁",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "据GeekWire报道，Meta的Muse AI代理已被禁止代表用户亚马逊购物。周日起，Muse用户收到弹窗提示，称“未经授权的AI代理持续访问违反亚马逊使用条",
+              "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "亚马逊拥有自己的基础模型系列以及互联网上最受欢迎的推理平台之一。只要没有法律义务向Meta的AI代理Muse开放，亚马逊就没有理由这么做。",
+              "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/"
+            }
+          ]
+        },
+        {
+          "headline": "Jev相关AI决策工具发布",
+          "coverage": [
+            {
+              "source": "Product Hunt",
+              "summary": "为软件自动化提供快速、结构化的AI决策能力。",
+              "url": "https://www.producthunt.com/products/jev-2"
+            },
+            {
+              "source": "HN Show",
+              "summary": "Jev能否比clang -Oz更好地优化编译后二进制文件的大小？结果表明……",
+              "url": "https://github.com/Ramneet-Singh/jevopt"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "Jev基准测试其训练方法名为“校准决策强化学习”。与人工标注的校准差距（越低越好）：是/否任务中Jev为5.0，Gemini 3.8 Flash为2.0；单选任",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1wmre0b/jevs_calibration_was_measured_the_llms_won_d/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "NiubiGEO | 开源AI可见性。人力驱动增长。",
+          "summary": "开源AI可见性工具，通过人力驱动实现增长。",
+          "url": "https://www.producthunt.com/products/niubigeo",
+          "time": "10:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Jev | 面向软件自动化的快速、结构化AI决策",
+          "summary": "为软件自动化提供快速、结构化的AI决策能力。",
+          "url": "https://www.producthunt.com/products/jev-2",
+          "time": "10:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Google Flow for iOS & Android | 谷歌的AI创意工作室现已登陆移动端",
+          "summary": "谷歌的AI创意工作室现已登陆iOS和Android移动平台。",
+          "url": "https://www.producthunt.com/products/google",
+          "time": "12:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Jevopt：使用Jev做出智能编译器优化决策",
+          "summary": "Jev能否比clang -Oz更好地优化编译后二进制文件的大小？结果表明……",
+          "url": "https://github.com/Ramneet-Singh/jevopt",
+          "time": "08:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 由Jev驱动的Obsidian搜索",
+          "summary": "文章链接：https://github.com/Emlembow/jev-graph-search 评论链接：https://",
+          "url": "https://github.com/Emlembow/jev-graph-search",
+          "time": "08:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Context Tetris——消除行来积攒有用的上下文，将噪音拒之门外",
+          "summary": "文章链接：https://vstorm-co.github.io/agenticos/arcade/context.html 评论",
+          "url": "https://vstorm-co.github.io/agenticos/arcade/context.html",
+          "time": "07:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 基于AWS Lambda的Laya决策引擎，由Lambda SnapStart提供支持",
+          "summary": "文章链接：https://github.com/HQarroum/laymbda 评论链接：https://news.ycom",
+          "url": "https://github.com/HQarroum/laymbda",
+          "time": "06:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: SoTA Feed——来自重要实验室的每一次开放权重发布",
+          "summary": "文章链接：https://sota.borgcloud.ai/ 评论链接：https://news.ycombinator.c",
+          "url": "https://sota.borgcloud.ai/",
+          "time": "06:19",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "BuilderIO/agent-native：构建智能体应用的框架",
+          "summary": "这是一个用于构建智能体（agentic）应用的开发框架，帮助开发者更高效地搭建具备自主决策与工具调用能力的 AI 应用。今日新增 607 stars，采用 TypeScript 编写，反映出智能体应用开发工具链正处于高速增长期，值得关注其对标 LangChain 等框架的差异化定位。\n\n💼 商业缺口：缺少针对智能体应用上线后的行为审计、权限边界与合规追踪层。",
+          "url": "https://github.com/BuilderIO/agent-native",
+          "time": "607 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "trycua/cua：开源计算机使用驱动与跨系统集群基准",
+          "summary": "该项目提供开源的计算机使用（computer-use）驱动、跨操作系统集群管理以及评测基准，用于规模化运行能操控图形界面的 AI 智能体。今日新增 609 stars，语言为 HTML，说明 computer-use agent 是当前 AI 落地最热的方向之一，而标准化评测与跨平台调度正是其痛点。\n\n💼 商业缺口：缺少面向 computer-use 智能体的操作回放、责任归属与安全沙箱审计产品。",
+          "url": "https://github.com/trycua/cua",
+          "time": "609 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "akitaonrails/ai-memory：智能体编码 CLI 的长期记忆方案",
+          "summary": "该工具为智能体编码 CLI 提供长期记忆能力，并支持在不同会话或工具之间进行上下文交接（handoff）。今日新增 167 stars，采用 Rust 编写，性能与本地化部署是卖点，解决了 AI 编程助手\"记不住\"项目历史的核心痛点。\n\n💼 商业缺口：缺少对记忆内容的版本管理、敏感信息过滤与团队共享记忆的治理层。",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "time": "167 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "coder/coder：为开发者及其智能体提供安全环境",
+          "summary": "Coder 提供面向开发者及其 AI 智能体的安全远程开发环境，让智能体可以在受控的基础设施中执行编码任务。今日新增 460 stars，采用 Go 编写，随着 AI 编程智能体普及，如何安全隔离其运行环境成为企业采用的关键门槛。\n\n💼 商业缺口：缺少针对 AI 智能体在开发环境中行为的成本核算与权限审计产品。",
+          "url": "https://github.com/coder/coder",
+          "time": "460 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "anthropics/financial-services",
+          "summary": "这是 Anthropic 官方发布的金融服务相关仓库，采用 Python 编写，今日新增 424 stars。结合 Anthropic 在 Claude 大模型上的布局，该仓库很可能提供面向金融行业的 AI 应用示例、工具或合规参考实现，对金融领域落地大模型具有指导意义。\n\n💼 商业缺口：缺少面向金融 AI 应用的监管合规证据留存与模型输出可解释性审计层。",
+          "url": "https://github.com/anthropics/financial-services",
+          "time": "424 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "zhouxiaoka/autoclip：AI 驱动的视频高光剪辑工具",
+          "summary": "AutoClip 是一款 AI 驱动的视频剪辑工具，能自动提取高光片段并生成二次创作内容。今日新增 250 stars，采用 Python 编写，面向短视频创作者，将大模型/多模态能力用于内容生产提效，属于生成式 AI 在内容创作领域的典型应用。\n\n💼 商业缺口：缺少针对 AI 生成剪辑内容的版权溯源、素材授权与平台合规检测服务。",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "time": "250 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "yynxxxxx/Codex-X：OpenAI Codex 桌面端/CLI 可视化管理工具",
+          "summary": "该工具为 OpenAI Codex 的桌面端与 CLI 提供可视化管理，支持 Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理以及 TOML 配置。今日新增 50 stars，采用 Rust 编写，解决了多模型、多配置下 AI 编码工具管理混乱的问题。\n\n💼 商业缺口：缺少对提示词注入与 MCP 调用的安全审计、密钥托管与团队配置治理产品。",
+          "url": "https://github.com/yynxxxxx/Codex-X",
+          "time": "50 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "约书亚·本吉奥呼吁管控前沿AI模型",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥对多国共同呼吁前沿AI模型采取强制部署前测试、独立评估、全球标准协调及设立政府间组织等关键措施表示鼓舞，认为这些行动有助于缓解前沿AI的重大风险。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI从黑客变为被黑",
+          "summary": "OpenAI从攻击者变成了被攻击目标。此外，还可构建并测试你自己的AI图像技能包。",
+          "url": "https://therundownai.beehiiv.com/p/openai-goes-from-hacker-to-hacked",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "加州收紧AI数据中心能源和水资源使用规定",
+          "summary": "加州州长加文·纽森签署七项法案，旨在防止AI数据中心将公用事业成本转嫁给居民。该系列法律要求加州公用事业委员会为数据中心引入新费率分类，并强制其支付升级费用。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+          "time": "04:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "约翰·特努斯能否为苹果找到下一个大事件？",
+          "summary": "本期对话彭博社首席苹果记者马克·古尔曼，他提前曝光了苹果本月iPhone硬件发布会的几乎所有细节。节目围绕这场发布会及苹果后续动向展开讨论。",
+          "url": "https://www.theverge.com/podcast/996874/apple-john-ternus-tim-cook-mark-gurman-future-ai-siri-iphone",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "iPhone用户现可就苹果2.5亿美元Siri AI和解案提交索赔",
+          "summary": "苹果同意支付2.5亿美元，以和解其未能兑现AI升级版Siri的指控。符合条件的美国iPhone用户现在可以提交索赔申请。在2024年6月10日至指定日期期间购买了iPhone 15 Pro、iPhone 15 Pro Max或任意iPhone 16机型的用户均有资格。",
+          "url": "https://www.theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+          "time": "21:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "联合国：AI 保障措施不能等待确定性",
+          "summary": "联合国科学小组警告，各国政府必须在充分理解风险之前，就对能力日益强大的 AI 智能体加以约束。这是该全球组织首次对今年早些时候 OpenAI 入侵 Hugging Face 事件作出重大评估，也巩固了 AI 本周在纽约各国领导人聚会上的全球外交议程地位。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+          "time": "18:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "亚马逊封禁Meta的Muse AI代理",
+          "summary": "据GeekWire报道，Meta的Muse AI代理已被禁止代表用户亚马逊购物。周日起，Muse用户收到弹窗提示，称“未经授权的AI代理持续访问违反亚马逊使用条款”。据报道，Meta并未提前通知亚马逊。",
+          "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+          "time": "17:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "我们如何绘制出美国边境“虚拟墙”沿线死亡的首张全面地图",
+          "summary": "我们历时15个月调查美墨边境的死亡与监控问题，起因是一个简单疑问：为何许多人在本用于追踪和逮捕的政府监控塔附近死亡？这是《MIT科技评论》与《圣地亚哥时报》合作项目“镜头下的死亡”的一部分。",
+          "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "解决美国边境“虚拟墙”缺陷的4种方法",
+          "summary": "《麻省理工科技评论》调查了美墨边境AI监控塔“虚拟墙”附近的人员死亡情况。调查发现，有人未被先进AI监控塔察觉地穿过监控区域，随后在附近死亡，遗体长时间未被发现。",
+          "url": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "美国斥资数十亿用于边境监控，为何无法在人们死亡前发现他们？",
+          "summary": "2024年4月8日，何塞·莫拉莱斯·贝尔纳尔在32岁生日前一天越境进入美国。当天早上他穿过新墨西哥州南部沙漠时，正处于三座监控塔的范围内，本应触发一系列技术警报和人工响应。",
+          "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "她死在圣地亚哥边境，监控摄像头就在眼前",
+          "summary": "2025年9月14日下午，30岁的格拉谢拉·戈麦斯·埃尔南德斯从蒂华纳东部越境进入南加州，边走边给母亲和姐妹发语音消息。她只走了几个小时就迷路了，最终死在圣地亚哥边境，而监控摄像头就在显眼处。",
+          "url": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "打造苹果零售店的人不认同硅谷对AI购物的押注",
+          "summary": "苹果零售店架构师罗恩·约翰逊表示，苹果的秘密武器始终是其员工。他认为硅谷对AI购物的押注并不正确。",
+          "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+          "time": "07:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI成立数学顾问小组，其AI已解决100多个开放问题",
+          "summary": "OpenAI成立了一个数学顾问小组，但其AI已解决超过100个开放数学问题。该小组无权放缓或改变OpenAI正在进行的数学研究。",
+          "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+          "time": "04:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "探索未来：TechCrunch Disrupt 2026 门票优惠倒计时5天，最高可省200美元",
+          "summary": "TechCrunch Disrupt 2026 门票优惠仅剩5天，最高可省200美元，第二张还可享半价。大会将于10月13日至15日在旧金山 Moscone West 举行，预计吸引超过1万名创始人、投资者和运营者参与。优惠将于太平洋时间9月25日晚上11:59结束，届时票价将上涨。",
+          "url": "https://techcrunch.com/2026/09/21/discover-whats-next-5-days-left-to-save-up-to-200-on-techcrunch-disrupt-2026/",
+          "time": "03:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta的Muse移动端上线表现超越ChatGPT早期",
+          "summary": "据Appfigures最新估算，Meta新AI智能体Muse在美国和加拿大的下载量和日活跃用户数均超过ChatGPT移动端上线同期表现。",
+          "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+          "time": "03:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta的AI代理被禁止使用亚马逊网站",
+          "summary": "亚马逊拥有自己的基础模型系列以及互联网上最受欢迎的推理平台之一。只要没有法律义务向Meta的AI代理Muse开放，亚马逊就没有理由这么做。",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+          "time": "01:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前会计师用AI打造Tabby，欲让会计师失业",
+          "summary": "Tabby是一款实时记账工具，可处理客户的文书工作，并同步提供企业最新的盈亏数据。其创始人曾是一名会计师，希望用AI取代传统会计师的工作。",
+          "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete/",
+          "time": "00:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "下一个爆款初创公司将来自哪里？Benchmark全体合伙人在TechCrunch Disrupt 2026上分享见解",
+          "summary": "下一个爆款初创公司将来自哪里？Benchmark全体合伙人将登上TechCrunch Disrupt 2026主舞台分享见解。9月25日太平洋时间晚11:59前注册可节省最高200美元。",
+          "url": "https://techcrunch.com/2026/09/21/where-will-the-next-breakout-startup-come-from-benchmarks-full-partnership-weighs-in-at-techcrunch-disrupt-2026/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌推出899美元Googlebook，押注用户会为Gemini换新笔记本",
+          "summary": "谷歌发布AI原生笔记本Googlebook，售价899美元，将Gemini深度整合到光标、语音输入、小组件等桌面体验中。这款产品是谷歌押注用户愿意为AI功能购买新硬件的尝试。",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+          "time": "22:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "从首批用户到数十亿：谷歌的罗比·斯坦加入TechCrunch Disrupt 2026",
+          "summary": "谷歌的罗比·斯坦将出席TechCrunch Disrupt 2026的Builders Stage环节，分享从首批用户增长到数十亿规模的经验。9月25日前购票可节省最高200美元。",
+          "url": "https://techcrunch.com/2026/09/21/from-first-users-to-billions-googles-robby-stein-joins-techcrunch-disrupt-2026/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "认识将在TechCrunch Disrupt 2026创业竞技场200强担任评委的新一代风投人",
+          "summary": "认识将在TechCrunch Disrupt 2026主舞台上评审创业竞技场200强的新一代风投人。请于太平洋时间9月25日23:59前注册，最高可省200美元，并获得这场最激烈创业路演竞赛的前排席位。",
+          "url": "https://techcrunch.com/2026/09/21/meet-the-next-wave-of-vcs-judging-startup-battlefield-200-at-techcrunch-disrupt-2026/",
+          "time": "22:15",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，数字化与人工智能正在重塑承保、理赔和分销等核心环节。新兴企业与传统保险公司之间的竞争与合作持续加剧，监管环境也在不断演变。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "这些并非失控AI逃脱，只是防火墙粗心失误",
+          "summary": "当前头条充斥着AI模型“逃离沙箱”甚至杀光人类的报道，但所谓“气隙隔离”的说法完全错误。实际上，没有任何一个沙箱真正实现了气隙隔离——那需要零线缆和网络接口。这些事件只是防火墙配置疏忽，而非AI自主逃脱。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wm9hgn/these_were_not_rogue_ai_escapes_just_sloppy/",
+          "time": "18:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了一个无框架原型学习器，让本地LLM即时学习和纠正事实（比反向传播快1.6-4倍）",
+          "summary": "开发者受幼儿学习方式的启发，创建了名为Jayce的项目，旨在解决本地LLM的灾难性遗忘问题。该无框架原型学习器能让本地模型即时学习和纠正事实，速度比传统反向传播快1.6至4倍。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wmn76r/i_built_a_frameworkfree_prototype_learner_that/",
+          "time": "03:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 参会选择：巴黎还是悉尼更适合与美国科技公司建立人脉？",
+          "summary": "一名研究生希望在 NeurIPS 上结识美国科技公司和实验室的行业研究员，询问美国企业和实验室的人员主要会前往悉尼还是巴黎参会。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wmesj1/for_neurips_is_paris_or_syndey_better_for/",
+          "time": "22:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "对ICLR审稿政策的担忧",
+          "summary": "ICLR审稿政策规定，名字出现在3篇及以上论文上的人需担任审稿人，但未提及资质要求。有人担心，如果一名新生在实验室3篇论文中均为第四作者，是否也必须审稿，即使他并不具备相应资格。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wm1crj/concerns_about_the_iclr_review_policy_d/",
+          "time": "11:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "机器学习系统",
+          "summary": "提问者拥有传统嵌入式系统背景，熟悉C/C++、Linux网络、内存管理、多线程、同步和中断等知识，询问这些技能在机器学习工程中是否有用。他还想知道分布式系统、编译器优化（LLVM）和并行计算等方向是否仍有价值，还是会被AI大量自动化。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wme6lx/systems_for_machine_learningd/",
+          "time": "22:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Jev的校准度被测，大模型胜出",
+          "summary": "Jev基准测试其训练方法名为“校准决策强化学习”。与人工标注的校准差距（越低越好）：是/否任务中Jev为5.0，Gemini 3.8 Flash为2.0；单选任务中Jev为9.8，DeepSeek V4.1 Flash为2.8；评分标准任务中Jev为19.7，GLM-5.3为12.9。Jev保持95%准确率，独自处理决策的比例（是/否任务中86%）仍高于所有模型，但校准更差、更擅长判断自己何时正确。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wmre0b/jevs_calibration_was_measured_the_llms_won_d/",
+          "time": "06:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "像物理学家一样剪枝大语言模型：将模块移除视为伊辛优化问题",
+          "summary": "该研究提出将大语言模型的模块剪枝问题转化为伊辛优化问题，借助统计物理方法寻找最优模块移除方案。这一视角为高效压缩大模型提供了新的理论框架和求解思路。",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "time": "21:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "按小时计费对账",
+          "summary": "小企业主雇佣按小时计费的律师、会计等专业人士时，需要逐条核对5分钟为单位的账单明细，判断哪些时间块真正产生了价值、哪些是重复沟通或低效工作，手动比对极其耗时且容易漏掉异常收费。AI可以自动解析账单条目、识别异常计费模式并对接历史记录给出质疑建议。\n\n💡 机会方向：面向小企业的按小时账单审计与异常计费识别工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wmhc3x/when_i_had_to_pay_a_lawyer_in_5_minute_blocks/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "应收账款催收追踪",
+          "summary": "小企业主为Experian这样的大客户提供服务后，对方逾期60天不付款，需要手动记录发票日期、反复发邮件催收、查找合同条款、评估是否走法律途径，整个过程缺乏系统化追踪，现金流被严重拖累。AI可以自动监控应收账款账龄、生成分级催收邮件并提示法律行动节点。\n\n💡 机会方向：小企业应收账款自动催收与账龄管理助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wmkrn4/experian_is_60_days_late_in_paying_my_small/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "库存与物流规划",
+          "summary": "小企业主在补货时反复纠结该选哪种运输方式，因为不同承运商的时效波动大，导致要么压货过多占用资金，要么断货错失销售，手动对比历史到货时间和成本非常繁琐。AI可以根据历史物流数据、销售速度和承运商表现自动推荐最优补货方案。\n\n💡 机会方向：面向小电商的智能补货与物流方案推荐引擎",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wmhy7y/which_shipping_is_best_for_planning_stock/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "B2B平台用户激活",
+          "summary": "创业者搭建了B2B平台，口碑都说好，但注册用户就是不用，需要手动分析用户行为、逐个发邮件或打电话询问原因、猜测流失节点，缺乏系统化的激活策略。AI可以自动识别用户卡在哪一步、生成个性化引导内容并触发自动化激活流程。\n\n💡 机会方向：B2B平台用户行为分析与自动化激活工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wmpvfr/people_tell_me_my_b2b_platform_is_a_great_idea/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "冷启动客户开发",
+          "summary": "小IT公司老板亲自冷打电话找客户，需要手动整理潜在客户名单、研究对方业务背景、准备开场话术、记录通话结果并安排跟进，效率极低且难以规模化。AI可以自动抓取潜在客户信息、生成个性化话术并自动记录和安排后续跟进。\n\n💡 机会方向：面向小B服务商的AI冷启动外呼与跟进助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wmnkea/cold_calling_advice/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

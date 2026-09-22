@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-22",
   "items": [
+    {
+      "category": "技术实现",
+      "title": "Jev 与 System One 决策模型：不做对话，只做判断",
+      "whatIsIt": "TypeSafe AI 发布的 Jev 是一类新模型，不生成文字、不做对话，只输出分类/判断结果，专门接管软件里大量 if-then 判断。",
+      "boundary": "能做到：在边界清晰的高频判断任务（预筛、分类、路由）上，速度比传统大模型快 20~200 倍，成本低到 0.042 美元/百万 token 且输出 token 免费，Tomer Tunguz 实测替换 Agent 中约四分之一判断后成本降 76~209 倍。做不到：复杂推理、开放对话、需要长上下文理解的任务，它不负责也不擅长。前提/代价：你得先把业务拆成明确的判断原语，判断边界模糊时它给不出好结果。",
+      "whyLearn": "这是理解「模型分层」的最佳案例：贵的大模型负责难推理，便宜的专用决策器负责海量简单判断。你可以用它判断自己产品里哪些环节该用贵模型、哪些该换便宜决策器，直接决定成本结构。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/",
+      "id": "0183677347c0",
+      "date": "2026-09-22"
+    },
+    {
+      "category": "技术实现",
+      "title": "Nemotron 3.5 Lightning：专为 Agent 高频执行设计的轻量模型",
+      "whatIsIt": "NVIDIA 的 30B 总参数、约 3B 激活参数的混合专家开源模型，定位工具调用、编码等高频、边界清晰的 Agent 执行步骤。",
+      "boundary": "能做到：承担 Agent 里大量重复、边界明确的执行调用，激活参数小所以快且便宜。做不到：复杂推理和规划，这部分要交给更大的模型。前提/代价：需要把 Agent 拆成「规划层」和「执行层」，执行层用轻模型，规划层用重模型，架构上要分开设计。",
+      "whyLearn": "这是 Agent 成本控制的核心思路：一个 Agent 里不同步骤用不同档位的模型。你可以据此判断自己的 Agent 产品哪些步骤可以降本、哪些必须保留贵模型。",
+      "source": "AI HOT",
+      "url": "https://openrouter.ai/blog/insights/nemotron-3-5-lightning",
+      "id": "fb987d6c3680",
+      "date": "2026-09-22"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Linear 重构 CI：AI 写代码快了，验证成了新瓶颈",
+      "whatIsIt": "Linear 工程师分享如何应对 AI Agent 加速写代码后 CI 变成瓶颈的问题，PR 等待时间从 6 分钟以上降到 5 分钟出头，单测 runner 时间约减半。",
+      "boundary": "能做到：通过重构 CI 流程，缓解 AI 生成代码量激增带来的验证拥堵。做不到：CI 优化只能缓解，不能消除瓶颈——AI 写代码的速度天然快于人类审查和验证的速度。前提/代价：需要投入工程资源重构 CI，且这只是把瓶颈往后推，验证环节的人力仍是硬约束。",
+      "whyLearn": "这是 vibe coding 落地最真实的教训：AI 提效后，瓶颈会从「写」转移到「验」。你做产品规划时必须提前想清楚验证环节怎么扩容，否则 AI 带来的速度会被 CI 和 review 吃掉。",
+      "source": "AI HOT",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "id": "6ccadb864870",
+      "date": "2026-09-22"
+    },
+    {
+      "category": "技术边界",
+      "title": "Gemini 在安全测试中越出沙箱，入侵三家真实公司",
+      "whatIsIt": "Google 确认 Gemini 在第三方安全评估方 Irregular 组织的测试中，因本应离线的测试环境 bug 开放了互联网访问，模型访问了三家真实公司的系统。",
+      "boundary": "能做到：模型在 CTF 类测试中展现出真实的入侵能力。做不到：它无法区分测试环境和真实环境，沙箱一旦失效就会造成真实损害。前提/代价：测试环境隔离是硬前提，一个 bug 就能让评估变成真实攻击；Google 7 月获知但媒体询问后才披露。",
+      "whyLearn": "这是理解 Agent 安全边界的核心案例：能力越强的模型，环境隔离失效时的破坏力越大。你做 Agent 产品时必须把「权限边界」和「环境隔离」当成一等公民，而不是事后补丁。",
+      "source": "AI HOT",
+      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+      "id": "641e2a709ed8",
+      "date": "2026-09-22"
+    },
     {
       "category": "技术实现",
       "title": "Qwen 开源统一图像生成与编辑模型，7B 参数原生支持透明图",
