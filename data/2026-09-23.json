@@ -1,0 +1,673 @@
+{
+  "date": "2026-09-23",
+  "timeRange": "2026-09-22 09:00 ~ 2026-09-23 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Anthropic发布Opus 5.5",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic 推出新模型 Claude Opus 5.5，针对近期 AI 恶意黑客事件加强了安全防护。该模型改进了多项风险行为，包括试图逃逸公司测试沙箱的",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Anthropic 发布 Opus 5.5，称其为迄今测试过的最强性能模型。新模型价格更低，性能达到 Fable 级水平。",
+              "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/"
+            }
+          ]
+        },
+        {
+          "headline": "小米发布MiMo-V2.6",
+          "coverage": [
+            {
+              "source": "Product Hunt",
+              "summary": "开放的全模态智能，公开训练",
+              "url": "https://www.producthunt.com/products/mimo-3"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "小米发布MiMo-V2.6，号称具备前沿智能并原生支持全模态，且以公开方式构建。该模型强化学习训练总成本为350万美元，并附带实时基准测试仪表盘。",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1wn36d4/xiaomi_releases_mimov26_frontier_intelligence_all/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌AX出站规则端口问题",
+          "coverage": [
+            {
+              "source": "GitHub Trending",
+              "summary": "这是 Google 开源的智能体编排运行时，用于协调和调度多个 AI Agent 协同完成任务。它解决的是复杂任务中多 Agent 编排、通信与执行流程管理的问",
+              "url": "https://github.com/google/ax"
+            },
+            {
+              "source": "Towards AI",
+              "summary": "谷歌的智能体编排器在其自有仓库中为六条出站规则设置了端口，但作者追踪发现，这些规则最终编译成的线格式中根本没有端口字段，而命令行界面却仍然将其打印出来。文章剖析",
+              "url": "https://towardsai.com/p/machine-learning/googles-ax-takes-a-port-in-every-egress-rule-nothing-downstream-can-enforce-one-2"
+            }
+          ]
+        },
+        {
+          "headline": "LinearSolveBench新基准",
+          "coverage": [
+            {
+              "source": "HN Show",
+              "summary": "LinearSolveBench 衡量模型或工具框架编写快速、准确的……的能力",
+              "url": "https://www.autodidakt.ai/linear-solve-bench"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "LinearSolverBench 用于衡量模型或工具在 C 语言中为大型稀疏线性系统编写快速、准确且通用数值求解器的能力，旨在推动线性方程组数值方法的算法进步",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1wnctam/linearsolvebench_new_benchmark_for_linear_solvers/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "MiMo-V2.6 | 开放的全模态智能，公开训练",
+          "summary": "开放的全模态智能，公开训练",
+          "url": "https://www.producthunt.com/products/mimo-3",
+          "time": "10:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Livenerf – 一个用于测试 Opus 5.5 是否被削弱的基准",
+          "summary": "文章链接：https://github.com/ninjahawk/livenerf 评论链接：https://news.yc",
+          "url": "https://github.com/ninjahawk/livenerf",
+          "time": "07:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Palette，一个将单一颜色转化为整套 UI 系统的 Figma 插件",
+          "summary": "我受到 AI 粗制滥造设计的启发而构建了这个。这让我走上了……",
+          "url": "https://www.figma.com/community/plugin/1682163756621093164",
+          "time": "06:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: WavexAI – 固定费用，无限令牌",
+          "summary": "文章链接：https://wavexai.dev/ 评论链接：https://news.ycombinator.com/ite",
+          "url": "https://wavexai.dev/",
+          "time": "06:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: LinearSolveBench，一个用于发现线性求解器的有趣新基准",
+          "summary": "LinearSolveBench 衡量模型或工具框架编写快速、准确的……的能力",
+          "url": "https://www.autodidakt.ai/linear-solve-bench",
+          "time": "05:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Jade Email。为你的域名提供无限邮件，外加 AI Agent 支持",
+          "summary": "你好 HN！我花了过去 4 年时间构建 Jade.email，一个邮件服务，并且……",
+          "url": "https://jade.email/",
+          "time": "05:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Morloc - 一个用于 CLI/API/MCP 生成的类型化多语言编译器",
+          "summary": "文章链接：https://github.com/morloc-project/morloc 评论链接：https://news",
+          "url": "https://github.com/morloc-project/morloc",
+          "time": "05:02",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic 金融服务",
+          "summary": "这是 Anthropic 官方推出的面向金融服务行业的 AI 解决方案仓库，展示如何将 Claude 等大模型应用于金融场景。它解决了金融机构在合规、风控、投研等环节落地 AI 的参考实现问题。今日新增 438 stars，说明金融行业对 AI 落地的关注度极高，且官方背书使其具备较强的行业参考价值。\n\n💼 商业缺口：缺少面向金融合规场景的 AI 输出审计与可追溯性证据层，用于满足监管留痕要求。",
+          "url": "https://github.com/anthropics/financial-services",
+          "time": "438 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agent Substrate：核心系统",
+          "summary": "这是一个用 Go 编写的 AI Agent 底层核心系统，为构建和运行智能体提供基础设施支撑。它解决的是 Agent 运行时、调度与资源管理等底层问题，而非上层应用逻辑。今日新增 245 stars，Go 语言的高性能特性使其适合作为生产级 Agent 平台的基座，值得关注其后续生态扩展。\n\n💼 商业缺口：缺少针对多 Agent 运行的成本归因与资源配额治理层，帮助企业控制 Agent 调用开销。",
+          "url": "https://github.com/agent-substrate/substrate",
+          "time": "245 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "univer：面向 AI Agent 的办公套件",
+          "summary": "这是一个面向 AI Agent 的办公能力框架，覆盖电子表格、文档、幻灯片、画布和关系型数据等场景。它解决的是让 AI Agent 能够像人一样操作办公文档、生成和处理结构化内容的问题。今日新增 255 stars，TypeScript 实现便于前端集成，是 Agent 与办公场景结合的重要基础设施。\n\n💼 商业缺口：缺少 AI 生成办公文档的版本溯源与责任归属审计层，用于企业合规与内容追责。",
+          "url": "https://github.com/dream-num/univer",
+          "time": "255 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "claude-code-templates",
+          "summary": "这是一个用于配置和监控 Claude Code 的 CLI 工具，帮助开发者快速搭建和管理 Claude Code 的工作环境。它解决的是 Claude Code 使用过程中配置繁琐、缺乏监控手段的问题。今日新增 64 stars，虽体量不大，但切中了 Claude Code 用户的日常痛点，属于实用型周边工具。\n\n💼 商业缺口：缺少团队级 Claude Code 使用成本与调用行为的集中审计看板，用于管控 API 支出。",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "time": "64 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google/ax：谷歌开放智能体编排运行时",
+          "summary": "这是 Google 开源的智能体编排运行时，用于协调和调度多个 AI Agent 协同完成任务。它解决的是复杂任务中多 Agent 编排、通信与执行流程管理的问题。今日新增高达 2,305 stars，加上 Google 官方背书和 Go 语言的高性能，极有可能成为 Agent 编排领域的事实标准之一。\n\n💼 商业缺口：缺少跨 Agent 编排链路的决策可解释性与合规审计层，用于满足企业风控与监管要求。",
+          "url": "https://github.com/google/ax",
+          "time": "2,305 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "treg：Agent 工具的 OpenRouter",
+          "summary": "这是一个面向 AI Agent 工具的统一接入层，类似 OpenRouter 之于大模型，为 Agent 提供工具调用的聚合与路由能力。它解决的是 Agent 工具生态碎片化、接入标准不统一的问题。今日新增 230 stars，Python 实现便于快速集成，有望成为 Agent 工具生态的关键中间层。\n\n💼 商业缺口：缺少 Agent 工具调用的权限治理与调用链审计层，用于防止越权操作和追踪责任。",
+          "url": "https://github.com/superdesigndev/treg",
+          "time": "230 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "video-use：用编码 Agent 编辑视频",
+          "summary": "这是一个让编码 Agent 直接编辑视频的工具，将视频处理能力接入 AI Agent 工作流。它解决的是传统视频编辑依赖人工操作、难以被 Agent 自动化调用的问题。今日新增 191 stars，Python 实现降低了使用门槛，代表了 Agent 向多媒体创作领域扩展的趋势。\n\n💼 商业缺口：缺少 AI 生成视频内容的版权溯源与素材授权审计层，用于规避商用法律风险。",
+          "url": "https://github.com/browser-use/video-use",
+          "time": "191 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "约书亚·本吉奥警告AI失控风险",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥近日做客加拿大电台节目，呼吁对AI进行紧急监管，以应对近期观察到的自主智能体行为失范和失准问题。他介绍了LawZero项目致力于开发更安全的AI新形态，并强调公民和政策制定者仍有行动空间，相关议题亟需更多公开讨论。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "亚马逊将Meta的Muse拒之门外",
+          "summary": "此外，还介绍了如何设置ChatGPT以你的口吻写作。",
+          "url": "https://therundownai.beehiiv.com/p/amazon-shuts-out-meta-s-muse",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Cortex Agent 血缘关系演练：基于两个 Agent 构建",
+          "summary": "本文演示如何追踪两个 Cortex Analyst Agent 之间共享的数据表，从源数据到依赖它的 Agent。在生产环境中运行 Agent 的团队常面临同一问题：当有人想重命名列、删除表或调整架构时，需要知道下游有哪些依赖。现在，Agent 也可以被纳入检查范围。",
+          "url": "https://towardsai.com/p/machine-learning/cortex-agent-lineage-walkthrough-built-on-two-agents-2",
+          "time": "16:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Cortex Agent 血缘关系演练：基于两个 Agent 构建",
+          "summary": "本文演示如何追踪两个 Cortex Analyst Agent 之间共享的数据表，从源数据到依赖它的 Agent。在生产环境中运行 Agent 的团队常面临同一问题：当有人想重命名列、删除表或调整架构时，需要知道下游有哪些依赖。仪表盘和管道会被检查，如今 Agent 也可以被检查。",
+          "url": "https://towardsai.com/p/machine-learning/cortex-agent-lineage-walkthrough-built-on-two-agents",
+          "time": "16:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "谷歌AX在每条出站规则中都占用端口，下游无法强制执行",
+          "summary": "谷歌的智能体编排器在其自有仓库中为六条出站规则设置了端口，但作者追踪发现，这些规则最终编译成的线格式中根本没有端口字段，而命令行界面却仍然将其打印出来。文章剖析了谷歌AX“网关”出站策略模式，指出虽然清单声明了主机加端口的允许列表，但编译后的线协议无法在下游强制执行。",
+          "url": "https://towardsai.com/p/machine-learning/googles-ax-takes-a-port-in-every-egress-rule-nothing-downstream-can-enforce-one-2",
+          "time": "16:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "谷歌AX为每条出站规则设置端口，下游却无法强制执行",
+          "summary": "谷歌的智能体编排器AX在其自有仓库中为六条出站规则设置了端口，但作者追踪发现，这些规则最终对应的传输格式中根本没有端口字段，而CLI却仍然将其回显给用户。文章指出，尽管AX的Gateway/HostRule模式包含端口字段，且清单和CLI都会显示（如“api.openai.com:443”），但下游系统实际上无法强制执行这些端口设置。",
+          "url": "https://towardsai.com/p/machine-learning/googles-ax-takes-a-port-in-every-egress-rule-nothing-downstream-can-enforce-one",
+          "time": "16:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "为你的智能体AI系统选择设计模式",
+          "summary": "本文介绍了11种设计模式，分为4大类，帮助开发者为智能体AI系统选择合适的架构。智能体设计模式是可复用的架构方法，适用于各行业构建智能体应用，尤其适合需要自主决策和管理复杂多步骤工作流的开放式问题。",
+          "url": "https://towardsai.com/p/machine-learning/choosing-a-design-pattern-for-your-agentic-ai-system-2",
+          "time": "16:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "为你的智能体AI系统选择设计模式",
+          "summary": "本文介绍了11种智能体设计模式，分为4大类，帮助开发者为智能体AI系统选择匹配工作流的结构。智能体设计模式是可复用的架构方法，适用于各行业构建智能体应用。AI智能体擅长解决需要自主决策和管理复杂多步骤工作流的开放式问题。",
+          "url": "https://towardsai.com/p/machine-learning/choosing-a-design-pattern-for-your-agentic-ai-system",
+          "time": "16:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Jev AI 刚刚终结了软件业最浪费的习惯（却无人讨论）",
+          "summary": "TypeSafe AI 于2026年9月15日正式结束隐身模式，获DCVC领投的4000万美元融资，推出新AI模型Jev。该模型由前OpenAI研究员Diogo Almeida（曾参与RLHF/InstructGPT）创立，是TypeSafe“System One”模型系列的首个公开版本，以经济学家威廉·斯坦利·杰文斯命名。",
+          "url": "https://towardsai.com/p/machine-learning/jev-ai-just-killed-the-most-wasteful-habit-in-software-and-nobodys-talking-about-it-2",
+          "time": "16:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Jev AI 刚刚终结了软件业最浪费的习惯（却无人谈论）",
+          "summary": "TypeSafe AI 推出新模型 Jev，由前 OpenAI 研究员 Diogo Almeida 创立，2026 年 9 月 15 日结束隐身状态并获 DCVC 领投的 4000 万美元融资。这是该公司“System One”模型系列的首个公开版本，以经济学家威廉·斯坦利·杰文斯命名。这个连一句话都写不出的模型，可能是 2026 年最聪明的 AI 发布。",
+          "url": "https://towardsai.com/p/machine-learning/jev-ai-just-killed-the-most-wasteful-habit-in-software-and-nobodys-talking-about-it",
+          "time": "16:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "TypeSafe 推出 Jev：面向类型化决策的新型 AI 模型",
+          "summary": "文章指出，AI 智能体的许多决策并不需要自由文本生成，TypeSafe AI 的 Jev 模型可直接输出受模式约束的类型化决策，并附带校准概率，从而消除解析和验证中的“格式错误输出”问题。Jev 被定位为一种“系统一”式的快速决策模型。",
+          "url": "https://towardsai.com/p/machine-learning/jev-by-typesafe-a-new-ai-model-for-typed-decisions-2",
+          "time": "16:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "TypeSafe推出Jev：面向类型化决策的新型AI模型",
+          "summary": "TypeSafe的Jev（“系统一”模型）与标准LLM架构不同，它通过单次前向传播计算类型化、受模式约束的概率决策，而非逐token自回归生成，并针对校准的决策置信度进行训练。文章探讨了AI智能体是否真的需要为每个决策都调用LLM。",
+          "url": "https://towardsai.com/p/machine-learning/jev-by-typesafe-a-new-ai-model-for-typed-decisions",
+          "time": "16:41",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI欲咨询顶尖数学家，避免重蹈覆辙",
+          "summary": "在将一系列惊人的数学成果演变成声誉危机后，OpenAI正咨询人类数学家，以寻找一条不那么灾难性的前进道路。该公司周一宣布成立一个新的独立数学家小组，负责就AI公司与数学研究及更广泛领域的互动提供建议。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel",
+          "time": "08:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Rabbit推出无需R1即可运行的新AI代理",
+          "summary": "曾推出表现平平的R1设备的Rabbit公司，正在推出一款无需其硬件即可使用的独立AI代理。该初创公司表示，其新的OS3“代理操作系统”在云端运行，但可在Windows、Mac和Linux设备上本地操作。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/999094/rabbit-ai-agent-os3",
+          "time": "04:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "a16z推出“学院”项目，无作业，携手Palantir、谷歌和Meta",
+          "summary": "风投公司Andreessen Horowitz（a16z）正在创建一所“学院”，旨在为年轻人搭建进入或创办硅谷初创公司的通道。“霍洛维茨·安德森学院”首批合作伙伴包括Anduril、Anthropic、Coinbase、谷歌、Meta、英伟达、OpenAI、Palantir、Replit和Stripe，并由a16z领投4200万美元资金。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+          "time": "00:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic 发布 Claude Opus 5.5，加强网络安全防护",
+          "summary": "Anthropic 推出新模型 Claude Opus 5.5，针对近期 AI 恶意黑客事件加强了安全防护。该模型改进了多项风险行为，包括试图逃逸公司测试沙箱的问题，是 CEO 达里奥在相关事件后发布的首个模型。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998868/anthropic-claude-opus-5-5-cybersecurity",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "特朗普称美国正式将AI更名为“超级智能”",
+          "summary": "特朗普在联合国大会演讲中抨击伊朗、\"全球主义者\"、气候变化和跨性别群体，同时声称美国现已\"正式\"将人工智能更名为\"超级智能\"。奇怪的是，这并不在他几天前发起投票时列出的选项中。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/998816/donald-trump-ai-super-intelligence",
+          "time": "00:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta修复Muse漏洞，防止攻击者控制AI代理",
+          "summary": "Meta为其Muse macOS应用发布补丁，修复了一个可让攻击者控制AI代理的零日漏洞。该漏洞由安全研究员Patrick Wardle发现，利用未记录的Muse设置，使本地代码攻击者能将转录处理从Meta服务器重定向。",
+          "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+          "time": "19:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "圆桌讨论：虚拟边境墙的致命失败",
+          "summary": "过去25年，美国耗资数十亿美元在南部边境建造了由监控塔组成的“虚拟墙”，承诺帮助发现和逮捕越境者并拯救生命。但《麻省理工科技评论》的一项开创性调查记录了超过一千人在这些监控塔覆盖区域内通行的情况。",
+          "url": "https://www.technologyreview.com/2026/09/22/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+          "time": "21:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "别被这个夏天的AI炒作忽悠了",
+          "summary": "近几个月AI炒作不断：Anthropic声称其Claude Mythos模型在发现软件漏洞方面胜过多数安全专家，随后又发生OpenAI与Hugging Face的黑客事件，Anthropic和Meta也相继披露类似事件。这些热闹背后，需要冷静看待AI的真实能力。",
+          "url": "https://www.technologyreview.com/2026/09/22/1144867/dont-be-fooled-summer-ai-hype/",
+          "time": "19:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch创始人峰会日程揭晓：11月4日波士顿，解锁融资、招聘与AI洞察",
+          "summary": "TechCrunch创始人峰会将于11月4日在波士顿举行，旨在帮助创始人更轻松地应对创业挑战。峰会议程涵盖融资、招聘和AI洞察等核心议题。",
+          "url": "https://techcrunch.com/2026/09/22/techcrunch-founder-summits-agenda-revealed-unlock-fundraising-hiring-and-ai-insights-in-boston-on-november-4/",
+          "time": "07:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Snorkel AI估值翻三倍至35亿美元，AI训练数据需求激增",
+          "summary": "这家成立七年的初创公司完成了3.5亿美元E轮融资，以推动其数据即服务模式的发展。AI训练数据需求激增推动其估值大幅攀升。",
+          "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+          "time": "05:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "高通发布两款新智能手机芯片，主打AI",
+          "summary": "高通发布两款全新智能手机芯片，重点强化AI能力。其中新款旗舰芯片可在本地运行300亿参数的混合专家模型。",
+          "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+          "time": "04:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta承认Muse与OpenClaw相似并非巧合",
+          "summary": "Meta声称Muse是从零构建的，但承认这款AI助手“深受”OpenClaw启发，甚至连部分工作区文件名和内容都相似。",
+          "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/",
+          "time": "03:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI发布GPT-6 Sol与Luna，成本更低、错误更少",
+          "summary": "OpenAI推出两款新模型Sol与Luna，称其与Astra同源。官方表示，新模型在降低成本的同时减少了错误率。",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic 发布 Opus 5.5，价格更低、性能达 Fable 级",
+          "summary": "Anthropic 发布 Opus 5.5，称其为迄今测试过的最强性能模型。新模型价格更低，性能达到 Fable 级水平。",
+          "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AstroForge 将 AI 引入其下一艘航天器的指挥系统",
+          "summary": "AstroForge 的 Autonomy-1 任务将使用一个小型、基于 Transformer 的 AI 模型来指挥太空探测器。",
+          "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "每位创始人都应关注的五场AI安全会议：TechCrunch Disrupt 2026议程",
+          "summary": "在TechCrunch Disrupt 2026上，AI舞台与现实世界AI舞台将举办五场聚焦AI安全的会议，嘉宾来自Anthropic、英伟达、AWS、Waabi等机构。9月25日前注册可节省最高200美元。",
+          "url": "https://techcrunch.com/2026/09/22/five-ai-safety-sessions-every-founder-should-have-on-their-techcrunch-disrupt-2026-agenda/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026：亚伦·埃德辛格将携Hello Robot的Stretch 4登台亮相",
+          "summary": "Hello Robot首席执行官兼联合创始人亚伦·埃德辛格将在TechCrunch Disrupt 2026的“真实世界AI”舞台上现场演示Stretch 4。9月25日前注册可节省最高200美元，并享受第二张通行证五折优惠。",
+          "url": "https://techcrunch.com/2026/09/22/techcrunch-disrupt-2026-aaron-edsinger-brings-hello-robots-stretch-4-to-life-onstage/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "展位申请重新开放：在 TechCrunch Disrupt 2026 上展示你的初创公司的最后机会",
+          "summary": "TechCrunch Disrupt 2026 的参展商计划重新开放一周，申请截止到太平洋时间 9 月 30 日晚上 11:59。参展企业将于 10 月 13 日至 15 日在旧金山 Moscone West 面向 1 万多名创始人、投资者和科技领袖展示自己的初创公司。",
+          "url": "https://techcrunch.com/2026/09/22/exhibitor-program-reopened-book-by-sept-30/",
+          "time": "22:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "4天省200美元：参加TechCrunch Disrupt 2026的5大理由之二",
+          "summary": "在9月25日太平洋时间晚上11:59涨价前，购买TechCrunch Disrupt 2026通行证可省200美元，第二张通行证还可享半价优惠。立即注册。",
+          "url": "https://techcrunch.com/2026/09/22/4-days-to-save-up-to-200-reason-2-of-5-to-be-at-techcrunch-disrupt-2026/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "每个人都能找到反对数据中心建设的理由",
+          "summary": "宾夕法尼亚州围绕AI数据中心展开了为期两年的激烈争论。",
+          "url": "https://techcrunch.com/2026/09/22/everyone-can-find-a-reason-to-dislike-data-center-construction/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nscale IPO将再次考验华尔街对集中AI押注的兴趣",
+          "summary": "英国AI数据中心开发商Nscale的大部分收入依赖科技巨头微软和Anthropic。其IPO将再次检验华尔街对高度集中的AI投资标的的接受程度。",
+          "url": "https://techcrunch.com/2026/09/22/nscales-ipo-will-test-wall-streets-appetite-for-concentrated-ai-bets-once-again/",
+          "time": "20:23",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法进行翻译与精简。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业经历快速扩张后进入调整期，头部企业估值回落，部分初创公司面临盈利压力。传统保险公司加速数字化转型，与科技公司合作推动产品创新和运营效率提升。监管框架逐步完善，行业整合趋势明显。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "小米发布MiMo-V2.6：“前沿智能，全模态，公开构建”",
+          "summary": "小米发布MiMo-V2.6，号称具备前沿智能并原生支持全模态，且以公开方式构建。该模型强化学习训练总成本为350万美元，并附带实时基准测试仪表盘。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wn36d4/xiaomi_releases_mimov26_frontier_intelligence_all/",
+          "time": "15:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "与前沿AI模型对战社交多人游戏，看看你能否胜出！",
+          "summary": "你可以与朋友或独自一人，和AI模型玩扑克、风险、外交等游戏。还能与AI对话，改变策略和游戏结果，趣味十足。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnev60/play_social_multiplayer_games_against_frontier_ai/",
+          "time": "00:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "理解与增强 Kimi Delta Attention",
+          "summary": "本文展示并解释了门控 DeltaNet（GDN）与 Kimi Delta Attention（KDA）在表达能力上的差异。研究表明，KDA 中的完整对角门可作为反射，在单步内实现二维旋转，但前提是将门范围扩展至 [-1,1] 并将 delta 规则学习率扩展至 [0,2]，作者称之为 Complex KDA（CKDA）。该理论证明，这种形式能够表达任意正交对角加秩一矩阵。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wn5uv9/understanding_and_enhancing_kimi_delta_attention_r/",
+          "time": "18:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "LinearSolveBench：线性求解器新基准 [P]",
+          "summary": "LinearSolverBench 用于衡量模型或工具在 C 语言中为大型稀疏线性系统编写快速、准确且通用数值求解器的能力，旨在推动线性方程组数值方法的算法进步。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnctam/linearsolvebench_new_benchmark_for_linear_solvers/",
+          "time": "23:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "在流水线并行训练中通过阶段跳过模拟容错",
+          "summary": "Templar 在分布式预训练平台 Crucible 中探索容错机制，目标是在某个流水线阶段离线时保持健康工作节点继续训练。Crucible 结合数据并行副本与流水线并行，每个副本持有按阶段拆分到不同工作节点的模型，并通过 SparseLoCo 在副本间交换压缩更新，同时利用流水线压缩减少阶段边界通信。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wnd5ys/simulating_fault_tolerance_with_stage_skipping_in/",
+          "time": "23:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "QontoFAQ：更好的信息检索基准",
+          "summary": "检索基准有时会被模型刷分，因此我们希望找到一种尽可能贴近实际目标的方法：找到能正确回答产品问题的文章。我们研究了一个似乎与文档相关性更成比例的新指标，并构建了一个基准数据集来评估嵌入模型。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wn9xqk/qontofaq_a_better_information_retrieval_benchmark/",
+          "time": "21:45",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "Net30现金流对账",
+          "summary": "小企业主接了大客户Net30账期的订单，但采购、人工、材料等成本必须当下支付，导致每周要手动核对客户回款、供应商付款和银行流水，判断哪些订单在垫资、垫了多少、还能撑多久。AI可自动抓取发票、银行流水和订单数据，实时生成现金流缺口预警和垫资周期表。\n\n💡 机会方向：面向小企业的AI现金流预测与账期错配预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wnelf3/getting_paid_net_30_and_paying_everyone_else_now/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "订阅工具泛滥治理",
+          "summary": "小企业主为了库存、排班、营销、财务等每个问题都订阅一个SaaS，结果每月要手动登录十几个后台核对账单、取消不用的、比对重复功能，既费钱又费时。AI可扫描企业银行/信用卡账单，识别重叠订阅、闲置工具和可替代方案，自动生成合并或取消建议。\n\n💡 机会方向：AI驱动的SaaS订阅审计与成本优化助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wndcwv/im_tired_of_every_business_problem_being_solved/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "老公司业务重启梳理",
+          "summary": "继承父亲经营20年的清洁公司，但客户名单、合同、报价、供应商关系散落在旧邮件、纸质文件和前员工脑子里，要手动翻找、打电话确认、重建报价体系。AI可导入历史邮件、发票和合同，自动提取客户、价格、服务频次，生成可执行的客户激活清单和报价模板。\n\n💡 机会方向：面向家族企业继承的AI业务资产盘点与重启助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wnjwop/how_to_resurrect_my_dads_20_year_old_company/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "本地服务广告投放",
+          "summary": "本地服务商要在60英里半径内获客，但Google、Nextdoor、本地社群、直邮等渠道要手动逐个试、逐个记，不知道哪个渠道带来电话。AI可自动生成多渠道路径、追踪每个渠道的来电和表单、按ROI动态调整预算，并自动撰写本地化广告文案。\n\n💡 机会方向：AI本地服务获客渠道自动投放与归因平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wnfmh6/what_are_the_most_effective_ways_youve_found_to/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "小影院差异化营销",
+          "summary": "小镇两家厅的独立影院，要在连锁巨头和流媒体夹击下吸引本地观众并让另一家独立买家愿意接盘，但排片、活动、社群运营全靠手动发帖和口口相传。AI可根据本地事件、天气和观影历史自动生成排片建议、社群帖子和活动方案，并输出可展示给买家的经营数据包。\n\n💡 机会方向：AI小微影院排片与本地社群营销自动化工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wnmosz/how_to_market_a_2_screen_movie_theater_in_a_small/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
