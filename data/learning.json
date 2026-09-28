@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "可解释性为什么是 AI 落地的卡点：Anthropic CEO 的判断",
+      "whatIsIt": "Anthropic CEO Dario Amodei 发文阐述「可解释性」的紧迫性，指出当前生成式 AI 是「生长」出来的而非「构建」出来的，内部机制不透明。",
+      "boundary": "能做到：模型能完成复杂任务，但开发者说不清它内部为什么这么决策。做不到：无法可靠预测和防范欺骗、权力寻求等对齐风险，也难以满足金融等强监管行业的审计要求。代价是：不透明导致问题只能事后发现，无法在设计阶段预防，这直接限制了 AI 在高风险场景的可用性。",
+      "whyLearn": "这是她判断「某类 AI 能不能进某个行业」的核心标尺。金融、医疗、政务类产品若要求可审计、可追责，可解释性不足就是硬门槛，不是加个日志就能解决的。",
+      "source": "AI HOT",
+      "url": "https://www.darioamodei.com/post/the-urgency-of-interpretability",
+      "id": "c544b9c711cf",
+      "date": "2026-09-28"
+    },
+    {
+      "category": "技术边界",
+      "title": "开发者停用 AI 编码助手一个月后的反思：效率提升背后的控制权流失",
+      "whatIsIt": "一位资深开发者分享重度使用 Copilot、多 Agent 并行后决定停用的经历，描述从效率兴奋到丧失代码控制权、产生「AI 保姆」心态的过程。",
+      "boundary": "能做到：AI 能快速生成大量 PR，短期提升产出速度。做不到：生成速度快不等于代码可维护，作者逐渐失去对代码的理解和控制，审查成本反而上升。代价是：团队若只看 PR 数量，会积累大量没人真正理解的代码，长期维护和技术债风险高。",
+      "whyLearn": "这是 vibe coding 企业闭环里最容易被忽视的一环——「生成」不等于「交付」。她设计 AI coding 工作流时，必须把人工审查、代码归属、质量门禁设计进去，否则效率数字好看但团队能力被掏空。",
+      "source": "AI HOT",
+      "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "id": "c676766cdfff",
+      "date": "2026-09-28"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "GitHub Copilot 用 canvases 搭自定义工作流：自然语言生成界面",
+      "whatIsIt": "GitHub 官方教程介绍如何用 /create-canvas 技能，通过自然语言描述生成可自定义的 canvas 界面，构建个人工作流。",
+      "boundary": "能做到：非工程角色也能用自然语言快速搭出可交互的工作界面，降低内部工具的开发门槛。做不到：canvas 的能力边界受限于平台预置组件和技能，复杂逻辑、外部系统集成仍需工程介入。代价是：自定义工作流越多，维护和权限管理越复杂，需要有人负责治理。",
+      "whyLearn": "这是「vibe coding 怎么在企业里跑成闭环」的具体样板：把自然语言生成界面作为内部工具层，让 PM 和业务方自己搭原型。她可以借鉴这个模式，思考自己团队里哪些重复流程能用这种方式先跑通。",
+      "source": "AI HOT",
+      "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+      "id": "9b9c2c4329e2",
+      "date": "2026-09-28"
+    },
+    {
+      "category": "技术实现",
+      "title": "小米 MiMo-V2.6 复盘：工具调用重复问题怎么定位、怎么低成本修复",
+      "whatIsIt": "小米官方复盘 MiMo-V2.6 发布后出现的工具调用重复问题，区分正常并行调用、调用泛滥与调用重复，并用 MOPD 方法把修复成本降到 MixRL 方案的 4%。",
+      "boundary": "能做到：通过回放 RL 各 checkpoint，定位到泛滥率随训练从 11.1% 升到 24.6%，找到是 32 次调用阈值惩罚设置的问题。做不到：这类问题无法靠单点补丁解决，需要区分「正常并行」和「病态重复」的语义边界。代价是：修复方案的选择直接决定成本，MixRL 方案贵，MOPD 把成本压到 4%。",
+      "whyLearn": "这是 Agent 工具调用最典型的工程坑，也是她判断「Agent 能力是否可靠」的具体抓手。她可以学到：Agent 的「调用次数」不是越多越好，阈值和惩罚设计会直接影响线上表现，评估 Agent 时要看这类细粒度指标。",
+      "source": "AI HOT",
+      "url": "https://mimo.xiaomi.com/blog/mimo-v2-6-tool-call-repetition",
+      "id": "dd62520b2df3",
+      "date": "2026-09-28"
+    },
     {
       "category": "技术边界",
       "title": "OpenAI 智能体大规模安全事件：数万起异常行为正在被调查",

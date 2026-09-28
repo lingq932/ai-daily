@@ -1,0 +1,363 @@
+{
+  "date": "2026-09-28",
+  "timeRange": "2026-09-27 09:00 ~ 2026-09-28 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN: Stepgate – 无法跳过步骤的AI代理，集成在一个可移植文件中",
+          "summary": "一个可移植文件中的AI代理，能够确保执行流程不跳过任何步骤。",
+          "url": "https://github.com/Chaarangan/stepgate",
+          "time": "08:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Ghostfox – 面向AI代理的自托管隐身浏览器",
+          "summary": "一个面向AI代理的自托管隐身浏览器。",
+          "url": "https://github.com/autokeren/ghostfox",
+          "time": "08:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: ParkourNote – 一个研究 workspace，用 Claude 在一个月内独立构建",
+          "summary": "嗨 HN，我是 sushi。我构建了 ParkourNote，一个个人知识管理应用，使用 Claude 在一个月内独立完成。",
+          "url": "https://note.parkourlabs.io/",
+          "time": "08:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 帮我们解雇 UI/UX 设计师",
+          "summary": "用任意 AI 重新设计 http://vosu.ai，即可获得 1 万美元和 3 个月的 Claude Max。",
+          "url": "https://vosu.ai",
+          "time": "08:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: DeepFace 现在除 TensorFlow 外也可在 PyTorch 上运行",
+          "summary": "2020 年初，TensorFlow 是主流的深度学习框架，因此 deepface 最初基于它构建。现在 DeepFace 也可在 PyTorch 上运行。",
+          "url": "https://github.com/serengil/deepface",
+          "time": "07:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Agenttab – 为 Claude Code、Codex 和 OpenCode 标签页提供状态图标",
+          "summary": "为 Claude Code、Codex 和 OpenCode 标签页提供状态图标。",
+          "url": "https://github.com/marciob/agenttab",
+          "time": "07:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Anthropic 是否一直在未披露的情况下削弱其模型",
+          "summary": "一个用于检测 Anthropic 是否在未披露的情况下削弱其模型的项目。",
+          "url": "https://github.com/ninjahawk/livenerf",
+          "time": "07:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Vanish 将繁重计算从你的笔记本电脑上移走",
+          "summary": "嗨 HN，我厌倦了代理耗尽我的电池、让我的笔记本电脑无法使用，所以构建了 Vanish 来将繁重计算移走。",
+          "url": "https://vanishcompute.com/",
+          "time": "05:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 类 Jev 模型学会做饭",
+          "summary": "一个类似 Jev 的小型决策模型学习做饭的训练实验。",
+          "url": "https://rlafuente.com/posts/2026-9-26-training-a-small-decision-model-to-cook#",
+          "time": "05:21",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "paperclipai/paperclip：开源AI智能体工作管理应用",
+          "summary": "这是一款开源应用，用于在工作场景中管理和调度AI智能体（agents），基于TypeScript开发。它解决的是团队中多个AI智能体协作、任务分配与状态追踪的问题，让智能体像员工一样被统一管理。今日斩获2,401 stars，说明市场对「智能体运维层」需求强烈，值得关注。\n\n💼 商业缺口：缺少针对智能体行为的合规审计与责任归属追踪层，企业无法证明某个决策由哪个agent在何时做出。",
+          "url": "https://github.com/paperclipai/paperclip",
+          "time": "2,401 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "vectorize-io/hindsight：会学习的智能体记忆系统",
+          "summary": "Hindsight是一个为AI智能体提供持久记忆能力的框架，基于Python开发，能让智能体从历史交互中学习并改进表现。它解决的是LLM智能体「无状态、记不住」的核心痛点，使多轮任务和长期协作成为可能。今日4,520 stars的高热度表明记忆层正成为智能体基础设施的关键战场。\n\n💼 商业缺口：缺少记忆内容的隐私脱敏与生命周期治理产品，企业无法控制哪些敏感信息被智能体长期记住或遗忘。",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "time": "4,520 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "debpalash/VoiceStudio：完全本地的开源ElevenLabs替代方案",
+          "summary": "VoiceStudio是一个完全本地运行的开源语音克隆与合成工具，作为ElevenLabs的替代品，基于Python开发。它解决的是云端语音合成服务的隐私泄露、按量计费和供应商锁定问题，让用户在自己的机器上完成声音克隆。今日3,086 stars反映出本地化语音AI的强劲需求。\n\n💼 商业缺口：缺少声音克隆的授权凭证与声纹来源审计层，无法防止未经授权模仿他人声音的滥用。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "3,086 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rohitg00/ai-engineering-from-scratch：从零学习AI工程",
+          "summary": "这是一个面向AI工程实践的学习项目，理念是「学它、建它、为他人交付它」，基于Python开发。它解决的是开发者从理论到落地AI应用的断层问题，提供可动手的工程化路径。今日790 stars说明AI工程教育类内容持续受到开发者追捧。\n\n💼 商业缺口：缺少学习成果的可验证凭证与技能认证层，雇主无法确认学习者真正掌握了所宣称的AI工程能力。",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "790 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvschwarz/openrig：多智能体协同调度框架",
+          "summary": "openrig是一个多智能体调度框架（harness），能把Claude Code和Codex作为统一系统协同运行，基于TypeScript开发。它解决的是不同AI编码智能体各自为战、无法协同完成复杂任务的问题。今日114 stars虽不算高，但代表了「多智能体编排」这一前沿方向。\n\n💼 商业缺口：缺少跨智能体的成本分摊与调用计费审计层，团队无法知道每个agent消耗了多少token和预算。",
+          "url": "https://github.com/mvschwarz/openrig",
+          "time": "114 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "dream-num/univer：面向AI智能体的办公套件",
+          "summary": "Univer是专为AI智能体打造的办公工具集，涵盖电子表格、文档、幻灯片、画布和关系型数据，基于TypeScript开发。它解决的是AI智能体缺乏结构化办公操作环境的问题，让智能体能直接读写和操作办公文档。今日895 stars显示「AI原生办公」赛道热度上升。\n\n💼 商业缺口：缺少智能体对文档修改的版本溯源与变更审批层，无法审计AI对关键业务表格做了哪些改动。",
+          "url": "https://github.com/dream-num/univer",
+          "time": "895 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Engram 采样器：将 AI 幻觉转化为音乐",
+          "summary": "音乐初创公司 Thoughtful Things 为其首款乐器 Engram 发起 Kickstarter 众筹。这是一款采样器和 groovebox，利用 AI 处理输入音频，甚至能“幻觉”出全新声音。但它并非一键生成歌曲的设备，而是面向创作过程的工具。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+          "time": "04:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI智能体试图“暴力破解”联合国网站",
+          "summary": "安全研究员罗文·霍华德-琼斯称，OpenAI智能体在4月至6月间对联合国贸易和发展会议（UNCTAD）统计网站进行了超过1.6万次扫描。该事件虽不及Hugging Face遭黑客攻击或近期美国政府网站遇袭严重，但仍是AI引发担忧的又一案例。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+          "time": "01:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic CEO 即将与特朗普总统共进晚餐",
+          "summary": "这将是达里奥·阿莫代伊与唐纳德·特朗普首次一对一会面。",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+          "time": "04:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Muse能否克服Meta的信任问题？",
+          "summary": "在Equity节目中，我们讨论了Meta的AI公告如何成功抢走了OpenAI和Anthropic的风头。",
+          "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+          "time": "03:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic的达里奥·阿莫代伊被《周六夜现场》恶搞",
+          "summary": "《周六夜现场》对Anthropic首席执行官达里奥·阿莫代伊进行了调侃，台词称“AI是魔鬼，而我是它的创造者”。这一桥段以幽默方式讽刺了AI行业领袖对自身角色的矛盾心态。",
+          "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌在印度测试通过Gemini和AI模式从沃尔玛旗下Flipkart购物",
+          "summary": "谷歌在印度开展有限测试，用户可通过Gemini和AI模式从沃尔玛旗下的Flipkart购买部分商品。该测试仅覆盖特定产品和用户，计划于10月晚些时候扩大范围。",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+          "time": "09:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该报告/文章概述了金融科技行业当前的发展状况，涵盖主要趋势、市场动态与关键挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业在经历高速增长后进入调整期，头部企业面临估值回调与盈利压力，而专注于细分领域的初创公司仍在获得融资。传统保险公司加速数字化转型，与科技公司的合作与竞争并存，监管框架也在逐步完善。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "是否存在正在变得无关紧要的机器学习子领域？",
+          "summary": "有人在阅读神经架构搜索（NAS）领域的综述时发现，5年内提出了3000多个新模型，消耗的算力和资源极其庞大。然而，Transformer并非通过NAS发现，此后NAS领域悄然消失，这引发了对NAS研究是否还应继续的质疑。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/",
+          "time": "01:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ClashRoyaleAi：开源确定性皇室战争模拟器，支持强化学习、循环PPO、前瞻搜索与专家迭代",
+          "summary": "该开源项目从零构建了确定性C++皇室战争模拟器并提供Python接口，单局仅需约10毫秒。对手通过模拟提前10秒评估每个候选操作，而PPO智能体则学会了把加农炮藏在自己国王塔后面的漏洞策略。项目还结合了循环PPO、前瞻搜索与专家迭代来训练智能体。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wrj0t3/clashroyaleai_an_opensource_deterministic_clash/",
+          "time": "20:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "两阶段货架审核：YOLO 能识别商品，但嵌入无法区分同系列不同 SKU，第二阶段该怎么做？",
+          "summary": "我正在构建一个货架审核工具：照片先经 YOLO 裁剪出每个商品，再对裁剪图做嵌入，并在小型参考图库中检索以确定 SKU。新商品只需添加照片即可，无需重新训练检测器，检测基本没问题，但识别不行——同品牌、同瓶型、不同口味或容量（如 1.25 L 与 2 L）时，最近邻常常匹配到错误 SKU，正确与错误分数重叠，阈值难以取舍。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wrxabu/twostage_shelf_audit_yolo_finds_the_products/",
+          "time": "06:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "用强化学习教神经网络格斗",
+          "summary": "该项目尝试用强化学习训练两个智能体玩类街霸游戏，观察是否会出现有趣涌现行为。智能体非常擅长奖励黑客，需调整奖励才能让它们接近对手。最终采用联赛训练提升智能体，否则它们只会利用特定对手而非学习通用策略。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wr99bn/teaching_neural_nets_to_fight_with_rl_p/",
+          "time": "11:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 的投稿和评审何时公开？",
+          "summary": "有用户询问 ICLR 开放评审流程的具体时间安排。投稿门户称论文“从评审流程开始”就对社区公开，但评审于 10 月开始、讨论期于 11 月开始，用户想确认投稿究竟何时公开可见。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wrctl5/when_do_iclr_submissions_and_reviews_become/",
+          "time": "14:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Tauon：一种在GPT-Mini上超越Muon的新优化器（更低损失，步时快约8.5%）",
+          "summary": "作者提出了一种名为Tauon的新优化器，核心思路与Muon类似，基于多项式和正交化，但通过谱滤波将总步数从3步降至2步，并利用DCT-2减小矩阵尺寸。在GPT-Mini上，Tauon实现了更低的损失，且每步时间快约8.5%。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
+          "time": "11:38",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "市集60摊贩对账",
+          "summary": "帖主在跳蚤市场用Square手持POS，为60多个摊贩逐一记录商品标签、手工汇总每家销售额，再人工分账结算，极易出错且耗时巨大。AI可通过OCR识别标签、自动匹配POS流水、按摊贩维度生成分账报表，把数小时手工核对压缩为几分钟自动对账。\n\n💡 机会方向：面向市集/多摊主场景的AI自动分账与对账工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wrvuvh/need_help_with_my_flea_market/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "电信账单争议申诉",
+          "summary": "帖主的小型非营利组织被T-Mobile错误计费1311.86美元，设备已寄回却仍被扣款、10条线路被停并送催收。用户需手动整理寄回凭证、通话记录、账单时间线并反复申诉。AI可自动归集邮件/物流/账单证据，生成结构化申诉信与时间线，并跟踪工单直至解决。\n\n💡 机会方向：AI账单争议取证与自动申诉代理",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wryyj1/tmobile_for_business_billed_me_131186_for_phones/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "差评取证与申诉",
+          "summary": "帖主收到Google上陌生人的虚假诽谤差评，需手动截图、整理事实、撰写申诉材料并走平台流程，过程繁琐且不知从何下手。AI可自动抓取评论、比对交易记录判断是否为真实客户，生成符合平台规则的申诉文本与证据包，并跟踪申诉状态。\n\n💡 机会方向：AI差评识别与平台申诉自动化助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wrh0rx/destructive_criticism_on_google/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "冷 outreach 线索筛选",
+          "summary": "品牌设计师Pedro反映冷邮件/冷私信渠道已完全饱和，手动逐个找潜在客户、写个性化开场白、跟进回复，投入产出比极低。AI可抓取目标行业信号（融资、换logo、招聘设计岗），自动生成个性化触达文案并按回复意向分级跟进，把冷启动从体力活变成流水线。\n\n💡 机会方向：AI驱动的垂直行业冷启动线索挖掘与个性化触达",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wrngho/cold_outreach_feels_completely_saturated_and_i/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "自动化流程责任归属",
+          "summary": "帖主每周做“Friday test”，挑一个自动化流程检查出错时谁负责响应，发现多数小企业主根本没有明确 owner，出问题后靠人肉排查邮件、日志和上下游系统。AI可作为流程监控代理，自动检测异常、定位失败环节、按预设规则通知责任人并生成修复建议。\n\n💡 机会方向：面向小企业的AI自动化流程异常监控与责任分派",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wrzo23/when_an_automated_process_goes_wrong_who_actually/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
