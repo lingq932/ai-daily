@@ -1,0 +1,644 @@
+{
+  "date": "2026-09-30",
+  "timeRange": "2026-09-29 09:00 ~ 2026-09-30 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI发布Dots虚拟形象",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI 在 DevDay 主题演讲中发布了 Dots，以对标 Meta 的 Muse AI。Dots 是常驻式 AI 助手，可在后台跨已连接应用“几乎完成",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI周二发布新AI智能体Dots之前，马斯克旗下的xAI已抢先收购了dot.com域名，该域名现跳转至Grok聊天机器人下载页面。此举被网友视为对Ope",
+              "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI DevDay 2026发布汇总",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "周二，OpenAI年度开发者日活动开场即遭遇抗议。抗议者举着标语、散发传单并高喊口号，要求“山姆·奥特曼，别装了，把人民置于利润之上”。十余家组织联合在会场外发",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI正在构建传统应用商店模式的替代方案，将ChatGPT打造成一个可供用户和AI智能体发现并使用软件的平台。",
+              "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic警告AI灾难性风险",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "Anthropic的中端Claude模型在排名中持续上升。此外，用户可通过一个快速测试选择最合适的Claude模型。",
+              "url": "https://therundownai.beehiiv.com/p/anthropic-mid-tier-claude-climbs-the-rankings"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic在备受期待的IPO文件中披露了不断扩大的亏损、管理层保留权力的提议，以及其AI开发计划可能“进一步增加模型造成伤害的风险”。该公司同时瞄准2万",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat"
+            }
+          ]
+        },
+        {
+          "headline": "Meta Muse AI泄露隐私",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "科技YouTuber马特·罗布称，Muse在授权其管理Facebook Marketplace账户后，于本周末将他的家庭住址泄露给了一名陌生人。尽管Meta在本",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Meta宣布将其AI代理Muse扩展至小型企业，帮助业主经营业务并寻找新客户。",
+              "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Supertake | 将你的想法转化为真实投资的AI",
+          "summary": "AI驱动的投资工具，可将想法转化为真实投资。",
+          "url": "https://www.producthunt.com/products/supertake",
+          "time": "10:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: InfiniHash App Store – 由AI代理端到端构建的合规工具",
+          "summary": "由AI代理端到端构建的合规工具应用商店。",
+          "url": "https://apps.infinihash.com/",
+          "time": "08:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 免费token压缩CLI，为codex账单节省30%",
+          "summary": "免费的命令行token压缩工具，可降低codex使用成本约30%。",
+          "url": "https://github.com/spenmcke/compress",
+          "time": "07:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 阻止AI代理破坏你仓库的规则，附带评估",
+          "summary": "用于约束AI代理、防止其破坏数据仓库的规则集，并附带评估方法。",
+          "url": "https://github.com/idk-arsh/data-agent-rules",
+          "time": "07:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 图像分类器 – 使用本地视觉模型整理照片库",
+          "summary": "使用本地视觉模型对照片库进行自动分类整理。",
+          "url": "https://github.com/DrBenedictPorkins/image-categorizer",
+          "time": "07:17",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "VoiceStudio：完全本地化的开源 ElevenLabs 替代方案",
+          "summary": "这是一个开源、完全本地运行的语音克隆与合成工具，定位为 ElevenLabs 的替代品，主打隐私与零依赖云服务。它解决了用户对云端语音 API 的成本、隐私和合规顾虑，让开发者可以在本地搭建语音克隆与 TTS 能力。今日斩获 4758 stars，说明本地化语音 AI 需求极为旺盛，Python 生态也便于快速集成。\n\n💼 商业缺口：缺少针对语音克隆的授权溯源与声纹合规审计层，用于证明某段合成语音的授权来源与使用边界。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "4,758 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA/OpenShell：面向自主 AI 代理的安全私有运行时",
+          "summary": "这是 NVIDIA 推出的面向自主 AI Agent 的安全、私有运行时环境，用 Rust 编写，强调隔离与安全性。它解决的是 AI Agent 在生产环境中执行任意操作时的沙箱、权限与隐私问题，让企业能放心让 Agent 自主运行。背靠 NVIDIA 且今日近千 stars，Rust 带来的性能与内存安全优势使其在 Agent 基础设施赛道颇具竞争力。\n\n💼 商业缺口：缺少 Agent 运行时行为的实时审计与责任归属层，用于在事故发生后追溯是哪个 Agent、哪条指令导致了越权操作。",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "time": "990 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "vectorize-io/hindsight：会学习的 Agent 记忆系统",
+          "summary": "Hindsight 是一个为 AI Agent 提供记忆能力的框架，核心卖点是记忆可以随使用不断学习与演化。它解决的是 LLM Agent 缺乏长期记忆、跨会话上下文丢失的问题，让 Agent 能积累经验并持续改进。今日 2575 stars 显示 Agent 记忆层是当前热门方向，Python 实现也方便与主流 Agent 框架集成。\n\n💼 商业缺口：缺少 Agent 记忆内容的隐私合规与遗忘权管理产品，用于按用户要求定向删除或审计其被记忆的数据。",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "time": "2,575 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "paperclipai/paperclip：开源的企业级 Agent 管理应用",
+          "summary": "Paperclip 是一个开源应用，用于在工作场景中统一管理各类 AI Agent，定位为团队日常使用的 Agent 管控台。它解决的是企业内部多个 Agent 分散、难以统一调度与监控的问题，让团队能集中管理 Agent 的权限与任务。今日 2458 stars，TypeScript 技术栈便于前端集成，属于 Agent 治理层工具。\n\n💼 商业缺口：缺少 Agent 使用成本的部门级分摊与预算告警产品，用于让财务和团队负责人看清每个 Agent 花了多少钱、值不值。",
+          "url": "https://github.com/paperclipai/paperclip",
+          "time": "2,458 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvschwarz/openrig：让 Claude Code 与 Codex 协同工作的多 Agent 框架",
+          "summary": "OpenRig 是一个多 Agent 编排框架，能把 Claude Code 和 Codex 组合成一个统一系统协同工作。它解决的是单一编码 Agent 能力有限、无法互补的问题，通过多 Agent 协作提升复杂编程任务的完成质量。今日 737 stars，TypeScript 实现，反映了多 Agent 协作编码这一前沿趋势。\n\n💼 商业缺口：缺少多 Agent 协作过程的决策留痕与责任划分产品，用于在代码出错时判定是哪个 Agent 的哪一步引入的问题。",
+          "url": "https://github.com/mvschwarz/openrig",
+          "time": "737 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rohitg00/ai-engineering-from-scratch：从零学习 AI 工程",
+          "summary": "这是一个面向 AI 工程的学习项目，口号是“学它、构建它、为他人交付它”，强调动手实践。它解决的是开发者想系统入门 AI 工程但缺乏结构化路径的问题，覆盖从原理到落地的完整链路。今日 786 stars，Python 语言，属于 AI 教育类高热度仓库。\n\n💼 商业缺口：缺少学习成果的能力认证与技能凭证产品，用于向雇主证明学习者确实掌握了课程中的 AI 工程能力。",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "time": "786 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "VectifyAI/PageIndex：面向无向量推理式 RAG 的文档索引",
+          "summary": "PageIndex 是一个文档索引工具，主打“无向量、基于推理”的 RAG 方案，即不依赖向量数据库而通过推理完成检索。它解决的是传统向量 RAG 在语义漂移、检索不准和运维复杂上的痛点，提供更可解释的检索路径。今日 835 stars，Python 实现，代表了 RAG 架构去向量化的新思路。\n\n💼 商业缺口：缺少推理式 RAG 检索结果的可解释性与引用溯源产品，用于向用户证明答案具体来自文档的哪一段推理链。",
+          "url": "https://github.com/VectifyAI/PageIndex",
+          "time": "835 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "dream-num/univer：面向 AI Agent 的 Office 套件",
+          "summary": "Univer 是一个面向 AI Agent 的 Office 工具集，涵盖电子表格、文档、幻灯片、画布和关系型数据等能力。它解决的是 AI Agent 缺乏原生办公文档操作能力的问题，让 Agent 能直接读写和生成结构化办公内容。今日 696 stars，TypeScript 实现，属于 Agent 与办公生产力结合的关键基础设施。\n\n💼 商业缺口：缺少 Agent 生成办公文档的版本追溯与人工审批留痕产品，用于在 Agent 自动改动表格或合同时保留可审计的变更链。",
+          "url": "https://github.com/dream-num/univer",
+          "time": "696 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Anthropic中端Claude排名攀升",
+          "summary": "Anthropic的中端Claude模型在排名中持续上升。此外，用户可通过一个快速测试选择最合适的Claude模型。",
+          "url": "https://therundownai.beehiiv.com/p/anthropic-mid-tier-claude-climbs-the-rankings",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "山姆·奥特曼称OpenAI在模型安全前不会上市",
+          "summary": "山姆·奥特曼表示，OpenAI不会在能够对模型安全做出更好承诺之前上市，目前没有明确时间表。他称公司打算继续推进AI进展，但鉴于模型能力激增，安全仍是首要考量。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+          "time": "08:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "特朗普下令美国政府将AI称为“超级智能”",
+          "summary": "特朗普签署行政令，要求美国行政部门不再使用“人工智能”一词，官方政策网站、文件和新闻稿将统一改称“超级智能”。特朗普称“超级”是最佳且最简单的词。",
+          "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+          "time": "06:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "马斯克AI驱动的Grokipedia再次更新",
+          "summary": "SpaceXAI推出的AI在线百科全书Grokipedia在停更数月后似乎再次开始更新文章。此前有报道称其文章自4月以来未再审核编辑，但该平台的实时更新页面现已显示多个页面近期有所改动。",
+          "url": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+          "time": "05:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI研究人员发视频警告：超级智能“危险程度正如其名”",
+          "summary": "前OpenAI和谷歌DeepMind员工杰弗里·欧文在采访中表示，人类灭绝的概率在他看来“就像抛硬币一样”。这是Palisade Research对包括OpenAI、谷歌和Anthropic在职及前员工在内的十多位AI研究人员采访的一部分。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002238/openai-google-anthropic-ai-researchers-safety-interviews",
+          "time": "01:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI 推出 Dots，对标 Muse",
+          "summary": "OpenAI 在 DevDay 主题演讲中发布了 Dots，以对标 Meta 的 Muse AI。Dots 是常驻式 AI 助手，可在后台跨已连接应用“几乎完成任何任务”，并随时间学习用户偏好，由 GPT-6 Astra 模型驱动。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+          "time": "01:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "抗议者聚集在OpenAI开发者日",
+          "summary": "周二，OpenAI年度开发者日活动开场即遭遇抗议。抗议者举着标语、散发传单并高喊口号，要求“山姆·奥特曼，别装了，把人民置于利润之上”。十余家组织联合在会场外发起了这场集会。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1002201/openai-sam-altman-openai-devday-protests-ice-data-centers",
+          "time": "01:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI DevDay 2026：最大新闻与发布汇总",
+          "summary": "OpenAI于9月29日在旧金山举办年度DevDay，CEO山姆·奥特曼在主题演讲中发布了多项重要更新，包括对标Meta新推出的Muse的AI智能体产品Dots。与免费提供的Muse不同，Dots的定价策略尚未明确。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001681/openai-devday-2026-biggest-news-announcements",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta的Muse AI将YouTuber的家庭住址泄露给陌生人",
+          "summary": "科技YouTuber马特·罗布称，Muse在授权其管理Facebook Marketplace账户后，于本周末将他的家庭住址泄露给了一名陌生人。尽管Meta在本月早些时候推出这款个人AI代理时曾大力强调其安全功能。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+          "time": "22:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "中国AI公司会放缓脚步吗？众议院民主党高层寻求答案",
+          "summary": "随着特朗普总统准备在华盛顿会见科技和AI企业CEO，加州民主党众议员罗·卡纳呼吁美中两国签署条约，防止AI对世界造成严重破坏。但要让两国领导人共同采取行动，可能性微乎其微。",
+          "url": "https://www.theverge.com/policy/1001767/khanna-ai-safety-china-treaty",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic在IPO文件中警告AI存在“灾难性”风险",
+          "summary": "Anthropic在备受期待的IPO文件中披露了不断扩大的亏损、管理层保留权力的提议，以及其AI开发计划可能“进一步增加模型造成伤害的风险”。该公司同时瞄准2万亿美元估值。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+          "time": "19:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "让AI成为资产而非开支",
+          "summary": "当客户谈论AI成本时，话题往往从token价格开始，最终落到云端最新最强模型的访问权限上。但他们真的总是需要那种级别的能力吗？未必。随着AI从实验走向生产，模型选择只是其中一环。",
+          "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+          "time": "18:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "当你问America.gov关于Minecraft时，它变得非常奇怪，但这并非故障",
+          "summary": "出于国家安全的考虑，得知America.gov并没有产生幻觉到写出长篇诗歌的程度，这让人松了一口气。",
+          "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
+          "time": "07:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "网友热议马斯克xAI疑似恶搞OpenAI的Dots发布",
+          "summary": "OpenAI周二发布新AI智能体Dots之前，马斯克旗下的xAI已抢先收购了dot.com域名，该域名现跳转至Grok聊天机器人下载页面。此举被网友视为对OpenAI的调侃。",
+          "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+          "time": "06:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI新功能直指应用商店模式",
+          "summary": "OpenAI正在构建传统应用商店模式的替代方案，将ChatGPT打造成一个可供用户和AI智能体发现并使用软件的平台。",
+          "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+          "time": "04:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI据悉洽谈融资300亿美元，估值达1.4万亿美元",
+          "summary": "据报道，OpenAI正洽谈新一轮融资，拟筹集300亿美元，估值高达1.4万亿美元。这预计将是该公司在推迟至2027年上市前的最后一轮融资。",
+          "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
+          "time": "03:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI为何缺席英伟达终结失控AI代理的行业行动",
+          "summary": "OpenAI并未公开支持英伟达的开放代理安全平台，但据TechCrunch获悉，该公司正私下与英伟达合作。",
+          "url": "https://techcrunch.com/2026/09/29/heres-why-openai-is-absent-from-nvidias-industry-wide-effort-to-end-rogue-ai-agents/",
+          "time": "02:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI推出办公套件，与微软正面交锋",
+          "summary": "OpenAI新发布的办公功能套件，使其与更传统的软件公司展开更直接的竞争，这套产品看起来很像ChatGPT自己的办公套件。",
+          "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+          "time": "01:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI应用生成器Wabi转型为消息体验",
+          "summary": "Wabi将其基于提示的应用构建器重新定位为个人AI代理，可按需创建界面，融合聊天、应用和持续任务。",
+          "url": "https://techcrunch.com/2026/09/29/ai-powered-app-maker-wabi-pivots-to-a-messaging-experience/",
+          "time": "01:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI 推出气泡式智能体虚拟形象 Dots",
+          "summary": "OpenAI 发布 Dots，一种气泡式智能体虚拟形象，可独立于特定硬件或界面运行，在后台持续自主追求用户设定的目标，几乎无需人工监督。",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+          "time": "01:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI为Codex提供跨设备可复用的云环境",
+          "summary": "OpenAI扩展Codex功能，新增可复用的云开发环境、支持语音控制的升级版CLI、全新代码审查工具，以及一款面向安全的产品，可扫描代码仓库并准备修复方案。",
+          "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+          "time": "01:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI扩展ChatGPT插件，新增应用式界面与自动化功能",
+          "summary": "OpenAI正在扩展ChatGPT插件，为其加入专属侧边栏入口、交互式面板、文件查看器、更完善的发现机制以及对自动化的支持。",
+          "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+          "time": "01:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI 发布 GPT-6.1 Sol，称性能接近 GPT-6 Astra 且成本更低",
+          "summary": "OpenAI 表示，GPT-6.1 Sol 在复杂专业任务上较 GPT-6 Sol 有显著提升，涵盖代码编写与调试、文档理解以及多步骤业务工作流执行。该公司称其性能接近 GPT-6 Astra，但成本更低。",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+          "time": "01:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "聊天机器人能破解政府迷宫吗？白宫即将揭晓答案",
+          "summary": "America.gov 旨在简化民众应对政府官僚流程的难度，但大语言模型并不完美，仍容易产生幻觉，这可能引发新的问题。",
+          "url": "https://techcrunch.com/2026/09/29/can-a-chatbot-fix-the-government-maze-the-white-house-is-about-to-find-out/",
+          "time": "00:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Instinct创始人称平台超50%交易与旅行相关",
+          "summary": "Instinct创始人表示，平台每日增长10%，交易量也以相近速度增长，其中超过50%的交易与旅行相关。",
+          "url": "https://techcrunch.com/2026/09/29/instinct-founder-said-more-than-50-of-transactions-on-the-platform-are-travel-related/",
+          "time": "23:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "玛丽莎·梅耶尔推出Dazzle：赌你的相册比收件箱更懂你",
+          "summary": "梅耶尔认为，如果一张照片胜过千言万语，那么你的相册就价值连城。Dazzle通过分析手机中存储的所有照片，声称能了解你的爱好、兴趣、美食和风格偏好，以及你如何打发时间、与谁共度。",
+          "url": "https://techcrunch.com/2026/09/29/with-dazzle-marissa-mayer-bets-your-camera-roll-has-more-info-on-your-life-than-your-inbox/",
+          "time": "21:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta将AI代理Muse扩展至小型企业",
+          "summary": "Meta宣布将其AI代理Muse扩展至小型企业，帮助业主经营业务并寻找新客户。",
+          "url": "https://techcrunch.com/2026/09/29/meta-is-expanding-its-ai-agent-muse-to-small-businesses/",
+          "time": "21:47",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业在经历快速增长后正面临调整期，初创企业估值回落，融资环境趋紧。行业焦点从单纯追求规模转向盈利能力和可持续商业模式，传统保险公司与科技公司的合作也在深化。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS研讨会作者通知延迟",
+          "summary": "有投稿者反映，截至9月30日印度标准时间早上6点，仍未收到NeurIPS研讨会的评审通知。该投稿者询问是否其他人也遇到同样情况。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wtqtwk/neurips_workshop_author_notification_delay_d/",
+          "time": "08:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "计算机科学学士，却爱上了机器学习和人工智能，我的个人研究刚被NeurIPS接收为海报展示",
+          "summary": "我希望能去亚特兰大参会并展示我的研究成果。那里的氛围怎么样？人们是过于挑剔，还是普遍思想开放？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wsyu8m/ba_computer_science_but_fell_in_love_with_machine/",
+          "time": "10:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我写了一本免费开源的书，讲述如何让机器学习模型真正变快：从硅到智能体",
+          "summary": "作者花了几个月写了一本名为《如何让你的模型变快：从硅到智能体的高效机器学习系统视角》的书。核心理念是减少浮点运算量并不一定能让模型变快，优化前必须先理解系统的实际瓶颈。全书从屋顶线分析和硬件讲起，逐步深入到内核、编译器等内容。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt6ns4/i_wrote_a_free_opensource_book_on_making_ml/",
+          "time": "18:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "关于选择博士大学的建议",
+          "summary": "一名澳大利亚二线大学的本科生在最后一年对研究产生兴趣，并以第一作者身份在NeurIPS 2026发表论文，但此前成绩平平、无实习经历。尽管背景一般，他仍希望获得关于如何选择博士院校的建议。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt54tz/advice_on_choosing_university_for_phd_d/",
+          "time": "17:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "算力有限，目标CVPR：重跑实验以获得统计上更强的数据，还是专注写作？[D]",
+          "summary": "我正在准备CVPR投稿，对当前结果满意，但算力是硬约束。所在机构非研究型，可用系统又慢又不稳定，跑完一组实验已耗费大量时间精力。我计划随投稿公开代码，也相信结果可复现，但仍在两个选项间纠结：一是用不同随机种子重跑实验以获得统计上更强的数据，二是专注写作。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt9w3s/limited_compute_targeting_cvpr_rerun_experiments/",
+          "time": "21:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "CoWindow与MassAlloc注意力：集体因果覆盖与分布自适应计算",
+          "summary": "作者分享了两篇关于注意力机制中冗余计算来源的论文。CoWindow注意力通过互补窗口将远距离上下文分配到KV头，同时共享局部和前缀汇窗口，每个头稀疏关注，但其可见位置的并集覆盖完整因果历史。该模式由位置定义。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt1gbk/cowindow_and_massalloc_attention_collective/",
+          "time": "13:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS教育专题",
+          "summary": "有人申请了NeurIPS教育专题吗？结果似乎即将公布。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt77wj/neurips_education_track_d/",
+          "time": "19:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "为什么不在softmax之前少用一个特征？[D]",
+          "summary": "Softmax有N个输入和N个输出，但由于输出之和必须等于1，实际只有N-1个自由度。因此可以假设softmax前的logits之和为零，将最后一个logit设为其余logits之和的负值，从而仅用N-1个输入即可。理论上这能去除不必要的参数。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wt1mk0/why_not_just_have_one_less_feature_before_softmax/",
+          "time": "13:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "NVIDIA Kumo Tabular 为表格预测树立精度与效率新标杆",
+          "summary": "NVIDIA 推出 Kumo Tabular，在表格预测任务中实现了精度与效率的新突破。该方案在保持高准确率的同时显著降低计算开销，为表格数据建模设定了新的性能前沿。",
+          "url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+          "time": "23:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "源头正确，而非仅事实正确：面向MCP智能体的来源感知验证",
+          "summary": "该研究提出面向MCP智能体的来源感知验证方法，强调在事实核查中不仅要确认信息本身正确，还需追溯并验证信息来源的可靠性。通过将来源验证纳入智能体的核查流程，可提升其在复杂信息环境中的可信度与决策质量。",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "time": "21:07",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "多州固定资产税务核算",
+          "summary": "帖子作者开发了一套固定资产软件，专门服务跨州税务从业者，但这类工作目前大量依赖人工逐州核对折旧规则、申报口径和资产分类，规则繁杂且各州差异大，极易出错。AI 可以自动解析各州税法条文、匹配资产类别并生成合规折旧表，把数天的手工核对压缩到分钟级。\n\n💡 机会方向：面向多州税务场景的 AI 固定资产折旧与合规自动化引擎",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49902960",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社媒内容日更运营",
+          "summary": "小企业主夫妻店中，一方几乎全部时间耗在日复一日的社媒发帖、回复评论、追热点上，却难以判断投入产出。AI 可根据业务类型自动生成排期内容、批量改写多平台文案、自动回复常见咨询，并给出效果归因，让小店主把精力放回核心业务。\n\n💡 机会方向：面向本地小商家的 AI 社媒代运营与内容排期工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wtcb9f/do_small_businesses_really_need_to_spend_so_much/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "需求变更与验收扯皮",
+          "summary": "业务分析师用“需与已批准原型一致”这类模糊验收标准写 AC，设计师中途改稿后却把已完成的工作标记为缺陷，开发团队反复返工、举证困难。AI 可比对原型版本差异、自动生成变更影响清单与验收证据链，把口头扯皮变成可追溯的版本记录。\n\n💡 机会方向：AI 驱动的原型变更追踪与验收争议取证工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49901004",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "SBA 贷款违约自救",
+          "summary": "小企业倒闭后欠 SBA 二十多万美元，业主在焦虑中反复手动整理还款记录、资产清单和沟通邮件，却不知道有哪些减免、重组或和解路径。AI 可解析贷款条款与政策，自动生成可提交的重组方案、谈判信函和时间线，降低法律与财务门槛。\n\n💡 机会方向：面向小企业债务危机的 AI 重组方案与谈判助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wtnikw/small_business_failure_woutstanding_sba_loan/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "企业估值与融资材料",
+          "summary": "小企业主想引入 PE 或申请信贷额度，却只能靠零散财务数据手工拼凑估值区间和尽调材料，银行审批周期长、标准不透明。AI 可基于行业可比交易与财务数据自动生成估值报告、贷款申请包和尽调问答，显著缩短融资准备时间。\n\n💡 机会方向：面向中小企业的 AI 估值与融资材料自动生成平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wtooud/thoughts_on_a_pe_buyin/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
