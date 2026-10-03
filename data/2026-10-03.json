@@ -1,0 +1,662 @@
+{
+  "date": "2026-10-03",
+  "timeRange": "2026-10-02 09:00 ~ 2026-10-03 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Meta开源Muse AI小工具",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Meta开源了相关代码，允许用户自制搭载其全新AI智能体Muse的小工具。官方建议的项目包括将Muse装到彩色电子墨水屏上显示提醒，或接入HDMI棒以便在大屏幕",
+              "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Meta希望Muse能进入你的电视和烤面包机，因此将代码免费开放。",
+              "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/"
+            }
+          ]
+        },
+        {
+          "headline": "苹果因AI代理风险收紧磁盘权限",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "苹果将在Mac上对“完全磁盘访问权限”施加新限制，以应对AI代理带来的风险。苹果表示，将推出新的控制措施，确保只有真正希望授予应用这一极高权限的用户才能这样做。",
+              "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "苹果表示将针对macOS的“完全磁盘访问”权限新增控制措施，并警告能力日益增强的AI代理使用户文件、信息、邮件和浏览历史等广泛访问权限面临更大风险。",
+              "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Earlyn | 你的Mac上可搜索的屏幕与会议记忆",
+          "summary": "Earlyn 是一款适用于 Mac 的工具，能够记录并搜索你的屏幕内容和会议信息，形成可检索的记忆库。",
+          "url": "https://www.producthunt.com/products/earlyn",
+          "time": "10:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Codync | Grok Bot、Muse 和 Dots 的开源替代方案",
+          "summary": "Codync 是 Grok Bot、Muse 和 Dots 的开源替代品。",
+          "url": "https://www.producthunt.com/products/codync",
+          "time": "12:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Television – 为你的智能体框架打造的开源图形界面",
+          "summary": "我是 Television（https://television.run/）的联合创始人。我和团队一起打造了这款为智能体框架提供开源图形界面的工具。",
+          "url": "https://television.run/",
+          "time": "07:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Teacher Planner – 面向教师的AI数字备课工具",
+          "summary": "我开发了 Teacher Planner，帮助教师组织课程并利用AI工具准备课堂内容。",
+          "url": "https://teacherplanner.ai",
+          "time": "07:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "我在编码智能体历史中发现了API密钥，于是我构建了 Agent Scrub",
+          "summary": "我在编码智能体的历史记录中发现了暴露的API密钥，因此开发了 Agent Scrub 来解决这一问题。",
+          "url": "https://github.com/thesubtlety/agent-scrub",
+          "time": "06:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Gutsy – 面向CPU的小型决策模型（500MB），返回概率结果",
+          "summary": "Gutsy 是一个仅500MB、可在CPU上运行的小型决策模型，能够返回概率结果。",
+          "url": "https://huggingface.co/kouhxp/gutsy",
+          "time": "06:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "我让 Opus 生成一个关于AI实验室的视频，它输出了这个奇怪的东西",
+          "summary": "我要求 Opus 制作一个关于AI实验室的视频，结果它生成了这个奇怪的内容。",
+          "url": "https://www.youtube.com/watch?v=nWWDUXhqWEs",
+          "time": "06:08",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Panniantong/Agent-Reach",
+          "summary": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "time": "696 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "JuliusBrussee/caveman",
+          "summary": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "time": "209 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "An agentic skills framework & software development methodology that works.",
+          "url": "https://github.com/obra/superpowers",
+          "time": "556 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DietrichGebert/ponytail",
+          "summary": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "time": "1,435 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pbakaus/impeccable",
+          "summary": "The design language that makes your AI harness better at design.",
+          "url": "https://github.com/pbakaus/impeccable",
+          "time": "722 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills",
+          "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "955 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA/OpenShell",
+          "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "time": "594 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "coreyhaines31/marketingskills",
+          "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+          "url": "https://github.com/coreyhaines31/marketingskills",
+          "time": "140 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "heygen-com/hyperframes",
+          "summary": "Write HTML. Render video. Built for agents.",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "time": "580 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mksglu/context-mode",
+          "summary": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "url": "https://github.com/mksglu/context-mode",
+          "time": "282 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google/skills",
+          "summary": "Agent Skills for Google products and technologies",
+          "url": "https://github.com/google/skills",
+          "time": "39 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "getsentry/sentry",
+          "summary": "Developer-first error tracking and performance monitoring",
+          "url": "https://github.com/getsentry/sentry",
+          "time": "16 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "colbymchenry/codegraph",
+          "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+          "url": "https://github.com/colbymchenry/codegraph",
+          "time": "98 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cursor/plugins",
+          "summary": "Cursor plugin specification and official plugins",
+          "url": "https://github.com/cursor/plugins",
+          "time": "163 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvschwarz/openrig",
+          "summary": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+          "url": "https://github.com/mvschwarz/openrig",
+          "time": "683 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Effect-TS/effect",
+          "summary": "Build production-ready applications in TypeScript",
+          "url": "https://github.com/Effect-TS/effect",
+          "time": "80 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pablostanley/yoinks",
+          "summary": "yoink any video from your terminal. no shady ads.",
+          "url": "https://github.com/pablostanley/yoinks",
+          "time": "623 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "约书亚·本吉奥加入加拿大国家人工智能委员会",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥表示，他荣幸地被加拿大总理马克·卡尼选中加入新成立的国家人工智能委员会。该委员会将支持加拿大政府推动AI更安全、保护民主制度，并为加拿大人塑造更有利的AI发展路径。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Tavus的AI能看、能听、还能实时对话",
+          "summary": "Tavus推出新型AI，可实时观察、聆听并回话。另外，ChatGPT的“Dots”功能是否值得升级到Pro版也引发讨论。",
+          "url": "https://therundownai.beehiiv.com/p/tavus-ai-looks-listens-and-talks-back-live",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Meta开源代码，让你打造Muse AI小工具",
+          "summary": "Meta开源了相关代码，允许用户自制搭载其全新AI智能体Muse的小工具。官方建议的项目包括将Muse装到彩色电子墨水屏上显示提醒，或接入HDMI棒以便在大屏幕上展示Muse。",
+          "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+          "time": "05:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果将限制Mac磁盘访问权限，因AI代理风险“大幅”增加",
+          "summary": "苹果将在Mac上对“完全磁盘访问权限”施加新限制，以应对AI代理带来的风险。苹果表示，将推出新的控制措施，确保只有真正希望授予应用这一极高权限的用户才能这样做。",
+          "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "time": "04:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI的Dot智能体：能帮你订晚餐的企业级软件",
+          "summary": "OpenAI推出名为Dots的新智能体平台，其中的小助手可执行用户指令。与Meta Muse的亲和风格不同，Dots更像企业办公软件，只是恰好能帮你订墨西哥卷饼——重点仍在工作场景。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "与埃隆·马斯克分手并非易事",
+          "summary": "希冯·齐利斯在X上宣布与四个孩子的父亲埃隆·马斯克分手，方式竟是引用转发“Big Tech Alert”账号的帖子——该账号专门监控科技圈账号的关注与取关动态。这一操作被比作MySpace时代的网络闹剧。",
+          "url": "https://www.theverge.com/tech/1004177/elon-musk-unfollows-shivon-zilis",
+          "time": "01:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI幻觉让无礼顾客更加肆无忌惮",
+          "summary": "纽约市服务员麦迪逊每次接待顾客都会询问过敏情况，但近来多次出现险情。有时顾客声称有贝类过敏，她确认后返回时对方却不再追问任何问题，令她担忧AI生成的信息可能让顾客对自身过敏风险产生错误判断。",
+          "url": "https://www.theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "如果数据中心伪装在树林中，还会有人讨厌它吗？",
+          "summary": "圣安东尼奥市议员里克·加尔万回忆，数据中心在本世纪初刚出现时看似普通办公楼，但近年来已发展为占地数百万平方英尺的巨型“超大规模”设施，承载AI的物理基础设施。随着这类设施不断扩张，社区对其态度也发生了变化。",
+          "url": "https://www.theverge.com/tech/1003681/microsoft-data-centers-ai-environment-biomimicry",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "亚马逊发博文警告社区不要阻止数据中心建设",
+          "summary": "亚马逊呼吁公众支持AI数据中心项目，否则将对美国经济和国家安全造成不可挽回的损害。AWS CEO马特·加曼在3000多字的博文中反驳了公众对数据中心可能影响就业、电力需求等方面的担忧。",
+          "url": "https://www.theverge.com/tech/1003929/amazon-ai-data-center-blog-warning",
+          "time": "19:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI音乐生成器Suno新增语音生成功能",
+          "summary": "Suno正从AI音乐领域向外拓展，推出了一项根据脚本或提示描述生成语音的新功能。该语音功能已在Suno的网页和移动平台开启公开测试，支持同时生成配音和背景音乐。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+          "time": "17:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "以自主AI重新定义企业智能",
+          "summary": "企业AI已全面投入运营，模型能力进步速度超过多数组织的消化能力，而性能成本持续下降。2026年全球AI投资预计达2.5万亿美元，同比增长44%。对许多企业而言，这笔投资已……",
+          "url": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+          "time": "23:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "别被迷惑——大语言模型并不会推理",
+          "summary": "2016年首尔的一场围棋比赛中，我参与开发的程序下出第37手，看似荒唐的落子却震惊了评论员。这一事件常被用来证明AI具备推理能力，但大语言模型实际上并不具备真正的推理能力。",
+          "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+          "time": "16:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta想让你的下一款设备融入Muse",
+          "summary": "Meta希望Muse能进入你的电视和烤面包机，因此将代码免费开放。",
+          "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+          "time": "08:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "肖恩·帕克围绕音乐业务重组Stability AI",
+          "summary": "肖恩·帕克曾以先斩后奏的方式震动音乐行业，如今他带着唱片公司的支持和资金回归，围绕音乐业务重组Stability AI。",
+          "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+          "time": "05:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "受裁员影响？别错过TechCrunch Disrupt 2026 Expo+通行证75美元优惠",
+          "summary": "你的下一个机会可能只差一次对话。现在仅需75美元即可获得Expo+通行证，限前100名符合条件者。",
+          "url": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+          "time": "03:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果称因AI代理带来新风险，将收紧macOS“完全磁盘访问”权限控制",
+          "summary": "苹果表示将针对macOS的“完全磁盘访问”权限新增控制措施，并警告能力日益增强的AI代理使用户文件、信息、邮件和浏览历史等广泛访问权限面临更大风险。",
+          "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+          "time": "02:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "叫它AI也好，超级智能也罢，只有2%的消费者买单",
+          "summary": "本周，白宫召集扎克伯格、贝索斯、马斯克及Anthropic的达里奥·阿莫代伊等科技巨头CEO签署AI安全承诺，特朗普称其具有“道德约束力”。特朗普还签署行政令，正式将AI重新命名为“超级智能”，与此同时Meta和OpenAI正为自家AI产品打造更亲和的形象。",
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it/",
+          "time": "01:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "白宫改口：AI 已升级为“超级智能”",
+          "summary": "本周，白宫召集扎克伯格、贝索斯、马斯克及 Anthropic 的达里奥·阿莫代伊等科技巨头 CEO，签署了一项被特朗普称为“道德约束”的 AI 安全承诺。特朗普还签署行政令，正式将 AI 重新定义为“超级智能”。与此同时，Meta 和 OpenAI 正为其 AI 产品打造更亲和的形象。",
+          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house/",
+          "time": "01:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026：黑石集团贾斯·凯拉谈打造下一代AI巨头",
+          "summary": "黑石集团的贾斯·凯拉将在TechCrunch Disrupt 2026的Builders Stage上，分享如何打造下一代AI。现在注册通行证，第二张可享五折优惠。",
+          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants/",
+          "time": "01:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Circuit Breaker Labs希望让AI对孩子（和你）更安全",
+          "summary": "人们常担忧AI未来可能毁灭人类，却容易忽视它已在心理层面伤害了一些人。Circuit Breaker Labs为此创建了“碰撞测试假人”来解决这一问题。",
+          "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "教皇利奥十四世不喜欢AI生成的艺术",
+          "summary": "教皇利奥十四世撰文指出，艺术与机器通过统计计算生成的图像之间存在本体论差异，而不仅仅是美学差异。他强调，算法缺乏人类独有的火花。",
+          "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art/",
+          "time": "23:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026：Clay 的卡里姆·阿明谈 GTM 工程师的崛起",
+          "summary": "Clay 联合创始人兼 CEO 卡里姆·阿明将亮相 TechCrunch Disrupt 2026 的 AI 舞台，探讨 GTM 工程师这一新兴角色的崛起。活动现已开放购票，注册可享第二张门票五折优惠。",
+          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-clays-kareem-amin-on-the-rise-of-the-gtm-engineer/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "最后24小时：在TechCrunch Disrupt 2026参展，触达10000+科技领袖",
+          "summary": "今天是预订TechCrunch Disrupt 2026展位的最后一天。10月13日至15日，10000多名创始人、投资者、运营者和科技领袖将齐聚旧金山Moscone West，寻找值得关注的公司、产品、创意和人才。问题是：他们会发现你的初创公司吗？",
+          "url": "https://techcrunch.com/2026/10/02/last-24-hours-exhibit-at-techcrunch-disrupt-2026-and-reach-10000-tech-leaders/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业在经历高速增长后进入调整期，头部企业面临盈利压力与估值回调。与此同时，AI 与数据驱动的新模式仍在重塑承保、理赔和分销环节，传统保险公司加速数字化转型。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "自我推广专帖",
+          "summary": "请在此发布个人项目、创业公司、产品推广、合作需求、博客等内容，并注明产品和服务的支付及定价要求。禁止发布链接缩短器、链接聚合网站或自动订阅链接，滥用信任将被封禁。鼓励新发提问帖的用户改为在此发布，本帖将持续有效至下一帖发布。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wvi1j8/d_selfpromotion_thread/",
+          "time": "10:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "动力系统重建中的拓扑域外泛化",
+          "summary": "在 #NeurIPS2026 论文《动力系统重建中的拓扑域外泛化》中，我们试图解决动力系统重建（DSR）和时间序列预测（TSF）中的一个根本问题：许多最新的 SOTA 模型能泛化到新初始条件或统计特性变化的时间序列，但真正困难的是拓扑域外泛化（OODG）。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wvwodf/topological_outofdomain_generalization_in/",
+          "time": "23:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "在奖励最大化任务中为搜索添加记忆而非采样 [R]",
+          "summary": "我是FLEET算法的作者之一，该算法通过将外部奖励归因于特定token，并利用MCTS在下一轮运行中调整logits，从而增强Best-of-N生成。目前大多数重复采样任务基于奖励最大化，却对奖励本身无感知，调参虽能提升效率但仍属盲目搜索。我们提出一种让生成过程感知奖励的方法。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wvs12j/adding_memory_to_search_instead_of_sampling_in/",
+          "time": "20:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如果手部追踪错过了插头插入的瞬间，你还会保留机器人演示吗？",
+          "summary": "假设你在录制人类将电缆插入插座的演示，用于机器人学习。手部追踪器能准确捕捉接近过程，但遮挡导致插入时手部估计消失，追踪在连接器已就位后才恢复。视频仍显示完整动作，但姿态标签在对齐转为接触的关键处出现空缺，这引发了一个评估问题：追踪器可能在整体上召回率很高，却恰好遗漏了最关键的接触时刻。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1ww5ijc/r_would_you_keep_a_robot_demonstration_if_hand/",
+          "time": "05:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "关于对抗目标的视频",
+          "summary": "我制作了这个关于对抗目标的视频，我早年曾研究过这一领域。我试图探索对抗方法如何超越GAN和自我博弈，延伸到现代技术中。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wvk3cw/a_video_about_adversarial_objectives_p/",
+          "time": "12:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "开源 AstaBrief：Asta 中的快速报告生成模型",
+          "summary": "AstaBrief 是 Asta 中的快速报告生成模型，现已开源。该模型旨在高效生成报告，相关代码和资源已向公众开放。",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "time": "23:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "AutoSynthData：为企业智能体生成训练数据",
+          "summary": "AutoSynthData 提出了一种为企业智能体自动生成训练数据的方法。该方法旨在解决企业场景下训练数据稀缺、标注成本高的问题，通过自动化合成提升智能体的训练效率与效果。",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "time": "12:01",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "商业租约续签办理",
+          "summary": "加州小企业主为阿姨的商用物业续租，不确定能否绕开房产经纪人自行完成，涉及条款审阅、通知期限、租金调整等繁琐细节，缺乏法律背景容易踩坑。AI可解析租约条款、生成续签清单与谈判要点，并提示各州法规差异，替代部分中介与律师的初筛工作。\n\n💡 机会方向：面向小企业主的商用租约AI审阅与续签助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ww8kle/can_commercial_lease_extension_be_done_without/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "LLC责任隔离合规",
+          "summary": "单成员LLC业主知道公司形式容易注册，但日常哪些习惯能保住有限责任保护（如独立账户、会议记录、合同署名、资金混同）却无人讲清，一旦被诉可能被击穿。AI可按周/月生成合规动作清单，自动检查银行流水与合同署名，提醒补做决议与分离账户。\n\n💡 机会方向：LLC合规守护AI，自动巡检责任隔离风险点",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ww63wi/singlemember_llc_which_daytoday_habits_actually/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "商户流水异常排查",
+          "summary": "使用CardPointe/CardConnect的商户发现银行账户异常，需紧急逐笔核对信用卡处理流水与到账金额，人工比对耗时且易漏。AI可自动拉取商户后台与银行流水做对账，标记缺失、延迟或重复扣款，并生成可提交给支付商的争议材料。\n\n💡 机会方向：支付通道与银行流水自动对账及异常告警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ww3udn/urgent_urgent_businesses_using_cardpointe/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "收支全量记账追踪",
+          "summary": "小企业主开始雇人后，意识到必须盯紧每一笔进出账，但此前从未系统记账，靠脑子或零散表格，容易漏项、混用个人与公司资金。AI可连接银行与支付账户，自动分类收支、生成现金流看板，并按周提醒异常支出与待收款项。\n\n💡 机会方向：小企业主自动记账与现金流监控AI助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1ww1pu7/how_do_you_track_all_of_your_money_in_out/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "朋友帮忙转收费定价",
+          "summary": "小企业主起初免费帮朋友店铺发帖，如今想转为正式收费，却不知如何开口、定什么价、如何界定服务范围，担心伤感情又怕白干。AI可根据服务内容与市场行情生成报价方案、服务边界说明与委婉沟通话术，并起草简易服务协议。\n\n💡 机会方向：熟人转付费的AI报价与沟通话术生成器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wvu5xc/is_it_awkward_to_start_charging_a_friends/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
