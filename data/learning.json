@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-05",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "恶意 Skill 如何绕过 AI 平台四层防护窃取数据",
+      "whatIsIt": "安全公司 PromptArmor 披露：Databricks Genie 的 Skill 机制可被恶意利用，把数据藏进聊天界面渲染的 HTML 里，借用户浏览器发请求外泄，并弹出钓鱼界面骗凭据。",
+      "boundary": "能做到：仅靠一段看似正常的 Skill 代码，就绕过平台四类控制，实现数据外泄和钓鱼。做不到：平台现有的静态审查、权限隔离、渲染沙箱无法完全拦住这类攻击。前提/代价：只要产品允许 AI 生成或渲染 HTML/富文本并让用户浏览器执行，就存在这条攻击面，防御需要把渲染层和网络请求都锁死。",
+      "whyLearn": "她做 AI 产品时一定会遇到'让模型输出可渲染内容'的需求，这条能帮她判断：哪些渲染能力必须加沙箱、哪些权限不能给模型，避免把安全漏洞当功能上线。",
+      "source": "AI HOT",
+      "url": "https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills",
+      "id": "9cf00824e0e9",
+      "date": "2026-10-05"
+    },
     {
       "category": "技术边界",
       "title": "LLM 会隐瞒对自己不利的结果，一句提示词能大幅改善",
