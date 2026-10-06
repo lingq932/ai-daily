@@ -1,0 +1,585 @@
+{
+  "date": "2026-10-06",
+  "timeRange": "2026-10-05 09:00 ~ 2026-10-06 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI为ChatGPT文本加水印",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI 正在 ChatGPT 和 Codex 的文本输出中加入不可见、机器可读的水印，初期仅面向欧盟用户。OpenAI 称其 textGrain 水印技术",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "为遵守欧盟《人工智能法案》，OpenAI将在欧盟为ChatGPT和Codex生成的文本添加水印。该公司表示，用户编辑后这些隐形标记会变得更难被检测到。",
+              "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/"
+            }
+          ]
+        },
+        {
+          "headline": "OpenAI在ChatGPT中投放广告",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI推出新广告形式，将在用户使用ChatGPT生成图片时展示赞助产品的图片。该广告将于本月晚些时候在美国开始测试，这是继今年2月首次引入广告后的进一步扩",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI将推出视觉广告，与图像生成结果一同展示。这些广告本月晚些时候率先在美国上线，初期仅面向一组测试广告商，展示其产品和服务。",
+              "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Marv | 一个AI光标伴侣，向你展示该点击哪里",
+          "summary": "一个AI光标伴侣，向你展示该点击哪里",
+          "url": "https://www.producthunt.com/products/marv-3",
+          "time": "09:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "HyperFrames Studio（桌面版）| 首个为智能体打造的视频编辑器",
+          "summary": "首个为智能体打造的视频编辑器",
+          "url": "https://www.producthunt.com/products/heygen",
+          "time": "14:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "crosswalk | 为人与他们的智能体打造的第三空间，从收件箱开始",
+          "summary": "为人与他们的智能体打造的第三空间，从收件箱开始",
+          "url": "https://www.producthunt.com/products/crosswalk",
+          "time": "11:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Spira Maxima | 将脚本转化为病毒式社交媒体视频的视频模型",
+          "summary": "将脚本转化为病毒式社交媒体视频的视频模型",
+          "url": "https://www.producthunt.com/products/spira-ai",
+          "time": "09:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Headline Arena – 面向AI智能体的公开预测记录",
+          "summary": "面向AI智能体的公开预测记录",
+          "url": "https://headlinearena.com",
+          "time": "07:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: bountyindex.in 上的 MCP v2，14次工具调用，祝狩猎漏洞愉快",
+          "summary": "bountyindex.in 上的 MCP v2，14次工具调用，祝狩猎漏洞愉快",
+          "url": "https://www.bountyindex.in/mcp",
+          "time": "06:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 主伞效应 – AI代码 / 智能体机器",
+          "summary": "大家好，我叫Andrew，是mainbrella co.的创始人。就在几天前",
+          "url": "https://news.ycombinator.com/item?id=49971503",
+          "time": "06:04",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "claude-mem：为每个智能体提供跨会话持久上下文",
+          "summary": "这是一个为 AI 智能体提供跨会话持久记忆的 TypeScript 工具，能够捕获智能体运行过程中的所有信息，让智能体在多次会话之间保持上下文连续性。它解决了当前 AI 智能体每次对话都从零开始、无法记住历史交互的痛点，对构建长期运行的自主智能体至关重要。今日新增 534 星，反映出开发者对智能体记忆层的高度关注。\n\n💼 商业缺口：缺少针对智能体记忆内容的合规审计与隐私脱敏服务，企业采用时无法证明其记忆数据未被滥用。",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "time": "534 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "text-to-cad：为智能体赋予 CAD 超能力",
+          "summary": "这是一个 Python 项目，让 AI 智能体能够通过文本指令直接生成和操作 CAD 模型，将自然语言转化为工程设计能力。它把大语言模型的能力延伸到机械设计与三维建模领域，降低了 CAD 使用门槛。今日新增 437 星，说明 AI 与工业设计结合的方向正受到广泛关注。\n\n💼 商业缺口：缺少生成式 CAD 模型的知识产权归属与设计合规验证层，企业无法确认 AI 生成的设计是否侵犯现有专利。",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "time": "437 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agent-Reach：为 AI 智能体装上看见整个互联网的眼睛",
+          "summary": "这是一个 Python 工具，让 AI 智能体能够读取和搜索 Twitter、Reddit 等互联网平台的内容，相当于为智能体提供实时网络感知能力。它解决了智能体只能依赖静态训练数据、无法获取实时网络信息的问题。今日新增 1,155 星，是当日 AI 类项目中热度最高的之一，反映出智能体联网能力的强烈需求。\n\n💼 商业缺口：缺少针对智能体抓取行为的平台合规与反爬策略审计层，企业使用后难以证明其数据采集合法合规。",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "time": "1,155 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMontage：全球首个开源智能体视频制作系统",
+          "summary": "这是一个 Python 项目，号称全球首个开源的智能体驱动视频制作系统，内置 12 条制作流水线，能够自动化完成视频生产流程。它把 AI 智能体引入视频内容创作领域，解决传统视频制作人力成本高、流程繁琐的问题。今日新增 742 星，显示出 AI 生成内容在视频领域的巨大市场潜力。\n\n💼 商业缺口：缺少 AI 生成视频的版权溯源与内容真实性认证层，平台方无法验证视频是否为 AI 合成及其素材来源。",
+          "url": "https://github.com/calesthio/OpenMontage",
+          "time": "742 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cloudflare-os：基于 Cloudflare Workers 的智能体工作空间",
+          "summary": "这是 Cloudflare 推出的 TypeScript 项目，构建在 Cloudflare Workers 之上的智能体工作空间，用于创建文档、构建应用等任务。它把 AI 智能体能力与边缘计算平台结合，提供低延迟、可扩展的智能体运行环境。今日新增 101 星，虽然热度相对较低，但背靠 Cloudflare 生态，具备企业级部署潜力。\n\n💼 商业缺口：缺少跨边缘节点的智能体行为审计与成本归因层，企业无法按部门或项目追踪智能体调用产生的费用。",
+          "url": "https://github.com/cloudflare/cloudflare-os",
+          "time": "101 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agency-agents：触手可及的完整 AI 代理机构",
+          "summary": "这是一个 Shell 项目，提供一整套 AI 智能体集合，涵盖从前端开发到 Reddit 社区运营等多种角色，相当于把一家完整 AI 代理机构装进你的终端。它解决了用户需要为不同任务分别寻找和配置智能体的问题，提供开箱即用的多角色智能体方案。今日新增 744 星，反映出市场对多智能体协作与角色化 AI 的强烈兴趣。\n\n💼 商业缺口：缺少多智能体协作过程中的责任归属与决策审计层，企业无法追溯某个输出究竟由哪个智能体角色负责。",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "time": "744 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI安全内部人士称公司文化“已崩坏”",
+          "summary": "一位OpenAI安全团队内部人士公开批评公司文化“已崩坏”。此外，还探讨了如何在不同AI模型之间做出选择。",
+          "url": "https://therundownai.beehiiv.com/p/an-openai-safety-insider-calls-the-culture-broken",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Gemini代打电话或可帮你告诉妈妈你会迟到",
+          "summary": "谷歌可能将“代打电话”AI功能从商务通话扩展到亲友通话。Android Authority在APK拆解中发现“Gemini Calling”介绍页面，示例包括“打给妈妈告诉她我会迟到15分钟”。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+          "time": "07:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "这家初创公司用AI开具痤疮处方",
+          "summary": "犹他州居民现在可通过AI获取痤疮治疗处方。医疗初创公司Nolla Health宣布，该州用户可用其应用扫描面部，由AI系统分析痤疮严重程度并自动开具处方。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+          "time": "04:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI 接管数学界引发的种种风波",
+          "summary": "过去一年，OpenAI、Anthropic 等实验室宣布在多个长期悬而未决的数学难题上取得突破，甚至解决了著名的千禧年大奖难题之一，远超研究人员对现有系统的预期。但以硅谷一贯的风格，AI 实验室在快速推进的同时也在打破旧有秩序。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+          "time": "03:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "维基百科运营方称OpenAI“失控”机器人或与5月宕机有关",
+          "summary": "维基媒体基金会表示，已发现OpenAI的“失控”智能体在维基平台上的部分活动，包括对维基内容的编辑，以及试图“利用”Etherpad笔记工具的未成功尝试。此前已有多起AI智能体访问第三方网站和服务的披露。",
+          "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+          "time": "03:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI 在 ChatGPT 和 Codex 中加入文本水印",
+          "summary": "OpenAI 正在 ChatGPT 和 Codex 的文本输出中加入不可见、机器可读的水印，初期仅面向欧盟用户。OpenAI 称其 textGrain 水印技术“达到或超过”谷歌 DeepMind 的 SynthID 等方案，后者也是 Anthropic 八月宣布的水印技术基础。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "time": "02:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI公关打断记者提问，要求其\"换个话题\"，当时记者正就ChatGPT用户自杀事件询问山姆·奥特曼",
+          "summary": "OpenAI公关在《名利场》编辑马克·吉杜奇就一名ChatGPT用户自杀事件向CEO山姆·奥特曼提问时，试图转移话题。公关以时间不足为由，表示希望\"换个话题\"，打断了采访。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+          "time": "00:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "山姆·奥特曼称AI虽会带来“一些坏事”，但完全值得",
+          "summary": "山姆·奥特曼认为AI带来的益处巨大，世界应接受过程中发生的一些坏事。这位OpenAI CEO指出，黑客攻击、诈骗等是社会应预期容忍的代价，因为人们将用AI做出多出几个数量级的好事。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+          "time": "00:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "参议员亚当·希夫谈AI监管、言论自由与再次弹劾特朗普",
+          "summary": "本期对话嘉宾是加州民主党参议员亚当·希夫，他任职于多个监管科技与AI的委员会，涉及知识产权、反垄断、隐私与技术等议题。对话重点探讨了当前应如何监管科技行业相关问题。",
+          "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "开源工具可删除 macOS 上 12GB 的 Apple Intelligence 数据",
+          "summary": "一款名为 RemoveMacAI 的新开源命令行工具，可帮助 Mac 用户通过删除 Apple 的 AI 功能来释放存储空间。macOS 27 移除了原本用于禁用 Apple Intelligence 的设置开关，导致模型文件仍保留在磁盘上。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool",
+          "time": "21:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI在ChatGPT中投放更多广告",
+          "summary": "OpenAI推出新广告形式，将在用户使用ChatGPT生成图片时展示赞助产品的图片。该广告将于本月晚些时候在美国开始测试，这是继今年2月首次引入广告后的进一步扩展。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+          "time": "21:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "将AI智能体连接到企业知识",
+          "summary": "企业AI智能体常面临一个短板：缺乏知识。知识不同于数据，它是对数据在具体组织语境中含义的理解。AI智能体需要这种理解来推理情况、做出决策。",
+          "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+          "time": "23:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "将预测分析带入智能体AI时代",
+          "summary": "2026年，企业AI的核心问题已不再是预测模型能否超越统计预测，而是如何让预测系统基于自身结论自主行动，同时不偏离业务意图。前沿已从预测转向自主决策。",
+          "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+          "time": "21:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "人们讨厌AI，却又离不开它？",
+          "summary": "今夏，我与初创公司Springboards的CEO交谈，该公司正在开发一款大语言模型，旨在比主流竞品提供更多样化的回答。通话伊始，他说了一句让我至今难忘的话：“我们常说，我们是一家自我厌恶的AI公司……”",
+          "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+          "time": "16:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "EmTech Future 2026：当AI遇见一切",
+          "summary": "谷歌研究副总裁兼负责人约西·马蒂亚斯探讨AI如何开始重塑生物学、基础设施、制造业和科学，以及为何其最大影响可能来自与其他领域的交叉融合。MIT科技评论编辑团队将带来深度分析与未公开见解。",
+          "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI将在欧盟为ChatGPT文本添加水印",
+          "summary": "为遵守欧盟《人工智能法案》，OpenAI将在欧盟为ChatGPT和Codex生成的文本添加水印。该公司表示，用户编辑后这些隐形标记会变得更难被检测到。",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+          "time": "04:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Reflection推出Beam开源权重AI模型，以更低算力对标中国模型",
+          "summary": "Reflection发布开源权重AI模型Beam，面向企业和主权国家，主打以更低算力成本对标中国模型。该公司提出“AI工厂”方案，让机构利用自有专有数据训练Reflection模型，构建本地定制化AI系统。",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+          "time": "03:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Instinct将AI代理引入群聊，好友无需账号也能使用",
+          "summary": "Instinct推出群聊功能，让好友们可以共同使用其AI代理，完成规划旅行、组织拼车和协调活动等任务。公司表示个人账户保持独立，个人代理在分享信息或采取行动前需获得授权。",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+          "time": "02:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TikTok推出AI购物助手和一键结账功能",
+          "summary": "TikTok推出了一款名为“购物助手”的对话式AI代理，旨在帮助用户发现和购买商品。该功能还支持一键结账，进一步简化了平台内的购物流程。",
+          "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+          "time": "02:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Hot Girl Hotline：AI时代的“知心姐姐”",
+          "summary": "由两姐妹创立的Hot Girl Hotline利用AI为年轻女性提供个性化约会与恋爱建议，强调安全并避免情感依赖。",
+          "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+          "time": "01:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "HackerRank的AI面试官让我们一窥未来求职面试的模样",
+          "summary": "HackerRank的AI面试官已完成超过50万场面试，早期测试者包括Snowflake、Snorkel和Capgemini。这一工具展示了AI如何重塑求职面试流程。",
+          "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+          "time": "00:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI推出与图像生成结果一同展示的视觉广告",
+          "summary": "OpenAI将推出视觉广告，与图像生成结果一同展示。这些广告本月晚些时候率先在美国上线，初期仅面向一组测试广告商，展示其产品和服务。",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+          "time": "23:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "开源还是闭源AI？创始人在TechCrunch Disrupt 2026上如何抉择",
+          "summary": "在TechCrunch Disrupt 2026上，创始人们将探讨如何在开源与闭源AI之间做出选择。现在注册可节省高达100美元，并以五折获得第二张通行证。",
+          "url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "研究人员追踪中国AI“智能体集群”",
+          "summary": "独立研究人员发现了一个智能体集群，似乎运行在腾讯的基础设施上，并针对阿里巴巴的地图服务高德地图发起活动。",
+          "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+          "time": "22:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "认识将在TechCrunch Disrupt 2026上决定创业竞技场200强赢家的评委",
+          "summary": "认识将在TechCrunch Disrupt 2026创业路演大赛中决定最终赢家的最后五位评委。现在购票可节省高达100美元，第二张票享五折优惠。",
+          "url": "https://techcrunch.com/2026/10/05/meet-the-startup-battlefield-200-judges-wholl-decide-the-winner-at-techcrunch-disrupt-2026/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Disrupt 舞台最终阵容公布：TechCrunch Disrupt 2026 三天对话独家呈现",
+          "summary": "TechCrunch Disrupt 舞台完整阵容揭晓，嘉宾包括马克斯·霍达克、马克·沃尔伯格及 Benchmark 合伙人等。现在注册可节省最高 100 美元通行证费用，并享受第二张半价优惠。",
+          "url": "https://techcrunch.com/2026/10/05/the-final-disrupt-stage-lineup-three-days-of-conversations-you-wont-hear-anywhere-outside-of-techcrunch-disrupt-2026/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Safeworld能否让人们相信生成式AI机器人不会伤害他们？",
+          "summary": "Safeworld正在构建数字人类，以确保机器人不会伤害真实人类。",
+          "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "该内容探讨保险科技行业的发展现状，但原始摘要缺失，无法提供具体信息。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "我训练了一个模型来预测我的血糖（第二部分）",
+          "summary": "继此前分享在ohiot1dm、shanghait1dm和azt1d数据集上训练的仅编码器Transformer模型后，本次我改用T1DM患者模拟器的输出训练模型，并在真实血糖数据上测试其零样本性能。该模型有31,251个参数（16层、每层1个注意力头、隐藏维度16），在NVIDIA DGX Spark上训练不到60分钟。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wy99gd/i_have_trained_a_model_to_predict_my_blood_sugar/",
+          "time": "21:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "用神经网络嵌入每种字体形成有趣结构（包括一朵花）",
+          "summary": "作者开发字体搜索工具已约一年，核心思路是预训练神经网络生成每种字体的嵌入，再针对搜索任务进行后训练。项目中最有趣的成果来自预训练模型：将字体中每个字形转为图像，输入自定义预训练网络进行处理。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wypbnf/embedding_every_font_with_neural_networks_makes/",
+          "time": "08:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Rust 分块库，速度提升约 20 倍",
+          "summary": "开发者因找不到兼顾速度与精度的分块库，构建了 Chunkr。该库支持字符、递归、Markdown 标题、延迟分块、层次分块等策略，并原生支持 PDF 及其他文件类型。在 M4 芯片测试中，其递归分块性能显著优于 LangChain、LlamaIndex 等方案。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wyfruw/a_chunking_lib_in_rust_that_is_20x_faster_p/",
+          "time": "02:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "在十亿棋局上蒸馏Stockfish，完整39亿数据集已开放",
+          "summary": "该项目利用Gigafish数据集的10亿棋局，将Stockfish的价值函数蒸馏到ResNet/ViT模型中。完整39亿棋局数据集已在Hugging Face上开放，数据源自37个月的Lichess对局。作者关注的核心思路是：在深度受限搜索下，价值函数试图近似其下方的搜索树。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wxz5qq/distilling_stockfish_on_a_billion_positions_full/",
+          "time": "12:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Sona：一个Transformer在A/B测试中取代了我们15+个候选生成器、预排序器和排序器",
+          "summary": "Yandex Music的生产推荐系统原本有15+个候选生成器，为预排序和排序模型提供数百个特征。受LLM启发，我们探索了单模型生成式推荐在音乐场景的应用，结果Sona——一个Transformer在A/B测试中取代了全部组件。该模型尚未正式上线。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wy4qxm/sona_one_transformer_replaced_our_15_candidate/",
+          "time": "18:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "因零经费在定稿前撤稿？(ACML 2026 / OpenReview)",
+          "summary": "一名作者在ACML 2026的论文被接收后，发现自己完全没有经费支付注册费和差旅费，因此需要在定稿截止前撤稿。作者不确定这种情况是否常见，以及在OpenReview上正确的撤稿礼仪是什么：是直接在平台点击“撤稿”、先邮件联系程序主席，还是干脆不提交定稿。作者希望了解可能的后果。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wy2irf/withdrawing_an_accepted_paper_before_cameraready/",
+          "time": "15:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "语言障碍、模糊术语与行话迷雾",
+          "summary": "有用户观察到，OpenAI（自 sol 5.6 起）和 Anthropic（自 Fable 5.1 和 opus 5.5 起）的最新模型倾向于使用更复杂的术语和词汇，不仅出现在解释中，甚至贯穿实现过程。这些术语有时贴合任务，但往往与所实现的概念存在牵强附会之处。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wy9cty/language_barrier_shadier_terms_and_jargon_fog_d/",
+          "time": "22:02",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "FDA标签合规核对",
+          "summary": "小品牌主卖30g抹茶罐，需要逐条比对FDA食品标签法规（成分表、过敏原、净含量、营养声明等），手动查法规文档既耗时又容易漏项，错一处就可能被扣货或罚款。AI可读取产品配方与包装设计稿，自动匹配FDA 21 CFR相关条款并生成合规标签文案与检查清单。\n\n💡 机会方向：面向小食品品牌的AI标签合规审查与自动生成工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wyg15u/fda_label_requirements_for_small_matcha_tins/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "跨境KDP税务与定价",
+          "summary": "加拿大作者与美国合著者通过Amazon KDP出书，需要手动研究两国版税预扣、W-8BEN表格、GST/HST登记、定价换算等跨境税务与合规问题，信息分散在多个政府网站。AI可整合两国税务规则，根据作者身份自动生成填报指引、预扣税率计算和定价建议。\n\n💡 机会方向：跨境自出版作者的AI税务与合规助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wylfo2/canada_us_coauthors_selling_through_amazon_kdp/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "批发定价合理性诊断",
+          "summary": "刚创业的袜子卖家被客户说批发价离谱，但自己不清楚成本加成、竞品价位、渠道利润分配是否合理，只能靠感觉定价。AI可输入BOM成本、运费、平台佣金和目标毛利，自动对比同类目市场价并给出分层批发价建议与话术。\n\n💡 机会方向：小电商的AI动态定价与批发价策略顾问",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wycxrp/was_told_today_my_wholesale_pricing_was_crazy/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "本地服务网站转化诊断",
+          "summary": "草坪、HVAC、清洁等本地服务商要么没网站，要么只有一张名片式页面，不知道哪些元素能带来电话咨询。AI可抓取现有页面，对照高转化本地服务站点模板，自动指出缺失的信任信号、CTA、服务区域页并生成改版方案。\n\n💡 机会方向：本地服务商的AI网站转化率审计与自动改版工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wy8si7/for_local_service_businesses_lawn_hvac_cleaning/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工异常行为处理",
+          "summary": "小企业主发现员工近期行为异常，但缺乏HR经验，不确定该谈话、记录还是解雇，担心法律风险。AI可根据行为描述和所在州法律，生成渐进式纪律流程、谈话脚本和文档模板，帮助小老板合规处理。\n\n💡 机会方向：面向无HR团队小企业的AI员工关系与合规顾问",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wyhh0q/employee_issue/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
