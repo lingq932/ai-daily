@@ -1,0 +1,581 @@
+{
+  "date": "2026-10-07",
+  "timeRange": "2026-10-06 09:00 ~ 2026-10-07 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Mistral发布新1T模型",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "西方版DeepSeek终于推出了一款新模型。此外，还可通过一个Claude Code模组来保护你的文件。",
+              "url": "https://therundownai.beehiiv.com/p/the-deepseek-of-the-west-finally-has-a-model"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "法国AI实验室Mistral AI发布了Mistral Large 4，一款新的大型多模态模型，旨在超越美国与中国的竞争对手。",
+              "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/"
+            }
+          ]
+        },
+        {
+          "headline": "AI代理需网站放行",
+          "coverage": [
+            {
+              "source": "TechCrunch - AI",
+              "summary": "个人AI代理承诺能帮用户购物、订机票和预订，但网站的有意封锁和反机器人防御正在阻碍这些操作，消费者夹在中间左右为难。一项新标准旨在解决这一问题。",
+              "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "研究者从约100个Python项目已合并的PR中提取真实并发缺陷（竞态条件、死锁、取消问题），构建了一个编码智能体基准。每个任务在无网络的容器中由项目自身测试评",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1wyw0my/swerace_a_codingagent_benchmark_of_188_real/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN: Puppet Master – 大规模管理编码代理",
+          "summary": "随着我开始更多地使用 `claude` 和 `codex`，管理所有这些代理变得太难了",
+          "url": "https://puppet-master.xyz/",
+          "time": "08:57",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "text-to-cad：为智能体赋予CAD超能力",
+          "summary": "这是一个Python工具，让AI智能体能够直接生成和操作CAD模型，把自然语言或代码指令转化为三维设计。它解决的是传统CAD软件操作门槛高、无法被AI自动化调用的问题，今日获得619星，说明AI+工业设计的结合正受到开发者关注。\n\n💼 商业缺口：缺少针对AI生成CAD模型的版本追溯、合规审计与设计责任归属层。",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "time": "619 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "impeccable：让AI工具更懂设计的语言规范",
+          "summary": "这是一个JavaScript设计语言框架，专门用于提升AI编码助手（harness）在UI/UX设计上的输出质量。它解决的是AI生成界面时审美和一致性不足的问题，今日616星，反映出开发者对AI产出设计质量的强烈需求。\n\n💼 商业缺口：缺少跨团队的设计规范采纳度度量与AI输出设计合规审计服务。",
+          "url": "https://github.com/pbakaus/impeccable",
+          "time": "616 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "claude-mem：为每个智能体提供跨会话持久记忆",
+          "summary": "这是一个TypeScript项目，为AI智能体提供跨会话的持久上下文记忆，捕获智能体的一切操作历史。它解决的是LLM智能体每次对话都失忆、无法积累经验的痛点，今日534星，契合当前Agent记忆管理这一热门方向。\n\n💼 商业缺口：缺少记忆数据的隐私合规审计、成本计量与跨Agent记忆治理层。",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "time": "534 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "i-have-adhd：让编码智能体不再埋没答案的技能",
+          "summary": "这是一个Python技能插件，强制AI编码助手以ADHD友好的方式输出，直接给出答案而非长篇铺垫。它解决的是LLM回答啰嗦、关键信息被淹没的普遍问题，今日326星，体现了对AI输出可用性的精细化打磨趋势。\n\n💼 商业缺口：缺少对AI输出简洁度与信息密度的量化评估及团队采纳证据层。",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "time": "326 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "rea：用智能体逆向工程一切",
+          "summary": "这是一个TypeScript工具，利用AI智能体对应用行为乃至原生二进制进行逆向工程分析。它解决的是传统逆向工程高度依赖专家、效率低的问题，今日狂揽2956星，是当日最热项目，显示AI驱动的安全分析需求爆发。\n\n💼 商业缺口：缺少AI逆向工程操作的合法性审计、授权追踪与合规证据留存层。",
+          "url": "https://github.com/morluto/rea",
+          "time": "2,956 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DeepGEMM：GPU上简洁高效的BLAS内核库",
+          "summary": "这是DeepSeek-AI开源的CUDA内核库，提供干净高效的GPU矩阵运算（BLAS）实现，专为大模型训练与推理优化。它解决的是深度学习底层算力效率问题，今日199星，作为国产大模型团队的底层基建，技术价值高。\n\n💼 商业缺口：缺少针对GPU内核性能的跨硬件成本对比与推理成本核算服务。",
+          "url": "https://github.com/deepseek-ai/DeepGEMM",
+          "time": "199 stars today",
+          "language": "Cuda",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agency-agents：触手可及的完整AI代理机构",
+          "summary": "这是一个Shell项目，提供一整套AI智能体角色集合，从前端专家到社区运营，开箱即用。它解决的是用户搭建多角色AI工作流时重复造轮子的问题，今日623星，反映了多智能体协作编排的旺盛需求。\n\n💼 商业缺口：缺少多智能体协作的绩效审计、任务成本分摊与采用效果证据层。",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "time": "623 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "diagram-design：面向AI编码工具的编辑级图表设计",
+          "summary": "这是一个HTML项目，为Claude Code、Codex、GitHub Copilot等AI编码工具提供编辑级图表设计能力。它解决的是AI生成图表美观度和专业性不足的问题，今日228星，切中了AI辅助开发中可视化输出的细分需求。\n\n💼 商业缺口：缺少AI生成图表的品牌一致性审计与设计资产版本治理服务。",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "time": "228 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Anthropic 扩展网络安全验证计划",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 宣布扩展其网络安全验证计划，让经过验证的安全专业人员能够更广泛地访问其最强模型，包括 Claude Mythos 5.1、Opus 5.5 和 Sonnet 5.5，并提供专为防御性工作设计的安全保障。同时，该计划新增层级，允许授权开展渗透测试和红队演练等攻击性安全工作。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "MiniMax 亮相旧金山科技周，举办多场 AI 活动",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 将在旧金山科技周期间举办多场活动，涵盖前沿模型、高速推理、规模化智能体、开源 AI 技术栈等主题，合作方包括 FriendliAI、Anaconda、Nous Research、Vercel 等。活动时间为 10 月 6 日至 8 日，可通过 Luma 平台查看详情并报名。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "山姆·奥特曼：我们正进入发现的新时代",
+          "url": "https://twitter.com/sama",
+          "summary": "OpenAI 发布内部前沿模型在数学开放问题上的新成果，并在 GitHub 上公开 Lean 证明形式化及研究细节。山姆·奥特曼表示，我们正进入一个发现的新时代。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "德米斯·哈萨比斯称赞约翰·乌尔谢尔，并发布 Nano Banana 2.1 图像模型",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯称赞前 NFL 球员约翰·乌尔谢尔，后者 26 岁退役后投身数学，据称帮助解决了一个长期存在的高斯消元数学猜想。哈萨比斯还发布了新一代图像生成与编辑模型 Nano Banana 2.1，在视觉设计、蒙版编辑和主体一致性方面均有显著提升。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "西方版DeepSeek终于推出模型",
+          "summary": "西方版DeepSeek终于推出了一款新模型。此外，还可通过一个Claude Code模组来保护你的文件。",
+          "url": "https://therundownai.beehiiv.com/p/the-deepseek-of-the-west-finally-has-a-model",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "让 Claude Code 更聪明的三个文件",
+          "summary": "介绍让 Claude Code 更智能的三个关键文件：CLAUDE.md、settings.json 和 SKILL.md。文章提供真实示例、设置步骤，并坦诚分析其利弊。",
+          "url": "https://towardsai.com/p/machine-learning/the-3-files-that-make-claude-code-much-smarter",
+          "time": "16:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "System 1 (Jev) 模型：前沿模型的更快更便宜代理——附带可用路由器",
+          "summary": "Jev、Laya、Kev 和 Nimble 模型现已集中提供，并附带一个开源概念验证，可将其置于 LiteLLM 代理前，为每个请求自动选择模型。让编码代理重命名一个变量却要加载数千亿参数，这种做法是否值得？简单问题、路由和决策不应浪费数十万 token。",
+          "url": "https://towardsai.com/p/machine-learning/system-1-jev-models-faster-and-cheaper-proxy-to-frontier-models-with-a-working-router",
+          "time": "15:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Cloudflare Clef系统一模型中真正重要的数字并非38.8毫秒——Jev与Laya对比",
+          "summary": "Cloudflare开源了基于Qwen构建的两个“系统一”决策模型Clef和Clef-flash，主打速度。作者在笔记本上将其与Laya对比测试，原本想证明快速模型无法说出“以上都不是”，但这一假设并未成立。",
+          "url": "https://towardsai.com/p/machine-learning/the-number-that-matters-in-cloudflares-clef-system-one-model-isnt-38-8-ms-jev-and-laya-compared",
+          "time": "15:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "约束解码能做到提示永远做不到的事",
+          "summary": "文章对比了提示与约束解码的区别：提示通过上下文改变概率分布，但无法将无效token的概率降为零，因此即使反复强调“只返回有效JSON”并给出示例，仍有约1%的调用会失败。约束解码则能在解码阶段直接屏蔽无效token，从根本上保证输出格式的合规性。",
+          "url": "https://towardsai.com/p/machine-learning/what-constrained-decoding-does-that-prompting-never-can",
+          "time": "15:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "为什么微软Foundry的内容过滤器会拦截合法的医学问题？",
+          "summary": "一位肿瘤科医生使用基于微软Foundry构建的临床笔记助手，要求总结高剂量化疗方案的风险，却收到HTTP 400错误，代码为content_filter。该案例研究分析了护栏注释，定位类别与严重程度，并在保持自残内容严格限制的同时放宽一个阈值。",
+          "url": "https://towardsai.com/p/machine-learning/why-is-microsoft-foundrys-content-filter-blocking-legitimate-medical-questions",
+          "time": "15:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Cortex代理的生产级RBAC、成本优化与部署模式",
+          "summary": "本文介绍Snowflake Cortex Agent正式版增强功能的开发到生产流程，涵盖个人数据库沙箱、临时代理、COPY GRANTS以及Cortex Search暂停的成本计算。这是两部分系列文章的第二部分，第一部分讨论了Cortex Agent规范对所有可调用角色的可见性问题。",
+          "url": "https://towardsai.com/p/machine-learning/production-rbac-cost-optimization-and-deployment-patterns-for-cortex-agents",
+          "time": "15:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "编写智能体：引导本地模型",
+          "summary": "大多数对语言模型行为的调整都是从外部进行的，比如编写系统提示、选择采样温度或在消息末尾要求简洁。DS4 中的定向编辑提供了另一种思路：通过滑块式调节实现权重分支无法做到的行为控制。",
+          "url": "https://towardsai.com/p/machine-learning/coding-an-agent-steering-a-local-model",
+          "time": "15:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "机器学习基础：我希望早知道的5件事",
+          "summary": "文章从作者初次获得98%准确率的经历切入，介绍五个初学者友好的机器学习基础理念，解释为何教程在实践中常常失效。核心观点包括：应优先关注数据质量而非算法，以及理解模型误差背后的真正原因。",
+          "url": "https://towardsai.com/p/machine-learning/machine-learning-basics-5-things-i-wish-i-knew-first",
+          "time": "15:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "微积分基本定理：像朋友一样为你讲解",
+          "summary": "文章从汽车仪表盘上的速度和里程两个数字切入，直观解释微积分基本定理：当矩形无限缩小时，面积变得精确，这正是积分的核心思想。同时说明为何面积以曲线高度为增长率、为何加C会抵消，以及该定理最终在何处失效。",
+          "url": "https://towardsai.com/p/machine-learning/the-fundamental-theorem-of-calculus-explained-like-a-friend-would",
+          "time": "15:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "Deepseek-V3：多Token预测——第三部分",
+          "summary": "本文是Deepseek-V3技术报告系列第三部分，用通俗语言结合代码实现讲解技术细节。文章介绍了多Token预测（MTP）作为传统下一Token自回归建模的扩展，并解释了其训练方式。",
+          "url": "https://towardsai.com/p/machine-learning/deepseek-v3-multi-token-prediction-part-3",
+          "time": "15:26",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI再发一批数学突破",
+          "summary": "OpenAI公布了一批由未发布的前沿模型生成的722篇手稿，解决了多个长期存在的数学问题，涵盖372个结果系列。这延续了一系列令数学界既惊叹又不安的突破，同时引发了关于研究伦理的质疑。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+          "time": "07:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "我们不能随意改变“录音”的定义",
+          "summary": "随着AI硬件的普及，科技公司正在模糊“录音”的界定。过去，带麦克风或摄像头的设备要么在录，要么没录，状态明确；如今这种非黑即白的认知正被打破。",
+          "url": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
+          "time": "00:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌即将取消Gemini Flash和Pro的免费访问",
+          "summary": "自10月9日起，谷歌Gemini免费版用户将只能使用Flash Lite模型，无法再选择Flash和Pro。若要继续使用标准Flash模型，需订阅每月4.99美元的Google AI Plus服务。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "time": "21:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "亚马逊Alexa Plus诡异故障：连续数分钟哼唱“啦啦啦”",
+          "summary": "亚马逊Echo智能音箱的Alexa Plus出现令人不安的故障，会在与用户对话中途突然反复说唱“啦啦啦”长达数分钟。当被问及这一行为时，Alexa似乎完全不知道自己在做什么。",
+          "url": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end",
+          "time": "18:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前Ramp工程师放弃首款产品后，为新平台Melius融资2000万美元",
+          "summary": "这些前Ramp工程师不再帮助营销人员管理和优化广告支出，而是专注于打造生成创意素材和营销活动的工具，并为此获得了2000万美元融资。",
+          "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+          "time": "06:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI决策模型如何改变内容审核",
+          "summary": "Musubi于周二发布了一款专为实时审核设计的轻量级决策模型PolicyLM-1.7B，并以开放权重形式发布。",
+          "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+          "time": "04:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI计算初创公司Lambda拟在IPO前融资40亿美元",
+          "summary": "英伟达支持的Lambda正以145亿美元投前估值融资至多40亿美元，由Coatue和黑石领投，为计划于2027年进行的IPO做准备。",
+          "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+          "time": "04:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI代理的下一个障碍：让网站放行",
+          "summary": "个人AI代理承诺能帮用户购物、订机票和预订，但网站的有意封锁和反机器人防御正在阻碍这些操作，消费者夹在中间左右为难。一项新标准旨在解决这一问题。",
+          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+          "time": "03:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Hark发布注重隐私的AI个人助手",
+          "summary": "该AI实验室推出的个人助手被描述为一款来自未来的操作系统，旨在与Muse、Dots和Instinct展开竞争。",
+          "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+          "time": "02:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Mirror Particle 正在构建人类行为的“世界模型”",
+          "summary": "Mirror Particle 将在 TechCrunch Disrupt 的 Startup Battlefield 200 上亮相，推出一个从零构建、用于预测人类行为的世界模型。该公司认为，大语言模型的角色扮演不足以支撑市场研究和品牌战略。",
+          "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+          "time": "00:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic 为初创公司免费提供一年 Claude Team 及 1000 美元额度",
+          "summary": "Anthropic 推出新计划，为初创公司免费提供一年 Claude Team 使用权和 1000 美元额度。该公司表示，相信 AI 的益处将主要通过基于模型构建的公司惠及大众，而非仅靠模型本身。",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "LibreOffice称“无AI”现已成为一项软件特性",
+          "summary": "这款开源文档编辑器的开发商表示，出于用户隐私考虑，没有计划在软件的默认配置中加入AI功能。",
+          "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+          "time": "23:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Mistral发布新1T模型，意图超越闭源与开源对手",
+          "summary": "法国AI实验室Mistral AI发布了Mistral Large 4，一款新的大型多模态模型，旨在超越美国与中国的竞争对手。",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+          "time": "22:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Pinterest的AI现在将美妆Pin转化为行动方案",
+          "summary": "Pinterest推出全新AI驱动的美妆指南，可将头发和美甲Pin转化为沙龙术语，并提供预估费用、预约时间和维护需求。",
+          "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026 完整分会场议程揭晓，所有问题都能得到解答",
+          "summary": "TechCrunch Disrupt 2026 完整分会场议程已公布，活动将于10月13日至15日在旧金山举行，届时可解答你在规模化和技术方面的所有疑问。现在注册可节省高达100美元，并享受第二张通行证五折优惠。",
+          "url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，数字化与人工智能正在重塑承保、理赔和分销等核心环节。新兴企业与传统保险公司之间的竞争与合作持续加剧，监管环境也在不断演变。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "没有顶会论文的机器学习博士申请",
+          "summary": "我知道顶尖机器学习博士项目竞争极其激烈，正在考虑是否值得申请，还是应该认真找工作。我在美国排名前15的大学读硕士，长期从事机器学习研究，项目均为第一作者，主要独立完成，偶尔得到导师指导。一篇第一作者NeurIPS投稿被拒，目前另有一篇第一作者论文投给了ICLR，但说实话我并不太……",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wzeszo/ml_phd_without_a_publications_d/",
+          "time": "05:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Transformer、RNN与SSM对比：记忆究竟存于何处？",
+          "summary": "本文深入探讨了RNN、Transformer和SSM在记忆机制上的权衡。从工作记忆的视角来看，这些架构的差异变得更容易理解：记忆究竟存在于紧凑的循环状态、不断增长的KV缓存，还是网络本身之中？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wz71g3/transformers_vs_rnns_vs_ssms_where_does_memory/",
+          "time": "00:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "AFP-GIC：可控生成式图像压缩",
+          "summary": "研究团队发布 AFP-GIC 框架，已正式发表于 IEEE Access（2026），并开源部署代码库及交互式可视化平台。该框架针对超低码率下标准学习型图像编解码器存在局部失真、生成式方法难以控制等问题，提供了可控的生成式图像压缩方案。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wzbe6r/afpgic_controllable_generative_image_compression_r/",
+          "time": "03:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "学习如何学习语言：从合成非语言先验中进行自然语言的上下文学习",
+          "summary": "人类能轻松从观察到的数据中学习，但多数机器学习模型难以从训练时未见的新数据中学习。先验拟合网络（TabPFN 背后的思想）表明，仅在合成数据上训练的模型可以完全通过上下文从真实表格数据中学习。我们将这一思想扩展到自然语言等结构化序列，提出了一个语言先验。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wyzhdw/learning_to_learn_a_language_incontext_learning/",
+          "time": "18:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 工作坊注册：已注册作者遇名额已满",
+          "summary": "我已提前注册了 NeurIPS 主会，但忘记注册工作坊。现在尝试注册时，系统提示工作坊对公众已售罄，作者可通过预留名额注册，但每篇论文最多允许一位作者以此方式注册，而我的论文名额已被已注册的合著者占用。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wzhpnz/neurips_workshop_registration_for_registered/",
+          "time": "07:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "SWE-Race：包含188个真实并发缺陷的编码智能体基准，附三个模型的测试结果",
+          "summary": "研究者从约100个Python项目已合并的PR中提取真实并发缺陷（竞态条件、死锁、取消问题），构建了一个编码智能体基准。每个任务在无网络的容器中由项目自身测试评分，且仓库被裁剪至单个提交，防止智能体从git历史中找回修复方案。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wyw0my/swerace_a_codingagent_benchmark_of_188_real/",
+          "time": "15:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 2026 财务援助申请",
+          "summary": "有用户反映，尽管财务援助申请截止日期尚未到来，却无法打开申请表格。该帖子由 /u/lcj29 提交，寻求其他遇到相同问题的人的反馈。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1wz0fzf/neurips_2026_financial_assistance_d/",
+          "time": "19:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "Falcon-Emirati：当大语言模型学会方言、文化与细微差别",
+          "summary": "Falcon-Emirati 是一款专为阿联酋语境打造的大语言模型，能够理解当地阿拉伯语方言、文化习俗和语言中的细微表达。该模型旨在弥合通用大模型与本土语言文化需求之间的差距，提升在阿联酋场景下的自然语言处理表现。",
+          "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+          "time": "14:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对客户邮件与线索",
+          "summary": "小型高压清洗公司老板靠零散渠道获客，线索极少且分散在电话、短信、邮件、Google Business等各处，需要手动记录、跟进、判断哪些值得回复，常常漏掉或延迟响应导致丢单。AI可自动聚合各渠道线索、打分排序、生成个性化跟进话术并提醒，甚至自动回复初步询价。\n\n💡 机会方向：面向本地服务小商家的AI线索聚合与自动跟进助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wzilw8/pressure_washing_company_with_very_few_leads/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动处理公司纸质邮件",
+          "summary": "10人全远程公司经营7年，所有实体信件（税务、合规、银行、客户合同）都寄到某人家中或虚拟地址，需要人工拆封、扫描、分类、转发给对应负责人，积压严重且容易错过重要截止日期。AI可自动OCR识别、分类归档、提取关键日期与金额、路由到责任人并生成待办。\n\n💡 机会方向：AI虚拟邮箱：自动扫描分类实体信件并提取待办事项",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wzhf5w/how_do_you_deal_with_all_the_mail/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动投放EDDM直邮广告",
+          "summary": "创业者用EDDM做本地直邮广告，需要手动设计明信片、按邮编筛选投放区域、联系印刷、去邮局按路线分拣、计算每片区ROI，流程繁琐且难以规模化测试。AI可根据目标客户画像自动生成明信片文案与设计、推荐高潜力邮编、追踪各批次转化并优化下一轮投放。\n\n💡 机会方向：AI驱动的本地直邮广告投放与效果归因平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1wzj87a/starting_a_direct_mail_ad_campaign_business_using/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动撰写长import语句",
+          "summary": "不用自动补全的程序员在Java/C#/Python中写长import时，需要凭记忆手打完整包路径，容易拼错、遗漏或引入错误类，调试耗时。AI可根据当前代码上下文自动推断并补全import、检测未使用导入、在重构时批量更新引用路径。\n\n💡 机会方向：轻量级AI代码补全插件，专注import与依赖管理",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49984155",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动维权下架盗版软件",
+          "summary": "Photopea开发者发现大量盗版副本在GitHub等平台传播，需手动逐一搜索、取证、填写DMCA投诉、跟踪处理进度，一个月仍未被移除，耗时且挫败。AI可自动全网扫描盗版副本、生成合规DMCA通知、批量提交并跟踪各平台响应，显著降低维权成本。\n\n💡 机会方向：AI盗版监测与自动化DMCA维权平台",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=49982498",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
