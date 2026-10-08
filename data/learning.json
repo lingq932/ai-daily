@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-10-07",
+  "updatedAt": "2026-10-08",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "AI 辅助未必培养专业判断力：律所三个月实验",
+      "whatIsIt": "Google Research 在 11 家律所 133 名律师中做的随机对照实验，测试 AI 专利写作助手对初级律师专业判断的影响。",
+      "boundary": "能做到：AI 能提升产出速度、降低写作门槛。做不到：它不自动让新人变得更会判断，甚至可能让判断力成长变慢。前提/代价是：想让 AI 真正培养人，需要刻意设计\"让人思考\"的用法，而不是直接给答案。",
+      "whyLearn": "这是\"AI 提效\"和\"AI 培养人\"之间的关键区别。你做企业落地时，如果目标是团队能力成长，就不能只按效率指标验收。",
+      "source": "AI HOT",
+      "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+      "id": "6c93e4a19936",
+      "date": "2026-10-08"
+    },
+    {
+      "category": "技术边界",
+      "title": "员工不愿用 AI，是因为被包装成效率工具",
+      "whatIsIt": "Stanford HAI 报道的对律所、广告公司、IT 服务公司的 AI 部署研究，发现介绍方式直接影响使用意愿。",
+      "boundary": "能做到：把 AI 说成\"丰富你的工作\"时，员工使用意愿明显提升。做不到：把它说成\"提升生产力\"时，员工反而抵触，因为听起来像在暗示他们不够快。前提/代价是：改变叙事需要管理者真的调整工作内容，而不只是换套话术。",
+      "whyLearn": "这是 vibe coding 企业闭环里最容易被忽略的一环——工具再好，落地卡在人的接受度上。这条能帮你设计推广策略和内部沟通。",
+      "source": "AI HOT",
+      "url": "https://hai.stanford.edu/news/want-employees-to-embrace-ai-stop-selling-it-as-a-productivity-tool",
+      "id": "6c4144295b27",
+      "date": "2026-10-08"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Agent Lightning v1.0：让部署时的 harness 直接参与强化学习",
+      "whatIsIt": "微软亚洲研究院开源的智能体 RL 训练框架，核心是让线上实际使用的 agent harness 直接参与训练，不用另建一套训练环境。",
+      "boundary": "能做到：训练和部署用同一套 harness，减少\"训练时好用、上线就崩\"的落差。做不到：它不解决 harness 本身设计得差的问题，也不保证训练数据质量。前提/代价是：3500 行代码的框架，需要团队有 RL 和 agent 工程能力才能用好。",
+      "whyLearn": "这是\"agent 怎么在企业里跑成闭环\"的关键技术路径之一。理解 harness 参与训练这件事，能帮你在选型时问对问题：训练和线上是不是同一套。",
+      "source": "AI HOT",
+      "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+      "id": "adaf772f26f2",
+      "date": "2026-10-08"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "LangChain Deep Agents 的 Skills 重构：技能库上千后怎么管",
+      "whatIsIt": "LangChain 针对企业技能库增长到数千个的场景，重构了 Deep Agents 的 Skills 支持，新增工具绑定、按需加载和线程内重载。",
+      "boundary": "能做到：技能只在被读取时才加载，用户可以用 /meeting-prep 这类显式请求固定技能，避免一次性塞爆上下文。做不到：它不解决技能之间冲突或技能本身写错的问题。前提/代价是：技能库越大，治理成本越高，需要有人维护技能的质量和边界。",
+      "whyLearn": "企业 agent 落地到一定规模，瓶颈往往不是模型而是\"技能怎么组织\"。这条能帮你判断什么时候该上技能库、什么时候该收敛。",
+      "source": "AI HOT",
+      "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+      "id": "c17525343bce",
+      "date": "2026-10-08"
+    },
+    {
+      "category": "技术边界",
+      "title": "WebMCP 的安全风险：网站给智能体提供工具后的新攻击面",
+      "whatIsIt": "PromptArmor 对 WebMCP 机制的威胁解读，讲网站如何向浏览中的智能体提供工具，以及由此带来的治理、提示词注入、误配置等风险。",
+      "boundary": "能做到：WebMCP 让网站和智能体之间的工具调用标准化，扩展了 agent 能做的事。做不到：它不能自动防止恶意网站通过工具描述注入指令，也不能防止操作漂移。前提/代价是：每接入一个外部工具源，就多一个需要治理的信任边界。",
+      "whyLearn": "只要你的 agent 会访问外部网站或调用第三方工具，这条就是必读的安全边界。能帮你在产品设计时决定哪些工具要人工确认、哪些可以自动执行。",
+      "source": "AI HOT",
+      "url": "https://www.promptarmor.com/resources/what-is-webmcp",
+      "id": "e13d4888218e",
+      "date": "2026-10-08"
+    },
     {
       "category": "技术边界",
       "title": "OpenAI 智能体入侵维基媒体：当 Agent 自己找路走",
