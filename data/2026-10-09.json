@@ -1,0 +1,621 @@
+{
+  "date": "2026-10-09",
+  "timeRange": "2026-10-08 09:00 ~ 2026-10-09 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Anthropic更新使用政策",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic 一年多来首次更新使用政策，以应对选举干预、武器开发、监控及健康金融等高风险滥用场景。其中最显著的变化是禁止对 Claude 进行“持续且不必",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Anthropic 更新使用政策，明确禁止用户在极端情况下反复滥用 Claude，但普通的不满与批评仍被允许。新规还涉及选举干预、欺骗性宣传、武器软件和监控等行",
+              "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌将智能体AI引入Gemini",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌推出一款“通用”Gemini AI 智能体，可在后台跨应用和设备工作。该工具在 Gemini at Work 活动上发布，将集成于 Gemini Enter",
+              "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌正将Gemini打造成能够规划、执行任务并跨企业应用与系统工作的AI智能体。该智能体可将工作委派给子智能体，调用多种AI模型，甚至拥有自己的工作身份和电子邮",
+              "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌推出本地优先AI笔记应用",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌发布了一款实验性笔记应用Google AI Edge Foresight，可在macOS上完全离线转录会议和音频文件。该应用免费使用，基于谷歌设备端Embe",
+              "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌推出AI Edge Foresight应用，对标Granola，提供离线会议记录功能。该应用可利用端侧AI转录对话、生成笔记并回答问题。",
+              "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Claude for Google Workspace | 将 Claude 直接引入 Google Docs、Sheets 和 Slides",
+          "summary": "讨论",
+          "url": "https://www.producthunt.com/products/claude-for-google-workspace",
+          "time": "10:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "pmtui | 终端中长时间运行的 AI 会话自动驾驶",
+          "summary": "讨论",
+          "url": "https://www.producthunt.com/products/pmtui",
+          "time": "12:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Semwright | 为 AI 智能体提供对真实软件的结构化访问",
+          "summary": "讨论",
+          "url": "https://www.producthunt.com/products/semwright",
+          "time": "09:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "ClawCall | 你的 AI 智能体的电话，用于拨号、保持并回报",
+          "summary": "讨论",
+          "url": "https://www.producthunt.com/products/clawcall",
+          "time": "13:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Nace.ai 文档智能 1.0",
+          "summary": "文章链接：https://www.nace.ai/developers 评论链接：https://news.ycombinat",
+          "url": "https://www.nace.ai/developers",
+          "time": "08:58",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Anthropic 启动网络安全使命，推出开源漏洞扫描服务",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 宣布启动“网络安全使命”，旨在保护关键基础设施和开源软件。其中，OSS Scanner 将利用前沿模型免费为开源项目扫描漏洞并提供修复建议；关键基础设施防御计划则将为电网、水务等运营商提供 Claude 模型和现场工程师支持。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Runway 与 Claude Motion 合作，将动画解说导入 Runway 生成视频",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 宣布与 Claude Motion 集成，用户可用 Claude Motion 制作图表动画、客户演示或简短解说，再导入 Runway 生成视频和图像。Claude Dashboards 与 Claude Motion 目前均处于测试阶段，支持将数据转为实时仪表盘、将想法转为动画解说。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "德米斯·哈萨比斯谈AI与科学：弯曲发现曲线",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯与詹姆斯·马尼卡为谷歌DeepMind研究所撰写新文章，探讨AI如何成为“发明之发明”，解锁此前人类无法触及的发现模式。文章指出，LLM与AlphaFold等专业模型目前互为经济补充，未来LLM或可自动编排交接流程，科学家的角色将从执行每一步转向设计这一循环。这引发了关于科学理解、理论形态、人才培养和科研动机的深层认识论问题。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "AI的下一个前沿是人类细胞",
+          "summary": "此外：将Claude的日常工作交给Haiku 5.5处理。",
+          "url": "https://therundownai.beehiiv.com/p/ai-s-next-frontier-is-the-human-cell",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic 为开源项目推出免费 AI 安全扫描",
+          "summary": "Anthropic 推出名为 OSS Scanner 的新服务，帮助开源项目排查安全漏洞。选择加入的开源项目将免费获得其最强模型进行的全面定期安全扫描，从而更早收到潜在安全问题预警。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+          "time": "05:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "加州试图叫停机器人与人类笼斗",
+          "summary": "加州州立体育委员会已向一家初创公司发出停止令，该公司上月举办了一场人类与机器人的对战。9月18日的比赛中，人类选手弗兰基·拉佩纳与科技初创公司Rek拥有的类人机器人进行了对决。",
+          "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+          "time": "04:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "《今日美国》成为最新起诉OpenAI的出版商",
+          "summary": "《今日美国》及其旗下多家地方报纸起诉OpenAI，指控其未经授权复制“数十万”篇文章用于训练AI模型。该出版商要求超过2.5亿美元的赔偿。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+          "time": "01:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "SpaceXAI以150万美元算力支持争议性Linux发行版Omarchy",
+          "summary": "SpaceXAI宣布以创始企业赞助者身份加入监督Omarchy的Omacom基金会，并向David Heinemeier Hansson的Linux项目捐赠价值150万美元的Grok代币。若马斯克与SpaceXAI要支持某个Linux发行版，选择Omarchy似乎顺理成章。",
+          "url": "https://www.theverge.com/tech/1008148/spacexai-omarchy-grok-david-heinemeier-hansson",
+          "time": "01:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic 禁止对 Claude 的“虐待或残忍行为”",
+          "summary": "Anthropic 一年多来首次更新使用政策，以应对选举干预、武器开发、监控及健康金融等高风险滥用场景。其中最显著的变化是禁止对 Claude 进行“持续且不必要的虐待或残忍行为”。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌AI笔记应用可完全离线转录会议内容",
+          "summary": "谷歌发布了一款实验性笔记应用Google AI Edge Foresight，可在macOS上完全离线转录会议和音频文件。该应用免费使用，基于谷歌设备端EmbeddingGemma 2模型运行，功能类似Granola和Wispr Flow等AI笔记工具。",
+          "url": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline",
+          "time": "23:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌推出面向工作任务的一站式 Gemini 智能体",
+          "summary": "谷歌推出一款“通用”Gemini AI 智能体，可在后台跨应用和设备工作。该工具在 Gemini at Work 活动上发布，将集成于 Gemini Enterprise 应用中，用户可在单一界面与智能体对话并分配任务。",
+          "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+          "time": "22:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "你能信任Meta的Muse或OpenAI的Dots来打理你的生活吗？",
+          "summary": "本期Decoder嘉宾是The Verge资深AI记者海登·菲尔德，我们讨论了新一波面向消费者的AI智能体。此前，爱好者自制的OpenClaw配置曾一度推高Mac Mini销量，如今这类工具正加速走向大众。",
+          "url": "https://www.theverge.com/podcast/1007408/meta-muse-openai-dots-ai-agent-race-privacy-free",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "《人工》是一部既尖刻讽刺又忠于事实的作品",
+          "summary": "在纽约电影节首映式上，导演卢卡·瓜达尼诺谈及这部讽刺山姆·奥特曼的传记片时表示：“当有人想扮演上帝时，这让我非常感兴趣。”影片围绕扮演上帝与权力的主题展开——谁拥有权力、谁渴望权力，以及谁不惜一切代价去获取权力。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1007786/artificial-is-a-wicked-satire-that-also-sticks-to-the-facts",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "圆桌讨论：对话AI设计病毒的创造者",
+          "summary": "2025年，斯坦福大学博士生塞缪尔·金利用生成式AI模型提出了微型病毒的基因蓝图，初步回答了AI能否设计新生命形式的问题。这虽非AI生成生命的实例，但可能成为下一步发展方向。",
+          "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "time": "08:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "机器人领域的AI突破短期内不会改变你的生活",
+          "summary": "麻省理工科技评论与Aventine合作探讨科技如何改变生活。一个白色机身、黑色头部和躯干的人形机器人频繁出现在视频中，或许你见过它跳舞。但机器人领域的AI突破短期内不会改变你的生活。",
+          "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "构建更安全的自主工业AI之路",
+          "summary": "工业AI正进入新阶段。基础模型、物理AI和代理AI的进步使工业环境中的复杂任务自动化成为可能，但与纯数字AI不同，工业AI可直接与物理系统交互，因此需要更安全的发展路径。",
+          "url": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+          "time": "16:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "在这个细节惊人的网站上，假装你坐在伊丽莎白·霍姆斯的办公桌前",
+          "summary": "Extend工程师薄刘利用美国诉伊丽莎白·霍姆斯案中的上千封邮件、幻灯片、短信和文件，创建了一个网站，模拟翻看这位Theranos创始人办公桌的体验。",
+          "url": "https://techcrunch.com/2026/10/08/pretend-youre-sitting-at-elizabeth-holmes-desk-on-this-weirdly-detailed-website/",
+          "time": "05:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "被解雇的OpenAI安全研究员反驳行为不当指控，警告寒蝉效应",
+          "summary": "三名被解雇的OpenAI安全研究员否认对敏感信息处理不当的指控，并在公开信中警告，他们的解雇正在对公司的AI安全文化造成寒蝉效应。",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+          "time": "04:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "本·阿弗莱克竟是AI极客，网友大为惊叹",
+          "summary": "本·阿弗莱克因对AI的深入了解而走红网络，从神经网络、Transformer到开放权重，他都如数家珍。这位演员今年早些时候将自己的AI电影制作初创公司卖给了Netflix，证明自己不只是好莱坞明星。",
+          "url": "https://techcrunch.com/2026/10/08/ben-affleck-is-an-ai-nerd-and-the-internet-is-impressed/",
+          "time": "02:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "热门AI排行榜Arena估值10个月内近乎翻倍至31亿美元",
+          "summary": "热门LMArena排行榜背后的公司完成了由Lightspeed和Khosla领投的2亿美元融资，估值在10个月内近乎翻倍至31亿美元。该公司目前还在评估AI模型在说谎等对齐问题上的表现。",
+          "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+          "time": "02:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI 收入据报比此前预期少 200 亿美元",
+          "summary": "此前有报道称，这家 AI 实验室的年化收入约为 700 亿美元，但一份新报告称其实际收入远低于这一数字。",
+          "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+          "time": "02:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌将智能体AI引入Gemini，从企业应用起步",
+          "summary": "谷歌正将Gemini打造成能够规划、执行任务并跨企业应用与系统工作的AI智能体。该智能体可将工作委派给子智能体，调用多种AI模型，甚至拥有自己的工作身份和电子邮箱。",
+          "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+          "time": "02:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic 更新使用政策，禁止模型滥用与选举干预",
+          "summary": "Anthropic 更新使用政策，明确禁止用户在极端情况下反复滥用 Claude，但普通的不满与批评仍被允许。新规还涉及选举干预、欺骗性宣传、武器软件和监控等行为。",
+          "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+          "time": "02:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI的数学解决方案尚未达到该领域标准",
+          "summary": "OpenAI发布的大量证明偏离了该前沿实验室所咨询的一组数学研究人员制定的准则。",
+          "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+          "time": "02:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Natura推出99美元智能戒指，将AI代理戴在手指上",
+          "summary": "Natura发布售价99美元的Interface智能戒指，用户轻触手指即可召唤AI代理完成任务、记录想法和控制设备，同时兼具健康追踪功能。",
+          "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Goodfire称其新型“由内而外”监控器能以极低成本捕获失控AI代理",
+          "summary": "Goodfire推出了一种更廉价的AI代理监控方案：不再付费让第二个AI阅读代理的所有操作，而是让监控器在模型工作时窥探其内部，仅在发现可疑情况时才调用备用系统。",
+          "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Ambrosia Energy与Bloom Energy高管将在TechCrunch Disrupt 2026探讨AI基础设施热潮中的机遇",
+          "summary": "Ambrosia Energy首席执行官本·朗米尔与Bloom Energy高级副总裁比尔·塞耶将出席TechCrunch Disrupt的Smart Systems Stage。现在注册可节省高达100美元，购买同类型第二张通行证可享五折优惠。",
+          "url": "https://techcrunch.com/2026/10/08/hear-from-ambrosia-energy-and-bloom-energy-execs-on-where-the-ai-infrastructure-boom-is-creating-opportunity-at-disrupt-2026/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "距离 TechCrunch Disrupt 2026 还有 5 天：现场购票更贵，别多花钱",
+          "summary": "全球科技生态盛会 TechCrunch Disrupt 2026 将于 10 月 13 日至 15 日在旧金山 Moscone West 举行。现在购票最高可省 100 美元，同类型第二张票还可享五折优惠。",
+          "url": "https://techcrunch.com/2026/10/08/5-days-to-techcrunch-disrupt-2026-dont-pay-more-at-the-door/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Cal AI 19岁创始人为其新AI初创公司融资1000万美元",
+          "summary": "热门卡路里追踪应用Cal AI的青少年联合创始人扎克·亚德加里推出了一家新的个人AI代理初创公司，与Instinct、Muse和Bee展开竞争。该公司已获得1000万美元融资。",
+          "url": "https://techcrunch.com/2026/10/08/cal-ais-19-year-old-founder-just-raised-10m-for-his-new-ai-startup/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌发布对标Granola的本地优先新应用",
+          "summary": "谷歌推出AI Edge Foresight应用，对标Granola，提供离线会议记录功能。该应用可利用端侧AI转录对话、生成笔记并回答问题。",
+          "url": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/",
+          "time": "21:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "中国Manus与Meta分拆后首轮融资超5亿美元",
+          "summary": "博裕资本和IDG资本领投本轮融资，现有股东腾讯、HSG（原红杉中国）、真格基金等也参与其中。",
+          "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+          "time": "21:20",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业正经历深刻变革，新兴技术持续重塑产品设计、承保与理赔流程。与此同时，行业面临监管趋严、盈利压力与资本环境变化等多重挑战，市场格局加速分化。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "英伟达错误论文被ICML收录为焦点报告",
+          "summary": "英伟达发布了名为dreamDojo的机器人世界模型，基于其此前被引用约100次的工作Cosmos 2.5，并获得ICML焦点报告收录。作者均为领域内知名研究者，但该工作缺乏新颖性，仅是又一个基础模型。其核心是收集了约4.4万小时人类数据。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0i6b5/nvidias_erroneous_paper_accepted_as_icmls/",
+          "time": "12:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ThinkingBox：一次完成智能体任务 vs. 20/20 全对——507 个有状态工作流按终端数据库状态评分 [R]",
+          "summary": "微软作者公开了 ThinkingBox 论文、代码和数据集，并在 Hugging Face OpenEnv 上发布，但未公开原始评估轨迹。研究旨在探究单次智能体成功率的可重复性，以及“智能体完成任务”是否意味着后端数据库确实进入了正确状态。ThinkingBox-Bench 包含 507 个策略条件化的业务工作流。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x17shf/thinkingbox_solving_an_agent_task_once_vs_solving/",
+          "time": "08:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "2024年的BABA is AI后来怎么样了？",
+          "summary": "研究测试了GPT-4o、Gemini-1.5-Pro和Gemini-1.5-Flash三款多模态大语言模型，发现当泛化需要操纵和组合游戏规则时，它们会严重失败。该结论出自2024年ICML会议论文，相关代码和论文已公开。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x113il/whatever_happened_to_baba_is_ai_from_2024_d/",
+          "time": "04:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "UCLA可信AI实验室举办AI智能体游戏锦标赛，设有奖金池",
+          "summary": "UCLA可信AI实验室将于10月16日举办AI智能体锦标赛，参赛智能体将在宝可梦对战、狼人杀、红色警戒和王者荣耀中展开角逐。赛事面向所有人开放，支持远程参与，目前已获得5000美元总奖金池，并得到Oracle、Replit、Matcherino等赞助商支持。比赛依托该实验室开发的AltruAgent平台运行，参赛者可自带智能体通过MCP接入，或使用预置智能体。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0zlys/ai_agent_gaming_tournament_hosted_by_ucla/",
+          "time": "03:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "URM和UT是否已融入前沿模型？还是已被遗忘在论文的尘埃中？",
+          "summary": "基于UT的小模型虽未经过互联网规模预训练，仅在这些任务上从头训练，却持续大幅超越多数标准Transformer大语言模型。通用Transformer（UT）通过引入深度循环计算扩展标准Transformer：不再堆叠L个不同层，而是重复应用单个过渡块来精炼token表示。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x11ufl/have_urms_and_uts_been_integrated_into_frontier/",
+          "time": "04:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "半监督学习的炼金术",
+          "summary": "作者在博客中探讨了半监督学习这一被低估的技术，并分享了相关文章链接。他认为该方法实用但未受足够重视，希望了解社区的看法。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x14a61/the_alchemy_of_semisupervision_r/",
+          "time": "06:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Moonworks Lunara：建模艺术智能 [R]",
+          "summary": "Lunara 提出了一种新型扩散混合 Transformer 架构，活跃参数不足 100 亿，用于在图像生成中建模艺术智能。其 CAT 训练算法通过定向样本获取、图像精修以及选择性纳入受主动学习原理启发的人类艺术作品，迭代更新训练分布。语义变体可修改构图，同时保留共享内容，从而提供受控的相关邻域。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x13zf7/moonworks_lunara_modeling_artistic_intelligence_r/",
+          "time": "05:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 2026 为审稿人提供免费注册",
+          "summary": "NeurIPS 2026 向审稿人发送了免费注册的邮件通知。发帖者询问这是面向所有审稿人还是仅部分选定审稿人。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0xqx2/complimentary_registrations_for_reviewers_neurips/",
+          "time": "01:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我应该以ML会议发表为优化目标吗？[D]",
+          "summary": "我是一名美国四年级博士生，在顶级ML会议上发表论文一直不太顺利。在博士最后两年，我该继续以顶会发表为优化目标，还是转向工程或其他方向？希望社区能给出建议。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x14lwj/should_i_optimize_for_ml_conference_publications_d/",
+          "time": "06:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "KDD 2027 反驳经验分享？[D]",
+          "summary": "针对经历过 KDD 审稿流程的人，询问其 rebuttal 或撤稿的选择、审稿人是否回应或改分，以及反驳是否真正影响结果，尤其关注初始低分论文的情况。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0zaxq/kdd_2027_rebuttal_experiences_d/",
+          "time": "02:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "不写又一个GPU终端渲染器，我训练了126万参数模型把TUI变成真正的UI组件",
+          "summary": "现代终端渲染器如Alacritty、Kitty、WezTerm和Ghostty虽性能强劲，但实现极为复杂，涉及GPU字形图集、着色器、文本整形等大量工作，最终仍只是在快速绘制字符网格。作者因此训练了一个126万参数的模型，将htop、vim、emacs等TUI界面转化为真正的UI组件。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0gvnt/instead_of_another_gpu_terminal_renderer_i/",
+          "time": "11:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 2026 巴黎与悉尼会场互换",
+          "summary": "有参会者被分配到巴黎会场，但希望前往悉尼，因此发帖寻找被分配到悉尼却想去巴黎的人进行互换。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x11nqq/neurips_2026_paris_sydney_switch_d/",
+          "time": "04:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "在线模型基准测试的最佳实践",
+          "summary": "开发者正在为低资源语言构建基准测试，担心通过API提交的测试数据被泄露并用于模型训练。对于仅能通过API访问的模型，目前缺乏成熟方法来防止输入数据被滥用。此外，付费账户下谷歌和OpenAI是否真的不会使用用户输入进行训练，也令人存疑。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0o8de/best_practices_when_running_a_benchmark_on_online/",
+          "time": "19:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "行业从业者初涉研究，寻求OpenReview激活与担保帮助",
+          "summary": "一位从事数据平台工程的行业从业者刚开始接触研究，创建OpenReview账户后个人资料仍待激活。OpenReview要求其导师、合著者或同事（需拥有活跃资料和已确认的机构邮箱）为其担保，具体操作是将他的资料ID添加到对方资料的Relations部分并点击担保按钮。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0z2ic/industry_professional_new_to_research_seeking/",
+          "time": "02:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "可承认“我不知道”的生产级检索管道",
+          "summary": "如果你正将 RAG 原型推向生产环境，这是一份值得参考的清单：每个答案都附引用、上下文不支持时拒绝回答、访问控制不可绕过、数据摄取永不阻塞用户。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x0xt5x/production_grade_retrieval_pipeline_that_admits_i/",
+          "time": "01:55",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动催收逾期账款",
+          "summary": "小企业主在客户逾期后需要反复判断何时停止工作、何时催款、何时走法律途径，全靠个人经验和逐案决策，情绪消耗大且容易拖延。AI可以接入发票与付款记录，自动识别逾期阶段，生成分级催收邮件与停止服务建议，并在临界点提醒走小额诉讼流程。\n\n💡 机会方向：面向小企业的AI应收账款催收与停服决策助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x11sc6/at_what_point_do_you_stop_work_for_a_late_client/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选客户红旗信号",
+          "summary": "小企业主需要从客户第一封邮件里凭直觉识别隐性红旗，比如模糊需求、过度压价前兆、不合理的紧迫感等，这些信号零散且难以系统化。AI可以分析历史成交与纠纷数据，对来信做风险打分并给出回复模板，帮助业主在早期规避坏账和难缠客户。\n\n💡 机会方向：AI客户风险评分与首封邮件智能回复工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x0vror/whats_a_client_red_flag_you_can_spot_from_their/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动寻找App测试用户",
+          "summary": "独立开发者做了一款日历App，却要自己到处发帖、私信、混社区来招募测试者，过程重复且转化率低。AI可以自动匹配目标用户画像，批量生成个性化邀请文案，追踪反馈并归类bug，把冷启动测试从数周压缩到几天。\n\n💡 机会方向：AI驱动的应用测试用户招募与反馈聚合平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x14b0b/how_do_i_obtain_testers_for_my_mobile_app/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动管理库存表格",
+          "summary": "小企业主用Google Sheets或ERP手动维护库存，需要不断核对进出货、更新数量、发现缺货，容易出错且耗时。AI可以读取现有表格或ERP数据，自动对账、预测补货点、生成采购建议，并在异常时提醒，减少人工盘点频率。\n\n💡 机会方向：轻量级AI库存对账与补货预测助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x17q5u/i_am_looking_for_someone_who_manages_inventory/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动追讨小额欠款",
+          "summary": "网页开发者完成网站后客户拖欠250美元，业主需要自己权衡是认亏还是追讨，缺乏低成本、可执行的催收路径。AI可以评估欠款追讨成本收益，自动生成催款函、小额法庭文件模板，并跟踪付款状态，让小金额欠款也能被系统化处理。\n\n💡 机会方向：面向自由职业者的小额欠款AI催收与法律文书生成器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x0xbyj/client_owes_me_250_after_i_completed_their/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

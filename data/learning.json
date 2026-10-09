@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-10-08",
+  "updatedAt": "2026-10-09",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "一条提示词劫持整个 AWS 智能体集群：AgentCorruption 漏洞链",
+      "whatIsIt": "安全团队 Zenity 发现，只要向一个公开的 AWS Bedrock AgentCore 智能体发一条精心构造的提示词，就能顺着云平台的元数据服务（169.254.169.254）偷走该账户下所有智能体的凭证。",
+      "boundary": "能做到：证明单个入口的提示词注入可以横向升级成整个云账户的权限沦陷。做不到：这不是模型「变坏」，而是智能体被赋予了访问云元数据的网络权限，模型只是被当成跳板。前提/代价：只要智能体运行环境能访问实例元数据、且没有做网络隔离和最小权限，风险就存在——这是架构问题，不是提示词过滤能解决的。",
+      "whyLearn": "这是给产品经理讲「智能体安全不是加个护栏就完事」的最佳案例。你可以用它向团队说明：上线 agent 前必须问清楚它跑在什么权限环境里、能访问哪些内部服务，而不是只盯着模型输出。",
+      "source": "AI HOT",
+      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+      "id": "53d9a94eccb2",
+      "date": "2026-10-09"
+    },
+    {
+      "category": "技术边界",
+      "title": "AI 不是笨，是瞎：企业级 Agent 记忆的三个设计决策",
+      "whatIsIt": "一篇工程博客总结为跨公司协作的 Agent 做了一年记忆系统后的结论：Agent 失败的主因往往不是推理能力差，而是它根本看不到关键决策上下文。",
+      "boundary": "能做到：把「记忆」理解为「让 Agent 在正确时刻看到正确的决策背景」，而不是塞进更大的向量库。做不到：单纯扩大检索档案柜并不能解决「瞎」的问题——信息在库里但没被正确触发，等于没有。前提/代价：需要设计什么信息在什么时机被注入、谁来决定优先级，这是产品和工程共同的设计工作，不是调模型参数。",
+      "whyLearn": "直接对应你「vibe coding 怎么落成闭环」的目标。当你的 agent 在真实业务里表现不稳定时，这条能帮你判断：是该换模型，还是该修上下文供给链路。",
+      "source": "AI HOT",
+      "url": "https://tessl.io/blog/your-ai-isnt-stupid-its-blind",
+      "id": "a4df5cfde9c0",
+      "date": "2026-10-09"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Block 如何用 Claude 编排数千个 pull request 的大规模代码迁移",
+      "whatIsIt": "Anthropic 访谈 Block 的 AI 负责人，讲他们怎么让 Claude 先做数据模型、API 规格等高层设计，再调度生成数千个 PR 完成一次大规模代码迁移。",
+      "boundary": "能做到：把「高层设计由 AI 定、机械改动由 AI 批量执行」跑成流水线，覆盖成千上万处改动。做不到：这不是「一句话重构整个代码库」，前提是先把迁移目标拆成 AI 能执行的规格，且要有审查和回滚机制兜底。代价：需要人设计编排流程和验收标准，AI 负责的是规模，不是判断。",
+      "whyLearn": "这是「vibe coding 在企业里真正跑成闭环」的样板：AI 不是替代工程师，而是被编排进一个有设计、有审查、有回滚的流程。你可以拿它对照自己团队缺哪一环。",
+      "source": "AI HOT",
+      "url": "https://claude.com/blog/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests",
+      "id": "ad51d2b2fede",
+      "date": "2026-10-09"
+    },
+    {
+      "category": "技术实现",
+      "title": "103 美元做出 7 个小模型：小模型微调的真实成本",
+      "whatIsIt": "Hugging Face 工程师用 ML Intern 模式在几天内做出 7 个模型，包括一个能在 CPU 上跑、有效输出率 99.7% 的 0.8B 提示词重写器。",
+      "boundary": "能做到：针对单一明确任务（如提示词重写、特定图像识别），用很小的模型和很低的成本达到可用水平。做不到：这些是窄任务专用模型，不能当通用助手用，换任务就得重做。前提/代价：成本低的前提是任务定义得足够窄、有干净的训练数据，泛化能力是主动放弃的。",
+      "whyLearn": "帮你判断「这个需求该用大模型 API 还是自己训个小模型」。当有人提出高频、单一、格式固定的任务时，你可以估算这条路是否划算。",
+      "source": "AI HOT",
+      "url": "https://huggingface.co/blog/building-with-ml-intern",
+      "id": "e2b8feac4839",
+      "date": "2026-10-09"
+    },
+    {
+      "category": "技术实现",
+      "title": "单张 RTX 5090 跑实时视频生成：优化是怎么堆出来的",
+      "whatIsIt": "ComfyUI 博客作者用智能体搜集各类优化手段，把 MiniMax H3 的实时视频生成压缩到单张 32GB 显存的 RTX 5090 上，30 秒视频耗时 23.51 秒，达到 1.28 倍实时吞吐。",
+      "boundary": "能做到：通过一系列工程优化（量化、显存管理、调度等），把原本需要多卡或数据中心的任务压到单张消费级显卡。做不到：这是针对特定模型和特定硬件的调优结果，换模型或换卡不一定复现；「实时」是相对生成时长而言，不是无限时长流畅生成。前提/代价：优化本身需要大量试错，作者是靠智能体搜集方案再逐个验证的。",
+      "whyLearn": "帮你建立「推理成本是可以被工程手段大幅压下来的」这个直觉。评估多模态功能可行性时，你会知道硬件门槛不是固定的，而是取决于愿意投入多少优化。",
+      "source": "AI HOT",
+      "url": "https://blog.comfy.org/p/how-i-generated-live-video-with-minimax",
+      "id": "7a5e6d2abe68",
+      "date": "2026-10-09"
+    },
     {
       "category": "技术边界",
       "title": "AI 辅助未必培养专业判断力：律所三个月实验",
