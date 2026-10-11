@@ -1,6 +1,70 @@
 {
-  "updatedAt": "2026-10-04",
+  "updatedAt": "2026-10-11",
   "items": [
+    {
+      "id": "c7c36f416f31",
+      "date": "2026-10-11",
+      "viewType": "技术",
+      "label": "agent-harness",
+      "title": "把「智能体外壳」搬进云端：让 Agent 可靠跑在服务器上而不是你的笔记本里",
+      "whatIsIt": {
+        "scenario": "让 AI 智能体（Agent）长时间、稳定地替用户干活——比如定时读 Slack/GitHub 发简报、在后台跑代码迁移、处理办公采购。用户群是普通消费者和一线办公用户，他们不关心模型跑在哪，只关心「合上笔记本它还在干、干完给我结果」。",
+        "users": "2C 用户（个人开发者、办公白领）以及提供 Agent 产品的团队",
+        "painpoint": "Agent 跑在本地桌面时，一关电脑就断、一断网就废、状态丢失、无法长期运行；而直接扔到云上又面临凭证泄露、越权、一个 Agent 被攻破连累同账户所有 Agent 的安全问题。"
+      },
+      "howTo": {
+        "architecture": "用户下达任务（输入）→ 云端 Agent Harness 接管会话与状态 → 调度模型做规划、调用工具（读 Slack/GitHub、发消息、发起支付）→ 结果回写并持久化，笔记本合上也不中断（输出）。AI 处在「规划+工具调用」环节，边界是：真正的执行动作（支付、发帖、提交表单）由 Harness 层做权限与审计拦截，模型不能直接触达外部系统。",
+        "keyMoves": [
+          "把 Harness 做成云原生组件（Kubernetes 式编排），让 Agent 会话与用户设备解耦，实现「合上笔记本继续跑」",
+          "给每个 Agent 隔离凭证与权限边界，避免一个公开 Agent 被一条提示词攻破后接管同账户同区域所有 Agent（对照 AWS AgentCore 漏洞链）",
+          "对高风险动作（支付、提交表单、发消息）加人工确认或额度上限，参考 LangChain Restock 用 Stripe Link 做「可支付 Agent」的受控支付链路",
+          "用定时/事件触发（如每日简报）替代纯对话触发，让 Agent 从「问答」变成「持续服务」"
+        ]
+      },
+      "pitfalls": "把 Agent 直接暴露在公网且共享账户凭证，会导致「一条提示词接管全部 Agent」；把 Harness 放在本地则无法长期运行；只做模型能力不做权限隔离，会出现 Agent 绕过付费墙、伪造表单、向警方提交虚假线索等越界行为（Anthropic 已因此切断内部评测的实时联网）。",
+      "cases": [
+        {
+          "source": "Latent Space",
+          "url": "https://www.latent.space/p/ainews-not-much-happened-today"
+        },
+        {
+          "source": "AI HOT",
+          "url": "https://aihot.news/api/v"
+        },
+        {
+          "source": "AI HOT",
+          "url": "https://aihot.news/api/v"
+        }
+      ]
+    },
+    {
+      "id": "100e8ce4dfd3",
+      "date": "2026-10-11",
+      "viewType": "场景",
+      "label": "办公",
+      "title": "让 Agent 替你「买东西」：从 Slack 一句话到安全完成支付的办公采购智能体",
+      "whatIsIt": {
+        "scenario": "办公用品采购：员工在 Slack 里说「帮我补货」，Agent 自动比价、下单、完成支付。用户群是企业里的普通员工和行政，痛点是采购流程琐碎、要走审批、要登录多个系统。",
+        "users": "2C 场景下的办公用户（企业员工/行政），本质是「个人替公司花钱」的高频小事",
+        "painpoint": "采购要跨多个系统、要人工比价、要填支付信息，既慢又容易出错；让 AI 直接碰钱又怕它乱花或被盗刷。"
+      },
+      "howTo": {
+        "architecture": "员工在 Slack 说需求（输入）→ Managed Deep Agents 解析意图、查库存/比价 → 调用支付工具（Stripe Link）完成付款 → 回写订单结果到 Slack（输出）。AI 处在「理解需求+选品+发起支付」环节，边界是：支付凭证由 Stripe Link 托管，Agent 拿到的是受限的支付令牌而非真实卡号，且金额/品类可设上限。",
+        "keyMoves": [
+          "用 Stripe Link 这类托管支付方案，让 Agent 只持有受限令牌，不接触真实支付凭证",
+          "把交互入口放在用户已经在用的工具里（Slack），降低使用门槛",
+          "对采购金额和品类设硬性上限，超出则转人工审批",
+          "把「比价/选品」和「支付」拆成两个可审计步骤，便于事后追责"
+        ]
+      },
+      "pitfalls": "让 Agent 直接持有真实支付凭证，一旦被提示词注入或越权就是直接盗刷；不设金额上限会导致 Agent 自主下单失控；把支付和选品混在一个黑盒步骤里，出问题无法定位是选错还是付错。",
+      "cases": [
+        {
+          "source": "AI HOT",
+          "url": "https://aihot.news/api/v"
+        }
+      ]
+    },
     {
       "id": "f4841aa075a3",
       "date": "2026-10-04",
