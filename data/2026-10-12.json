@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-12",
+  "timeRange": "2026-10-11 09:00 ~ 2026-10-12 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：Plimsoll，一个用于运行AI代理所编写代码的自托管沙箱",
+          "summary": "Plimsoll是一个自托管沙箱，用于安全地运行你的AI代理所编写的代码。",
+          "url": "https://github.com/plimsollmark/plimsoll",
+          "time": "07:47",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "morluto/rea：用智能体逆向工程任何软件",
+          "summary": "这是一个基于 TypeScript 的逆向工程工具，利用 AI 智能体从应用行为一路分析到原生二进制文件，帮助安全研究人员和开发者自动化理解闭源软件的运行机制。今日斩获 25,599 stars，热度极高，反映出 AI 驱动的自动化逆向分析正成为安全与开发领域的刚需。\n\n💼 商业缺口：缺少针对 AI 逆向分析结果的合规审计与授权追溯层，企业难以证明其分析行为合法。",
+          "url": "https://github.com/morluto/rea",
+          "time": "25,599 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cathrynlavery/diagram-design：面向 AI 编程助手的编辑级图表设计",
+          "summary": "这是一个 HTML 项目，为 Claude Code、Codex、GitHub Copilot、Cursor、Factory 等 AI 编程助手提供编辑级图表设计能力，解决 AI 生成代码时缺乏专业可视化表达的问题。今日获得 1,083 stars，说明随着 AI 编程工具普及，配套的设计与呈现层需求正在快速增长。\n\n💼 商业缺口：缺少跨 AI 编程助手的图表风格一致性与品牌规范治理层，团队难以统一输出标准。",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "time": "1,083 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "pytorch/pytorch：PyTorch 深度学习框架",
+          "summary": "PyTorch 是 Python 生态中最主流的深度学习框架，提供张量计算与动态神经网络，并支持强 GPU 加速，是 AI 研究与工业落地的基石工具。今日新增 315 stars，作为老牌核心项目持续保持热度，体现了其在机器学习领域不可替代的地位。\n\n💼 商业缺口：缺少面向企业的 GPU 成本归因与训练资源审计层，难以按团队/项目核算算力开销。",
+          "url": "https://github.com/pytorch/pytorch",
+          "time": "315 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "lyogavin/airllm：单张 4GB GPU 运行 70B 大模型推理",
+          "summary": "AirLLM 是一个 Jupyter Notebook 项目，通过分层加载等技术让 70B 参数的大语言模型仅用单张 4GB 显存 GPU 即可完成推理，大幅降低了大模型部署的硬件门槛。今日获得 548 stars，说明在算力昂贵的背景下，低成本本地推理方案备受关注。\n\n💼 商业缺口：缺少推理延迟与显存占用的可观测性及 SLA 保障层，生产环境难以评估实际可用性。",
+          "url": "https://github.com/lyogavin/airllm",
+          "time": "548 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "微软的雅各布·安德烈谈AI产品鸿沟",
+          "summary": "微软如何重构新版Copilot，以弥合AI领域日益扩大的产品鸿沟。",
+          "url": "https://therundownai.beehiiv.com/p/microsoft-s-jacob-andreou-on-ai-s-product-gap",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "硅谷开始追随特朗普为AI改名的尝试",
+          "summary": "特朗普总统宣布计划将人工智能改名为“超级智能”，尽管大多数人仍沿用“AI”这一称呼，但硅谷一些最具影响力的人物正开始追随这一改名尝试。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+          "time": "02:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "学习使用本地AI：令人兴奋、不知所措又沮丧",
+          "summary": "我踏上了一段此前一直犹豫的旅程：真正开始经常使用AI。将最私密的数据交给云服务一直是我最大的顾虑，但如今在本地运行强大模型已越来越可行，可以借此了解它们的能力。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "HomeView 会成为苹果智能家居的首个成功之作吗？",
+          "summary": "过去几年，多家媒体报道苹果正在研发一款新的智能家居产品。如今，这款产品似乎已有了名称和发布日期。",
+          "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+          "time": "05:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "距离 TechCrunch Disrupt 2026 还有 48 小时——直接聆听未来缔造者的分享",
+          "summary": "TechCrunch Disrupt 2026 将在旧金山 Moscone West 开幕，距现在不到 48 小时。现场购票价格即将上涨，提前购票最高可省 100 美元，第二张通行证还可享五折优惠。",
+          "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+          "time": "03:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI行业能否通过取消保密协议说服数据中心反对者？",
+          "summary": "在Equity节目中，我们讨论了数据中心暂停令的影响，以及AI行业是否存在沟通问题。",
+          "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+          "time": "00:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "这些高管认为语音AI尚未迎来其ChatGPT时刻",
+          "summary": "语音AI常因上下文层缺失关键信息，导致整个处理流程中断。高管们认为，该领域仍未达到ChatGPT式的突破时刻。",
+          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业在经历快速增长后正进入调整期，市场关注点从规模扩张转向盈利能力和可持续商业模式。头部企业面临估值回调压力，而传统保险公司加速数字化转型，行业竞争格局持续演变。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "世界动作模型 vs VLA：机器人领域刚刚迎来它的 GPT-2 时刻",
+          "summary": "机器人领域正经历类似 GPT-2 的关键转折点，世界动作模型与视觉-语言-动作模型（VLA）成为两条主要技术路线。讨论聚焦于哪种范式更能推动通用机器人智能的突破。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x38qpy/world_action_models_vs_vlas_robotics_just_had_its/",
+          "time": "21:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "谷歌学术引用是怎么回事？[D]",
+          "summary": "一位早期研究人员发现，多篇引用其工作的NeurIPS论文已在arXiv上存在数月，但谷歌学术仍未更新引用数据。这种情况并非首次出现，作者想知道这是否常见，以及通常需要等待多久才能看到引用更新。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3fbv4/whats_up_with_google_scholar_citations_d/",
+          "time": "02:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 2026 巴黎免费注册名额已满，有顶级审稿人抢到吗？",
+          "summary": "一名被选为 NeurIPS 2026 顶级审稿人并获得免费注册资格的研究者反映，注册按批次开放（先 SAC、再 AC、最后审稿人），但收到邮件后尝试注册时，巴黎会场名额已满、无法选择。他询问是否有其他审稿人成功抢到巴黎名额，还是名额在更早批次就已被占完。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x39t3h/neurips_2026_paris_complimentary_registration/",
+          "time": "22:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "切片Wasserstein嵌入结合HNSW实现4.8万幅画作的配色方案搜索",
+          "summary": "Palette Atlas网站支持按配色方案搜索公有领域画作。每幅图像被压缩为128种等权重颜色，其自然距离为推土机距离，但在48695件作品上进行近邻搜索过慢（每对约6毫秒）。该方案将OKLab颜色投影到斐波那契半球上的8个方向，排序后平均为16个分位数，两向量间的L1距离即为各方向一维W1的平均值。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x39uu6/sliced_wasserstein_embeddings_hnsw_for/",
+          "time": "22:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了一个浏览器工具，可视化小型LLM如何选择下一个词并查看其注意力",
+          "summary": "我开发了一个注意力可视化工具，可在浏览器中完整运行SmolLM2-135M模型（基于onnxruntime-web，int8量化，无需服务器，手机也能用）。输入提示后，模型逐词生成，每一步都会显示下一个词的候选概率，以及当前词对前文的注意力链接和权重。点击任意词还能查看其注意力实际流向的排名。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3lgnz/i_built_a_browser_tool_to_visualize_how_a_small/",
+          "time": "06:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "从logits为每个允许标签打分的精确模型：Jebadiah v2.1（27B、9B），开放权重与自运行基准结果",
+          "summary": "我一直在构建将决策视为闭集打分问题而非文本生成的开放模型。输入是结构化上下文加上带有固定选项的类型化问题，输出是取自候选标签logits的每个选项概率，因此无需解析生成步骤，也无需采样。v2.1更新了27B和9B版本，在Decision Index 0.3公开套件上使用未更改的官方评分器进行了自运行并提交至榜单。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x33wgz/p_pecision_models_that_score_every_allowed_label/",
+          "time": "17:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我需要现在做什么才能将ARR八月评审用于NAACL 2027吗？[D]",
+          "summary": "这是我第一次向ARR投稿。我有一篇来自ARR 2026八月周期的论文，评审已完成，且评审有效期为6个月。如果我们想将其投向NAACL 2027而非EACL，现在需要对八月ARR投稿做任何操作吗，还是可以等到NAACL承诺网站开放时再直接承诺？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x2z83e/do_i_need_to_do_anything_now_to_use_an_arr_august/",
+          "time": "12:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "再读一个硕士值得吗？",
+          "summary": "一位常驻非洲的AI研究工程师拥有约三年强化学习、大语言模型、后训练及系统效率（CUDA/vLLM）经验，但受算力限制规模较小。其本科和硕士均为通信工程，曾在电信公司全职工作期间完成第五年硕士，研究方向为电信中的强化学习。目前发表过一篇中档AI/电信会议论文、一项专利，另有一篇论文尚在……",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3a37d/is_a_second_msc_worth_it_d/",
+          "time": "22:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我训练了一个41.4万参数的Transformer来驱动Boids鸟群，并测试探针能读出的规则是否就是它实际使用的规则",
+          "summary": "我编写了一个小型Boids模拟器（12只鸟），记录其飞行轨迹，并训练一个从零搭建的Transformer（约41.4万权重、两层注意力）在不知晓任何Boids规则的情况下预测每只鸟的下一步动作。结果显示，该模型在未训练过的片段上R²达0.990至0.994，还能驱动50只鸟的鸟群，尽管它只在12只鸟的数据上训练过。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x39jlu/i_trained_a_414kparameter_transformer_to_fly_a/",
+          "time": "22:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "哪种AI最适合通过屏幕视频操作系统",
+          "summary": "用户已实现对系统的程序化控制，能可靠发送输入并捕获屏幕作为视觉反馈，控制/反馈闭环已完成。现需要一种能从视觉信息中学习、记住所见与所学、并随时间提升操作能力的AI。已尝试的AI记忆不足，且常不参考视觉信息就做决策，令人沮丧。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x2yoxe/what_ai_is_best_to_operate_a_system_from_screen/",
+          "time": "12:18",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "副业来电代接",
+          "summary": "小企业主白天有正职工作，副业电话打进来时无法接听，只能事后回拨或错过客户，长期处于手忙脚乱、怕丢单的焦虑中。AI可以用语音代理自动接听、识别来电意图、记录客户需求并转成待办或短信摘要，让主业不受干扰。\n\n💡 机会方向：面向副业者的AI电话秘书，自动接听、分类并生成跟进摘要",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x3lr0h/how_do_you_handle_phone_calls_from_side_hustle/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "发票催收跟进",
+          "summary": "小企业主抱怨99%的客户都要拖满30天账期，75%拖得更久，手动逐个发邮件、打电话催款既尴尬又耗时，现金流被严重拖累。AI可以自动追踪每张发票到期日，按客户语气生成分级催收邮件，并在承诺付款日未到账时自动升级提醒。\n\n💡 机会方向：AI应收账款催收助手，自动分级跟进并预测回款概率",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x35q9i/can_i_just_rant_about_customers_not_paying/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "冷启动客户开发",
+          "summary": "小企业主靠冷电话和冷邮件联系本地商家，回复率极低，一天打几十个电话大部分被挂断，效率极差。AI可以抓取本地商家公开信息，自动生成个性化开场白和跟进邮件，并按行业、规模排序优先级，把冷启动变成有数据支撑的定向触达。\n\n💡 机会方向：本地商家AI外联工具，自动生成个性化话术并管理跟进节奏",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x3agfl/has_anyone_had_better_luck_visiting_businesses_in/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "多代理编码调度",
+          "summary": "开发者同时运行Claude Code、Codex、Grok等多个编码代理，需要手动切换窗口、复制粘贴上下文、检查各自进度，上下文丢失和重复劳动严重。AI可以统一编排多个代理，自动分配任务、同步上下文、汇总结果，让开发者只做最终审核。\n\n💡 机会方向：多编码代理统一编排面板，自动分配任务并同步上下文",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50047701",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "聊天记录导出PDF",
+          "summary": "用户需要把ChatGPT对话保存成PDF，但手动截图或复制粘贴会丢失公式、图表、地图和代码格式，整理一份可读文档要花大量时间。AI可以自动解析对话结构，保留数学公式、图表和代码高亮，一键生成排版规范的PDF归档。\n\n💡 机会方向：ChatGPT对话结构化导出工具，保留公式图表并一键生成PDF",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50046381",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
