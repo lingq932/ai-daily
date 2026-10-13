@@ -1,0 +1,411 @@
+{
+  "date": "2026-10-13",
+  "timeRange": "2026-10-12 09:00 ~ 2026-10-13 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Meta发布新AI模型",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Meta正努力在AI竞赛中迎头赶上。继推出重组后的超级智能实验室首个模型Muse Spark和热门AI智能体Muse后，该公司又发布了两款新模型Muse Won",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Meta 发布首个前沿模型 Muse Wonder。与主打低延迟轻量化的 Muse Spark 不同，Wonder 系列规模更大、能力更强，基准测试得分更高，在",
+              "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Kudos 3.0 | 帮你找回遗漏资金并追回的 AI",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/kudos-smart-wallet",
+          "time": "09:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "SolidCraft —— 用 Rust 编写的开源参数化 CAD（支持 MCP）",
+          "summary": "文章链接：https://github.com/bherbruck/solidcraft 评论链接：https://news.",
+          "url": "https://github.com/bherbruck/solidcraft",
+          "time": "08:11",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "上下文模式：为AI编程代理优化上下文窗口",
+          "summary": "这是一个针对AI编程代理的上下文窗口优化工具，通过沙箱化工具输出（可减少约98%的冗余内容）来节省token并提升代理效率。它解决的是AI编码代理在长任务中上下文爆炸、成本飙升的核心痛点，今日获得246颗星，说明开发者对代理成本控制的需求正在快速增长。\n\n💼 商业缺口：缺少针对代理上下文消耗的成本归因与审计层，让团队能按任务/代理追踪token花费并设置预算告警。",
+          "url": "https://github.com/mksglu/context-mode",
+          "time": "246 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "open-webui：用户友好的AI界面",
+          "summary": "这是一个开源的、用户友好的AI交互界面，支持Ollama、OpenAI API等多种后端，让个人和团队可以自托管类似ChatGPT的体验。它解决的是私有化部署AI对话界面的问题，今日新增157颗星，作为Python生态中成熟的AI前端方案，持续受到自托管用户青睐。\n\n💼 商业缺口：缺少面向企业的多租户治理与合规审计层，例如对话留存策略、敏感数据脱敏和按部门的使用配额管理。",
+          "url": "https://github.com/open-webui/open-webui",
+          "time": "157 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "diagram-design：面向AI编程工具的编辑级图表设计",
+          "summary": "这是一个为Claude Code、Codex、GitHub Copilot、Cursor等AI编程工具提供编辑级图表设计的资源库，帮助AI生成的图表达到出版级视觉效果。它解决的是AI辅助开发中图表输出粗糙、缺乏设计感的问题，今日斩获2081颗星，反映出AI编程工具生态中对高质量视觉产出的强烈需求。\n\n💼 商业缺口：缺少图表设计规范的版本管理与团队共享层，让企业能统一AI生成图表的品牌风格并追踪采用情况。",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "time": "2,081 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AirLLM：单张4GB GPU运行2.8T大模型推理",
+          "summary": "AirLLM是一个让超大语言模型（最高2.8T参数）在单张4GB显存GPU上完成推理的框架，通过分层加载等技术大幅降低硬件门槛。它解决的是大模型推理对昂贵多卡硬件的依赖问题，今日获得879颗星，对预算有限的个人开发者和研究者极具吸引力。\n\n💼 商业缺口：缺少推理性能与成本的基准证据层，让用户能对比不同模型在AirLLM下的实际吞吐、延迟和单位token成本。",
+          "url": "https://github.com/lyogavin/airllm",
+          "time": "879 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "BitNet：1-bit大语言模型官方推理框架",
+          "summary": "这是微软官方推出的1-bit大语言模型推理框架，专为极低比特量化模型设计，旨在大幅降低推理时的内存和算力需求。它解决的是大模型部署成本高的问题，今日新增97颗星，作为1-bit LLM方向的官方实现，具有重要的技术风向标意义。\n\n💼 商业缺口：缺少1-bit模型与全精度模型之间的质量对比与回归测试服务，帮助企业评估量化后的实际业务可用性。",
+          "url": "https://github.com/microsoft/BitNet",
+          "time": "97 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "free-claude-code：免费使用多种AI编程工具",
+          "summary": "这是一个让用户免费使用Claude Code、Codex、VSCode、Pi、OpenCode等十余种AI编程工具的项目，通过某种方式绕过付费限制。它解决的是AI编程工具订阅成本高的问题，今日获得626颗星，反映出开发者对低成本AI编程方案的旺盛需求。\n\n💼 商业缺口：缺少合规使用与账号风险审计层，帮助团队评估此类绕过方案的法律风险并管理账号封禁带来的业务中断。",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "time": "626 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "阿里Qwen推出QwenGyre，为超长周期智能体训练带来弹性强化学习",
+          "url": "https://twitter.com/Alibaba_Qwen",
+          "summary": "阿里Qwen团队发布QwenGyre，将弹性强化学习引入超长周期智能体训练。其核心设计包括弹性调度器，可在推理与训练间动态重分配GPU且不中断执行，提速最高达1.85倍；以及轨迹处理器，将分支执行转化为前缀共享的轨迹树。在Qwen3.8-2.4T-A95B上，NL2RepoBench得分从52.5%提升至58.5%，端到端训练时间较异步方案缩短约44%。",
+          "source": "Twitter @Alibaba_Qwen"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "这座AI工厂用代码制造微型机器",
+          "summary": "这座AI工厂利用代码构建微型机器。此外，还能将一张产品照片转化为三条匹配的广告。",
+          "url": "https://therundownai.beehiiv.com/p/this-ai-factory-builds-tiny-machines-from-code",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Meta推出Wonder Full等新AI模型",
+          "summary": "Meta正努力在AI竞赛中迎头赶上。继推出重组后的超级智能实验室首个模型Muse Spark和热门AI智能体Muse后，该公司又发布了两款新模型Muse Wonder和Muse Wonder Full，声称可与业界顶尖模型一较高下。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "微软新款AI芯片降低对英伟达GPU的依赖",
+          "summary": "微软发布第三代自研AI芯片Maia 300，旨在成为其产品和服务的“主要AI推理系统”。该芯片不仅提升了云端AI工作负载的成本与效率，还能更好地处理最新的推理模型和智能体任务。",
+          "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta 发布其首个前沿模型 Muse Wonder",
+          "summary": "Meta 发布首个前沿模型 Muse Wonder。与主打低延迟轻量化的 Muse Spark 不同，Wonder 系列规模更大、能力更强，基准测试得分更高，在编程等复杂任务上表现更佳。",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+          "time": "01:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "WindBorne赢得美国空军巨额气球数据合同",
+          "summary": "一家利用气象气球和AI预测天气的硅谷初创公司赢得了美国军方价值近5000万美元的合同。",
+          "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+          "time": "01:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Honeyjar为企业提供AI工具，全面提升公关与传播效率",
+          "summary": "记者、创业者乃至部分公关从业者都认为公关流程已经失灵。Honeyjar希望用AI工具改善这一现状，帮助各类企业提升公关与传播效果。",
+          "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+          "time": "23:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "微软总裁称英国最适合推动AI监管",
+          "summary": "微软总裁布拉德·史密斯呼吁紧急监管AI，指出牛奶和洗衣机受到的监管都比AI公司更多。他认为英国在推动AI监管方面处于最佳位置。",
+          "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+          "time": "23:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "这家AI初创公司称可在几分钟内生成可直接报批的蓝图",
+          "summary": "总部位于圣莫尼卡的初创公司Blueprints AI开发了一款软件，能从照片、PDF或草图生成符合建筑规范的施工蓝图。该公司依靠自筹资金运营。",
+          "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+          "time": "23:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026明日开幕：最后机会锁定最高100美元门票优惠",
+          "summary": "TechCrunch Disrupt 2026将于明日太平洋时间上午8点在旧金山Moscone West开幕，届时将有超过1万名创始人、投资者和科技从业者齐聚一堂，展开为期三天的交流与展示。这是锁定最高100美元门票优惠、第二张门票半价的最后24小时。",
+          "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前Plaud高管为后台监听AI应用融资2600万美元",
+          "summary": "AI的核心承诺之一是越了解用户，就越能提供帮助和建议。这促使一些公司开发始终监听、观察或记录用户活动的应用和设备，以收集尽可能多的上下文信息。一位前Plaud高管为此类AI应用筹集了2600万美元资金。",
+          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+          "time": "20:47",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，即金融科技100强，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该报告/文章概述了金融科技行业当前的发展状况，涵盖主要趋势、市场动态与关键挑战。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业经历快速扩张后进入调整期，头部企业估值回落，部分初创公司面临盈利压力。行业焦点转向可持续增长、承保效率提升与AI驱动的风险管理，传统保险公司加速数字化转型合作。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "下一词预测加强化学习能产生开放式通用智能的最强机制性论据是什么？",
+          "summary": "多数AI讨论默认AGI/RSI/ASI必然实现，只关心后AGI世界的样子。但更应追问：当今AI系统背后的学习机制——下一词预测与强化学习——能否真正产生AGI？本文尤其关注基于因果机制和计算学习理论的论证。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x4awlk/what_is_the_strongest_mechanistic_argument_that/",
+          "time": "03:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "循环扩散Transformer：每个去噪步骤内多次运行相同模块，采样时可调整循环深度",
+          "summary": "论文提出循环扩散Transformer（arXiv 2609.40305），不在扩大文生图DiT规模，而是在每个去噪步骤内多次运行一组共享的Transformer模块。作者发现简单循环效果不稳定，通过每次循环的深度监督和自调制注意力加以改进。其宣称260M循环模型在多个基准上超越大6.5倍的模型，推理算力减少4.9倍。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x49d61/looped_diffusion_transformer_the_same_blocks_run/",
+          "time": "02:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "U-Space：揭示语言模型不确定性何时以及为何产生",
+          "summary": "针对开放权重推理模型，研究者构建了 U-Lens，无需正确性标签、训练或微调，也无需重采样，即可提供“模型对答案有多确定”的信号。其评分方式为：隐藏状态指向不同“怀疑”方向的强度乘以推理 token 的平均熵，单次前向即可完成且具有可解释性。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x44f9m/uspace_uncovering_when_and_why_uncertainty_arises/",
+          "time": "23:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "learnc：根据数据拟合现有C代码中的常量（JPEG缩小9.1%，WebRTC VAD的F1提升4.9）",
+          "summary": "learnc可根据你用C编写的评分函数，调整未经修改的C代码中的命名常量，并将新值写回同一文件。在留出数据上的结果显示：JPEG的stb_image_write.h（128个量化表条目，在12张Kodak图像上调优，在另外12张上测试）在相同SSIM下BD-rate改善9.1%，而mozjpeg的量化表仅改善2.7%；Google的WebRTC VAD（vad_core.c中的所有常量，在LibriParty开发集上调优）F1从0.810提升至0.859。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x4dlbm/learnc_fit_the_constants_in_existing_c_code_to/",
+          "time": "04:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "你的ICLR审稿体验如何？有什么观察？[D]",
+          "summary": "ICLR的OpenReview上已能看到不少优质论文，这可能是首个大规模引入自动化投稿的顶级会议，而AI生成文本正变得越来越难以识别。你如何应对这一问题？又怎样甄别低质论文？在你的审稿批次中，潜在接收、高质量研究与AI水文各占多少？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3ve39/hows_iclr_reviewing_going_for_you_any/",
+          "time": "15:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "科学建模的约束学习（巴黎NeurIPS预热活动）",
+          "summary": "ELLIs UnConference 的 CL4SM 分会场（NeurIPS 巴黎预热活动）现征集投稿。科学和工程系统的机器学习模型即使能很好地拟合数据，仍可能在物理上出错，例如产生或消灭质量与能量、出现负浓度、违反边界条件或漂移到非物理区域。CL4SM 旨在推动讨论尊重守恒定律、对称性、稳定性等先验约束的机器学习模型。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vr5g/constrained_learning_for_scientific_modelling/",
+          "time": "15:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "论文被TMLR直接拒稿，作者不明原因",
+          "summary": "一名本科生在TMLR投稿后被2天内直接拒稿，且未收到任何评审意见。该论文基于2024年已接受的细分领域工作，格式规范、严谨可复现，但作者认为创新性不足。作者为此投入5个月，现寻求下一步建议，希望为两年后硕士申请积累成果。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x4h5bx/got_desk_rejected_at_tmlr_with_no_idea_why_d/",
+          "time": "07:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "从学校历年试卷生成考题：寻求对流程的二次意见 [D]",
+          "summary": "我正在为学校平台构建题库功能，利用学校历年试卷生成新题，并以数据库中的课程学习目标作为范围约束。课程管理员审核所有题目，教师仅使用已批准的题库。目前已有可运行原型：将试卷和评分方案PDF输入大语言模型，由其拆分为题目。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3wgif/generating_exam_questions_from_a_schools_own_past/",
+          "time": "16:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "将RoBERTa AI文本检测器从约500 MB压缩至约97 MB，可在浏览器端运行，另附26 MB图像检测器",
+          "summary": "开发者将两个现有开源检测器通过ONNX Runtime Web实现完全客户端运行，无需上传任何数据。文本检测器基于fakespot-ai/roberta-base-ai-text-detection-v1，从约500 MB压缩至约97 MB；图像检测器基于Community Forensics模型，仅26 MB。开发者未训练新模型，主要工作为调优、压缩及浏览器适配。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vqip/compressed_a_roberta_aitext_detector_from_500_mb/",
+          "time": "15:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了一个微型表格，学习本地LLM的分类答案并以微秒级响应重复请求 [D]",
+          "summary": "如果你用本地模型做分类，每条消息都要等上几秒，哪怕问题已答过上百次。shad0w 可置于任何 OpenAI 兼容服务器前（Ollama 开箱即用），记录模型答案，约 1000 条后编译成小型表格，在 CPU 上以微秒级回答重复问题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x3vkej/i_built_a_tiny_table_that_learns_your_local_llms/",
+          "time": "15:33",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "发票逐条争议核对",
+          "summary": "小企业主每次收款都要面对客户对每一张发票的逐条质疑和讨价还价，虽然最终付款但过程极其消耗精力，需要反复翻查合同条款、工时记录和往来邮件来逐项辩护。AI可以自动比对合同约定与发票明细，生成带证据链的逐条应答说明，并标记出哪些争议项有让步空间，把数小时的扯皮压缩成几分钟的审核确认。\n\n💡 机会方向：面向自由职业者和小企业的AI发票争议自动应答与证据归集工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x40y3d/i_fired_my_best_paying_client_last_year_and_id_do/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户缺件纠纷排查",
+          "summary": "单人经营的卖家频繁收到客户投诉说包裹里少了东西，但自己明明记得打包时都放了，只能靠回忆和零散的打包照片自证清白，既无法确认是物流环节被偷还是客户讹诈，又不敢得罪客户。AI可以通过称重记录、打包视频自动比对订单应发重量与出库重量，生成带时间戳的履约证据报告，在纠纷发生前就锁定责任环节。\n\n💡 机会方向：为小微电商提供AI驱动的出库称重比对与履约证据自动生成系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x3vcsr/customers_constantly_getting_missing_items/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "单一客户欠款追讨",
+          "summary": "创业者只有一个大客户却已被拖欠六个月款项，不敢撕破脸又不知道如何有效催收，每天在焦虑中反复斟酌措辞、翻找合同和交付记录，却迟迟没有发出正式的催款函。AI可以根据合同条款和交付凭证自动生成分级的催收邮件序列，从友好提醒到正式律师函逐步升级，并同步计算逾期利息和诉讼时效，让创业者在维护关系的同时有策略地施压。\n\n💡 机会方向：面向单一客户依赖型小企业的AI分级催收与法律时效管理助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x48fmx/my_only_client_hasnt_paid_me_in_six_months_and_im/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社媒平台选择与运营",
+          "summary": "一个修门窗的个体户讨厌用社交媒体却知道必须做，面对Facebook、Instagram、Nextdoor、Google Business等平台完全不知道从哪下手，也不清楚本地服务类业务该发什么内容、多久发一次。AI可以根据业务类型和所在地区自动推荐最有效的1-2个平台，生成本地化内容日历和帖子文案，甚至自动回复常见咨询，让不懂营销的手艺人只需拍照上传就能维持专业形象。\n\n💡 机会方向：面向本地服务个体户的AI社媒代运营与内容自动生成平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x4dah1/im_starting_a_service_repair_business_and_i_hate/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "亚马逊海外店合规填报",
+          "summary": "卖家被亚马逊引导开通海外站点后，陷入大量重复的税务表格、合规声明和产品认证填报工作，每个国家要求不同、格式各异，填错就要重新来过，耗费大量时间却与卖货本身无关。AI可以识别各站点的合规要求，自动从已有资料中提取字段填充表格，校验跨站点信息一致性，并在政策更新时提醒需要重新提交的项目。\n\n💡 机会方向：面向跨境电商卖家的AI多站点合规表单自动填充与政策变更监控工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x4h6ku/anyone_else_get_railroaded_by_amazon_into_setting/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
