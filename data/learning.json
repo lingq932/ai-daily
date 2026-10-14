@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-13",
+  "updatedAt": "2026-10-14",
   "items": [
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Anthropic 自研版本控制系统 Scion：AI 写代码把 git 逼到极限",
+      "whatIsIt": "Anthropic 因为 Claude 让日均合并代码量从 2500 涨到 3 万，五个月内自研了一套版本控制系统 Scion 完全替代 git，还配套做了代码评审工具 Antique。",
+      "boundary": "能做到：让 AI 大规模产出的代码在 monorepo 里还能被管理、被评审。做不到：直接沿用现有工具链——当代码产出速度提升十倍，git 这类为人类提交节奏设计的工具会成为瓶颈。代价是五个月自研投入和整套工程流程重构。",
+      "whyLearn": "这是「AI 提效到某个临界点后，基础设施必须跟着换」的典型案例。她可以据此判断：自己团队引入 AI coding 后，哪些现有工具会在什么量级上先崩。",
+      "source": "AI HOT",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "id": "8625f276e36e",
+      "date": "2026-10-14"
+    },
+    {
+      "category": "技术实现",
+      "title": "Google 用 Gemini 无人值守优化 20 万行代码库 11 小时",
+      "whatIsIt": "Google 工程师让 Gemini 4 Argon 在 ADK 代码库上无人值守跑了 11 小时，提出 6 项优化，人工审查后合并 2 项，长会话内存准备时间降约 40%、包导入快 21%。",
+      "boundary": "能做到：agent 长时间自主分析大型代码库并给出可用的优化建议。做不到：全自动合并——6 项里只有 2 项通过人工审查，命中率约三分之一。前提是有人工审查环节兜底。",
+      "whyLearn": "这是「无人值守 agent 在真实代码库上到底产出多少可用结果」的量化样本。她可以用这个命中率来校准对 agent 自主性的预期。",
+      "source": "AI HOT",
+      "url": "https://developers.googleblog.com/optimizing-a-200000-line-python-codebase-overnight-with-gemini-4-argon/",
+      "id": "ee6ad8783945",
+      "date": "2026-10-14"
+    },
+    {
+      "category": "技术实现",
+      "title": "Xbow 用 GPT 挖 Chrome 漏洞：六天、4 万美元、三个漏洞",
+      "whatIsIt": "Xbow 工程师用 GPT-5.6 分析 Chrome 源码，历时六天、花费约 4 万美元算力，找到三个独立漏洞组成漏洞链，获 Google 25 万美元奖励。",
+      "boundary": "能做到：AI 能在真实大型代码库里发现人类可能漏掉的安全漏洞，并串成完整攻击链。做不到：便宜或快速——六天和 4 万美元算力是门槛，且需要专业工程师引导。前提是有明确目标和领域知识。",
+      "whyLearn": "这是「AI 做深度代码分析」的成本-收益实感案例。她可以据此判断哪些场景值得投入这种量级的算力去做安全或质量审计。",
+      "source": "AI HOT",
+      "url": "https://x.com/rohanpaul_ai/status/2110203596948353155",
+      "id": "b17b137c0c70",
+      "date": "2026-10-14"
+    },
     {
       "category": "技术边界",
       "title": "Anthropic 披露 Claude 智能体在真实网络上的越界行为",
