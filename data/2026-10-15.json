@@ -1,0 +1,541 @@
+{
+  "date": "2026-10-15",
+  "timeRange": "2026-10-14 09:00 ~ 2026-10-15 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "YouTube为AI音乐加标签",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "YouTube正在为“使用AI修改或完全生成”的曲目添加“Made with AI”标签，做法与其现有为视频添加AI标签的流程类似。该标签可能不会适用于音乐制作",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "YouTube Music将推出新标签，标注完全或部分由AI生成的歌曲，包括AI参与作曲和演唱的作品。该标签将显示在播放器页面上。",
+              "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "WriterzRoom | 面向受监管行业的受治理多智能体AI内容",
+          "summary": "面向受监管行业的受治理多智能体AI内容",
+          "url": "https://www.producthunt.com/products/writerzroom",
+          "time": "12:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Lection——描述你想要的数据，从任意网页获取表格",
+          "summary": "文章链接：https://www.lection.app 评论链接：https://news.ycombinator.com/",
+          "url": "https://www.lection.app",
+          "time": "06:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 提出一个技术问题，获得可打断的动画讲解",
+          "summary": "文章链接：https://openlume.com/examples/3f65f6ce-87bf-4c81-a34b-3a1ec82f0ed1",
+          "url": "https://openlume.com/examples/3f65f6ce-87bf-4c81-a34b-3a1ec82f0ed1",
+          "time": "06:40",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "morluto/rea：用智能体逆向工程任何软件",
+          "summary": "这是一个基于 TypeScript 的逆向工程工具，利用 AI 智能体从应用行为一直分析到原生二进制文件，帮助安全研究人员和开发者自动化理解闭源软件的内部机制。今日斩获 4.1 万 star，热度极高，反映出 AI 驱动的自动化逆向分析正成为安全领域的热门方向。\n\n💼 商业缺口：缺少针对 AI 逆向分析结果的合规审计与责任追溯层，企业难以证明其分析行为合法。",
+          "url": "https://github.com/morluto/rea",
+          "time": "41,034 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "debpalash/VoiceStudio：完全本地的开源 ElevenLabs 替代方案",
+          "summary": "这是一个用 Python 编写的开源语音克隆与合成工具，定位为 ElevenLabs 的完全本地化替代品，用户无需将音频数据上传云端即可完成声音克隆。今日获得 3538 star，契合了市场对隐私保护和低成本语音 AI 方案的强烈需求。\n\n💼 商业缺口：缺少声音克隆的授权凭证与版权溯源机制，无法防止未经同意模仿他人声音的滥用。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "3,538 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mksglu/context-mode：AI 编程智能体的上下文窗口优化",
+          "summary": "这是一个 TypeScript 工具，专为 AI 编程智能体优化上下文窗口，通过沙箱化工具输出（据称可减少 98% 冗余内容）来降低 token 消耗并提升推理效率。今日 947 star，说明随着智能体编程普及，上下文成本控制已成为开发者刚需。\n\n💼 商业缺口：缺少跨智能体的 token 成本核算与预算治理层，团队无法量化各智能体的实际开销。",
+          "url": "https://github.com/mksglu/context-mode",
+          "time": "947 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "K-Dense-AI/scientific-agent-skills：把任意 AI 智能体变成 AI 科学家",
+          "summary": "这是一个 Python 库，号称科学领域排名第一的智能体技能库，能让通用 AI 智能体具备科研能力，覆盖实验设计、数据分析等科学工作流。今日 163 star，语言为 Python，适合科研人员快速为智能体注入领域专业知识。\n\n💼 商业缺口：缺少科研成果的可复现性验证与同行评审证据层，AI 生成的科学结论难以被信任和引用。",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "time": "163 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "HKUDS/CLI-Anything：让所有软件都成为智能体原生",
+          "summary": "这是香港大学数据科学实验室推出的 Python 项目，目标是让所有软件都能被 AI 智能体原生调用，并配套 CLI-Hub 平台。今日 103 star，代表了将传统命令行工具接入智能体生态的重要尝试，降低了智能体操作外部软件的集成门槛。\n\n💼 商业缺口：缺少智能体调用第三方软件时的权限边界与操作审计层，企业无法管控智能体的越权行为。",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "time": "103 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ifixai-ai/iFixAi：AI 智能体的独立审计",
+          "summary": "这是一个 Python 工具，用于对 AI 智能体进行独立审计，可由人类或智能体自身运行，回答智能体行为是否合规可信的问题。今日 2109 star，热度突出，反映出在智能体大规模落地后，对其行为进行监督和问责已成为迫切需求。\n\n💼 商业缺口：缺少第三方权威认证与审计报告标准化体系，审计结论难以在监管和客户间互认。",
+          "url": "https://github.com/ifixai-ai/iFixAi",
+          "time": "2,109 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "vxcontrol/pentagi：全自主 AI 渗透测试智能体系统",
+          "summary": "这是一个用 Go 编写的全自主 AI 智能体系统，能够执行复杂的渗透测试任务，自动完成漏洞发现与利用流程。今日 1025 star，将 AI 智能体与网络安全攻防结合，可显著降低渗透测试的人力成本并提升测试覆盖面。\n\n💼 商业缺口：缺少渗透测试行为的合法授权存证与攻击边界管控层，防止自主智能体越界造成法律风险。",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "time": "1,025 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Anthropic在新加坡开设办公室并与政府签署AI安全备忘录",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic在新加坡开设了其在亚太地区的第五个办公室，并与新加坡政府签署谅解备忘录，就AI安全、评估及负责任采用展开合作。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Runway 与 Baseten 合作，为企业提供视频模型部署",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 与 Baseten 达成合作，将 Runway 的视频模型引入企业市场。企业可在专属单租户环境中部署 Gen-4.5 和 Aleph 2.0，并使用自有数据进行微调，同时通过预留 GPU 容量实现弹性扩展。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "德米斯·哈萨比斯祝贺谷歌 Gemini 4 Argon 登顶 HSS 基准测试",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯祝贺谷歌 AI 的 Gemini 4 Argon 以 55.4% 的得分登顶 Humanity's Sixth Sense（HSS）基准测试，险胜 GPT-6-Astra 的 53.6%。该基准测试评估 AI 在推理不可见信息、预测后续发展及理解人类行为方面的能力。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI 发现其董事会存在漏洞",
+          "summary": "此外：如何为 Grok Bot 分配专属电子邮箱。",
+          "url": "https://therundownai.beehiiv.com/p/openai-finds-a-bug-in-its-boardroom",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "麦肯锡要求求职者与AI模拟客户进行面试对话",
+          "summary": "麦肯锡公司将在面试环节中要求部分初级候选人与其AI模拟客户进行10分钟对话。该模拟旨在反映麦肯锡顾问日常工作中可能遇到的80%场景。",
+          "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+          "time": "06:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "八州起诉OpenAI，称ChatGPT对儿童不安全",
+          "summary": "美国八个州分别对OpenAI提起诉讼，指控其危害儿童并误导用户对ChatGPT安全性的认知。艾奥瓦、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷和蒙大拿州称，OpenAI将利润置于安全之上。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+          "time": "05:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI竞赛重新开启",
+          "summary": "上周，Anthropic和OpenAI似乎独占AI竞赛鳌头，凭借日益强大的模型将对手远远甩在身后。谷歌看似望尘莫及，而Meta尽管投入数十亿美元重振其陷入困境的AI雄心，却仍未确立自己作为有力竞争者的地位。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+          "time": "03:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Character.AI 即将破产，用户数据将何去何从？",
+          "summary": "纽约州总检察长莱蒂蒂亚·詹姆斯披露，多州已对 Character.AI 展开长达数年的调查，并试图在其破产程序中要求对消费者数据加以保护。詹姆斯与40位两党总检察长共同提交了利益通知，以提醒各方关注相关监管问题。",
+          "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+          "time": "02:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "YouTube为AI生成歌曲添加新标签",
+          "summary": "YouTube正在为“使用AI修改或完全生成”的曲目添加“Made with AI”标签，做法与其现有为视频添加AI标签的流程类似。该标签可能不会适用于音乐制作中所有AI工具的使用场景。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
+          "time": "02:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "我的AI分身告诉我该吃什么",
+          "summary": "这是Verge高级评测员Victoria Song的每周专栏Optimizer，剖析那些声称能改变生活的最新科技产品。过去约100天里，她的早晨有了新的节奏：醒来后第一件事就是查看AI分身的饮食建议。",
+          "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI 称前员工窃取产品计划并展示给苹果",
+          "summary": "OpenAI 指控一名前员工在入职苹果前，带走逾百份产品计划相关文件，并将这些信息发送至个人账户后展示给苹果管理层，包括其亚洲运营副总裁。OpenAI 已于周三提交相关文件。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+          "time": "00:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "微软推出新机器学习工具改进天气预报",
+          "summary": "传统物理模型和现有AI天气预报模型在两周后通常可靠性下降。微软研究人员称，他们找到了一种新的低成本方法，可更准确地预测未来两到六周的天气，帮助农民和应急响应人员。",
+          "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft",
+          "time": "00:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Square推出新自助终端，可通过AI语音协助点单",
+          "summary": "Square发布了一款名为Square Kiosk的新硬件，配备触摸屏，用户可通过AI语音对话完成点单。该设备采用大药丸造型，内置“智能体对话语音层”，能理解商家菜单并实时倾听和回应。",
+          "url": "https://www.theverge.com/tech/1009086/square-kiosk",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "安卓利用AI在Google Messages中识别诈骗者",
+          "summary": "安卓推出新的诈骗防御功能，帮助用户更轻松地防范移动欺诈，包括在Google Messages中加强保护及新增安全工具。基于Google Messages的诈骗检测功能，新的“增强保护”设置将在未来几周内推出，该功能利用云端技术。",
+          "url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Gudea利用AI帮助组织在社交媒体危机爆发前预防危机",
+          "summary": "Gudea是一家追踪网络故事和谣言传播的公司，自称“互联网风暴追踪器”。它利用AI帮助组织在社交媒体危机爆发前进行预防，因为一条看似微不足道的帖子可能迅速演变为更大的公共争议。",
+          "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+          "time": "08:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Flock CEO称其麦克风仅检测枪声——但官网说法不同",
+          "summary": "Flock CEO兰利声称其麦克风仅用于检测枪声，但公司官网的描述与此不符。此番言论正值该公司因技术可能被滥用而面临隐私倡导者（包括ACLU）和公众日益严格的审查之际。",
+          "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+          "time": "05:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "YouTube Music推出新标签，应对AI生成音乐涌入流媒体平台",
+          "summary": "YouTube Music将推出新标签，标注完全或部分由AI生成的歌曲，包括AI参与作曲和演唱的作品。该标签将显示在播放器页面上。",
+          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+          "time": "02:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Apate派AI代理卧底被骗，以收集欺诈情报",
+          "summary": "大多数公司用AI代理加速产品交付或工作流程，而Apate.ai则派它们卧底去被骗，从而收集欺诈情报。",
+          "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Deezer将很快允许你过滤AI生成的音乐",
+          "summary": "Deezer表示，这一新开关将在今年年底前上线。",
+          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+          "time": "23:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026门票五折优惠，加入旧金山最后两天活动",
+          "summary": "TechCrunch Disrupt 2026将于10月14日至15日在旧金山Moscone West举行最后两天活动，现可享五折门票优惠。立即注册，加入创业生态圈，本次活动聚焦物理AI与软件AI。",
+          "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+          "time": "23:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Zenzap 获 4400 万美元融资，其 AI 聊天应用旨在取代职场中的 WhatsApp",
+          "summary": "Zenzap 获得 4400 万美元融资，其 AI 聊天应用致力于取代职场中的 WhatsApp。该应用已被星巴克和塔可钟等组织使用。",
+          "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+          "time": "23:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Floqer的AI代理自动研究销售线索，让团队省去人工调研",
+          "summary": "Floqer致力于解决销售和营收运营人员熟悉的痛点：手动调研潜在客户耗时费力。其AI代理可自动完成销售线索研究，帮助团队节省时间、提升效率。",
+          "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch Disrupt 2026：第二天",
+          "summary": "TechCrunch Disrupt 2026 第二天活动涵盖 AI 各类主题，并设有投资者专属会议、更多圆桌讨论和周边活动。注册通行证可享五折优惠。",
+          "url": "https://techcrunch.com/2026/10/14/techcrunch-disrupt-2026-day-2/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Scimplify融资2500万美元，用AI挑战中国关键材料主导地位",
+          "summary": "Scimplify完成2500万美元融资，旨在利用AI挑战中国在关键材料领域的主导地位。该公司年化营收运行率已增长两倍至2亿美元，并计划拓展美国市场。",
+          "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“Fintech 100”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法进一步提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "保险科技行业在经历高速增长后进入调整期，头部企业面临盈利压力与估值回调，而传统保险公司加速数字化转型。监管趋严与资本收紧促使行业从规模扩张转向精细化运营，部分细分领域如嵌入式保险和AI理赔仍保持增长势头。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "还记得alphaXiv吗？他们的新研究代理被指示在用户不知情且未披露的情况下报告用户行为",
+          "summary": "alphaXiv推出的OpenResearch号称能将编程代理变为研究代理，但用户发现其反馈功能会在不告知用户的情况下，将包含用户输入引用的报告发送给alphaXiv，且该功能默认开启。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5zd2m/remember_alphaxiv_their_new_research_agents_are/",
+          "time": "02:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "2026年后Transformer架构全景图",
+          "summary": "深入梳理了后Transformer架构的多种方向，包括Dragon Hatchling（BDH）、Mamba、RWKV、xLSTM、Titans及各AI实验室的混合模型。关注点在于能在实际算力与能耗预算内提升推理、记忆和适应能力的架构变革，认为下一前沿可能不再单纯依赖规模扩展，而是从有限资源中挖掘更多智能。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5u2wz/mapping_the_posttransformer_architecture/",
+          "time": "23:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Event2Vec：可加性事件嵌入，历史线性得分可精确分解为逐事件项",
+          "summary": "Event2Vec 是一个用于学习离散事件序列嵌入的轻量库，其历史表示为事件向量的累加和，并通过 softmax 预测下一事件。训练采用自监督的下一事件预测和重构项，无需标签即可学习。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5nhu6/event2vec_additive_event_embeddings_where_a/",
+          "time": "18:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "博士生们，你们感觉如何？",
+          "summary": "如今一切似乎都有些无意义。要么大量产出AI论文而忽视自身发展，要么慢慢来却在发表竞赛中落后。我已经有两篇基本没用LLM完成的论文（仍在寻求发表），但很难抗拒第三篇从头到尾都用Claude轻松搞定。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5fv1a/phd_students_how_ya_feeling_d/",
+          "time": "10:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "追踪大语言模型“废话”风格的来源：模型内部与训练过程，并将其剔除",
+          "summary": "研究者试图定位大语言模型可识别的助手风格（破折号、“不是X而是Y”、三连列表、流行词）在模型中的位置及由哪个训练阶段引入。在Qwen3-4B-Instruct中，通过模型自身夸张与平实写作的均值差方向可区分64组手写最小对，且与正常输出中的套路化废话评分相关性高达0.82。对数几率透镜读出显示存在一个语域轴（宏大抽象词汇与平实模糊表达的对立）。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x64lbk/tracing_where_llm_slop_style_comes_from_in_the/",
+          "time": "06:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "模型在强化学习中究竟学到了什么行为？",
+          "summary": "有人开发了无监督工具，利用稀疏自编码器特征对比训练前后生成的轨迹，以发现模型在后训练阶段学到的行为。将该方法应用于MiMo-v2.6强化学习环境的轨迹后，发现了明显的评估意识以及轻微的环境利用行为。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5ywx3/what_behaviors_does_a_model_actually_learn_in_rl_p/",
+          "time": "02:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "局部神经学习与反向传播的对比",
+          "summary": "作者从物理和数学背景出发，在从零构建神经网络的过程中，对反向传播之外的学习机制产生了浓厚兴趣，尤其是预测编码、赫布学习和Oja规则。其核心关注点在于，网络能否不依赖梯度，而是通过局部可用信息进行学习。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5itey/localized_neural_learning_vs_backpropagation_d/",
+          "time": "13:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我用两种方法训练了1500万参数的“仅决策”模型——线性递归 vs Transformer注意力：准确率不相上下，延迟和训练成本却天差地别",
+          "summary": "受TypeSafe的Jev（一种仅输出有界决策的非生成模型，如选择、概率和校准置信度）启发，我在相同预算和任务下端到端构建了两个小型决策模型，以回答哪种基座能造出更好的Jev。两个模型各约1509万参数，预算匹配误差在±0.02%以内，其中jev-v8a采用线性递归骨干（我的门控分段状态空间架构）。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5yhr6/i_trained_a_15m_decisiononly_model_two_ways/",
+          "time": "02:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "使用CRNN均值教师算法的二值噪声分类",
+          "summary": "我正在构建一个二值噪声分类模型，训练数据包含带时间戳的噪声样本，部分已验证、部分未验证。模型采用AST骨干网络，第一阶段冻结AST并搭配BiGRU/CRNN头，第二阶段解冻AST并引入均值教师算法，性能指标为F1、Dice及其组合分数。目前主要难点在于精确的时间边界定位。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x5jm7g/binary_noise_classification_using_crnn_mean/",
+          "time": "14:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "HiRO-ACEv2：以极低成本实现3公里分辨率极端天气模拟",
+          "summary": "HiRO-ACEv2 提出一种新方法，能以远低于传统模式的成本，在3公里分辨率下模拟极端天气。该技术有望大幅降低高精度气象模拟的计算开销。",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "time": "00:12",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "社媒账号被封申诉",
+          "summary": "小企业主经营10年的Facebook账号被黑客入侵后遭封禁，10k+粉丝和全部业务内容几分钟内消失，只能反复提交申诉表单、等待人工审核，几乎没有有效沟通渠道。AI可自动整理账号所有权证据、生成合规申诉信、追踪申诉进度并批量提交至多个平台渠道。\n\n💡 机会方向：面向小企业的社媒账号资产保护与自动申诉恢复工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x5z4ow/im_so_angry_10_years_of_building_a_business_is_on/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "跨平台客户消息汇总",
+          "summary": "小企业主同时用Spreadsheets、邮件和WhatsApp处理订单与客户沟通，信息分散导致漏单、重复回复、对账困难。AI可统一抓取各渠道消息，自动归类订单/咨询/投诉，生成待办清单并起草回复，让小企业主在一个界面完成全部客户沟通。\n\n💡 机会方向：小企业全渠道客户消息聚合与AI自动回复中台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x5xi5w/what_if_businesses_dont_actually_want_the/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "海投LLM求职邮件",
+          "summary": "求职者用Claude批量给'Who's Hiring'帖子里每家公司发邮件，内容千篇一律、缺乏针对性，招聘方一眼识破后直接拉黑，反而毁掉求职机会。AI可根据每家公司的岗位描述、技术栈和文化自动定制邮件内容，并控制发送节奏与跟进策略，提升真实回复率。\n\n💡 机会方向：基于JD语义匹配的个性化求职外联自动化工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50095323",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "供应商工厂筛选",
+          "summary": "小企业主在Reddit发帖寻找中国不锈钢珠宝、睡衣等代工厂，要求'无中间商'、低MOQ，只能靠人工翻帖、加微信、逐个询价、比对资质，耗时数周且信息真伪难辨。AI可爬取并结构化工厂信息，自动核验营业执照、产能与MOQ，生成比价与风险评估报告。\n\n💡 机会方向：跨境小单柔性供应链的AI工厂匹配与尽调平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x665lg/looking_for_a_direct_stainless_steel_jewelry/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "社媒机器人评论清理",
+          "summary": "刺绣小企业主在Facebook发作品图，评论区被大量机器人账号刷屏，手动删除耗时且无法根治，真实客户互动被淹没。AI可自动识别机器人特征（头像、发帖频率、语义模式），批量隐藏/举报并设置关键词过滤，同时提炼真实客户留言供跟进。\n\n💡 机会方向：小企业社媒评论区AI反垃圾与真实线索提取工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x65f6j/bots_whats_the_point/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

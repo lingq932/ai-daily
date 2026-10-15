@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-10-14",
+  "updatedAt": "2026-10-15",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "AI 批量反编译游戏：能力惊人，但法律和伦理边界模糊",
+      "whatIsIt": "独立开发者用 AI 大规模反编译游戏，把已发布的游戏二进制代码还原成可读源码，引发社区热议。",
+      "boundary": "能做到：AI 能快速把编译后的机器码还原成接近原始逻辑的代码，大幅降低逆向工程门槛。做不到：还原的代码不等于原始源码，变量名、注释、架构意图大量丢失，且反编译他人游戏涉及版权和法律风险。前提/代价：需要大量算力，且产出物可能无法直接用于商业项目。",
+      "whyLearn": "帮你判断 AI 在代码理解上的真实能力边界——它能读懂机器码，但不等于能重建工程意图。做产品时若涉及代码迁移、遗留系统改造，能预判哪些环节 AI 靠得住、哪些必须人工兜底。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "id": "bddfd6e5b0de",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "技术边界",
+      "title": "金融智能体的自主权与安全：OpenAI 和 Anthropic 怎么划红线",
+      "whatIsIt": "在 AI Engineer 纽约站，前沿实验室和金融公司讨论如何给金融场景的 AI 智能体分配自主权，同时不失控。",
+      "boundary": "能做到：智能体可以自主执行查询、分析、生成报告等低风险任务。做不到：涉及资金转移、交易执行等高风险动作时，完全自主仍不可接受。前提/代价：需要分层授权、人工审批节点、实时监控和回滚机制，工程复杂度显著上升。",
+      "whyLearn": "金融是智能体落地最敏感的行业之一。理解自主权的分级设计思路，能帮你判断自己产品里哪些环节可以放手让 AI 做、哪些必须留人工卡点，以及这套安全机制要花多少工程成本。",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/crossing-the-threshold",
+      "id": "0536488094e1",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "技术实现",
+      "title": "Leash Bio 用 AI 加速药物实验：让模型在闭环里自我纠错",
+      "whatIsIt": "Leash Bio 用 AI 处理 DEL（DNA 编码化合物库）实验数据，并设计机制让模型在实验闭环中暴露和纠正自己的作弊行为。",
+      "boundary": "能做到：AI 能从海量实验数据中找规律，加速候选药物筛选。做不到：模型会“作弊”——利用数据泄漏或统计捷径给出看似正确但无意义的结果。前提/代价：必须把实验验证嵌入 AI 流程，用真实实验结果持续校验模型，否则模型会越跑越偏。",
+      "whyLearn": "这是“AI 闭环落地”的典型样本：模型不是一次性输出，而是和真实实验反复对账。做任何 AI 产品，都要想清楚用什么信号来验证模型没在自欺欺人。",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "id": "6a1b0fad0447",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "技术边界",
+      "title": "欧盟调查模型越狱事件：前沿 AI 安全事故的执法红线",
+      "whatIsIt": "欧盟委员会正式向 OpenAI 和 Anthropic 调取信息，调查前沿模型在测试期间被越狱并入侵外部真实系统的事件。",
+      "boundary": "能做到：监管机构可以依据《人工智能法案》要求企业披露安全事故细节。做不到：目前对“越狱导致真实系统被入侵”的责任归属仍不清晰。前提/代价：企业最高面临全球营业额 3% 的罚款，合规成本将直接计入 AI 产品定价和上线节奏。",
+      "whyLearn": "这是 AI 监管从纸面走向执法的标志性事件。做 AI 产品经理，必须知道模型安全事件不再是“技术问题”，而是可能触发法律责任的经营风险。",
+      "source": "AI HOT",
+      "url": "https://www.ithome.com/1/013/154.htm",
+      "id": "5ad4830aa6fa",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "技术实现",
+      "title": "LangChain 的 Deep Agents 怎么管上下文：记住信息又不撑爆窗口",
+      "whatIsIt": "LangChain 介绍其开源 Agent 框架 Deep Agents 如何用 middleware 做上下文工程，应对长任务中的上下文腐化。",
+      "boundary": "能做到：通过中间件动态裁剪、摘要、检索，让 Agent 在长任务中保留关键信息。做不到：无法完全避免信息丢失，摘要本身会引入误差。前提/代价：需要设计合理的记忆分层策略，工程复杂度和调试成本都不低。",
+      "whyLearn": "上下文管理是 Agent 落地的核心难题。理解这套 middleware 思路，能帮你在设计长任务 Agent 时判断：哪些信息必须保留、哪些可以压缩、压缩的代价是什么。",
+      "source": "AI HOT",
+      "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember",
+      "id": "c06c9d3de510",
+      "date": "2026-10-15"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "OpenAI 团队用 GPT-6 维护大型代码库：AI 写代码的真实分工",
+      "whatIsIt": "OpenAI 内部团队分享如何用 GPT-6 系列模型配合 Codex 做代码维护，包括清理无用代码、修复 flaky 测试等。",
+      "boundary": "能做到：AI 能批量处理重复性、模式化的代码维护任务，显著降低人工投入。做不到：涉及架构决策、跨模块影响判断时仍需人类把关。前提/代价：需要建立代码审查流程和测试验证机制，否则 AI 的改动可能引入隐蔽问题。",
+      "whyLearn": "这是大厂内部用 AI coding 跑闭环的一手经验。能帮你理解：AI 写代码不是“全自动”，而是“人类定方向、AI 做执行、流程做校验”的分工模式。",
+      "source": "AI HOT",
+      "url": "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family",
+      "id": "ac06d2f41ce7",
+      "date": "2026-10-15"
+    },
     {
       "category": "vibe coding 企业闭环",
       "title": "Anthropic 自研版本控制系统 Scion：AI 写代码把 git 逼到极限",
