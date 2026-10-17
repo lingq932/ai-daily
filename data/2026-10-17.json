@@ -1,0 +1,461 @@
+{
+  "date": "2026-10-17",
+  "timeRange": "2026-10-16 09:00 ~ 2026-10-17 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：CtxWise——面向 Claude 和 Codex 的 MCP 模式树摇器与防火墙",
+          "summary": "文章链接：https://github.com/FramY2/ctxwise 评论链接：https://news.ycombi",
+          "url": "https://github.com/FramY2/ctxwise",
+          "time": "07:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Ozil AI——将一张照片变成爆款 Ozil 进球视频",
+          "summary": "文章链接：https://ozilai.net/ 评论链接：https://news.ycombinator.com/item",
+          "url": "https://ozilai.net/",
+          "time": "06:46",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Claude官方插件目录",
+          "summary": "Anthropic官方维护的高质量Claude Code插件目录，为开发者提供经过审核的插件资源。解决插件生态分散、质量参差不齐的问题，今日获1552星，反映Claude Code生态快速扩张。\n\n💼 商业缺口：缺少插件安全审计与权限治理层，企业采用前无法评估插件风险。",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "time": "1,552 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "科学智能体技能库",
+          "summary": "将任意AI智能体转变为AI科学家的技能库，号称科学领域第一的Agent Skills库。解决科研场景下AI智能体缺乏专业工具链的问题，今日1158星，Python语言契合科研生态。\n\n💼 商业缺口：缺少科研结果可复现性验证与实验审计追踪产品。",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "time": "1,158 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ECC智能体框架性能优化系统",
+          "summary": "智能体框架性能优化系统，涵盖技能、本能、记忆等模块。解决AI智能体运行效率与能力编排问题，今日1057星，JavaScript语言便于前端集成。\n\n💼 商业缺口：缺少智能体性能基准测试与成本归因分析工具。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "1,057 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "CLI-Anything：让所有软件原生支持智能体",
+          "summary": "让所有软件都能被AI智能体原生调用的CLI枢纽项目。解决传统软件缺乏智能体接口的痛点，今日281星，Python实现便于快速接入。\n\n💼 商业缺口：缺少CLI调用的权限沙箱与操作审计日志产品。",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "time": "281 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "上下文模式：AI编码智能体上下文窗口优化",
+          "summary": "面向AI编码智能体的上下文窗口优化工具，可沙箱化工具输出并减少98%冗余。解决长上下文成本高、噪声大的问题，今日449星，TypeScript适合编辑器集成。\n\n💼 商业缺口：缺少上下文压缩效果的可观测性与token成本报表层。",
+          "url": "https://github.com/mksglu/context-mode",
+          "time": "449 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ruflo：原始智能体框架",
+          "summary": "原始智能体框架，支持部署智能多玩家集群与协调调度。解决多智能体协作编排问题，今日672星，TypeScript语言利于分布式系统开发。\n\n💼 商业缺口：缺少多智能体集群的运行治理与冲突审计产品。",
+          "url": "https://github.com/ruvnet/ruflo",
+          "time": "672 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "superpowers：智能体技能框架与开发方法论",
+          "summary": "经过实践验证的智能体技能框架与软件开发方法论。解决AI辅助开发缺乏系统化流程的问题，今日973星，Shell实现轻量易用。\n\n💼 商业缺口：缺少方法论落地效果的采用证据与团队效能度量层。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "973 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Cursor插件规范与官方插件",
+          "summary": "Cursor编辑器的插件规范与官方插件集合。解决AI编程工具扩展生态标准化问题，今日278星，TypeScript契合编辑器插件开发。\n\n💼 商业缺口：缺少插件市场中的质量评级与安全合规审查服务。",
+          "url": "https://github.com/cursor/plugins",
+          "time": "278 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "VoiceStudio：本地化语音克隆工作室",
+          "summary": "完全本地运行的开源ElevenLabs替代品，支持语音克隆。解决云端语音合成隐私与成本问题，今日2301星为列表最高，Python生态利于模型集成。\n\n💼 商业缺口：缺少语音克隆的授权溯源与深度伪造检测合规层。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "2,301 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AI求职搜索框架",
+          "summary": "本地运行的AI求职申请框架，自动化职位搜索与申请流程。解决求职效率低下的问题，今日898星，Python便于爬虫与LLM集成。\n\n💼 商业缺口：缺少申请投递的真实性验证与雇主端反滥用审计产品。",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "time": "898 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "XERJ：AI数据搜索新方式",
+          "summary": "面向AI的数据搜索新方案，自动索引能力可即时激活。解决AI检索数据效率与索引维护问题，今日1648星，Rust语言带来高性能优势。\n\n💼 商业缺口：缺少索引数据访问的权限治理与查询成本审计层。",
+          "url": "https://github.com/xerj-org/xerj",
+          "time": "1,648 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI 动态：工程师用 Dot 处理凌晨告警，GPT-6 Astra Pro 升级",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI 工程师 Ali 凌晨3点用 Dot 处理值班告警，Dot 调查问题并启动 Codex 线程，让他能在 ChatGPT 手机应用中远程操控。ChatGPT 中的 GPT-6 Astra Pro 获得升级，响应更快，插件和工具使用更佳，并支持多个智能体并行处理任务的不同部分，用户可跟踪进度并查看已完成任务。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind的Gemini 4 Argon智能体27小时通关《我的世界》",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "四个Gemini 4 Argon智能体在沙盒环境中仅凭代码和文本协作，通过聊天分工、共享笔记和共同调试，自主编写2783个程序，在27小时内击败末影龙通关《我的世界》，全程无人类协助。此外，谷歌DeepMind正与全球科学家合作，利用其模型和工具推动疾病更易检测、治疗和预防，从定位罕见基因变异到加速药物研发。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Anthropic研究：Claude设计出更高效的量子电路",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic的STEM研究员项目取得新成果：在仅给出自然语言指令的情况下，Claude Mythos 5设计出的量子电路优于已发表的最佳版本，部分提升达一个数量级甚至更多。更高效的电路可减少量子算法所需资源，有望让化学和材料科学领域的量子计算应用更早落地。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "山姆·奥特曼转发尼克·卡玛拉塔：神经网络其实已经“干净”",
+          "url": "https://twitter.com/sama",
+          "summary": "奥特曼分享了尼克·卡玛拉塔关于可解释性的观点：早期机械可解释性研究因神经元看似纠缠而令人悲观，但借助现代智能体工具，即便在万亿参数模型中，绝大多数神经元也可读、回路优美。卡玛拉塔认为，雄心勃勃的可解释性目标有望在人类最需要时被解决，甚至可能很快实现。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "德米斯·哈萨比斯谈Gemini与Argon进展",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯表示，本周Antigravity平台上Argon和Gemini引发热烈反响，已为所有人重置模型配额，鼓励周末继续开发。他还提到，谷歌的模型与工具正与全球科学家合作，助力疾病更早发现、更易治疗和预防，从定位罕见基因变异到加速药物研发，推动实验室突破转化为现实诊疗。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "杨立昆：世界模型会失效，AdaJEPA 可在规划中持续适应",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆等人指出，世界模型在世界发生变化时可能失效。为此，纽约大学数据科学中心博士生王颖、创始主任杨立昆与助理教授任梦野共同构建了 AdaJEPA，使模型能够在规划过程中持续适应变化。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Meta将Mac变成AI超级计算机",
+          "summary": "Meta将Mac转变为AI超级计算机。此外，还可将ChatGPT的回答转化为可使用的工具。",
+          "url": "https://therundownai.beehiiv.com/p/meta-turns-mac-into-an-ai-supercomputer",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "体验RTX Spark一周：使用英伟达新款笔记本的全部心得",
+          "summary": "英伟达RTX Spark N1X处理器终于面世，我们集中测试了多款搭载这款新“超级芯片”的高性能笔记本。RTX Spark定位为面向笔记本和小型台式机的高性能Arm架构SoC，旨在与苹果、英特尔、AMD和高通的最佳产品竞争，拥有大量核心。",
+          "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta新条款或允许其免费利用新闻网站训练AI",
+          "summary": "据Nieman Lab报道，Meta的新条款似乎允许其抓取和使用与其平台关联企业（包括在线出版商）的网站内容。该条款将于10月30日生效，Meta可借此利用外部内容来开发、改进、研究和训练AI。",
+          "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+          "time": "22:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "圆桌讨论：对话AI设计病毒创造者",
+          "summary": "AI能否设计新生命形式？2025年，斯坦福大学博士生塞缪尔·金利用生成式AI模型提出了微型病毒的基因蓝图，给出了初步答案。这尚非AI生成生命的实例，但可能为下一步方向。",
+          "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Replit CEO称已不再与Anthropic合作",
+          "summary": "Replit CEO马萨德表示，停止与Anthropic合作是出于包括成本在内的多重原因。Replit于8月宣布与OpenAI建立合作，但此前并无迹象表明其已终止与Anthropic的关系。",
+          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "time": "05:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "印度成为最新报告恶意AI代理活动的国家",
+          "summary": "印度成为最新一个报告恶意AI代理活动的国家。这些代理通过应用配置、公开代码仓库中暴露的凭据和连接设置，以及权限过宽的云角色进入系统。",
+          "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+          "time": "01:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前英伟达高管转投风投：机器人为何尚未迎来ChatGPT时刻",
+          "summary": "曾在英伟达机器人平台负责产品营销七年的Amulya Vishwanath如今转投风投，他认为机器人目前仍处于“乐高时代”，执行器、机械手、软件和安全标准等基础构件仍在重建之中。这一观点与那些认为机器人即将借助通用基础模型迎来突破的看法相左。",
+          "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达资深人士：物理AI不止是机器人，他正投资这一领域",
+          "summary": "曾在英伟达机器人平台负责产品营销七年的Amulya Vishwanath表示，机器人目前正处于“乐高时代”，执行器、机械手、软件和安全标准等基础构件仍在重建之中。这一观点与那些认为机器人将在通用基础模型驱动下迎来突破的看法相左。",
+          "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Elorian首个AI模型希望用图像进行推理，而不仅仅是关于图像",
+          "summary": "据Elorian评估，Glimpse在科学图表推理和短视频字幕生成上甚至超越了GPT-6 Astra，在其他视觉推理任务上也表现不俗。",
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "time": "00:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Jev 成为 Vercel 史上采用速度最快的 AI 模型",
+          "summary": "该数据来自 Vercel 的 AI 网关，这是一个类似 OpenRouter 的统一 API 服务。Jev 由此成为 Vercel 平台上采用速度最快的 AI 模型。",
+          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+          "time": "23:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "马克·沃尔伯格谈在电影中\"正确\"使用AI，并愿意让AI克隆延续其遗产",
+          "summary": "演员兼天使投资人马克·沃尔伯格表示，他支持在电影制作中使用AI，前提是用于\"增强你所做的事情\"。他还表示愿意接受AI克隆延续自己的遗产。",
+          "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+          "time": "22:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Veritas将防伪芯片扩展至珠宝、奖杯和香水瓶领域",
+          "summary": "造假者越来越擅长复制品牌标识，将被称为“超级假货”的仿制品冒充正品。初创公司Veritas希望用其自主研发的芯片来验证商品真伪，以解决这一问题。",
+          "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Replit CEO 称未来工作是“自动驾驶公司”",
+          "summary": "Replit CEO 阿姆贾德·马萨德设想未来将出现“自动驾驶公司”，由 AI 智能体处理日常任务，人们则专注于更高层次的决策。",
+          "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+          "time": "20:55",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但原始摘要为空，未提供具体信息，无法进一步精简或翻译。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原始摘要为空，无法翻译或精简。请提供摘要内容以便完成处理。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要。请补充英文摘要内容以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "研究：单张RTX 5090上扩散语言模型实现2,788 tokens/s——推出ORL（完全开源）",
+          "summary": "研究团队推出ORL（On-Policy Residual Learning），可在不牺牲生成质量的前提下显著提升扩散语言模型速度。配合自研推理引擎dlmrt，在单张RTX 5090上实现2,788 tokens/s（LLaDA-2.1-mini + ORL），在8×B200上达到7,708 tokens/s（DiffusionGemma 26B MoE + ORL）。QwenDLM-4B模型端到端吞吐量最高提升6.9倍，质量相当或更优。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x7qgr0/research_2788_tokenss_on_a_single_rtx_5090_with_a/",
+          "time": "04:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "你的论文（无论是你撰写的还是审稿的）有多少被拒稿？",
+          "summary": "有人带病花了4小时审稿并给出3/4的评分，次日却收到该论文被直接拒稿（desk reject）的邮件。发帖人表示身边不少人也有多篇论文被直接拒稿，并听说有人用多账号绕过20篇投稿上限，结果所有论文都被直接拒稿。该帖讨论的是ICLR会议。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x75edb/how_many_of_your_paper_either_paper_you_authored/",
+          "time": "11:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "致审稿人：你会把审稿意见上传给AI吗？（不是论文本身）",
+          "summary": "我的审稿流程基本没变，只是多了一步：完成审稿后把审稿意见上传给AI，请它提供第二意见，但从不上传被审论文本身。这样做虽然增加了工作量，但多数时候能产出更高质量的审稿意见，错别字也更少。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x7f6ft/to_reviewers_do_you_upload_your_review_to_an_ai/",
+          "time": "20:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我的 Rust 框架训练 nanoGPT 与 PyTorch 逐位一致，值得继续吗？",
+          "summary": "一名计算机专业学生用 Rust 开发了类 PyTorch Python API 的深度学习框架 DenseCore。将 `import torch` 指向该框架后，无需改动即可运行卡帕西的 nanoGPT，在测试的 50 步中初始权重、损失、梯度和权重均与 PyTorch 逐位完全相同，即使开启 dropout 也一致。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x7ojxo/p_my_rust_framework_trains_nanogpt_with_the_exact/",
+          "time": "02:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR直接拒稿后崩溃：“内容超出9页限制”",
+          "summary": "作者因论文中半句话延伸到第10页而被ICLR直接拒稿，怀疑是重新提交时小幅编辑并重新编译PDF所致。作者质疑这是否正常，并批评官方LLM反馈未能发现此类格式问题，认为LLM反馈应帮助检查会导致直接拒稿的格式错误，而非分析论文优缺点。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x7n0i2/crashing_out_after_iclr_desk_rejection_content/",
+          "time": "01:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "扩展印度语预训练：2.8万亿Token与开放数据生成流水线",
+          "summary": "该研究构建了覆盖多种印度语言的2.8万亿Token预训练语料，并开源了一套数据生成流水线，以解决低资源语言数据匮乏问题。该流水线涵盖数据采集、清洗与去重等环节，可复用于其他语言的大规模预训练。",
+          "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+          "time": "09:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "PDF发票数据录入",
+          "summary": "小企业主每天要从大量PDF发票中手动提取供应商、金额、税号等字段录入系统，重复枯燥且易出错，是典型的流程瓶颈。AI可用文档解析模型自动识别PDF/扫描件中的结构化字段，直接导出到表格或会计软件，准确率高且可批量处理。\n\n💡 机会方向：面向小企业的PDF发票OCR+结构化提取自动化工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x7x1qd/how_do_you_handle_data_entry_from_pdf_invoices/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "政府合同投标文件追踪",
+          "summary": "小企业主在申请政府合同时，需要手动跟踪多个招标平台的截止日期、所需文件清单和提交状态，容易遗漏导致丢单。AI可自动抓取招标信息、比对资质要求、生成待办清单并提醒截止时间，把散落各处的文档需求集中管理。\n\n💡 机会方向：政府招标信息聚合+资质匹配+截止提醒的投标管理助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x7rxw0/apps_for_gov_contracts/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "多门店高峰电话接听",
+          "summary": "多门店餐饮老板在晚餐高峰时段电话集中涌入，人手不足导致漏接订单或顾客体验差，老板本人也被迫随时待命。AI语音代理可自动接听、识别订位/订餐意图、回答常见问题并转接紧急事项，高峰期分流大部分来电。\n\n💡 机会方向：面向多门店餐饮的AI电话接待与订单分流系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x7v084/how_are_multilocation_owners_handling_the_phone/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "非工作时间来电分级",
+          "summary": "小企业主多年来把晚上6点后的每个电话都当紧急事件处理，导致频繁半夜出动、生活被侵蚀。AI可基于来电号码、历史记录和语音内容自动判断紧急程度，只把真正需要当晚处理的事项推送给人，其余转为次日跟进。\n\n💡 机会方向：AI来电紧急度分级与自动应答过滤服务",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x7rhoq/what_rules_do_you_use_to_decide_which_afterhours/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "广告投放盈亏分析",
+          "summary": "小企业主每月花数千美元投Google PPC广告，但只能粗略感觉“基本打平”，缺乏逐关键词、逐时段的投入产出分析，难以判断该砍该留。AI可自动拉取广告与销售数据、归因分析每个广告系列的真实ROI，并给出预算调整建议。\n\n💡 机会方向：小企业广告投放ROI自动归因与预算优化工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x7m0cy/is_it_a_good_idea_to_run_google_ppc_ads_if_i_only/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
