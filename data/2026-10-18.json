@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-18",
+  "timeRange": "2026-10-17 09:00 ~ 2026-10-18 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Meta删除新闻抓取条款",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "在遭到强烈反对后，Meta再次更新其条款，删除了暗示其可抓取网站内容（包括新闻网站）用于训练AI的表述。相关允许Meta使用此类域名、网页或URL内容来开发、改",
+              "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Meta发言人坚称，更新后的条款并不反映Meta抓取网络方式的改变。",
+              "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+            }
+          ]
+        },
+        {
+          "headline": "17个AI打7700手扑克",
+          "coverage": [
+            {
+              "source": "HN Show",
+              "summary": "作者让 17 个 AI 模型进行扑克对局，共打了 7700 手牌，用于基准测试。",
+              "url": "https://chrystianschutz.com/blog/ai-poker-holdembench/"
+            },
+            {
+              "source": "r/MachineLearning",
+              "summary": "该帖分享了17个AI模型进行7700手扑克对局的实验，对比前沿模型、廉价模型、本地模型与Jev的表现。原帖未提供具体结果，仅附链接和评论区。",
+              "url": "https://www.reddit.com/r/MachineLearning/comments/1x8j8kg/17_ais_7700_hands_of_poker_frontier_vs_cheap_vs/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN: MCPX – 扫描 MCP 服务器目录，检测工具投毒与密钥泄露",
+          "summary": "MCPX 是一个针对 MCP 服务器目录的扫描工具，用于发现工具投毒攻击和泄露的密钥。",
+          "url": "https://www.mcpx.digital/",
+          "time": "08:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: HardwareOS - 将提示词转化为可接线烧录的硬件项目",
+          "summary": "HardwareOS 能将一段提示词转化为可实际接线并烧录的硬件项目。",
+          "url": "https://hardwareos.ai",
+          "time": "07:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: PrimerKit，以智能体速度完成金融市场工作",
+          "summary": "PrimerKit 是一个以 AI 智能体速度处理金融市场工作的工具。",
+          "url": "https://primerkit.ai/",
+          "time": "06:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 让 AI 在全公司范围内发挥作用",
+          "summary": "VstormOS 帮助将 AI 部署到公司的各个业务环节中。",
+          "url": "https://vstorm-co.github.io/vstormos-landing/",
+          "time": "06:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: KIRA – 面向 Windows 的主权化、本地优先 AI 与媒体工作站",
+          "summary": "KIRA 是一个面向 Windows 的本地优先 AI 与媒体工作站，强调数据主权。",
+          "url": "https://apps.microsoft.com/detail/9n2dr3g0jw0z?hl=en-US&gl=US",
+          "time": "04:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 将梭罗的《瓦尔登湖》做成带 AI 向导的 3D 浏览器游戏",
+          "summary": "该项目将《瓦尔登湖》改编为 3D 浏览器游戏，并配有 AI 向导。",
+          "url": "https://walden.learnmer.com/",
+          "time": "04:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 在浏览器内使用 DA3 Small 将照片转为高斯泼溅",
+          "summary": "该工具利用 DA3 Small 模型在浏览器中把照片转换为高斯泼溅三维表示。",
+          "url": "https://antoinemopa.github.io/splatting-rs/",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 我让 17 个 AI 打了 7700 手扑克",
+          "summary": "作者让 17 个 AI 模型进行扑克对局，共打了 7700 手牌，用于基准测试。",
+          "url": "https://chrystianschutz.com/blog/ai-poker-holdembench/",
+          "time": "03:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 免费工具，将 PDF 和图片中的表格提取为 CSV/Excel",
+          "summary": "该免费工具可从 PDF 和图片中提取表格并导出为 CSV 或 Excel。",
+          "url": "https://parseextract.com/table-extraction-free",
+          "time": "03:28",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic官方Claude Code插件目录",
+          "summary": "这是Anthropic官方维护的高质量Claude Code插件目录，为Claude Code用户提供经过审核的插件资源。它解决了插件生态分散、质量参差不齐的问题，今日获得1397星，说明开发者对官方背书的插件市场有强烈需求。\n\n💼 商业缺口：缺少插件安全审计与权限声明层，企业用户无法评估插件的数据访问风险。",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "time": "1,397 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "本地运行的AI求职申请框架",
+          "summary": "这是一个在本地机器上运行的AI求职申请框架，帮助用户自动化求职流程。它解决了求职申请重复劳动多、隐私数据需上传云端的问题，今日1365星显示本地化AI工具的需求旺盛。\n\n💼 商业缺口：缺少求职申请效果追踪与A/B测试分析层，用户无法量化不同简历版本的转化率。",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "time": "1,365 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agent执行框架性能优化系统",
+          "summary": "这是一个Agent执行框架的性能优化系统，提供技能、本能、记忆等模块来提升AI代理的运行效率。它针对的是Agent框架普遍存在的性能瓶颈问题，今日1145星表明Agent基础设施优化是热点方向。\n\n💼 商业缺口：缺少跨框架的性能基准测试与成本对比报告层，团队难以证明优化投入的ROI。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "1,145 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "让所有软件成为Agent原生",
+          "summary": "CLI-Anything项目致力于让所有软件都成为Agent原生可调用的工具，通过CLI-Hub统一接口。它解决了AI Agent调用各类软件时接口不统一的问题，574星显示Agent工具生态整合受到关注。\n\n💼 商业缺口：缺少CLI工具调用的权限沙箱与操作审计日志层，企业无法追踪Agent对系统的实际调用行为。",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "time": "574 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "科学领域Agent技能库",
+          "summary": "这是一个面向科学研究的Agent技能库，可将任意AI Agent转变为AI科学家。它解决了科研场景下Agent缺乏专业工具链的问题，878星说明垂直领域Agent技能库有明确需求。\n\n💼 商业缺口：缺少科研结果可复现性验证与实验记录溯源层，学术用户无法证明AI辅助研究的可信度。",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "time": "878 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Agent编码CLI长期记忆方案",
+          "summary": "这是一个为Agent编码CLI提供长期记忆的解决方案，支持会话间交接。它解决了编码Agent上下文丢失、任务中断后难以续接的痛点，178星虽不高但Rust实现显示对性能的重视。\n\n💼 商业缺口：缺少记忆内容的隐私分级与过期策略管理层，敏感代码记忆的合规存储缺乏保障。",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "time": "178 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "多Agent协同工作平台",
+          "summary": "Orca是一个用于管理多个Agent（如Grok Bot、Claude Code等）协同工作的平台。它解决了多Agent调度、协作和状态管理的复杂性，830星显示多Agent编排是当前热门方向。\n\n💼 商业缺口：缺少多Agent协作的成本分摊与调用链路追踪层，团队无法定位哪个Agent消耗了最多预算。",
+          "url": "https://github.com/stablyai/orca",
+          "time": "830 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude Code终端编码Agent",
+          "summary": "Claude Code是Anthropic推出的终端内Agent编码工具，能理解代码库并执行开发任务。它是Agentic Coding的代表性产品，179星持续增长反映终端原生AI编码工具的稳定需求。\n\n💼 商业缺口：缺少企业级代码变更审批与合规审计层，受监管行业无法将Agent编码纳入现有变更管理流程。",
+          "url": "https://github.com/anthropics/claude-code",
+          "time": "179 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "本地化开源语音克隆工作室",
+          "summary": "VoiceStudio是ElevenLabs的开源全本地替代方案，支持语音克隆等功能。它解决了云端语音合成服务的隐私和成本问题，今日2125星为列表最高，显示本地化生成式语音工具的巨大需求。\n\n💼 商业缺口：缺少语音克隆的授权凭证与声纹滥用检测层，无法防止未经授权的声音仿冒。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "2,125 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "开源编码Agent",
+          "summary": "OpenCode是一个开源编码Agent，提供类似商业产品的代码生成与修改能力。它解决了编码Agent被少数厂商垄断、无法自托管的问题，438星显示开源替代方案受开发者青睐。\n\n💼 商业缺口：缺少Agent生成代码的质量评分与回归测试证据层，团队难以评估采纳开源Agent的风险。",
+          "url": "https://github.com/anomalyco/opencode",
+          "time": "438 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "多智能体集群编排框架",
+          "summary": "ruflo是原始的Agent执行框架，支持部署智能多玩家集群并协调任务。它解决了多Agent集群协作与调度问题，420星显示集群式Agent架构是探索热点。\n\n💼 商业缺口：缺少集群Agent行为的可观测性与异常熔断层，大规模Agent失控时缺乏自动止损机制。",
+          "url": "https://github.com/ruvnet/ruflo",
+          "time": "420 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AI数据搜索新方式",
+          "summary": "XERJ为AI提供全新的数据搜索方式，其自动索引能力可激活Agent的数据检索效率。它解决了AI搜索数据时索引构建慢、检索不准的问题，1160星显示AI原生搜索基础设施受关注。\n\n💼 商业缺口：缺少搜索结果的相关性审计与数据来源合规层，无法验证AI检索数据的准确性与授权状态。",
+          "url": "https://github.com/xerj-org/xerj",
+          "time": "1,160 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Meta删除可能允许其抓取新闻网站内容的条款",
+          "summary": "在遭到强烈反对后，Meta再次更新其条款，删除了暗示其可抓取网站内容（包括新闻网站）用于训练AI的表述。相关允许Meta使用此类域名、网页或URL内容来开发、改进AI的条款已从商业条款页面移除。",
+          "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+          "time": "23:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "网站正在对AI智能体关上大门",
+          "summary": "自主智能体是当前AI领域最热门的方向，OpenAI、Meta、谷歌等公司承诺其智能体可代替用户上网完成订餐、清理收件箱、购物等任务。然而，当互联网上的其他网站不愿配合时，这些智能体将面临障碍。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta删除引发抓取和AI训练担忧的措辞",
+          "summary": "Meta发言人坚称，更新后的条款并不反映Meta抓取网络方式的改变。",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+          "time": "05:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic称其员工队伍资历提升，会议时间增加",
+          "summary": "Anthropic表示，过去一年其员工构成和工作类型发生了显著变化，团队整体资历有所提升，员工花在会议上的时间也有所增加。",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+          "time": "04:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Replit CEO称已将OpenAI设为默认模型提供商，取代Anthropic",
+          "summary": "Replit CEO马萨德澄清，OpenAI将取代Anthropic成为平台默认模型提供商。Claude仍将继续向平台客户开放使用。",
+          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "time": "02:48",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "原始摘要内容为空，无法进行翻译和精简。请提供完整的英文摘要文本，以便生成80-150字的中文摘要。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原始摘要为空，无法提供具体内容。请补充摘要文本以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要内容。请补充英文摘要原文，以便按要求翻译并精简为2-3句话、80-150字的核心信息。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "AI写作有何问题——ICLR特辑",
+          "summary": "许多人在完成ICLR审稿时都在艰难阅读晦涩难懂的AI论文写作。作者尝试对自己正在审阅的一篇论文做匿名化处理，但很难模仿Claude的风格：该论文在六个操作点上均未优于最佳基线，在三个安慰剂置换检验上也均无优势，却声称增益可达约1.5且未被排除。作者向社区提问：我们该如何指出这类糟糕的写作？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8oksb/what_is_wrong_with_ai_writing_iclr_edition_d/",
+          "time": "07:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有多少人见过这份诚实的ICLR投稿？[D]",
+          "summary": "这让人不禁思考，有多少投稿只是悄悄删掉那句话就比这份更胜一筹。由/u/fighraccoon提交。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x819z7/how_many_of_you_have_seen_this_honest_iclr/",
+          "time": "12:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "17个AI、7700手扑克：前沿模型 vs 廉价模型 vs 本地模型 vs Jev",
+          "summary": "该帖分享了17个AI模型进行7700手扑克对局的实验，对比前沿模型、廉价模型、本地模型与Jev的表现。原帖未提供具体结果，仅附链接和评论区。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8j8kg/17_ais_7700_hands_of_poker_frontier_vs_cheap_vs/",
+          "time": "03:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "只为参加研讨会去NeurIPS值得吗？",
+          "summary": "一位刚完成硕士学业的研究者获得了NeurIPS研讨会论文录用，但所在实验室不提供注册、机票和住宿资助。该研究者考虑自费购买仅限研讨会的门票，询问仅凭研讨会海报参会是否值得。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x86e17/go_to_neurips_just_for_a_workshop_d/",
+          "time": "17:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "没有研讨会注册，主会结束后还值得留下吗？（NeurIPS）",
+          "summary": "由于NeurIPS在结果公布前就已售罄，我未能获得研讨会注册（我的论文在主赛道，但主赛道并不保证其他部分的注册资格）。我以往参加的都是全程注册的会议，因此不确定只有主会注册、没有研讨会注册时体验会如何。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x84udt/is_is_worth_staying_after_the_main_conference_if/",
+          "time": "16:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "EpochGo：基于离线 Ollama LLM 与确定性 Scikit-Learn 流水线的本地优先多智能体 AutoML 引擎",
+          "summary": "EpochGo 是一个开源、本地优先的 AutoML 系统，旨在解决应用机器学习中的两大瓶颈：一是传统智能体 ML 框架依赖云端 API（如 GPT-4），带来持续成本与表格数据泄露风险，难以满足 DPDP/GDPR 等合规要求；二是 LLM 在数学推理中容易产生幻觉。该系统结合离线 Ollama 大模型与确定性的 Scikit-Learn 流水线，在本地完成多智能体 AutoML 流程。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8c2sq/epochgo_localfirst_multiagent_automl_engine_using/",
+          "time": "22:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "EMNLP主会报告",
+          "summary": "我在今年EMNLP主会做报告，但刚拿到Underline链接，发现我的报告页面显示“暂无报告”，无法查看时间安排，而其他项目已有时间。请问这是Underline的正常现象，还是应该联系会务方？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8ey1m/emnlp_main_presentationd/",
+          "time": "00:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "交互式3D探索AI智能体的内部构造",
+          "summary": "该网站提供交互式3D体验，帮助用户直观了解AI智能体的内部构造与工作原理。用户可通过可视化方式探索智能体各组件及其协作机制。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8bhpm/learn_whats_inside_ai_agent_interactively_in_3d_p/",
+          "time": "22:22",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "催收欠款客户",
+          "summary": "小企业主被客户拖欠款项，只能自己上网搜索对方公司信息、手动发帖曝光、反复发友好提醒邮件，流程零散且耗时。AI可自动追踪应收账款账龄、生成分级催收邮件序列、抓取公开工商与诉讼信息并汇总成催收档案，甚至起草律师函初稿。\n\n💡 机会方向：面向小企业的AI应收账款催收助手，自动生成催收话术与债务人背景调查报告",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x8gdb3/client_will_not_pay/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "核对入账来源",
+          "summary": "Square账户突然多出1万美元，用户完全不知道钱从哪来，只能靠人工翻查交易记录、对账、猜测来源。AI可自动匹配入账与订单/发票/退款记录，识别异常入账并给出可能来源与处理建议，避免误认收入或漏记负债。\n\n💡 机会方向：支付平台异常入账自动归因与对账工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x8mkex/square/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "信用卡拒付申诉",
+          "summary": "零售安装小企业主被拒付（chargeback）压垮，需逐笔整理订单、物流、沟通记录、签收凭证来申诉，流程繁琐且常败诉。AI可自动归集每笔争议交易的证据链、按卡组织规则生成申诉材料并预测胜诉率，批量处理多笔争议。\n\n💡 机会方向：AI拒付争议证据自动打包与申诉生成器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x7z4q8/when_did_credit_card_companies_become_judge_and/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "分包商辞退流程",
+          "summary": "小企业主收到多起针对某分包商的投诉，已发过友好提醒，现在要终止合作但不确定合规步骤与留痕要求。AI可根据合同与当地劳动法规生成警告升级、终止通知、证据留存清单和结算方案，避免违法解约风险。\n\n💡 机会方向：小企业分包商/员工绩效警告与合规终止文书AI",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x8nclg/terminating_subcontractor/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "冷启动获客拓客",
+          "summary": "泳池服务商有3个客户、懂业务但不懂营销，想扩到100个客户却没有转介绍网络，只能自己摸索发帖、找渠道。AI可基于本地服务特征生成地推话术、自动筛选本地社区/邻里群/点评平台投放内容，并批量生成个性化外联邮件与跟进序列。\n\n💡 机会方向：本地服务商的AI冷启动获客与外联自动化工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x8l1kb/i_know_pool_service_cold_but_not_marketing_how_do/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

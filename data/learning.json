@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-17",
+  "updatedAt": "2026-10-18",
   "items": [
+    {
+      "category": "技术实现",
+      "title": "Perplexity 开源支撑其 Computer 的沙箱平台 SPACE",
+      "whatIsIt": "Perplexity CEO 宣布开源沙箱平台 SPACE，该平台为 Perplexity Computer 的全部沙箱能力提供支撑，代码已公开在 GitHub。",
+      "boundary": "能做到：让 AI 在隔离环境里执行代码和操作，把'模型出错'的爆炸半径限制在沙箱内。做不到：沙箱不是万能保险——它管得住文件系统和进程，管不住模型通过合法网络请求把数据带出去，也管不住提示词注入诱导的越权操作。前提/代价：沙箱要配合网络策略、凭据隔离一起用，单靠隔离层不够。",
+      "whyLearn": "任何要让 AI'动手操作'的产品，沙箱都是绕不开的基础设施。看一个开源实现，能帮你建立对'隔离到底隔离了什么'的具体认知，跟工程团队讨论时不会只能点头。",
+      "source": "AI HOT",
+      "url": "https://x.com/AravSrinivas/status/2110785848958759165",
+      "id": "b2afb4423ac1",
+      "date": "2026-10-18"
+    },
     {
       "category": "vibe coding 企业闭环",
       "title": "Claude 写了 90% 代码之后，Anthropic 怎么重做代码评审",
