@@ -1,0 +1,388 @@
+{
+  "date": "2026-10-19",
+  "timeRange": "2026-10-18 09:00 ~ 2026-10-19 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：本地优先的 macOS 视频录制与编辑工具，支持 MCP",
+          "summary": "一个本地优先的 macOS 视频录制与编辑器，支持 MCP（模型上下文协议）。",
+          "url": "https://github.com/TriHerm/cutmark",
+          "time": "08:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：一个免费的 MCP 服务器，提供大语言模型常出错的事实（时区、节假日、汇率）",
+          "summary": "一个免费的 MCP 服务器，为大语言模型常出错的事实提供数据，如时区、节假日和汇率。",
+          "url": "https://apistack.online/mcp",
+          "time": "08:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Hybro——面向 AI 智能体的开放互操作引擎",
+          "summary": "我构建了一个面向 AI 智能体的开放互操作引擎，可连接你常用的智能体。",
+          "url": "https://github.com/hybroai/hybro",
+          "time": "07:41",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "本地运行的AI求职框架",
+          "summary": "这是一个完全在本地机器上运行的AI求职申请框架，帮助用户自动化求职流程并保护隐私数据。今日获得2232颗星，说明开发者对本地化、隐私优先的AI求职工具需求强烈，Python实现也便于二次开发。\n\n💼 商业缺口：缺少针对AI生成简历/申请材料的真实性审计与雇主端验证层。",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "time": "2,232 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic官方Claude Code插件目录",
+          "summary": "这是Anthropic官方维护的高质量Claude Code插件目录，为Claude Code生态提供标准化插件分发渠道。今日1175颗星，反映官方背书对开发者采用AI编码工具插件的重要性。\n\n💼 商业缺口：缺少插件安全性审计、权限治理与供应链风险监控的付费层。",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "time": "1,175 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "开源编码智能体OpenCode",
+          "summary": "OpenCode是一个开源编码智能体，定位为可替代闭源AI编程助手的开放方案。今日1414颗星，TypeScript实现便于集成到现有开发工具链，开源属性吸引希望掌控数据和成本的团队。\n\n💼 商业缺口：缺少企业级智能体行为审计、token成本归因与合规采用证据层。",
+          "url": "https://github.com/anomalyco/opencode",
+          "time": "1,414 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Cursor插件规范与官方插件",
+          "summary": "这是Cursor编辑器的插件规范及官方插件集合，为AI编程助手生态建立扩展标准。今日350颗星，说明Cursor作为主流AI IDE正在构建插件生态护城河。\n\n💼 商业缺口：缺少第三方插件质量评级、安全审计与采用度证据的付费服务。",
+          "url": "https://github.com/cursor/plugins",
+          "time": "350 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "多智能体集群编排框架ruflo",
+          "summary": "ruflo自称原创的智能体编排框架，支持部署智能多玩家集群并协调任务。今日513颗星，TypeScript实现，面向需要多智能体协作的复杂自动化场景。\n\n💼 商业缺口：缺少多智能体协作的治理、冲突审计与运行成本可视化层。",
+          "url": "https://github.com/ruvnet/ruflo",
+          "time": "513 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AI编码CLI长期记忆方案",
+          "summary": "这是一个为智能体编码CLI提供长期记忆的Rust方案，并支持会话间任务交接。今日512颗星，解决AI编码助手跨会话遗忘上下文的核心痛点，Rust带来高性能。\n\n💼 商业缺口：缺少记忆内容的审计、隐私合规与跨工具记忆可移植性治理层。",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "time": "512 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "智能体集群工作平台Orca",
+          "summary": "Orca是用于管理一组智能体（如Grok Bot、Claude Code等）协同工作的平台。今日1146颗星，反映多智能体并行协作正成为AI工作流的主流形态。\n\n💼 商业缺口：缺少多智能体任务分配的成本核算、产出质量审计与采用证据层。",
+          "url": "https://github.com/stablyai/orca",
+          "time": "1,146 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "让所有软件原生支持智能体CLI-Anything",
+          "summary": "CLI-Anything旨在让所有软件都成为智能体原生可调用的工具，并提供CLI-Hub分发入口。今日589颗星，Python实现，推动AI智能体与现有软件生态的互操作。\n\n💼 商业缺口：缺少CLI工具被智能体调用时的权限治理、调用审计与安全沙箱层。",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "time": "589 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "本地开源语音克隆工作室VoiceStudio",
+          "summary": "VoiceStudio是开源的、完全本地运行的ElevenLabs替代品，支持语音克隆等生成式语音能力。今日2082颗星，高热度说明市场对隐私优先、免订阅的语音AI工具需求旺盛。\n\n💼 商业缺口：缺少语音克隆的授权溯源、深度伪造检测与合规使用审计层。",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "time": "2,082 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Android官方AI技能库",
+          "summary": "这是Android官方的技能（skills）仓库，Kotlin实现，面向Android平台上的AI能力集成。今日375颗星，官方背书使其成为Android AI开发的重要参考。\n\n💼 商业缺口：缺少Android端AI技能的设备侧性能与隐私合规审计层。",
+          "url": "https://github.com/android/skills",
+          "time": "375 stars today",
+          "language": "Kotlin",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "大语言模型入门课程",
+          "summary": "这是一个系统学习大语言模型（LLM）的课程仓库，包含学习路线图和Colab笔记本。今日81颗星，作为教育资源持续吸引LLM初学者，降低入门门槛。\n\n💼 商业缺口：缺少学习成果认证、技能评估与就业对接的证据层。",
+          "url": "https://github.com/mlabonne/llm-course",
+          "time": "81 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "视频修复工具jasna",
+          "summary": "jasna是一个视频修复工具，Python实现，利用AI技术恢复和增强视频画质。今日115颗星，面向老视频修复和画质提升的实际需求。\n\n💼 商业缺口：缺少修复前后质量评估、版权溯源与批量处理成本核算层。",
+          "url": "https://github.com/Kruk2/jasna",
+          "time": "115 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "模块化扩散模型GUI ComfyUI",
+          "summary": "ComfyUI是最强大且模块化的扩散模型图形界面、API和后端，采用图/节点式工作流。今日154颗星，作为生成式AI图像领域的核心工具，生态成熟且持续活跃。\n\n💼 商业缺口：缺少生成内容的版权合规审计、模型来源治理与算力成本归因层。",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "time": "154 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "费城女子因阻挡送货机器人被捕",
+          "summary": "卡罗琳·马文因阻挡Uber送货机器人的去路并拒绝让开，被警方逮捕并控以扰乱治安罪。她向费城ABC13表示，自己是在抗议这类机器人取代人类送货员的工作，因此每当看到它们就会站在前面阻拦。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+          "time": "02:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic宣布将5%股份投入公共利益基金",
+          "summary": "Anthropic宣布将把公司5%的股份投入一个公共利益基金，用于支持社会公益事业。",
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+          "time": "04:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "迪士尼同意聘用Character.AI大部分员工",
+          "summary": "文件显示，Character.AI获得迪士尼工作邀请的员工中“绝大多数”已接受。不过此次为假马竞标，其他公司仍可能提出更高报价。",
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "原始摘要内容为空，无法进行翻译和精简。请提供具体的摘要文本以便处理。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "由于原始摘要为空，无法提供具体内容。请补充摘要文本以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充摘要文本以便处理。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "会议论文质量堪忧！",
+          "summary": "一位审稿人表示，需为ICLR审阅三篇论文、为AAMAS审阅五篇，但这些论文质量极差，甚至达不到研讨会接收标准，更不用说主会。他恳请作者在论文成熟后再投稿，首次投稿者应先寻求导师反馈，否则只会浪费大量审稿人的时间。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x9fyhd/conference_papers_are_cooked_d/",
+          "time": "06:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "用单台台式机上的自对弈强化学习击败《魔兽争霸III》的疯狂AI",
+          "summary": "一位开发者仅用一台台式机，通过自对弈强化学习训练AI，成功击败了《魔兽争霸III》内置的“疯狂”难度AI。该方案展示了在消费级硬件上复现复杂即时战略游戏AI训练的可行性。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x9c5ty/beating_warcraft_iiis_insane_ai_with_selfplay/",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有人也被过度浓缩的AI用语搞得脑子转不过弯吗？",
+          "summary": "我们都遇到过像“安静的单源替代品”这类短语，在对话语境中勉强能理解，但解析起来却要费很大劲。目前有哪些研究能让AI生成的内容更易读？这个问题尤其棘手，因为每个人的词汇量、阅读水平乃至人生经历都略有不同。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x9e2fw/anyone_else_get_brain_lag_from_overlycondensed/",
+          "time": "04:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "TempoPFN：面向零样本时间序列预测的线性RNN合成预训练",
+          "summary": "该论文提出了一套合成时间序列生成器与增强方法库，用于训练时间序列基础模型，其采用的是基于DeltaProduct的线性RNN。这些合成数据已被用于Toto-2和TS-ICL。论文已被NeurIPS 2026接收。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x97v19/tempopfn_synthetic_pretraining_of_linear_rnns_for/",
+          "time": "00:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR指南是否允许将审稿中的论文上传至大语言模型对话？",
+          "summary": "用户询问ICLR指南是否允许将正在审稿的论文分享给大语言模型以辅助审稿，因为指南未明确说明。用户已知需披露AI使用情况，但不确定分享论文是否合规，同时认为AI二次审阅可能有益。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x9i1pg/do_iclr_guidelines_allow_to_upload_papers_under/",
+          "time": "07:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "寻求合作 [R]",
+          "summary": "本人正在攻读博士学位，希望与生物医学及人工智能/机器学习研究领域的人士建立联系并开展研究项目合作。有意者请告知。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x9j7qp/looking_to_collaborate_r/",
+          "time": "08:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027：互惠审稿人零论文分配——我该担心吗？[D]",
+          "summary": "有互惠审稿人反映，截至ICLR 2027审稿分配阶段仍未收到任何待审论文，感到困惑并询问是否有其他人处于相同情况。发帖者希望了解这一现象是否普遍，并寻求相关解释。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x94heh/iclr_2027_reciprocal_reviewer_with_0_paper/",
+          "time": "22:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "先验证后复用：仅向智能体展示后续会话复现的内容，可将被污染技能挡在程序性记忆之外",
+          "summary": "这是一项关于智能体程序性记忆投毒的小型案例研究，全部数据已公开。实验设置：编码智能体从测试通过的会话中学习技能，其中一个学习会话被投毒（新增文件、无关代码行或混入真实修复的一行），随后在同一任务上进行三次干净会话。之后用 Claude Haiku 5.5 和 Sonnet 5.5 每组各跑 5 次评分会话，并配有含 187 项行为检查的隐藏验证器。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x975ea/proof_before_reuse_showing_agents_only_what_later/",
+          "time": "00:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "从零实现 GPT-2 KV 缓存：正确性、延迟与内存实测",
+          "summary": "作者以学习为目的用 PyTorch 实现了 GPT-2 small 及 KV 缓存，并对比理论节省与实际测得的延迟和内存。实验基于预训练 GPT-2 small（124M）、NVIDIA A40、fp32（关闭 TF32）、批大小 1、贪心解码，计时经 torch.cuda.synchronize() 同步、预热后取五次运行中位数，并验证了正确性。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x8xxmv/gpt2_kv_cache_from_scratch_correctness_latency/",
+          "time": "16:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "asmsense：22.8万个带源码标签的剥离x86-64函数，以及一份我们仍缺失的数据地图",
+          "summary": "asmsense 是一个用于命名和描述剥离二进制文件中函数的数据集和小模型（Qwen3-8B + LoRA）。作者自行编译了宽松许可的C项目，因此每个函数都有真实名称和源码，目前包含来自341个项目的228,177个函数，编译选项覆盖-O0至-Os，并提供英文和土耳其文描述（中文计划中）。缺失内容已逐项列在一页上。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1x91a47/p_asmsense_228k_stripped_x8664_functions_with/",
+          "time": "19:49",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手写感谢信",
+          "summary": "保险代理人有约200个客户，想定期寄送感谢卡但手写耗时巨大，于是上网寻找代写手写笔记的服务。AI可读取CRM客户信息，自动生成个性化文案并驱动手写机器人或打印寄送，把批量触达从数小时压缩到几分钟。\n\n💡 机会方向：面向小企业的AI个性化手写卡片生成与寄送代运营服务",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x9cmne/has_anyone_tried_a_service_that_sends_handwritten/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Google评论运营",
+          "summary": "本地店主困惑于Google评论是否真的带来客流，却没有任何工具帮他量化评论数量、评分变化与实际到店/询盘之间的关系。AI可自动抓取评论、做情感与关键词分析、生成回复草稿，并关联客流数据给出投入产出建议。\n\n💡 机会方向：本地商家的AI评论监控、自动回复与口碑ROI分析工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x92ndv/does_google_reviews_matter_that_much/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Google Ads边际CPA",
+          "summary": "小企业主每周看代理商报表只看平均CPA就发火，却不会计算边际CPA来判断加预算是否还有效。AI可自动拉取广告平台数据，按花费分层计算边际转化成本，生成'该加/该减/该停'的预算建议并解释原因。\n\n💡 机会方向：面向小企业主的AI广告预算边际效益诊断与调优助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x9g8t6/unpopular_opinion_on_google_ads_your_agency/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "建站平台选型",
+          "summary": "微型企业主面对Wix、Squarespace、Shopify等十几个建站平台彻底选择瘫痪，反复对比功能、价格、SEO能力却迟迟无法开工。AI可通过几轮问答明确业务类型、预算与技术能力，直接输出选型结论、建站清单和分步搭建指引。\n\n💡 机会方向：小微企业的AI建站选型顾问与一键建站引导工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x97zcc/trying_to_pick_a_website_builder_platform_and_my/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "供应商催款对账",
+          "summary": "企业主明明账上有钱却仍逾期付款给供应商，被对方追讨后才发现内部付款流程断点。AI可监控应付账款到期日、自动核对发票与付款记录、在到期前提醒并生成付款确认邮件，避免因流程疏漏导致的信誉损失。\n\n💡 机会方向：小企业的AI应付账款到期提醒与自动对账付款工作流",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1x9dqz8/had_the_money_and_still_paid_our_vendor_late/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
