@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-20",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "Meta 的瘦编排器：让路由层少干活，智能体反而更可靠",
+      "whatIsIt": "Meta 数据管道智能体采用的一种架构模式：一个约 1300 行的编排器只负责分派任务和检查可靠性，把 20 多个工作流交给 14 个上下文隔离的专项子智能体，自己不做任何领域推理。",
+      "boundary": "能做到：把复杂任务拆给专精子智能体，减少上下文污染，提升整体可靠性；做不到：编排器本身不解决问题，一旦路由判断错或子智能体边界划错，错误会被放大；前提代价是：要先把领域拆成清晰的子任务边界，并额外维护路由与可靠性检查逻辑，前期设计成本高。",
+      "whyLearn": "这是判断“智能体系统该多复杂”的现成参照：当有人提议做一个什么都懂的大智能体时，你能用这个案例说明为什么“薄编排 + 专精子智能体”往往更稳、更好调试。",
+      "source": "AI HOT",
+      "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+      "id": "8b188d0c122b",
+      "date": "2026-10-20"
+    },
+    {
+      "category": "技术边界",
+      "title": "斯坦福医疗 Agent 基准：最强模型单次任务完成率不到一半",
+      "whatIsIt": "斯坦福 HAI 用三年时间构建的医疗 AI 基准体系（MedHELM、PhysicianBench、HealthAdminBench），用真实医疗任务测智能体的实际完成率。",
+      "boundary": "能做到：在标准化、边界清晰的任务上表现不错；做不到：PhysicianBench 上最佳模型单次仅完成 46% 任务，行政类 HealthAdminBench 上仅 36.3%，说明真实医疗场景的多步骤、长流程任务仍是短板；前提代价是：基准本身要覆盖真实会话和多轮交互才有意义，单轮静态测试会高估能力。",
+      "whyLearn": "这是“榜单分数 ≠ 业务可用”的最好证据。做医疗或任何高风险行业产品时，你能用这组数字反驳“模型已经很强了直接上线”的乐观判断，并要求按真实任务完成率而非基准分来验收。",
+      "source": "AI HOT",
+      "url": "https://hai.stanford.edu/news/measuring-what-medical-ai-can-actually-do",
+      "id": "f4f2421ab5b8",
+      "date": "2026-10-20"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Numan 的评测优先实践：稀缺资产不是提示词，是评测标准",
+      "whatIsIt": "英国数字健康公司 Numan 复盘其 AI 健康教练 Nu 的评测体系建设，核心结论是评测标准比提示词更值钱。",
+      "boundary": "能做到：用按类别打分的主题数据集 + 廉价模型扮演患者的模拟对话层，覆盖真实会话；做不到：单轮静态数据集和脚本化多轮对话都覆盖不了真实用户会话的复杂性，会给出虚高的信心；前提代价是：要持续投入构建和维护评测集，且模拟对话层本身也需要校准。",
+      "whyLearn": "直接回答“AI 产品怎么证明自己变好了”。当团队争论改提示词还是换模型时，你能把讨论拉回评测标准：没有可信评测，任何优化都是凭感觉。",
+      "source": "AI HOT",
+      "url": "https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith",
+      "id": "f5aaa04c201c",
+      "date": "2026-10-20"
+    },
     {
       "category": "技术实现",
       "title": "浏览器智能体是怎么工作的：模型 + harness + 浏览器",
