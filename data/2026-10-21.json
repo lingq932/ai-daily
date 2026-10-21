@@ -1,0 +1,597 @@
+{
+  "date": "2026-10-21",
+  "timeRange": "2026-10-20 09:00 ~ 2026-10-21 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Lugh Xtudio | 让AI智能体与你共同剪辑的视频工作室",
+          "summary": "一个视频工作室，AI智能体可以与你一起进行编辑。",
+          "url": "https://www.producthunt.com/products/lugh-xtudio",
+          "time": "11:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "英特尔® GPU D系列 | 无需HBM的大内存AI推理",
+          "summary": "面向AI推理的GPU产品，提供大容量内存而无需HBM。",
+          "url": "https://www.producthunt.com/products/intel",
+          "time": "10:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：在Claude中一键预订航班",
+          "summary": "旅行者希望在Claude中快速查找并预订航班，因此我们构建了该功能。",
+          "url": "https://mcp.bonbook.co/claude-setup",
+          "time": "07:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Pace or Pause——探索人们在AI发展上的立场",
+          "summary": "一个用于了解公众对AI发展态度的网站。",
+          "url": "https://paceorpause.com/",
+          "time": "07:18",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "AI求职助手：本地运行的AI求职申请框架",
+          "summary": "这是一个在本地机器上运行的AI求职申请框架，帮助用户自动化求职流程。今日获得3861星，说明开发者对隐私友好、可自托管的AI求职工具需求强烈，Python实现也便于二次开发。\n\n💼 商业缺口：缺少针对AI生成简历/申请材料的真实性审计与合规留痕服务。",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "time": "3,861 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Cloudflare安全审计技能：多阶段安全审计的编码代理技能",
+          "summary": "这是Cloudflare推出的编码代理技能，用于执行多阶段安全审计并支持独立验证结果。今日1712星，反映AI代理在安全审计场景的落地需求旺盛，JavaScript实现便于集成到现有工具链。\n\n💼 商业缺口：缺少对AI代理审计结论的可信度评分与人工复核工作流产品。",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "time": "1,712 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Orca：多代理协同工作平台",
+          "summary": "Orca是一个用于管理多个AI代理（如Grok Bot、Claude Code等）协同工作的平台。今日1565星，说明多代理编排是当前热点，TypeScript实现利于前端集成。\n\n💼 商业缺口：缺少多代理协作的成本归因与代理行为审计层。",
+          "url": "https://github.com/stablyai/orca",
+          "time": "1,565 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Ponytail：让AI代理像最懒的资深开发者一样思考",
+          "summary": "这个工具让AI编码代理模仿“最懒的资深开发者”的思维方式，倾向于写出最简洁的代码。今日1208星，体现了对AI生成代码质量与简洁性的关注，JavaScript实现轻量易用。\n\n💼 商业缺口：缺少对AI简化代码后功能等价性的自动化验证与回归证据产品。",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "time": "1,208 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ComfyUI：最强大的模块化扩散模型GUI与后端",
+          "summary": "ComfyUI是功能强大的模块化扩散模型图形界面、API和后端，支持基于图的工作流。今日1206星，是生成式AI图像领域的核心基础设施，Python实现生态成熟。\n\n💼 商业缺口：缺少面向团队的工作流版本治理、算力成本核算与生成内容合规审计层。",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "time": "1,206 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ruflo：原始代理编排框架",
+          "summary": "ruflo是早期的代理编排框架，支持部署智能多玩家集群并协调任务。今日684星，多代理集群编排是AI工程化的重要方向，TypeScript实现便于构建分布式代理系统。\n\n💼 商业缺口：缺少代理集群运行时的可观测性与故障归因付费产品。",
+          "url": "https://github.com/ruvnet/ruflo",
+          "time": "684 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Graphify：将代码库转化为可查询知识图谱",
+          "summary": "Graphify能把任意代码库及其文档、SQL模式、配置和PDF转化为可查询的知识图谱。今日802星，代码理解与RAG结合是AI辅助开发的关键环节，Python实现便于数据处理。\n\n💼 商业缺口：缺少知识图谱新鲜度监控与查询结果溯源审计服务。",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "time": "802 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "opencode：开源编码代理",
+          "summary": "opencode是一个开源的AI编码代理工具。今日1240星，开源编码代理赛道竞争激烈，TypeScript实现便于扩展和集成到开发工作流。\n\n💼 商业缺口：缺少编码代理生成代码的许可证合规与供应链安全审计层。",
+          "url": "https://github.com/anomalyco/opencode",
+          "time": "1,240 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agency-agents：触手可及的完整AI代理机构",
+          "summary": "该项目提供一套完整的AI代理团队，从前端专家到社区运营等角色一应俱全。今日562星，体现了“AI代理团队即服务”的趋势，Shell实现便于快速部署。\n\n💼 商业缺口：缺少代理角色绩效评估与任务交付质量证据链产品。",
+          "url": "https://github.com/msitarzewski/agency-agents",
+          "time": "562 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "headroom：在进入LLM前压缩工具输出与RAG片段",
+          "summary": "headroom在工具输出、日志、文件和RAG片段进入大语言模型前进行压缩，以节省上下文窗口和成本。今日549星，LLM上下文成本优化是刚需，Python实现便于集成。\n\n💼 商业缺口：缺少压缩前后信息保真度的量化评估与成本节省审计报告。",
+          "url": "https://github.com/headroomlabs-ai/headroom",
+          "time": "549 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic知识工作插件集",
+          "summary": "这是Anthropic开源的知识工作者插件仓库，帮助知识工作者使用AI完成工作。今日267星，官方出品意味着生态标准化的信号，Python实现便于扩展。\n\n💼 商业缺口：缺少企业级插件权限治理与使用合规审计产品。",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "time": "267 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agents：多框架代理插件市场",
+          "summary": "这是一个面向Claude Code、Codex、Cursor、OpenCode等多框架的代理插件市场。今日93星，多框架兼容是代理生态碎片化下的整合尝试，Python实现便于插件开发。\n\n💼 商业缺口：缺少跨框架插件的安全审查与版本兼容性认证服务。",
+          "url": "https://github.com/wshobson/agents",
+          "time": "93 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agentic-awesome-skills：代理优先的本地控制平面",
+          "summary": "AAS Core是一个本地、代理优先的控制平面，用于完整的目录发现与技能管理。今日83星，代理技能治理是新兴需求，Python实现便于本地部署。\n\n💼 商业缺口：缺少代理技能目录的供应链安全与来源可信度审计层。",
+          "url": "https://github.com/sickn33/agentic-awesome-skills",
+          "time": "83 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Kronos：金融市场语言的基础模型",
+          "summary": "Kronos是面向金融市场语言的基础模型，将金融数据视为一种语言进行建模。今日733星，金融垂直领域基础模型是AI落地高价值场景，Python实现便于量化研究。\n\n💼 商业缺口：缺少模型预测的合规留痕与回测偏差审计产品。",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "733 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "vllm：高吞吐低内存的LLM推理与服务引擎",
+          "summary": "vLLM是面向大语言模型的高吞吐、内存高效的推理与服务引擎。今日128星，是LLM部署的核心基础设施，Python实现生态广泛，值得关注其持续演进。\n\n💼 商业缺口：缺少多租户推理的成本分摊、SLA审计与GPU利用率治理层。",
+          "url": "https://github.com/vllm-project/vllm",
+          "time": "128 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Gemini 4 Argon 打造3D元素周期表，同步汤姆·莱勒元素之歌",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind的Gemini 4 Argon在Antigravity中构建了一个3D元素周期表，与汤姆·莱勒的歌曲《元素》同步。该作品可动态展示绕轨电子、原子数据和光谱。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Claude 设计蛋白结合体对抗蝎子神经毒素",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 让内部研究版 Claude 设计针对蝎子神经毒素的微型结合蛋白。全球每年约 120 万人被蝎子蜇伤，而抗毒血清往往昂贵或短缺。这仅是探索性工作，尚未产生抗毒药物，但团队已公开全部 211 个受测设计及实验数据供科研使用。",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "Runway 加入 Claude 应用市场",
+          "url": "https://twitter.com/runwayml",
+          "summary": "Runway 宣布入驻 Claude 应用市场，已与 Anthropic 合作的企业团队可将部分承诺支出用于 Runway Creative，在同一预算内实现视频、图像和音频的生成与编辑。",
+          "source": "Twitter @runwayml"
+        },
+        {
+          "title": "MiniMax M3.1 Flash 发布：性能比肩前沿模型，成本仅为三分之一",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 正式发布 M3.1 Flash，即此前匿名登顶 OpenCode 榜单的“Space Bunny”模型。其支持 100 万上下文及文本、图像、视频输入，速度是 M3 的 3 倍，成本仅为三分之一，API 定价为每百万输入/输出 token 0.15/0.60 美元。在 Automation-Bench 上得分 62.2%，领先 Opus 5 和 GPT-5.6 Sol，开放权重将于后续发布。",
+          "source": "Twitter @MiniMax_AI"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Anthropic联合创始人称奇点已经到来",
+          "summary": "Anthropic联合创始人表示，技术奇点已经开始。此外，还可体验ChatGPT基于GPT-Live-1.1的新语音功能。",
+          "url": "https://therundownai.beehiiv.com/p/anthropic-co-founder-says-the-singularity-is-underway",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "法官驳回山姆·奥特曼妹妹的性侵诉讼",
+          "summary": "美国地区法官扎卡里·布卢斯通周二驳回了安·奥特曼去年提起的诉讼，她指控其兄、OpenAI首席执行官山姆·奥特曼在她童年期间对她实施性侵。据《卫报》此前报道，法官指出，过去一年中安未能出席独立医学检查。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed",
+          "time": "07:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌更个性化的Gemini AI即将登陆你的汽车",
+          "summary": "谷歌将Personal Intelligence引入车载Gemini AI。更新后，Android Auto和内置谷歌系统的汽车中的Gemini可访问Gmail、日历、地图、照片、YouTube和搜索等谷歌应用中的信息。例如，用户可在驾驶时向Gemini询问航班状态。",
+          "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+          "time": "06:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta 在研究人员发现 AI 对话可在网上访问后暂停 Muse 分享功能",
+          "summary": "Meta 表示，在研究人员发现 Muse 对话分享链接可公开访问后，已暂停该功能。安全公司 Claroc 的研究人员通过公开 DNS 记录发现了超过 6,800 条 Muse 链接。",
+          "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+          "time": "02:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Spotify从推荐中移除5000万首AI垃圾及垃圾歌曲",
+          "summary": "Spotify宣布过去一年已从用户推荐中移除超过5000万首被视为AI生成垃圾或垃圾信息的歌曲。该公司还调整了推荐系统，以更多展示人类艺术家的音乐作品。",
+          "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+          "time": "22:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Adobe Lightroom移动版新增AI睁眼功能，轻点即可修复闭眼照片",
+          "summary": "Adobe宣布，iOS、iPadOS和Android版Lightroom移动端现已支持通过生成式AI一键睁眼。当应用检测到照片中有人闭眼时，会自动向用户提供修复选项。",
+          "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+          "time": "21:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "企业AI的新经济学",
+          "summary": "企业应用AI如同早期用电：初期只有少数场景使用，效率并非重点，价值显而易见。但当AI成为基础设施、每个流程都依赖它时，问题就从“能否使用”转变为“使用效率有多高”。",
+          "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+          "time": "23:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "各行业AI应用为其他领域提供借鉴",
+          "summary": "当前关于职场人工智能的讨论主要由硅谷推动，但将科技行业视为孤岛会忽视技术应用的真实趋势——科技只是率先采用AI的行业。随着生成式AI和自动化工具日趋成熟，目前重塑软件工程和产品管理的变革必将蔓延至其他领域。",
+          "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "探访三星大型新半导体中心",
+          "summary": "生成式AI模型依赖GPU运行，而GPU需要与处理器封装在一起的专用内存芯片堆叠。为满足日益增长的内存需求，三星正在韩国平泽建设大型半导体制造园区，目前已有三座晶圆厂全天候运转，第四座即将投产。",
+          "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic推动AI安全法案：若模型可能导致50人以上死亡可被封锁",
+          "summary": "Anthropic提出一项AI安全政策，看似防范AI失控风险，实则规定联邦机构须经法官批准才能阻止模型发布。该法案引发争议，被指可能削弱监管效力。",
+          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+          "time": "07:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Hugging Face CEO警告：Netflix的OpenAI黑客纪录片不准确",
+          "summary": "Hugging Face联合创始人克莱姆·德朗格提醒观众，在分享Netflix纪录片《AI失控》前需谨慎。他表示该片出镜的自己认为影片“完全陷入末日论模式”，内容并不准确。",
+          "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+          "time": "06:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic的云合作伙伴关系日益复杂",
+          "summary": "据报道，Anthropic在从云服务商获取足够算力方面遇到困难，因为这些云厂商日益将其视为竞争对手。与此同时，在计划于11月IPO之前，其基础设施支出正大幅膨胀。",
+          "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+          "time": "05:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SpaceX的AI业务表现超预期",
+          "summary": "SpaceX第三季度实现盈利，净利润达44亿美元，AI业务成为主要增长引擎。",
+          "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+          "time": "04:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI收购初创公司Orchestra Bio，强化生物技术业务",
+          "summary": "OpenAI宣布将Orchestra的团队和技术纳入其生命科学研究AI模型Rosalind及相关工具Rosalind Workbench，后者旨在帮助研究人员规划实验并分析结果。此举意在加强OpenAI在生物技术领域的布局。",
+          "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+          "time": "04:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌加入亚马逊阵营，向英伟达在AI应用开发者领域的主导地位发起挑战",
+          "summary": "谷歌效仿亚马逊，推出了一款开发者工具，可让PyTorch用户轻松将应用从英伟达GPU迁移至其他硬件。此举旨在削弱英伟达在AI开发领域的强势地位。",
+          "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+          "time": "02:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "ChatGPT 现可锁定聊天",
+          "summary": "该公司表示，该功能适用于用户讨论私密内容或筹划惊喜的场景，当用户把设备交给亲友展示其他聊天内容时，可保持这些对话的私密性。",
+          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+          "time": "02:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "埃里克·施密特据称持有的Anthropic股份约为CEO达里奥·阿莫代伊的一半",
+          "summary": "埃里克·施密特持有的Anthropic股份据称约为该公司CEO达里奥·阿莫代伊的一半。这笔持股有望进一步扩大施密特的财富。",
+          "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+          "time": "01:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta的Muse应用40天内在美国下载量突破1000万，仅11款其他应用曾达此里程碑",
+          "summary": "Meta旗下应用Muse在美国上线40天内下载量突破1000万次，成为仅有的第12款达成这一里程碑的应用。新数据还显示，Muse的用户留存率高于其AI竞争对手。",
+          "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+          "time": "01:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "前英伟达高管、现风投人阿穆利亚·维什瓦纳特：\"物理AI正处于它的乐高时代\"",
+          "summary": "阿穆利亚·维什瓦纳特向TechCrunch的Equity节目表示，所有人都在等待机器人领域的\"ChatGPT时刻\"。他认为物理AI目前仍处于类似乐高积木的早期搭建阶段，距离真正成熟尚有距离。",
+          "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/",
+          "time": "00:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "植物能用电力“说话”，这家初创公司构建AI模型破译植物语言",
+          "summary": "Electric Plant公司开发了一款AI驱动的翻译器，帮助人类通过植物茎秆中流动的微弱电流，倾听植物在“说”什么。",
+          "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Figma联合创始人迪伦·菲尔德认为MCP并非完美协议",
+          "summary": "Figma联合创始人迪伦·菲尔德表示，MCP并非完美协议。Figma计划支持尽可能多的标准，但不会因此暴露其全部数据。",
+          "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+          "time": "22:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "美国下令联邦机构从系统中移除中国DeepSeek AI",
+          "summary": "美国以国家安全担忧为由，下令联邦文职机构移除DeepSeek产品及使用其技术构建的第三方服务。",
+          "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+          "time": "21:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Eka估值14.5亿美元，物理AI模型获专家盛赞",
+          "summary": "Eka Robotics的机械臂或成为首款能真正熟练抓取各类物体的机器人手臂，其动作流畅自然、高度拟人，令业界惊叹。凭借这一物理AI模型，该公司估值已达14.5亿美元。",
+          "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Yelp 现可代你致电餐厅查询等位时间",
+          "summary": "Yelp 正在其应用中嵌入多项新 AI 功能，可代用户致电餐厅查询等位时间，并生成能记住用户偏好的个性化推荐。",
+          "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容仅为“Fintech 100”标题，未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充英文摘要以便处理。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要。请补充摘要内容以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "为微调Meta DETR准确标注500张图像的最佳方法？",
+          "summary": "我正在微调Meta的DETR模型，使用约500张图像的自定义数据集进行目标检测，主要挑战是标注。需要为多个类别绘制边界框，手动标注每张图像耗时较长，希望在保证准确性的前提下提速，因为标注质量差会影响模型性能。目前正在考察CVAT、Roboflow等工具和模型。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xao1wy/best_way_to_accurately_annotate_500_images_for/",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "关于CVPR 2027投稿",
+          "summary": "有人询问CVPR 2027的作者工具包在哪里获取，因为官网似乎尚未发布，与往年不同。发帖者希望了解情况的人予以指正。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xar9ha/regarding_cvpr_2027_submission_d/",
+          "time": "20:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "英伟达 Cosmos3-H-Dreams：通过生成式仿真让临床手术栩栩如生",
+          "summary": "英伟达推出 Cosmos3-H-Dreams，利用生成式仿真技术将临床手术场景生动还原。该技术有望为手术训练、规划与医疗 AI 研究提供高保真虚拟环境。",
+          "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+          "time": "02:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "FairStress：对大语言模型决策公平性的更深入评估",
+          "summary": "该研究提出 FairStress，一种用于更深入评估大语言模型决策公平性的新方法。它通过压力测试揭示模型在不同情境下的公平性表现，弥补了传统评估的不足。",
+          "url": "https://huggingface.co/blog/allenai/fairstress",
+          "time": "00:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "ALTK-Evolve：学习型记忆如何在没有前沿模型的情况下登顶τ²-bench客服任务排行榜",
+          "summary": "ALTK-Evolve 通过让系统从交互中学习并积累记忆，在 τ²-bench 客服任务排行榜上超越依赖前沿模型的方案。该方法无需调用顶级大模型，仅凭学习到的记忆机制就取得了领先成绩，展示了记忆增强在客服场景中的潜力。",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+          "time": "23:19",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "监控AI搜索口碑",
+          "summary": "小企业主需要定期手动Google自己公司名，查看Google AI摘要（AI Overview）如何描述自家业务，发现错误信息后还要研究如何纠正，过程繁琐且无固定工具可用。AI可自动定期抓取各搜索引擎的AI生成摘要、比对事实、标记错误并生成修正建议，甚至监控竞品描述差异。\n\n💡 机会方向：面向中小企业的AI搜索可见性与口碑监控SaaS",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xb19pf/how_to_control_what_google_ai_says_about_your/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "合同工作量核算",
+          "summary": "服务型小企业主按客户口头/文档描述估算报价（如8000美元/月），签约后才发现实际工作量远超预期，只能事后懊恼。AI可解析客户需求文档、历史工单与沟通记录，自动估算真实工作量与工时，生成带风险提示的报价方案，并在执行中持续比对偏差。\n\n💡 机会方向：AI驱动的服务合同工作量评估与报价辅助工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xb8jsk/clients_actual_workload_is_significantly_higher/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "S corp税负测算",
+          "summary": "小企业主每隔几周就要手动为单一股东LLC在多个利润水平下计算S corp与普通LLC的税负差异，涉及工资合理性、自雇税、州税等复杂变量，容易算错或被网上经验误导。AI可根据企业所在州、利润、工资设定自动建模对比多种架构的净收益，并给出情景化建议。\n\n💡 机会方向：面向小微企业的AI税务架构模拟与决策助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xamcan/i_ran_the_s_corp_numbers_for_a_oneowner_llc_at/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "首批客户冷启动",
+          "summary": "新公司无名称、无评价、无案例，创始人只能靠线下挨家拜访、反复试错各种获客渠道来寻找前5-10个客户，耗时数周且转化不确定。AI可基于本地商户数据、行业特征自动生成目标客户名单、个性化外联话术与跟进节奏，并分析各渠道试错结果优化下一步动作。\n\n💡 机会方向：AI驱动的本地小微企业首批客户获客与外联自动化",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xb0qsd/new_business_no_name_no_testimonials_is_showing/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Adsense审核攻关",
+          "summary": "独立开发者做浏览器小游戏，反复提交Adsense申请被拒，却不清楚具体缺什么（内容量、隐私政策、流量门槛等），只能靠论坛零散经验猜测修改。AI可扫描站点内容与政策合规项，逐条比对Adsense审核要求，生成整改清单与申请材料草稿，并预测通过概率。\n\n💡 机会方向：AI广告平台审核合规诊断与整改助手",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50172787",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
