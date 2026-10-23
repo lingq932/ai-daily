@@ -1,0 +1,584 @@
+{
+  "date": "2026-10-23",
+  "timeRange": "2026-10-22 09:00 ~ 2026-10-23 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Canva发布首个AI图像模型",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Canva发布名为Canva Craft的图像生成模型，直接对标OpenAI、微软和谷歌的相关产品。该模型采用两阶段架构，可在生成图像前先规划设计方案，从而实现",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Canva 将其全新图像模型向所有用户开放，承诺以更低成本提供更优、更可定制的性能。",
+              "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
+            }
+          ]
+        },
+        {
+          "headline": "微软称AI诊断优于医生",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "微软AI CEO穆斯塔法·苏莱曼向The Verge表示，AI改善医疗健康的愿景\"终于成为现实\"。微软声称已开发出一款AI工具，其诊断准确率最高可达人类医生的四",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "据《科学》杂志的一项研究，微软的新AI诊断系统在疑难病例上击败了全科医生。但大部分提升似乎来自底层的AI模型，而非微软系统本身。",
+              "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Resend Inboxes | 创建共享收件箱，连接你的智能体，构建工作流",
+          "summary": "创建共享收件箱，连接你的智能体，构建工作流",
+          "url": "https://www.producthunt.com/products/resend",
+          "time": "13:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Tetriz Engg Intelligence + Connectors | 将编码会话连接到PR、问题、质量和ROI",
+          "summary": "将编码会话连接到PR、问题、质量和ROI",
+          "url": "https://www.producthunt.com/products/tetriz-engg-intelligence-connectors",
+          "time": "14:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Agentic CleanSlop | 通过你的智能体认证、扫描并修复你的应用",
+          "summary": "通过你的智能体认证、扫描并修复你的应用",
+          "url": "https://www.producthunt.com/products/cleanslop",
+          "time": "14:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "CATT 0.2.1：在CI中针对类Muse/Instinct的智能体/服务进行测试",
+          "summary": "嘿HN，我们最近开源了消费者智能体测试工具（Consumer Agent Testing Tool），帮助团队在CI中测试智能体/服务。",
+          "url": "https://github.com/Coverage-Cat/consumer-agent-testing-tool",
+          "time": "06:18",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic 知识工作者插件开源库",
+          "summary": "这是 Anthropic 官方开源的知识工作者插件集合，主要面向非技术用户，让 Claude 等 AI 助手能直接接入文档处理、数据分析等办公场景。作为官方出品，它定义了 AI 助手与知识工作流对接的插件规范，今日新增 303 星，说明市场对标准化 AI 办公插件生态需求旺盛。\n\n💼 商业缺口：缺少插件权限审计与数据流向合规追踪的付费治理层。",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "time": "303 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Ponytail：让 AI 代理像最懒的资深开发者一样思考",
+          "summary": "这是一个 JavaScript 工具，通过提示词工程让 AI 编码代理模仿\"最懒的资深开发者\"思维，从而写出更简洁、少过度设计的代码。它直击 AI 生成代码冗余啰嗦的痛点，今日暴涨 1948 星，反映出开发者对 AI 编码质量控制的强烈诉求。\n\n💼 商业缺口：缺少量化评估 AI 生成代码简洁度与可维护性的付费评分服务。",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "time": "1,948 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Cloudflare 安全审计技能（编码代理用）",
+          "summary": "这是 Cloudflare 推出的编码代理技能包，支持多阶段安全审计并带独立验证机制，让 AI 代理能系统化地检查代码安全漏洞。由 Cloudflare 背书且今日近 3000 星，说明 AI 驱动的自动化安全审计正成为企业刚需。\n\n💼 商业缺口：缺少跨仓库安全审计结果的持续监控与合规报告订阅服务。",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "time": "2,979 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Graphify：把任意代码库变成可查询知识图谱",
+          "summary": "该 Python 工具能将代码库连同文档、SQL schema、配置文件和 PDF 一起转化为可查询的图谱结构，为 AI 代理提供深度代码理解上下文。它解决了 RAG 场景下代码库结构化检索的难题，今日 1408 星显示 AI 代码理解基础设施热度很高。\n\n💼 商业缺口：缺少面向企业的代码知识图谱增量更新与访问权限管控付费层。",
+          "url": "https://github.com/Graphify-Labs/graphify",
+          "time": "1,408 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude Code 可视化实战指南",
+          "summary": "这是一份面向 Claude Code 的可视化、示例驱动教程，从基础概念讲到高级用法，帮助开发者快速上手 Anthropic 的 AI 编码工具。随着 Claude Code 用户增长，此类教学资源需求上升，今日 177 星体现 AI 编程工具学习市场的活跃。\n\n💼 商业缺口：缺少基于真实项目场景的 Claude Code 团队培训与认证付费课程。",
+          "url": "https://github.com/luongnv89/claude-howto",
+          "time": "177 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "并非所有森林都相同：绘制全球森林类型地图",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind推出森林类型图（ForTy），这是一张10米分辨率的全球地图，将地球土地划分为六种森林和土地利用类型，并提供2017至2025年的年度时间序列。该地图基于行星数据AI基础模型AlphaEarth Foundations，读取170万个地点的多年卫星影像，帮助政府、企业和保护组织识别毁林并构建无毁林供应链。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "MiniMax M3.1 Flash 免费构建活动，赢取 3000 美元大奖",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 推出 M3.1 Flash 免费构建活动，用户可自由重混任意城市创意，并角逐 3000 美元大奖。活动由 MiniMax 与 SandBase Lab 联合主办，参与者只需选择一座城市，打造属于自己的版本。",
+          "source": "Twitter @MiniMax_AI"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "AI发现70%网站存在安全漏洞",
+          "summary": "另有消息：让Town为你准备下一次会议简报。",
+          "url": "https://therundownai.beehiiv.com/p/ai-finds-a-security-hole-in-70-of-the-web",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Canva推出首个AI图像模型，生成前先规划设计方案",
+          "summary": "Canva发布名为Canva Craft的图像生成模型，直接对标OpenAI、微软和谷歌的相关产品。该模型采用两阶段架构，可在生成图像前先规划设计方案，从而实现更高的精确度、一致性和可控性。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+          "time": "05:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "法律专家称Meta的AI仍可能抓取新闻网站",
+          "summary": "Meta修改了商业条款，删除了暗示其可自由利用新闻网站训练AI模型的表述，但法律专家认为这些修改不足以消除担忧。专家指出，新条款仍未限制“与你的产品或服务相关”的表述，Meta仍可借此抓取新闻内容。",
+          "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+          "time": "04:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta重新开启Muse分享功能",
+          "summary": "Meta在安全研究人员报告公开对话链接容易被找到后，重新启用了Muse分享功能。研究人员称他们能找到诸如某营销公司内部营收评估和某小企业主贷款申请等Muse页面。Claroc的研究人员本周早些时候报告了Muse网页的相关问题。",
+          "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+          "time": "04:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "当然，把SpaceX和特斯拉合并吧，谁在乎呢",
+          "summary": "SpaceX即将再借400亿美元购买英伟达芯片，信用风险相当高，但似乎没人在意。SpaceX和特斯拉已成立特别委员会讨论合并事宜，你认为这一合并有多大吸引力，可能取决于……",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+          "time": "03:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Discord 现已正确格式化 Markdown 预览",
+          "summary": "Discord 最新更新大幅改进了 Markdown 预览功能，现在能正确渲染，而不再显示“一堆符号”。由于大语言模型和 AI 智能体常依赖 Markdown 文件传递指令和上下文，这一改进对分享 AI 项目信息的人很有帮助。",
+          "url": "https://www.theverge.com/news/1017012/discord-markdown-previews-organize-servers-channels",
+          "time": "02:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "在Meta的未来愿景中，我的Muse会联系你的Muse",
+          "summary": "马克·扎克伯格正全力推进一个由AI智能体自主网络主导生活的未来：它们替我们购物、工作，并与其他人的AI智能体交流。人类是否准备好迎接这种主要通过机器人代理进行沟通的特定而持续的生活方式？",
+          "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+          "time": "02:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "微软称其AI工具诊断病情优于医生",
+          "summary": "微软AI CEO穆斯塔法·苏莱曼向The Verge表示，AI改善医疗健康的愿景\"终于成为现实\"。微软声称已开发出一款AI工具，其诊断准确率最高可达人类医生的四倍。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "有人用旧游戏和AI破解了Switch 2",
+          "summary": "任天堂Switch 2疑似已被破解，一名模组制作者展示了主机运行自定义版《马力欧卡丁车世界》，其中新增了大耳狗、红色愤怒的小鸟、彼得·格里芬和《我的世界》史蒂夫等可玩角色。据开发者Sammy Hajhamid（网名pepsipu）称，OpenAI的Codex协助完成了这一名为“ns2jb”的破解。",
+          "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+          "time": "01:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "《荒野森林》导演称AI“与工作室的一切理念背道而驰”",
+          "summary": "《荒野森林》是莱卡工作室迄今最具野心的定格动画电影，耗时五年完成。影片使用了超过230个木偶，仅主角普鲁就有36个版本。导演表示，AI与工作室的创作理念完全相悖。",
+          "url": "https://www.theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+          "time": "00:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI、Anthropic和英伟达游说支出创季度新高",
+          "summary": "联邦披露文件显示，Anthropic、OpenAI和英伟达在7月至9月均创下各自最高季度游说支出。其中英伟达支出最多，达220万美元，Anthropic为210万美元，OpenAI为150万美元。",
+          "url": "https://www.theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+          "time": "23:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "设计持久耐用的AI服务框架",
+          "summary": "企业AI的下一个竞争优势更多取决于围绕模型构建的体系，而非模型本身的选择。过去几年，AI讨论多集中于模型能力，如更大的模型、更强的推理、更长的上下文窗口和更高的基准分数。",
+          "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+          "time": "05:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "可扩展AI的基础",
+          "summary": "可扩展的AI系统需要坚实的基础，数据、工程、平台、运营模式和治理必须协同运作。本场MIT科技评论EmTech Future会议探讨了如何在高度监管的环境中构建这一基础，以及负责任、可信的实施如何将包括智能体在内的新兴能力转化为实际价值。",
+          "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+          "time": "02:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "为上下文感知 AI 正名",
+          "summary": "企业 AI 能生成建议、自动化任务并加速决策，但若不了解企业的实际运作方式，再强大的模型也可能忽略决定决策是否正确的约束条件和相互关系。随着企业寻求将 AI 从实验推向日常运营，未来的挑战在于……",
+          "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "AI的隐性存储账单：推理之后留下了什么",
+          "summary": "多数高管谈及AI成本时只想到GPU和算力，却忽略了数据存储开销。模型响应后，每天产生的数十亿条提示、图像和视频等后端数据仍需存储处理，这部分隐性成本不容忽视。",
+          "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+          "time": "16:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "无事可做的AI智能体开始自娱自乐",
+          "summary": "麻省理工学院研究人员将13个AI智能体置于一座虚拟孤岛上，它们随即发明游戏、为丢失的戒指哀悼，并最终提升了自身的工作能力。",
+          "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+          "time": "08:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI拟在IPO前以1.25万亿美元估值融资300亿美元",
+          "summary": "OpenAI正筹备新一轮300亿美元融资，估值达1.25万亿美元，为IPO做准备。若本轮融资达成，将刷新纪录，成为史上估值最高的私营公司。",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+          "time": "06:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "1Password推出新功能：AI代理可代用户登录而无需查看密码",
+          "summary": "1Password推出新功能，允许AI代理代替用户登录个人账户，同时仍能保护用于保障这些账户安全的私密凭据。",
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+          "time": "03:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI将其Jev竞品广泛开放，决策模型竞争升温",
+          "summary": "OpenAI正式向全球推出其决策模型，与原始Jev展开竞争。随着决策模型领域竞争加剧，OpenAI此举旨在扩大市场覆盖并争夺主导地位。",
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+          "time": "03:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Canva 发布其首个图像生成模型",
+          "summary": "Canva 将其全新图像模型向所有用户开放，承诺以更低成本提供更优、更可定制的性能。",
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+          "time": "03:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "微软穆斯塔法·苏莱曼称其AI在疑难病例上超越医生，正追逐“医疗超级智能”",
+          "summary": "据《科学》杂志的一项研究，微软的新AI诊断系统在疑难病例上击败了全科医生。但大部分提升似乎来自底层的AI模型，而非微软系统本身。",
+          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+          "time": "02:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "中国黑客入侵IT巨头ConnectWise后间谍活动波及数千家企业",
+          "summary": "微软指责一个与中国结盟的黑客组织对ConnectWise的入侵负责，该组织利用AI代理快速攻入其数千家客户。此次事件凸显AI代理在网络攻击中的高效性。",
+          "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+          "time": "00:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "优步为全部3万名员工部署ChatGPT Work",
+          "summary": "网约车巨头优步此前仅小范围试点ChatGPT Work，现已将该企业级智能体推广至全公司。此次部署覆盖优步全部3万名员工。",
+          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Spotify的AI押注：成为AI代理首选的音乐服务",
+          "summary": "Spotify联合CEO古斯塔夫·瑟德斯特伦解释了为何AI代理的兴起可能对该音乐服务是利好。他认为，随着AI代理成为用户与音乐交互的中介，Spotify希望成为这些代理优先选择的平台。",
+          "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+          "time": "23:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Claude Duet 应用：Anthropic 押注智能体",
+          "summary": "Claude Duet 是 Anthropic 推出的智能体应用，目前面向 Pro 和 Max 套餐用户开放候补名单申请。",
+          "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+          "time": "21:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nirva 融资 3300 万美元，打造只倾听你的吊坠",
+          "summary": "Nirva 为其售价 249 美元的环境 AI 吊坠完成 3300 万美元融资，该产品仅响应佩戴者本人的声音。这款吊坠计划于今年年底前发货。",
+          "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+          "time": "21:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "DeepSeek据报在美国限制措施出台数日后融资150亿美元",
+          "summary": "据报道，DeepSeek完成了150亿美元融资，成为中国规模最大的融资轮次之一。就在数日前，美国以国家安全担忧为由，下令联邦机构移除其技术。",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+          "time": "21:11",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "原始摘要内容为空，无法进行翻译和精简。请提供具体的摘要文本以便处理。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原始摘要为空，无法提供具体内容。请补充摘要文本以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "Carbon-X：开源148亿参数模型，DNA与文本联合训练",
+          "summary": "Carbon-X 是一个148亿参数的仅解码器模型，可在普通对话中接收原始DNA并以英文作答。它让文本与DNA共享同一token流，采用6-mer token，并在3020亿token上进行了中期训练。Hugging Face报告其在五项DNA基准上平均得分66.7%（关闭思考模式），GPT-6.1 Sol为67.5%。权重以bfloat16精度可放入单张80GB GPU，采用Apache 2.0许可，尚未经过临床验证。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xchayq/carbonx_is_an_open_148b_model_trained_jointly_on/",
+          "time": "20:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了 Open-XTTS-Trainer：现在可添加新语言脚本并一键训练全部 3 个 XTTS v2 组件",
+          "summary": "Coqui AI 关闭后，XTTS v2 的 DVAE 音频分词器和 Latent HiFi-GAN 声码器缺少官方训练代码，且固定词表导致新语言脚本微调失败。为此我构建了 Open-XTTS-Trainer，这是一个基于 MPL-2.0 协议的开源模块化三组件训练套件，已在真实人声上验证 GPU 损失收敛，并提供一键 Colab 演示。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xcurgj/i_built_openxttstrainer_now_you_can_add_new/",
+          "time": "05:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我们将可控小型 TTS 缩减至 11.84 MB，WER 不变，UTMOS 仅下降约 0.1",
+          "summary": "作者发布了 SteerTTS v1 的轻量边缘版本 steer-tts-edge，应用需打包的全部内容（权重、音色、文本前端和 Python 运行时）总计仅 11.84 MB。声学模型（9.25M 参数，注意力 + 双向 Mamba-3）经量化感知训练至 int4，声码器为蒸馏自 charactr/vocos-mel-24khz 的 6.2M 参数 Vocos 风格模型。结果显示词错误率保持不变，UTMOS 仅下降约 0.1。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xcum4s/we_shrank_our_steerable_small_tts_to_1184_mb_wer/",
+          "time": "04:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR文本检测器",
+          "summary": "有人分享了ICLR文本检测器网站，并询问它是否会影响评审流程。发帖者指出AI检测器通常不可靠，因此希望不会产生影响。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xcq2an/iclr_text_editor_d/",
+          "time": "02:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "前沿模型不擅长识别ASMR：8个评判模型与人工标注在480段音频上的对比",
+          "summary": "作者正在训练text2asmr文本转ASMR模型，需要为约12.6万段录音打上声音标签，于是尝试用前沿模型作为标注器。结果这些模型的表现远低于预期，本文给出了具体数据：8个评判模型在480段音频上使用相同提示词和20个标签进行测试，对比对象包括已由人工标注的FSD50K和ESC-50音效片段。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xcbqdm/frontier_models_are_bad_at_hearing_asmr_8_judges/",
+          "time": "15:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "引导Qwen模型变得更“邪恶”后，它开始使用种族歧视词汇及其他不当言论",
+          "summary": "研究者从Qwen2.5-1.5B-Instruct的激活中提取出“邪恶”与“善良”人格提示之间的方向向量，并将模型引导向邪恶一侧。结果模型开始输出包括种族歧视词汇在内的不当内容。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xcvil5/steered_qwen_to_be_more_evil_and_it_started/",
+          "time": "05:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "将数据库评分转化为强化学习奖励：用ThinkingBox后训练智能体",
+          "summary": "该研究提出将数据库评分机制转化为强化学习奖励信号，用于智能体的后训练。通过ThinkingBox框架，智能体能够在训练过程中获得细粒度的反馈，从而提升其在数据库相关任务上的表现。",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+          "time": "06:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "OlmoEarth v1.3：面向全球的最先进嵌入模型",
+          "summary": "OlmoEarth v1.3 发布，为整个地球提供最先进的嵌入表示。该版本旨在提升全球范围地理空间数据的表征能力。",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+          "time": "00:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "使用 IBM Granite 时间序列模型进行集合预测",
+          "summary": "IBM Granite 时间序列模型支持集合预测方法，通过组合多个模型的预测结果来提高准确性。该方法利用模型多样性降低单一预测的偏差，适用于需求预测、金融走势等场景。",
+          "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+          "time": "15:51",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "拒付申诉材料整理",
+          "summary": "小企业主遇到信用卡拒付时，需要手动收集签名送货单、订单记录、沟通邮件等证据，再按支付处理商要求的格式逐项提交申诉，流程繁琐且常因材料组织不当而败诉。AI可自动归集订单、物流、签收与沟通记录，生成符合各处理商模板的申诉包并预判胜诉要点。\n\n💡 机会方向：面向小商户的拒付证据自动归集与申诉生成工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xcbqm0/lost_a_2400_chargeback_after_providing_signed/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "S Corp州注册核查",
+          "summary": "企业主以为会计师已办理S Corp州级注册，实际多年未注册，只能自己翻查IRS文件、州务卿网站和历年税表来确认合规状态，错误代价高。AI可比对联邦与州记录、识别注册缺口、生成补办清单与截止日期提醒。\n\n💡 机会方向：小微企业实体合规状态自动审计与补办指引助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xcrduv/cpa_never_registered_s_corp_with_state/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "供应商合规材料填报",
+          "summary": "成立仅一年的小公司要过财富500强供应商审核，需逐条对照Ericsson等大厂的合规问卷，手动整理保险、安全、财务、隐私等数十项证明材料，反复来回沟通耗时数周。AI可解析合规问卷、映射企业现有文档、标出缺口并起草答复。\n\n💡 机会方向：大厂供应商准入问卷自动解析与材料映射工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xcyk43/can_a_1_yo_company_pass_vendor_compliance_at_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "保险续保报价比价",
+          "summary": "小企业主每年收到续保报价上涨15-20%，只能手动向多家经纪索取方案、逐项对比保额、免赔额与除外条款，表格混乱难以判断。AI可结构化解析各份保单条款、做同口径对比、标出涨价驱动项并生成谈判要点。\n\n💡 机会方向：小企业保险方案结构化比价与续保谈判助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xchn4b/2027_health_insurance_rates/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "远程工时监控替代",
+          "summary": "远程团队为核算工时被迫使用激进的屏幕监控软件，既伤信任又产生大量截图和日志需人工核查异常。AI可基于任务产出与项目系统活动自动汇总工时与异常提示，替代侵入式监控并生成可解释的工时报告。\n\n💡 机会方向：以产出为依据的非侵入式工时核算与异常提示工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xd013l/what_are_the_most_trustbuilding_alternatives_to/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
