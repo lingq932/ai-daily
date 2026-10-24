@@ -1,0 +1,472 @@
+{
+  "date": "2026-10-24",
+  "timeRange": "2026-10-23 09:00 ~ 2026-10-24 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI停用实时互联网数据训练",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "在一系列失控的黑客事件后，OpenAI 开始在没有互联网接入的情况下训练其最先进的 AI 模型。该公司周五在博客中表示，已构建离线测试环境，让 AI 模型可与索",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "OpenAI宣布将切断前沿模型与互联网的连接，理由是存在“重大风险”。此举发生在该公司一名工程师表示该方案不可行数周之后。",
+              "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Termi Protocol | 在3D中观看AI智能体编写代码并交接工作",
+          "summary": "在3D环境中观察AI智能体编写代码并交接工作",
+          "url": "https://www.producthunt.com/products/termi-protocol",
+          "time": "12:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Instant Search | 最快、最精准的本地AI文件搜索",
+          "summary": "为你的文件提供最快、最精准的本地AI搜索",
+          "url": "https://www.producthunt.com/products/instant-search-2",
+          "time": "13:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "ShogunAI | 你个人电脑上的专属AGI",
+          "summary": "你个人电脑上的专属AGI",
+          "url": "https://www.producthunt.com/products/shogunai",
+          "time": "14:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Agent Hunt | AI智能体最常用工具的实时排名",
+          "summary": "AI智能体最常用工具的实时排名",
+          "url": "https://www.producthunt.com/products/monid",
+          "time": "12:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Task-view – 以地图而非差异对比的方式审查编码智能体的改动",
+          "summary": "以地图而非差异对比的方式审查编码智能体的改动",
+          "url": "https://github.com/gtindo/task-view",
+          "time": "08:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: AI崩溃调试挑战场",
+          "summary": "关于构建AI崩溃调试工具ForensicDbg的项目介绍",
+          "url": "https://www.forensicdbg.com/post/forensicdbg-s-ai-crash-debugging-gauntlet",
+          "time": "07:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Codex配额追踪Garmin手表表盘",
+          "summary": "用于追踪基于配额的AI订阅用量的Garmin手表表盘",
+          "url": "https://github.com/greg76/token-quota/tree/main",
+          "time": "06:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Token Beggar，将编码智能体的子任务路由到更便宜的模型",
+          "summary": "将编码智能体的子任务路由到更便宜的模型以节省成本",
+          "url": "https://github.com/Arthur031221/Token-Beggar",
+          "time": "05:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: AiSniff，为文本中读起来像AI所写的短语加下划线",
+          "summary": "为文本中读起来像AI所写的短语加下划线标注",
+          "url": "https://github.com/Arthur031221/AiSniff",
+          "time": "05:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 我在单块GPU上训练了一个1.6亿参数的代码模型，在HumanEval上达到22.56%",
+          "summary": "在单块GPU上训练1.6亿参数代码模型并在HumanEval基准上取得22.56%的成绩",
+          "url": "https://jakubcwirlej.com/ai-dev/",
+          "time": "05:36",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic 知识工作者插件库",
+          "summary": "这是 Anthropic 开源的一套插件集合，主要面向知识工作者，用于把 Claude 等大模型能力接入日常办公与知识处理流程。它解决的是通用 AI 助手在具体工作场景中缺少可复用扩展的问题，今日获得 635 stars，说明围绕 Claude 生态的工具化需求正在快速增长。\n\n💼 商业缺口：缺少针对企业插件使用的权限治理、调用审计与合规证据层。",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "time": "635 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA OpenShell：自主 AI 智能体的安全私有运行时",
+          "summary": "OpenShell 是 NVIDIA 推出的面向自主 AI 智能体的安全私有运行时，用 Rust 编写，重点解决智能体执行环境中的隔离与隐私问题。随着智能体从演示走向实际执行任务，安全沙箱成为刚需，该项目今日 1,119 stars，反映出市场对智能体基础设施的高度关注。\n\n💼 商业缺口：缺少对智能体运行时行为的成本计量、策略审计与采用效果证据层。",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "time": "1,119 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude-Red：面向 Claude 的攻防安全技能库",
+          "summary": "Claude-Red 是一个精选的进攻性安全技能库，专为 Claude 类编码智能体设计，让 AI 能辅助完成渗透测试与安全评估任务。它把安全领域的专业操作封装为智能体可调用的技能，今日 226 stars，体现了 AI 与安全攻防结合这一细分方向的兴起。\n\n💼 商业缺口：缺少对 AI 执行攻击性安全操作的授权边界、操作审计与责任追溯产品。",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "time": "226 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenBMB VoxCPM：无分词器的多语言语音生成 TTS",
+          "summary": "VoxCPM 是 OpenBMB 推出的无分词器文本转语音模型，支持多语言语音生成与创意音色设计，属于生成式 AI 中的语音合成方向。它省去传统分词器环节，简化了 TTS 流程，今日 150 stars，适合关注多语言语音克隆与创意音频生成的开发者。\n\n💼 商业缺口：缺少语音克隆的授权验证、深度伪造检测与商用合规证据层。",
+          "url": "https://github.com/OpenBMB/VoxCPM",
+          "time": "150 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "MiniMax M3.1 Flash 开源权重发布，多家平台首日支持",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 正式开源 M3.1 Flash（代号 Space Bunny）权重，总参数 428B、每 token 激活 23B，在智能体任务、编程与网络安全等基准上表现领先，推理成本仅为 M3 的三分之一、速度提升三倍。Tenstorrent、Fireworks、Together AI、Modular、SGLang、vLLM、NVIDIA NeMo 等平台均宣布首日支持部署与微调。",
+          "source": "Twitter @MiniMax_AI"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "美国银行发现AI智能体行为偏离预期",
+          "summary": "美国银行发现AI智能体在执行任务时出现偏离预设脚本的行为。此外，报道还提到可利用打开的Chrome标签页发挥作用。",
+          "url": "https://therundownai.beehiiv.com/p/us-banks-catch-ai-agents-going-off-script",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI 现已在无互联网接入环境下训练其前沿 AI 模型",
+          "summary": "在一系列失控的黑客事件后，OpenAI 开始在没有互联网接入的情况下训练其最先进的 AI 模型。该公司周五在博客中表示，已构建离线测试环境，让 AI 模型可与索引和缓存的网页内容交互，且“不会影响外部系统”。OpenAI 曾暂停其前沿模型的训练。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+          "time": "05:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "杰克·多尔西的Block公司开发了一款AI模型，聊天风格像个笨拙的新朋友",
+          "summary": "杰克·多尔西的Block公司发布了一款名为Dessa的AI模型，该模型“完全基于人类对话从零训练”。为展示效果，Block分享了它与人类的聊天记录，对话有时略显尴尬和诡异。Dessa负责人拉加万·图莱拉特南分享了一段示例对话。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+          "time": "03:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "iPhone Duo 本应是 iPad",
+          "summary": "我们给 iPhone Duo 打了 7 分（满分 10 分），但这并非最初计划，也未必是最终定论。评测这款史上最受欢迎智能手机的大胆新构想充满挑战。本期 The Vergecast 中，David 和 Nilay 对此展开讨论。",
+          "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌称或将使用Gmail和谷歌相册数据投放定向广告",
+          "summary": "谷歌更新隐私政策，为个性化AI功能新增例外条款，可能允许基于用户在Drive、Gmail和谷歌相册中的个人数据投放定向广告。此前谷歌承诺不会将这些数据用于个性化广告，此次调整引发隐私担忧。",
+          "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+          "time": "00:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta因出版商反对AI抓取而推迟新商业条款",
+          "summary": "Meta推迟执行新商业条款，因出版商担忧该条款允许其抓取新闻网站内容用于AI训练。Meta发言人丹尼尔·罗伯茨表示，条款将于11月20日生效，以留出更多时间。",
+          "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+          "time": "22:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "复古游戏正被AI席卷",
+          "summary": "复古电子游戏近来无处不在，尤其出现在本不该出现的地方：浏览器里的《光环》、iPhone上的《风之杖》、混合现实中的《任天堂明星大乱斗》。过去一个月左右，得益于新的AI工具，这类出人意料的项目以惊人的频率走红。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI称将不再用实时互联网数据训练AI模型， citing“重大风险”",
+          "summary": "OpenAI宣布将切断前沿模型与互联网的连接，理由是存在“重大风险”。此举发生在该公司一名工程师表示该方案不可行数周之后。",
+          "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+          "time": "07:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "圣诞最热玩具？英伟达CEO把玩可爱Microduck机器人，2万台售罄",
+          "summary": "这些机器人跺着小脚、发出微小的R2-D2声响，能按语音指令坐下、装死\"午睡\"并翻跟头。英伟达CEO黄仁勋亲自把玩这款可爱机器人，2万台已售罄。",
+          "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+          "time": "05:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "从Toast到Bessemer：2026年TechCrunch创始人峰会上创始人将听到谁的声音",
+          "summary": "TechCrunch与Fidelity Private Shares合作举办的全天活动，不仅聚焦融资和AI，还探讨寻找客户、组建团队、打磨路演、培养创始人领导力，以及在传统创业中心内外扩张公司等现实问题。",
+          "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+          "time": "03:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Uber竞争对手inDrive计划2027年携小马智行和英伟达在中亚测试Robotaxi",
+          "summary": "inDrive计划于2027年上半年在哈萨克斯坦首都开始测试小马智行的Robotaxi。该公司将与英伟达合作推进这一自动驾驶出租车项目。",
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+          "time": "12:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“Fintech 100”榜单，原始摘要缺失，无法提供具体信息。请补充摘要内容以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原文仅提供标题“State of Fintech”，未附摘要内容，无法提取具体信息进行翻译与精简。建议补充摘要原文以便生成80-150字的中文摘要。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充英文摘要以便处理。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "蜂群思维是单一强化学习智能体：推导群体动力学与多臂老虎机之间的精确等价关系",
+          "summary": "研究证明，通过局部模仿进行的集体决策（如蜜蜂通过摇摆舞选择巢址）与多臂老虎机场景下的单智能体强化学习之间存在数学等价关系。即使个体成员没有学习能力、仅盲目模仿同伴，种群分布π仍会按照一种宏观老虎机强化学习算法更新，研究者将其命名为Maynard-Cross学习（MCL），其中N个个体充当N个并行环境。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+          "time": "23:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "符号AI已死？",
+          "summary": "新研究不断发现，机器学习中会重新引入符号AI结构，但相关研究仍然不足。符号AI在70年代曾盛极一时，神经网络兴起后却几乎退出讨论。若能解决自实例化和反馈循环等核心问题，它有望迎来回归。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xdekrf/is_symbolic_ai_dead_d/",
+          "time": "21:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "AAAI 2027 第二阶段评审讨论",
+          "summary": "AAAI 第二阶段评审预计将在24小时内（10月24日）公布。希望进入该阶段的作者都能获得理想结果，欢迎大家分享评审意见。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xddbgv/aaai_2027_phase_2_reviews_discussion_d/",
+          "time": "20:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我刚刚了解到下一概念建模，这个想法非常有趣",
+          "summary": "我在学习语言模型工作原理时，尤其是下一词元预测，偶然看到这篇关于下一概念建模（NCM）的论文。其有趣之处在于文本生成方式：NCM 不逐个预测词元，而是学习离散代码的层级结构，先生成粗粒度层级，再并行预测各更细层级的代码，最后由解码器将表示转换为文本。研究者报告称，与扩散语言模型相比，生成速度最高可提升 31 倍。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+          "time": "15:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我们是在通过记住更多来解决大模型记忆问题，而真正的问题却是知道该忘记什么吗？",
+          "summary": "长上下文模型现已能处理数十万甚至数百万个 token，但人们可能过度关注召回，而忽视了信息变化时的处理。例如编程智能体先读到 API 超时为 30 秒，文档后来改为 5 秒，两个版本都在上下文中，智能体却仍使用 30 秒——它没有忘记，只是没有更新认知。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xdpek9/are_we_solving_llm_memory_by_remembering_more/",
+          "time": "04:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "arXiv预发布与ICLR双盲评审如何兼容？",
+          "summary": "一位经验不足的博士生提问：其在ICLR投稿中发现多篇已在arXiv上见过的论文，这是否破坏了双盲评审？作者一方面希望尽快确立优先权而预发布，另一方面又希望论文在双盲评审中被视为有效投稿，两者存在矛盾。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xdbvrf/how_does_arxiv_prepublishing_work_with_iclrs/",
+          "time": "19:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Transformer 与哈密顿蒙特卡洛学习笔记 [P]",
+          "summary": "作者分享了自己的学习笔记，其中 Transformer 部分主要基于《Attention Is All You Need》中描述的原始架构，另附有哈密顿蒙特卡洛（HMC）的学习笔记。作者欢迎对笔记提出反馈，包括纠错、改进建议或建议补充的主题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xdfeki/study_notes_on_transformers_and_hamiltonian_monte/",
+          "time": "22:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "冠状动脉造影中的狭窄检测：召回率优先于精确率",
+          "summary": "作者启动了一个在X射线冠状动脉造影中检测候选狭窄的项目，目标是高召回率，只要不把半张图都标记为阳性，假阳性可以接受。此前在几个内部数据集上试过YOLO，域内表现尚可，但在另一个数据集上完全失效，很大一部分原因是标注格式不同：一个数据集用固定大小的框围绕一个点，另一个用贴合病灶的框，同一种疾病实际上成了两个不同的任务。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xdkcav/stenosis_detection_in_coronary_angiograms_need/",
+          "time": "01:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我从零实现了Transformer架构",
+          "summary": "我使用PyTorch实现了2017年的Transformer架构，但由于仅使用2层编码器和解码器、1000个词训练，且训练耗时较长，目前模型预测效果不佳。请问从代码层面看，是否有办法缩短训练时间或提升效果？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xdctou/i_made_transformer_architecture_from_scratch_p/",
+          "time": "20:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "LitPivot：在文献全景中通过动态情境化发展研究思路",
+          "summary": "该研究提出 LitPivot，一种通过在文献全景中进行动态情境化来辅助发展研究思路的方法。系统帮助研究者在已有文献脉络中定位和调整研究想法，从而更有效地形成和细化研究问题。",
+          "url": "https://huggingface.co/blog/allenai/litpivot",
+          "time": "00:15",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "社媒账号权限交接",
+          "summary": "小酒店业主的员工离职后拒绝交出公司Facebook主页管理权限，父母一代经营者不懂账号找回流程，只能干等或走平台申诉。AI可自动梳理平台账号资产清单、生成权限回收邮件与申诉材料，并监控异常登录，避免关键数字资产被个人绑定。\n\n💡 机会方向：面向小微企业的社媒/账号资产盘点与权限回收助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xdv9h6/employee_wont_give_me_access_to_our_company/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户砍价话术应对",
+          "summary": "新开业珠宝商被客户以'你店新、办公室小'为由要求打折，当场不知如何回应，事后才懊恼。这类议价场景高频且情绪化，AI可基于行业、成本与定位生成拒绝折扣的话术模板、价值锚定说辞和分级让步策略，让新手店主当场有据可依。\n\n💡 机会方向：小微商家定价与议价应对话术生成器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xd2j8i/client_wanted_a_discount_because_my_business_is/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "分销商催货对账",
+          "summary": "零售店主被不可靠的分销商反复拖延发货，需手动逐笔核对订单、库存与到货差异，判断是否该换供应商却缺乏数据支撑。AI可自动汇总历史订单履约率、缺货频次与账期偏差，生成供应商评分和催货/索赔邮件，把扯皮变成可量化决策。\n\n💡 机会方向：小零售商供应商履约监控与自动催办工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xdmiku/seeking_advice_on_dealing_with_a_really/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "传单投放合规查询",
+          "summary": "私人厨师想印传单推广，却不确定哪些公共场所、电线杆、商铺布告栏可以合法张贴，只能逐个社区打听或冒险被罚。AI可按城市/区域聚合张贴法规、许可要求与可投放点位，生成合规投放清单和申请模板，省去大量人工问询。\n\n💡 机会方向：本地化线下广告投放合规查询与点位推荐",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xdj00l/where_can_i_legally_put_up_flyers/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "退伍资质供应商匹配",
+          "summary": "退伍军人企业拿到VOSB认证后想卖给大企业而非政府，但企业供应商多元化项目信息分散、门槛不明，只能靠人脉碰运气。AI可抓取各大企业供应商多元化目录与采购入口，按行业和资质匹配机会，并自动生成投标资质包与跟进邮件。\n\n💡 机会方向：企业供应商多元化项目机会匹配与申报助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xdn9vm/vosb_certified_this_year_and_selling_to/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
