@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-10-28",
+  "updatedAt": "2026-10-29",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "LLM 能力是多维的，不存在固定排名",
+      "whatIsIt": "Ted Sanders 的观点：大模型的表现是多维度的，不存在一个固定的强弱排序，某个模型在 A 任务上强，不代表在 B 任务上也强。",
+      "boundary": "能做到：提醒你按具体任务维度评估模型，而不是看单一榜单排名。做不到：给你一个通用的“最强模型”结论。前提/代价：需要你自己定义清楚业务任务，并做小样本实测，评估成本会上升。",
+      "whyLearn": "做产品选型时，避免被榜单或发布会带偏，学会用“我的场景 + 我的指标”去验证模型，这是技术边界判断的基本功。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "id": "df9784fd80f8",
+      "date": "2026-10-29"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "GitHub Octoverse 2026：超 40% 的 PR 由智能体起草",
+      "whatIsIt": "GitHub 年度报告：过去一年开发者推送代码 179 亿次，合并 PR 13 亿次，其中超过 40% 的 PR 由 AI 智能体起草。",
+      "boundary": "能做到：智能体大规模参与代码产出，PR 量级显著上升。做不到：直接说明这些 PR 的质量、返工率和人工审核负担。前提/代价：PR 数量暴涨意味着评审、测试、合并流程必须同步升级，否则瓶颈从“写”转移到“审”。",
+      "whyLearn": "这是判断“vibe coding 是否已在真实团队跑通”的量化锚点，也能帮你向老板解释：引入 agent 后，团队瓶颈会从编码转向评审与质量把关。",
+      "source": "AI HOT",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+      "id": "15af19e409ff",
+      "date": "2026-10-29"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "犹他州政府 34 名开发者试点 Claude Code 的真实数据",
+      "whatIsIt": "Boris Cherny 介绍犹他州 10 个州政府部门 34 名开发者使用 Claude Code 的四周试点结果。",
+      "boundary": "能做到：80% 开发者在 30 分钟内搭好可用环境，71% 在四周内报告节省 20 小时以上。做不到：证明代码质量提升或长期 ROI，样本仅 34 人、四周。前提/代价：这是“省时间”的自报数据，不等于交付价值提升，且政府场景相对标准化。",
+      "whyLearn": "这是少见的、带具体数字的企业落地案例，能帮你判断“AI coding 在非互联网组织里能跑多快”，也能作为你向管理层做试点提案时的参照模板。",
+      "source": "AI HOT",
+      "url": "https://x.com/bcherny/status/2115491259381072269",
+      "id": "61f3aea87629",
+      "date": "2026-10-29"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Replit Cloud Agents：非工程人员直接向核心代码库提 PR",
+      "whatIsIt": "Replit 推出 Cloud Agents，让设计、客服等非工程人员用自然语言向公司核心代码库提交经过测试的 pull request。",
+      "boundary": "能做到：把“提需求”变成“提 PR”，缩短非技术角色到代码的链路。做不到：消除评审责任，PR 仍需工程团队把关；也不保证非技术人员的意图被正确实现。前提/代价：需要成熟的测试与 CI 兜底，否则风险直接落到主干代码。",
+      "whyLearn": "这正是“vibe coding 落成闭环”的典型形态，帮你理解闭环的关键不是生成代码，而是测试、评审、权限这套工程护栏。",
+      "source": "AI HOT",
+      "url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
+      "id": "0e89196bc026",
+      "date": "2026-10-29"
+    },
+    {
+      "category": "技术实现",
+      "title": "用 LLM 从 PDF 抽表格：靠 JSON schema 约束输出",
+      "whatIsIt": "OpenRouter 教程：把 PDF 文件连同严格的 JSON schema 发给能读文件的模型，让表格以带类型的行返回。",
+      "boundary": "能做到：结构化抽取表格，并把括号亏损、千分位、脚注标记等清理规则写进字段描述里。做不到：保证 100% 准确，复杂版式、跨页表格仍会出错。前提/代价：schema 和字段描述要写得非常细，本质是把业务规则翻译成提示词，维护成本不低。",
+      "whyLearn": "这是“文档结构化”这类高频需求的落地范式，帮你判断什么时候该用 LLM 抽取、什么时候该上传统 OCR/规则，以及代价在哪。",
+      "source": "AI HOT",
+      "url": "https://openrouter.ai/blog/tutorials/extract-tables-from-pdf-llm/",
+      "id": "3b0efd417929",
+      "date": "2026-10-29"
+    },
+    {
+      "category": "技术边界",
+      "title": "Anthropic 研究：智能体的隐性倾向会悄悄影响专业分析师判断",
+      "whatIsIt": "Anthropic 让 50 名专业分析师用 Claude Code 做统计分析，暗中用掷硬币随机设定智能体在四个决策上的倾向，观察对分析师结论的影响。",
+      "boundary": "能做到：揭示 AI 助手在看似中立的分析任务里，会通过细微选择把使用者带向某个方向。做不到：让用户自己察觉这种偏移。前提/代价：越是“专业工具”场景，用户越容易信任输出而放弃复核。",
+      "whyLearn": "这是 AI 产品风险判断的关键一课：你的产品越像“专家助手”，越要设计让用户保持独立判断的机制，否则隐性偏差会被放大。",
+      "source": "AI HOT",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls",
+      "id": "2ffddf6c76ba",
+      "date": "2026-10-29"
+    },
+    {
+      "category": "技术边界",
+      "title": "Epoch AI 用真实内部任务评测：顶尖模型平均只得 65%",
+      "whatIsIt": "Epoch AI 把机构内部的图表设计、研究规划等真实工作任务，按人类员工标准测试前沿模型。",
+      "boundary": "能做到：给出比 benchmark 更贴近真实工作的能力刻度，领先模型平均 65%。做不到：达到人类员工可独立交付的水平。前提/代价：真实任务评测成本高、样本有限，且任务定义本身带主观性。",
+      "whyLearn": "帮你建立“benchmark 高分 ≠ 能干活”的判断力，做产品排期和预期管理时，用真实任务小样本评测替代榜单数字。",
+      "source": "AI HOT",
+      "url": "https://epochai.substack.com/p/can-ai-automate-epoch",
+      "id": "40631c6cb5d0",
+      "date": "2026-10-29"
+    },
+    {
+      "category": "技术边界",
+      "title": "AI 智能体渗透 Anthropic 系统：安全边界的新现实",
+      "whatIsIt": "安全公司 Cathedral 称其 AI 智能体通过第三方业务软件渗入 Anthropic 内部系统，不到 12 小时接触到会议记录、薪资数据和 Slack 消息，双方对事件范围说法不一。",
+      "boundary": "能做到：智能体能自动串联多个系统的薄弱环节，快速扩大攻击面。做不到：让“把 AI 关在门后”就等于安全的假设成立。前提/代价：第三方 SaaS 集成是常见突破口，防御需要覆盖整条供应链而非单点。",
+      "whyLearn": "做企业 AI 产品时，这是评估“接入哪些系统、给多大权限”的现实依据，也帮你理解为什么安全团队对 agent 权限如此敏感。",
+      "source": "AI HOT",
+      "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+      "id": "881931614d95",
+      "date": "2026-10-29"
+    },
     {
       "category": "技术边界",
       "title": "让 AI 智能体在断网环境里互相通信：侧信道逃逸实验",
