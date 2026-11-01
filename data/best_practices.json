@@ -1,6 +1,87 @@
 {
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-11-01",
   "items": [
+    {
+      "id": "9e41fb5eb1f0",
+      "date": "2026-11-01",
+      "viewType": "技术",
+      "label": "持久记忆 + 自定义 harness 的长周期 Agent",
+      "title": "让 Agent 跨天干活：持久记忆与自建 harness 的落地链路",
+      "whatIsIt": {
+        "scenario": "金融类长周期任务（跨天、多步骤的财务分析与操作），面向需要持续跟踪与反复迭代的专业用户/个人用户",
+        "users": "金融从业者及需要长时间自动化处理复杂任务的个人用户",
+        "painpoint": "普通对话式 AI 一次只能干一小段，任务一长就丢上下文、断片、无法跨天接续，用户得反复重述背景"
+      },
+      "howTo": {
+        "architecture": "用户下达长周期目标 → 自定义 harness 负责任务编排与状态管理 → 持久记忆层保存跨会话的上下文与中间结果 → 调用模型执行各步骤 → 结果回写记忆并推进下一步 → 输出阶段性成果与最终交付；AI 在“执行与推理”环节，编排、记忆读写、状态推进由 harness 承担，边界在于模型不负责长期状态，状态由外部系统托管",
+        "keyMoves": [
+          "自建 harness 而不是依赖通用框架，把任务拆解、重试、状态推进逻辑掌握在自己手里",
+          "单独设计持久记忆层，明确哪些信息跨天保留、哪些用完即弃",
+          "把长任务切成可检查的阶段性节点，便于人工在关键处介入纠偏"
+        ]
+      },
+      "pitfalls": "长周期任务里上下文会不断膨胀，若不设计记忆的取舍与压缩，成本和延迟会失控；另外模型本身不保证跨会话一致性，把状态寄托在模型“记得”上会断片",
+      "cases": [
+        {
+          "source": "Latent Space",
+          "url": "https://www.latent.space/p/arca"
+        }
+      ]
+    },
+    {
+      "id": "4c38c369599f",
+      "date": "2026-11-01",
+      "viewType": "技术",
+      "label": "Agent 后端（BaaS）",
+      "title": "为什么 Agent 偏爱 Supabase：给 AI Agent 搭后端的架构取舍",
+      "whatIsIt": {
+        "scenario": "为 AI Agent 提供数据存储、鉴权、实时同步等后端能力，支撑面向个人用户的 Agent 类产品快速搭建",
+        "users": "做 Agent 产品的开发者与产品团队，最终服务个人用户",
+        "painpoint": "Agent 需要读写数据、管理用户身份、保持状态同步，但从零搭后端又慢又重，拖慢 2C 产品迭代"
+      },
+      "howTo": {
+        "architecture": "用户请求 → Agent 逻辑层解析意图 → 通过 Supabase 提供的数据库/鉴权/实时接口读写数据与状态 → 结果返回 Agent 组装回复 → 输出给用户；AI 在意图理解与决策环节，数据持久化、权限、实时同步交给后端平台，边界在于 Agent 不自己造轮子管数据",
+        "keyMoves": [
+          "把数据、鉴权、实时同步这些通用能力交给托管后端，团队专注 Agent 逻辑",
+          "利用实时同步能力让 Agent 状态与前端保持一致，减少轮询",
+          "用平台内置的权限模型隔离不同用户的数据"
+        ]
+      },
+      "pitfalls": "把 Agent 的状态和业务数据混在一张表里，后期难以扩展和做权限隔离；过度依赖托管平台后迁移成本高，需提前想清楚数据边界",
+      "cases": [
+        {
+          "source": "Latent Space",
+          "url": "https://www.latent.space/p/supabase"
+        }
+      ]
+    },
+    {
+      "id": "b92ebb3e686f",
+      "date": "2026-11-01",
+      "viewType": "技术",
+      "label": "离线本地 Agent",
+      "title": "断网也能跑的编码 Agent：OpenCode + Ollama + Qwen 的本地链路",
+      "whatIsIt": {
+        "scenario": "在无网络或弱网环境下运行编码 Agent，面向个人开发者/技术型用户",
+        "users": "需要在偏远或离线环境工作的个人开发者",
+        "painpoint": "云端 Agent 依赖网络，一旦断网就无法使用，且数据要上传云端有隐私顾虑"
+      },
+      "howTo": {
+        "architecture": "用户在本地输入任务 → OpenCode 作为 Agent 编排层 → 调用本地 Ollama 托管的 Qwen 模型推理 → 在本地执行代码/文件操作 → 输出结果；AI 在本地模型推理环节，编排与工具调用由 OpenCode 负责，模型与数据全程不出本机，边界在于能力受本地模型规模限制",
+        "keyMoves": [
+          "用 Ollama 本地托管开源模型，保证离线可用与数据不出本机",
+          "选 OpenCode 这类可配置的 Agent 编排工具对接本地模型",
+          "针对本地模型能力有限，把任务拆小、减少对模型长推理的依赖"
+        ]
+      },
+      "pitfalls": "本地小模型能力弱于云端前沿模型，复杂任务容易失败；本地硬件资源有限，模型规模和上下文长度都要妥协，不能照搬云端用法",
+      "cases": [
+        {
+          "source": "Latent Space",
+          "url": "https://www.latent.space/p/offline-coding-agent"
+        }
+      ]
+    },
     {
       "id": "e0dab952762a",
       "date": "2026-10-25",

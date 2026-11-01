@@ -1,0 +1,367 @@
+{
+  "date": "2026-11-01",
+  "timeRange": "2026-10-31 09:00 ~ 2026-11-01 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Godwit | 一个开源的、AI原生的电子邮件客户端",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/godwit",
+          "time": "11:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "AC Bridge | 你的智能灯在Claude Code或Codex需要你时亮起",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/ac-bridge",
+          "time": "12:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Hushkey – macOS上的静音听写热键",
+          "summary": "本地推理的网络摄像头视频转文字，以实现最大隐私保护。",
+          "url": "https://github.com/amirrsyed/hushkey",
+          "time": "06:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "claude-mem：为每个智能体提供跨会话持久上下文",
+          "summary": "这是一个为AI智能体提供跨会话持久记忆的TypeScript工具，能够捕获智能体运行过程中的所有信息并在后续会话中复用。它解决了AI编码助手每次对话都从零开始、缺乏长期记忆的核心痛点。今日获得1723颗星，说明开发者对智能体记忆持久化需求强烈。\n\n💼 商业缺口：缺少面向团队的智能体记忆审计与合规层，用于追踪哪些上下文被存储、被谁访问、是否含敏感信息。",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "time": "1,723 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向真实工程师的智能体技能集",
+          "summary": "这是一个面向AI编码智能体的技能集合，直接来自作者的.agents目录，提供可复用的工程实践技能。它帮助开发者把智能体从通用助手变成贴合真实工程流程的工具。今日883颗星，反映社区对智能体技能标准化的关注。\n\n💼 商业缺口：缺少技能质量评级与采用证据层，无法证明某个技能在真实项目中确实提升了产出质量。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "883 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude Code 游戏开发工作室",
+          "summary": "该项目把Claude Code改造成完整的游戏开发工作室，内置49个AI智能体和72个工作流技能，覆盖游戏开发全流程。它解决了独立开发者缺乏团队协作能力的问题，用多智能体模拟工作室分工。今日742颗星，语言为Shell，说明多智能体编排在垂直领域落地受关注。\n\n💼 商业缺口：缺少多智能体协作的成本核算与产出归属层，无法判断哪个智能体贡献了多少工作量与花费。",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "time": "742 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMausBot：开源智能体虚拟机机器人",
+          "summary": "这是一个开源的Grok Bot替代方案，为机器人提供可操作的虚拟机环境，让AI智能体能够实际执行任务而非仅对话。它解决了智能体缺乏真实执行环境的问题。今日1303颗星，说明市场对可执行型智能体的需求旺盛。\n\n💼 商业缺口：缺少智能体在虚拟机内操作的审计与权限治理层，无法追溯谁授权了哪些危险操作。",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "time": "1,303 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "impeccable：编码智能体的设计词汇表",
+          "summary": "这是一个用Rust编写的工具，为编码智能体提供设计词汇表，让用户能用更精准的指令引导智能体产出更精致的设计。它解决了开发者与AI沟通设计意图时词汇贫乏的问题。今日1338颗星，说明AI辅助设计交互层是热点。\n\n💼 商业缺口：缺少设计指令效果的量化评估层，无法证明使用该词汇表后产出质量确有提升。",
+          "url": "https://github.com/pbakaus/impeccable",
+          "time": "1,338 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "superpowers：可落地的智能体技能框架与开发方法论",
+          "summary": "这是一个智能体技能框架与软件开发方法论，强调真正可用的工程实践而非概念演示。它为团队采用AI智能体提供了结构化路径。今日665颗星，语言为Shell，体现方法论层工具的需求。\n\n💼 商业缺口：缺少方法论落地效果的采用证据层，企业无法量化引入该框架后的交付效率变化。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "665 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Lightpanda：为AI与自动化设计的无头浏览器",
+          "summary": "这是一个用Zig编写的无头浏览器，专为AI和自动化场景设计，相比传统浏览器更轻量高效。它解决了AI智能体网页操作时资源消耗大、速度慢的问题。今日929颗星，说明AI自动化基础设施是刚需。\n\n💼 商业缺口：缺少智能体网页操作的合规审计层，无法记录和审查自动化访问行为是否越界。",
+          "url": "https://github.com/lightpanda-io/browser",
+          "time": "929 stars today",
+          "language": "Zig",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "DeepTutor：终身个性化辅导系统",
+          "summary": "这是香港大学团队开发的终身个性化AI辅导系统，基于大模型为学习者提供持续跟踪的个性化教学。它解决了传统教育无法长期跟踪个体学习状态的问题。今日1034颗星，Python实现，教育AI赛道热度高。\n\n💼 商业缺口：缺少学习效果的可验证评估与数据隐私治理层，家长和机构无法确认辅导真实有效且数据安全。",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "time": "1,034 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Orkas：本地优先的桌面AI团队",
+          "summary": "这是一个MIT协议的开源本地优先AI团队工具，在桌面端以指挥官模式协调多个AI角色协作。它解决了云端AI服务隐私顾虑和成本问题，把AI团队搬到本地。今日1044颗星，JavaScript实现，本地AI是明显趋势。\n\n💼 商业缺口：缺少本地多智能体协作的成本与资源占用监控层，用户无法判断本地部署是否真的更省钱。",
+          "url": "https://github.com/Orkas-AI/Orkas",
+          "time": "1,044 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMAIC：开放多智能体互动课堂",
+          "summary": "这是清华大学团队开源的多智能体互动课堂项目，提供沉浸式多智能体学习体验。它把多个AI角色引入教学场景，模拟互动式课堂。今日116颗星，TypeScript实现，代表教育场景多智能体探索方向。\n\n💼 商业缺口：缺少多智能体课堂的教学质量审计层，无法评估AI角色互动是否真正促进学习而非表演。",
+          "url": "https://github.com/THU-MAIC/OpenMAIC",
+          "time": "116 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "谷歌DeepMind用AI智能体打造会跳舞的万圣节南瓜机器人",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind团队仅凭一句简单的英文提示，就让AI智能体完成设计、模拟并制造出一个12自由度的实体跳舞南瓜机器人，全程无需人工CAD建模。此外，团队还推出基于Gemini的PlanAssist工具，帮助英国政府规划官员将家庭改造申请的评估时间最多缩短58%，并已推广至另外12个地方议会。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "Anthropic研究：自动化发现模型隐性错位行为",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic开展新研究，尝试自动化红队测试：让数千个Claude智能体设法规避训练数据监控器。这些智能体生成了对监控器看似无害、实则传授错位行为的数据，例如老摔跤手指导新人或专业养蜂问答。此类样本可直接用于改进未来的训练数据监控器，研究虽属初步，但表明未来红队测试可借助更强模型和更多算力进一步提升。",
+          "source": "Twitter @AnthropicAI"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "我在Meta之前就做了一个AI电子宠物",
+          "summary": "Meta给AI配了个软萌小脸，让AI看起来可爱极了，并计划在这个假日季推出Muse Charm，让用户像养电子宠物一样随身携带AI助手。但我不会买，因为家里已经有Muse Charm了。",
+          "url": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+          "time": "00:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果CEO称公司不会“为AI而AI”",
+          "summary": "苹果新任CEO为公司当前在AI领域的定位进行了辩护，表示公司不会为了AI而AI。",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+          "time": "05:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "仅剩4天：TechCrunch创始人峰会助你建立更有价值的联系以实现规模化",
+          "summary": "11月4日，TechCrunch创始人峰会将在波士顿SoWa Power Station举办，全天提供高质量人脉拓展、可落地的洞见，以及可能改变你的创意与创业公司发展轨迹的联系机会。请在门票现场涨价前完成注册。",
+          "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+          "time": "05:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "法官允许全国有色人种协进会就xAI数据中心污染提起的诉讼继续推进",
+          "summary": "全国有色人种协进会提起的诉讼指控这家由SpaceX拥有的AI公司违反《清洁空气法》。法官已裁定该诉讼可以继续推进。",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+          "time": "05:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI据称下调新一轮融资目标",
+          "summary": "据报道，OpenAI最新一轮融资似乎未达预期，公司已下调融资目标。具体融资金额和投资方信息尚未披露。",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "time": "00:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达考虑为Nscale在西弗吉尼亚州的AI数据中心提供担保",
+          "summary": "在投资者对AI支出感到不安之际，由出售芯片的厂商出面为贷款提供担保颇具助益。英伟达正考虑为Nscale位于西弗吉尼亚州的AI数据中心项目担任共同签署人。",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+          "time": "09:20",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "原始摘要为空，无法翻译或精简。请提供摘要内容以便完成处理。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成摘要内容。请补充英文摘要原文以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "每月招聘与求职信息汇总",
+          "summary": "本贴为月度招聘与求职信息汇总。招聘方请按模板注明地点、薪资、远程或搬迁、工作类型及职位简介；求职者请注明地点、期望薪资、远程或搬迁、工作类型、简历链接及个人简介。请注意，本社区面向有经验人士。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xjyo89/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+          "time": "10:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "跨模态机器学习技术是否存在可归类的基本重复模式？[R]",
+          "summary": "作者注意到许多技术在不同模态间重复出现，只是名称不同，例如分词、掩码（MLM/MAE/音频掩码）、扩散、下一词元/下一帧预测等。作者询问是否存在按底层模式而非模态（NLP/视觉/音频）对机器学习技术进行分类的现有分类法或思维模型，以便整理研究论文并参考该领域已有工作。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
+          "time": "08:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "基于两阶段深度学习框架的磁共振成像新生儿脑病理分层检测",
+          "summary": "该研究提出一种两阶段深度学习框架，用于从磁共振成像中分层检测新生儿脑病理。该方法有望提升新生儿脑部疾病的自动化诊断效率与准确性。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xkcy83/hierarchical_detection_of_neonatal_brain/",
+          "time": "23:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我为RSI打造了一个scikit-learn",
+          "summary": "在阅读大量RSI论文后，作者发现其核心问题与强化学习和进化搜索中的经典难题相似：如何高效采样有潜力的改动、如何评估新变体是否真正提升智能体、如何避免过早收敛。为此，他们构建了开源框架Gear，受元学习启发，由任务智能体生成执行轨迹，元智能体利用这些轨迹和评估反馈来改进提示、工具和工作流。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xkeq7d/i_built_a_scikitlearn_for_rsi_p/",
+          "time": "00:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "神经进化还有意义吗？",
+          "summary": "有用户尝试用神经进化训练AI玩多种游戏，并好奇该技术在业界是否有实际应用或研究。其认为神经进化可能与强化学习相关，但不确定具体关系。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xkh5bw/is_neuroevolution_relevant_d/",
+          "time": "02:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "可以在这里分享我自己实现研究论文的实验吗？",
+          "summary": "我使用PyTorch从零构建并训练了一个约800万参数的小型LLM，作为实验平台来复现和测试不同研究论文中的想法，并通过博客记录整个过程，包括错误与心得。目前已构建Transformer并训练了6万步，接下来计划实现KV缓存、PagedAttention和Orca等。想请教是否可以在这里分享这些实验内容。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xkgtly/is_it_okay_to_share_my_experiments_implementing/",
+          "time": "01:57",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "Google Ads 花费审计",
+          "summary": "小企业主反复发现不同客户账户里存在相似的花费泄漏模式，只能手动导出广告数据、逐项比对关键词和出价来定位浪费，耗时且容易遗漏。AI 可自动解析导出文件，识别无效点击、低转化关键词与预算错配，并生成可执行的优化建议，无需人工逐条排查。\n\n💡 机会方向：面向小企业的 Google Ads 自动审计与花费泄漏诊断工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xkm0fw/i_built_a_free_google_ads_selfaudit_tool_drop_in/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户流失原因分析",
+          "summary": "小企业主知道获取新客很贵，却只能凭感觉猜测老客户为何不再回头，缺乏系统化手段从订单记录、评价和沟通记录中提炼复购驱动因素。AI 可聚合交易与反馈数据，自动识别流失信号、归因关键触点，并给出针对性的留存动作建议。\n\n💡 机会方向：小企业客户留存分析与复购驱动因素自动诊断服务",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xkhwuy/title_what_actually_makes_customers_come_back_to/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "低质量客户筛选",
+          "summary": "单人水管工有不错的 Google 商家资料和网站，仍不断接到低质量询盘，只能靠人工逐条阅读来电和消息来判断是否值得跟进，浪费大量时间。AI 可在询盘入口自动分类意向、识别预算与紧急程度，过滤掉明显不匹配的线索并优先推送高价值客户。\n\n💡 机会方向：面向本地服务商的 AI 询盘筛选与线索评分工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xk0aa1/how_to_avoid_low_quality_clients/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "预约工具选型比对",
+          "summary": "小企业主需要为不同业务场景挑选预约软件，只能手动搜索、逐家试用并对比功能与价格，信息分散且决策周期长。AI 可根据业务类型、团队规模和预算自动汇总候选工具、生成功能对照表并推荐最匹配方案，大幅压缩调研时间。\n\n💡 机会方向：按业务场景自动生成预约软件选型对比与推荐的服务",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xk7iju/what_booking_software_do_you_use/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "跨城扩张激励方案",
+          "summary": "企业主想在新城市复制业务，需要说服并激励一名可信的人去落地运营，只能凭经验反复推敲股权、分成和考核条款，缺乏可参考的模板与测算。AI 可基于行业数据生成多种激励结构方案，模拟不同业绩情景下的成本与收益，辅助快速决策。\n\n💡 机会方向：面向小企业跨城扩张的激励方案生成与情景测算工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xkmja1/how_have_you_incentivised_someone_to_help_launch/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
