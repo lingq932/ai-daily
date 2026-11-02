@@ -1,0 +1,325 @@
+{
+  "date": "2026-11-02",
+  "timeRange": "2026-11-01 09:00 ~ 2026-11-02 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：Better Together——AI代理联手对抗垃圾电话和短信",
+          "summary": "本周末推出 https://better-together.fun，让我们的个人AI代理能够联手对抗垃圾电话和短信。",
+          "url": "https://better-together.fun/",
+          "time": "08:19",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "claude-mem：为每个智能体提供跨会话持久上下文",
+          "summary": "这是一个为AI智能体提供跨会话持久记忆的TypeScript工具，能够捕获智能体运行过程中的所有信息并在后续会话中复用。它解决了当前AI Agent每次对话都从零开始、缺乏长期记忆的核心痛点，今日新增1526星说明持久记忆层正成为Agent基础设施的热门方向。\n\n💼 商业缺口：缺少面向企业的记忆数据合规审计与隐私脱敏层，用于证明哪些上下文被存储、被谁访问、何时应被遗忘。",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "time": "1,526 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Lightpanda：专为AI与自动化设计的无头浏览器",
+          "summary": "Lightpanda是用Zig语言编写的无头浏览器，专为AI智能体和自动化场景优化，相比传统浏览器更轻量、启动更快、资源占用更低。它解决了AI Agent在网页抓取与操作时Chrome过于笨重的问题，825星的日增反映出Agent浏览器基础设施的旺盛需求。\n\n💼 商业缺口：缺少针对Agent网页行为的成本计量与反爬合规证据层，无法向网站方证明访问是合法自动化而非滥用。",
+          "url": "https://github.com/lightpanda-io/browser",
+          "time": "825 stars today",
+          "language": "Zig",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Kronos：金融市场语言的基础模型",
+          "summary": "Kronos是面向金融市场时序数据的Python基础模型，将金融市场的价格与交易行为视为一种'语言'进行建模。它为量化研究和金融预测提供了通用预训练底座，630星日增显示垂直领域基础模型在金融场景的关注度持续上升。\n\n💼 商业缺口：缺少模型预测的可回溯审计与回测合规报告层，监管和投资委员会无法验证模型决策依据与历史表现。",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "630 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMausBot：带虚拟机的开源Grok机器人替代方案",
+          "summary": "OpenMausBot是开源的Grok Bot替代品，为机器人配备可操作的虚拟机环境，使其能执行真实任务而非仅对话。它解决了闭源Agent产品不可控、不可审计的问题，922星日增说明开发者对可自托管Agent运行环境兴趣浓厚。\n\n💼 商业缺口：缺少Agent虚拟机操作的权限治理与行为审计层，企业无法追踪机器人在VM内执行了哪些敏感操作。",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "time": "922 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Handy：免费开源可扩展的语音转文字应用",
+          "summary": "Handy是基于Rust的免费开源语音转文字应用，完全本地运行且支持扩展，跨平台可用。它解决了云端语音识别服务的隐私与订阅成本问题，339星日增体现本地化AI工具在隐私敏感用户中的吸引力。\n\n💼 商业缺口：缺少企业级语音数据的留存策略与合规审计层，无法证明录音在本地处理且未被外泄。",
+          "url": "https://github.com/cjpais/Handy",
+          "time": "339 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude-Code-Game-Studios：把Claude Code变成完整游戏开发工作室",
+          "summary": "该项目通过49个AI智能体和72个工作流技能，将Claude Code扩展为完整的游戏开发工作室流水线。它展示了多智能体协作在复杂创意生产中的落地方式，967星日增说明多Agent工作流编排是当前热点。\n\n💼 商业缺口：缺少多智能体协作的产出归属与成本分摊层，团队无法核算每个Agent的token开销与贡献度。",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "time": "967 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Kornia：面向空间AI的几何计算机视觉库",
+          "summary": "Kornia是Python几何计算机视觉库，为空间AI提供可微分的图像变换与几何运算能力。它是机器人、AR/VR和3D感知流水线的重要基础组件，101星日增虽不高但属于长期稳定的基础设施型项目。\n\n💼 商业缺口：缺少视觉模型训练数据的来源授权与合规追踪层，无法证明训练图像的使用许可链条。",
+          "url": "https://github.com/kornia/kornia",
+          "time": "101 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AiSOC：开源AI安全运营中心",
+          "summary": "AiSOC是开源AI安全运营中心，提供告警融合、LLM智能体分诊和MITRE ATT&CK映射能力。它把大模型引入安全运营流程以缓解告警疲劳，446星日增反映AI+SecOps是明确的落地赛道。\n\n💼 商业缺口：缺少LLM分诊决策的可解释性审计与误判追责层，安全团队无法向合规方证明自动化处置的合理性。",
+          "url": "https://github.com/beenuar/AiSOC",
+          "time": "446 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Hex：跨平台本地语音听写工具",
+          "summary": "Hex是面向macOS、Windows和Linux的本地语音听写工具，基于Rust实现，强调隐私与低延迟。它解决了云端听写服务的隐私顾虑和订阅成本，1179星日增显示本地语音AI工具正快速获得用户。\n\n💼 商业缺口：缺少企业部署下的语音数据治理与使用证据层，IT部门无法证明听写内容未被上传或用于训练。",
+          "url": "https://github.com/anomalyco/hex",
+          "time": "1,179 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenBot：每个AI同事都拥有独立电脑的开源方案",
+          "summary": "OpenBot是开源AI同事框架，为每个AI智能体分配独立的浏览器、文件系统等计算环境。它解决了多Agent共享环境导致的相互干扰与权限混乱问题，175星日增说明Agent隔离运行是新兴需求。\n\n💼 商业缺口：缺少Agent计算资源的成本核算与配额治理层，企业无法按Agent或按团队计量算力与token消耗。",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "time": "175 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "jailbreaks：越狱提示词合集",
+          "summary": "该仓库汇总了作者发布的一系列大模型越狱提示词，属于AI安全红队测试素材。它反映了LLM安全对齐的持续攻防态势，726星日增说明越狱与提示注入仍是社区高度关注的话题。\n\n💼 商业缺口：缺少越狱样本的版本化治理与模型防护效果评测层，安全团队无法量化自家模型对已知越狱的抵御率。",
+          "url": "https://github.com/togg53192-cmd/jailbreaks",
+          "time": "726 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ai-engineering-hub：LLM、RAG与AI智能体实战教程",
+          "summary": "该仓库提供LLM、RAG和真实AI智能体应用的深度教程，以Jupyter Notebook形式呈现。它解决了AI工程化学习缺乏系统实战材料的问题，1191星日增显示开发者对可落地AI工程教程的强烈需求。\n\n💼 商业缺口：缺少教程所学技能的采用证据与能力认证层，企业无法验证工程师是否真正掌握RAG与Agent工程能力。",
+          "url": "https://github.com/patchy631/ai-engineering-hub",
+          "time": "1,191 stars today",
+          "language": "Jupyter Notebook",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "FreeToken：把数据中心级模型服务搬到桌面",
+          "summary": "FreeToken是Python项目，让用户在个人桌面上运行大规模模型推理服务，把数据中心级serving能力下沉到本地。它解决了本地跑大模型的部署与吞吐难题，242星日增体现本地推理基础设施的关注度。\n\n💼 商业缺口：缺少本地推理的能耗与成本计量层，用户无法量化本地跑模型相比云API的实际成本节省。",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "time": "242 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI或将其数据中心更名为“AI算力园区”",
+          "summary": "数据中心一直颇不受欢迎。但如果换个叫法呢？OpenAI正考虑将其数据中心重新命名为“AI算力园区”，以改善公众观感。",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+          "time": "05:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI能让科技CEO的生活更轻松，那其他人呢？",
+          "summary": "在Equity播客中，我们讨论了科技CEO关于AI的表态为何常常显得脱离现实、缺乏共情。",
+          "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+          "time": "04:57",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法提炼核心要点。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原始摘要缺失，无法翻译或精简。请提供摘要内容以便完成处理。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "为什么所有神经网络优化器的名字都这么奇怪？",
+          "summary": "SOAP、Shampoo、FOAM 等优化器名称独特，Muon 还与物理学粒子同名，导致搜索时出现大量无关结果。Adam 若非如此出名也会有同样问题，这让查找相关资料非常头疼。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xl7yv0/why_do_all_nn_optimizers_have_weird_names_d/",
+          "time": "00:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "简单问题讨论帖",
+          "summary": "请在此帖中提问，不要另开新帖。也请鼓励那些单独发帖提问的人将问题发到这里！本帖会持续到下一个讨论帖发布，因此在标题日期之后仍可继续提问。感谢大家在上一帖中积极回答问题！",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "数据增强问题：如何描述使用缩放和裁剪参数生成的原始数据集与增强数据集？",
+          "summary": "一名机器学习方向的新研究生使用随机裁剪（0-90%）和随机缩放（0-20%）生成了增强数据集（TIFF文件，每个文件包含一个待检测/分类对象），并用于深度学习模型训练。导师要求其描述这些数据集，以分析数据增强带来的变化。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/",
+          "time": "20:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "本地模型的最佳选择",
+          "summary": "用户向社区征求运行本地模型的硬件建议：方案一是购买32GB内存的MacBook Pro，方案二是购买Mac Mini（256GB固态硬盘、32GB内存）并配一台iPad。用户表示在学校可使用B200及多台A100/L40用于训练，此次只需一台用于本地推理的设备。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/",
+          "time": "15:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "LSREP：用于评估对话记忆的纵向状态重放协议",
+          "summary": "一名独立本科生研究员开发了LSREP，用于评估持久记忆在持续对话中如何积累、变化和检索信息。该协议结合时间顺序重放、生命周期调度、重复探测、演化参考答案和机制保真度检查，而非仅依赖孤立的端点问题。配套架构案例研究为本地优先对话系统ICE v2。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/",
+          "time": "18:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我动画演示了GPT-4o分词器如何处理\"strawberry\"：真实token ID、微型BPE运行，以及为何空格属于单词（6分钟视频）",
+          "summary": "作者制作了一段6分钟的视频，完整追踪\"How many r's are in strawberry?\"这句话在o200k_base（GPT-4o/GPT-5分词器）中的处理过程：整句仅8个token，其中\" strawberry\"是单个token（ID 101830），三个r被隐藏在一个ID内。视频还解释了为何采用子词切分——按字母切分会令序列长度增加约4倍，而整词词表过大且无法处理新词。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xl9sv7/i_animated_what_gpt4os_tokenizer_does_to/",
+          "time": "02:01",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "社媒客户归因统计",
+          "summary": "本地小企业主每周手动翻看Instagram后台和收银记录，靠问顾客'你怎么知道我们'来猜测社媒是否带来客流，数据零散且滞后，无法判断投放是否值得。AI可自动关联社媒互动、优惠码核销与POS成交数据，生成渠道归因报表并给出内容优化建议。\n\n💡 机会方向：面向本地商家的社媒到店归因与投放ROI自动分析工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xli4z7/how_do_you_actually_know_if_instagram_brings_you/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "应收账款催收追踪",
+          "summary": "油漆承包商被拖欠46万美元，需逐笔核对发票、账期和客户沟通记录，手动整理催收优先级和证据链，耗时且易漏。AI可解析发票与合同、自动生成分级催收邮件、跟踪回款状态并提示诉讼时效风险。\n\n💡 机会方向：小微企业应收账款智能催收与现金流预警SaaS",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xkzfyb/been_soft_destroyed_my_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "B2B冷启动客户名单",
+          "summary": "工业清洁公司创始人需手动搜索本地工厂、物业和园区，逐个查联系方式、判断是否有外包清洁需求，再写开发信，一天只能触达十几家。AI可抓取企业公开信息、按行业规模筛选潜客、自动生成个性化外联邮件并跟进回复。\n\n💡 机会方向：垂直行业B2B潜客挖掘与外联自动化助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xlc4p3/how_would_you_approach_b2b_sales_for_a_new/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "食品经营许可合规",
+          "summary": "卖冷藏烘焙品的侧业者搞不清需要哪种执照、厨房要求和标签规范，只能自己在政府网站和论坛里翻找，容易踩坑被罚。AI可根据产品类型、销售渠道和所在地区，自动匹配许可清单、生成申请材料并提示检查要点。\n\n💡 机会方向：小微食品创业者合规许可智能导航与材料生成",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xlgqde/what_type_of_license_do_i_need_to_sell_baked/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "会计沟通与账务跟进",
+          "summary": "小企业主抱怨会计不主动沟通，只能自己反复发消息追问报税进度和账目问题，缺少结构化记录。AI可自动汇总往来邮件与消息、提取待办事项、定期生成账务状态摘要并提醒关键申报节点。\n\n💡 机会方向：小微企业财税沟通记录摘要与申报节点提醒助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xld69h/should_i_find_a_new_accountant_now/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
