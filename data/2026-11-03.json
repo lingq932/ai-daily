@@ -1,0 +1,603 @@
+{
+  "date": "2026-11-03",
+  "timeRange": "2026-11-02 09:00 ~ 2026-11-03 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "纽约时报起诉Brave浏览器",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "《纽约时报》等多家出版机构对Brave浏览器开发商提起诉讼，指控其非法抓取内容用于训练AI，并允许用户绕过付费墙。据路透社报道，原告包括《纽约每日新闻》和《芝加",
+              "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "《纽约时报》起诉注重隐私的浏览器公司Brave，指控其抓取该媒体的受版权保护内容，并非法分发给Anthropic、Perplexity等客户。",
+              "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic限制Claude克隆游戏",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic更新了Claude Code的系统提示词，防止该AI工具被用于复刻现有电子游戏。当前复古游戏领域充斥着AI制作的游戏反编译、重编译和移植版本。",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "RSI指AI在自我训练方面强到足以引发能力急剧加速的临界点。对AI末日论者而言，RSI代表着无可挽回的灾难。",
+              "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "面向AI智能体的计算机使用命令行工具",
+          "summary": "这是Vercel实验室推出的桌面端CLI工具，让AI智能体能够直接操作计算机界面完成任务。用Rust编写保证了性能和跨平台能力，今日新增2275星说明开发者对智能体操控桌面这一方向高度关注。\n\n💼 商业缺口：缺少对智能体桌面操作行为的审计日志与权限边界管控产品。",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "time": "2,275 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "跨会话持久化上下文记忆系统",
+          "summary": "为各类AI智能体提供跨会话的持久记忆能力，自动捕获智能体的一切操作与上下文。TypeScript实现便于集成到现有工具链，1803的日增星数反映智能体记忆管理是当前刚需痛点。\n\n💼 商业缺口：缺少记忆数据的合规审查、敏感信息脱敏与生命周期治理层。",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "time": "1,803 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "把Claude Code变成完整游戏开发工作室",
+          "summary": "通过49个AI智能体和72个工作流技能，将Claude Code扩展为完整的游戏开发流水线。Shell脚本驱动降低了使用门槛，1379星显示AI辅助游戏开发这一垂直场景正快速升温。\n\n💼 商业缺口：缺少多智能体协作产出的质量评估、成本核算与版本追溯产品。",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "time": "1,379 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "桌面级数据中心规模模型推理服务",
+          "summary": "FreeToken让用户在个人桌面上运行数据中心级别的模型服务，可承载大规模模型的本地部署。Python实现便于模型接入，653星说明本地化推理部署需求旺盛。\n\n💼 商业缺口：缺少本地推理的算力成本计量、多租户配额与使用证据报表。",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "time": "653 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "金融市场语言基础模型",
+          "summary": "Kronos是专为金融市场语言设计的基础模型，将金融时序与文本数据统一建模。Python实现便于量化研究接入，857星反映垂直领域基础模型受到量化与金融科技圈关注。\n\n💼 商业缺口：缺少模型预测的可解释性审计与合规留痕产品。",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "857 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向空间AI的几何计算机视觉库",
+          "summary": "Kornia是成熟的几何计算机视觉库，为空间AI提供可微分的视觉算子与算法组件。Python生态完善、社区活跃，412星体现其在机器人与空间智能领域的持续价值。\n\n💼 商业缺口：缺少视觉模型部署后的性能回归监控与精度漂移告警服务。",
+          "url": "https://github.com/kornia/kornia",
+          "time": "412 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "在自有硬件上运行前沿MoE模型",
+          "summary": "Colibri用纯C实现、零依赖，让用户能在已有硬件上运行前沿的混合专家模型，专家可灵活调度。675星说明极致轻量的本地大模型推理方案有强烈需求。\n\n💼 商业缺口：缺少本地MoE推理的显存成本测算与专家路由可观测性工具。",
+          "url": "https://github.com/JustVugg/colibri",
+          "time": "675 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向真实工程师的技能集",
+          "summary": "这是作者从个人.agents目录整理出的实用技能集合，面向真实工程场景的AI智能体能力扩展。Shell实现简单直接，858星显示智能体技能标准化正成为社区共识。\n\n💼 商业缺口：缺少技能来源可信度验证与技能调用效果评估的证据层。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "858 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向并行AI智能体的Git工作树管理CLI",
+          "summary": "Worktrunk是专为并行AI智能体工作流设计的Git工作树管理命令行工具，解决多智能体同时改代码时的分支冲突问题。Rust实现性能好，虽仅77星但切中多智能体协作的真实痛点。\n\n💼 商业缺口：缺少多智能体代码改动的归属追踪与合并冲突审计产品。",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "time": "77 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "开源智能体工作管理应用",
+          "summary": "Paperclip是开源应用，用于在工作场景中统一管理各类AI智能体。TypeScript实现便于企业集成，412星说明企业对智能体统一管控平台有明确需求。\n\n💼 商业缺口：缺少智能体行为的合规审计、成本分摊与采用效果度量层。",
+          "url": "https://github.com/paperclipai/paperclip",
+          "time": "412 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "百美元可买的最强ChatGPT",
+          "summary": "Karpathy打造的nanochat项目，用约100美元成本训练出可用的ChatGPT级别对话模型，是极佳的教学与研究范本。Python实现、321星，体现社区对低成本可复现LLM训练的高度兴趣。\n\n💼 商业缺口：缺少训练成本追踪、实验复现验证与模型能力基准对比服务。",
+          "url": "https://github.com/karpathy/nanochat",
+          "time": "321 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "免训练的语言模型修改工具",
+          "summary": "Heretic提供无需训练即可修改语言模型的方法，可移除审查限制、抑制低质输出并重定向模型行为。Python实现、420星，反映社区对模型行为后处理与可控性的强烈诉求。\n\n💼 商业缺口：缺少模型修改后的行为差异审计与安全合规评估产品。",
+          "url": "https://github.com/p-e-w/heretic",
+          "time": "420 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "杨立昆：应更多关注改进预训练损失而非仅寻找更多数据与算力",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆转发LeVJEPA 1.5 Large发布消息并评论称，业界应花更多时间思考如何改进预训练损失，而非一味搜寻更多数据和GPU。他表示SIGReg虽非最终答案，但无疑是朝该方向迈出的良好第一步，并邀请开发者试用已开放的检查点。",
+          "source": "Twitter @ylecun"
+        },
+        {
+          "title": "约书亚·本吉奥：前沿AI公司缺乏可信安全方案，亟需严格红线与国际合作",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "约书亚·本吉奥在柏林数字峰会开幕致辞中指出，前沿AI公司不断快速推进模型能力，却缺乏令人信服的安全方案，带来恶意滥用、失控等重大风险。他强调对齐与安全必须成为保护公众的必备能力，亟需严格且经独立验证的红线、安全设计研究以及紧急国际合作，德国与加拿大正共同推进这一路径。",
+          "source": "Twitter @yoshua_bengio"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "AI反弹情绪蔓延至投票站",
+          "summary": "另有内容：如何制作真正可编辑的AI艺术作品。",
+          "url": "https://therundownai.beehiiv.com/p/ai-backlash-heads-to-the-polls",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "穿越隐形危险：深度循环强化学习与POMDP如何实现传感器不确定性下的轨道碰撞规避自动化",
+          "summary": "本文探讨如何利用深度循环强化学习与部分可观测马尔可夫决策过程（POMDP），在传感器存在不确定性的情况下实现卫星轨道碰撞规避的自动化。作者以低地球轨道自主卫星实时点火规避空间碎片为场景，基于Bourriez、Loizeau与Abdin（2023）关于航天器自主碰撞规避决策规划的研究展开分析。",
+          "url": "https://towardsai.com/p/machine-learning/navigating-the-invisible-hazard-how-deep-recurrent-reinforcement-learning-and-pomdps-automate-orbital-collision-avoidance-under-sensor-uncertainty",
+          "time": "22:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "2026年租用哪种GPU跑大模型最划算？（从RTX 5090到H100）",
+          "summary": "RTX 5090每小时租金不到1美元，而H100比去年12月贵了近50%。文章对比RunPod、Vast.ai和Lambda等平台，分析各款显卡适配哪些开源模型，并探讨在何种情况下直接调用API仍比租GPU更便宜。",
+          "url": "https://towardsai.com/p/machine-learning/what-is-the-best-gpu-to-rent-for-llms-in-2026-rtx-5090-to-h100",
+          "time": "22:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Towards AI",
+          "title": "大象-金鱼模型：为何知道最少的AI反而最擅长审查",
+          "summary": "本文介绍谷歌开源的大象-金鱼模型（EGM）插件：它让具备全新上下文的“金鱼”审查者在代码编写前审查设计，而非让同一对话自我检查。文章解释了该插件的核心理念——“用大象做设计，用金鱼做审查”，以及这种分离式审查与自我审查的本质区别。",
+          "url": "https://towardsai.com/p/machine-learning/the-elephant-goldfish-model-why-the-ai-that-knows-least-reviews-best",
+          "time": "22:41",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic限制Claude克隆AI电子游戏",
+          "summary": "Anthropic更新了Claude Code的系统提示词，防止该AI工具被用于复刻现有电子游戏。当前复古游戏领域充斥着AI制作的游戏反编译、重编译和移植版本。Anthropic仍允许用户使用Claude Code制作游戏，但不希望其被用于复制现有作品。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+          "time": "02:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI提出以数据中心发电厂保护周边地区",
+          "summary": "OpenAI周一宣布将在佐治亚州埃芬汉县即将建成的数据中心试点“电网保护者计划”，承诺在极端天气或紧急情况下释放最多1000兆瓦电力，足以为约70万户家庭的空调供电。此举正值外界对数据中心能耗的反对声浪日益高涨之际。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+          "time": "02:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "《纽约时报》起诉Brave浏览器AI抓取及绕过付费墙",
+          "summary": "《纽约时报》等多家出版机构对Brave浏览器开发商提起诉讼，指控其非法抓取内容用于训练AI，并允许用户绕过付费墙。据路透社报道，原告包括《纽约每日新闻》和《芝加哥论坛报》等。",
+          "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+          "time": "01:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "提升智能体分析中洞察的质量",
+          "summary": "生成式AI已在短短几年内改变了企业分析的面貌，让组织内各类用户都能使用分析工具。智能体AI有望更进一步，实现整个工作流的自动化并基于智能体洞察采取行动。但问题在于，智能体目前生成的洞察质量仍有待提升。",
+          "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "别再数token了，开始数交付成果",
+          "summary": "当开发者给AI智能体分配编程任务时，智能体不仅回答一次，还会规划、生成代码、运行测试并反复修正错误。单个任务消耗的token可达基础聊天提示的10至50倍，智能体越有用，调用次数越多。",
+          "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+          "time": "21:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "智能体网络已经到来",
+          "summary": "2001年，蒂姆·伯纳斯-李在发明万维网十年后提出“语义网”愿景，设想互联网能由自主软件智能体导航，满足用户的各种需求。如今，这一构想正逐步走向现实，智能体网络时代已经开启。",
+          "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+          "time": "17:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Y Combinator的加里·谭每年花20万美元买token，AI智能体用到停不下来",
+          "summary": "Y Combinator的加里·谭开玩笑说自己患上了\"网络精神病\"，有时几乎不睡觉，因为和AI智能体一起工作让他太兴奋了。在沃尔特·艾萨克森播客《The Builders》的新一期节目中，谭为自己的这份热情标出了价格：每年高达20万美元的token费用。",
+          "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+          "time": "08:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Trajectory获4500万美元融资，让非技术专家也能训练AI模型",
+          "summary": "这家成立仅一年的初创公司完成4500万美元融资，估值达3亿美元。其目标是降低AI模型训练门槛，让非技术领域的专家也能参与模型训练。",
+          "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+          "time": "07:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic警告其已非常接近RSI能力，即自我构建型AI",
+          "summary": "RSI指AI在自我训练方面强到足以引发能力急剧加速的临界点。对AI末日论者而言，RSI代表着无可挽回的灾难。",
+          "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+          "time": "06:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "网站托管公司Squarespace裁员19%",
+          "summary": "网站建设平台Squarespace宣布裁减19%的员工。公司表示，此次裁员是其组织架构大规模重组的一部分。",
+          "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+          "time": "03:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "《纽约时报》等媒体起诉浏览器Brave涉嫌抓取内容",
+          "summary": "《纽约时报》起诉注重隐私的浏览器公司Brave，指控其抓取该媒体的受版权保护内容，并非法分发给Anthropic、Perplexity等客户。",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+          "time": "03:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "42AI结束隐身模式，获6250万美元融资，推出可预测人类行为的世界模型",
+          "summary": "42AI结束隐身模式并获6250万美元融资，推出可预测人类行为的世界模型。该模型旨在AI能在人做出决定前预测其行动，即使面对全新情境。",
+          "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "埃隆·马斯克因成本过高限制Grok Bot使用额度",
+          "summary": "马斯克因“不可持续的高成本”限制Grok Bot的使用限额。他近日称Grok Bot是“我一生中见过的增长最快的产品”。",
+          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+          "time": "00:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Omen AI以1600万美元收购Aquatic Labs，引入液冷技术",
+          "summary": "两家致力于解决数据中心用水问题的初创公司以1600万美元的交易合并。Omen AI通过收购Aquatic Labs获得液冷相关技术能力。",
+          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch创始人峰会倒计时2天：波士顿创始人无需硅谷地址也能成就大事业",
+          "summary": "TechCrunch创始人峰会将于11月4日在波士顿举行，议程专为创始人设计，并提供有价值的交流机会。现在报名可节省最多100美元，或通过团体票享受折扣。",
+          "url": "https://techcrunch.com/2026/11/02/2-days-till-techcrunch-founder-summit-boston-founders-dont-need-a-silicon-valley-address-to-build-something-big/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI终于合并ChatGPT的聊天与工作标签页",
+          "summary": "OpenAI宣布，此次调整后ChatGPT与Codex将共用同一用量配额池。",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+          "time": "21:57",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单，但原始摘要为空，未提供具体公司、评选机构或核心发现等信息，无法进一步精简。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "请提供原始摘要内容，以便我进行翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充原始摘要文本。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "自我推广专帖",
+          "summary": "请在此发布个人项目、初创企业、产品推广、合作需求及博客等内容，并注明产品与服务的支付和定价要求。禁止发布短链接、链接聚合网站或自动订阅链接，滥用信任将被封禁。鼓励引导发布新提问的用户改为在此跟帖，本帖将持续有效至下一期发布。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xlmffv/d_selfpromotion_thread/",
+          "time": "11:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "权重空间编程的火花：大语言模型可原生读写神经网络权重",
+          "summary": "研究发现，前沿大语言模型在原生读写神经网络权重方面表现出色，远超人类或传统算法的预期，这对优化和可解释性意义重大。GPT-6 Astra 仅凭原始权重就能判断网络的训练目标，且无需环境反馈即可从零编写小型游戏程序。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xm89ef/sparks_of_weightspace_programming_llms_can/",
+          "time": "04:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "致所有机器学习博士：你们最近过得怎么样？",
+          "summary": "面对AI研究日益激烈的竞争，以及进入大厂或AI初创公司做研究岗位所需的运气成分，你还觉得读博值得吗？虽然读博本应以享受研究为主，但现实是大家都需要谋生，经过4到6年，总希望获得硕士学历不足以企及的机会。尤其是刚毕业的人，对此有何感受？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xm5w5i/to_all_ml_phds_how_are_you_guys_doing_these_days_d/",
+          "time": "02:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 审稿结果 [D]",
+          "summary": "ICLR 2027 的审稿结果将于本周公布。面对超过 6 万份投稿以及评审评分规模偏小的情况，外界对结果有何期待，引发讨论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xm8vik/iclr_2027_review_results_d/",
+          "time": "04:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "无法用已发表论文自身的代码和设置复现其数据，该如何呈现？",
+          "summary": "我在撰写机器学习论文时，以一篇已发表方法作为基线，使用作者公开的代码和论文中列出的精确超参数重新运行。多数基准上我的结果与原文在噪声范围内一致，但在两个基准上，三次随机种子下我的复现结果明显低几个百分点，且相隔数月重复四次结果相同。我计划同时报告原文发表的数据和我的复现结果。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xm64of/couldnt_reproduce_a_published_papers_numbers_with/",
+          "time": "03:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "机器学习博士生：你更愿意在AI聊天机器人兴起之前还是之后攻读博士学位？",
+          "summary": "对于正在或已经完成机器学习博士学位的人，如果可以选择，你更愿意在ChatGPT等AI聊天机器人普及之前攻读博士，还是在当今的AI时代攻读？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xlt9wm/ml_phds_would_you_rather_have_done_your_phd/",
+          "time": "18:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "小规模验证“好视角优于下一词预测”（Balestriero与杨立昆2026）：仅用人类标注、1100万参数编码器",
+          "summary": "该论文称，用“好视角”（同一张照片的两条不同描述）训练时，文本模型与图像模型的对齐速度快于坏视角或下一词预测。其最大规模实验使用了图像描述器生成的标注，可能存在图像信息泄漏。我仅用人类标注做了笔记本规模的验证：1万张COCO照片、每张5条人工描述，8000训练/1000验证/1000测试，图像侧使用冻结的DINOv2-base编码器。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xlzoze/smallscale_check_of_good_views_beat_nexttoken/",
+          "time": "23:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "伊利亚·苏茨克维说“模型，它们只是想学习”是什么意思？",
+          "summary": "在OpenAI成立前夕，伊利亚·苏茨克维对作者说：“模型，它们只是想学习。你必须理解这一点。”这句话如同禅宗公案，令作者豁然开朗。此后多年，作者将这一理念正式化并加以整合，意识到自己观察到的现象并非偶然。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xlyr77/what_did_ilya_sutskever_mean_when_he_said_the/",
+          "time": "22:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "LightMIS：面向边缘设备的超轻量医学图像分割",
+          "summary": "LightMIS 是一种用于二维二值医学图像分割的超轻量模型，仅有 131K 参数，直接聚合多尺度编码器特征，无需学习式逐阶段解码器。在相同 nnU-Net 协议下训练评估，其模态宏平均 Dice 和 IoU 与 nnWNet 接近，但参数量减少 98.14%，GFLOPs 减少 94.58%。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xm8dbo/lightmis_ultralightweight_medical_image/",
+          "time": "04:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS 住宿安排有何最新消息？",
+          "summary": "已获得财务资助的参会者询问主办方是否更新了悉尼的住宿安排。该帖由 /u/Fantastic-Nerve-4056 发布，寻求相关最新进展。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xlzumq/any_update_with_the_accomodation_from_neurips_d/",
+          "time": "23:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Operators Day：10位创始人招募创始级ML岗位——11月5日",
+          "summary": "EWOR团队将于11月5日（周四）中欧时间16:30通过Zoom举办Operators Day线上活动，10位创始人将现场路演，介绍其项目及正在招聘的创始级岗位，包括AI/ML工程师、机器人工程师、CTO、CPO及市场销售负责人等，并提供有实质意义的股权。活动面向正在考虑下一步发展的ML工程师或研究人员，也欢迎推荐合适人选。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xm3im8/operators_day_10_founders_hiring_for_founding_ml/",
+          "time": "01:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如何在隔离的用户会话中，使用YOLO跨多个摄像头角度处理对象去重（尤其是20x22像素的微小裁剪）？",
+          "summary": "我正在构建一个计算机视觉流程，用户上传同一物理场景不同角度的多张照片，以生成唯一对象及其属性的清晰列表。我使用YOLO进行对象检测，提取边界框并将每个检测到的对象裁剪为轻量级.webp图像。由于同一物理对象会出现在3到4张不同角度的照片中，我需要确保每个唯一对象只被计数一次。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xloo4i/how_to_handle_object_deduplication_across/",
+          "time": "13:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "用网页抓取数据微调模型时真正出了什么问题，以及如何解决",
+          "summary": "用自行采集的网页数据做微调看似简单，实则暗藏问题。导航菜单、Cookie 横幅和页脚文本等模板内容混入训练样本，导致模型生成类似半渲染 HTML 的怪异输出。解决方案是采用激进的 DOM 定向提取而非原始文本抽取，并切换到轮换住宅代理层（按请求轮换 IP）。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xm1rjj/what_actually_broke_when_i_tried_to_finetune_on/",
+          "time": "00:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "基准测试：Qwen 27B、35B、QFN180B；Nemotron Bolt 74B、Flint40B 与 Clover 35B（Q4）在 M5 Max 2026 上基于 Kapitsa 与 KFlash 的表现 [P]",
+          "summary": "Kapitsa 贡献者 Ye 介绍，这是一款专为 Apple Silicon 优化的开源推理引擎，可在本地运行 Qwen、Nemotron、Flint 和 Clover 模型，其自研 Metal 内核可针对每款芯片和模型进行调优。最新版本 0.2.26 已发布，并公布了上述模型在 M5 Max 上的最新基准测试数据。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xljter/benchmarking_qwen_27b_35b_qfn180b_nemotron_bolt/",
+          "time": "09:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "RLVR 没有免费午餐：策略专业化下，每一点 pass@1 提升都必然以某些提示词为代价，且 pass@k 交叉点存在紧致边界",
+          "summary": "作者观察到 RLVR 论文中的常见模式：RL 模型在 pass@1 上占优，而基座模型在大 k 值下追平甚至反超。研究旨在探究这是否能通过更多训练解决，还是结构性现象。论文从理论上证明，在策略专业化下，pass@1 的每一分提升都必然以某些提示词上的性能为代价，且 pass@k 交叉点存在紧致边界。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xlnu1y/r_there_is_no_free_lunch_in_rlvr_under_strategy/",
+          "time": "12:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "报价单耗时评估",
+          "summary": "小企业主纠结一份半天到一天工作量的报价该花多少时间做，说明报价过程高度依赖人工估算工时、成本与利润，反复权衡且无标准流程，耗时且易拖延成交。AI可基于历史项目数据、工时模板和利润率自动生成报价草案并给出置信区间，大幅压缩报价准备时间。\n\n💡 机会方向：面向服务型小企业的AI自动报价与工时估算工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xmb2y2/what_is_an_acceptable_amount_of_time_to_spend_on/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "多员工共用WhatsApp",
+          "summary": "客户咨询大量涌入单一WhatsApp号码，多个员工需要同时处理却无法分工，容易漏回、重复回复或私号混用，管理混乱。AI可做消息聚合与智能分流，自动分类咨询意图、分配负责人、生成回复草稿并同步到CRM，减少人工盯号和交接成本。\n\n💡 机会方向：小企业共享WhatsApp的多坐席AI客服与消息路由平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xm7rne/how_do_small_businesses_manage_one_whatsapp/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "供应商资质核验",
+          "summary": "蜡烛店主首次批量采购包装，因未充分核验供应商导致货物半损，说明选供应商靠人工比价和感觉，缺乏背景调查与履约记录核查。AI可自动抓取供应商工商信息、评价、历史纠纷与物流表现，生成风险评分和验厂清单，在下大单前给出预警。\n\n💡 机会方向：小企业采购前的AI供应商尽调与风险评分服务",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xm6hsw/my_first_bulk_packaging_order_arrived_half/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "跨境关税纠纷处理",
+          "summary": "国际电商卖家遇到客户拒付33美元关税，需自行判断PayPal卖家保护是否适用、如何举证申诉，流程涉及平台规则、海关政策和争议材料整理，全靠人工查资料。AI可解析平台保护条款与关税责任归属，自动生成申诉材料和时间线，指导卖家按步骤维权。\n\n💡 机会方向：跨境电商AI争议与关税纠纷处理助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xm6ohh/customer_refuses_to_pay_customs_duties_paypal/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "免费二维码失效风险",
+          "summary": "小企业用免费二维码生成器印在菜单、传单和店面上，却不知二维码可能过期失效，需人工逐个排查已印刷物料并重新生成，损失隐蔽且发现晚。AI可扫描并识别二维码指向、检测有效期与跳转稳定性，批量生成可长期托管的重定向短链并监控失效告警。\n\n💡 机会方向：面向线下小企业的二维码生命周期监控与托管重定向服务",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xmbo5b/your_free_qr_code_might_stop_working_after_you/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
