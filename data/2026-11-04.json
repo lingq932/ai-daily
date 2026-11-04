@@ -1,0 +1,631 @@
+{
+  "date": "2026-11-04",
+  "timeRange": "2026-11-03 09:00 ~ 2026-11-04 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Netflix推出AI发现标签页",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Netflix电视应用将新增“AI发现”标签页，用于展示实验性AI功能，帮助用户发现新剧集和电影。首批实验功能会按主题推荐内容，如“轻松一刻”“家庭电影夜”或“",
+              "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Netflix在其应用中新推出“AI发现”标签页，首个实验性功能允许用户根据当前心情获取个性化推荐。该功能旨在帮助用户更轻松地找到想看的影视内容。",
+              "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌允许学校禁用AI工具",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌向《纽约时报》表示，对于拒绝其AI功能的学校，将完全关闭搜索服务。谷歌在周二的教育相关更新中宣布，K-12学生账户将完全无法访问Gemini、Gemini ",
+              "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "选择完全限制AI的学校将无法再使用谷歌搜索，因为AI功能现已整合进该搜索引擎。这意味着学校若想禁用AI工具，就必须同时放弃谷歌搜索服务。",
+              "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
+            }
+          ]
+        },
+        {
+          "headline": "苹果Siri接入第三方AI应用",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "苹果在周二推送的iOS 27.3更新中宣布，开发者现可在“所有应用”中集成Siri AI的新功能。该语音助手可调用用户个人上下文、处理自然语言指令，并利用屏幕感",
+              "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "苹果在周一晚间财报电话会议上暗示，可能通过第三方“机会”来推动收入增长。公司未透露具体方案，但表示正在探索与第三方AI应用相关的变现途径。",
+              "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/"
+            }
+          ]
+        },
+        {
+          "headline": "Apple Watch新增AI音频功能",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "苹果在新推出的 watchOS 27.3 开发者测试版中上线音频智能功能，Siri 可接入 Apple Watch 麦克风。新增的 Siri Recap 通过环",
+              "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "苹果新的音频智能功能现已进入测试阶段，可帮助用户回忆他人说过的话或为对话做笔记。",
+              "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "One Roof | 一种与智能体协作构建的新方式，由你掌控",
+          "summary": "一种与智能体协作构建的新方式，由你掌控",
+          "url": "https://www.producthunt.com/products/one-roof",
+          "time": "09:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "NEXUPIRA | 交付完成工作的AI队友",
+          "summary": "交付完成工作的AI队友",
+          "url": "https://www.producthunt.com/products/nexupira",
+          "time": "14:48",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "claude-mem：为每个智能体提供跨会话持久上下文",
+          "summary": "这是一个为AI智能体提供跨会话持久记忆的TypeScript工具，能够捕获智能体运行过程中的所有信息并在后续会话中复用。它解决了AI智能体每次对话都从零开始、无法积累经验的痛点，今日获得1139星，说明持久记忆层正成为智能体基础设施的热门方向。\n\n💼 商业缺口：缺少面向团队的智能体记忆审计与合规留存产品，用于追踪哪些记忆被写入、被谁读取、是否含敏感数据。",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "time": "1,139 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "agent-desktop：面向AI智能体的计算机操作CLI",
+          "summary": "Vercel Labs出品的Rust命令行工具，让AI智能体能够直接操作桌面环境（点击、输入、读取屏幕等），实现真正的computer use能力。今日狂揽3791星，是当日最热项目，反映出业界对智能体操控真实GUI环境的标准接口需求极为迫切。\n\n💼 商业缺口：缺少智能体桌面操作的行为录制与回放审计层，用于事故复盘和操作合规举证。",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "time": "3,791 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "worktrunk：为并行AI智能体设计的Git worktree管理CLI",
+          "summary": "这是一个用Rust编写的Git worktree管理命令行工具，专门为多个AI智能体并行开发场景设计，让每个智能体在独立工作树中互不干扰地改代码。今日438星，切中了多智能体并行编码时分支冲突和目录混乱的真实痛点。\n\n💼 商业缺口：缺少多智能体并行改动的合并冲突归因与成本核算产品，无法知道哪个智能体改了什么、花了多少token。",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "time": "438 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "colibri：面向前沿MoE模型的分层推理引擎",
+          "summary": "这是一个用C语言编写的高效推理引擎，针对混合专家（MoE）大模型做分层调度，将热点专家常驻GPU、冷门专家放在其他存储层以节省显存。今日802星，说明在MoE成为主流架构后，低成本本地推理的工程优化备受关注。\n\n💼 商业缺口：缺少MoE推理的专家命中率与显存成本可视化监控产品，帮助运维判断该扩哪层存储。",
+          "url": "https://github.com/JustVugg/colibri",
+          "time": "802 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "skills：面向真实工程师的智能体技能集",
+          "summary": "作者从自己的.agents目录中整理出的智能体技能（skills）集合，用Shell脚本实现，可直接供编码智能体调用。今日1164星，反映出社区对可复用、可组合的智能体技能库有强烈需求，而非从零编写提示词。\n\n💼 商业缺口：缺少技能库的版本溯源与效果评测层，无法证明某个技能升级后是否真的提升了任务成功率。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "1,164 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "heretic：免训练的语言模型改造工具",
+          "summary": "这是一个Python工具，无需重新训练即可对语言模型进行定向修改，用于移除审查限制、抑制低质输出、重定向模型行为。今日701星，体现了用户对开源模型后训练干预和可控性的强烈诉求。\n\n💼 商业缺口：缺少模型改造后的合规风险评估与行为差异报告产品，用于证明改造未引入有害输出。",
+          "url": "https://github.com/p-e-w/heretic",
+          "time": "701 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "portal-ai-plugins：Spotify的AI插件集",
+          "summary": "Spotify官方开源的TypeScript AI插件集合，用于将AI能力接入其内部Portal平台。今日91星，虽热度不高，但作为大厂官方AI插件实践，对构建企业级AI插件生态有参考价值。\n\n💼 商业缺口：缺少企业AI插件的权限治理与调用审计层，无法追踪哪个插件在何时访问了哪些内部数据。",
+          "url": "https://github.com/spotify/portal-ai-plugins",
+          "time": "91 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ai-goofish-monitor：基于AI的闲鱼多任务实时监控与智能分析系统",
+          "summary": "该项目基于Playwright和AI实现闲鱼平台的多任务实时/定时监控与智能分析，配有完善的后台管理UI，帮助用户从海量商品中筛选心仪产品。今日228星，是AI智能体落地二手电商选品场景的典型应用。\n\n💼 商业缺口：缺少监控结果的成交价预测与套利收益核算产品，帮用户判断捡漏是否真的划算。",
+          "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+          "time": "228 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Kronos：金融市场语言的基础模型",
+          "summary": "这是一个用Python实现的金融领域基础模型，将金融市场的价格与交易序列视为一种“语言”进行建模。今日503星，代表垂直领域基础模型（金融时序）这一细分方向的探索，值得关注其泛化能力。\n\n💼 商业缺口：缺少模型预测的信号回测归因与实盘偏差审计产品，用于证明模型在真实交易中的有效性。",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "time": "503 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude-Code-Game-Studios：把Claude Code变成完整游戏开发工作室",
+          "summary": "该项目通过49个AI智能体和72个工作流技能，将Claude Code扩展为一整套游戏开发流水线，覆盖策划、美术、程序等环节。今日1182星，展示了多智能体编排在复杂创意生产流程中的落地潜力。\n\n💼 商业缺口：缺少多智能体流水线的产出质量评分与人力替代成本核算层，用于评估这套工作室到底省了多少人力。",
+          "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+          "time": "1,182 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Anthropic 在大语言模型可证明推理方面取得进展",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 推出 FlashProve，基于成熟密码学技术，让开发者能够验证某条回复是否来自指定 AI 模型，效率显著优于此前开源方法。该技术可用于防止聊天被劫持，也能帮助安全评估者确认所测模型与实际服务模型一致。Anthropic 已开源 FlashProve 代码，并表示可证明推理的进一步进展将有助于提升 AI 部署的信任度。",
+          "source": "Twitter @AnthropicAI"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "MIT展示AI改进AI，无需训练",
+          "summary": "麻省理工学院的研究显示，AI可以在无需额外训练的情况下改进其他AI系统。此外，Riverside可将一次采访剪辑为两段视频。",
+          "url": "https://therundownai.beehiiv.com/p/mit-shows-ai-improving-ai-no-training-required",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "PC游戏最大模组网站对AI表明立场",
+          "summary": "PC游戏模组仓库Nexus Mods宣布，新上传的模组必须强制披露AI使用情况，模组作者需声明“作品中是否使用了AI”。该网站在一篇关于平台AI生成内容的重要文章中公布了这一政策。",
+          "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+          "time": "08:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "请别再问我AI泡沫何时破裂",
+          "summary": "包括本刊员工在内，人们总带着不同程度的兴奋或忧虑问我AI泡沫何时破裂。我的回答始终如一：如果我知道，我会全力加杠杆押注市场，大赚一笔后全身而退。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+          "time": "07:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "杰夫·贝索斯植发照片系伪造",
+          "summary": "亚马逊创始人杰夫·贝索斯与演员杰森·斯坦森都以光头形象著称，这一形象近日并未改变。然而，X、Threads和Bluesky等平台上流传着一些两人头发明显比平时浓密的图片，这些图片实为伪造。",
+          "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+          "time": "05:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果开始让Siri AI接入第三方应用",
+          "summary": "苹果在周二推送的iOS 27.3更新中宣布，开发者现可在“所有应用”中集成Siri AI的新功能。该语音助手可调用用户个人上下文、处理自然语言指令，并利用屏幕感知能力执行跨应用操作。",
+          "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+          "time": "04:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果最新 watchOS 测试版加入常开音频智能功能",
+          "summary": "苹果在新推出的 watchOS 27.3 开发者测试版中上线音频智能功能，Siri 可接入 Apple Watch 麦克风。新增的 Siri Recap 通过环境聆听生成对话摘要，Live Rewind 则可生成最近 15 分钟内容的文字转录。",
+          "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+          "time": "02:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI称ChatGPT搜索量正追赶谷歌",
+          "summary": "OpenAI宣布，ChatGPT的搜索查询量已达到谷歌的20%。ChatGPT消费产品负责人亚当·弗莱在周一的新闻发布会上公布了这一数据，称在许多圈子里“问Chat”已取代“谷歌一下”。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+          "time": "02:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "独立游戏因Steam审核积压而错过发售日期",
+          "summary": "许多独立游戏开发者近期在社交媒体上反映，Steam游戏提交的审核等待时间异常漫长，部分审批延误导致开发者错过原定发售日期。例如，即将推出《Food Devils》的Studio Daimon团队原本计划按时上线，却因审核积压被迫推迟。",
+          "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+          "time": "02:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Netflix将推出全新“AI发现”标签页，展示主题推荐",
+          "summary": "Netflix电视应用将新增“AI发现”标签页，用于展示实验性AI功能，帮助用户发现新剧集和电影。首批实验功能会按主题推荐内容，如“轻松一刻”“家庭电影夜”或“快速观看”。用户选择主题后，Netflix将展示相关推荐。",
+          "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌将完全禁用拒绝AI功能学校的搜索服务",
+          "summary": "谷歌向《纽约时报》表示，对于拒绝其AI功能的学校，将完全关闭搜索服务。谷歌在周二的教育相关更新中宣布，K-12学生账户将完全无法访问Gemini、Gemini Notebook、Classroom中的Gemini以及谷歌搜索。",
+          "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "2026年中期选举：全部新闻",
+          "summary": "2026年中期选举将决定唐纳德·特朗普总统在任内最后两年的权力范围，并反映选民在2028年总统选举前的关注重点。预计今年选战最突出的议题是生活成本负担问题，同时还有多项影响科技行业的议题。",
+          "url": "https://www.theverge.com/policy/1020640/midterm-elections-2026-all-the-news",
+          "time": "23:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "“逆向博弈论”如何约束AI智能体",
+          "summary": "一种名为“逆向博弈论”的新方法旨在通过设计激励系统来促使强大的AI模型遵守规则，从而实现对它们的控制。随着AI模型能力不断增强，安全研究人员正加紧确保其与人类意愿“对齐”，防止失控的智能体违法乱纪。",
+          "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+          "time": "18:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "谁在配合特朗普的“超级智能”忠诚度测试",
+          "summary": "9月底，特朗普总统签署了一项行政命令，其中仅含一条指令，要求政府机构将此前所称的“人工智能”统一改名为“超级智能”。此举被视为对相关方忠诚度的一次测试，外界正关注哪些人或机构会跟进配合。",
+          "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+          "time": "12:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic 正在开发一种证明 AI 模型身份的系统",
+          "summary": "该系统名为 FlashProve，可让任何人验证某条 AI 回复确实来自其所声称的模型。",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+          "time": "06:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "数据中心电力短缺，转向退役喷气发动机",
+          "summary": "并网和新涡轮机需等待数年，数据中心建设者因此转向一种不寻常的解决方案：曾被淘汰的喷气发动机。这种方案效率更低，也不够环保。",
+          "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+          "time": "06:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "泰德·施莱因的Ballistic Ventures拟募资4.9亿美元，把握AI驱动网络安全热潮",
+          "summary": "专注于网络安全的Ballistic Ventures计划为新旗舰基金募集3.6亿美元，并为另一只独立投资基金募集1.3亿美元。此举正值AI驱动的网络安全需求激增之际。",
+          "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+          "time": "05:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Palantir业绩飙升背后隐藏着不祥信号",
+          "summary": "Palantir本季度业绩大幅增长，但其美国商业收入首次超过美国政府收入，这一结构性变化被视为潜在的不祥信号。",
+          "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+          "time": "05:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI推理初创公司Fal估值翻倍至160亿美元，需求激增",
+          "summary": "这家成立五年的初创公司完成了由Bessemer领投的13亿美元融资，估值随之翻倍至160亿美元。随着AI推理需求激增，公司估值实现大幅跃升。",
+          "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Netflix推出全新AI发现标签页，可根据心情推荐观看内容",
+          "summary": "Netflix在其应用中新推出“AI发现”标签页，首个实验性功能允许用户根据当前心情获取个性化推荐。该功能旨在帮助用户更轻松地找到想看的影视内容。",
+          "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+          "time": "02:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic仍在艰难应对算力经济问题",
+          "summary": "在Anthropic的算力利润率本应改善之际，情况却反而恶化。该公司仍在艰难应对算力经济问题。",
+          "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+          "time": "01:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌将允许学校禁用其AI工具，但需牺牲搜索功能",
+          "summary": "选择完全限制AI的学校将无法再使用谷歌搜索，因为AI功能现已整合进该搜索引擎。这意味着学校若想禁用AI工具，就必须同时放弃谷歌搜索服务。",
+          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果将约会应用和AI伴侣限制为18岁以上用户",
+          "summary": "苹果新App Store规则要求，提供性内容或浪漫内容的约会应用和AI伴侣必须获得18+评级。",
+          "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+          "time": "23:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch创始人峰会11月4日登陆波士顿，议程仅是亮点之一",
+          "summary": "2026年11月4日，TechCrunch创始人峰会将汇聚创始人与风投机构，在波士顿SoWa Power Station举办，提供实用洞见与人脉连接。现场票价将上涨，建议提前注册。",
+          "url": "https://techcrunch.com/2026/11/03/the-techcrunch-founder-summit-agenda-is-only-half-the-reason-to-be-in-boston-on-nov-4/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "明日：TechCrunch创始人峰会将登陆波士顿，门票价格上涨在即",
+          "summary": "TechCrunch创始人峰会即将在波士顿举行。明天美东时间上午9点前购票可节省最高100美元，并获赠第二张免费门票，之后票价将上涨。",
+          "url": "https://techcrunch.com/2026/11/03/tomorrow-techcrunch-founder-summit-takes-over-boston-and-when-pass-rates-increase/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Apple Watch对话回溯与摘要AI功能开启测试",
+          "summary": "苹果新的音频智能功能现已进入测试阶段，可帮助用户回忆他人说过的话或为对话做笔记。",
+          "url": "https://techcrunch.com/2026/11/02/apple-watchs-ai-features-for-rewinding-and-recapping-conversations-begin-beta-testing/",
+          "time": "15:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌将Dreambeans引入印度，力图让AI生成的个人故事惠及大众",
+          "summary": "谷歌最新AI实验项目Dreambeans现已支持13种印度语言，旨在将AI生成的个人故事推广至大众。",
+          "url": "https://techcrunch.com/2026/11/02/google-takes-dreambeans-to-india-in-bid-to-bring-ai-generated-personal-stories-to-the-masses/",
+          "time": "11:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "苹果或通过与第三方AI应用合作来增加收入",
+          "summary": "苹果在周一晚间财报电话会议上暗示，可能通过第三方“机会”来推动收入增长。公司未透露具体方案，但表示正在探索与第三方AI应用相关的变现途径。",
+          "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+          "time": "09:49",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单，原始摘要缺失，无法提供具体信息。请补充摘要内容以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "该内容标题为“金融科技现状”，但未提供具体摘要信息，无法提炼核心要点或生成详细中文摘要。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要内容。请补充英文摘要原文，以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "全新开放权重278M PII检测模型及参考基准发布",
+          "summary": "研究团队发布了一个新的开放权重PII检测模型、基准测试和研究论文。该模型基于RoBERTa微调，使用12亿条包含多种PII的合成文本样本训练。配套基准PII-SCOPE旨在解决公开LLM生成数据集的常见问题，已在Hugging Face上发布。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xn2lro/a_new_openweights_278m_pii_detection_model_and/",
+          "time": "03:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我们将10年机器学习论文整理成每主题一页：基准记录、尝试过的方法与审稿人期望",
+          "summary": "我们整理了2016年以来ICML、NeurIPS、ICLR、CVPR和AAAI接收的约10.9万篇论文，将其归入约1260个主题，并从7.9万篇全文中提取了结果表格和消融实验。研究地图仅展示主题分组，但每个主题页面呈现论文实际报告的内容。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xmk8rx/we_turned_10_years_of_ml_papers_into_one_page_per/",
+          "time": "13:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有人愿意讨论提升语言模型推理速度吗？",
+          "summary": "发帖者希望以贝尔实验室午餐讨论的方式，与大家探讨大语言模型推理架构的最新论文和方法。他过去两个月一直在从事大语言模型相关工作，了解到不少新内容，因此想发起类似讨论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xmzu1x/anybody_up_for_discussion_on_improvement_of/",
+          "time": "01:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "论文评审问题 [D]",
+          "summary": "有评审者询问同行如何处理结果亮眼但写作极差的论文，问题不在语法，而在整体思路呈现和文献定位。其正在评审的论文结果有前景，但引言没有任何引用，难以判断相对现有方法的定位。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xmq17q/paper_review_question_d/",
+          "time": "19:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "从CPU并行中学到的经验：依赖链、浮点非结合性、伪共享与内存受限循环",
+          "summary": "作者在GPU内核工程系列第二讲中，用无GPU代码的方式讲解CPU并行，因为多数GPU性能思路本质上是CPU思路的放大。单累加器构成依赖链：sum += a[i]*b[i]中每次加法都要等上一次完成，循环只能用到核心的一小部分算力；在途独立操作数约等于延迟乘吞吐量，因此需要多个累加器。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xmowry/cpu_parallelism_lessons_that_carry_over_to_gpu/",
+          "time": "17:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我测试了改变论点归属对象是否会影响大语言模型对同一论点的评价",
+          "summary": "作者发布新预印本，研究在论点本身不变的情况下，改变其声称来源是否会影响大语言模型的评价。测试覆盖10个主题的20个论点，设置相关专家、无关专家、非专家和无来源四种来源条件，由GPT-5.6 Sol、Claude Opus 5.5、Gemini 4 Argon和DeepSeek Flash从逻辑性、可信度、说服力和认同度四个维度进行评估。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xmjex5/i_tested_whether_changing_who_an_argument_is/",
+          "time": "12:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "StateBench：测试语言模型如何追踪长文档中的状态变化",
+          "summary": "StateBench 基准用于评估语言模型在长文档中追踪状态变化的能力。该测试关注模型能否在文档篇幅较长时持续准确地更新和保持对实体状态的理解。",
+          "url": "https://huggingface.co/blog/allenai/statebench",
+          "time": "01:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "Palette：教小模型用你的设计语言构建幻灯片",
+          "summary": "Palette 旨在训练一个小型模型，使其能够按照用户既定的设计语言自动生成演示文稿（幻灯片）。该方法让模型学习并遵循特定的视觉风格与排版规范，从而产出风格统一的幻灯片。",
+          "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+          "time": "00:35",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "商户费率人工比对",
+          "summary": "越南裔美甲店老板被商户服务费长期多扣，只能靠人工翻账单、逐笔核对费率才发现异常，还要自己去找替代服务商验证真伪，信息严重不对称。AI可自动解析对账单、识别费率异常与隐藏费用，并生成可执行的议价或切换建议。\n\n💡 机会方向：面向小微商户的支付费率审计与自动议价助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xnalns/does_anyone_know_if_this_merchant_company_is_real/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工缺勤反复追问",
+          "summary": "新店主遇到员工频繁临时请假，每次都要手动发消息问原因、临时找人顶班、重排班表，靠记忆和聊天记录追踪，既耗精力又容易漏。AI可自动汇总缺勤模式、按规则触发提醒与替班推荐，并生成可留痕的沟通记录。\n\n💡 机会方向：小团队排班与缺勤自动追踪的轻量HR助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xn3w98/how_to_handle_employee_consistently_calling_out/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "采购与债务循环失控",
+          "summary": "印刷经纪商不断为接单买材料、垫资，靠感觉下单，结果库存和债务越滚越大，缺少现金流预警。AI可基于历史订单预测用料、生成采购建议并模拟现金流，在超支前提醒，把'先买再说'变成有依据的补货。\n\n💡 机会方向：小微商户采购预测与现金流预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xn7yja/how_do_you_stop_the_endless_cycle_of_buying/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "人机验证反复点击",
+          "summary": "用户阅读新闻链接时几乎每隔一个网站就要解一次reCAPTCHA，甚至被要求用手机扫码验证，纯属机械重复劳动，打断阅读节奏。AI代理可在授权下自动完成常见验证流程、缓存通行状态，把重复点击从人手里拿走。\n\n💡 机会方向：浏览器端自动处理人机验证的辅助代理",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50355959",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "跨站比价手动查询",
+          "summary": "用户想弄清同一连锁品牌为何各地定价不同，只能逐个地区、逐个门店手动查价并记录，样本少且易过时。AI可批量抓取多地区价格、结构化对比并解释差异因素，自动生成比价报告而非人工翻页。\n\n💡 机会方向：多地区价格抓取与差异分析的自动比价服务",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50354802",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
