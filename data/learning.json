@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-05",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "Datasette 的 LLM 插件修了个 bug：Agent 演示站里可用模型列表出错",
+      "whatIsIt": "datasette-llm 是给 Datasette（一个把数据快速变成可查询网页的工具）加 LLM 能力的插件，这次 0.1a10 版本修的是「可用模型清单」在 agent 演示站上显示/加载不正确的问题。",
+      "boundary": "能做到：把 LLM 调用封装成插件，让数据工具按配置好的模型清单去调用；做不到：模型清单本身不会自动保持正确——一旦配置、环境或上游模型服务变化，清单就会失配，需要人工排查和发版修复。前提/代价是：这类「胶水层」组件看似小，但它是 agent 能否稳定跑起来的关键依赖，出问题往往表现为「agent 行为异常」而非明显报错，排查成本高。",
+      "whyLearn": "这是典型的「agent 落地时的隐形故障点」案例：真正让 demo 挂掉的常常不是模型能力，而是模型清单、配置、依赖版本这类工程细节。她可以用它来校准一个判断——评估 agent 方案时，要问「模型/工具清单怎么维护、失配了怎么发现」，而不是只看模型效果。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "id": "0d42c35b898b",
+      "date": "2026-11-05"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "Latent Space 幕后：做 AI 产品/内容团队的内部运作与 2026 判断",
+      "whatIsIt": "Latent Space 的一期「幕后」内容，讲他们团队自己怎么运作、怎么用 AI，以及对 2026 年 AI 与 SaaS 走向的一些判断。",
+      "boundary": "能做到：提供一线从业者对 AI 工具在真实小团队里怎么用的观察和观点；做不到：这是经验性、观点性的分享，不是可复现的方法论或架构说明，也没有具体的技术实现细节和量化代价。前提/代价是：需要她自己从泛谈里筛出可用的判断，信息密度不稳定。",
+      "whyLearn": "价值有限但可作背景音：帮她感受「AI 原生小团队」的工作方式和对 SaaS 被冲击的判断，用于校准自己对行业节奏的预期。但不应作为技术边界判断的主要依据，优先级低于具体实现/失败案例类内容。",
+      "source": "Latent Space",
+      "url": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
+      "id": "4e1df14a5a41",
+      "date": "2026-11-05"
+    },
     {
       "category": "技术边界",
       "title": "大模型能直接读写神经网络权重：权重空间编程",

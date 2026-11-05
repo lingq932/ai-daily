@@ -1,0 +1,606 @@
+{
+  "date": "2026-11-05",
+  "timeRange": "2026-11-04 09:00 ~ 2026-11-05 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Nothing下月发布无屏AI设备",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Nothing CEO裴宇在X上宣布，公司将于12月推出首款AI设备，距离其公布\"AI原生\"设备及AI操作系统计划仅一年多。他未透露设备具体形态，仅提及其中一项",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "这家智能手机初创公司尚未透露具体产品形态，但Nothing CEO表示该设备旨在利用AI提升生产力。产品将于下月正式亮相。",
+              "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/"
+            }
+          ]
+        },
+        {
+          "headline": "优步AI代理叫车几乎无人使用",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "优步高管在财报电话会上披露，2026年第三季度仅有4次行程由第三方AI代理安排。相比之下，AI代理完成的优步外卖订单量略高，约为500单。",
+              "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "优步表示，在上季度最繁忙的一周里，仅有四人通过AI代理完成叫车。这一数据表明，尽管AI代理备受关注，但实际用于预订优步行程的用户极少。",
+              "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
+            }
+          ]
+        },
+        {
+          "headline": "苹果Siri AI功能开放",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "苹果在Siri的AI能力上作出有限开放，具体细节尚未完全披露。此外，还介绍了如何将一张产品照片转化为三张棚拍风格图片的实用技巧。",
+              "url": "https://therundownai.beehiiv.com/p/apple-cracks-the-door-open-to-siri-ai"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "苹果由AI驱动的Siri摘要功能仅用一天就打动了我，尽管我对隐私仍有顾虑。不过该功能仍有改进空间。",
+              "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：Cinnamon——更安全的AI代理，适用于家庭、私人和共享上下文",
+          "summary": "文章链接：https://getcinnamon.ai/ 评论链接：https://news.ycombinator.com/",
+          "url": "https://getcinnamon.ai/",
+          "time": "08:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：BrowserForge——AI代理使用你的真实浏览器，由你批准点击操作",
+          "summary": "文章链接：https://github.com/zoghlamimostafa/BrowserForge-MCP 评论链接：h",
+          "url": "https://github.com/zoghlamimostafa/BrowserForge-MCP",
+          "time": "07:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Amigent——通过50 KB/s网络为Commodore Amiga提供的AI代理和远程桌面",
+          "summary": "文章链接：https://github.com/akustikrausch/amigent 评论链接：https://news",
+          "url": "https://github.com/akustikrausch/amigent",
+          "time": "06:07",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA/auto-ontology：构建语义图推理的Python框架",
+          "summary": "NVIDIA推出的Python框架，用于构建基于语义图的推理系统，将本体论与图结构结合以支持可解释的AI推理。今日新增2050星，背靠NVIDIA生态，值得关注其在知识图谱与大模型结合场景中的潜力。\n\n💼 商业缺口：缺少面向企业的本体版本治理与推理结果审计层，用于证明推理链路合规可追溯。",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "time": "2,050 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "max-sixty/worktrunk：面向并行AI代理的Git工作树管理CLI",
+          "summary": "用Rust编写的命令行工具，专门管理Git worktree，让多个AI代理可以并行在独立工作树上操作而不互相干扰。今日531星，解决了多代理协作开发中的分支冲突痛点，是AI编码代理基础设施的有益补充。\n\n💼 商业缺口：缺少多代理并行操作的冲突审计与成本归属层，无法追踪哪个代理改了什么、花了多少。",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "time": "531 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills：面向真正工程师的代理技能集",
+          "summary": "直接来自作者.agents目录的Shell脚本技能集合，为AI编码代理提供可复用的工程技能模块。今日1379星，反映了社区对代理技能标准化的强烈需求，适合作为代理工作流的起点。\n\n💼 商业缺口：缺少技能来源可信度验证与采用证据层，企业无法证明所用技能经过审查。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "1,379 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "thedotmack/claude-mem：跨会话的代理持久上下文",
+          "summary": "TypeScript项目，为每个AI代理捕获并持久化跨会话的上下文记忆，解决代理每次对话从零开始的痛点。今日1172星，记忆层是代理实用化的关键短板，该项目填补了这一空白。\n\n💼 商业缺口：缺少记忆数据的隐私合规审计与保留策略管理层，企业难以满足数据治理要求。",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "time": "1,172 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "vercel-labs/agent-desktop：AI代理的计算机使用CLI",
+          "summary": "Vercel实验室用Rust打造的CLI工具，让AI代理能够操作桌面环境完成计算机使用任务。今日2470星高居榜首，背靠Vercel品牌，是代理从聊天走向实际操作的重要基础设施。\n\n💼 商业缺口：缺少代理桌面操作的权限边界与行为审计层，无法证明代理未越权操作。",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "time": "2,470 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "github/spec-kit：SDD流程入门工具包",
+          "summary": "GitHub官方推出的Python工具包，帮助团队快速上手规范驱动开发（SDD）等流程，为AI辅助开发提供结构化规范。今日808星，官方背书使其有望成为代理时代开发流程的事实标准。\n\n💼 商业缺口：缺少规范执行的一致性证据与流程合规审计层，难以证明团队真正遵循了SDD。",
+          "url": "https://github.com/github/spec-kit",
+          "time": "808 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "The-PR-Agent/pr-agent：原始开源PR审查代理",
+          "summary": "Python编写的开源PR审查代理，强调是该创意的原始实现而非Qodo分叉。今日280星，代码审查是LLM落地最成熟的场景之一，该项目为团队提供可自托管的审查自动化方案。\n\n💼 商业缺口：缺少审查建议采纳率与误报成本的量化层，团队无法评估代理审查的实际ROI。",
+          "url": "https://github.com/The-PR-Agent/pr-agent",
+          "time": "280 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "harry0703/MoneyPrinterTurbo：AI一键生成高清短视频",
+          "summary": "利用AI大模型和自动化工作流，根据主题或关键词一键生成高清短视频的Python项目。今日617星，生成式AI视频创作需求旺盛，该项目降低了短视频生产门槛，适合内容创作者。\n\n💼 商业缺口：缺少生成内容的版权溯源与平台合规检测层，创作者难以证明素材授权链。",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "time": "617 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "garrytan/gstack：Garry Tan的Claude Code配置集",
+          "summary": "TypeScript项目，复刻投资人Garry Tan的Claude Code配置，包含23个有主见的工具，分别扮演CEO等角色辅助开发。今日290星，名人配置分享反映了社区对代理角色化工作流的探索热情。\n\n💼 商业缺口：缺少角色化代理配置的效果验证与采用证据层，无法证明这套配置真能提升产出。",
+          "url": "https://github.com/garrytan/gstack",
+          "time": "290 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "FareedKhan-dev/kimi-k3-in-c：单CPU运行2.78万亿参数Kimi K3",
+          "summary": "用C语言实现的推理项目，声称在单颗CPU、8.24GB内存下运行2.78万亿参数的Kimi K3模型。今日351星，极端量化与高效推理是降低大模型部署成本的关键方向，技术探索价值高。\n\n💼 商业缺口：缺少推理性能与精度损失的第三方基准审计层，用户难以验证其宣称的可行性。",
+          "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+          "time": "351 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Thysrael/Horizon：AI驱动的个人新闻雷达",
+          "summary": "Python项目，打造AI驱动的新闻雷达，每日生成中英文双语简报。今日121星，个性化信息聚合是LLM的实用场景，双语输出适合跨语言信息获取需求。\n\n💼 商业缺口：缺少新闻来源可信度评级与摘要偏差审计层，用户难以判断简报的客观性。",
+          "url": "https://github.com/Thysrael/Horizon",
+          "time": "121 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "scenario-labs/skills：为任意AI代理提供生产级多媒体生成技能",
+          "summary": "Python技能集，让任意AI代理生成生产级图片、视频、音频和3D内容。今日224星，多模态生成是代理能力扩展的前沿，该项目以技能形式降低了接入门槛。\n\n💼 商业缺口：缺少生成资产的授权凭证与商用合规层，企业无法证明产出可安全商用。",
+          "url": "https://github.com/scenario-labs/skills",
+          "time": "224 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "苹果为Siri AI打开大门",
+          "summary": "苹果在Siri的AI能力上作出有限开放，具体细节尚未完全披露。此外，还介绍了如何将一张产品照片转化为三张棚拍风格图片的实用技巧。",
+          "url": "https://therundownai.beehiiv.com/p/apple-cracks-the-door-open-to-siri-ai",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "高通押注数据中心业务，以应对智能手机销量下滑",
+          "summary": "由于智能手机销量较2025年下降约20%，高通希望借助数据中心业务提振营收。在2026年第四季度财报电话会议上，该公司公布了进军AI数据中心业务的计划，包括此前宣布的与亚马逊和Meta等公司的合作。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
+          "time": "06:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "埃隆·马斯克本可以更好浪费4.46亿美元的17种方式",
+          "summary": "在社交媒体上花费过多时间的一大问题是，阅读一群博眼球疯子的帖子会烧坏你的大脑。如果你选择的社交媒体是前身为推特的网站，并且它是你与外界联系的主要渠道，那么你……",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+          "time": "05:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Gemini for Home 现已接入 AT&T 智能安防系统",
+          "summary": "AT&T 的智能家居安防系统 Connected Life 现已与 Gemini for Home 集成，成为首个接入 Google Home Premium 的家用安防产品。此次更新带来多项 Gemini 驱动的功能，可汇总家庭事件、搜索视频历史记录等。",
+          "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+          "time": "04:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Nothing预告下月发布无屏AI设备",
+          "summary": "Nothing CEO裴宇在X上宣布，公司将于12月推出首款AI设备，距离其公布\"AI原生\"设备及AI操作系统计划仅一年多。他未透露设备具体形态，仅提及其中一项功能。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei",
+          "time": "02:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "我的心理医生建议我把亚马逊Bee Frontier扔出窗外",
+          "summary": "这是The Verge高级评测员Victoria Song的每周通讯《Optimizer》，剖析那些声称能改变生活的最新小工具。作者在心理治疗中常被问及感受，而这款亚马逊Bee Frontier可穿戴设备显然让她产生了把它扔出窗外的冲动。",
+          "url": "https://www.theverge.com/column/1026464/optimizer-amazon-bee-frontier-ambient-listening-wearables",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "ChatGPT 现在可以为你制作动态 GIF 了",
+          "summary": "ChatGPT 现已支持通过提示词或上传照片生成 GIF。该功能随 OpenAI 新的 Images 2.6 模型一同推出，用户可调整动画速度、编辑单帧并分享。此前 ChatGPT 无法原生一次性生成 GIF。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "数据中心在中期选举中受挫",
+          "summary": "数据中心开发商即将面临更严格的建建环境，因为全国选民选出了支持暂停令和公投措施的候选人，这些措施将给数据中心扩张设置更多障碍，对AI行业的核心支柱造成沉重打击。据NBC新闻民调，76%的选民……",
+          "url": "https://www.theverge.com/policy/1026365/data-centers-midterms-results",
+          "time": "00:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "优步上季度仅完成4单AI代理叫车服务",
+          "summary": "优步高管在财报电话会上披露，2026年第三季度仅有4次行程由第三方AI代理安排。相比之下，AI代理完成的优步外卖订单量略高，约为500单。",
+          "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+          "time": "23:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "山姆·奥特曼回应内存言论：人们应“在电脑里想装多少就装多少”",
+          "summary": "OpenAI CEO 山姆·奥特曼在大选之夜为其关于个人电脑内存购买的观点辩护。他回应另一位用户的评论，将自己的 X 用户名改为“Ram Altman”，并表示他确实希望世界拥有大量内存，让人们能在电脑里想装多少就装多少。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+          "time": "22:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌尚未找到让AI像搜索引擎一样盈利的方法",
+          "summary": "Alphabet财报显示，搜索查询量正以五年来最快速度增长，但谷歌第三季度搜索收入同比增速从上一季度的约17%放缓至12%。与此同时，付费点击（广告点击）的增长也面临压力。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "得州曾是AI数据中心建设的新中心，如今或成泡影",
+          "summary": "得州是美国增长最快的数据中心市场，也是大型科技公司AI建设的核心地带。但席卷该州的蓝色浪潮可能危及这一地位：民主党人詹姆斯·塔拉里科击败肯·帕克斯顿赢得参议院席位，吉娜·希诺霍萨击败共和党现任州长赢得州长竞选。",
+          "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "time": "02:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "以数据血缘保障智能体企业安全",
+          "summary": "销售代表向AI智能体询问客户定价，智能体从受限定价系统、内部通讯和归档报价等多个来源提取数据。输出对智能体而言看似准确，于是第二个智能体据此为销售代表起草提案，两次交接均无人工核查。",
+          "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI政治行动委员会斥资数百万试图影响国会——结果如何",
+          "summary": "AI行业政治行动委员会在2026年中期选举中投入数百万美元施加影响，结果喜忧参半。相关政治团体已开始着眼于下一个选举周期。",
+          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+          "time": "06:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nothing CEO称公司神秘的AI优先设备将于下月发布",
+          "summary": "这家智能手机初创公司尚未透露具体产品形态，但Nothing CEO表示该设备旨在利用AI提升生产力。产品将于下月正式亮相。",
+          "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+          "time": "06:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "优步称几乎无人使用AI代理叫车",
+          "summary": "优步表示，在上季度最繁忙的一周里，仅有四人通过AI代理完成叫车。这一数据表明，尽管AI代理备受关注，但实际用于预订优步行程的用户极少。",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+          "time": "05:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI已着手塑造2028年大选",
+          "summary": "OpenAI的克里斯·莱汉希望让人工智能定义2028年大选，提出一项新社会契约，既惠及美国民众，也推进这家AI巨头的自身商业利益。",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+          "time": "05:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta收购AI编程初创公司Conductor",
+          "summary": "该初创公司允许软件工程师部署智能体团队，同时处理项目的各个方面。Meta已将其收购，具体交易金额未披露。",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "time": "05:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "开源AI蓬勃发展，Hugging Face解读谁在获益",
+          "summary": "开源模型正日益主流化，企业、政府和初创公司都看重其低成本、高可控性和灵活性。但随着能力更强的模型愈发免费开放，公司如何实现价值变现？在中国开源模型崛起的背景下，美国玩家能否跟上步伐？",
+          "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+          "time": "03:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "DuckDuckGo 借谷歌 AI 政策争议向学校推广",
+          "summary": "DuckDuckGo 正吸引对谷歌 AI 限制不满的学校，向教育工作者推荐其搜索引擎及关闭 AI 功能的选项。",
+          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/",
+          "time": "03:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "构建开源AI？Hugging Face政策负责人谈成本、风险与权衡",
+          "summary": "开源模型正日益主流化，企业、政府和初创公司都看重其低成本、高可控性和灵活性。但随着能力更强的模型免费开放，企业如何获取价值？面对中国开源模型的崛起，美国玩家能否跟上？Hugging Face政策负责人在本期节目中探讨了这些问题。",
+          "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
+          "time": "02:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "我试用了苹果的Siri摘要功能：出奇地实用，却也有些令人不安",
+          "summary": "苹果由AI驱动的Siri摘要功能仅用一天就打动了我，尽管我对隐私仍有顾虑。不过该功能仍有改进空间。",
+          "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/",
+          "time": "00:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌因限制AI的学校关闭搜索的计划面临强烈反对",
+          "summary": "纽约市长佐兰·马姆达尼和前联邦贸易委员会主席莉娜·汗等左翼政界人士指责谷歌充当不受监管的垄断企业。争议源于谷歌计划对限制使用AI的学校关闭搜索服务。",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+          "time": "00:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "TechCrunch创始人峰会2026：美东时间上午9点在波士顿开幕",
+          "summary": "TechCrunch创始人峰会2026今日在波士顿SoWa Power Station举行。这场面向创始人的会议现已开放注册，欢迎即刻报名参加。",
+          "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单相关，但原始摘要缺失，无法提取具体信息。请补充摘要内容以便生成精简中文摘要。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原始摘要未提供具体内容，无法生成精简摘要。请补充摘要文本以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文仅提供标题“State of Insurtech”，未附摘要内容，无法翻译或精简摘要。请补充摘要原文以便处理。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "致顶级会议的一封信",
+          "summary": "作者近期参加了两场AI会议，惊讶地发现\"AI作弊者\"在演讲前甚至没有读过自己的论文：有人被问及论文中如何表示知识图谱时思考了五分钟才回答\"用向量\"，还有人毫无羞耻地当场打开ChatGPT输入问题并朗读答案。作者呼吁顶级会议在拒稿环节严格把关，坚决拒收AI生成的论文。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnkbeu/a_message_to_top_tier_conferences_d/",
+          "time": "17:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "为什么学术会议不能合理降低投稿数量上限？",
+          "summary": "根据2027年CVPR指南，每位作者最多可提交25篇论文，超出部分将被程序主席直接拒稿。有研究者讽刺道，这等于允许作者广撒网投出25篇低质量论文，指望碰上粗心或缺乏经验的审稿人而侥幸过审。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnscvr/why_cant_conferences_just_reasonably_reduce_the/",
+          "time": "00:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "循环Transformer能节省HBM带宽吗？在B200上分析Huginn的权重复用",
+          "summary": "循环Transformer在每次迭代中复用相同权重，是否也能节省HBM带宽？作者分析了Huginn的循环架构，并在B200上建模测量其性能：每次迭代从内存读取多少数据、耗时多久，以及共享权重为何通常无法留在片上直到下一次迭代。结果显示，一条由八个矩阵乘法组成、共享单个72 MiB权重的链，比使用八份相同副本的同一链快24%。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnskvt/do_looped_transformers_save_hbm_traffic_profiling/",
+          "time": "00:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Hydrogen-1.0：开放权重科学模型在FSR基准上超越GPT-6 Astra，预估输出成本低72%",
+          "summary": "Deep Principle团队发布Hydrogen-1.0，这是基于GLM-5.3后训练的开放权重模型，面向化学、材料科学与生命科学领域。在FrontierScience Research评测中，其通过率为38.3%，超过GPT-6 Astra最高思考模式的33.3%，领先5个百分点；单题预估输出成本为0.25美元，较后者的0.88美元低约72%。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnjhdd/hydrogen10_openweight_scientific_model_beats_gpt6/",
+          "time": "17:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS悉尼参会者签证情况",
+          "summary": "有参会者反映NeurIPS悉尼会议的签证处理时间过长（近一个月），即使提供邀请函和完整材料也未必能通过，已有朋友被拒签。主办方在签证未获批的情况下也未予回应，发帖者询问是否有人遇到类似情况。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnh0uh/visa_situation_for_neurips_sydney_attendees_d/",
+          "time": "14:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Chinchilla缩放定律实验（跟随DeepMind）[R]",
+          "summary": "向群里的博士和研究工程师提问：是否有人用PyTorch或JAX对Chinchilla缩放定律做过小规模实验？如有兴趣欢迎交流。附DeepMind官方Chinchilla论文《Training Compute-Optimal Large Language Models》链接。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnbdx0/experiments_with_chinchilla_scaling_laws/",
+          "time": "09:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "AI能读取神经网络权重，我还没准备好接受这件事",
+          "summary": "将包含17253个参数的神经网络以纯文本token形式输入模型后，模型能推断出该网络在玩吃豆人游戏。Astra、Opus 5.5和Muse Spark 1.3均成功完成，其中Astra仅需极少推理。由于无人专门撰写解释特定权重功能的文章，这种能力来源成谜：要么是实验室专门训练，要么是模型泛化能力远超预期，作者倾向于后者并感到不安。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xnb5ju/ai_can_read_neural_network_weights_i_wasnt_ready/",
+          "time": "09:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "Dharma Field Extractor：任意文档输入，JSON 结构化字段输出",
+          "summary": "Dharma Field Extractor 是一款文档信息抽取工具，支持将任意格式的文档作为输入，自动提取关键信息并以 JSON 结构化字段输出。该工具旨在简化文档数据处理流程，便于后续系统集成与自动化处理。",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "time": "01:50",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "活动推广拉人",
+          "summary": "小企业主花数月筹备纽约快闪店，距开业仅一周只有50个RSVP，只能靠朋友手动发帖、私信、找渠道拉人，焦虑且低效。AI可自动生成多渠道推广文案、批量个性化邀约本地社群与KOL、按人群定向投放并追踪转化，快速补齐报名缺口。\n\n💡 机会方向：面向线下活动的AI多渠道推广与本地受众定向邀约工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xnsbuc/we_spent_months_planning_a_soho_popup_and_only/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "跨境找货源代理",
+          "summary": "创业者做智能戒指品牌，需在深圳手动筛选、背调、比价 sourcing agent，反复邮件沟通验厂与打样，周期长且信息不透明。AI可抓取供应商资质与评价、自动比价议价、生成询盘与验厂清单并跟踪进度，把数周筛选压缩到几天。\n\n💡 机会方向：AI驱动的跨境供应商搜寻、背调与询盘自动化平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xnwrgk/looking_for_a_reliable_sourcing_agent_in_shenzhen/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户站点迁移VPS",
+          "summary": "共享主机在客户促销期间宕机6小时，无root权限无备份，只能手动迁移站点到自建VPS，逐站配置、导数据、验证，风险高又耗时。AI可自动盘点站点依赖、生成迁移脚本、执行备份校验与回滚预案，并持续监控可用性。\n\n💡 机会方向：面向小团队的AI站点迁移与托管健康监控助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xo01w7/moving_client_sites_to_our_own_vps/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "亚马逊订单异常申诉",
+          "summary": "卖家订单被亚马逊系统自动取消，已与平台周旋一个多月，反复提交材料、跟进工单、猜测规则触发原因，进展缓慢。AI可归因订单取消规则、自动生成合规申诉信与证据包、跟踪工单状态并提醒升级路径，减少重复沟通。\n\n💡 机会方向：电商平台账号健康诊断与自动申诉工单助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xnw4qx/amazon_automatically_cancels_all_our_orders/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "信用卡盗刷排查",
+          "summary": "企业主发现信用卡被陌生公司A-leads扣款，从未注册过，需手动核对账单、回忆授权记录、联系银行争议并防再犯。AI可自动比对交易与授权记录、识别异常商户、生成争议材料并设置订阅扣款监控告警。\n\n💡 机会方向：中小企业支出异常检测与自动争议处理工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xo3ep5/fraudulent_charge/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
