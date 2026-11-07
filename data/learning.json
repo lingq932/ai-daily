@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "产品不够好，就别让用户为AI的代价买单",
+      "whatIsIt": "Nilay Patel 的一句判断：当产品体验还撑不起成本时，你不能要求用户忍受AI的'噪音'（慢、错、贵）。",
+      "boundary": "能做到：用AI做出功能原型、演示效果。做不到：在体验没打磨好时让用户接受延迟、幻觉、订阅涨价这些代价。前提是产品价值必须明显超过用户感知到的摩擦成本，否则再强的模型也卖不动。",
+      "whyLearn": "帮你判断'这个AI功能该不该上线'——技术可行不等于用户愿意付代价。做需求评审时能问对问题：我们让用户承担了什么成本？值不值？",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "id": "0491af650884",
+      "date": "2026-11-07"
+    },
+    {
+      "category": "技术实现",
+      "title": "用AI控制生物学：单细胞层面的系统建模",
+      "whatIsIt": "Fabian Theis 讲如何用机器学习把生物系统（细胞、基因表达）在高分辨率、多模态下建模，本质是'生物版的大规模数据+模型'。",
+      "boundary": "能做到：在已有测量数据上做模式识别、跨模态整合、预测细胞状态。做不到：脱离数据凭空推断生物机制，实验验证仍是硬约束。代价是数据获取极贵、噪声大、可解释性弱。",
+      "whyLearn": "理解'AI+科学'这类选题的真实边界：模型是数据的放大器，不是替代实验。以后评估任何'AI for Science'产品，先问数据从哪来、验证靠什么。",
+      "source": "Latent Space",
+      "url": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
+      "id": "f223a98b2355",
+      "date": "2026-11-07"
+    },
+    {
+      "category": "技术实现",
+      "title": "一次大模型训练长什么样：68小时、12T token 的账本",
+      "whatIsIt": "Inkling 2 Small 的训练复盘：17A-594B 的模型在68小时内喂了12万亿 token，附带 METR 对 Anthropic AI 研究的观察。",
+      "boundary": "能做到：用工程化流水线在几天内完成一次大规模训练，说明训练已高度标准化。做不到：这种规模不是小团队能复现的，算力、数据、调优都是门槛。代价是巨额算力与数据成本，且效果提升未必线性。",
+      "whyLearn": "建立'训练一个大模型到底要什么'的量感——时间、数据、算力三件套。以后听供应商吹模型，能估算背后的真实投入和不可复制性。",
+      "source": "Latent Space",
+      "url": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "id": "e10bfcfab883",
+      "date": "2026-11-07"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "写代码变快了，但周围的活没变快：agentic engineering 指南",
+      "whatIsIt": "GitHub 的文章：代码生成只是其中一环，真正的瓶颈在计划、评审、排查这些'代码周边'的工作，讲怎么用 agent 把整条链路串起来。",
+      "boundary": "能做到：用 agent 加速编码、辅助 review、自动排查问题。做不到：单靠生成代码就提升交付效率——计划、评审、调试、协作这些环节不改造，速度红利会被吞掉。前提是团队流程要围绕 agent 重构，代价是前期磨合和信任建立。",
+      "whyLearn": "这正是你要的'vibe coding 怎么落成闭环'：告诉你瓶颈不在写代码，而在流程。做企业落地方案时，重点该放在评审、验证、责任归属这些环节，而不是只买编码工具。",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/",
+      "id": "3f0658da8b3b",
+      "date": "2026-11-07"
+    },
     {
       "category": "技术边界",
       "title": "浏览器本身就是最强的应用运行平台，代价是你要接受它的约束",

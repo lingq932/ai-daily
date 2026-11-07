@@ -1,0 +1,589 @@
+{
+  "date": "2026-11-07",
+  "timeRange": "2026-11-06 09:00 ~ 2026-11-07 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "OpenAI以1.25万亿美元估值融资",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "据彭博社报道，OpenAI在新一轮融资中再筹110亿美元，估值达1.25万亿美元，成为全球市值最高公司之一。此前3月，该公司刚以8520亿美元估值从投资者处筹集",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "据报道，OpenAI在一轮尚未完成、预计未来几周内结束的融资中追加筹集了110亿美元。此轮融资对OpenAI的估值为1.25万亿美元。",
+              "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/"
+            }
+          ]
+        },
+        {
+          "headline": "Meta推出Muse/Spaces智能体",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Meta允许用户在Muse中构建定制化、类应用体验，新功能名为“空间”，可让AI助手创建购物中心、学校仪表盘、音乐追踪器、问答游戏等，用户可直接在Muse应用中",
+              "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Meta的Muse智能体持续获得新功能与集成。Spaces承诺提供一种与AI助手互动的新方式。",
+              "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/"
+            }
+          ]
+        },
+        {
+          "headline": "亚马逊Alexa短信购物功能",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "亚马逊为Alexa购物功能新增一项特性，允许用户通过短信向AI购物助手购买商品。用户可描述想买的产品或提供商品照片，Alexa将在亚马逊商品中搜索匹配结果并回复",
+              "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "亚马逊表示，该功能将在未来几周内向数百万用户推出。",
+              "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic临近IPO",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "据彭博社报道，OpenAI在新一轮融资中再筹110亿美元，估值达1.25万亿美元，成为全球市值最高公司之一。此前3月，该公司刚以8520亿美元估值从投资者处筹集",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "AI使用量持续攀升，但支出却陷入停滞。大额支出方通过降价和更精细的成本控制，可能动摇投资者对AI高速增长的预期。",
+              "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "crystl | 面向AI编程代理的多任务终端，专为macOS打造",
+          "summary": "面向AI编程代理的多任务终端，专为macOS打造",
+          "url": "https://www.producthunt.com/products/crystl-multitasking-terminal",
+          "time": "10:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: SlopSlot——Claude Code里的老虎机 | 因为感觉就是这样。claude plugin install slopslot --marketplace ga",
+          "summary": "Claude Code里的老虎机插件，因为使用体验就像这样。",
+          "url": "https://github.com/gajus/slopslot",
+          "time": "08:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Goethe——自托管AI的基础设施",
+          "summary": "我们推出Goethe，因为在你掌控的硬件上部署模型可以端到端……",
+          "url": "https://github.com/meshapplied/Goethe",
+          "time": "08:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: NKTgAI——先分析文本，再生成（以及为什么这不是RAG）",
+          "summary": "先分析文本再生成内容的方法，并解释其与RAG的区别。",
+          "url": "https://nktg.org/",
+          "time": "08:13",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Cinnamon——具备共享上下文和记忆的家庭AI代理",
+          "summary": "Cinnamon是一个家庭AI代理，拥有共享上下文和记忆功能。",
+          "url": "https://getcinnamon.ai/",
+          "time": "07:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA/auto-ontology：构建语义图推理的Python框架",
+          "summary": "这是NVIDIA推出的Python框架，用于构建基于语义图的推理系统，帮助开发者把知识组织成可推理的图谱结构。今日新增2015星，说明市场对可解释、结构化的AI推理方案需求旺盛，尤其适合需要知识建模的智能体应用。\n\n💼 商业缺口：缺少面向企业的本体版本管理、推理结果审计与合规追溯层。",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "time": "2,015 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google/skills：Google产品与技术的智能体技能库",
+          "summary": "这是Google官方发布的智能体技能集合，让AI Agent能够调用Google各类产品和技术能力。今日534星，反映开发者对标准化Agent能力接入的强烈兴趣，是构建实用AI工作流的重要基础设施。\n\n💼 商业缺口：缺少跨厂商技能兼容性认证与技能调用成本/权限治理层。",
+          "url": "https://github.com/google/skills",
+          "time": "534 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mattpocock/skills：面向真实工程师的智能体技能集",
+          "summary": "该仓库直接来自作者的.agents目录，提供一套面向实际工程场景的Agent技能配置。今日暴涨2070星，说明开发者急需可直接复用的Agent技能模板，而非从零搭建。\n\n💼 商业缺口：缺少技能质量评估、版本锁定与团队共享采用的证据层。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "2,070 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cloudflare/security-audit-skill：多阶段安全审计的编码智能体技能",
+          "summary": "这是Cloudflare推出的编码Agent技能，用于执行多阶段安全审计并支持独立验证结果。今日2548星领跑榜单，凸显AI驱动的自动化安全审计正成为刚需，尤其适合CI/CD集成。\n\n💼 商业缺口：缺少审计结论的可信度评分、误报追踪与合规报告生成层。",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "time": "2,548 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "MiniMax M3.1 Flash 上线 Fireworks AI，旧金山举办 Code & Cocktails 活动",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 的 M3.1 Flash 模型已在 Fireworks AI 平台上线。双方将于 11 月 10 日在旧金山举办 Code & Cocktails 活动，由 Fireworks 的 Sinan Ozdemir 与 MiniMax 的 Victor Su-Ortiz 对谈，探讨该模型如何面向长时间运行的智能体构建、编程与工具调用及视觉推理如何协同，以及更便宜的缓存 token 对智能体循环成本的影响。",
+          "source": "Twitter @MiniMax_AI"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "深入探访Anthropic的AI加速内幕",
+          "summary": "深入探访Anthropic的AI加速内幕。此外，还介绍如何利用AI寻找工作并为求职成功做好准备。",
+          "url": "https://therundownai.beehiiv.com/p/an-inside-look-at-anthropic-s-ai-speedup",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "OpenAI估值达1.25万亿美元，竞争对手Anthropic临近IPO",
+          "summary": "据彭博社报道，OpenAI在新一轮融资中再筹110亿美元，估值达1.25万亿美元，成为全球市值最高公司之一。此前3月，该公司刚以8520亿美元估值从投资者处筹集1220亿美元。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+          "time": "07:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "中国被曝招募AI高管监视黄仁勋",
+          "summary": "据《纽约时报》报道，中国国家安全部招募了Megaspeed高管Alice Huang监视英伟达CEO黄仁勋，以获取美国AI芯片信息，并试图影响该公司推动最先进芯片对华供应。",
+          "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "time": "07:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI数据中心最新动态",
+          "summary": "大型新建数据中心是科技公司实现AI愿景的物理基础，但全球范围内对高耗能服务器集群的扩张引发了关于电网负荷、电费、周边社区和环境影响的争议。数据中心已成为两党共同关注的重要议题。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+          "time": "04:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Meta的Muse AI可为你即时创建定制化应用“空间”",
+          "summary": "Meta允许用户在Muse中构建定制化、类应用体验，新功能名为“空间”，可让AI助手创建购物中心、学校仪表盘、音乐追踪器、问答游戏等，用户可直接在Muse应用中交互。用户可创建新的空间。",
+          "url": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
+          "time": "02:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI成为新的约会分手理由",
+          "summary": "25岁的分析师艾琳去年搬到旧金山后开始使用约会软件认识新朋友、熟悉城市。在下载Hinge并开始滑动匹配后，她注意到一个趋势：许多用户的个人资料中都提到了AI相关话题。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "科技巨头在2026年选举中惨败",
+          "summary": "周二，数百万美国选民投票，压倒性地支持民主党并反对AI。反对科技巨头的斗争即将强势回归，而数据中心建设者面临的阻力将更加严峻。",
+          "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+          "time": "00:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Akai与Moog拥抱氛围编程改装",
+          "summary": "Akai、Moog、Native Instruments等品牌的母公司inMusic决定拥抱改装社区。CEO杰克·奥唐奈在接受The Verge采访时表示，公司将向社区提供工具箱，并开放MPC或Sample等产品的内部结构，让用户可以进行改装。",
+          "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+          "time": "00:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "亚马逊允许用户通过短信向Alexa发送购物清单",
+          "summary": "亚马逊为Alexa购物功能新增一项特性，允许用户通过短信向AI购物助手购买商品。用户可描述想买的产品或提供商品照片，Alexa将在亚马逊商品中搜索匹配结果并回复推荐。",
+          "url": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "抗议者闯入阿姆斯特丹微软数据中心工地",
+          "summary": "今晨，抗议者闯入阿姆斯特丹新建微软数据中心的施工现场。Geef Tegengas组织成员协助组织了此次抗议，反对在阿姆斯特丹郊区建造三座85米高的数据中心塔楼。据路透社报道，约100人进入了施工现场。",
+          "url": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+          "time": "19:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "我观看了一台人形机器人打扫我的公寓，感觉像是未来的预演",
+          "summary": "我平时节俭，不请保洁，但看到旧金山新推出的人形机器人清洁服务的X帖子后立刻报名。机器人上门打扫公寓，让我亲身体验到未来家政的可能。",
+          "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI据报以1.25万亿美元估值追加融资110亿美元",
+          "summary": "据报道，OpenAI在一轮尚未完成、预计未来几周内结束的融资中追加筹集了110亿美元。此轮融资对OpenAI的估值为1.25万亿美元。",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+          "time": "06:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "数百个Artex AI黑客工具被发现公开暴露于互联网",
+          "summary": "安全研究人员发现数百台托管渗透测试工具Artex的服务器暴露在互联网上，任何人都能访问该黑客工具。",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+          "time": "02:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta推出Spaces，与Muse智能体协作的新方式",
+          "summary": "Meta的Muse智能体持续获得新功能与集成。Spaces承诺提供一种与AI助手互动的新方式。",
+          "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+          "time": "02:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "蓝色浪潮中期选举可能如何重塑AI行业",
+          "summary": "民主党在本周美国中期选举中的历史性胜利可能也会改变科技行业。周二，公众就41项与数据中心相关的投票措施进行了表决，除一项外，其余所有措施中多数人投票支持对数据中心开发施加更多限制。即使数据中心未直接列入投票，它们也成为……",
+          "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "中期选举后，AI行业会迎来艰难的两年吗？",
+          "summary": "民主党在中期选举中取得历史性胜利，可能重塑科技行业。周二选民就41项数据中心相关公投进行投票，除一项外均以多数票通过了对数据中心开发施加更多限制。即便数据中心未直接列入选票，也成为重要议题。",
+          "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+          "time": "01:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Ramp数据显示AI支出停滞，Anthropic临近IPO",
+          "summary": "AI使用量持续攀升，但支出却陷入停滞。大额支出方通过降价和更精细的成本控制，可能动摇投资者对AI高速增长的预期。",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+          "time": "23:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "在屏蔽Muse后，亚马逊现允许用户通过短信让Alexa协助购物",
+          "summary": "亚马逊表示，该功能将在未来几周内向数百万用户推出。",
+          "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+          "time": "22:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Underdog 在新演示中展示 32MB 语音模型",
+          "summary": "Underdog 在新演示中展示了一款仅 32MB 的语音模型，尽管体积很小，却能同时生成语音和音乐。",
+          "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+          "time": "21:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Physicl融资1000万美元，让数字世界对机器人足够真实",
+          "summary": "Physicl正试图用一套最初为线上商品营销而构建的流程，解决仿真到现实的差距问题。该公司获得了1000万美元融资。",
+          "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Palo Alto Networks 洽谈以 5 亿美元收购 AI 智能体安全初创公司 Clutch",
+          "summary": "Palo Alto Networks 正洽谈以约 5 亿美元收购 AI 智能体安全初创公司 Clutch。Clutch 此前获 Lightspeed 和 SignalFire 投资，最近估值约 8500 万美元。",
+          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+          "time": "14:28",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“Fintech 100”榜单，原始摘要缺失，无法提取具体信息。请补充摘要内容以便生成精简中文概述。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "如今（2026年）机器学习学术界与产业界/大型科技公司的关系究竟如何？",
+          "summary": "2012至2018年前后，学术研究明显在为产业应用铺路，从视觉深度网络到强化学习算法，ADAM、TRPO等新方法被采纳为行业标准，顶尖学术成果价值毋庸置疑，学术界处于“卖方市场”。但如今情况已不再那么确定。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xponb2/what_exactly_is_the_relationship_between_ml/",
+          "time": "05:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 审稿评分 [N]",
+          "summary": "该帖由用户 No-Lab4175 提交，内容涉及 ICLR 2027 的审稿评分情况，并附有原文链接与评论区入口。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpedgc/iclr_2027_review_scores_n/",
+          "time": "22:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 新 1–4 分制：2、2、3 的评分比感觉中更好",
+          "summary": "ICLR 2027 改用 4 分制（1 明确拒稿、2 弱拒、3 弱接收、4 明确接收），目前尚无对分数含义的直观感受。统计 OpenReview 上 23,759 篇投稿的 73,410 条公开评审发现：57% 的评审为 2 分，仅 1.5% 为 4 分，论文中位数均分恰为 2.0，因此 2、2、3（均分 2.33）已高于多数论文。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xps7xu/iclr_2027s_new_14_scale_a_2_2_3_is_better_than_it/",
+          "time": "08:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Higgs Realtime Duplex：45B MoE全双工模型，可同时聆听、观看和对话，并在后台思考、调用工具和委派任务",
+          "summary": "Boson AI发布Higgs Realtime Duplex，这是一个45B MoE全双工模型，可同时处理音频、视频输入并输出语音，在对话的同时于后台进行思考、调用工具和委派任务。所有数据流以160毫秒为单位分块处理：音频输入每块1个token（6.25 tokens/s），音频输出每块2个token（12.5 tokens/s），视频输入每块约12个token。该模型不开源，Duplex API需排队等候，此前的轮次式Higgs Realtime已可立即使用。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpn5pv/higgs_realtime_duplex_a_45b_moe_fullduplex_model/",
+          "time": "04:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "机器学习会议：如何看待审稿人要求补充实验的评论？",
+          "summary": "作者怀疑审稿意见是直接复制粘贴自大语言模型，仅稍作改写。用ChatGPT测试后得到了完全相同的通用反馈，要求补充实验A、B、C、D。这些要求琐碎且偏离论文重点，加上严格的10页限制，让人陷入无休止的疲惫循环。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpsj1p/ml_conferences_what_do_you_think_about_reviewer/",
+          "time": "08:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 审稿意见已公布",
+          "summary": "ICLR 2027 的审稿意见已经发布，社区成员开始分享各自的评分情况。一位用户率先晒出自己的结果：3/3/2。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpc9sh/iclr_2027_reviews_are_out_d/",
+          "time": "21:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR27：审稿人称我的论文与我在研讨会发表过的同一篇论文过于相似",
+          "summary": "作者向ICLR投稿，此前曾在研讨会/arXiv发表过该论文的旧版本，期间修改了方法名称和标题。审稿人指出其方法与旧版论文高度相关，要求进行对比。作者承认仅看标题和方法名会误以为是两篇不同论文，但细看实为同一工作。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpf4t6/iclr27_reviewer_says_my_paper_is_too_close_to_the/",
+          "time": "23:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Muir：具有敏感度分配门控与匹配滤波读出的线性注意力（谷歌研究，25MB状态支持1000万token）",
+          "summary": "谷歌研究提出Muir，一种通道级门控线性注意力模型，可将1000万token的历史压缩至固定25MB状态，而1.3B参数的Transformer在同等长度下需2.1TB KV缓存。Muir解决了此前模型在100B token训练中的三大瓶颈，包括慢通道能量积累高达100倍的问题，通过匹配滤波读出与敏感度分配门控实现高效长上下文建模。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xplbuu/muir_linear_attention_with_sensitivityallocated/",
+          "time": "03:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "寻求与具身智能、人形机器人与认知架构领域人士交流",
+          "summary": "我目前正在探索具身智能领域，重点关注人形智能、认知架构以及AI与机器人技术的交叉方向。希望结识从事具身智能系统研究或构建、人形机器人与机器人基础模型、视觉语言模型（VLM）、视觉语言动作模型（VLA）、世界模型与强化学习，以及认知架构与智能机器人系统设计的人士，期待与大家交流。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpp7z5/looking_to_connect_with_people_working_on/",
+          "time": "05:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "CASP-DREAM TAP挑战赛：用未见测试肽预测TCR与肽-MHC激活",
+          "summary": "一项面向TCR序列模型训练者的新竞赛：给定TCR序列和肽-HLA，预测T细胞是否激活。输入为氨基酸序列，基准约含5800个标注组合，每个测试肽与任何已公开TCR特异性的肽至少相隔四个编辑距离（Levenshtein距离），以AUROC评分。Synapse列出了训练数据选项，包括公开的VDJdb数据库及Harell Data提供的专有TCR数据集。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpn4gp/caspdream_tap_challenge_tcr_peptidemhc_activation/",
+          "time": "04:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如何通过开源贡献建立可见度？",
+          "summary": "一名具有3D计算机视觉背景的计算机科学硕士生，希望了解如何在AI/ML社区建立可见度和信誉。他倾向于为成熟的开源项目做贡献，而非单独构建GitHub项目，因为后者在AI工具普及的当下显得信号较弱。他想知道从事3D CV、ML或应用AI的人会如何应对这一挑战。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xp90lz/how_do_you_build_visibility_through_open_source/",
+          "time": "17:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "休学六个月后，我需要一些指导 [R]",
+          "summary": "我是一名五年级博士生，2026年6月因第二次被IEEE期刊拒稿而精神崩溃，经过反复考虑决定暂不放弃博士学业。目前我的目标是在MetaboNet数据集上完成第三篇论文（IEEE期刊或Elsevier等级别），以解锁导师所说的学位论文写作阶段。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpb6kb/i_need_some_guidance_after_a_six_month_hiatus_r/",
+          "time": "20:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "ToyBlocks：用于机器人学习与评估的受控世界",
+          "summary": "由于原始摘要缺失，无法提供具体内容。建议补充摘要原文以便翻译和精简。",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "Google Ads投放优化",
+          "summary": "小企业主首次尝试Google Ads，面对关键词、出价、否定词、广告组结构等大量配置项感到无从下手，反复试错烧钱却拿不到转化，过程极其折磨。AI可根据行业与预算自动生成广告结构、关键词组合与出价策略，并持续监控调整，大幅降低投放门槛。\n\n💡 机会方向：面向小企业的AI Google Ads自动搭建与托管优化助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xps31g/google_ads_is_impossible/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "招聘筛选与面试",
+          "summary": "有23年招聘经验的小企业主发现近年招人异常困难，简历质量参差、候选人放鸽子、面试流程反复，手动筛选和沟通耗时巨大。AI可自动解析简历、按岗位要求打分排序、生成初筛问题并安排面试，把老板从海量低质简历中解放出来。\n\n💡 机会方向：小企业轻量级AI招聘筛选与候选人沟通自动化工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xprv8p/need_help_with_hiring_please_have_i_changed_or_is/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户小额加需求处理",
+          "summary": "营销建站代理商的长期客户经常提出“就加一个小功能”的请求，接不接、收不收费、如何排期全靠人工判断，反复沟通成本高且容易伤关系。AI可基于合同范围和历史工单自动判定是否属于范围外、生成报价与工期建议，并起草回复邮件。\n\n💡 机会方向：面向服务型代理商的AI需求范围判定与报价回复助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xpt12b/how_do_you_handle_one_small_extra_from_a_good/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Google商家资料维护",
+          "summary": "小企业主长期忽略Google Business Profile，一年后才开始每周手动上传照片、写简短更新，虽然电话咨询明显增加，但坚持维护费时费力且容易遗忘。AI可自动从店内销售数据、社媒内容和季节节点生成每周帖子与图片说明，定时发布并追踪效果。\n\n💡 机会方向：AI驱动的Google商家资料内容自动生成与定时发布工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xpfigk/how_often_are_you_actually_posting_to_your_google/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "平台误标申诉处理",
+          "summary": "蜡疗店老板发现Groupon将其店铺错误标记为“永久关闭”，多次联系客服无果，只能手动反复提交申诉、整理证据、跟进进度，耗时数周仍无进展。AI可自动监测各平台商家信息一致性、发现错误标记后生成申诉材料并持续跟进工单。\n\n💡 机会方向：商家信息一致性监测与自动申诉机器人",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xpr8gf/has_groupon_ever_falsely_listed_your_business_as/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
