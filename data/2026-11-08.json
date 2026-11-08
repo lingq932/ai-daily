@@ -1,0 +1,379 @@
+{
+  "date": "2026-11-08",
+  "timeRange": "2026-11-07 09:00 ~ 2026-11-08 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：一个具备路由能力的不可变本地推理设备",
+          "summary": "嘿 HN，我花了不少时间做的一个小副业项目……（一个不可变的本地推理设备，具备路由能力）",
+          "url": "https://github.com/diffsec/sibyl",
+          "time": "07:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Sentient，你的编程智能体不应是个黑盒",
+          "summary": "在与 Claude Code 高强度协作几个月后，我发现……（关于让编程智能体不再是黑盒的项目）",
+          "url": "https://nosaka.ai/sentient/",
+          "time": "07:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：Ywza，一个可远程操控你自己电脑的计算机使用智能体",
+          "summary": "文章链接：https://github.com/alielmorsy/ywza 评论链接：https://news.ycomb……（一个可随处驱动、用于你自己 PC 的计算机使用智能体）",
+          "url": "https://github.com/alielmorsy/ywza",
+          "time": "06:42",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "面向AI智能体的浏览器自动化命令行工具",
+          "summary": "这是Vercel Labs推出的浏览器自动化CLI工具，专为AI智能体设计，让Agent能够程序化地操控浏览器完成网页交互任务。用Rust编写保证了执行效率，今日获得190星，反映出AI Agent工具链的持续热度。\n\n💼 商业缺口：缺少针对Agent浏览器操作的权限边界与行为审计层，企业难以证明Agent没有越权访问敏感页面。",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "time": "190 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "多阶段安全审计的编码智能体技能",
+          "summary": "Cloudflare开源的安全审计技能包，让编码Agent执行多阶段安全审计并支持独立验证结果。今日暴涨2085星，是当日最热项目，说明AI驱动的自动化安全审计正成为企业刚需。\n\n💼 商业缺口：缺少审计结论的可信度评级与合规留痕产品，企业无法向监管证明AI审计结果经过人工复核。",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "time": "2,085 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Google产品与技术的智能体技能集",
+          "summary": "Google官方发布的Agent Skills集合，覆盖其产品与技术栈，让AI智能体能够标准化调用Google生态能力。Python实现、443星今日增长，体现大厂正在抢占Agent技能标准的话语权。\n\n💼 商业缺口：缺少跨厂商技能兼容性认证与技能版本治理服务，避免Agent技能升级后行为漂移。",
+          "url": "https://github.com/google/skills",
+          "time": "443 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向实战工程师的技能库",
+          "summary": "来自作者个人.agents目录的实用技能集合，主打面向真实工程场景的Agent技能配置。Shell实现、今日1100星，说明开发者对可直接复用的Agent技能模板需求旺盛。\n\n💼 商业缺口：缺少技能来源可信度与供应链安全扫描，个人技能库被Agent引用时存在提示注入风险。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "1,100 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic官方智能体技能公开仓库",
+          "summary": "Anthropic发布的Agent Skills公开仓库，为Claude生态提供官方技能参考实现。Python编写、390星今日增长，是Agent技能生态的事实标准之一，值得关注其后续规范演进。\n\n💼 商业缺口：缺少技能调用成本与token消耗的可观测性产品，团队难以核算Agent技能的实际开销。",
+          "url": "https://github.com/anthropics/skills",
+          "time": "390 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向智能体的开源可定制设计系统",
+          "summary": "Meta开源的设计系统，强调完全可定制且对Agent友好，让AI生成的界面能遵循统一设计规范。TypeScript实现、96星今日增长，切中了AI生成UI缺乏一致性的痛点。\n\n💼 商业缺口：缺少AI生成界面的设计合规检查与品牌一致性审计工具，防止Agent产出偏离设计规范。",
+          "url": "https://github.com/meta/astryx",
+          "time": "96 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "带虚拟机的开源Grok机器人替代方案",
+          "summary": "开源版Grok Bot替代品，为机器人提供可操作的虚拟机环境，使其能执行真实任务而非仅对话。TypeScript实现、今日1955星，是当日第二大热门，反映Agent执行环境需求爆发。\n\n💼 商业缺口：缺少Agent虚拟机行为的沙箱逃逸检测与资源配额计费层，多租户场景下成本与安全均无保障。",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "time": "1,955 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Zed高性能多人协作代码编辑器",
+          "summary": "Zed是高性能多人协作代码编辑器，主打极致响应速度，并深度集成AI辅助编码能力。Rust编写、今日1114星，是AI原生编辑器赛道的重要玩家，值得关注其Agent集成路线。\n\n💼 商业缺口：缺少AI补全采纳率与代码归属的证据链产品，团队无法量化AI对交付质量的实际贡献。",
+          "url": "https://github.com/zed-industries/zed",
+          "time": "1,114 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "十亿级上下文的上下文压缩插件",
+          "summary": "面向超长单会话（数十亿token）的上下文压缩插件，解决长周期Agent会话中上下文窗口溢出的问题。TypeScript实现、191星今日增长，直击长时记忆这一LLM应用核心瓶颈。\n\n💼 商业缺口：缺少压缩后信息保真度的评估与回归测试服务，无法证明压缩没有丢失关键决策依据。",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "time": "191 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA Kubernetes引擎（NVKE）",
+          "summary": "NVIDIA推出的Kubernetes引擎，为裸金属环境上的GPU集群提供管理平面，支撑AI训练与推理工作负载调度。Go编写、123星今日增长，是GPU基础设施编排层的关键布局。\n\n💼 商业缺口：缺少GPU利用率与多租户成本分摊的计量产品，企业难以核算每个AI团队的算力开销。",
+          "url": "https://github.com/dsx-ai-factory/nvke",
+          "time": "123 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "卡帕西周末黑客项目：用Claude打造HackerTube",
+          "url": "https://twitter.com/karpathy",
+          "summary": "安德烈·卡帕西用Claude Code和Opus 5.5，将Hacker News二十年间的4300万条评论筛选为6454个高频推荐视频，搭建出无登录、无算法缩略图的HackerTube，约两小时完成。他还把特里斯坦的YouTube频道榜单做成TristanTube，收录4.7万个硬核视频并支持电视模式，三分钟一次成型。",
+          "source": "Twitter @karpathy"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "纽约时报烹饪AI助手救了我的工作日晚餐，却差点毁了我的蛋糕",
+          "summary": "每个工作日晚7点左右，作者都会站在冰箱前为晚餐发愁，不想再听到丈夫抱怨“又是鸡肉”。虽然应该提前规划膳食，但作者并没有这样做，于是鸡肉几乎每晚都成为无奈之选。最近，作者尝试用纽约时报烹饪的AI助手来解决这一困境。",
+          "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+          "time": "23:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "美国允许英伟达向中国一间空壳办公室出售芯片",
+          "summary": "有人担忧美国商务部和英伟达在审核获准处理其H200 AI芯片的中国企业时均未尽到尽职调查义务。据《纽约时报》报道，New Matrix在获批企业名单上，但其办公室却空无一人，只剩一个空荡荡的灰色外壳。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+          "time": "23:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI 颠覆了网络安全领域，接下来会怎样？",
+          "summary": "本期节目对话 Cognition 首席安全官、资深网络安全专家亚历克斯·斯塔莫斯，探讨当前网络安全领域的混乱现状。这是聚焦 AI 现实应用特别系列的第一部分，斯塔莫斯以直言不讳的风格分享了他的观察。",
+          "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic用AI自动化AI开发的新报告为何令研究者担忧",
+          "summary": "Anthropic正利用AI构建更强大的AI，且成效显著——其模型改进速度约为一年前的两倍，且几乎没有放缓迹象。这一结论来自AI安全研究机构METR经过11周调查后于周四发布的新报告，引发研究者的担忧。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "time": "20:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "中期选举后，埃隆·马斯克与数据中心面临严峻形势",
+          "summary": "在Equity播客中，我们分析了中期选举对科技行业的影响。讨论聚焦于选举结果对埃隆·马斯克及其数据中心业务的潜在冲击。",
+          "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+          "time": "06:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "美国情报备忘录称Megaspeed高管被招募监视英伟达CEO",
+          "summary": "据报道，今年早些时候流传的一份备忘录称，中国国家安全部招募了一名女性科技高管，用于监视英伟达CEO。该高管与Megaspeed有关。",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+          "time": "05:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Crusoe将陷入困境的怀俄明州数据中心项目出售给谷歌",
+          "summary": "Crusoe已将其在怀俄明州的数据中心项目出售给谷歌。该交易凸显了开发大型AI数据中心所面临的挑战。",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+          "time": "09:40",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单，原始摘要缺失，无法提供具体信息。请补充摘要内容以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充英文摘要以便处理。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要。请补充英文摘要内容以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "我读过的最尖刻的审稿人2号评审意见",
+          "summary": "这是一篇关于世界模型中潜在状态组件相关性学习、通过悲观目标自适应加权不确定性以服务于长程规划的论文的官方评审。审稿人给出极低评分：表述难以理解、信息量几乎为零、严谨性不足。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpu1eq/the_most_scathing_reviewer_2_review_i_have_ever/",
+          "time": "09:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "竭尽全力想出新研究想法，但一切都显得笨拙",
+          "summary": "我是一名31岁的机器学习硕士新生，过去七八年读过数百篇论文并复现了数十篇，梦想发表一篇会议级论文。但我的研究想法都显得笨拙、不优雅且粗糙，ADHD让我产生大量想法却难以筛选。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xq06wu/try_my_dang_hardest_to_come_up_with_novel/",
+          "time": "15:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 审稿意见今年异常肤浅，是我多虑了吗？",
+          "summary": "作者浏览 ICLR 2027 的审稿意见后发现，大多数意见极为简短，每个部分（优点、缺点、问题）仅有两句泛泛而谈的内容，缺乏对方法动机、影响力和严谨性的讨论。即便提出的问题足以直接拒稿，审稿人仍给出 2 分。作者质疑这是否只是自己的主观感受，并询问其他人是否有同感。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xq1f1m/are_iclr_2027_reviews_unusually_shallow_this_year/",
+          "time": "16:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR27 数学与统计论文评审体验",
+          "summary": "针对以理论为主、附带少量实验的投稿，作者分享了ICLR27的评审经历。其概率方法方向论文获222分，三位审稿人均质疑新颖性并要求补充实验，却对论文核心的理论贡献只字未提，其中一人直言未理解论文及任务意义。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpvtxt/iclr27_math_and_stats_paper_review_experience_d/",
+          "time": "11:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "蚂蚁灵推出 Ling-3.2-flash：560B/25B 原生多模态 MoE，支持 1M 上下文",
+          "summary": "蚂蚁灵发布 Ling-3.2-flash，这是一款原生多模态 MoE 模型，总参数 560B、激活参数 25B，最大支持 1M token 上下文窗口，官方文档标明支持文本、图像和视频输入。发布评测显示其在 MathVision、OmniDocBench 1.5、CharXiv_RQ 等基准上分别取得 96.80、92.21、85.15 等成绩。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpye7g/ant_ling_introduces_ling32flash_560b25b_native/",
+          "time": "13:21",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR立场论文被批缺乏实验与推测性主张——如何回应？",
+          "summary": "一位审稿人批评该论文缺乏已实现的系统、实证验证和结果，并存在推测性论证。但作者认为立场/论证性论文本就不需要这些，他们提供了技术论证、可证伪假设等贡献，且ICLR此前已接收过立场论文。作者考虑以“这就是立场论文的定义，且ICLR有先例”来回应。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xpu5g0/iclr_position_paper_criticized_for_lacking/",
+          "time": "09:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "数学与数据科学学位能否成为ML/AI工程师？",
+          "summary": "一位在巴基斯坦COMSATS大学攻读数学与数据科学学士的学生，目标是成为专注于深度学习和LLM的ML/AI工程师。其课程涵盖微积分、线性代数、统计学、Python、机器学习、深度学习等，但因学位名称并非计算机科学，担心雇主看法，希望了解业内人士的意见。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqcl2h/can_i_become_an_mlai_engineer_with_a_bs/",
+          "time": "01:59",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动核对通话记录",
+          "summary": "小企业主有9名销售和支持员工，使用公司配发的SIM卡，需要人工监控和核查员工的业务通话情况，缺乏自动化工具，只能靠手动翻查通话记录来判断员工是否在认真工作或是否存在私用情况，耗时且容易遗漏。AI可以自动分析通话元数据、识别异常模式并生成报告。\n\n💡 机会方向：面向中小企业的通话合规与绩效分析SaaS，自动标记异常通话并生成周报",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xqejkw/do_you_track_your_employees_business_calls/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "产品拍摄方案策划",
+          "summary": "新创业的睡衣品牌主完全不懂如何为自己的产品做拍摄，不知道该找谁、怎么布景、需要什么风格、预算多少，只能自己在网上到处搜信息拼凑方案，试错成本高。AI可以根据产品品类、品牌调性和预算，直接生成拍摄脚本、参考图风格、道具清单和摄影师brief。\n\n💡 机会方向：AI产品摄影策划助手，输入产品信息即输出完整拍摄方案与参考图",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xqgp6c/how_do_i_do_a_photoshoot_for_my_product/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "免费样品边界管理",
+          "summary": "软件创业者做免费样品或试用时，常常一不小心就变成无偿的完整项目，客户不断加需求，没有清晰的边界和交付定义，导致大量时间被白嫖。AI可以自动生成试用协议模板、界定交付范围、跟踪试用进度并在超出范围时提醒升级为付费。\n\n💡 机会方向：面向自由职业者和小型软件商的试用范围管理工具，自动界定并守护免费试用边界",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xqlv73/how_do_you_set_boundaries_on_free_samples_or/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "内容收藏整理归档",
+          "summary": "HN用户提问如何跟踪自己保存的文章、论文和视频，说明目前只能靠浏览器书签、笔记软件或手动复制链接来管理，收藏越来越多后根本找不到、也不会再读，信息囤积但无法复用。AI可以自动抓取收藏内容、生成摘要、打标签并按主题聚类，支持自然语言检索。\n\n💡 机会方向：AI驱动的个人知识库，自动摘要、标签化并支持语义检索已收藏内容",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50408438",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "季节性排班与留人",
+          "summary": "安大略湖游船运营商5到10月营业，淡季收入归零，却要设法留住最好的员工，目前只能靠手动沟通、临时安排和人情维系，缺乏系统化的淡季人员保留方案。AI可以根据员工技能、历史表现和意愿，生成淡季轮岗、培训、兼职调配和留任激励方案。\n\n💡 机会方向：面向季节性企业的AI人力保留规划工具，自动生成淡季排班与激励方案",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xq8gjb/seasonal_operators_how_do_you_get_through_the/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
