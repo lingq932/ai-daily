@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-09",
+  "timeRange": "2026-11-08 09:00 ~ 2026-11-09 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "英伟达调查黄仁勋与疑似中国间谍关系",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "英伟达宣布对CEO黄仁勋与Megaspeed高管Alice Huang的关系展开调查，后者据报被中国国家安全部招募用于刺探该公司。英伟达董事会发布声明称，董事会",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "英伟达将调查CEO黄仁勋与一名疑似中国间谍的关系。黄仁勋在公司内部备忘录中承认自己有一段婚外情。",
+              "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN: Airlock —— 面向AI编码智能体集群的策略即代码方案",
+          "summary": "我叫Matt，正在开发Airlock。Airlock将成为一个开放标准，用于对成群的AI编码智能体实施策略即代码管理。",
+          "url": "https://airlock.lunareng.com/docs",
+          "time": "08:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: 回放你的Claude Code日志以统计并行会话冲突",
+          "summary": "文章链接：https://github.com/dooly6276/claude-bulkhead 评论链接：https://news.ycombinator.com/item",
+          "url": "https://github.com/dooly6276/claude-bulkhead",
+          "time": "08:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Midgarth Quest —— 由AI编写的浏览器可玩MMORPG",
+          "summary": "一款托尔金风格的MMORPG，采用Tibia风格。拥有深度机制与世界观。任务丰富。",
+          "url": "https://midgarth.quest/",
+          "time": "08:50",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA Kubernetes 引擎（NVKE）：裸金属 GPU Kubernetes 管理平面",
+          "summary": "这是面向裸金属环境的 GPU Kubernetes 管理平面，用于在自建集群上统一调度和管理 GPU 资源。它解决的是企业自建 GPU 集群时缺乏成熟管控层的问题，今日获得 345 stars，说明 GPU 基础设施编排需求旺盛，Go 语言也适合云原生场景。\n\n💼 商业缺口：缺少 GPU 资源配额审计与多租户成本分摊的付费治理层。",
+          "url": "https://github.com/dsx-ai-factory/nvke",
+          "time": "345 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMausBot：带虚拟机能力的开源 Grok Bot 替代方案",
+          "summary": "这是一个开源的智能体机器人框架，为 Bot 提供可操作的虚拟机环境，使其能执行真实任务而非仅对话。它填补了闭源 Grok Bot 的开源替代空白，今日 1,439 stars 显示智能体执行环境是当前热点，TypeScript 便于快速集成。\n\n💼 商业缺口：缺少智能体虚拟机行为的审计日志与安全沙箱合规证明产品。",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "time": "1,439 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic Claude 快速入门项目集",
+          "summary": "这是 Anthropic 官方提供的 Claude 开发快速上手项目集合，帮助开发者迅速构建基于 Claude 的应用。它降低了接入大模型的门槛，虽今日仅 32 stars，但作为官方示例库具有长期参考价值，Python 生态友好。\n\n💼 商业缺口：缺少面向企业的 Claude 应用上线前的评估与采用证据层。",
+          "url": "https://github.com/anthropics/claude-quickstarts",
+          "time": "32 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Vercel Labs 智能体浏览器：面向 AI Agent 的浏览器自动化 CLI",
+          "summary": "这是一个专为 AI 智能体设计的浏览器自动化命令行工具，让 Agent 能可靠地操作网页完成任务。它解决了智能体网页交互的稳定性问题，今日 815 stars 反映 Agent 工具链热度，Rust 实现带来性能优势。\n\n💼 商业缺口：缺少智能体网页操作行为的审计追踪与合规取证产品。",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "time": "815 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Meta Astryx：面向智能体的开源可定制设计系统",
+          "summary": "这是 Meta 开源的设计系统，强调完全可定制且为智能体就绪，让 AI 生成的界面保持一致性。它解决 AI 生成 UI 缺乏统一设计规范的问题，今日 875 stars 显示 Agent 与前端结合受关注，TypeScript 便于落地。\n\n💼 商业缺口：缺少 AI 生成界面的设计规范合规检查与采用度量服务。",
+          "url": "https://github.com/meta/astryx",
+          "time": "875 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic Agent Skills 公共仓库",
+          "summary": "这是 Anthropic 公开的 Agent Skills 仓库，提供可复用的智能体技能模块，帮助开发者扩展 Agent 能力。它推动智能体技能标准化，今日 792 stars 说明技能生态受追捧，Python 便于快速编写技能。\n\n💼 商业缺口：缺少技能来源可信度验证与供应链安全审计的付费层。",
+          "url": "https://github.com/anthropics/skills",
+          "time": "792 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Google DeepMind MuJoCo：通用物理仿真器",
+          "summary": "这是 DeepMind 维护的多关节接触动力学物理仿真器，广泛用于机器人学习与强化学习研究。它为 AI 训练提供高保真仿真环境，今日 41 stars 虽不高但属长期基础设施，C++ 保证性能。\n\n💼 商业缺口：缺少仿真实验可复现性与训练成本核算的治理工具。",
+          "url": "https://github.com/google-deepmind/mujoco",
+          "time": "41 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "billion-context：面向超长单会话的上下文压缩插件",
+          "summary": "这是一个上下文压缩插件，支持长达数月、数十亿 token 的单次会话，缓解大模型上下文窗口限制。它解决超长对话记忆与成本问题，今日 460 stars 显示长上下文需求强烈，TypeScript 便于集成。\n\n💼 商业缺口：缺少压缩后上下文的信息保真度审计与 token 成本追踪产品。",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "time": "460 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋致英伟达员工备忘录全文",
+          "summary": "英伟达周日宣布，就CEO黄仁勋与AI高管、中国政府代理人Alice Huang的关系展开调查。除董事会宣布调查外，黄仁勋还向英伟达员工发送备忘录承认此事。以下是备忘录全文。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+          "time": "06:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "英伟达调查黄仁勋与中国间谍的关系",
+          "summary": "英伟达宣布对CEO黄仁勋与Megaspeed高管Alice Huang的关系展开调查，后者据报被中国国家安全部招募用于刺探该公司。英伟达董事会发布声明称，董事会正就此启动独立调查。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+          "time": "04:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果加速让Siri更具智能体能力",
+          "summary": "彭博社的马克·古尔曼称，CEO约翰·特努斯正施压AI负责人克雷格·费德里吉加快Siri路线图，打造能与OpenAI的Dots或Meta的Muse竞争的强大AI智能体。尽管费德里吉已在极短时间内交付了可用的Siri AI版本，但公司并不幻想其……",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
+          "time": "03:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "猫王与埃米纳姆版权方起诉Suno",
+          "summary": "猫王埃尔维斯·普雷斯利音乐版权方与埃米纳姆部分热门唱片出版商起诉AI音乐公司Suno，指控其非法生成模仿这些艺术家的音乐和歌词。猫王案的律师称Suno违反了田纳西州相关法律。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
+          "time": "01:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达将调查CEO黄仁勋与疑似中国间谍的关系",
+          "summary": "英伟达将调查CEO黄仁勋与一名疑似中国间谍的关系。黄仁勋在公司内部备忘录中承认自己有一段婚外情。",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+          "time": "05:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单，原始摘要缺失，无法提供具体信息。建议补充摘要原文以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充摘要文本以便处理。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要。请补充英文摘要内容，以便我按要求翻译并精简为 2-3 句话、80-150 字的核心信息。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "我将注意力与MLP处理合并为单一门控Transformer模块",
+          "summary": "我实验了一种名为GAP（门控注意力投影）的替代Transformer架构，将注意力与MLP式处理合并为单一门控模块，而非标准的分隔注意力与前馈子层。基于WikiText-103每模型1亿训练token的测试显示，GAP20比标准Transformer参数少19.91%。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xr47tw/i_merged_attention_and_mlp_processing_into_a/",
+          "time": "01:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "LoRA条件模型在标题较短时跳过输出第一行，有人知道原因吗？[D]",
+          "summary": "我在做BrickNet（GitHub上的kulits/BrickNet，CVPR 2026）的硕士项目。该模型将乐高模型写成纯文本，并用LoRA微调Qwen3（我使用的是0.6B）：一个PT适配器学习文本格式，一个SFT适配器以标题为条件。文本先是一行根行（\"a <part> | <colour>\"），然后是重复的节点行和边行对。设置：我先合并PT，再合并SFT（peft merge_and_unload，bf16），并用标题token加换行token进行提示。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrdn7p/loraconditioned_model_skips_the_first_line_of_its/",
+          "time": "08:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如果扩散模型能生成神经网络权重呢？生成式AI创造生成式AI",
+          "summary": "作者设想用扩散模型生成神经网络权重而非像素。扩散模型目前广泛用于从文本描述生成图像，而图像本质是表示RGB亮度的三维矩阵。若将训练目标从颜色强度矩阵改为生成神经网络（甚至绘图网络），或许就能通过类似“请生成一个……”的提示直接产出模型。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqsl8d/what_if_diffusion_models_generates_neural_network/",
+          "time": "15:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "跨6个数据流的持续保留 [R]",
+          "summary": "该帖子由用户 Horror-Celery4869 提交，主题为跨6个数据流的持续保留，并附有链接和评论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xr9d9y/continual_retention_across_6_streams_r/",
+          "time": "05:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "NeurIPS SlidesLive 录制要求引疑问",
+          "summary": "有参会者收到 SlidesLive 邮件称其与 NeurIPS 合作录制演讲，但官方邮件从未提及此事，令人质疑是否强制。该用户还询问能否改用 AI 生成的视频代替真人录制。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqw2n9/neurips_slideslive_d/",
+          "time": "19:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Artificial Analysis：多模态决策模型Drex Max排名第一，同时达到SOTA与帕累托前沿",
+          "summary": "Nace发布Drex Max v1.1小版本更新，该决策模型同时达到SOTA和帕累托前沿。团队通过逐步迭代实现这一成果，Drex各历史版本的开放权重均已在Hugging Face上公开。此外还发布了训练方法论文《Towards Foundation Decision Models: Drex》。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xr4hkm/artificial_analysis_multimodal_decision_model/",
+          "time": "01:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "本地训练的VLA模型，采用极简注意力视觉编码器",
+          "summary": "作者分享了其本地VLA智能体项目的最新进展，称该模型虽在技术上属于智能体并能响应文本提示，但能力非常有限。视频中左侧画面展示模型视野，屏幕上的黄色三角标记指示当次运行中非目标形状。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqrtcz/locally_trained_vla_model_with_minimal_attention/",
+          "time": "14:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我训练了一个可玩的《宝可梦红》扩散世界模型，并基于与Krafton《PUBG Ally》相同的System 1/2分工搭建了游戏智能体框架，这够得上ICLR workshop吗？",
+          "summary": "作者训练了一个扩散世界模型，从录制的游戏画面中逐帧学习《宝可梦红》，输入最近4帧画面和按键即可生成下一帧。模型仅1670万参数，采用72×80灰度、DIAMOND风格EDM U-Net架构，每10步用4帧真实画面重新同步，其余时间自主运行，可让玩家自由走动。作者还基于与Krafton《PUBG Ally》相同的System 1/2分工搭建了游戏智能体框架，并探讨其是否达到ICLR workshop水平。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqt0pk/i_trained_a_playable_diffusion_world_model_of/",
+          "time": "15:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "关于经典机器学习会议投稿的咨询请求",
+          "summary": "一位博士生在经典机器学习领域（涉及SVM和逻辑回归）取得了一些发现，经ChatGPT和Gemini验证后认为具有原创性。投稿顶会时，审稿人认可创新性但要求补充实验和消融研究，然而领域主席却直接否决了论文。该用户希望获得关于此类投稿的建议。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqqrof/advice_needed_regarding_classical_ml_conference/",
+          "time": "13:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 反驳回复 [D]",
+          "summary": "作者获得 3/3/2 的评审分数，正撰写反驳意见，希望均分提升至 3。作者询问他人是否已提交回复、是否修订论文或承诺在终稿中修改，并担心自己的反驳草稿因需补充大量新测量而篇幅过长、影响可读性。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqqryx/iclr_2027_rebuttal_response_d/",
+          "time": "13:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 3321 投稿，我该不该写反驳？[R]",
+          "summary": "作者在 ICLR 审稿中遇到一位审稿人严厉批评其论文摘要组织混乱、定义难以理解且缺少重要解释，但另外三位审稿人都能读懂并理解其想法。作者困惑为何唯独这位审稿人无法理解，发帖询问是否应该提交反驳。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xqrv2a/3321_iclr_should_i_rebuttal_r/",
+          "time": "14:34",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手写直邮批量生成",
+          "summary": "小企业主在搭建客户生命周期工具时，需要向客户寄送实体信件，但现有直邮API只能打印标准印刷件，无法生成真正的手写便条，只能人工逐封手写或外包，量一大就不可持续。AI可通过手写字体渲染+个性化文案生成，把每封信的内容和笔迹自动定制，批量输出可打印的手写风格邮件。\n\n💡 机会方向：AI手写风格直邮自动化API，按收件人画像生成个性化便条并渲染笔迹",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xrbjh7/looking_for_a_direct_mail_api_that_supports/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "独立接活合同起草",
+          "summary": "做屋顶、木工、混凝土等家庭维修的独立承包人，接到活后需要自己写协议或合同，但缺乏法律背景，不知道条款怎么写、风险怎么规避，往往拖到开工前才临时拼凑，容易留下纠纷隐患。AI可根据工种、金额、工期、付款方式等输入，自动生成合规的施工服务合同并提示风险条款。\n\n💡 机会方向：面向个体承包商的AI合同生成器，按工种和交易结构输出可签署的协议模板",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xr51sp/how_can_i_write_up_an_agreement_or_contract_for_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "冷邮件外呼与跟进",
+          "summary": "创业者和独立开发者靠冷邮件获客，需要自己维护发件基础设施、撰写开场白、跟踪打开率和回复率、手动跟进多轮，统计口径也靠手工记录，效率低且难以规模化。AI可自动生成个性化开场文案、按回复意图分类线索、自动排程多轮跟进并汇总转化数据。\n\n💡 机会方向：AI冷邮件外呼助手，覆盖文案生成、线索分级与多轮自动跟进",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50417178",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "小企业客户来源盘点",
+          "summary": "英国小企业主不清楚客户到底从哪个渠道来，只能凭印象回忆，缺乏系统归因，导致营销预算分配靠猜。AI可整合咨询记录、表单来源、评价平台和社媒私信，自动归因每个新客户的首触渠道，生成渠道贡献报表并给出投放建议。\n\n💡 机会方向：小企业客户来源自动归因工具，聚合多触点数据输出渠道ROI",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xqxbpk/where_do_you_actually_get_most_of_your_customers/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "印刷订单报价核算",
+          "summary": "刚起步的印刷小企业主只有零星客户，每单都要手动核算纸张、油墨、工时和损耗来报价，既慢又容易算错，利润空间被侵蚀。AI可根据订单规格（尺寸、材质、数量、工艺）自动调用成本模型生成报价单，并模拟不同批量下的毛利。\n\n💡 机会方向：印刷行业AI报价引擎，按工艺参数自动核算成本与毛利",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xr4lbd/printing_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

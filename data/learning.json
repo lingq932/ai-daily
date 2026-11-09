@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "用 C 还是 Rust 写 SQLite 扩展：一个真实的小实验",
+      "whatIsIt": "Simon Willison 记录了自己把 parse_number() 这个函数分别用 C 和 Rust 写成 SQLite 扩展的对比实验，看两种语言在开发体验和成本上的差别。",
+      "boundary": "能做到：用 Rust 写 SQLite 扩展在安全性和开发体验上有明显优势，工具链成熟、能避免一类内存错误；做不到：Rust 并不能让扩展本身变快或变简单，编译、绑定、分发仍然有额外复杂度；前提/代价是：选 Rust 意味着接受更长的构建链路和更陡的学习曲线，选 C 则要自己承担内存安全风险。这类'语言选型'的权衡，正是判断技术代价的典型样本。",
+      "whyLearn": "帮你在评估'某个功能该用什么技术栈实现'时，不只看能不能做，还能问出'代价是什么、谁来维护、出错风险多大'——这是技术边界判断力的基本功。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "id": "948b01932ddb",
+      "date": "2026-11-09"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "斯坦福怎么教 AI 原生工程：当作业能被一句话做完",
+      "whatIsIt": "Latent Space 访谈 Mihail Eric，讲斯坦福 CS146S 课程和 Monaco 团队如何在'coding agent 一句话就能完成去年作业'的前提下重新设计教学和工程流程。",
+      "boundary": "能做到：当 agent 能一键完成过去的学生作业时，教学重点可以从'写代码'转向'审代码、定架构、判断对错'，团队也能把 agent 嵌进真实开发流程；做不到：agent 不能替代对结果正确性的判断，也不能自动保证工程质量；前提/代价是：必须重建评估方式（怎么判断学生/工程师真的懂了）、重建 review 和测试环节，否则 agent 只是加速产出垃圾。",
+      "whyLearn": "这是'vibe coding 怎么在企业里跑成闭环'的一手案例：重点不在工具多强，而在评估、review、责任归属这些配套机制怎么改。你做 AI 产品时可以直接借鉴这套'能力变了、流程也要变'的思路。",
+      "source": "Latent Space",
+      "url": "https://latent.space/p/cs146s/",
+      "id": "740f02962b2c",
+      "date": "2026-11-09"
+    },
+    {
+      "category": "vibe coding 企业闭环",
+      "title": "当 coding agent 能做完去年作业，该布置什么作业",
+      "whatIsIt": "同一期 Latent Space 百万 AI 工程师特辑，聚焦 CS146S 第二轮课程：在 agent 能一个 prompt 完成旧作业的情况下，课程作业和工程训练该怎么重新设计。",
+      "boundary": "能做到：把训练目标从'会写'转向'会判断、会拆解、会验收'，让学生/工程师在 agent 辅助下处理更复杂、更接近真实工程的任务；做不到：无法靠改作业题就解决'学生依赖 agent 而不理解原理'的问题；前提/代价是：需要设计能暴露理解深度的任务、需要人工或自动化手段验证真实能力，教学和团队管理成本都会上升。",
+      "whyLearn": "帮你理解 AI coding 落地的核心难点不是'能不能用'，而是'怎么衡量人+agent 的真实产出质量'。这对你设计 AI 产品的评估指标、验收流程、团队协作方式都有直接参考价值。",
+      "source": "Latent Space",
+      "url": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "id": "25d34e531896",
+      "date": "2026-11-09"
+    },
     {
       "category": "技术边界",
       "title": "Datasette 为 Firefox 单独关闭 HTTP Link 预取头：一个真实世界的兼容性取舍",
