@@ -1,0 +1,599 @@
+{
+  "date": "2026-11-10",
+  "timeRange": "2026-11-09 09:00 ~ 2026-11-10 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "黄仁勋间谍丑闻",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "英伟达CEO黄仁勋在面临间谍指控之际承认婚外情。另附：将你的X书签打造成个人研究台。",
+              "url": "https://therundownai.beehiiv.com/p/jensen-huang-admits-affair-amid-spy-claims"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "英伟达在当今AI领域的地位举足轻重，其芯片是美国先进AI技术发展的基石，多年来需求持续超过供应。近年来，英伟达还广泛投资于众多新兴AI公司，成为颇具影响力的投资",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "据《连线》报道，黄仁勋于一年前聘请了一家公关公司，该公司曾处理过多起高知名度性丑闻。此举发生在2025年10月《纽约时报》报道其妻Alice Huang与黄仁勋",
+              "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic发布Mythos与Fable模型",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic 今日发布 Claude Fable 5.2 和 Claude Mythos 5.2 两款新模型，称其旨在应对“艰巨”的技术挑战。公司表示，新",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Anthropic发布了Mythos和Fable两款新模型，称其在编程、推理和视觉等方面有所提升，与用户沟通也更加清晰。此次发布正值外界对递归自我改进（RSI）",
+              "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic 官方 Agent Skills 公共仓库",
+          "summary": "这是 Anthropic 官方发布的 Agent Skills 公共仓库，为开发者提供构建 AI 智能体技能的可复用组件与规范。它解决了智能体能力扩展缺乏标准化封装的问题，让 Claude 等模型能按统一格式调用外部技能。今日新增 1038 星，作为官方出品，是智能体生态基础设施的重要参考。\n\n💼 商业缺口：缺少技能版本兼容性审计与跨模型迁移验证服务。",
+          "url": "https://github.com/anthropics/skills",
+          "time": "1,038 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Meta 开源设计系统 Astryx",
+          "summary": "Astryx 是 Meta 开源的可完全定制、面向智能体就绪的设计系统，基于 TypeScript 构建。它解决的是 AI 生成界面时缺乏统一设计语言与组件规范的问题，让智能体产出的 UI 更一致可用。今日暴涨 3278 星，反映市场对'AI 友好型'前端基础设施的强烈需求。\n\n💼 商业缺口：缺少设计系统被 AI 生成代码遵循程度的合规检测与采用证据层。",
+          "url": "https://github.com/meta/astryx",
+          "time": "3,278 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic Claude 快速上手项目集",
+          "summary": "这是 Anthropic 官方整理的 Claude 快速入门项目集合，帮助开发者迅速上手构建基于 Claude 的应用。它降低了 LLM 应用开发的门槛，提供可直接运行的示例工程。今日 551 星，配合 Python 生态，是学习 Claude 集成的高价值起点。\n\n💼 商业缺口：缺少示例项目在生产环境的成本估算与调用审计工具。",
+          "url": "https://github.com/anthropics/claude-quickstarts",
+          "time": "551 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Garry 的 OpenClaw/Hermes 智能体大脑",
+          "summary": "这是 Garry Tan 开源的个人化智能体'大脑'实现，面向 OpenClaw/Hermes 智能体框架，基于 TypeScript。它展示了如何为智能体构建有主见的决策与记忆核心，解决智能体行为缺乏个性与连贯性的问题。今日 216 星，适合研究智能体架构的开发者参考。\n\n💼 商业缺口：缺少智能体决策过程的可解释性审计与行为偏差监控产品。",
+          "url": "https://github.com/garrytan/gbrain",
+          "time": "216 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Vercel Labs 智能体浏览器自动化 CLI",
+          "summary": "这是 Vercel Labs 推出的面向 AI 智能体的浏览器自动化命令行工具，使用 Rust 编写。它解决智能体需要可靠操控网页完成任务的问题，提供高性能的浏览器控制能力。今日 916 星，Rust 带来的性能优势使其在智能体工具链中颇具竞争力。\n\n💼 商业缺口：缺少智能体网页操作的权限治理与操作留痕审计层。",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "time": "916 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "RuView：WiFi 信号空间智能感知",
+          "summary": "RuView 利用普通商用 WiFi 信号实现实时空间智能与生命体征感知，使用 Rust 开发。它把廉价 WiFi 变成空间感知传感器，解决无摄像头场景下的存在检测与健康监测问题。今日 172 星，属于 AI 感知与边缘智能交叉领域的创新项目。\n\n💼 商业缺口：缺少感知数据的隐私合规审计与误报责任认定服务。",
+          "url": "https://github.com/ruvnet/RuView",
+          "time": "172 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "LLM 驱动的多市场股票智能分析系统",
+          "summary": "这是一个由 LLM 驱动的多市场股票智能分析系统，整合多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。它解决个人投资者缺乏自动化智能投研工具的问题，把大模型能力落地到实际投资分析场景。今日 506 星，Python 实现便于二次开发。\n\n💼 商业缺口：缺少 AI 投资建议的合规留痕、回测证据与责任归属审计产品。",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "time": "506 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Home Assistant AI 的 MCP 集成",
+          "summary": "该项目让用户通过 Claude、ChatGPT 等 AI 助手配置和自动化 Home Assistant 智能家居。它基于 MCP 协议打通大模型与家居控制，解决智能家居配置门槛高、自然语言操控缺失的问题。今日 31 星，是 MCP 生态在 IoT 场景的实用落地。\n\n💼 商业缺口：缺少 AI 操控家居设备的权限分级与误操作追责审计层。",
+          "url": "https://github.com/homeassistant-ai/ha-mcp",
+          "time": "31 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenMausBot 开源智能体机器人",
+          "summary": "OpenMausBot 是开源的 Grok Bot 替代方案，为智能体提供可使用的虚拟机环境，基于 TypeScript。它解决智能体需要安全隔离运行环境执行任务的问题，让机器人能在受控虚拟机中操作。今日 1587 星，高热度显示市场对开源智能体运行沙箱的旺盛需求。\n\n💼 商业缺口：缺少智能体虚拟机行为的成本计量与安全审计证据层。",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "time": "1,587 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 推出 Claude Fable 5.2 和 Claude Mythos 5.2，旨在应对最具挑战性的技术难题。两款模型可在多领域的宏大项目中充当协作伙伴，并在编程、推理和视觉等方面有所提升。",
+          "source": "Twitter @AnthropicAI"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "黄仁勋承认婚外情，间谍指控缠身",
+          "summary": "英伟达CEO黄仁勋在面临间谍指控之际承认婚外情。另附：将你的X书签打造成个人研究台。",
+          "url": "https://therundownai.beehiiv.com/p/jensen-huang-admits-affair-amid-spy-claims",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "大卫·埃里森：AI或成现代史上最大创意突破",
+          "summary": "在派拉蒙天舞最新财报电话会上，CEO大卫·埃里森表示，很难想象AI对电影业的影响不会超过CGI。他认为从制作层面看，AI确实有潜力带来重大变革。",
+          "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+          "time": "08:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "中国能从黄仁勋那里得到什么？",
+          "summary": "英伟达在当今AI领域的地位举足轻重，其芯片是美国先进AI技术发展的基石，多年来需求持续超过供应。近年来，英伟达还广泛投资于众多新兴AI公司，成为颇具影响力的投资者。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+          "time": "07:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "特朗普称对黄仁勋相关事件知情",
+          "summary": "特朗普总统今日在白宫简报会上回应了关于英伟达CEO黄仁勋与一名疑似中国间谍有染的提问。黄仁勋本周末承认对妻子“不忠”，公司已对其展开调查。",
+          "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+          "time": "07:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "英伟达针对CEO黄仁勋的间谍丑闻：目前已知的全部信息",
+          "summary": "英伟达CEO黄仁勋承认与Megaspeed高管Alice Huang存在婚外情，引发公司内部调查和全球热议。报道称，美国情报部门自去年起已认定Alice Huang（与黄仁勋无亲属关系）为一家AI算力公司高管，该公司从事算力租赁业务。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "time": "07:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "苹果50美元智能用量包扩展部分AI功能访问权限",
+          "summary": "苹果在9月初发布支持文档说明部分Apple Intelligence功能的使用限制后，为Logic Pro更新了“购买更多用量”选项，一次性购买价格为49.99美元。该应用内置AI助手，可执行新建歌曲等操作。",
+          "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+          "time": "03:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic 推出全新 Claude Fable 与 Mythos 5.2 模型",
+          "summary": "Anthropic 今日发布 Claude Fable 5.2 和 Claude Mythos 5.2 两款新模型，称其旨在应对“艰巨”的技术挑战。公司表示，新模型在编程、推理和视觉方面均有提升，且输出速度快于 5.1 版本。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+          "time": "03:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Instagram推出Effect Builder，可通过AI提示生成新滤镜",
+          "summary": "Instagram推出Effect Builder，用户可通过AI提示为Stories帖子生成自定义滤镜。该功能目前面向18岁以上的美国用户开放，提供提示框供用户向聊天机器人描述滤镜创意，并支持附加样式。",
+          "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+          "time": "02:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "AI的未来竟取决于黄仁勋的私生活？",
+          "summary": "作者本不愿关注公众人物的私生活，但黄仁勋与所谓\"国家安全事件\"不得不谈。一个曾在公开场合在胸部签名的人，对如何与女性相处缺乏判断力，也并不令人意外。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+          "time": "01:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "特朗普《60分钟》访谈谈及AI安全，并威胁逮捕AI高管",
+          "summary": "在《60分钟》节目中，特朗普被问及AI高管对其模型安全性的警告时表示，风险并不像他们所说的那样真实，且风险可以管控。他还称司法部正在管理这一风险，并提到曾出现有人……的情况。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+          "time": "23:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "迪士尼与Adobe合作开发生成式AI工具",
+          "summary": "华特迪士尼公司与Adobe达成多年合作，将共同开发专有的“艺术家主导”生成式AI模型，以支持迪士尼的制作流程。Adobe将在其MAX大会上宣布这一合作，并向迪士尼提供最新技术的早期访问权限，覆盖主题公园、邮轮等业务。",
+          "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+          "time": "23:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "对数据中心的抵制可能实际上只是关于电力",
+          "summary": "上周美国选民投票之际，我身处弗吉尼亚州阿什本，这里是全球最大的数据中心枢纽“数据中心巷”。围绕数据中心的争议，本质上可能只是对电力消耗的担忧。",
+          "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+          "time": "03:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "佩洛西继任者准备监管AI",
+          "summary": "斯科特·维纳作为加州州参议员曾起草旨在遏制先进AI风险的立法。如今他赢下旧金山选区众议员席位，接替前众议长南希·佩洛西，可能在制定联邦AI政策中发挥关键作用。",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "time": "01:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "特殊化学品行业的AI创新",
+          "summary": "随着企业寻求利用人工智能、云计算和先进建模加速创新，主要挑战在于将新技术与可靠数据、科学专业知识以及产品上市的实际情况相结合。对于特种化学品制造商路博润而言，数字化转型的核心是为研究人员提供工具，以更快测试想法并做出更明智的决策。",
+          "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋据报一年前聘请了一家曾处理多起高知名度性丑闻的公关公司",
+          "summary": "据《连线》报道，黄仁勋于一年前聘请了一家公关公司，该公司曾处理过多起高知名度性丑闻。此举发生在2025年10月《纽约时报》报道其妻Alice Huang与黄仁勋的商业往来后不久。",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+          "time": "07:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "做空机构在丑闻爆发六个月前就指出英伟达CEO与一名疑似中国间谍的关系",
+          "summary": "在英伟达间谍丑闻爆发六个月前，Culper Research就已质疑黄仁勋与一名中国高管异常密切的关系。",
+          "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+          "time": "06:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "起诉英伟达的竞赛拉开帷幕",
+          "summary": "英伟达董事会就黄仁勋与一名疑似中国间谍的关系展开调查后，公司股价下跌逾4%。一位证券法专家表示，公司此前坚称一切“正常”的表态，可能演变成一个代价高昂的问题。",
+          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "time": "06:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋因英伟达争议退出ElevenLabs峰会",
+          "summary": "英伟达CEO黄仁勋退出ElevenLabs峰会，此前他也退出了Anthropic的一场活动。此举正值英伟达面临争议之际。",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+          "time": "04:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic在RSI担忧中发布新Mythos与Fable模型",
+          "summary": "Anthropic发布了Mythos和Fable两款新模型，称其在编程、推理和视觉等方面有所提升，与用户沟通也更加清晰。此次发布正值外界对递归自我改进（RSI）风险的担忧之际。",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+          "time": "03:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋与疑似中国间谍的绯闻使英伟达在华野心受审视",
+          "summary": "黄仁勋被指与一名疑似中国间谍有染，此事可能使英伟达游说美国放宽芯片出口限制、以维持进入中国丰厚AI市场的努力复杂化。",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+          "time": "02:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta发布Muse Ember，一款面向智能体执行的新型轻量模型",
+          "summary": "Meta推出轻量级模型Muse Ember，专为智能体执行任务设计。其输入token价格为每百万10美分，明显低于Haiku、Luna等前沿竞品。",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic加入AI天然气热潮，斥资34亿美元购买涡轮机",
+          "summary": "Anthropic斥资数十亿美元购买天然气涡轮机，此举可能让其日后后悔。",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+          "time": "00:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Medium推出新TK应用，将AI辅助直接融入写作过程",
+          "summary": "Medium推出全新写作应用TK，将AI辅助功能直接整合进写作流程。尽管AI在出版行业中的角色日益引发争议，Medium仍选择拥抱AI辅助写作。",
+          "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+          "time": "00:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Automattic推出平台，可在不断变化的互联网环境中部署氛围编程应用",
+          "summary": "Automattic推出新平台Spacefast，旨在与Lovable等同类产品展开竞争，为用户提供氛围编程应用的部署能力。",
+          "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋职位岌岌可危？耶鲁的杰弗里·索南菲尔德估计“大约五五开”",
+          "summary": "英伟达董事会正调查黄仁勋与一名疑似中国间谍的关系。耶鲁大学的杰弗里·索南菲尔德认为，黄仁勋能否继续担任CEO大致是五五开。",
+          "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
+          "time": "13:26",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单相关，但原始摘要为空，暂无具体信息可供提炼。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "由于原始摘要为空，无法提供具体内容。请补充摘要文本以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要。请补充摘要内容以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "潜在预测在灵巧操作任务的触觉预训练中优于重建",
+          "summary": "Robbyant 发布新论文，推理代码和检查点已公开。LingBot-Touch 是一种自监督触觉编码器，采用 JEPA 风格训练：预测被掩码接触的潜在表征，而非重建原始传感器信号。在相同数据上与同规模 MAE 和 VAE 重建模型对比，1K 小时触觉到视频 top-5 召回率：JEPA 32.1%，MAE 5.6%，VAE 4.4%；4K 小时 JEPA 达 49.3%，MAE 低于 9%。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xs05uo/latent_prediction_beats_reconstruction_for/",
+          "time": "02:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "县级未来2小时新增停电预测：在留出年份上PR-AUC达NWS预警与SPC展望的2.4倍",
+          "summary": "作者为密苏里州和伊利诺伊州216个县构建了逐小时停电预测模型，预测未来2小时起6小时内某县新增至少5%用户停电的概率。模型基于XGBoost，输入包括HRRR风暴相关数据、县级特征、当前停电情况及邻县信息。作者仅针对新增停电建模，认为预测已发生的停电过于简单且无实用价值，并就此设置征求反馈。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xs4hq8/forecasting_new_power_outages_per_county_hourly_2/",
+          "time": "05:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "有人从零开始构建过图像生成器吗？",
+          "summary": "发帖者询问论坛中是否有人曾在家用设备上从零构建并训练图像扩散生成器。若有人尝试过，想了解最终模型规模、能否生成连贯图像，并希望看到截图。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xs78e3/has_anyone_here_ever_built_an_image_generator/",
+          "time": "07:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "亚马逊应用科学实习面试下周进行——欧洲岗位",
+          "summary": "一位求职者历经多次拒绝后，终于获得亚马逊欧洲（德国或阿姆斯特丹）博士应用科学实习岗位的面试机会，下周将连续进行两场面试。该求职者从未参加过技术面试，对机器学习广度面试有信心，但对数据结构与算法/编程面试感到担忧，因为从未系统学习过相关内容，近期编程实践也较少。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrkiaw/amazon_applied_science_intern_interview_next_week/",
+          "time": "14:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "利用潜在智能体集群进行数学发现与优化",
+          "summary": "去年谷歌DeepMind的AlphaEvolve找到了一种更快的4x4复数矩阵乘法方法，打破了自1969年以来的记录。其思路是让大语言模型编写程序、评分并迭代改进，但AlphaEvolve依赖Gemini模型，类似开源实现通常缓慢且昂贵。为此我们提出SwarmEvolve，一个可扩展的数学发现与优化框架，力求更快、更便宜、更好。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrunu7/using_latentagent_swarms_for_math_discovery_and/",
+          "time": "23:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我尝试在当前模型上复现“迷失在中间”现象，结果却无法做到！",
+          "summary": "大家都在引用“迷失在中间”这一结论，于是作者没有依赖论文引用，而是用自己的方式做了简化验证：编造模型不可能已知的事实，把含答案的文档混入干扰文档堆中，并让该文档依次处于开头、中间、结尾等各个位置，每次提问。如果答案随文档位置变化，就说明存在位置敏感性。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrn7lo/i_tried_to_reproduce_lost_in_the_middle_on/",
+          "time": "17:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Twindex：可精确复现的证明，表明你的数据无法区分两组参数（ODE、PDE、PINN）[P]",
+          "summary": "PINN、最小二乘法和贝叶斯拟合都只返回一个参数，却无法证明是否存在另一组截然不同的参数同样契合数据。Twindex 能找到这些“孪生”参数并加以证明：它生成小型 JSON 证书，由精确检查器（标准库 Python、有理数运算、无浮点）复现验证，结果为 VALID、INVALID 或 INCONCLUSIVE。若孪生对为 VALID，则意味着在给定数据下，任何估计器对该参数的恢复精度都无法优于差距的一半。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xryhhg/twindex_exact_replayable_proofs_that_your_data/",
+          "time": "01:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "EACL 2027 录用决定讨论帖 [R]",
+          "summary": "该帖为 EACL 2027 论文录用决定的讨论帖，结果将于周四公布。原帖由用户 Dry_Theme_7508 提交，并附有链接和评论区。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrv8mp/eacl_2027_decisions_thread_r/",
+          "time": "23:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "贝叶斯优化中遇到文件提取问题",
+          "summary": "一位电气工程师在项目自动化中使用贝叶斯优化算法迭代改进设计，并通过pandas库提取每次设计的结果文件。但发现自动导出的CSV文件数据与手动导出时不一致，原因尚不明确。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrzzfu/facing_file_extraction_problem_during_bayesian/",
+          "time": "02:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "编码智能体能否构建交互式3D世界？Frontier3DBench评估11种配置在物体、场景与世界层面的表现",
+          "summary": "Einsia团队发布Frontier3DBench，用于测试编码智能体从构建3D物体到搭建场景、再到生成可交互世界的递进能力。基准包含9大类145项任务，11种模型-框架配置需产出可编辑的Blender项目和可运行的虚幻引擎世界，评估涵盖外观、结构与行为。结果显示GPT-6.1-sol在总体及物体任务上领先。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrhg3a/can_coding_agents_build_interactive_3d_worlds/",
+          "time": "11:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "MLSys 2027审稿人是否已收到论文分配？",
+          "summary": "一位已注册MLSys 2027互惠审稿人的用户表示尚未收到任何论文分配，询问其他人是否已收到分配通知或了解发布时间。该帖来自Reddit，寻求社区信息分享。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xrj2ld/have_mlsys_2027_reviewers_received_their_paper/",
+          "time": "13:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "Nemotron-Personas-Finance-Japan：捕捉日本人口结构与金融背景的合成数据集",
+          "summary": "该数据集为合成数据集，旨在反映日本的人口结构与金融背景。它可用于金融场景下的模型训练与研究，帮助提升对日本市场相关任务的适配能力。",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "time": "23:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "你的专家都有合作伙伴，有希望让他们保持团结",
+          "summary": "原文摘要缺失，无法翻译和精简。",
+          "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "time": "20:34",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动配置Playwright测试",
+          "summary": "开发者要跑Playwright测试，得先手动配置Node.js环境、安装CLI、逐个编写和管理locator，流程繁琐且重复性高，稍有版本变动就要重新调试。AI可以根据页面结构自动生成locator和测试脚本，并一键完成环境配置与依赖管理，把搭建时间从数小时压缩到几分钟。\n\n💡 机会方向：AI驱动的测试脚本自动生成与环境配置工具",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50434036",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "小企业主自评经营状况",
+          "summary": "个体电工承包商第一年全职经营，面对收入数字却不知道自己的业务到底算不算健康，缺乏对标基准和财务诊断能力，只能发帖求助陌生人。AI可以接入其账目和行业基准数据，自动生成经营健康度诊断报告，指出利润率、现金流和客户结构的问题并给出改进建议。\n\n💡 机会方向：面向小微企业的AI经营健康度诊断助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xs1ias/is_my_business_doing_well/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选与回复求职者",
+          "summary": "小企业主纠结于线下递简历和线上申请哪个更靠谱，实际招聘中要人工翻阅大量申请、判断匹配度、安排面试，耗时且主观。AI可以自动解析简历、按岗位要求打分排序、生成面试问题并起草回复邮件，让小企业主只需处理少量高匹配候选人。\n\n💡 机会方向：小微企业轻量级AI招聘筛选与沟通助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xrf8ih/if_someone_showed_up_at_your_business_with_a/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动搭建客服AI支持",
+          "summary": "小企业预算有限却想用AI客服，结果自己拼凑出的自动回复答非所问，客户体验极差，反而增加人工返工。AI可以基于企业已有的FAQ、产品文档和历史对话自动构建知识库并训练客服机器人，持续根据真实对话优化回答质量，无需技术背景即可维护。\n\n💡 机会方向：零代码小企业AI客服搭建与自动优化平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xrq0if/annoying_to_talk_to_ai_support/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动整理学习资料与路径",
+          "summary": "想深入学习LLM的人要自己搜集博客、视频、论文，判断质量、排序难度、拼成学习路径，信息过载且效率低下。AI可以根据用户基础和目標自动抓取筛选优质资源、生成分阶段学习计划，并在学习过程中答疑和调整进度。\n\n💡 机会方向：AI个性化学习路径规划与资源聚合助手",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50429583",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
