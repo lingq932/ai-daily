@@ -1,0 +1,639 @@
+{
+  "date": "2026-11-11",
+  "timeRange": "2026-11-10 09:00 ~ 2026-11-11 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "Anthropic推进IPO",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Anthropic 周二确认其 IPO 可能成为史上规模最大的 IPO 之一，尽管低于此前预期。据《纽约时报》报道，其发行价预计为每股 70 至 78 美元，估",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "七位联合创始人计划在IPO中出售完全相同数量的股份，按发行价区间中值计算，每人将套现约2.5亿美元。此次减持后，该创始人团队仍将保持对公司的控制权。",
+              "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/"
+            }
+          ]
+        },
+        {
+          "headline": "Anthropic推出AI办公套件",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "多年来，Anthropic以专注企业和编程工具著称，吸引了众多高端企业客户，并促使OpenAI、Meta等竞争对手效仿其策略。今年早些时候，Claude Cod",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Anthropic发布Claude Meetings功能，可在会议进行中实时起草讨论中的计划、在白板上绘制时间线、在会议聊天中回答问题，并连接工作应用获取信息，",
+              "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/"
+            }
+          ]
+        },
+        {
+          "headline": "Adobe全面投入智能体AI",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Adobe正押注聊天机器人和AI智能体将成为用户的下一个设计助手，甚至能代用户自动完成创意工作流和重复性任务。在佛罗里达州迈阿密举行的Adobe Max大会上，",
+              "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "Adobe在Firefly中推出新的原型构建工具，与Figma展开竞争。同时，公司还将AI智能体和全新创意工具整合到Photoshop、Premiere和Fir",
+              "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/"
+            }
+          ]
+        },
+        {
+          "headline": "Ring推出家用AI无人机",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "Ring终于要推出室内飞行无人机摄像头了。Ring创始人杰米·西米诺夫在纽约发布会上表示，Ring Drone Cam将于2027年1月27日上市，售价249.",
+              "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "亚马逊旗下的Ring正式进军机器人领域，推出了一款家庭安防无人机和一款用于巡逻和保护企业的滚动式机器人。",
+              "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Seldon | 像真实客户一样使用你产品的行为质量保证智能体",
+          "summary": "像真实客户一样使用你产品的行为质量保证智能体",
+          "url": "https://www.producthunt.com/products/seldon",
+          "time": "09:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "AppuBot | 运行在你自己的AI上、完全免费的Grok机器人替代品",
+          "summary": "运行在你自己的AI上、完全免费的Grok机器人替代品",
+          "url": "https://www.producthunt.com/products/appubot",
+          "time": "12:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "openring | 无平台费用的开源语音AI智能体",
+          "summary": "无平台费用的开源语音AI智能体",
+          "url": "https://www.producthunt.com/products/openring",
+          "time": "09:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "HitPay Agentic Discovery | 让你的店铺可被AI智能体发现并购买",
+          "summary": "让你的店铺可被AI智能体发现并购买",
+          "url": "https://www.producthunt.com/products/hitpay-agentic-discovery",
+          "time": "11:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Rystic – Slack、GitHub和Linear的有状态本地模拟器",
+          "summary": "嗨HN，我们是Rystic（https://www.rystic.ai）的创始人Zach和Evan。作为LLM……",
+          "url": "https://www.rystic.ai",
+          "time": "08:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Mimzie，Claude Suite/Claude Cowork的智能体中立替代品",
+          "summary": "嗨HN！我构建了Mimzie，一个受Claude Suite启发的智能体中立AI工作空间",
+          "url": "https://mimzie.com/",
+          "time": "08:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "PeepNote – 用于保存和复用LLM响应的本地桌面笔记",
+          "summary": "用于保存和复用LLM响应的本地桌面笔记",
+          "url": "https://github.com/OddlyGoods/peep-note",
+          "time": "08:14",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "开源设计系统：完全可定制且面向智能体",
+          "summary": "这是一个开源设计系统，主打完全可定制并原生适配AI智能体使用。它解决的是前端设计规范与AI代理协作之间的衔接问题，让智能体能够直接消费设计系统。今日获得3108星，说明市场对'agent-ready'基础设施需求旺盛。\n\n💼 商业缺口：缺少设计系统被AI智能体调用时的合规审计与版本漂移追踪层。",
+          "url": "https://github.com/meta/astryx",
+          "time": "3,108 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Anthropic官方智能体技能公共仓库",
+          "summary": "这是Anthropic官方发布的Agent Skills公共仓库，提供可复用的智能体技能定义。它解决的是AI智能体能力标准化与复用问题，让开发者不必从零构建技能。作为官方出品且今日1679星，具备生态标准潜力。\n\n💼 商业缺口：缺少技能来源可信度验证与供应链安全审计的付费层。",
+          "url": "https://github.com/anthropics/skills",
+          "time": "1,679 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向AI编码智能体的生产级工程技能",
+          "summary": "该项目提供面向AI编码智能体的生产级工程技能集合，帮助智能体在真实工程场景中遵循规范。它解决的是AI写代码时缺乏工程纪律的问题。今日465星，反映编码智能体落地中的质量治理需求。\n\n💼 商业缺口：缺少技能实际生效效果的采用证据与回归测试报告层。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "465 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude快速上手项目集",
+          "summary": "这是Anthropic官方的Claude快速入门项目合集，帮助开发者快速上手Claude API与能力。它降低了LLM应用开发门槛，提供可运行示例。今日531星，官方教程类资源持续受关注。\n\n💼 商业缺口：缺少示例项目迁移到生产后的成本与调用量监控层。",
+          "url": "https://github.com/anthropics/claude-quickstarts",
+          "time": "531 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "MuJoCo物理仿真引擎",
+          "summary": "MuJoCo是DeepMind维护的通用物理仿真器，广泛用于机器人学与强化学习研究。它解决复杂接触动力学的高效仿真问题，是RL训练的关键基础设施。今日456星，C++实现保证性能。\n\n💼 商业缺口：缺少仿真训练到真机部署之间的策略合规与安全审计层。",
+          "url": "https://github.com/google-deepmind/mujoco",
+          "time": "456 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Home Assistant AI控制集成",
+          "summary": "该项目让Claude、ChatGPT等AI助手配置和自动化Home Assistant智能家居。它解决自然语言控制家居设备的问题，把LLM接入实际IoT场景。今日790星，体现AI代理进入家庭自动化的热度。\n\n💼 商业缺口：缺少AI代理操作家居设备时的权限审计与误操作追责层。",
+          "url": "https://github.com/homeassistant-ai/ha-mcp",
+          "time": "790 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向AI智能体的浏览器自动化CLI",
+          "summary": "这是Vercel Labs出品的浏览器自动化命令行工具，专为AI智能体设计。它解决智能体操控网页、执行浏览任务的问题，Rust实现兼顾性能。今日780星，是agent工具链热点方向。\n\n💼 商业缺口：缺少智能体浏览行为的会话录制、合规审计与成本计量层。",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "time": "780 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "十亿级上下文压缩插件",
+          "summary": "这是一个上下文压缩插件，支持长达数月、数十亿token的单次会话。它解决LLM长会话中上下文窗口与成本瓶颈问题。今日375星，TypeScript实现，长上下文管理是当前刚需。\n\n💼 商业缺口：缺少压缩后信息保真度的可验证证据与召回质量审计层。",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "time": "375 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向真实工程师的智能体技能集",
+          "summary": "该项目作者公开其.agents目录下的智能体技能，面向真实工程实践。它解决AI编码代理缺乏实战技能配置的问题，提供可直接借鉴的配置范式。今日1225星，反映开发者对agent配置经验的强烈需求。\n\n💼 商业缺口：缺少技能配置在企业内分发时的版本治理与采用度度量层。",
+          "url": "https://github.com/mattpocock/skills",
+          "time": "1,225 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "MiniMax 推出 H3-Image：10 秒生成 4K 图像，开放权重",
+          "url": "https://twitter.com/MiniMax_AI",
+          "summary": "MiniMax 发布 H3-Image 模型，可在 10 秒内生成 1600 万像素的 4K 图像，具备精准提示词跟随与编辑能力，支持最多 16 张参考图，且为开放权重。该模型已通过 API、MiniMax Code 和 Hailuo AI 上线，发布首周 16MP 以上生成享五折优惠。",
+          "source": "Twitter @MiniMax_AI"
+        },
+        {
+          "title": "德米斯·哈萨比斯宣布 Gemini 4 Carbon 登陆 Cursor，并发布 Gemini Robotics 2.5",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯宣布 Gemini 4 Carbon 正式上线，并在 Cursor 平台以 60.4% 的成绩登顶 CursorBench。他还展示了该模型一次性逆向还原其 90 年代游戏《主题公园》二进制文件、新增 DeepMind 主题游乐设施并移植到网页的能力。同时，Google DeepMind 发布可学习数百项日常技能的 Gemini Robotics 2.5，并借助 AlphaProof Code 在一个月内完成 Signal 协议机器码的形式化验证。",
+          "source": "Twitter @demishassabis"
+        },
+        {
+          "title": "约书亚·本吉奥：必须对AI模型进行强制性独立审计",
+          "url": "https://twitter.com/yoshua_bengio",
+          "summary": "本吉奥欢迎法国总统马克龙召集各国政府首脑、前沿AI企业负责人和国际研究人员，讨论先进AI日益增长的风险，包括失控和滥用。他强调应像对待其他可能深刻改变和威胁社会的技术一样，以严谨的治理框架对待AI，模型开发者必须接受其无法选择的评估方进行的强制性独立审计，并在部署前证明模型安全。",
+          "source": "Twitter @yoshua_bengio"
+        },
+        {
+          "title": "列克斯·弗里德曼谈乌克兰战争现状",
+          "url": "https://twitter.com/lexfridman",
+          "summary": "列克斯·弗里德曼与普雷斯顿·斯图尔特、迈克尔·科夫曼对话，讨论乌克兰战争现状，涵盖无人机作战与杀伤区、谁在赢得战争、俄军2022年入侵的军事分析、巴赫穆特战役、战争乐观情绪与错误信息、普里戈任兵变、普京与泽连斯基对比、特朗普、通往和平的路径以及战争的本质。",
+          "source": "Twitter @lexfridman"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Anthropic称Fable 5.2采取“控速而非暂停”策略",
+          "summary": "Anthropic表示，在Fable 5.2的推进上采取“控速而非暂停”的策略。此外，还介绍了如何用Claude整理杂乱的Excel报表。",
+          "url": "https://therundownai.beehiiv.com/p/anthropic-says-pacing-not-pausing-with-fable-5-2",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "美国正在赢得AI竞赛，黄仁勋本可能毁掉这一切",
+          "summary": "作为全球市值最高公司之一的掌门人，英伟达CEO黄仁勋掌控着推动AI热潮的关键技术，并与各国政商要人关系密切，自然成为间谍活动的重点目标。他标志性的皮夹克形象也加深了公众印象。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+          "time": "03:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "ChatGPT 将推出经过验证的 AI“商业代理”",
+          "summary": "ChatGPT 将允许用户与代表品牌的经过验证的“商业代理”聊天，帮助进行比价购物等任务。该功能首先面向美国“符合条件的”电商和在线服务企业开放，作为今日以测试版发布的一系列 ChatGPT 商业功能的一部分。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "独立游戏社区因AI与《Big Walk》陷入混乱",
+          "summary": "部分独立游戏节（IGF）评委发表声明，称不会投票给任何使用生成式AI的游戏。随后，独立游戏热门作品《Big Walk》的开发者亦发表声明，承认在开发的\"最后阶段\"\"少量\"使用了AI来\"帮助处理困难……\"",
+          "url": "https://www.theverge.com/games/1030994/big-walk-independent-games-festival-igf-ai",
+          "time": "01:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic推出自有AI办公套件",
+          "summary": "多年来，Anthropic以专注企业和编程工具著称，吸引了众多高端企业客户，并促使OpenAI、Meta等竞争对手效仿其策略。今年早些时候，Claude Code经历了自身的炒作周期。如今，Anthropic正试图扩大其业务版图。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now",
+          "time": "01:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "eBay似乎已对第三方AI代理关闭大门",
+          "summary": "eBay似乎已阻止包括Meta的Muse在内的AI代理浏览其平台，成为AI代理竞赛中的最新障碍。一位读者向The Verge表示，数周来他一直让Muse代理浏览并整理eBay等平台上在售手表的每日摘要。",
+          "url": "https://www.theverge.com/tech/1030838/ebay-ai-agents-meta-muse-agentic-shopping",
+          "time": "00:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌发布Gemini 4 Carbon，具备智能体“集群”功能",
+          "summary": "谷歌两周前向部分“网络安全防御者”开放后，现正式向公众推出最新AI模型Gemini 4 Carbon。谷歌称这是其“最强模型”，可与Anthropic和OpenAI的顶尖系统竞争。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030787/google-gemini-4-carbon-public-rollout",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Anthropic 瞄准 1.4 万亿美元 IPO",
+          "summary": "Anthropic 周二确认其 IPO 可能成为史上规模最大的 IPO 之一，尽管低于此前预期。据《纽约时报》报道，其发行价预计为每股 70 至 78 美元，估值最高可达 1.4 万亿美元。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+          "time": "22:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Adobe全力投入智能体AI",
+          "summary": "Adobe正押注聊天机器人和AI智能体将成为用户的下一个设计助手，甚至能代用户自动完成创意工作流和重复性任务。在佛罗里达州迈阿密举行的Adobe Max大会上，公司发布了一系列工具和功能，其中包括允许用户偏好的第三方AI智能体访问和修改相关内容。",
+          "url": "https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Photoshop、Lightroom 和 Premiere 让移除物体更轻松",
+          "summary": "Adobe 扩展 Creative Cloud 应用与 Firefly AI 平台，新增功能旨在让设计与编辑更快速、更简单。在 Adobe Max 活动上，公司宣布了 Premiere、Photoshop 和 Lightroom 中自动移除物体、瑕疵及其他干扰元素的功能，以及新的生成式 AI 能力。",
+          "url": "https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Ring新款家用AI无人机摄像头上手体验",
+          "summary": "Ring终于要推出室内飞行无人机摄像头了。Ring创始人杰米·西米诺夫在纽约发布会上表示，Ring Drone Cam将于2027年1月27日上市，售价249.99美元。若真能如期发货，距离公司首次发布该产品已过去近六年。",
+          "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI收购由Sonder创始人创办的旅游初创公司Odessia",
+          "summary": "OpenAI收购了由Sonder创始人弗朗西斯·戴维森创办的旅游初创公司Odessia，但尚未透露其在旅游领域的未来计划。戴维森是旅游行业的知名人物。",
+          "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+          "time": "05:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "纽约AI安全法生效，OpenAI与Anthropic面临新监管",
+          "summary": "纽约州准备执行其全面的AI安全法，要求OpenAI、Anthropic等主要开发商进行注册、披露安全实践并报告重大事故，否则将面临罚款。",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+          "time": "04:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic七位联合创始人将在IPO中各套现约2.5亿美元",
+          "summary": "七位联合创始人计划在IPO中出售完全相同数量的股份，按发行价区间中值计算，每人将套现约2.5亿美元。此次减持后，该创始人团队仍将保持对公司的控制权。",
+          "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+          "time": "03:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Oura以6.25亿美元收购AI原生初级保健初创公司Counsel Health",
+          "summary": "Oura宣布以6.25亿美元收购AI原生初级保健初创公司Counsel Health。此次交易发生在Oura以“IPO市场不确定性”为由无限期推迟其最高22亿美元IPO的数周之后。",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+          "time": "03:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "PSI试图将AI驱动的科学发现商业化",
+          "summary": "PSI利用一款未发布的Anthropic模型，解答了科学家近二十年来一直探索的量子计算基础问题。该公司正试图围绕AI驱动的科学发现建立商业模式。",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+          "time": "03:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI推出新企业档案，让ChatGPT更像谷歌",
+          "summary": "OpenAI正致力于将ChatGPT打造为更强大的消费者发现引擎，并推出一系列新功能，帮助企业借助该平台提升曝光度。",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+          "time": "02:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic推出Claude Meetings，将工作讨论转化为计划与任务",
+          "summary": "Anthropic发布Claude Meetings功能，可在会议进行中实时起草讨论中的计划、在白板上绘制时间线、在会议聊天中回答问题，并连接工作应用获取信息，例如去年的数据。",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+          "time": "01:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达CEO黄仁勋与疑似中国间谍的绯闻：时间线",
+          "summary": "这段绯闻可能对国家安全产生影响，因为美中两国正竞相开发最先进的AI基础设施。",
+          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "time": "01:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌扩展AI硬件产品线，推出两款专用芯片",
+          "summary": "谷歌推出新款张量处理单元（TPU），将芯片产品线拓展至更多应用场景，包括机密模型训练和更大内存容量。",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "time": "23:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta的AI智能体Muse登陆Apple Watch和Android Wear OS",
+          "summary": "用户现在可以通过Apple Watch上的语音通话、短信或听写功能与Meta的AI助手进行交互。",
+          "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os/",
+          "time": "23:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Adobe将AI智能体和新创意工具引入Photoshop、Premiere和Firefly",
+          "summary": "Adobe在Firefly中推出新的原型构建工具，与Figma展开竞争。同时，公司还将AI智能体和全新创意工具整合到Photoshop、Premiere和Firefly中。",
+          "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+          "time": "22:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic设定IPO发行价区间为每股70至78美元，隐含估值达1.404万亿美元",
+          "summary": "Anthropic公布IPO发行价区间为每股70至78美元。若按区间上限定价并采用完全稀释口径计算，公司估值可能高达1.404万亿美元。",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+          "time": "22:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "曾用Cyanogen挑战谷歌安卓，其联合创始人如今瞄准Windows，剑指AI时代",
+          "summary": "Kora即将作为Windows的免费替代品推出，目标用户是高度依赖AI模型和智能体的群体。其联合创始人曾以Cyanogen挑战谷歌安卓。",
+          "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Spotify的AI DJ新增语音、个性及减少闲聊选项",
+          "summary": "Spotify Premium用户现在可以为AI DJ自定义具有不同个性的新语音，或关闭歌曲之间的评论。",
+          "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "以门铃摄像头闻名的Ring推出家庭安防无人机和企业安防机器人",
+          "summary": "亚马逊旗下的Ring正式进军机器人领域，推出了一款家庭安防无人机和一款用于巡逻和保护企业的滚动式机器人。",
+          "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+          "time": "21:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单，原始摘要未提供具体信息，无法进一步精简或翻译。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充原始摘要文本。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "我在市场时间序列上基准测试了TimesFM 3.0、Chronos-2和Toto 2.0，均未超越简单基线",
+          "summary": "作者好奇近期时间序列基础模型能否从金融市场提取有用预测信号，对谷歌TimesFM 3.0、亚马逊Chronos-2和Datadog Toto 2.0进行了零样本实验，覆盖24只美国股票和ETF。结果显示，这些通用预测模型均未击败简单基线。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xsqztt/i_benchmarked_timesfm_30_chronos2_and_toto_20_on/",
+          "time": "00:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我们真的搞清楚BatchNorm为什么有效了吗？",
+          "summary": "作者时隔多年重新审视BatchNorm这一“老朋友”，思考其有效性的根本原因。尽管BatchNorm因使用极不方便而逐渐失宠，但作者仍好奇它当初为何能奏效。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xsasyf/did_we_ever_really_get_to_the_bottom_of_why/",
+          "time": "10:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我用自己的血糖与代谢数据集训练了15+个模型",
+          "summary": "一位开发者基于自身血糖与代谢数据集训练了15个以上模型，并公开了源代码。项目代码托管在GitHub上，供感兴趣者查阅与讨论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xsussb/i_have_trained_15_models_on_my_own_blood_sugar/",
+          "time": "02:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Usul：用数学更轻松地表达神经网络的工具",
+          "summary": "Usul-cpp 是一个用 C++ 编写的库，让数据科学家无需依赖 TensorFlow 等重型框架，直接用数学表达模型，其余工作由 Usul 处理。它内置张量支持、自动求导、反向传播，速度也相当快。作者从零用 C++23 编写，希望用数学而非神秘类来理解模型。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xsmmfm/introducing_usul_an_easier_way_to_express_your_nn/",
+          "time": "21:15",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "差评监控与回应",
+          "summary": "小店主被顾客在Google Maps上发差评指控卖假货，需要自己盯评论、判断是否恶意、逐条撰写公开回应并考虑申诉流程，情绪压力大且耗时。AI可实时监控多平台评价、识别恶意/失实内容、生成合规回应草稿并提示申诉路径。\n\n💡 机会方向：面向本地商家的多平台评价监控与AI回应/申诉助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xsvi1p/customer_claiming_on_online_reviews_that_we_sell/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "1099合规判定",
+          "summary": "小企业主雇佣自由职业者时需自行判断谁该发1099、跟踪2026年新$2,000门槛、收集W-9并核对付款记录，规则变化容易漏报错报。AI可读取付款流水自动分类承包商、校验门槛、生成并催收W-9、预填1099表格。\n\n💡 机会方向：小企业承包商付款与1099税务合规自动化工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xsymi5/the_irs_raised_the_1099_threshold_to_2000_for_2026/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "银行账户迁移",
+          "summary": "Mercury通知LLC必须把银行账户迁移到Column N.A.，业主需手动读邮件、核对账户信息、更新绑定的支付/工资/订阅扣款，遗漏会导致付款失败。AI可解析迁移通知、生成待更新清单、逐项定位关联服务并跟踪完成状态。\n\n💡 机会方向：企业银行/支付账户变更的自动影响面排查与迁移清单工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xt2k5t/mercury_switch_accounts_to_column_na/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "广告投放优化",
+          "summary": "帮母亲推广清洁业务，已建广告但苦于拿不到点击，需手动调关键词、出价、受众和文案，反复试错且缺乏数据判断。AI可根据本地服务特征自动生成广告变体、分配预算、按点击数据迭代优化并输出周报。\n\n💡 机会方向：面向本地服务小商家的AI广告代运营/自动优化助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xsz264/help_with_advertising_and_getting_clicks/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户流失排查",
+          "summary": "多位店主发现近几周客流突然下滑，只能靠感觉在论坛互相印证，缺乏对预约、销售、评价数据的系统分析来定位原因。AI可聚合POS/预约/评论数据，检测异常下滑、归因到具体渠道或时段并给出挽回动作建议。\n\n💡 机会方向：小商家客流异常检测与归因诊断工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xsg8ia/theres_been_a_slow_down_in_business_the_last/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
