@@ -1,0 +1,514 @@
+{
+  "date": "2026-11-12",
+  "timeRange": "2026-11-11 09:00 ~ 2026-11-12 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "英伟达准备罢免黄仁勋",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "据《华尔街日报》报道，在《纽约时报》曝出黄仁勋第二起涉嫌婚外情后，英伟达董事会正准备解雇这位CEO。此前数日，黄仁勋刚承认了另一起婚外情，涉事女性被指为中国间谍",
+              "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "该事件可能对国家安全产生影响，因为美国和中国正竞相开发最先进的AI基础设施。随着事态发展，相关时间线逐步展开。",
+              "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "RigSpark | 了解哪款AI可以在你自己的电脑上运行",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/rigspark",
+          "time": "09:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "bonds chat | 多人AI，如果你和朋友放鸽子它就会消失",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/bonds-2",
+          "time": "13:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Mister Blocks | 拍下你的乐高照片，AI会生成拼搭方案",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/mister-blocks",
+          "time": "11:26",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "开源设计系统，完全可定制且面向智能体就绪",
+          "summary": "这是一个开源设计系统，主打完全可定制并原生适配AI智能体使用场景。它解决的是设计系统与AI代理协作时的标准化问题，让智能体能够理解并操作UI组件。今日获得2776星，说明市场对'agent-ready'基础设施的关注度极高。\n\n💼 商业缺口：缺少针对设计系统被AI代理调用时的合规审计与变更追踪层。",
+          "url": "https://github.com/meta/astryx",
+          "time": "2,776 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "LLM驱动的多市场股票智能分析系统",
+          "summary": "基于大语言模型的多市场股票分析工具，整合多源行情、实时新闻、决策看板和自动推送，并支持零成本定时运行。它把LLM能力落到个人投资者的日常决策流程中，降低了智能投研的门槛。Python实现且今日278星，适合关注AI+金融落地的人群。\n\n💼 商业缺口：缺少对LLM投资建议的可追溯性审计与合规免责证据层。",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "time": "278 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "用最强模型审计代码库并为更便宜的模型编写执行计划",
+          "summary": "这是一个让高能力模型先审计代码库、再为低成本模型生成可执行计划的工具，本质是模型分层协作的工程化实践。它解决的是'用贵模型做规划、用便宜模型做执行'的成本优化问题。今日361星，反映出AI编码成本治理正成为刚需。\n\n💼 商业缺口：缺少跨模型调用的成本核算与计划执行质量对比的证据层。",
+          "url": "https://github.com/shadcn/improve",
+          "time": "361 stars today",
+          "language": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向AI编码智能体的生产级工程技能集",
+          "summary": "由Addy Osmani推出的面向AI编码代理的生产级工程技能集合，为智能体提供可复用的工程实践能力。它解决的是AI代理'会写代码但不懂工程规范'的痛点，让代理产出更接近生产标准。JavaScript实现、今日787星，是AI编码工具链中偏方法论层的重要补充。\n\n💼 商业缺口：缺少对代理技能应用效果的采用证据与工程规范符合度审计。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "787 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向AI智能体的浏览器自动化命令行工具",
+          "summary": "Vercel Labs出品的浏览器自动化CLI，专为AI智能体设计，让代理能够可靠地操作网页。它解决的是智能体与真实Web交互时的稳定性与可控性问题，是agent落地的重要基础设施。Rust实现、今日708星，性能与安全性是其卖点。\n\n💼 商业缺口：缺少代理浏览器操作的行为审计、权限边界与合规留痕层。",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "time": "708 stars today",
+          "language": "Rust",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "用Claude、ChatGPT等AI助手配置和自动化Home Assistant",
+          "summary": "通过MCP协议让Claude、ChatGPT等AI助手来配置和自动化Home Assistant智能家居系统。它把LLM的自然语言能力接入家庭自动化，降低了智能家居的配置门槛。Python实现、今日645星，是MCP生态在IoT场景的典型落地。\n\n💼 商业缺口：缺少AI对家居设备执行动作的权限治理与操作审计层。",
+          "url": "https://github.com/homeassistant-ai/ha-mcp",
+          "time": "645 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenAI Codex安全CLI与TypeScript SDK",
+          "summary": "OpenAI推出的Codex安全命令行工具与TypeScript SDK，用于发现、验证和修复代码安全问题。它把AI编码能力延伸到安全审计场景，解决AI生成代码的安全隐患。TypeScript实现，虽今日仅52星，但背靠OpenAI官方，方向值得关注。\n\n💼 商业缺口：缺少AI安全修复建议的验证证据与修复效果回归审计层。",
+          "url": "https://github.com/openai/codex-security",
+          "time": "52 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "OpenAI研究：模型越智能，思维链越难监控",
+          "url": "https://twitter.com/OpenAI",
+          "summary": "OpenAI发布新研究，探讨思维链可监控性（无思维链能力与思维链可控性）在模型训练生命周期中的演变。研究发现，随着模型智能水平提升，通过思维链监控模型变得愈发困难，这一结果虽不意外但令人警醒。",
+          "source": "Twitter @OpenAI"
+        },
+        {
+          "title": "谷歌DeepMind推出AlphaGenome 2与AlphaProof Code框架",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind发布AlphaGenome 2模型，可精准定位特定细胞类型，帮助科学家理解同一DNA序列在不同细胞中如何驱动疾病，并支持无需重新训练即可适配实验室数据。同时，其AlphaProof Code框架首次以数学方法验证了Signal加密协议在代码层面的安全性，Gemini智能体生成超600万行Lean证明，人类专家仅需审核关键的1%。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "德米斯·哈萨比斯发布多条动态：Gemini 4 Carbon、Gemini Decision 1 与 AlphaGenome 2",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯称 Gemini 4 Carbon 表现惊艳、尤其擅长编程，并预告结果即将公布。他还介绍了 Gemini API 中的新前沿决策模型 Gemini Decision 1，每百万输入 token 仅 0.10 美元，支持图像、音频、视频和 PDF，上下文窗口 256K。同时发布 DNA 序列模型 AlphaGenome 2，可预测 DNA 变异在特定细胞类型中的影响，助力复杂疾病研究。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "OpenAI 邀请品牌在 ChatGPT 内开设店铺",
+          "summary": "OpenAI 邀请品牌在 ChatGPT 中开设店铺。此外，还有一项新功能可让 AI 利用你打开的 Chrome 标签页来工作。",
+          "url": "https://therundownai.beehiiv.com/p/openai-invites-brands-to-set-up-shop-in-chatgpt",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "英伟达据报准备解雇黄仁勋",
+          "summary": "据《华尔街日报》报道，在《纽约时报》曝出黄仁勋第二起涉嫌婚外情后，英伟达董事会正准备解雇这位CEO。此前数日，黄仁勋刚承认了另一起婚外情，涉事女性被指为中国间谍。第二起婚外情据称涉及一名高管。",
+          "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+          "time": "06:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "美联航禁止AI代理代订机票",
+          "summary": "美联航以隐私和监管顾虑为由，不允许个人AI助手在其平台代订机票。公司表示目前尝试用AI代理订票的用户并不多，这与DoorDash等企业的观察一致，但仍对相关风险保持警惕。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+          "time": "05:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌Tabletop AI实验：让你构建自定义协作应用",
+          "summary": "谷歌推出名为Tabletop的实验性AI工具，可生成定制化协作中心，帮助用户与亲友协调事务。该平台在视觉上与Asana、Monday等职场管理应用相似，但内置AI功能，用户只需描述需求即可通过“氛围编程”创建个性化互动工具。",
+          "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌AlphaGenome 2深入探索疾病的细胞根源",
+          "summary": "谷歌DeepMind研究人员发布新AI模型AlphaGenome 2，旨在揭示DNA变化如何影响不同细胞，为科学家提供更精细的视角来研究这一难题，有望为疾病成因提供重要线索并指引新疗法方向。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Adobe AI实验：让你在照片中漫步并与角色对话",
+          "summary": "Adobe在年度Max大会上展示了多项实验性AI功能，包括将图像转化为可探索的3D场景、通过对话设计AI角色，以及将照片编辑变为复制粘贴式操作。",
+          "url": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋事件持续发酵：时间线梳理",
+          "summary": "该事件可能对国家安全产生影响，因为美国和中国正竞相开发最先进的AI基础设施。随着事态发展，相关时间线逐步展开。",
+          "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "time": "07:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达股价下跌，董事会据报准备罢免CEO黄仁勋",
+          "summary": "据报道，英伟达董事会最早可能于周三晚间决定罢免创始人兼CEO黄仁勋，后者已执掌公司33年。受此消息影响，英伟达股价出现下跌。",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "time": "07:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋被指与英伟达高管有另一段婚外情",
+          "summary": "黄仁勋此前承认与一名被指为中国情报人员的女子有婚外情而受到批评，如今又被指控与一名英伟达下属存在另一段婚外情。",
+          "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+          "time": "07:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "你担心的数据中心可能根本建不成",
+          "summary": "数据中心热潮正遭遇现实阻碍，包括当地社区的广泛反对、审批延迟以及电力争夺。然而在这些挑战出现之前，一个更基本的问题是：许多已宣布的项目可能根本不会开工建设。尽管已有数十亿美元投入AI基础设施。",
+          "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+          "time": "04:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta长期基础设施负责人即将离任",
+          "summary": "2009年加入Meta的桑托什·贾纳丹将卸任基础设施负责人一职。他在公司任职多年，长期主导基础设施相关工作。",
+          "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+          "time": "04:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "蓝潮过后，抵制与繁琐审批仍在拖慢数据中心建设",
+          "summary": "数据中心热潮正遭遇现实阻碍，包括广泛的当地反对、审批延迟和电力争夺。然而在这些挑战之前，还有一个更基本的问题：许多已宣布的项目可能根本不会建成，涉及数十亿美元的AI基础设施投资。",
+          "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+          "time": "04:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "CoreWeave转向客户预付款和短期合同以资助AI增长",
+          "summary": "CoreWeave在第三季度财报中显示，公司正越来越多地要求客户预付费用，以特定合同为抵押借款，甚至寻求短期交易，这可能导致价格上涨。这些举措旨在为其AI业务增长提供资金。",
+          "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+          "time": "03:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英国Fractile获7.2亿美元融资，在AI芯片竞赛中占得先机",
+          "summary": "英国AI芯片初创公司Fractile完成7.2亿美元融资，成为专用AI芯片赛道中融资额最高的玩家之一。本轮资金将助力其在竞争激烈的AI芯片领域加速发展。",
+          "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+          "time": "03:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "美国国会传唤黄仁勋就涉嫌中国间谍事件作出解释",
+          "summary": "英伟达CEO黄仁勋须在周三前回应众议院共和党人的要求，就其与一名涉嫌中国间谍人员的往来参加闭门简报会。",
+          "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+          "time": "03:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋的不良行为是否比表面更普遍？",
+          "summary": "一位投资情报顾问表示，业内许多资深人士知道这种情况正在发生，实际上却在纵容它。",
+          "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+          "time": "00:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "OpenAI季度营收据报首次突破100亿美元",
+          "summary": "OpenAI季度营收首次突破100亿美元，达到约100亿美元，较第二季度录得的67亿美元增长近50%。",
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+          "time": "00:14",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Databricks新AI智能体向CEO阿里·戈德西直言不讳",
+          "summary": "Databricks员工已达1.2万人，CEO阿里·戈德西坦言自己无法认识所有人，员工也不太可能向他坦白问题。但他无需依赖员工汇报，而是使用Databricks新修订的Genie智能体来获取真实情况。",
+          "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Plurai借助自动驾驶汽车上路的同款方法，助力AI智能体更好工作",
+          "summary": "与训练自动驾驶汽车的端到端模型类似，AI智能体也是在不稳定环境中运行的概率性系统。Plurai采用相同思路，帮助AI智能体更好地工作。",
+          "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达危机令公司治理专家搬好小板凳看戏",
+          "summary": "我们采访的公司治理专家表示，眼下英伟达正在上演的局面，此前从未有人见过。",
+          "url": "https://techcrunch.com/2026/11/10/nvidias-crisis-has-corporate-governance-experts-reaching-for-the-popcorn/",
+          "time": "15:30",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容标题为“金融科技100强”，但未提供具体摘要信息，无法进一步提炼核心内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充摘要文本以便处理。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要。请补充摘要内容以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "人们已经放弃ICLR评审了吗？",
+          "summary": "作者观察到在自己参与的十余篇论文中，作者方尚未发布任何反驳意见，审稿人也未回应。即便是评审意见处于可修复边缘的论文，作者也毫无回应，令人质疑大家是否已基本放弃ICLR。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xtt0px/have_people_given_up_on_iclr_reviews_d/",
+          "time": "04:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我们能聊聊来自中国的机器学习研究吗？",
+          "summary": "作者表示并非要贬低中国研究者，而是近年来对中国的研究开展方式非常好奇。任何有目共睹的人都清楚，中国的机器学习研究者（尤其是身处中国的学者）产出极高，甚至违背常识——本科生或研究生阶段就发表100至200篇论文，每周一篇也并非闻所未闻。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xteym8/can_we_talk_about_the_ml_research_coming_from/",
+          "time": "19:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "作者应如何应对ICLR疑似AI生成的审稿意见？向AC举报还是直接反驳？",
+          "summary": "一位作者在ICLR遇到疑似AI生成的审稿：某审稿人给出评分2、置信度1，而其他审稿人给出评分3、置信度3，Pangram检测显示该审稿100%由AI生成，且所列弱点均涉及附录深处内容。作者表示仍会逐条反驳，但询问是否值得向领域主席（AC）发送保密评论，还是可能适得其反。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xtvipb/how_should_authors_handle_a_suspected/",
+          "time": "06:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了一个涵盖CoRL十年间2100多篇机器人论文的探索器，附TLDR、代码链接、项目主页和研究趋势",
+          "summary": "我构建了一个完整的CoRL论文探索器，索引了2017至2026十年间的2100多篇机器人论文，提供论文TLDR、项目主页、代码、arXiv链接、任务标签、统计摘要和研究趋势等功能，旨在让机器人学习研究更易获取。后续可能在此基础上构建开源自动研究能力，欢迎提交PR补充缺失内容或贡献新功能。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xtul3j/i_built_an_explorer_of_2100_robotics_papers/",
+          "time": "05:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "为什么Anthropic顶级研究人员的引用量是OpenAI的两倍？",
+          "summary": "该讨论帖聚焦于Anthropic与OpenAI顶级研究人员的引用量差异，指出Anthropic研究人员的论文引用次数约为OpenAI同行的两倍。帖子引发了对两家公司研究影响力、学术产出及人才策略的讨论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xt5xld/why_are_anthropics_top_researchers_cited_twice_as/",
+          "time": "10:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "AI“垃圾内容”是一种社会判断",
+          "summary": "一篇新论文认为，AI垃圾内容并非内容本身固有的特征，而是当社区认定某些AI生成内容不受欢迎时所作出的社会判断。以这种方式研究“垃圾内容”，我们才能真正对其进行测量和治理。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xtour7/ai_slop_is_a_social_judgement_r/",
+          "time": "02:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "你会选择最强模型来协调其他智能体吗？WorkflowArena 实验结果",
+          "summary": "组建智能体团队时，选最强模型做协调者看似合理，但研究测试了其工作流是否真能帮助其他模型完成任务。实验中，Opus 5.5 和 GPT-6 Astra 针对 32 个挑战性任务为四个执行模型编写工作流，可分工和指导但不能自行编辑工作区。Opus 的静态工作流提升了全部四个执行模型的表现，带来 6.4 个百分点的增益。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xt9hbe/would_you_pick_your_strongest_model_to_coordinate/",
+          "time": "13:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "BotPsy：搭载十亿参数以下智能体语言模型的端侧个人助理",
+          "summary": "BotPsy 是一款端侧个人助理，采用参数规模低于十亿的智能体语言模型。该方案将智能体能力部署在本地设备上，在保护隐私的同时实现个人助理功能。",
+          "url": "https://huggingface.co/blog/qvac/botpsy",
+          "time": "13:01",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "跨国电汇人工核对",
+          "summary": "游戏工作室财务每月从银行门户手动发起30笔国际承包商电汇，本月有3笔被退回，需要逐笔核对收款信息、追踪状态并人工重发，耗时且易错。AI可解析银行回单与合同收款账户，自动校验IBAN/SWIFT与金额，异常即时告警并生成重发指令草稿。\n\n💡 机会方向：面向中小企业的跨境付款批量校验与异常追踪工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xtud3j/3_of_30_manual_wire_transfers_to_international/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "客户历史扣费查证",
+          "summary": "客户疑似谎称此前已被扣费，小企业主需翻查3-4年前的交易记录、聊天记录与发票来还原事实，证据分散在多个系统，人工比对极耗时。AI可跨邮件、支付平台与账本做实体对齐，自动生成带时间线的事件证据包，快速判断争议真伪。\n\n💡 机会方向：小企业客户争议自动取证与时间线还原助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xttbix/customer_suspected_of_lying_about_previous_charges/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工现金App发薪",
+          "summary": "老板用CashApp、Venmo或现金给员工发工资，无工资单、无扣税记录，既不合规也难对账，每月靠手工转账和记忆。AI可根据考勤与工时自动计算应发金额、生成工资单与税务预扣明细，并批量发起合规支付与留痕。\n\n💡 机会方向：面向微型企业的轻量合规发薪与工资单自动生成工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xtjag3/how_do_you_pay_your_employees/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "小企业获客冷启动",
+          "summary": "创业者同时经营多个小生意，靠手动发帖、私信、地推逐个找第一个客户，几近崩溃，缺乏系统化线索来源与跟进。AI可抓取本地需求信号、自动生成分渠道外联内容并做跟进提醒，把零散获客动作变成可复用的流水线。\n\n💡 机会方向：多业务小企业的AI线索挖掘与外联自动化平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xtq2l1/scratching_and_crawling_to_a_first_customer_and/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "本地广告投放排期",
+          "summary": "小企业主自制了傻气广告片，想投本地电台/电视，但需逐家联系媒体、问排期与报价、比对受众数据，流程繁琐且不透明。AI可聚合本地媒体库存与价格，按预算自动生成投放组合与排期表，并代拟询价邮件。\n\n💡 机会方向：本地中小媒体广告库存聚合与自动投放比价平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xtygst/broadcasting_commercials/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
