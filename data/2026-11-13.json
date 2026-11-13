@@ -1,0 +1,682 @@
+{
+  "date": "2026-11-13",
+  "timeRange": "2026-11-12 09:00 ~ 2026-11-13 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "黄仁勋辞任英伟达CEO",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "另有内容：如何在ChatGPT上认领并设置你的企业。",
+              "url": "https://therundownai.beehiiv.com/p/ai-s-biggest-ceo-may-be-on-his-way-out"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "在黄仁勋第二桩婚外情传闻曝光前，我一度确信他坚不可摧。他将自己置于AI产业不可或缺的核心位置，且英伟达以无接班计划著称——事实上他是公司史上唯一一位CEO，可谓",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "黄仁勋因婚外情辞去英伟达职务，此事可能对国家安全产生影响，因为中美两国正竞相开发最先进的AI基础设施。",
+              "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌Gemini模型升级",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌表示，新款Gemini 4 Hydrogen模型能针对复杂问题给出更有帮助的回答，包括“包含多个部分的问题、难以理解的拼写错误或高度具体的请求”。该模型可拆",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌的AI模式由Gemini 4 Hydrogen驱动，在理解复杂查询、呈现相关链接和提供更丰富的可视化回答方面均有提升。",
+              "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/"
+            }
+          ]
+        },
+        {
+          "headline": "英伟达芯片追踪防走私",
+          "coverage": [
+            {
+              "source": "MIT Technology Review - AI",
+              "summary": "英伟达代表向伊利诺伊州众议员比尔·福斯特表示，从技术上讲，实施《芯片安全法案》所要求的反走私措施是可行的。然而，一个行业组织声称这些措施“可能不可行”。福斯特是",
+              "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "这是自涉嫌间谍事件曝光以来，国会针对英伟达对华销售及其与特朗普往来发起的第二项调查。民主党人同时致信严厉批评黄仁勋的相关“阴谋”。",
+              "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Crossfade",
+          "summary": "让你的编程智能体在你打开的 Figma 文件中进行设计",
+          "url": "https://www.producthunt.com/products/crossfade",
+          "time": "10:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Didit MCP",
+          "summary": "用于身份验证和欺诈检查的 MCP 服务器",
+          "url": "https://www.producthunt.com/products/didit-3",
+          "time": "15:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Oxagen",
+          "summary": "智能体的任务控制中心，用于共享和维护上下文",
+          "url": "https://www.producthunt.com/products/oxagen",
+          "time": "10:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Offstage Cloud",
+          "summary": "面向 AI 智能体的按需 macOS 沙盒",
+          "url": "https://www.producthunt.com/products/offstage-cloud",
+          "time": "10:29",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "OpenAI Codex 安全命令行工具与 TypeScript SDK",
+          "summary": "这是 OpenAI 推出的 Codex 安全工具，提供 CLI 和 TypeScript SDK，用于发现、验证和修复代码中的安全问题。它把 AI 代码生成能力延伸到安全审计场景，今日获得 643 星，说明开发者对 AI 辅助安全的需求正在快速上升。\n\n💼 商业缺口：缺少面向企业的 AI 修复结果审计与合规留痕层，用于证明每次自动修复都经过验证且可追溯。",
+          "url": "https://github.com/openai/codex-security",
+          "time": "643 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Qwen 代码助手（终端 AI 编程代理）",
+          "summary": "这是通义千问团队开源的终端内 AI 编程代理，可直接在命令行中完成代码理解、修改和任务执行。它把大模型能力嵌入开发者最常用的终端环境，降低 AI 编程门槛，今日 151 星显示中文开源编程代理正受到关注。\n\n💼 商业缺口：缺少针对终端代理操作的成本计量与权限治理产品，帮助企业控制代理执行范围与 API 开销。",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "time": "151 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "TensorFold：面向 Metal、CUDA 和 Vulkan 的 LLM 推理引擎",
+          "summary": "这是一个用 Zig 编写的 LLM 推理引擎，支持 Metal、CUDA 和 Vulkan 多种后端，目标是跨平台高效运行大模型推理。它值得关注在于用 Zig 探索高性能推理的新路径，并覆盖桌面与移动 GPU 生态，今日 54 星。\n\n💼 商业缺口：缺少跨后端的推理性能基准与成本对比服务，帮助用户判断在哪种硬件上跑模型最划算。",
+          "url": "https://github.com/ashhart/TensorFold",
+          "time": "54 stars today",
+          "language": "Zig",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "面向 AI 编程代理的生产级工程技能集",
+          "summary": "这是 Addy Osmani 整理的工程技能集合，为 AI 编程代理提供生产级开发规范与实践指导。它解决的是 AI 代理写代码质量参差的问题，今日 816 星说明社区对代理工程化标准需求强烈。\n\n💼 商业缺口：缺少对 AI 代理产出代码的质量评分与采用证据层，用于向团队证明代理遵循了这些工程规范。",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "time": "816 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Meta Astryx：可定制且面向代理的开源设计系统",
+          "summary": "这是 Meta 开源的设计系统，强调完全可定制并原生适配 AI 代理使用。它让设计系统不仅能服务人类开发者，也能被 AI 代理理解和调用，今日 1830 星成为榜单最高，反映代理友好型基础设施的热度。\n\n💼 商业缺口：缺少设计系统被 AI 代理调用时的版本治理与变更审计产品，防止代理误用过期组件规范。",
+          "url": "https://github.com/meta/astryx",
+          "time": "1,830 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenBot：拥有独立电脑的开源 AI 同事",
+          "summary": "这是 CopilotKit 推出的开源 AI 同事项目，每个代理拥有自己的浏览器、文件系统等独立计算环境。它把 AI 代理从聊天助手升级为可独立工作的数字员工，今日 298 星，代表代理自主执行的方向。\n\n💼 商业缺口：缺少多代理工作环境的成本与行为审计平台，用于追踪每个 AI 同事的资源消耗和操作记录。",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "time": "298 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "免费 Claude Code 多代理接入工具",
+          "summary": "这个 Python 项目让用户接入 Claude Code、Codex、Antigravity、VSCode、Pi、OpenCode 等十余种 AI 编程代理。它解决多代理工具切换与统一使用的问题，今日 415 星显示开发者对代理聚合入口的兴趣。\n\n💼 商业缺口：缺少多代理调用的统一计费与合规网关，帮助用户管理不同代理服务的额度、密钥与使用政策。",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "time": "415 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "llama.cpp：C/C++ 大语言模型推理",
+          "summary": "这是最主流的开源 LLM 推理项目之一，用 C/C++ 实现高效本地推理，支持量化与多种硬件。它是本地部署大模型的事实标准，今日 176 星持续证明其在 AI 基础设施中的核心地位。\n\n💼 商业缺口：缺少面向企业的本地推理部署监控与成本核算产品，量化每台机器的推理吞吐与能耗开销。",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "time": "176 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "Anthropic 启动首次公开募股",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "Anthropic 已向美国证券交易委员会提交注册声明，正式启动首次公开募股（IPO）进程，迈向上市公司。公司同时发布了创始人信函及相关信息，提醒投资者在投资前应阅读招股说明书等文件以了解完整信息。",
+          "source": "Twitter @AnthropicAI"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "AI界最大公司的CEO可能即将离任",
+          "summary": "另有内容：如何在ChatGPT上认领并设置你的企业。",
+          "url": "https://therundownai.beehiiv.com/p/ai-s-biggest-ceo-may-be-on-his-way-out",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "谷歌新款Gemini模型更擅长理解复杂问题",
+          "summary": "谷歌表示，新款Gemini 4 Hydrogen模型能针对复杂问题给出更有帮助的回答，包括“包含多个部分的问题、难以理解的拼写错误或高度具体的请求”。该模型可拆解问题并逐一回应，即日起在搜索、Gemini应用及谷歌各层级服务中上线。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+          "time": "05:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "不，AI智能体并未发现未知的玛雅遗址",
+          "summary": "谷歌研究员皮耶特罗·米奥蒂本周声称，其AI智能体团队在墨西哥发现了一处可能未被测绘的玛雅遗址。但该遗址早已被发现，并于去年发表在学术期刊上。此事在网上引发考古学家的批评，凸显了相关争议。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+          "time": "03:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "哦，Palantir现在也‘进步’了，是吗？",
+          "summary": "今天本有其他事要做，但亚历克斯·卡普可怜地试图转回左翼立场，让我不得不搁置手头事务。上周的选举对右翼是一场血洗，对所有那些将政治命运押注于‘氛围转变’的准法西斯创始人来说都是个问题。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+          "time": "02:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋丑闻远未平息",
+          "summary": "在黄仁勋第二桩婚外情传闻曝光前，我一度确信他坚不可摧。他将自己置于AI产业不可或缺的核心位置，且英伟达以无接班计划著称——事实上他是公司史上唯一一位CEO，可谓“朕即国家”。然而……",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+          "time": "01:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "研究发现AI聊天机器人推荐虚假零售网站",
+          "summary": "一项新研究发现，使用AI聊天机器人研究产品或寻找购物渠道的消费者可能被引导至仿冒网站及其他高风险网站。该研究由知识产权保护公司Podqi开展，并向The Verge独家分享，研究向ChatGPT、Gemini和Perplexity提出了若干与购物相关的问题。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "更多游戏开发者开始使用生成式AI",
+          "summary": "根据GDC游戏节最新年度行业调查，今年使用生成式AI工具的游戏开发者比例较去年有所上升。40%的受访开发者表示他们在工作中使用生成式AI，高于2025年的36%。部分开发者群体的使用率更高。",
+          "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋出局，中国想从他身上得到什么？",
+          "summary": "英伟达CEO黄仁勋因绯闻风波辞职，其中包括与一名疑似中国间谍的传闻。此事发展迅速，节目组在发布前紧急更新了开场内容。",
+          "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "阅读英伟达内部邮件：CEO人事变动下的“异常艰难时期”",
+          "summary": "黄仁勋今早辞去英伟达CEO一职，他于1993年联合创立该公司。此前董事会就其与一名直接下属的婚外情及一名疑似中国间谍展开调查。新任董事会主席哈维·琼斯分享了黄仁勋的辞职消息。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+          "time": "23:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "英伟达CEO黄仁勋辞职，接下来会发生什么？",
+          "summary": "英伟达联合创始人、总裁兼CEO黄仁勋在承认与Megaspeed高管Alice Huang有婚外情后，公司最初宣布展开调查。然而，《纽约时报》周三报道称，有证据显示他与另一名直接向他汇报的英伟达高管也存在婚外情。董事会会议……",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "time": "23:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "我评测了苹果HomeView，欢迎提问",
+          "summary": "我是The Verge高级智能家居评测员Jen Tuohy，测试过亚马逊和谷歌的所有智能显示屏。过去一周我体验了苹果首款智能显示屏HomeView（售价299美元），在厨房台面、床头柜和办公室等场景测试了桌面版和壁挂版。",
+          "url": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+          "time": "22:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "英伟达私下确认可追踪芯片以打击走私，尽管业界公开质疑可行性",
+          "summary": "英伟达代表向伊利诺伊州众议员比尔·福斯特表示，从技术上讲，实施《芯片安全法案》所要求的反走私措施是可行的。然而，一个行业组织声称这些措施“可能不可行”。福斯特是民主党人，在委员会任职。",
+          "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "time": "04:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "民主党启动对英伟达的调查，并就黄仁勋与特朗普的“阴谋”发出严厉信函",
+          "summary": "这是自涉嫌间谍事件曝光以来，国会针对英伟达对华销售及其与特朗普往来发起的第二项调查。民主党人同时致信严厉批评黄仁勋的相关“阴谋”。",
+          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+          "time": "06:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Muse 现可拨打美国企业电话——但需付费",
+          "summary": "Muse 的 AI 现已能够向美国企业拨打外呼电话，但该功能并非免费。",
+          "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+          "time": "06:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋事件持续发酵：时间线梳理",
+          "summary": "黄仁勋因婚外情辞去英伟达职务，此事可能对国家安全产生影响，因为中美两国正竞相开发最先进的AI基础设施。",
+          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "time": "05:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nebius以400亿美元计划支出测试新云模式",
+          "summary": "Nebius计划通过客户预付款和贷款为其400亿美元AI基础设施扩张提供资金。尽管微软数据中心的延迟引发外界对其融资模式的质疑，该公司仍推进这一新云模式。",
+          "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+          "time": "05:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "路透社报道：黄仁勋有第三段婚外情",
+          "summary": "路透社报道称黄仁勋有第三段婚外情，但未公开与黄仁勋有关联的新员工姓名，仅称她是英伟达员工。",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+          "time": "04:26",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌搜索最新升级，承诺为最复杂的问题提供更好的答案",
+          "summary": "谷歌的AI模式由Gemini 4 Hydrogen驱动，在理解复杂查询、呈现相关链接和提供更丰富的可视化回答方面均有提升。",
+          "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+          "time": "03:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nectar推出AI智能体，为品牌自动化发现和联系创作者",
+          "summary": "Nectar推出全新AI智能体，可自动化网红营销流程，帮助品牌发现创作者、管理外联与合作伙伴关系，并追踪营销活动效果。",
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+          "time": "03:11",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋离职引发对英伟达开源支持的质疑",
+          "summary": "黄仁勋的辞职令人质疑英伟达对开源AI的承诺，包括其收购Hugging Face、开放权重模型以及反对限制的倡导。公司正处于领导层过渡期，其开源立场面临不确定性。",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "time": "02:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Hugging Face CEO誓言在黄仁勋退出后继续为开源AI而战",
+          "summary": "Hugging Face CEO承诺在黄仁勋退出后继续为开源AI而战，此举引发外界对英伟达129亿美元收购案的质疑。",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+          "time": "01:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "美联航以网络安全风险为由禁止AI代理预订机票",
+          "summary": "美联航表示，出于网络安全风险考虑，将不允许客户使用AI代理预订航班和管理预订。",
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+          "time": "01:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "软银数十亿美元亏损或已限制AI的天然气野心",
+          "summary": "软银为给AI数据中心供电而预订天然气涡轮机，损失超过30亿美元。这一亏损对电力市场意味着什么，值得关注。",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Phota Labs利用AI将日常照片变成专业级大片",
+          "summary": "Phota Labs并非再推一款照片编辑工具，而是希望借助AI进步实现编辑流程自动化，让任何人都能更轻松地把日常瞬间变成更好的照片。",
+          "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋同意在国会作证",
+          "summary": "因涉嫌与中国间谍嫌疑女性有婚外情报道而被免去CEO职务的黄仁勋，在多位资深议员威胁发出传票后，于周三同意作证。",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+          "time": "00:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋被逐出英伟达可能损害AI行业的五种方式",
+          "summary": "英伟达被罢免的CEO黄仁勋的倒台并非普通的亿万富翁性丑闻。他一直在利用自己的影响力以某些非常具体的方式推动AI行业发展。",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+          "time": "00:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "特朗普提议苹果董事长蒂姆·库克接替黄仁勋",
+          "summary": "特朗普在Truth Social发帖称，只有一个人能接替黄仁勋执掌英伟达，那就是蒂姆·库克。",
+          "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+          "time": "00:12",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "原始摘要为空，无法翻译或精简。请提供摘要内容以便完成处理。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原始摘要为空，无法提供具体内容。请补充摘要文本以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于原始摘要为空，无法提供摘要内容。请补充英文摘要以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "UMAP 0.6：全新初始化、新优化器与更快性能",
+          "summary": "UMAP 0.6 正式发布，带来全新初始化方法、新优化器和更快的最近邻搜索，使其在大规模数据上速度大幅提升、效果更好。在 300 万篇 arXiv 论文上，UMAP 0.6 不到 5 分钟即可完成，而 UMAP 0.5 此时甚至还未找到最近邻。近邻搜索通过更充分利用 PyNNDescent 提速约 4 倍。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/",
+          "time": "21:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "增加作者负担以减少论文投稿是愚蠢的",
+          "summary": "过去两年，会议不断添加各种行政性要求，从作者/审稿人注册到互审，如今CVPR的作者登记表令众人不安。虽然目的是过滤低质量投稿，但这种方式非常愚蠢。许多研究者与医学、数学、神经科学、生物学等领域的专家合作开展机器学习研究，而这些合作者并不在机器学习会议圈内。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xul9u7/creating_author_burdens_to_reduce_paper/",
+          "time": "02:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如果NeurIPS、ICML和ICLR各自将录用论文上限设为1000篇会怎样？",
+          "summary": "随着三大机器学习会议的投稿量快速增长，如果每个会议每年硬性限制录用1000篇论文，会带来什么影响？这会提升研究质量，还是只会让录用过程更加随意和竞争激烈？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xugl6c/what_if_neurips_icml_and_iclr_capped_accepted/",
+          "time": "00:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "CVPR 2027 作者登记表 [D]",
+          "summary": "作者发现 CVPR 2027 除要求完整的 OpenReview 个人资料外，还需在摘要截止日期前单独提交作者登记表。其个人资料虽已完整，但登记表在截止后约一小时才提交，且此前未收到任何提醒或警告，误以为完善资料即可。作者询问其他作者是否知晓此要求并按时完成登记。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xue879/cvpr_2027_author_enrollment_form_d/",
+          "time": "22:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "MNIST手写数字网络权重展示",
+          "summary": "作者展示了自己首个机器学习项目的网络权重可视化：第一隐藏层64个神经元、第二隐藏层32个神经元、输出层10个神经元。该MNIST手写数字识别模型准确率达96.52%，即10,000张测试图中识别正确9,652张。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xupgn8/weights_for_mnist_handwriting_network_p/",
+          "time": "05:35",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Meta的大脑响应模型（TRIBE v2）真的能重建视网膜拓扑、音调拓扑和运动地图吗？",
+          "summary": "TRIBE v2能从视频、音频和文本预测fMRI，但其论文从未测试该模型是否能复现经典的拓扑地图（视网膜拓扑、音调拓扑、运动选择性），且方法部分承认视频特征在预测前会被空间平均，这会破坏位置信息。作者用经典映射刺激（棋盘格楔形/环形、半视野闪烁、移动点、音调扫描）运行该模型，并拟合与真实fMRI相同的模型进行验证。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xuillf/does_metas_brainresponse_model_tribe_v2_actually/",
+          "time": "01:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如何在OpenReview上为ICLR 2027发布仅AC可见的评论？",
+          "summary": "有人询问在ICLR 2027讨论期间，如何留下仅领域主席（AC）可见、审稿人不可见的评论。发帖者看到了“Official Comment”选项，但不确定哪个可见性/读者设置能将其限制为仅AC可见，希望获得指导。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xug0ym/how_to_post_an_acconfidential_comment_on/",
+          "time": "23:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "审稿人信心度对ICLR决策有多大影响？",
+          "summary": "作者在ICLR投稿中获得3/3/2评分，信心度分别为1/3/3。一个弱接收来自低信心审稿人，但该审稿人似乎专业且指出了论文关键问题；另一个弱接收和弱拒稿均来自信心度3的审稿人。作者询问领域主席在反驳和讨论后通常如何权衡这种分歧，低信心的正面评审是否权重更低，以及平均评分是否仍有参考价值。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xu3n5f/how_much_does_reviewer_confidence_matter_in_iclr/",
+          "time": "12:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "求反馈：混合方法实现非模态栅格转矢量的架构探讨",
+          "summary": "我是开源栅格转矢量工具 Inkvec 的维护者，目前主要问题是使用 MDL 选择节点且仅生成拼图式图形，无法完成非模态填充以补全被遮挡部分。虽然现有版本对多数任务表现良好，但仍需改进非模态填充能力并使节点布局更符合人工习惯，其中隐藏形状的补全是当前最大关注点。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xutg9v/i_need_feedback_on_this_architecture_for_amodal/",
+          "time": "08:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Gemma 3从文本中构建可线性解码的空间地图，但其答案从不读取它",
+          "summary": "一项独立预注册研究测试了Gemma 3（12B/27B）处理纯文本空间布局（如“A在B以北3格，C在A以东2格”）的能力。探针能读取每个物体的位置，甚至包括需要结合两句话才能推断的位置（R² 0.74），但擦除该地图的代价不超过擦除随机方向，说明模型答案从不读取它。模型实际依赖每句话的二维编码（DAS：72%/83%，随机为0%），该编码更像开关而非坐标。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xuqs9d/gemma_3_builds_a_linearly_decodable_spatial_map/",
+          "time": "06:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如何在NeurIPS/ICML/ICLR被直接拒稿",
+          "summary": "作者梳理了2013年以来NeurIPS、ICML和ICLR的征稿通知、作者指南及伦理/LLM政策页面，列出了所有可能导致论文未经评审即被拒稿的原因。2023年之前，规则都围绕论文本身，如页数限制、匿名性和重复投稿；如今则可能因未互审、共同作者等原因被直接拒稿。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xu08e7/how_to_get_deskrejected_at_neuripsicmliclr_d/",
+          "time": "09:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "错过演示",
+          "summary": "有用户提问：如果因故错过了论文工作坊的演示会怎样？该问题由网友 No_Caterpillar3174 提交，并附有相关链接和评论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xu1szu/missed_presentation_d/",
+          "time": "11:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我花一周微调EVA-02，打造CLIP仍无法胜任的神经视频检索引擎",
+          "summary": "作者用7天时间开源了一个本地视频检索引擎，可基于视觉姿态、服装细节、拍摄角度和运动节奏搜索海量非结构化视频门户，搜索时忽略上传者元数据，且仅需极少显存。现有CLIP、BLIP和SigLIP等模型在特定身体姿态和非常规场景下仍存在明显盲区。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xu1pg4/i_finetuned_eva02_in_a_week_to_build_a_neural/",
+          "time": "11:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了一个小型流式文本标注器，可逐词读取文本，让语音智能体在句子中途做出反应",
+          "summary": "我们逐词聆听和输入，但多数AI只在每轮对话结束时才行动，既浪费时间与token，也错过了句子说到一半就已明确的意图。为此我构建了Arc Tagger，这个小模型能在ASR接口或键入文本逐词到达时实时运行，在句子尚未说完时就标注意图、对话行为、实体、数字、PII、脏话、毒性和安全风险。视频中可以看到银行冒充诈骗在句子中途被标记。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xu548q/i_built_a_small_streaming_text_tagger_that_reads/",
+          "time": "14:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "LLMON：一种LLM原生标记语言，现已应用于Granite 4.1 3B和8B",
+          "summary": "LLMON是一种专为大语言模型设计的原生标记语言，旨在提升模型处理结构化内容的效率。该语言现已集成到Granite 4.1的3B和8B模型中，为开发者提供更高效的文本表示与解析能力。",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "time": "03:07",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "Google商家资料配置",
+          "summary": "小企业主在设置Google Business Profile时反复踩坑，5个常见设置项（如营业时间、服务区域、属性标签）容易遗漏或配错，导致本地搜索曝光受损。这些配置规则明确、字段固定，AI可引导式问答采集信息并自动生成合规配置清单，甚至直接调用API批量写入。\n\n💡 机会方向：面向本地商家的AI引导式Google商家资料一键配置与体检工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xulxb2/5_google_business_profile_settings_most_local/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "品牌设计前期调研",
+          "summary": "马尔代夫品牌工作室在动笔设计logo前，要花大量时间做三阶段调研：行业竞品视觉扫描、客户受众画像梳理、品牌调性关键词提炼。过程高度依赖人工搜集与整理，重复性高。AI可自动抓取竞品视觉素材、聚类风格标签并生成结构化品牌简报，把数天调研压缩到数小时。\n\n💡 机会方向：品牌设计机构专用的AI竞品视觉分析与品牌简报自动生成器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xuqh55/ive_run_a_branding_studio_in_the_maldives_for/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "邮件退信排查",
+          "summary": "小企业向大量@yahoo.com客户群发邮件时遭遇退信率上升，需手动逐条分析退信原因（SPF/DKIM/DMARC配置、发件域信誉、列表卫生），排查耗时且需专业知识。AI可自动解析退信报告、归类失败原因并给出可执行的DNS与发送策略修复建议。\n\n💡 机会方向：面向小企业的AI邮件送达率诊断与退信根因分析助手",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50475620",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "团队上下文同步",
+          "summary": "两位创始人全部工作都在Claude Code中进行，但彼此的对话记录、决策和代码上下文完全隔离，只能靠人工复述或翻聊天记录来同步，信息丢失严重。AI可自动抽取各自会话中的关键决策与待办，生成共享上下文摘要并推送到协作空间。\n\n💡 机会方向：AI编程协作场景下的跨会话上下文自动摘要与团队知识同步层",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50472301",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "供应商账单比价",
+          "summary": "小企业主因QuickBooks四年涨价60美元而决定更换，但需手动对比多家替代品的费率、支付处理成本、迁移难度，信息分散在官网和论坛中。AI可结构化抓取各平台定价与功能、按企业实际交易量测算总成本，并生成迁移检查清单。\n\n💡 机会方向：面向小企业的SaaS/财税工具AI比价与迁移方案生成器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xupwr4/what_are_your_favorite_quickbooks_alternatives_i/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
