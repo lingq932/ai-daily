@@ -1,0 +1,554 @@
+{
+  "date": "2026-11-14",
+  "timeRange": "2026-11-13 09:00 ~ 2026-11-14 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "黄仁勋离开英伟达",
+          "coverage": [
+            {
+              "source": "The Rundown AI",
+              "summary": "英伟达正迈入没有黄仁勋的新阶段。另附：在 Claude Sheets 中构建共享追踪表。",
+              "url": "https://therundownai.beehiiv.com/p/nvidia-enters-life-without-jensen-huang"
+            },
+            {
+              "source": "The Verge AI",
+              "summary": "英伟达CEO黄仁勋周四辞去这家AI最重要公司的最高职位，为围绕他的部分风波画上句号。但未来数周乃至数月，一个更大的故事可能即将展开，涉及英伟达在中国的业务以及美",
+              "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "在黄仁勋执掌下，英伟达向AI初创企业投入了数百亿美元。创始人和风投人士表示，随着他卸任，他们正准备迎接更小的投资额和更低的估值。",
+              "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+            }
+          ]
+        },
+        {
+          "headline": "ChatGPT钱包上线",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "OpenAI在今年早些时候推出Dots AI智能体平台后，又为该平台推出钱包功能。ChatGPT钱包即日起面向美国18岁以上的ChatGPT Pro订阅用户开放",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "ChatGPT 钱包功能允许 AI 智能体代用户购物并完成结账。该功能首先面向美国 Pro 订阅用户限量推出。",
+              "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Replicate | 免费将 Webflow/Framer 应用转换为 Claude/Codex 项目",
+          "summary": "免费将 Webflow/Framer 应用转换为 Claude/Codex 项目",
+          "url": "https://www.producthunt.com/products/replicate-10",
+          "time": "10:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Claude Meetings | 将 Claude 加入你的通话，边聊边开始工作",
+          "summary": "将 Claude 加入你的通话，边聊边开始工作",
+          "url": "https://www.producthunt.com/products/claude",
+          "time": "10:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Portal2Bench – AI 智能体能否解决《传送门2》？",
+          "summary": "AI 智能体能否解决《传送门2》？",
+          "url": "https://kingstonyip.com/portal2bench",
+          "time": "08:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Memro – 为 Claude Code、Cursor 和 Codex 提供持久记忆",
+          "summary": "Memro 是一个基于 Go 的持久记忆系统，让 AI 智能体跨会话共享上下文",
+          "url": "https://github.com/memrohq/memro",
+          "time": "08:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "构建一个应用发布平台列表",
+          "summary": "人工审核（当然有 AI 辅助），我会持续更新",
+          "url": "https://another.directory/where-to-launch",
+          "time": "08:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Feedback/AMA MeditionBench；用于调解与冲突解决的大语言模型",
+          "summary": "我是 Human Assisted Intelligence 的创始人，我相信 AI 可以用于……",
+          "url": "https://news.ycombinator.com/item?id=50491841",
+          "time": "07:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Anvil 以更低成本构建高端网站",
+          "summary": "Anvil 是一个 AI 应用构建器，专注于高端 UI/UX，且无需高昂价格",
+          "url": "https://www.tryanvil.dev/",
+          "time": "07:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "FrontierBioML – 编程智能体能否为计算生物学做机器学习？",
+          "summary": "编程智能体能否为计算生物学做机器学习？",
+          "url": "https://www.frontierbioml.com/",
+          "time": "06:36",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "面向 Claude Code 的客户智能与变现工具包",
+          "summary": "面向 Claude Code 的客户智能与变现工具包",
+          "url": "https://github.com/Satvik-jain/customer-intelligence-toolkit",
+          "time": "06:03",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "现代Web开发指南源码（供AI编码代理使用）",
+          "summary": "这是Google Chrome团队维护的现代Web最佳实践知识库源码，专门用于让AI编码代理（coding agent）保持对最新Web标准的了解。它解决的是AI生成前端代码时容易使用过时API或不规范写法的问题，通过结构化知识喂给代理提升产出质量。今日新增1925星，TypeScript实现，反映出市场对'AI编码代理知识更新'这一痛点的强烈关注。\n\n💼 商业缺口：缺少针对企业AI编码代理的'最佳实践合规审计与版本漂移告警'服务层。",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "time": "1,925 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "OpenAI Codex 安全命令行工具与TypeScript SDK",
+          "summary": "这是OpenAI官方推出的Codex Security CLI及TypeScript SDK，用于发现、验证并修复代码中的安全问题，把AI代码生成与安全审查打通。它解决的是AI辅助编程普及后代码漏洞引入速度加快、传统SAST工具跟不上节奏的问题。今日751星，背靠OpenAI生态，值得关注其在AI原生安全左移流程中的定位。\n\n💼 商业缺口：缺少面向AI生成代码的'漏洞修复证据链与合规审计报告'付费层。",
+          "url": "https://github.com/openai/codex-security",
+          "time": "751 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "LLM驱动的多市场股票智能分析系统",
+          "summary": "这是一个由大语言模型驱动的多市场股票智能分析系统，整合多源行情、实时新闻、决策看板与自动推送，并支持零成本定时运行。它解决的是个人投资者缺乏低成本、自动化、多市场信息聚合与LLM解读能力的问题。今日256星，Python实现，属于LLM在垂直金融场景落地的典型项目。\n\n💼 商业缺口：缺少针对LLM投资建议的'决策留痕、回测归因与合规免责'治理产品。",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "time": "256 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Plannotator：AI代理协作工作区",
+          "summary": "这是一个让开发者持续跟踪并掌控AI代理的工作区工具，支持对代理的计划进行塑造、决策与审批。它解决的是多代理/长任务场景下人类难以介入、代理行为不透明的问题。今日108星，TypeScript实现，契合当前'人在回路'（human-in-the-loop）代理编排的热点方向。\n\n💼 商业缺口：缺少代理决策的'审批审计日志与责任归属追踪'付费层。",
+          "url": "https://github.com/backnotprop/plannotator",
+          "time": "108 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude交易技能集（面向股票投资者与交易员）",
+          "summary": "这是一套面向股票投资者和交易员的Claude Code技能集合，覆盖市场分析、技术指标等场景，把LLM代理能力封装为可复用的交易工作流。它解决的是交易员想用Claude但缺乏领域专用技能模板的问题。今日69星，Python实现，属于Claude Code技能生态在金融垂直领域的探索。\n\n💼 商业缺口：缺少交易技能输出的'策略合规审查与实盘成本归因'证据层。",
+          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "time": "69 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Chrome DevTools 面向编码代理的MCP服务",
+          "summary": "这是Chrome DevTools团队推出的MCP（模型上下文协议）服务，让AI编码代理能够直接调用Chrome DevTools进行调试与页面检查。它解决的是AI代理写前端代码后无法自主验证运行时行为的问题，把浏览器调试能力接入代理工具链。今日67星，TypeScript实现，是MCP生态与浏览器工具结合的重要官方信号。\n\n💼 商业缺口：缺少代理调试行为的'会话回放、权限边界与成本计量'治理产品。",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "time": "67 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "谷歌DeepMind与英国气象局合作，发布WeatherNext 3基础数据集",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "谷歌DeepMind宣布与英国气象局建立研究合作，其气候科学专业知识对评估WeatherNext模型至关重要。同时，DeepMind发布PARDIG和SatWeave两个基础数据集：前者每15分钟估算全球降雨，降水检测能力提升超30%；后者每小时将多颗地球静止卫星合成为地球云层与风暴的实时视图。这些数据可帮助团队应对洪水预警、野火烟雾追踪和太阳能等实际问题。",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "杨立昆宣布成立数学与AI新中心",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆宣布在库朗研究所成立数学与AI中心（MAIC），旨在让前沿AI系统成为科学研究的对象，使数学界能够剖析、改进、复现并最终理解这些系统。他同时预告将在西北大学就任意数据的预测抽象端到端学习发表演讲，探讨人类为何擅长此道以及JEPA的下一步发展。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "英伟达进入没有黄仁勋的时代",
+          "summary": "英伟达正迈入没有黄仁勋的新阶段。另附：在 Claude Sheets 中构建共享追踪表。",
+          "url": "https://therundownai.beehiiv.com/p/nvidia-enters-life-without-jensen-huang",
+          "time": "18:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "亚马逊计划索引全球在线购物数据",
+          "summary": "据路透社报道，亚马逊计划建立一个涵盖互联网上所有销售商品（包括其自身不销售的商品）的数据库，并通过自家网站提供这些信息。该项目名为“全球商品图谱”，旨在降低购物者离开亚马逊去其他平台搜索商品的几率。",
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "time": "07:49",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "ChatGPT钱包上线，OpenAI的Dots智能体可代你完成购物",
+          "summary": "OpenAI在今年早些时候推出Dots AI智能体平台后，又为该平台推出钱包功能。ChatGPT钱包即日起面向美国18岁以上的ChatGPT Pro订阅用户开放，需使用美国账单地址及符合条件的美国发行的美国运通、大通、万事达和Visa卡。用户添加银行卡后，即可让智能体代为完成购买。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+          "time": "04:45",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋事件背后的真正利害关系",
+          "summary": "英伟达CEO黄仁勋周四辞去这家AI最重要公司的最高职位，为围绕他的部分风波画上句号。但未来数周乃至数月，一个更大的故事可能即将展开，涉及英伟达在中国的业务以及美国政府的意愿。",
+          "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+          "time": "22:47",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Claude的Duet智能体有点神经质，却出奇地好用",
+          "summary": "Claude Duet是Anthropic面向消费者的AI智能体，旨在向非程序员证明智能体的实用性。与多数测试产品不同，它主动提出帮我撰写使用体验，表现令人意外。整体体验有趣且值得关注。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "来聊聊黄仁勋的多段风流韵事！",
+          "summary": "通常我们会解答新闻事件相关问题，但老实说，对于英伟达到底发生了什么，我们也毫无头绪。黄仁勋的新情妇一个接一个曝光，照这个速度，我担心我们正逼近“绯闻奇点”。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "风投和创始人称黄仁勋的离开给AI初创企业融资留下巨大缺口",
+          "summary": "在黄仁勋执掌下，英伟达向AI初创企业投入了数百亿美元。创始人和风投人士表示，随着他卸任，他们正准备迎接更小的投资额和更低的估值。",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+          "time": "06:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI智能体初创公司LangChain估值达30亿美元",
+          "summary": "LangChain宣布其模型与平台无关的智能体管理工具LangSmith已拥有7000家客户，公司估值达到30亿美元。",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+          "time": "03:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "出口禁令下的英伟达芯片竟是中国最强AI模型的幕后功臣——黄仁勋，小心了！",
+          "summary": "新研究显示，中国最先进的AI模型是用被禁售的英伟达芯片训练出来的。这一发现表明，出口管制可能未能阻止中国获取关键算力。",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+          "time": "02:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "ChatGPT 推出新钱包功能，AI 智能体可代用户购物结账",
+          "summary": "ChatGPT 钱包功能允许 AI 智能体代用户购物并完成结账。该功能首先面向美国 Pro 订阅用户限量推出。",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋丑闻持续发酵：时间线梳理",
+          "summary": "黄仁勋因婚外情辞去英伟达职务，此事可能对国家安全产生影响，因为中美两国正竞相开发最先进的AI基础设施。",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "time": "23:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "ElevenLabs推出新应用，为团队融合会议记录与听写功能",
+          "summary": "ElevenLabs发布了一款名为ElevenAI的新应用，集会议记录与听写功能于一体，主要面向团队和企业用户。",
+          "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+          "time": "22:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "以色列风投界认为英伟达动荡中蕴含挑战者机遇",
+          "summary": "鉴于英伟达在AI领域的强势地位及其在以色列的重要性，该国创业生态系统中许多人对他的离开所造成的影响感到担忧。以色列风投界则认为，英伟达的动荡为挑战者带来了机会。",
+          "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+          "time": "20:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "报道称黄仁勋对继任者缺乏信心",
+          "summary": "据报道，黄仁勋在夏季的一次会议上将克雷斯形容为“惊慌失措”。报道称，这显示出黄仁勋对这位继任者缺乏信心。",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+          "time": "20:28",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "原始摘要缺失，无法翻译或精简。请提供摘要内容以便完成处理。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "由于未提供具体摘要内容，无法生成精简的中文摘要。请补充原始摘要文本以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "由于提供的原始摘要为空，无法生成具体的中文摘要。请补充英文摘要内容，以便我按要求翻译并精简为 2-3 句话、80-150 字的核心信息摘要。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "ICML 2027 审稿流程改革",
+          "summary": "ICML 2027 征稿启事显示，大会以两阶段流程应对投稿量激增：领域主席决定论文是否进入完整评审，任何一阶段拒稿须经资深领域主席确认，作者将在2月23日前收到简要理由。此外，每人最多参与20篇投稿，每篇论文须从作者名单中指定一名互审审稿人（每位审稿人最多负责6篇）。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xvkxbj/icml_2027_changes_d/",
+          "time": "05:53",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "SnorkelAI 面向机器学习科学家的付费调查：完全不值得 [R]",
+          "summary": "作者拥有博士学位并在 A* 会议发表过论文，因此被邀请参与 SnorkelAI 的付费调查，决定尝试并完成个人验证后等待调查。第一个问题是推销程度极强：作者睡觉醒来就收到 1 封邮件和 2 条跟进。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xv4rjy/paid_surveys_for_machine_learning_scientists_for/",
+          "time": "18:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我训练了一个模型来预测我的血糖",
+          "summary": "我在预生成的合成CGM数据集上训练了一个仅含31,253个参数的自定义编码器Transformer，并用LoRA将其拟合到我的个人数据上，表现与其他已发表模型相当。我使用了115天的CGM数据，其中80天用于训练适配器，35天用于测试。模型先经过预训练阶段，消耗了约19,200个CGM年的合成数据，包含100万名模拟1型糖尿病患者各7天的数据。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xvja5n/i_have_trained_a_model_to_predict_my_blood_sugar_p/",
+          "time": "04:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "反向传播 [D]",
+          "summary": "一位研究生表示在学习神经网络时难以直观理解训练各阶段，虽然明白前向传播是根据输入计算输出，但对反向传播中如何调整权重感到不直观。他希望能获得可视化建议，以帮助更直观地理解这一过程。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xvnob6/back_propagation_d/",
+          "time": "07:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "在TorchTitan上扩展至万亿参数MoE模型",
+          "summary": "过去几个月，我们与TorchTitan和PyTorch维护者合作，探索GH200 GPU（JUPITER超级计算机所用）的性能极限。结果显示，在384块GPU上可以约1300 tokens/秒的速度训练约1万亿参数的MoE模型，达到初始速度的14倍。我们还总结了一些大规模模型训练的经验教训。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xvce5h/scaling_to_1t_moe_on_torchtitan_p/",
+          "time": "00:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "四个前沿模型在7部分材料科学研究测试中得分97.8–100，长周期智能体评估应如何评分？",
+          "summary": "一位石墨烯与二维材料领域研究者设计了一套模拟研究组日常技术工作的测试，共七部分，涵盖拉伸数据处理、CIF密度函数编写、物理估算、论文审稿纠错、虚假前提与伪造论文识别及实验设计等。四个前沿模型在该测试中得分高达97.8至100，引发对长周期智能体评估评分方式的讨论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xvgf6h/four_frontier_models_scored_978100_on_a_7part/",
+          "time": "02:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "如何仅用NLI和编码器模型打造Legora风格的法律冲突检测工具",
+          "summary": "Isaacus的法律工程师Tabs开源了一款法律冲突检测工具，仅使用编码器模型和自然语言推理技术，即可识别成对法律文件之间的偏差与缺口。受TypeSafe AI的Jev等判别式模型启发，他尝试用更小的非生成式模型处理大部分法律文档分析工作。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xuzv6d/how_to_make_a_legorastyle_legal_conflict_detector/",
+          "time": "13:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "开放权重：ParaTrace v8（RAID调优版），在RAID排行榜上位列第五（1% FPR下的TPR）[R]",
+          "summary": "ParaTrace v8（RAID调优版）基于ModernBERT架构的Ettin-1B编码器，采用512 token窗口，在RAID训练集上微调并经过困难样本轮次优化。在RAID隐藏测试集上，1% FPR下TPR达99.20%，5% FPR下达99.76%（无攻击时1% FPR为99.43%）。最弱切片为Cohere生成（96.5%）、Reddit（97.9%）和复述攻击（98.0%），detector.py可复现排行榜提交结果（误差在1e-6以内）。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xv4ldx/open_weights_paratrace_v8_raidtuned_5th_on_the/",
+          "time": "18:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我构建了 tamserve，让实时视频追踪成本降低一半",
+          "summary": "SAM 2 系列追踪器（如 SAM 2.1、EdgeTAM）比框式追踪器更精准灵活，只需点击一次即可在每帧获得精确轮廓。但在实时摄像头上运行成本高昂，且 Meta 的代码会保留所有帧，几分钟内就会耗尽 GPU 显存。tamserve 在所有摄像头间共享同一份模型副本并保持内存平稳，可无限期运行，开箱即用比 Meta 代码快达 3.8 倍，精度相同。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xuvxke/i_built_tamserve_to_make_realtime_video_tracking/",
+          "time": "10:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "使用 SimReady 资产构建机器人拾放仿真",
+          "summary": "本教程介绍如何利用 SimReady 资产搭建机器人拾放仿真环境，演示从场景构建到仿真运行的完整流程，帮助开发者快速上手机器人操作仿真。",
+          "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "time": "02:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "XYBench：帮助解决提问背后的问题",
+          "summary": "XYBench 旨在解决提问背后隐藏的问题，而不仅仅是表面问题本身。",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "time": "01:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "llama.cpp v1.0.0：为本地 AI 生态奠定更坚实的基础",
+          "summary": "llama.cpp 发布 v1.0.0 版本，为本地 AI 生态提供更坚实的基础。该版本标志着这一广受欢迎的开源推理项目进入新的发展阶段。",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "time": "22:05",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "ADA网站诉讼比对",
+          "summary": "小企业主为应对同一律所批量发起的ADA网站无障碍诉讼，需逐份阅读公开法院记录、比对诉状措辞与指控模式，人工提取相似点耗时且易漏。AI可批量抓取裁判文书、聚类诉由模板、标注高风险页面元素，并生成整改清单与应诉要点摘要。\n\n💡 机会方向：面向中小企业的ADA网站合规扫描与诉讼风险预警工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xvfr5k/i_read_20_ada_website_lawsuits_from_the_same_law/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "年终税务测算",
+          "summary": "外包会计所在报税季需手工汇总客户账目、逐项核对扣除项并做年终税务预测，重复录入与跨表校验极其耗时。AI可自动读取银行流水与发票、匹配可抵扣项目、生成多情景税负测算表，并标注需客户确认的异常凭证。\n\n💡 机会方向：面向代账机构的AI税务测算与凭证核对助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xvojtu/its_almost_tax_season_yall_giving_some_basic_tips/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "SEO合同尽调",
+          "summary": "小企业主签约前缺乏对SEO服务商交付承诺的核验能力，事后发现1.6万美元投入几乎无产出。AI可解析合同SLA、对照历史客户评价与公开排名数据，自动生成交付物清单、验收指标与风险条款提示，辅助签约前尽调。\n\n💡 机会方向：SEO/营销服务商合同条款解析与履约风险评分工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xvb3jl/paid_an_seo_agency_16k_and_got_almost_nothing/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "关停企业决策",
+          "summary": "企业主因等待出售而拖延关停，最终错失时机并承担持续亏损，需人工梳理关停时点、债务与资产处置路径。AI可基于现金流、负债与市场行情模拟继续经营与关停的财务对比，输出分阶段关停清单与时间表。\n\n💡 机会方向：小微企业退出/关停决策模拟与流程清单生成器",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xvc7b9/waited_too_long_to_close_my_business/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "员工工位人体工学",
+          "summary": "设计公司11名员工因长时间伏案出现背痛，管理者需人工排查工位配置、座椅型号与工时安排并权衡采购预算。AI可结合员工身高体重与工时数据推荐座椅参数、生成分批采购方案与工位调整建议，并预估改善效果。\n\n💡 机会方向：中小企业办公人体工学评估与采购建议AI顾问",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xv0mir/need_advice_my_employees_are_getting_back_pain/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
