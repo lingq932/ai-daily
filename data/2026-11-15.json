@@ -1,0 +1,416 @@
+{
+  "date": "2026-11-15",
+  "timeRange": "2026-11-14 09:00 ~ 2026-11-15 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "黄仁勋卸任英伟达CEO",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "2025年1月6日，英伟达CEO黄仁勋终于迎来了他的摇滚明星时刻。他身穿黑色皮夹克，在14000人场馆内众多网红和粉丝的欢呼声中登台亮相，现场蓝色灯光映照在观众",
+              "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "英伟达安全主管于8月悄然离职。CEO黄仁勋因与一名疑似向中国输送芯片的公司高管存在关系而辞职。一名前情报官员表示，这类泄密往往藏于日常对话中，大多数企业安全团队",
+              "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "HN Show",
+          "title": "Show HN：LetThemBuild——并行使用 Claude、Codex、Gemini、Grok 和 OpenRouter 模型",
+          "summary": "一个让用户并行调用 Claude、Codex、Gemini、Grok 及 OpenRouter 等多个大语言模型的工具平台。",
+          "url": "https://letthembuild.com",
+          "time": "07:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN：每日谜题，帮助 AI 用户保持敏锐",
+          "summary": "提供每日谜题练习，旨在帮助 AI 用户保持思维敏捷。",
+          "url": "https://brainsaver.app",
+          "time": "07:15",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Plannotator：智能体协作规划工作台",
+          "summary": "这是一个让开发者与AI智能体保持同步协作的工作空间工具，支持塑造任务、做决策和制定计划。它解决的是多智能体协作时人类难以跟踪和干预的问题，今日获得408星，TypeScript实现便于前端集成。\n\n💼 商业缺口：缺少针对智能体规划决策的审计留痕与合规追溯产品。",
+          "url": "https://github.com/backnotprop/plannotator",
+          "time": "408 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Modern Web Guidance：为编码智能体提供最新Web最佳实践",
+          "summary": "谷歌Chrome团队出品，让编码智能体实时掌握最新Web开发最佳实践的知识源项目。它解决AI编码助手知识过时、生成过时代码的问题，今日1231星显示开发者对智能体代码质量的高度关注。\n\n💼 商业缺口：缺少衡量智能体生成代码是否符合最佳实践的采用证据与评分层。",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "time": "1,231 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude交易技能库：面向股票投资者的AI技能集",
+          "summary": "为股票投资者和交易员提供的Claude Code技能集合，涵盖市场分析和技术分析等能力。它把大模型能力落地到金融投研场景，今日553星反映AI+金融工具的热度，Python实现便于量化集成。\n\n💼 商业缺口：缺少AI交易建议的合规审查与投资决策责任归属记录产品。",
+          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "time": "553 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Chrome DevTools MCP：为编码智能体提供浏览器调试能力",
+          "summary": "将Chrome开发者工具通过MCP协议暴露给编码智能体，让AI能直接调试和分析网页。它解决了智能体无法感知浏览器运行时状态的问题，今日664星体现MCP生态的快速扩张。\n\n💼 商业缺口：缺少智能体调用浏览器调试权限的审计与敏感操作管控层。",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "time": "664 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "阿里巴巴开源代码审查：大规模实战验证的混合架构",
+          "summary": "阿里开源的安全高效代码审查工具，采用混合架构并在阿里规模下经过实战检验。它解决企业级代码审查的效率与准确性问题，今日893星显示大厂开源AI工程工具的强大号召力。\n\n💼 商业缺口：缺少AI代码审查结果的采纳率统计与审查质量证据报告产品。",
+          "url": "https://github.com/alibaba/open-code-review",
+          "time": "893 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Qwen Code：运行在终端中的开源AI编码智能体",
+          "summary": "通义千问团队推出的开源AI编码智能体，直接运行在终端中。它为开发者提供本地化、可定制的命令行AI编程助手，今日64星虽不高但背靠Qwen生态具备长期潜力。\n\n💼 商业缺口：缺少终端智能体调用成本与token消耗的实时监控计费层。",
+          "url": "https://github.com/QwenLM/qwen-code",
+          "time": "64 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Univer：用Office SDK构建你自己的AI办公套件",
+          "summary": "基于Univer Office SDK构建AI办公应用，集成编辑、计算、协作等能力。它把AI能力嵌入电子表格和文档场景，今日495星显示AI办公赛道持续升温，TypeScript便于Web集成。\n\n💼 商业缺口：缺少AI办公操作的数据治理与多人协作权限审计产品。",
+          "url": "https://github.com/dream-num/univer",
+          "time": "495 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AG-UI：智能体与用户交互协议",
+          "summary": "AG-UI是智能体与用户交互的协议标准，把AI智能体带入前端应用。它解决智能体与前端界面交互缺乏统一规范的问题，今日9星但属于基础设施型项目，具备生态卡位价值。\n\n💼 商业缺口：缺少基于该协议的智能体交互行为合规审计与用户数据流向追踪层。",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "time": "9 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "TensorFold：面向Metal、CUDA和Vulkan的LLM推理引擎",
+          "summary": "用Zig语言编写的LLM推理引擎，支持Metal、CUDA和Vulkan多后端。它解决大模型在异构硬件上的高效推理问题，今日37星虽小但Zig+多后端GPU推理属于技术稀缺方向。\n\n💼 商业缺口：缺少跨硬件后端的推理成本对比与性能基准证据平台。",
+          "url": "https://github.com/ashhart/TensorFold",
+          "time": "37 stars today",
+          "language": "Zig",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Caveman：极简token的编码智能体代理技能",
+          "summary": "一个病毒式传播的编码智能体技能与代理，核心理念是用更少的token完成同样的事。它解决AI编码中token成本过高的问题，今日227星说明成本优化是开发者真实痛点，Go实现性能好。\n\n💼 商业缺口：缺少token节省效果的可验证计量与成本节省审计报告产品。",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "time": "227 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "LoopForge：编码智能体交付的自托管工作流",
+          "summary": "腾讯出品的自托管工作流工具，用于编排CodeBuddy、Codex等编码智能体的交付流程。它解决多智能体协同交付缺乏编排的问题，今日33星但背靠腾讯生态，Go实现适合企业部署。\n\n💼 商业缺口：缺少智能体交付工作流的合规审计与交付质量证据链产品。",
+          "url": "https://github.com/Tencent/LoopForge",
+          "time": "33 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "解雇山姆·奥特曼的OpenAI董事会成员称我们仍不能信任AI CEO",
+          "summary": "本期对话嘉宾是乔治城大学安全与新兴技术中心执行主任海伦·托纳，她是AI安全与政策领域的知名人物，最广为人知的身份是曾任职于OpenAI董事会。这是\"AI在现实生活中的应用\"系列节目的第二部分。",
+          "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+          "time": "23:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋与远见型表演者CEO的衰落",
+          "summary": "2025年1月6日，英伟达CEO黄仁勋终于迎来了他的摇滚明星时刻。他身穿黑色皮夹克，在14000人场馆内众多网红和粉丝的欢呼声中登台亮相，现场蓝色灯光映照在观众脸上。",
+          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+          "time": "20:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达的安全团队在哪里？",
+          "summary": "英伟达安全主管于8月悄然离职。CEO黄仁勋因与一名疑似向中国输送芯片的公司高管存在关系而辞职。一名前情报官员表示，这类泄密往往藏于日常对话中，大多数企业安全团队难以察觉。",
+          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+          "time": "08:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "埃隆·马斯克等科技高管联名请愿，呼吁英伟达恢复黄仁勋职务",
+          "summary": "埃隆·马斯克等科技高管签署请愿书，呼吁英伟达恢复黄仁勋的职务。截至周六下午，该请愿已获得超过11.5万个签名。",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "time": "05:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI坟场：未能成功的项目与初创公司持续清单",
+          "summary": "从苹果屡次推迟的Siri AI到OpenAI混乱的“超级应用”发布，本文盘点了那些已关停或未达预期的AI项目。清单持续更新，记录AI行业中的失败案例。",
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+          "time": "01:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "亚洲各国政府对英伟达CEO黄仁勋卸任作出反应",
+          "summary": "一些政府着手确认芯片供应承诺，另一些则在监测对本地项目的影响或应对正在进行的调查。",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "time": "00:34",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“Fintech 100”榜单，但原始摘要为空，未提供具体信息，无法生成详细摘要。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "由于未提供原始摘要内容，无法生成中文摘要。请补充摘要文本以便完成翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文仅提供标题“State of Insurtech”，未附摘要内容，无法翻译或精简摘要。请补充摘要原文以便处理。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "按大学排名的ICLR 2027初步评审分数",
+          "summary": "该数据从OpenReview抓取，将论文标题与arXiv匹配，并通过OpenAlex关联所属机构，最终按大学对ICLR 2027的初步评审分数进行排名。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xwcjuq/iclr_2027_initial_review_scores_ranked_by/",
+          "time": "04:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 反驳意见 [R]",
+          "summary": "我即将提交 ICLR 反驳意见，想用不同文字颜色标出稿件修改处，方便审稿人识别。作者指南未提及此做法，请问是否允许？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw19o8/iclr_rebuttal_r/",
+          "time": "20:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR 2027 反驳阶段 [D]",
+          "summary": "有投稿者反映，在反驳阶段更新论文时，指南似乎表明系统会自动对更新后的 PDF 应用差异对比，但该用户在任何位置（包括“修订”页面）都看不到颜色标记或 PDF 差异对比。该用户询问其他人是否能看到这些变化。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw5uwe/iclr_2027_rebuttal_d/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "短期价格预测论文是否应以市场隐含预测为基准，而非仅用朴素基线？",
+          "summary": "作者阅读了大量关于加密货币和大宗商品短期价格预测的论文（使用Transformer、LSTM等），发现它们几乎都只与ARIMA、随机游走或简单LSTM比较并报告更低的RMSE，却很少与市场已有预期对比，例如期权隐含波动率区间或人们投入真金白银的群体预测。这些市场预期已利用了海量公开信息，因此若无法战胜市场自身预测，仅击败随机游走说明不了什么。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw6fk9/should_shorthorizon_price_forecasting_papers/",
+          "time": "00:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ACM Multimedia 2026：TimeCues Studio——免费开源的音乐结构标注工具",
+          "summary": "TimeCues Studio 是一款开源网页应用，可在节拍锁定时间轴上标注音乐，并将算法结果与人工标注进行对比。它支持标注歌曲的段落、提示点、跨度、重复段、歌词和循环，适合需要标注音乐数据或测试音乐分析模型的研究者使用。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xwh3mw/acm_multimedia_2026_timecues_studio_a_free/",
+          "time": "07:59",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "是否必须在11月15日前上传NeurIPS海报？[D]",
+          "summary": "用户收到邮件要求在11月15日前通过论文元数据页面的海报上传链接上传海报和缩略图，但不确定是否必须上传。该问题来自Reddit用户投稿，寻求确认上传海报是否为强制要求。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw3q5f/is_it_compulsory_to_upload_neurips_poster_by_15th/",
+          "time": "22:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "匿名GitHub无法访问",
+          "summary": "在ICLR反驳期进行到一半时，我发现我创建的链接无法访问。有人遇到同样的问题吗？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw9m5h/anonymous_github_not_working_d/",
+          "time": "02:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Kaggle 的伦理替代方案",
+          "summary": "作者认为强制使用生物识别验证（且由争议供应商提供）才能参加比赛不可接受，因为这只是提交方案而非领取奖金。作者询问有哪些替代竞赛可以让人用 SOTA 或准 SOTA 模型娱乐。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw6d7n/ethical_alternatives_to_kaggle_d/",
+          "time": "00:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "构建本地AI摄影编辑助手，有人在做类似项目吗？",
+          "summary": "我正在探索如何构建一个本地AI系统，为风光和人像摄影自动化高级照片编辑工作流。我拥有Adobe Creative Cloud全套应用、RTX 5060 8GB显卡、64GB内存，并有通过Ollama运行本地大模型的经验。我的目标不是制作AI滤镜或生成图像，而是打造一个理解专业编辑技术并能通过Photoshop执行这些技术的助手。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xvzkwz/building_a_local_ai_photography_editing_assistant/",
+          "time": "18:51",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "利用可及硬件在图注意力网络中检测低资源环境下的癫痫脑电信号",
+          "summary": "该研究探讨图注意力网络能否在低资源环境下利用可及硬件检测癫痫脑电信号，并提出模型实际部署的可能性问题。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw3si8/graph_attention_networks_for_detecting_epilepsy/",
+          "time": "22:31",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "理解余弦相似度工作原理的优质视频",
+          "summary": "该视频从代数和几何两个视角出色地讲解了点积，并由此推导出余弦相似度及其在嵌入向量中的应用。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xw0dgg/great_video_for_understanding_how_cosine/",
+          "time": "19:39",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "手动筛选制造商",
+          "summary": "小品牌创始人要在主业之外自己找代工厂，需要逐个搜索、比对资质、发询盘、筛掉不靠谱的供应商，信息分散且耗时极长。AI可抓取公开供应商数据、按品类/产能/认证自动打分排序，并批量生成个性化询盘邮件，把数周的初筛压缩到几小时。\n\n💡 机会方向：面向小品牌的AI供应商发现与初筛引擎",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xwezbq/how_do_you_find_and_screen_manufacturers/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动找首批客户",
+          "summary": "一人公司没有广告预算，只能靠冷启动反复试渠道：发帖、私信、参加活动，却不知道哪条线索真正有效。AI可基于产品画像自动生成目标客户名单、撰写个性化外联话术、追踪回复并排序优先级，把盲目的手工外联变成可复用的获客流水线。\n\n💡 机会方向：零预算独立创业者的AI外联与线索生成工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xw7wci/oneperson_business_no_ad_budget_where_did_your/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动跟进投资人引荐",
+          "summary": "创始人拿到投资人引荐后，两次介绍都石沉大海，不知道该给中间人发什么、何时跟进、如何措辞。AI可基于融资阶段和对方背景生成跟进邮件序列、提醒节奏，并分析沉默原因给出下一步动作建议，避免宝贵引荐被浪费。\n\n💡 机会方向：种子轮融资的AI引荐跟进与关系维护助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xw5cxt/two_intro_requests_went_nowhere_what_do_you/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动管理车队合规",
+          "summary": "15辆卡车的企业没有车队管理系统，电工用公司信用卡加油、手工记录里程和保养，合规与成本核算全靠人盯。AI可自动汇总加油/里程/保养数据、识别异常支出、提醒年检保险到期，并生成可报销的合规报表，替代零散的表格和纸质记录。\n\n💡 机会方向：中小企业轻量级AI车队与合规记账助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xw56k8/is_fleet_mgmt_needed_or_useful/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "手动筛选简历线索",
+          "summary": "家族劳务派遣公司要持续获取雇主线索，靠人工在各类渠道搜集潜在客户并逐个联系，效率低且容易漏跟进。AI可自动抓取有用工需求的企业信号、去重打分、生成定制化开场话术并安排跟进，把零散的手工拓客变成结构化线索管道。\n\n💡 机会方向：劳务/服务型小企业的AI线索挖掘与跟进系统",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xw7iud/how_to_get_more_leads/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
