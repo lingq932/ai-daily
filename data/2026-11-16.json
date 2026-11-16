@@ -1,0 +1,578 @@
+{
+  "date": "2026-11-16",
+  "timeRange": "2026-11-15 09:00 ~ 2026-11-16 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "英伟达黄仁勋芯片出口风波",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "围绕英伟达联合创始人、前CEO黄仁勋的风波正迅速演变。最新一期Stepback newsletter梳理了相关情况，但自今晨以来已出现多项新进展，包括黄仁勋可能",
+              "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "“黄仁勋就是英伟达，对吧？而当前经济中有很大一部分都依赖英伟达。”文章探讨英伟达及其CEO黄仁勋所面临的负面消息，是否会波及整个AI行业。",
+              "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/"
+            },
+            {
+              "source": "r/artificial",
+              "summary": "TechCrunch报道称，尽管美国实施出口禁令，英伟达芯片仍是中国最强AI模型背后的算力基础。这一发现引发对出口管制有效性的质疑。",
+              "url": "https://www.reddit.com/r/artificial/comments/1xx4t46/exportbanned_nvidia_chips_are_behind_chinas_most/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Agentic Canvas | 免费智能体设计画布 - 与AI协作的可视化方式",
+          "summary": "一个用于与AI协作的可视化设计画布工具。",
+          "url": "https://www.producthunt.com/products/agentgrid-io",
+          "time": "14:22",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Perit 市场 | 将你的数据和强化学习任务出售给前沿AI实验室",
+          "summary": "一个允许用户将数据和强化学习任务出售给前沿AI实验室的市场平台。",
+          "url": "https://www.producthunt.com/products/perit-marketplace",
+          "time": "13:04",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Univer：用 Univer Office SDK 构建你自己的 AI 办公套件",
+          "summary": "Univer 是一个开源的办公文档 SDK，支持电子表格、文档和幻灯片的编辑与计算能力，并主打与 AI 能力结合构建智能办公场景。它解决的是企业想自建类 Office 协作产品却缺乏底层编辑内核的问题。今日新增 988 星，TypeScript 技术栈对前端团队友好，是 AI+办公赛道中少见的完整底层方案。\n\n💼 商业缺口：缺少面向企业的 AI 文档操作审计与权限治理层，用于追踪 AI 对表格/文档的每次自动修改是否合规。",
+          "url": "https://github.com/dream-num/univer",
+          "time": "988 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AG-UI：智能体与用户交互协议",
+          "summary": "AG-UI 是一个定义 Agent 与前端应用之间交互方式的开源协议，让 AI 智能体的状态、事件和操作能标准化地呈现在用户界面中。它解决的是各家 Agent 框架与前端 UI 之间缺乏统一通信标准、集成成本高的问题。今日 355 星，TypeScript 实现，属于 Agent 基础设施层的关键拼图。\n\n💼 商业缺口：缺少跨协议的 Agent-UI 交互合规审计与回放工具，用于事后追查智能体在界面上触发了哪些操作。",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "time": "355 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Google Labs Stitch Skills：适配 Stitch MCP 服务器的智能体技能库",
+          "summary": "这是 Google Labs 推出的 Agent Skills 集合，专门配合 Stitch MCP 服务器使用，每个技能封装了一类可被智能体调用的能力。它解决的是 MCP 生态中技能复用与标准化分发的问题。今日 247 星，TypeScript 编写，背靠 Google 官方实验项目，值得关注 MCP 技能生态的团队跟进。\n\n💼 商业缺口：缺少 MCP 技能的来源可信度与供应链审计服务，用于验证第三方技能包是否被篡改或含恶意调用。",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "time": "247 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Plannotator：与智能体保持同步的工作空间",
+          "summary": "Plannotator 是一个面向智能体协作的工作空间，帮助用户对 AI 智能体的计划进行塑造、决策和审批，让人始终留在回路中。它解决的是 Agent 自主执行时人类难以介入、难以把控方向的问题。今日 866 星，TypeScript 实现，反映出「人机协同审批」正成为 Agent 落地的刚需环节。\n\n💼 商业缺口：缺少对 Agent 计划审批过程的留痕与责任归属记录产品，用于证明关键决策由谁在何时批准。",
+          "url": "https://github.com/backnotprop/plannotator",
+          "time": "866 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Chrome DevTools MCP：面向编码智能体的 Chrome 开发者工具",
+          "summary": "这是 Chrome 官方团队把 DevTools 能力通过 MCP 暴露给编码智能体的项目，让 AI 能直接调试浏览器页面、检查网络与 DOM。它解决的是编码 Agent 缺乏真实浏览器运行时观测能力、只能盲写代码的问题。今日 717 星，TypeScript 实现，官方背书使其有望成为前端 Agent 调试的事实标准。\n\n💼 商业缺口：缺少 Agent 浏览器调试行为的成本与权限计量层，用于统计 AI 调试会话消耗并限制其访问敏感页面。",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "time": "717 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "阿里巴巴 open-code-review：大规模实战验证的代码评审工具",
+          "summary": "这是阿里开源的安全、快速、高效的代码评审系统，采用混合架构，并声称在阿里内部规模下经过实战检验。它解决的是大型组织代码评审效率低、质量把关难的问题，且与 AI 辅助评审场景高度契合。今日 691 星，Go 语言实现，适合对性能和可扩展性有要求的企业团队。\n\n💼 商业缺口：缺少 AI 评审意见的采纳率与误报率追踪产品，用于量化证明自动评审到底提升了多少缺陷拦截率。",
+          "url": "https://github.com/alibaba/open-code-review",
+          "time": "691 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "腾讯 LoopForge：编码智能体交付的自托管工作流",
+          "summary": "LoopForge 是腾讯开源的自托管工作流引擎，用于编排 CodeBuddy、Codex 等编码智能体完成软件交付流程。它解决的是多个编码 Agent 之间缺乏统一调度与流水线编排的问题。今日 423 星，Go 语言实现，企业可私有化部署，契合对数据不出域有要求的研发团队。\n\n💼 商业缺口：缺少多 Agent 流水线的算力成本分摊与配额治理产品，用于按团队核算 AI 编码开销。",
+          "url": "https://github.com/Tencent/LoopForge",
+          "time": "423 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ggml：面向机器学习的张量库",
+          "summary": "ggml 是一个用 C++ 编写的机器学习张量库，主打在消费级硬件上高效运行模型推理，是 llama.cpp 等本地推理项目的底层基石。它解决的是大模型在端侧和低算力设备上部署困难的问题。今日 43 星，C++ 实现，虽增量不高但属于本地 AI 推理生态的核心基础设施。\n\n💼 商业缺口：缺少针对 ggml 量化模型的性能基准与硬件兼容性认证服务，帮助企业选型时判断模型能否在目标设备稳定运行。",
+          "url": "https://github.com/ggml-org/ggml",
+          "time": "43 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Claude-BugHunter：面向漏洞挖掘的 Claude Code 技能包",
+          "summary": "这是一个包含 82 个技能的 Claude Code 技能包，专注于漏洞挖掘和外部红队工作，把安全测试流程封装成 AI 可调用的能力。它解决的是安全人员重复性侦察与测试工作繁重的问题。今日 98 星，Python 实现，体现了 AI Agent 向垂直安全场景渗透的趋势。\n\n💼 商业缺口：缺少 AI 红队操作的授权边界与行为审计产品，用于证明渗透测试未越权触碰非授权资产。",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "time": "98 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Google Chrome modern-web-guidance-src：让编码智能体掌握最新 Web 最佳实践",
+          "summary": "这是 Google Chrome 团队维护的项目，用于让编码智能体持续获取最新的 Web 开发最佳实践知识。它解决的是 AI 编码助手知识陈旧、容易生成过时或不合规前端代码的问题。今日 1219 星，TypeScript 实现，是当日榜单最高星项目，说明「给 Agent 喂权威规范」需求极强。\n\n💼 商业缺口：缺少规范知识源的版本时效性监控与过期告警服务，用于确保 Agent 引用的最佳实践不是已废弃标准。",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "time": "1,219 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "claude-trading-skills：面向股票投资者与交易员的 Claude Code 技能",
+          "summary": "这是一个为股票投资者和交易员准备的 Claude Code 技能集合，覆盖市场分析、技术面研判等场景。它解决的是金融从业者想把 AI 嵌入日常投研流程却缺乏现成技能封装的问题。今日 706 星，Python 实现，反映 AI+金融垂直技能包的高关注度。\n\n💼 商业缺口：缺少 AI 投研建议的合规留痕与免责证据链产品，用于应对监管对 AI 生成投资建议的追溯要求。",
+          "url": "https://github.com/tradermonty/claude-trading-skills",
+          "time": "706 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "NVIDIA SkillEvaluator：AI 智能体技能的多层评估框架",
+          "summary": "这是 NVIDIA 推出的多层评估框架，用于评估 AI Agent 技能的质量，内置质量门禁、语义评估等机制。它解决的是 Agent 技能大量涌现却缺乏统一质量度量标准的问题。今日 122 星，Python 实现，背靠 NVIDIA，有望成为 Agent 技能评测的参考基准。\n\n💼 商业缺口：缺少第三方独立的 Agent 技能评测认证与排行榜服务，用于给企业采购技能包时提供可信质量背书。",
+          "url": "https://github.com/NVIDIA/SkillEvaluator",
+          "time": "122 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "杨立昆：AI权力集中是最大风险",
+          "url": "https://twitter.com/ylecun",
+          "summary": "杨立昆表示，权力、能力和财富的集中是AI最大的风险，其自然趋势极其强烈，若没有更强大的开源力量，世界可能陷入前所未有的不对称与不平等。他同时回应称，灾难场景被夸大，超级智能AI将在安全护栏下为我们服务，并无接管之意。",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋或谋划回归，英伟达风波最新进展",
+          "summary": "围绕英伟达联合创始人、前CEO黄仁勋的风波正迅速演变。最新一期Stepback newsletter梳理了相关情况，但自今晨以来已出现多项新进展，包括黄仁勋可能正试图寻找重返CEO之位的传闻。",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "time": "04:43",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "国会拟在英伟达间谍丑闻后收紧AI芯片出口规则",
+          "summary": "在涉及英伟达前CEO黄仁勋与一名疑似中国间谍的丑闻曝光后，美国国会正寻求进一步限制AI芯片出口。民主党和共和党均对收紧规则的多项措施和法案表示支持，并要求黄仁勋及其他英伟达高管到国会作证。",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "time": "03:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋混乱时期概述",
+          "summary": "这是《The Stepback》每周新闻简报，剖析科技界重要事件。关于黄仁勋辞职及英伟达领导层危机后续，可关注特伦斯·奥布莱恩的报道。该简报每周日东部时间上午8点发送至订阅者邮箱。",
+          "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "印度芯片初创公司Bharat Semi完成2400万美元种子轮融资，瞄准全球AI传感器市场",
+          "summary": "印度芯片初创公司Bharat Semi宣布完成2400万美元种子轮融资，并已为其AI传感器技术赢得包括通用原子公司在内的多家企业的设计订单，正瞄准全球AI传感器市场。",
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+          "time": "07:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "对黄仁勋的坏消息，对AI行业也是坏消息吗？",
+          "summary": "“黄仁勋就是英伟达，对吧？而当前经济中有很大一部分都依赖英伟达。”文章探讨英伟达及其CEO黄仁勋所面临的负面消息，是否会波及整个AI行业。",
+          "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+          "time": "05:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "《周六夜现场》集结科技巨头，上演约会与间谍技巧课",
+          "summary": "《周六夜现场》本周集结多位科技巨头模仿秀，让演员一次性展示所有模仿。尴尬又诡异的科技高管已成为该节目反复出现的主题。",
+          "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+          "time": "04:20",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "该内容为“金融科技100强”榜单，原始摘要缺失，无法提供具体信息。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "原始摘要缺失，无法生成中文摘要。请提供摘要内容以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文仅提供标题“State of Insurtech”，未附摘要内容，无法翻译或提炼核心信息。建议补充摘要后重新提交，以便生成80-150字的中文精简摘要。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "r/MachineLearning",
+          "title": "Meta FAIR 与 NYU 拆解多模态视觉编码：训练 200+ 多模态大模型后发现编码器预训练可选，但纯视觉参数不可或缺",
+          "summary": "Meta FAIR 与 NYU 联合训练 200 多个多模态大模型，系统研究视觉编码器预训练是否必要。结果显示，编码器预训练并非必需，但纯视觉参数不可省略。现有公开模型因数据与算力差异且少有考虑编码器预训练，难以就此定论。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1k2o/meta_fair_nyu_unbundling_multimodal_vision/",
+          "time": "01:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我认为双盲评审制度行不通",
+          "summary": "许多情况下审稿人能看到作者姓名和单位，使该制度更接近单盲评审。我亲眼见过学生审稿人拒绝他人论文以提高自己论文录用机会的案例。此外，对于拥有广泛学术人脉的知名实验室论文，我们真能期待公平无偏的评审吗？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xwuwqd/i_dont_think_doubleblind_review_systems_work_d/",
+          "time": "21:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR：你发反驳回复提醒了吗？[D]",
+          "summary": "我知道审稿人因CVPR很忙，我也一样。但距离截止只剩几天，还没有审稿人回复我的反驳。大家觉得现在发提醒给审稿人合适吗？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xxbo56/iclr_did_you_post_reminder_of_rebuttal_response_d/",
+          "time": "08:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "从事反洗钱/交易监控/制裁筛查的机器学习从业者？求入门建议 [R]",
+          "summary": "我是一名金融犯罪团队的数据分析师，希望启动机器学习项目来改进反洗钱工作，想请教有交易监控、客户筛查或制裁/PEP筛查实战经验的人。目前团队主要依赖规则系统，误报多、分析师审核负担重，希望了解从何入手。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xx9za4/anyone_working_in_aml_transaction_monitoring/",
+          "time": "07:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "在B300上将cudaMemcpy提速5倍",
+          "summary": "有人开发了一款工具，可加速cudaMemcpy的可分页传输。以B300为例，在1GB张量于CPU与GPU之间往返拷贝的场景下，该工具显著提升了传输速度，据称可达5倍。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xx2n25/making_cudamemcpy_5x_faster_on_a_b300_p/",
+          "time": "02:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "ICLR收到4.2万份投稿，录取率会保持不变吗？",
+          "summary": "今年ICLR投稿量激增至4.2万份，引发对项目主席如何把控录取率的讨论。他们会维持约26-28%的常规录取率（意味着接收超1.1万篇论文），还是因场地和审稿人限制而设定接收上限、大幅降低录取率？",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xwqxwj/with_42k_submissions_to_iclr_do_you_think_the/",
+          "time": "17:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Marimba：面向语音的系统一模型",
+          "summary": "Marimba 是音频领域的 Jev，主打快速轻量，可输出是/否、选项或分数等类型化决策。它基于冻结的 Qwen3-ASR-0.6B 运行：词与语言问题利用 ASR 解码器假设的零样本分数并加以校准，冻结编码器上的小型读出模块负责语音活动、话轮结束、说话人变化与说话人数量。模型以 Apache-2.0 协议开放权重，可通过 pip install marimba-audio 安装。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xwzsm4/marimba_a_system_one_model_for_speech_r/",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "Airflow 3 机器学习编排实战教程",
+          "summary": "几个月前我寻找机器学习编排教程时，发现了 Made With ML 的编排课程，但它基于 Airflow 2，而 Airflow 3 已有不少差异。此外，仅阅读教程难以长期记住内容，因此我希望能有更具实操性的学习方式。该教程现提供英文和西班牙文版本。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xxa13x/handson_ml_orchestration_tutorial_with_airflow3_p/",
+          "time": "07:28",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "我们打造了一款多人游戏，每位玩家的画面由运行在其GPU上的世界模型生成",
+          "summary": "我们基于上月开源的10人CS:GO机器人对局数据集（约3958小时，所有视角与输入以16Hz对齐）训练了一个世界模型，现在玩家可以真正联机游玩。轻量级服务器负责同步游戏状态，每位玩家在本地运行模型，根据状态和自身输入生成自己的画面；服务器状态、玩家动作和前一帧被输入扩散Transformer以绘制下一帧。目前效果仍相当有限。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xx4ta3/we_made_a_multiplayer_game_where_each_players/",
+          "time": "03:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "推理模型免训练提前退出：将线性探针折入输出层的一行权重",
+          "summary": "推理模型常早早得出正确答案，却继续反复检查数千个 token。研究者通过修改输出层的一行权重，让模型在恰当时机停止。该方法无需训练，推理时也不增加额外代码，修改后的模型就是普通权重文件，可在任何环境运行。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xx1xdm/trainingfree_early_exit_for_reasoning_models_a/",
+          "time": "01:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/MachineLearning",
+          "title": "MariaDB“时间中的维基百科”挑战赛黑客松项目：跨七个维基百科版本匹配任意历史日期的句子",
+          "summary": "在埃斯波举办的 Junction 黑客松上，团队开发了 Parallax 项目，可将一篇文章的芬兰语、瑞典语、德语、英语、俄语、爱沙尼亚语和乌克兰语版本逐句对齐，并展示任意历史日期各版本表述的差异。系统存储了迄今 875,572 个修订版本，每个修订被拆分为句子，某句在修订 A 出现而在修订 B 消失时，会作为一行存入系统版本化表中。",
+          "url": "https://www.reddit.com/r/MachineLearning/comments/1xwttxo/hackathon_project_for_mariadbs_wikipedia_through/",
+          "time": "20:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "出口禁令下的英伟达芯片支撑着中国最强AI模型——不妙啊，黄仁勋！",
+          "summary": "TechCrunch报道称，尽管美国实施出口禁令，英伟达芯片仍是中国最强AI模型背后的算力基础。这一发现引发对出口管制有效性的质疑。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xx4t46/exportbanned_nvidia_chips_are_behind_chinas_most/",
+          "time": "03:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "实时识别政客谎言的核查工具问世",
+          "summary": "开发者历时两年打造了一款事实核查工具，可将视频语音转写以识别可核查的言论，再通过网络搜索获取来源，供 Claude 据此作出判断，从而避免引用虚构来源。该工具以免费 Chrome 扩展形式提供，也适用于新闻和社交媒体网站，开发者正征集使用反馈与改进建议。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwmtff/built_a_factchecker_that_catches_politicians/",
+          "time": "12:56",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "权重空间编程：一个大语言模型直接编辑另一模型权重，数学成绩从7.9%提升至48.1%",
+          "summary": "MIT研究人员（Rikiya Takehi、Jayden Teoh、Alex Zhang、Omar Khattab）让OpenAI的GPT-6 Astra直接编辑一个小型Qwen模型的权重，无需梯度下降或训练数据。Astra识别出该模型反复重复直至耗尽上下文的模式并加以消除，仅改动约0.016%的权重，便使数学成绩从7.9%升至48.1%。相关方法的三篇论文已于11月6日发布在arXiv上。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xx4kit/weightspace_programming_an_llm_edited_another/",
+          "time": "03:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI排行榜还值得认真对待吗？",
+          "summary": "每当新榜单发布，总有不同的模型被称为世界最佳，换个基准排名又完全不同。Gemini在通用聊天排名中表现优异，Claude在编程方面更强，最佳AI似乎取决于你打开哪个网站。Kalshi甚至为11月哪个模型排名第一开设了预测市场，这让人不禁思考这些排名究竟有多少参考价值。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwwdhv/are_ai_leaderboards_even_worth_taking_seriously/",
+          "time": "22:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "虚构9个软件品牌测试ChatGPT与谷歌AI，18个回答无一编造",
+          "summary": "针对AI“幻觉”问题，有人虚构了9个查无实据的软件公司名称，于10月19日分别向ChatGPT和谷歌AI模式询问各公司的价格与创始人。两家AI共给出18个回答，均未编造信息。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwzvr9/made_up_9_software_brands_and_asked_chatgpt_and/",
+          "time": "00:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "AI繁荣的锯齿边缘——斯坦福HAI谈AI收益为何如此不均",
+          "summary": "斯坦福HAI发表新文章探讨AI繁荣的“锯齿边缘”：收益真实存在，但分布极不均衡。一些人和行业一夜之间被改变，另一些却几乎无变化，甚至先承受负面影响。这场繁荣并非水涨船高，而是锯齿边缘，你站在何处比平均水平更重要。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xxbzrh/the_jagged_edge_of_the_ai_boom_stanford_hai_on/",
+          "time": "08:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "美团开源1.6T智能体模型LongCat-2.5，部署指南仅支持华为NPU而非英伟达",
+          "summary": "美团以MIT协议开源LongCat-2.5权重，总参数1.6T、每token约48B激活，支持文本、图像和视频输入。官方数据显示其在Terminal Bench v2.1上得分88.4，接近Claude Opus 5的89.1，但在更难的v4.0上以38.5落后于后者的53.9。若想自行部署，目前模型卡仅记录NPU部署方案，尚无英伟达路径。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwx2hc/meituan_opensourced_longcat25_a_16t_agent_model/",
+          "time": "22:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "关于政府救助的问题",
+          "summary": "该内容由用户 theepi_pillodu 提交，附有链接和评论，讨论政府救助相关话题。由于原始摘要信息有限，无法提供更多细节。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xxaco3/question_about_governments_bailouts/",
+          "time": "07:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "用AI开发产品更简单了，但信任需要更多测试",
+          "summary": "随着越来越多开发者用AI交付产品，一个关键问题浮出水面：究竟是谁在真正测试这些产品？作者认为这一话题值得深入讨论，因为AI应用的可靠性仍需通过更充分的测试来建立信任。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwwrm0/building_with_ai_is_now_easier_but_trust_takes/",
+          "time": "22:24",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Anthropic 围绕协调器与并行工作线程重构 Claude Code Projects，每个线程都是独立分支上的完整云会话",
+          "summary": "Anthropic 于 11 月 14 日发布更新，将 Claude Projects 从文件文件夹重构为协同工作会话集合。用户只需在一个对话中描述工作，协调器便会界定范围、分派给并行线程、审核输出并汇总结果。每个线程都是独立的 Claude Code 云会话，拥有各自的仓库副本和 Git 分支，还可进一步拆分为子代理、循环或工作流，且在你关闭笔记本电脑后仍会继续运行。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwj3v0/anthropic_rebuilds_claude_code_projects_around_a/",
+          "time": "09:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "英伟达Linux驱动程序",
+          "summary": "为什么至今没有人对英伟达的Linux专有驱动进行逆向工程，以改进并将其开源？该问题由/u/Fortis-Voluntas提交。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xx6k88/nvidea_drivers_for_linux/",
+          "time": "04:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "这张图告诉我们AI的可扩展性如何",
+          "summary": "该帖由用户 modestia99 提交，附有链接和评论区，围绕一张图表探讨人工智能的可扩展性。原帖未提供更多摘要内容，具体结论需查看图表及讨论。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwyun3/what_does_this_graph_tell_us_about_the/",
+          "time": "23:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "并非所有AI听起来都像人类",
+          "summary": "该帖子由/u/galratner提交，指出并非所有AI的声音都像人类。帖子附有链接和评论区，供进一步讨论。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwo2iz/not_all_ai_sounds_human/",
+          "time": "14:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "Row-Bot 本地计算机操控功能",
+          "summary": "Row-Bot 可操控你的电脑，支持鼠标、键盘和真实应用，兼容 Windows 与 Mac。为保障安全，驱动锁定 Cua 0.20.0 特定提交并校验 SHA-256，关闭其自动更新，运行于精简环境，且首次运行前会明确告知遥测内容供你选择。该功能不会在密码、双重验证或银行卡字段中输入内容。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xwswp5/local_computer_use_with_rowbot/",
+          "time": "19:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "r/artificial",
+          "title": "打造AI产品？在用户上手之前，谁来测试它？",
+          "summary": "该帖由用户CrashTestingAI提交，讨论AI产品在交付用户之前由谁进行测试的问题，并附有原文链接和评论区入口。",
+          "url": "https://www.reddit.com/r/artificial/comments/1xx0u39/building_an_ai_product_whos_testing_it_before/",
+          "time": "01:10",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "客户破产后重建获客",
+          "summary": "小企业主最大客户破产欠款1.8万美元，几乎击垮生意，他靠零广告预算重建整个业务，长期在停车场里手动翻查支票、逐个联系旧客户、靠人脉和手工记录维持现金流。AI可自动梳理历史交易与客户名单、生成分层外联话术、批量起草邮件并追踪回复，把重建获客从纯手工变成半自动流程。\n\n💡 机会方向：面向小微企业的客户名单清洗+自动化外联与回款追踪工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xx4cao/biggest_client_went_bankrupt_owing_us_18k_and/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "古董业务知识变现",
+          "summary": "发帖人在一家有数十年专业积累的古董与室内设计公司兼职，手握大量专家知识和库存信息却不知如何变现，只能靠人工整理、口头咨询和零散记录。AI可把专家经验结构化为可检索的知识库，自动生成商品故事、鉴定说明和内容营销素材，并匹配到电商与社交媒体渠道。\n\n💡 机会方向：垂直行业专家知识库+内容自动生成与分销平台",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xx5wai/im_sitting_on_a_goldmine_and_i_dont_know_what_to/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "T恤店广告投放起步",
+          "summary": "T恤与平面设计小店主完全不知道从哪开始做广告，没有素材、没有渠道策略、没有预算分配方案，只能自己摸索或干脆不做。AI可根据产品图和目标人群自动生成多套广告文案与创意、给出渠道与预算建议，并持续做A/B测试和效果归因，把冷启动广告变成可执行清单。\n\n💡 机会方向：小微电商一键生成广告创意+投放策略与效果追踪助手",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xxbbmk/what_is_the_best_way_to_start_advertising/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "复购率提升诊断",
+          "summary": "产品型小企业主反复看到“如何拿到第一单”的建议，却缺少让首次买家二次下单的方法，只能靠人工回访、凭感觉发优惠、手动翻订单找规律。AI可分析历史订单与客户行为，自动识别流失节点、生成个性化复购触达（邮件/短信/优惠），并追踪复购率变化。\n\n💡 机会方向：面向小电商的复购预测与自动化客户召回工具",
+          "source": "r/smallbusiness",
+          "url": "https://www.reddit.com/r/smallbusiness/comments/1xx63v0/for_product_businesses_what_did_you_change_that/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "Stripe封号申诉取证",
+          "summary": "小企业因一笔1500美元发票被Stripe直接关停账户，对方从未要求提供证据，商家只能手动整理订单、聊天记录、交付凭证并反复写申诉邮件。AI可自动归集交易与沟通证据、生成结构化申诉材料、按支付平台规则逐条对应，并跟踪申诉进度与后续合规风险。\n\n💡 机会方向：支付平台封号/风控申诉的自动化取证与材料生成服务",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50510042",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
