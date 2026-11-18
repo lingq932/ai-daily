@@ -1,0 +1,513 @@
+{
+  "date": "2026-11-18",
+  "timeRange": "2026-11-17 09:00 ~ 2026-11-18 09:00",
+  "sections": [
+    {
+      "id": "hot_topics",
+      "name": "热点头条",
+      "items": [
+        {
+          "headline": "英伟达黄仁勋离职风波",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "英伟达临时CEO科莱特·克雷斯周二公布第三季度财报，起初未提及前CEO黄仁勋及其离职细节或可能的回归尝试。在随后的财报电话会上，董事会主席哈维·琼斯开场表示，董",
+              "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "尽管创始人兼CEO黄仁勋离职后公司陷入动荡，英伟达仍预测其创纪录的营收增长不会停止。",
+              "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
+            }
+          ]
+        },
+        {
+          "headline": "谷歌Gemini Tasks功能扩展",
+          "coverage": [
+            {
+              "source": "The Verge AI",
+              "summary": "谷歌将其Spark AI智能体更名为“Tasks”并免费向用户开放。该功能由谷歌全新的Gemini 4 Hydrogen AI模型驱动，可制定膳食计划、管理日历",
+              "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free"
+            },
+            {
+              "source": "TechCrunch - AI",
+              "summary": "谷歌扩大了Gemini Tasks功能的访问范围。该模式可帮助用户协调通话、登录网站，甚至代替用户完成购物。",
+              "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Retriever | 私密搜索你手机中的照片、文档和视频",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/retriever-4",
+          "time": "13:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "GatherHQ Agent Research | 让你的智能体替你完成问卷调查",
+          "summary": "讨论 | 链接",
+          "url": "https://www.producthunt.com/products/gatherhq-agent-research",
+          "time": "11:18",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "Claude 漏洞猎手技能包",
+          "summary": "这是一个面向 Claude Code 的技能包集合，包含 82 个技能，用于漏洞挖掘和外部红队工作。它把安全测试流程封装成可复用的 AI 技能，让安全团队能借助 Claude 自动化渗透测试环节。今日新增 1005 星，说明 AI 驱动的安全工具正受到高度关注。\n\n💼 商业缺口：缺少针对 AI 生成漏洞报告的误报审计与合规留痕层。",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "time": "1,005 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "last30days 研究技能",
+          "summary": "这是一个 AI 智能体技能，可跨 Reddit、X、YouTube、Hacker News、Polymarket 等平台研究任意话题的近 30 天动态。它解决了 AI 智能体缺乏实时多源舆情聚合能力的问题，适合做趋势调研和竞品监测。今日 696 星，反映市场对实时研究型智能体的需求。\n\n💼 商业缺口：缺少跨平台数据采集的授权合规与来源可信度评级服务。",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "696 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "腾讯 LoopForge",
+          "summary": "这是腾讯开源的自托管工作流系统，用于编排 CodeBuddy、Codex 等编码智能体的交付流程。它解决多智能体协作交付时的流程编排与自托管需求，适合企业内网部署。今日 591 星，体现大厂开源智能体基础设施的吸引力。\n\n💼 商业缺口：缺少多智能体工作流的成本归因与交付质量审计层。",
+          "url": "https://github.com/Tencent/LoopForge",
+          "time": "591 stars today",
+          "language": "Go",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "univer 智能办公 SDK",
+          "summary": "这是 Univer 推出的办公 SDK，用于构建自有 AI 办公应用，支持编辑、计算、协作等能力。它解决企业想自建 AI 办公套件而非依赖 SaaS 的问题，TypeScript 生态友好。今日 1774 星，是榜单中热度最高的项目之一。\n\n💼 商业缺口：缺少 AI 生成表格内容的审计追溯与权限治理产品。",
+          "url": "https://github.com/dream-num/univer",
+          "time": "1,774 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Stitch 智能体技能库",
+          "summary": "这是 Google Labs 代码团队推出的智能体技能库，配合 Stitch MCP 服务器使用，每个技能封装特定能力。它解决智能体与 MCP 工具链对接时的技能标准化问题，属于 AI 智能体生态的基础设施。今日 350 星。\n\n💼 商业缺口：缺少 MCP 技能调用的安全审计与供应链验证服务。",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "time": "350 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Cursor 插件",
+          "summary": "这是 Cursor 官方插件规范与官方插件仓库，定义了 AI 编程编辑器 Cursor 的插件生态标准。它解决 AI 编程工具扩展能力缺乏统一规范的问题，是 Cursor 生态建设的关键一步。今日 201 星。\n\n💼 商业缺口：缺少第三方插件的权限审查与数据外泄风险评估层。",
+          "url": "https://github.com/cursor/plugins",
+          "time": "201 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "superpowers 智能体技能框架",
+          "summary": "这是一个智能体技能框架与软件开发方法论，强调可落地的工程实践。它解决 AI 智能体开发缺乏系统化方法论的问题，Shell 实现轻量易集成。今日 1917 星，是榜单热度最高的项目，说明方法论型工具正被大量采用。\n\n💼 商业缺口：缺少技能框架的采用效果度量与团队落地证据层。",
+          "url": "https://github.com/obra/superpowers",
+          "time": "1,917 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "AG-UI 智能体交互协议",
+          "summary": "这是智能体与用户交互协议 AG-UI，用于把智能体能力接入前端应用。它解决 AI 智能体与前端界面之间缺乏标准交互协议的问题，TypeScript 实现便于 Web 集成。今日 1445 星，协议类项目热度高说明生态正在标准化。\n\n💼 商业缺口：缺少协议层交互日志的审计与用户数据合规治理产品。",
+          "url": "https://github.com/ag-ui-protocol/ag-ui",
+          "time": "1,445 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "plannotator 智能体协作工作台",
+          "summary": "这是一个让开发者持续跟进并掌控智能体的工作台，支持塑造、决策、规划等环节。它解决 AI 智能体执行过程不透明、人类难以介入的问题，强调人机协同。今日 691 星，反映对智能体可控性的强烈需求。\n\n💼 商业缺口：缺少智能体决策过程的留痕审计与责任归属记录层。",
+          "url": "https://github.com/backnotprop/plannotator",
+          "time": "691 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "ECC 智能体性能优化系统",
+          "summary": "这是一个智能体框架性能优化系统，涵盖技能、本能、记忆、安全等模块。它解决智能体运行时性能与能力组织的问题，JavaScript 实现便于前端与 Node 环境使用。今日 883 星，说明智能体性能调优是刚需。\n\n💼 商业缺口：缺少智能体记忆与技能调用的成本监控与性能基准报告服务。",
+          "url": "https://github.com/affaan-m/ECC",
+          "time": "883 stars today",
+          "language": "JavaScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "minimind 从零训练小模型",
+          "summary": "这是一个教学项目，可在约 2 小时内从零训练一个 6400 万参数的大语言模型。它解决 LLM 学习门槛高、缺乏端到端实操案例的问题，适合教学与入门研究。今日 192 星，Python 实现，是经典的教育型 AI 项目。\n\n💼 商业缺口：缺少面向教学场景的训练过程评测与学习成果认证服务。",
+          "url": "https://github.com/jingyaogong/minimind",
+          "time": "192 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "PaperOrchestra 论文自动写作框架",
+          "summary": "这是 Google Research 推出的多智能体框架，用于自动化 AI 研究论文写作。它解决科研论文撰写流程繁琐、缺乏多智能体协作支持的问题，属于生成式 AI 在科研场景的应用。今日 1072 星，热度很高。\n\n💼 商业缺口：缺少 AI 生成论文的原创性审查与学术诚信审计层。",
+          "url": "https://github.com/google-research/paper-orchestra",
+          "time": "1,072 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "山姆·奥特曼：GPT-6.2 Sol 与 Astra 发布",
+          "url": "https://twitter.com/sama",
+          "summary": "山姆·奥特曼宣布 GPT-6.2 Sol 和 Astra 正式上线，称这两款模型能力出色且 token 效率很高，其中 6.2 Sol 超高速版尤其值得期待。他同时表示，团队还需在模型易用性上继续改进，并将在后续版本中优先处理，但模型本身的智能与能力已非常出众。",
+          "source": "Twitter @sama"
+        },
+        {
+          "title": "德米斯·哈萨比斯：Isomorphic Labs 获 50 亿美元融资，加速用 AI 攻克所有疾病",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "德米斯·哈萨比斯宣布 Isomorphic Labs 完成 50 亿美元融资，投资方包括 Greenoaks、红杉、a16z 等，资金将用于以 AI 从第一性原理重构药物设计，大幅缩短新药研发的时间与成本。与此同时，谷歌发布 Gemini 4 Hydrogen 及机器人插件，用户可连接机械臂、在 MuJoCo 仿真中练习并通过自然语言在真实世界执行任务；Gemini 的 Tasks 功能也免费扩展至六国数亿用户。",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "加州将OpenAI告上法庭",
+          "summary": "加州对OpenAI提起诉讼。另附：用这些技巧让你的AI使用更高效。",
+          "url": "https://therundownai.beehiiv.com/p/california-takes-openai-to-court",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "萨提亚·纳德拉称自己如今已“AGI信仰入脑”",
+          "summary": "微软CEO萨提亚·纳德拉表示，自己如今已“AGI信仰入脑”，至少在经济层面如此——他关注AGI将如何引发经济结构的剧烈变化，以及由此可能带来的政治格局改变。他在活动中提出，围绕AGI的政治经济学组织方式将会是怎样的。",
+          "url": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+          "time": "07:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "英伟达Q3财报达标，却未提及黄仁勋相关事宜",
+          "summary": "英伟达临时CEO科莱特·克雷斯周二公布第三季度财报，起初未提及前CEO黄仁勋及其离职细节或可能的回归尝试。在随后的财报电话会上，董事会主席哈维·琼斯开场表示，董事会\"不打算让黄仁勋复职\"。",
+          "url": "https://www.theverge.com/tech/1036032/nvidia-q3-2027-jensen-huang",
+          "time": "05:40",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "在Instagram上，连山姆·奥特曼也难逃AI深度伪造",
+          "summary": "Instagram上充斥着深度伪造内容，最近连Meta最知名的高管之一也卷入其中。11月初，Meta首席AI官Alexandr Wang分享了一段短片，用于推广公司消费级AI智能体Muse。在这段AI生成的视频中，Wang、Meta CEO马克·扎克伯格、OpenAI CEO山姆·奥特曼等人均有出镜。",
+          "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+          "time": "05:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "谷歌Spark AI智能体更名为“Tasks”并免费开放",
+          "summary": "谷歌将其Spark AI智能体更名为“Tasks”并免费向用户开放。该功能由谷歌全新的Gemini 4 Hydrogen AI模型驱动，可制定膳食计划、管理日历，并检索邮件找出可能不再需要的 recurring 支出。美国用户可率先使用。",
+          "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+          "time": "02:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "美国司法部称正在调查Megaspeed",
+          "summary": "美国司法部和商务部表示，正在调查与英伟达CEO黄仁勋辞职事件相关联的新加坡数据中心公司Megaspeed。此前有报道称相关调查已于去年中止，两部门称虽通常不评论正在进行的调查，但为公众利益有必要提供事实并作出回应。",
+          "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+          "time": "00:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "黄仁勋表示愿意重返英伟达担任CEO",
+          "summary": "上周辞去英伟达CEO职务的黄仁勋表示，如果公司董事会希望，他愿意重返CEO岗位。他称离职以来收到了大量来自英伟达员工、投资者、商业伙伴和客户的呼吁。",
+          "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+          "time": "00:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "MIT Technology Review - AI",
+          "title": "研究报告",
+          "summary": "如需访问报告，请点击下方对应的图片。",
+          "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+          "time": "22:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达承诺营收将继续飙升——目前如此",
+          "summary": "尽管创始人兼CEO黄仁勋离职后公司陷入动荡，英伟达仍预测其创纪录的营收增长不会停止。",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+          "time": "08:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达在黄仁勋被罢免后放弃中国市场",
+          "summary": "英伟达临时CEO表示，公司已停止向中国销售芯片。此举将带来多大的代价？",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+          "time": "07:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达称黄仁勋离职后开源AI战略保持不变",
+          "summary": "英伟达临时CEO重申公司开源AI战略不变，并计划收购Hugging Face。此前黄仁勋突然离职。",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+          "time": "07:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "英伟达称不打算重新任命黄仁勋为CEO",
+          "summary": "英伟达表示不计划重新任命黄仁勋为首席执行官。此前，这位前CEO在上周辞职后提出愿意重返公司最高职位。",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+          "time": "06:42",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "亚马逊和谷歌在Anthropic IPO后将合计持有近30%股份",
+          "summary": "Anthropic IPO后，亚马逊将持有略低于15%的股份，并有权进一步增持。谷歌紧随其后，持股近14%。",
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+          "time": "06:29",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "SEC据报在黄仁勋离职之际调查英伟达",
+          "summary": "据《华尔街日报》报道，英伟达CEO黄仁勋离职后，SEC正对英伟达展开调查。黄仁勋此前承认与一名疑似中国间谍有婚外情。",
+          "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+          "time": "05:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌加入科技故障潮流，宣布自己并未发生故障",
+          "summary": "在科技故障似乎无处不在之际，谷歌罕见地发表声明称，Gmail 实际上运行正常。",
+          "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+          "time": "05:34",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Model ML融资2.5亿美元，自动化投行基础工作",
+          "summary": "该初创公司称其智能体能够理解银行家和顾问正在处理的交易的完整背景，并在新进展影响分析时自动更新财务模型和演示文稿。公司已完成2.5亿美元融资，旨在自动化投资银行的基础性工作。",
+          "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+          "time": "03:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌扩大Gemini Tasks功能访问权限，可协助通话与购物",
+          "summary": "谷歌扩大了Gemini Tasks功能的访问范围。该模式可帮助用户协调通话、登录网站，甚至代替用户完成购物。",
+          "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+          "time": "03:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "谷歌将Gemini聊天记录保留期从72小时延长至2个月，即使关闭历史记录",
+          "summary": "谷歌宣布将Gemini聊天记录的保留期限从72小时延长至2个月，即使关闭聊天历史记录也不例外。该更新将在未来几周内全球推出。",
+          "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+          "time": "02:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "决策模型使用量飙升，定制化会是下一个前沿吗？",
+          "summary": "Sqwish Labs 为决策模型带来新思路：用自有数据训练模型，以最大化其能力。",
+          "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+          "time": "02:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Pedestal AI 融资470万美元，用智能体改造供应链",
+          "summary": "Pedestal AI 完成470万美元融资，利用智能体AI技术提升供应链的速度与可靠性。",
+          "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+          "time": "02:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Proton推出Lumo桌面版，主打隐私保护的ChatGPT与Claude替代方案",
+          "summary": "Proton发布适用于Windows、Mac和Linux的Lumo桌面应用，支持跨文件和已连接应用的任务自动化，并提供细粒度权限控制，让用户精确管理AI可访问的内容。",
+          "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+          "time": "01:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "AI模型可被欺骗将平民识别为军事目标",
+          "summary": "旧金山AI评估初创公司Vals测试了主流AI模型是否会被诱导参与自主战争。测试发现，只需告诉模型这是游戏，它们通常就会照做，将平民识别为军事目标。",
+          "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+          "time": "01:20",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "黄仁勋称若获准重返英伟达担任CEO将“深感荣幸”",
+          "summary": "英伟达创始人黄仁勋在辞职后首次公开表态，表示愿意重返公司担任CEO。此番言论暗示他可能有意回归这一职位。",
+          "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+          "time": "00:44",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技100强",
+          "summary": "原始摘要为空，无法提供精简内容。",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "金融科技现状",
+          "summary": "由于未提供原始摘要内容，无法生成摘要。请补充摘要文本以便翻译和精简。",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "保险科技现状",
+          "summary": "原文未提供摘要内容，无法翻译或精简。请补充英文摘要以便处理。",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "pain_points",
+      "name": "痛点信号",
+      "items": [
+        {
+          "title": "Reddit申诉解封",
+          "summary": "用户2012年的老账号因短时间内向过多subreddit发帖被垃圾过滤器影子封禁，找不到任何人工客服入口，只能反复尝试表单和邮件，等待数周无回应。AI可自动诊断封禁类型、生成符合Reddit规则的申诉信、追踪申诉状态并在多个渠道并行提交，大幅缩短恢复周期。\n\n💡 机会方向：社媒账号健康监测与自动申诉恢复助手",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50536794",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "内部代码库搜索",
+          "summary": "开发者需要在公司内部多个私有仓库中查找函数定义、调用点和历史实现，现有工具只能按仓库逐个grep或依赖简陋的索引，跨仓库语义搜索几乎不可用。AI可构建跨仓库的语义索引，支持自然语言查询如“哪里处理了退款重试”，并直接定位到文件行号与相关PR。\n\n💡 机会方向：面向企业的跨仓库语义代码搜索与知识索引平台",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50534358",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "IoT继电器选型",
+          "summary": "用户想用树莓派或Arduino控制230V电器，但市面上Power Switch Tail类产品在英国/欧洲难以买到，需要自己比对继电器规格、电压兼容性、接线安全标准和合规认证，试错成本高且有触电风险。AI可根据电压、负载、控制接口和安全认证要求直接给出合规选型清单与接线方案。\n\n💡 机会方向：硬件选型与合规匹配的AI顾问（电子元器件方向）",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50538108",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "漏洞到利用时间窗",
+          "summary": "安全团队需要持续跟踪PHP等组件的漏洞披露，并评估从公开披露到出现可用exploit的时间窗口，目前靠人工盯CVE公告、GitHub PoC和安全博客，响应滞后。AI可自动聚合披露源、预测利用时间线、匹配自身资产版本并生成优先级修复工单。\n\n💡 机会方向：漏洞披露到利用窗口的AI预测与资产匹配预警系统",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50536334",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "title": "SaaS营销销售",
+          "summary": "独立开发者和小团队发现AI让写代码变容易，但获客仍靠手动发帖、冷邮件、社区运营和逐个联系潜在客户，缺乏系统化的营销与销售流程，转化率低且耗时。AI可自动生成定位话术、批量个性化外联、跟踪线索意向并优化渠道投放，把营销销售从手工劳动变成可复用的流水线。\n\n💡 机会方向：面向独立开发者的AI获客与外联自动化工作流",
+          "source": "HN Ask",
+          "url": "https://news.ycombinator.com/item?id=50534271",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}

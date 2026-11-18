@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "items": [
+    {
+      "category": "技术边界",
+      "title": "给 AI 编程代理加外部沙箱：让 Agent 跑代码时怎么不闯祸",
+      "whatIsIt": "Simon Willison 在探索如何把 AI 代理执行的代码放进外部沙箱里运行，避免它直接动到真实环境。",
+      "boundary": "能做到：把 Agent 生成的代码隔离在受控环境里执行，降低误删文件、乱发请求、污染系统的风险。做不到：沙箱不是万能的，隔离越严，Agent 能访问的工具和数据就越少，任务完成度会下降；而且沙箱本身要额外搭建和维护，是一笔持续的工程成本。前提是团队得先想清楚哪些操作必须隔离、哪些可以放行。",
+      "whyLearn": "这是 vibe coding 落地时最容易被忽略的一环：Agent 越能干，越需要边界。理解沙箱的取舍，能帮你在设计 AI 编程流程时判断“哪些步骤必须加护栏、加了护栏会牺牲多少效率”，而不是等出事再补。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "id": "1f643769f40b",
+      "date": "2026-11-18"
+    },
+    {
+      "category": "技术实现",
+      "title": "把整个后端 Python 应用搬进浏览器跑：WebAssembly + Service Worker 的路子",
+      "whatIsIt": "Datasette Lite 把原本跑在服务器上的 Python 应用，通过 WebAssembly 和 Pyodide 直接搬进浏览器里运行。",
+      "boundary": "能做到：让一个完整的服务端应用在用户浏览器里本地跑起来，省掉部署服务器、数据不出本地。做不到：浏览器环境有内存和性能上限，重计算、大数据库、需要长期后台运行的任务都不合适；而且依赖浏览器对新技术的支持，兼容性和调试成本都不低。前提是应用本身足够轻、数据量可控。",
+      "whyLearn": "它展示了一种“把后端能力前移”的架构思路。作为 PM，理解这种方案的适用边界，能帮你在评估“要不要上云、要不要本地化处理”时，判断哪些场景适合把计算放到端上、哪些必须留在服务端。",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "id": "18a63a59ba98",
+      "date": "2026-11-18"
+    },
+    {
+      "category": "技术实现",
+      "title": "Cloudflare 转型做“系统一”模型：让基础设施自己做毫秒级决策",
+      "whatIsIt": "Cloudflare 从做网站加速起家，现在在构建“System One”类模型，用来在毫秒级做决策和拉取数据。",
+      "boundary": "能做到：把 AI 决策嵌进网络基础设施层，在极低延迟下自动处理路由、安全、数据调度这类高频判断。做不到：这类模型追求的是快和稳，不是通用智能，复杂推理和开放任务它做不了；而且把模型放进基础设施意味着出错影响面极大，对可靠性和可观测性要求极高。前提是有海量真实流量数据喂养。",
+      "whyLearn": "它说明 AI 能力可以下沉到“看不见的底层”。理解这种“专用小模型 + 基础设施”的组合，能帮你在做产品架构判断时区分：哪些环节该用通用大模型，哪些该用又快又窄的专用模型。",
+      "source": "Latent Space",
+      "url": "https://latent.space/p/cloudflare/",
+      "id": "b48c14f39e9f",
+      "date": "2026-11-18"
+    },
     {
       "category": "技术实现",
       "title": "Black Forest Labs 为什么押注从像素、运动和声音里学 AGI",
