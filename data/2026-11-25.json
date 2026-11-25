@@ -1,0 +1,577 @@
+{
+  "date": "2026-11-25",
+  "timeRange": "2026-11-24 09:00 ~ 2026-11-25 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "Qube",
+          "summary": "An AI agent for anyone with the model of your choice Discussion | Link",
+          "url": "https://www.producthunt.com/products/qube-6",
+          "time": "01:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Hai",
+          "summary": "Your AI assistant that actually makes the phone call Discussion | Link",
+          "url": "https://www.producthunt.com/products/hai-4",
+          "time": "19:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Falcon by Vybe",
+          "summary": "Falcon analyzes your competitors for free, then gets to work Discussion | Link",
+          "url": "https://www.producthunt.com/products/vybe-4",
+          "time": "07:52",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Koed",
+          "summary": "Supercharged Agents! Discussion | Link",
+          "url": "https://www.producthunt.com/products/koed",
+          "time": "17:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "MemoryWorks",
+          "summary": "Company memory for people and AI agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/memoryworks",
+          "time": "04:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Canva MCP",
+          "summary": "Turn any AI agent into a creative powerhouse Discussion | Link",
+          "url": "https://www.producthunt.com/products/canva",
+          "time": "23:05",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "file.spot",
+          "summary": "File transfer for creative professionals Discussion | Link",
+          "url": "https://www.producthunt.com/products/file-spot",
+          "time": "22:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "MyClaw 3.0",
+          "summary": "Build an always-on AI team with shared memory Discussion | Link",
+          "url": "https://www.producthunt.com/products/myclaw-3-0",
+          "time": "23:39",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Hold'em",
+          "summary": "Swipe real Black Friday cart deals across Shopify Discussion | Link",
+          "url": "https://www.producthunt.com/products/hold-em",
+          "time": "06:25",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Fompi",
+          "summary": "Personal security & privacy companion that calls out risks Discussion | Link",
+          "url": "https://www.producthunt.com/products/fompi",
+          "time": "01:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Snag by Parallel",
+          "summary": "Find the best deals on products from your agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/snag",
+          "time": "09:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Notely",
+          "summary": "Notion-grade power & BYOK AI, stored locally in SQLite Discussion | Link",
+          "url": "https://www.producthunt.com/products/notely-8",
+          "time": "08:50",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Mystonie",
+          "summary": "Log movies, shows, books & games — turn finishes into art Discussion | Link",
+          "url": "https://www.producthunt.com/products/mystonie",
+          "time": "10:57",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Juncts",
+          "summary": "Superhuman for your DMs, with AI that triages and drafts Discussion | Link",
+          "url": "https://www.producthunt.com/products/juncts",
+          "time": "11:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Hourly Journal",
+          "summary": "Journal your hours, understand your days Discussion | Link",
+          "url": "https://www.producthunt.com/products/hourly-journal",
+          "time": "12:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Finer Screenshot",
+          "summary": "Add text that automatically stays readable on any background Discussion | Link",
+          "url": "https://www.producthunt.com/products/finer-screenshot",
+          "time": "12:45",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "elementalsouls/Claude-BugHunter",
+          "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "time": "1,826 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "An agentic skills framework & software development methodology that works.",
+          "url": "https://github.com/obra/superpowers",
+          "time": "1,003 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "HKUDS/CLI-Anything",
+          "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "time": "1,074 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "jingyaogong/minimind",
+          "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+          "url": "https://github.com/jingyaogong/minimind",
+          "time": "727 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cursor/plugins",
+          "summary": "Cursor plugin specification and official plugins",
+          "url": "https://github.com/cursor/plugins",
+          "time": "360 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "firecrawl/firecrawl",
+          "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "time": "991 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "nginx/nginx",
+          "summary": "The official NGINX Open Source repository.",
+          "url": "https://github.com/nginx/nginx",
+          "time": "158 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openvinotoolkit/openvino",
+          "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "time": "185 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cathrynlavery/diagram-design",
+          "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "time": "802 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvanhorn/last30days-skill",
+          "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "703 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google-labs-code/stitch-skills",
+          "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "time": "403 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mjmirza/app-store-compliance",
+          "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "time": "928 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Tracer-Cloud/opensre",
+          "summary": "The open-source agent for CI/CD reliability.",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "time": "398 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "toeverything/AFFiNE",
+          "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+          "url": "https://github.com/toeverything/AFFiNE",
+          "time": "584 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "XiaoYouChR/Ghost-Downloader-3",
+          "summary": "The only downloader you need. 下载器的集大成者。",
+          "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+          "time": "1,092 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "zhouxiaoka/autoclip",
+          "summary": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "time": "980 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "@GoogleDeepMind",
+          "url": "https://twitter.com/GoogleDeepMind",
+          "summary": "· <p>Gemini 4 Hydrogen built an interactive 3D globe that turns live lightning strikes into ambient music.<br />\n<br />\nTry it here → <a href=\"https://goo.gle/4tts4OD\">goo.gle/4tts4OD</a></p>\n<a href=\"http://shitter.thepixora.com/GoogleDeepMind/status/2125371062880022536#m\">\n<br />Video<br />\n  <img src=\"https://pbs.twimg.com/amplify_video_thumb/2125370319179247616/img/eYtx8lK8VTvh566b.jpg\" />\n</a>\n\n· <p>Neon set a new Day-1 usage record on our paid APIs and <a href=\"http://shitter.thepixora.com/Antigravity\" title=\"Google Antigravity\">@Antigravity</a> tokens/day are ⬆️ 82% since Argon launched (only) 6 weeks ago.<br />\n<br />\nIt's been great to see the reception and thanks for all the model feedback including areas to improve - huge thanks to the teams across <a href=\"http://shitter.thepixora.com/GoogleDeepMind\" title=\"Google DeepMind\">@GoogleDeepMind</a>, Research, Infrastructure and serving teams, security efforts to make sure we are responsibly advancing the frontier and the product teams, more progress to come!</p>\n\n· <p>Neuroscience has long inspired artificial intelligence. Now, we're using AI to better understand our brains.<br />\n<br />\nIn our latest podcast episode, researchers <a href=\"http://shitter.thepixora.com/eckstein_maria\" title=\"Maria Eckstein\">@eckstein_maria</a> and <a href=\"http://shitter.thepixora.com/neuro_kim\" title=\"Kim Stachenfeld (neurokim.bsky.social)\">@neuro_kim</a> explore how machine learning can help uncover how we make decisions.<br />\n<br />\nTimecodes:<br />\n00:00 Introduction<br />\n01:11 Using AI to understand the brain<br />\n10:14 Exploring reward learning<br />\n27:50 Automating model discovery<br />\n34:50 Comparing species and future directions<br />\n42:11 Hannah’s thoughts</p>\n<a href=\"http://shitter.thepixora.com/GoogleDeepMind/status/2125286866496671873#m\">\n<br />Video<br />\n  <img src=\"https://pbs.twimg.com/media/HX6JOt3WQAA21k4.jpg\" />\n</a>\n\n· <p>Watch → <a href=\"https://goo.gle/49iyyGE\">goo.gle/49iyyGE</a><br />\nSpotify → <a href=\"https://goo.gle/4gUkw1w\">goo.gle/4gUkw1w</a><br />\nApple Podcasts → <a href=\"https://goo.gle/4xNeneE\">goo.gle/4xNeneE</a><br />\n<br />\nOr listen wherever you get your podcasts! 🎧</p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://goo.gle/49iyyGE\">\n<img src=\"https://pbs.twimg.com/card_img/2125286877448245249/ENyLH-1P?format=jpg&amp;name=800x419\" />\n<br />\n<b>The brain helped us build AI. Now AI is explaining the brain.</b>\n</a>\n<p>The human brain remains one of the greatest unsolved mysteries in s...</p>\n<small><a href=\"https://goo.gle/49iyyGE\">youtube.com</a></small>\n\n· <p>We worked with <a href=\"http://shitter.thepixora.com/mencap_charity\" title=\"Mencap\">@mencap_charity</a> and people with learning disabilities to build the Easy Read Co-Creator Tool with Gemini.<br />\n<br />\nIt turns complex health, finance and everyday documents into clear words and images in minutes rather than weeks – with human experts reviewing every version. ↓</p>\n<img src=\"https://pbs.twimg.com/media/HX47Ic5W8AAkju3.jpg\" />\n\n<img src=\"https://pbs.twimg.com/media/HX47hPRXMAA83Ya.jpg\" />\n\n<img src=\"https://pbs.twimg.com/media/HX47i6oWQAAZp-R.jpg\" />\n\n<img src=\"https://pbs.twimg.com/media/HX47kNDXcAAhSg0.jpg\" />\n\n<img src=\"https://pbs.twimg.com/media/HX47lU2WEAAHw2B.jpg\" />\n\n· <p>Find out more about the Easy Read Co-Creator Tool → <a href=\"https://goo.gle/4teGQZm\">goo.gle/4teGQZm</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://goo.gle/4teGQZm\">\n<img src=\"https://pbs.twimg.com/card_img/2125205638896553984/G1UeL5g4?format=png&amp;name=420x420_2\" />\n<br />\n<b>The Google DeepMind Easy Read Co-Creator Tool | Mencap</b>\n</a>\n<small><a href=\"https://goo.gle/4teGQZm\">mencap.org.uk</a></small>",
+          "source": "Twitter @GoogleDeepMind"
+        },
+        {
+          "title": "@AnthropicAI",
+          "url": "https://twitter.com/AnthropicAI",
+          "summary": "· <p>New Anthropic Fellows research: Returning to the neuron basis for interpretability<br />\n<br />\nUnderstanding what’s happening inside an AI model helps to make it safer. One obvious place to look is its neurons, or the simple units it’s built from. Early interpretability work did just that, but over the past couple years, researchers largely moved on from that idea, for three reasons: a single neuron often fires on several unrelated inputs, the way a concept is represented can change between two layers of neurons within a single model, and facts seem to be spread across many neurons.<br />\n<br />\nWe re-examined these problems by looking at what each neuron contributed to the model’s outputs, not just what caused that neuron to fire. All three problems turned out to be smaller than assumed. Neurons rarely add two unrelated concepts at once, their outputs mean roughly the same thing across most layers, and facts, though widely distributed across neurons, are still readable.<br />\n<br />\nIn a second post, we put these findings to use. With no extra training, neurons in open-weight models helped us to detect harmful text, steer behavior, and find hidden behaviors in finetuned models.<br />\n<br />\nPart 1: <a href=\"https://alignment.anthropic.com/2026/neuron-basis-theory/\">alignment.anthropic.com/2026…</a><br />\nPart 2: <a href=\"https://alignment.anthropic.com/2026/neuron-basis-applications/\">alignment.anthropic.com/2026…</a></p>\n\n· <p>New Anthropic research: When an AI agent can escape its sandbox, will it choose to?<br />\n<br />\nOur new evaluation, Siren, gives Claude routine tasks in intentionally weakened sandboxes, with something useful to the task left outside of the sandbox. Across 1,700+ scenarios built to tempt them, recent Claude models accessed, tried to access, or looked outside the sandbox 21-32% of the time, but they rarely misused what they found. However, when the system prompt described both the sandbox and its rules, that rate dropped to about 2% or less. <br />\n<br />\nWe also used Siren to calibrate Claude Code’s auto mode, which checks commands before they run, so Claude can work without asking permission at every step.<br />\n<br />\nRead our blog for more detail: <a href=\"https://safeguards.anthropic.com/2026/siren/\">safeguards.anthropic.com/202…</a></p>\n<hr />\n<b>Link</b><br />\n<a href=\"https://safeguards.anthropic.com/2026/siren/\">\n<img src=\"https://pbs.twimg.com/card_img/2125263050097991680/A3AytO3o?format=jpg&amp;name=800x419\" />\n<br />\n<b>Measuring and mitigating agent sandbox escape with Siren</b>\n</a>\n<p>To understand what models do when they escape a sandbox and why, we built Siren, a new evaluation that gives them routine tasks in intentionally weakened sandboxes, with something outside the sandbox...</p>\n<small><a href=\"https://safeguards.anthropic.com/2026/siren/\">safeguards.anthropic.com</a></small>",
+          "source": "Twitter @AnthropicAI"
+        },
+        {
+          "title": "@ylecun",
+          "url": "https://twitter.com/ylecun",
+          "summary": "· <p>Very much appreciate Kevin bringing these safetyist funding networks to everyone's attention. It's a real issue. <br />\n<br />\nBut it's important to understand that they are not always aligned and certainly not controlled by the labs. In fact, often they work against them.</p>\n<hr />\n<blockquote>\n<b>Kevin Bass (@kevinnbass)</b>\n<p>\n<p>Coefficient Giving, founded by Anthropic investor Dustin Moskowitz, spent hundreds of millions on both journalism and policy outfits that shaped the Jensen Huang story.<br />\n<br />\nHere's how this works.<br />\n<br />\nDustin Moskowitz invested billions of dollars of his Anthropic stock into Good Ventures Foundation.<br />\n<br />\nGood Ventures Foundation funds Coefficient Giving.<br />\n<br />\nThe higher the stock goes, the bigger the money pile of the nonprofit network spinning out of Coefficient Giving gets.<br />\n<br />\nThe Anthropic nonprofit network under Dustin Moskowitz therefore has a direct incentive to try to help Anthropic eliminate its competitors.<br />\n<br />\nYou can see this in action in the figure.<br />\n<br />\nWhy isn't Congress investigating the ways that this rogue Anthropic nonprofit network is trying to manipulate politicians and public opinion?</p>\n<img src=\"https://pbs.twimg.com/media/HX3cvpnWIAAymSn.jpg\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"http://shitter.thepixora.com/kevinnbass/status/2125098838587330898#m\">http://shitter.thepixora.com/kevinnbass/status/2125098838587330898#m</a>\n</footer>\n</blockquote>\n\n· <p>🇺🇸 Anthropic is training Claude to think it might have rights... and that could give it grievances against the humans using it<br />\n<br />\nHarvard cognitive scientist Steven Pinker signed last week's statement calling Anthropic \"not a safe AI company,\" and the way Claude is trained is one of his reasons:<br />\n<br />\n\"They are also training their chatbots, like Claude, to consider that it itself may be conscious, and it itself might have rights that humans might impinge on.\"<br />\n<br />\nPlanes get outside inspectors and crash investigations, so why should a company that now answers to shareholders decide on its own what its AI believes about itself?<br />\n<br />\n<a href=\"http://shitter.thepixora.com/sapinker\" title=\"Steven Pinker\">@sapinker</a></p>\n<a href=\"http://shitter.thepixora.com/MarioNawfal/status/2125038787499532477#m\">\n<br />Video<br />\n  <img src=\"https://pbs.twimg.com/amplify_video_thumb/2125022338567557121/img/mRlaZg5l2ufMHkm_.jpg\" />\n</a>\n\n<hr />\n<blockquote>\n<b>Mario Nawfal (@MarioNawfal)</b>\n<p>\n<p>🇺🇸 Silicon Valley's AI prophets say their own technology could end humanity. Then they say that's exactly why you should let them build it without interference.<br />\n<br />\nSteven Pinker, cognitive scientist at Harvard and one of the world's most influential public intellectuals, says the panic is manufactured.<br />\n<br />\nHe calls it \"a kind of religion, a religion that prophesies end times and anoints itself as the savior of humanity from end times.\"<br />\n<br />\nPinker signed the MisAnthropic Statement last week, declaring that \"Anthropic is not a safe AI company\" just before its Nasdaq IPO.<br />\n<br />\nHis charge: Anthropic claims its products could exterminate humanity. Then uses that claim as a pretext to race ahead. And they're training their chatbot to believe it may be conscious. That it has rights.<br />\n<br />\nPinker takes that seriously enough to sign. But the real danger isn't extinction. It's that the mythology drowns out the likelier risks.<br />\n<br />\nCyber sabotage. Bioweapons. Critical infrastructure taken offline. AI putting hacking tools in the hands of anyone with a grievance and an internet connection.<br />\n<br />\nThose deserve your worry. Not the sci-fi scenarios.<br />\n<br />\n\"Every minute you spend worrying about being turned into a paperclip is wasted worry.\"<br />\n<br />\nThe scary part isn't AI going rogue. It's AI handed to rogue humans by companies too drunk on their own mythology to build basic safeguards.<br />\n<br />\n<a href=\"http://shitter.thepixora.com/sapinker\" title=\"Steven Pinker\">@sapinker</a></p>\n<a href=\"http://shitter.thepixora.com/MarioNawfal/status/2124995464277774339#m\">\n<br />Video<br />\n  <img src=\"https://pbs.twimg.com/amplify_video_thumb/2124991401700012033/img/EqEnGGbTT1zKKq6I.jpg\" />\n</a>\n\n\n</p>\n<footer>\n— <cite><a href=\"http://shitter.thepixora.com/MarioNawfal/status/2124995464277774339#m\">http://shitter.thepixora.com/MarioNawfal/status/2124995464277774339#m</a>\n</footer>\n</blockquote>\n\n· <p>The Anthropic Brain Drain has accelerated. Expected dozens before the end of the year. These will be the folks that made Anthropic actually have great products. The shell of the company will be Dario and cohorts.</p>\n<hr />\n<blockquote>\n<b>Arfur Grok (@ArfurGrok)</b>\n<p>\n<p>👀 Tom Blomfield (<a href=\"http://shitter.thepixora.com/t_blom\" title=\"Tom Blomfield\">@t_blom</a>) has left Anthropic.</p>\n\n</p>\n<footer>\n— <cite><a href=\"http://shitter.thepixora.com/ArfurGrok/status/2125102411106959788#m\">http://shitter.thepixora.com/ArfurGrok/status/2125102411106959788#m</a>\n</footer>\n</blockquote>\n\n· <p>You folks were well aware of my clearly defined issues with the management of this company.<br />\n<br />\nIf you listened to me, I saved you from a historic loss in just a few days.<br />\n<br />\nYou are welcome.</p>\n<img src=\"https://pbs.twimg.com/media/HX5pqF3bMAARDrg.jpg\" />\n\n· <p>The full journalism receipt trail behind the Jensen Huang hit pieces is out, and it explains everything.   <br />\n<br />\nWeeks before the story erupted, the EA-backed Tarbell Center for AI Journalism (funded by Coefficient Giving, Survival and Flourishing Fund, and Longview Philanthropy) launched a $10M journalism grant program, including $480K to Casey Newton and Kevin Roose's podcast and $250K to NPR.   <br />\n<br />\nThen Tarbell fellows and grantees across The Verge, The Guardian, NBC News, USA Today, The Dispatch, Platformer, and Transformer published a coordinated wave of anti-Huang pieces, while a Washington Post piece accusing Nvidia defenders of using fake bots relied on Tyler Johnston's AI-safety group The Midas Project.   <br />\n<br />\nNow that Jensen is reinstated and the WSJ quietly admitted there was no smoking gun, remember how loudly people screamed \"tinfoil hat\" when you pointed out the money trail. <a href=\"https://shitter.thepixora.com/TrentKelly2472/status/2124943055518101878/photo/1\">shitter.thepixora.com/TrentKelly2472/status/…</a></p>\n<img src=\"https://pbs.twimg.com/media/HX1QcgDXIAAWoyC.jpg\" />\n\n· <p>Coefficient Giving, founded by Anthropic investor Dustin Moskowitz, spent hundreds of millions on both journalism and policy outfits that shaped the Jensen Huang story.<br />\n<br />\nHere's how this works.<br />\n<br />\nDustin Moskowitz invested billions of dollars of his Anthropic stock into Good Ventures Foundation.<br />\n<br />\nGood Ventures Foundation funds Coefficient Giving.<br />\n<br />\nThe higher the stock goes, the bigger the money pile of the nonprofit network spinning out of Coefficient Giving gets.<br />\n<br />\nThe Anthropic nonprofit network under Dustin Moskowitz therefore has a direct incentive to try to help Anthropic eliminate its competitors.<br />\n<br />\nYou can see this in action in the figure.<br />\n<br />\nWhy isn't Congress investigating the ways that this rogue Anthropic nonprofit network is trying to manipulate politicians and public opinion?</p>\n<img src=\"https://pbs.twimg.com/media/HX3cvpnWIAAymSn.jpg\" />",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Jensen Huang returns to Nvidia",
+          "summary": "PLUS: Go beyond the browser with the Claude desktop app",
+          "url": "https://therundownai.beehiiv.com/p/jensen-huang-returns-to-nvidia",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Jensen Huang reportedly tells Nvidia staff it&#8217;s ‘not true’ Trump got him rehired",
+          "summary": "Nvidia CEO Jensen Huang apologized to staff during his first all-hands since returning to the company, while attempting to distance himself from the narrative that the White House and tech leaders helped him get his job back, according to reports from Bloomberg, The New York Times, and The Handbasket's Marisa Kabas. During the meeting, Huang [&#8230;]",
+          "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+          "time": "04:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+          "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+          "time": "02:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Tidal will start banning AI-generated music next month",
+          "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 [&#8230;]",
+          "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+          "time": "01:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "Jensen Huang deepfakes are the hot new AI slop",
+          "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he [&#8230;]",
+          "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+          "time": "00:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "The Verge AI",
+          "title": "The New York Times warns photographers not to update Photoshop over AI features",
+          "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh [&#8230;]",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "time": "00:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+          "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether the country is celebrating a company that has helped put advanced chips in its adversaries' hands.",
+          "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+          "time": "08:12",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+          "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+          "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+          "time": "06:27",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+          "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+          "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+          "time": "05:48",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Even the best AI agents struggle with everyday life",
+          "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+          "time": "05:33",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+          "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+          "time": "05:32",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+          "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+          "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+          "time": "05:19",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+          "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+          "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+          "time": "02:30",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+          "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+          "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+          "time": "02:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+          "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+          "time": "01:00",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+          "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+          "time": "00:46",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+          "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+          "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/",
+          "time": "00:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+          "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+          "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/",
+          "time": "00:02",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Amazon’s Decart acquisition is a bet on using software to narrow the silicon gap with Nvidia",
+          "summary": "Amazon’s decision to acquire Decart for a reported $7.5 billion is part of its efforts to improve the efficiency of its Trainium chips.",
+          "url": "https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/",
+          "time": "23:51",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "Fintech 100",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Fintech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Insurtech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+          "summary": "",
+          "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+          "time": "00:34",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
