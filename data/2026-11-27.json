@@ -1,0 +1,412 @@
+{
+  "date": "2026-11-27",
+  "timeRange": "2026-11-26 09:00 ~ 2026-11-27 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "RightFont 2026",
+          "summary": "The right font, right now. Discussion | Link",
+          "url": "https://www.producthunt.com/products/rightfont",
+          "time": "07:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "slay",
+          "summary": "AI composition guide camera app for iPhone Discussion | Link",
+          "url": "https://www.producthunt.com/products/slay-3",
+          "time": "15:23",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Ploid",
+          "summary": "People search for AI agents, across 2B+ profiles Discussion | Link",
+          "url": "https://www.producthunt.com/products/ploid",
+          "time": "05:06",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Form Action Store",
+          "summary": "Discover, create and grow with powerful digital tools. Discussion | Link",
+          "url": "https://www.producthunt.com/products/form-action-store",
+          "time": "04:08",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Onset",
+          "summary": "AI reviews, titles and thumbnails for YouTube creators Discussion | Link",
+          "url": "https://www.producthunt.com/products/onset",
+          "time": "03:18",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Remove Silence",
+          "summary": "Cut the silence from audio in your browser, free Discussion | Link",
+          "url": "https://www.producthunt.com/products/remove-silence",
+          "time": "09:07",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Contral",
+          "summary": "The AI coding agent that checks its work and teaches you Discussion | Link",
+          "url": "https://www.producthunt.com/products/contral",
+          "time": "17:01",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Periscope",
+          "summary": "Turn any work into an API Discussion | Link",
+          "url": "https://www.producthunt.com/products/periscope-4",
+          "time": "13:10",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Pax by Pydantic",
+          "summary": "A coding agent where even coding is a plugin Discussion | Link",
+          "url": "https://www.producthunt.com/products/pydantic",
+          "time": "12:04",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Claude-Mem Cloud Sync",
+          "summary": "Switch devices. Keep your AI agents' memory. Discussion | Link",
+          "url": "https://www.producthunt.com/products/claude-mem",
+          "time": "15:58",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Superframes",
+          "summary": "Brief an AI Director to edit the whole video Discussion | Link",
+          "url": "https://www.producthunt.com/products/superframes-ai-video-editor",
+          "time": "13:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "AgentDE",
+          "summary": "Put all your coding agents in one native Mac window Discussion | Link",
+          "url": "https://www.producthunt.com/products/agentde",
+          "time": "11:15",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Scolast – AI tutor for autodidacts inspired by Bloom's 2 sigma problem",
+          "summary": "I was using Claude to learn physics and I was getting a bit frustrated with the interface (I kept interrupting the conversation to get a quick explainer on something, and there was no good interface for Claude to ask me questions) so I built Scolast!It's an AI tutor that follows Bloom's findings (https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem) that 1 to 1 tutoring, using mastery learning (basically only moving ahead when the student has demonstrated they learned something, but also movi...",
+          "url": "https://scolast.com",
+          "time": "08:43",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "elementalsouls/Claude-BugHunter",
+          "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "time": "1,597 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "An agentic skills framework & software development methodology that works.",
+          "url": "https://github.com/obra/superpowers",
+          "time": "854 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "HKUDS/CLI-Anything",
+          "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "time": "746 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "jingyaogong/minimind",
+          "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+          "url": "https://github.com/jingyaogong/minimind",
+          "time": "702 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cursor/plugins",
+          "summary": "Cursor plugin specification and official plugins",
+          "url": "https://github.com/cursor/plugins",
+          "time": "270 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "firecrawl/firecrawl",
+          "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "time": "1,046 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "nginx/nginx",
+          "summary": "The official NGINX Open Source repository.",
+          "url": "https://github.com/nginx/nginx",
+          "time": "150 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openvinotoolkit/openvino",
+          "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "time": "176 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cathrynlavery/diagram-design",
+          "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "time": "955 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvanhorn/last30days-skill",
+          "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "759 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google-labs-code/stitch-skills",
+          "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "time": "309 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mjmirza/app-store-compliance",
+          "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "time": "562 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Tracer-Cloud/opensre",
+          "summary": "The open-source agent for CI/CD reliability.",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "time": "327 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "toeverything/AFFiNE",
+          "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+          "url": "https://github.com/toeverything/AFFiNE",
+          "time": "525 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "XiaoYouChR/Ghost-Downloader-3",
+          "summary": "The only downloader you need. 下载器的集大成者。",
+          "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+          "time": "889 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "zhouxiaoka/autoclip",
+          "summary": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "time": "774 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "@demishassabis",
+          "url": "https://twitter.com/demishassabis",
+          "summary": "<p>This is actually a great bit of advice…!</p>\n<hr />\n<blockquote>\n<b>Vox (@Voxyz_ai)</b>\n<p>\n<p>Left speechless from this advice from Gemini 4 Neon</p>\n<img src=\"https://pbs.twimg.com/media/HX-d14NWwAAiy4R.png\" />\n\n\n</p>\n<footer>\n— <cite><a href=\"http://shitter.thepixora.com/Voxyz_ai/status/2125591320341229890#m\">http://shitter.thepixora.com/Voxyz_ai/status/2125591320341229890#m</a>\n</footer>\n</blockquote>",
+          "source": "Twitter @demishassabis"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "Your AI cheat sheet for Thanksgiving dinner",
+          "summary": "PLUS: Use Gemini Tasks to hunt for Black Friday prices",
+          "url": "https://therundownai.beehiiv.com/p/your-ai-cheat-sheet-for-thanksgiving-dinner",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+          "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - [&#8230;]",
+          "url": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+          "time": "17:54",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+          "summary": "Nvidia has told manufacturing partners to pause server shipments to Malaysia, Singapore, Thailand and Indonesia as the U.S. tightens its push to keep AI chips out of China.",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "time": "04:03",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "TechCrunch - AI",
+          "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+          "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+          "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+          "time": "00:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "Fintech 100",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Fintech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Insurtech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区论坛",
+      "items": [
+        {
+          "source": "Hugging Face",
+          "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+          "summary": "",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+          "time": "19:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Hugging Face",
+          "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+          "summary": "",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "time": "13:05",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
