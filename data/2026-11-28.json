@@ -1,0 +1,349 @@
+{
+  "date": "2026-11-28",
+  "timeRange": "2026-11-27 09:00 ~ 2026-11-28 09:00",
+  "sections": [
+    {
+      "id": "products",
+      "name": "新产品发布",
+      "items": [
+        {
+          "source": "Product Hunt",
+          "title": "OpenCrawl",
+          "summary": "Multiplayer for your coding agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/opencrawl",
+          "time": "06:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Stacktrace",
+          "summary": "Real-time steering and guardrails for AI agents Discussion | Link",
+          "url": "https://www.producthunt.com/products/stacktrace",
+          "time": "06:38",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Woomool",
+          "summary": "AI Canvas where thinking becomes tangible Discussion | Link",
+          "url": "https://www.producthunt.com/products/woomool",
+          "time": "13:09",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "Product Hunt",
+          "title": "Depost AI",
+          "summary": "The LinkedIn AI agent that learns what works for your brand Discussion | Link",
+          "url": "https://www.producthunt.com/products/depost-ai",
+          "time": "11:17",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Omnistew – 3D multiplayer RTS inspired by Risk, playable in a browser",
+          "summary": "- Playable now at https://omnistew.io - Steam release coming very soon! (They are absolutely inundated with slop right now...) - Join the Discord at https://omnistew.io/discord Comments URL: https://news.ycombinator.com/item?id=50673307 Points: 1 # Comments: 0",
+          "url": "https://omnistew.io/",
+          "time": "08:55",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: HardCall – Test 52ms raw RTP vs. 920ms WebSocket barge-in in browser",
+          "summary": "Article URL: https://hardcall.statementflow.win Comments URL: https://news.ycombinator.com/item?id=50673241 Points: 2 # Comments: 0",
+          "url": "https://hardcall.statementflow.win",
+          "time": "08:44",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Plain-Auth an open-source authentication library for Go",
+          "summary": "Hey everyone,I've always loved the simplicity of Go, but the only thing keeping me from switching all of my backends to Go is really one package, and one package only, which is Better-Auth. It's just so easy to use: simple plugin, and start working. It's got everything I need: organizations, teams, billing, social auth, everything.I tried to scour GitHub and the open source community for anything remotely close to it in Go, and I honestly couldn't find anything that was worth it, so I just decid...",
+          "url": "https://github.com/Plain-Org/plain-auth",
+          "time": "08:41",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Far Worlds, a co-op voxel RPG that runs in the browser on WebGPU/WebRTC",
+          "summary": "Article URL: https://farworlds.com/play Comments URL: https://news.ycombinator.com/item?id=50673173 Points: 1 # Comments: 1",
+          "url": "https://farworlds.com/play",
+          "time": "08:37",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: A 52 KB WebAssembly engine that runs Qwen3.5-2B in a browser tab",
+          "summary": "Article URL: https://tesseracted.com/experiments-llm-os/ Comments URL: https://news.ycombinator.com/item?id=50673018 Points: 12 # Comments: 2",
+          "url": "https://tesseracted.com/experiments-llm-os/",
+          "time": "08:16",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "HN Show",
+          "title": "Show HN: Vending Bench – The Game",
+          "summary": "Article URL: https://vending-bench-game.flo.st Comments URL: https://news.ycombinator.com/item?id=50672874 Points: 1 # Comments: 1",
+          "url": "https://vending-bench-game.flo.st",
+          "time": "07:58",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "github_trending",
+      "name": "GitHub 热榜",
+      "items": [
+        {
+          "source": "GitHub Trending",
+          "title": "elementalsouls/Claude-BugHunter",
+          "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "time": "1,608 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "obra/superpowers",
+          "summary": "An agentic skills framework & software development methodology that works.",
+          "url": "https://github.com/obra/superpowers",
+          "time": "922 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "HKUDS/CLI-Anything",
+          "summary": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "time": "666 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "jingyaogong/minimind",
+          "summary": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+          "url": "https://github.com/jingyaogong/minimind",
+          "time": "660 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cursor/plugins",
+          "summary": "Cursor plugin specification and official plugins",
+          "url": "https://github.com/cursor/plugins",
+          "time": "243 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "firecrawl/firecrawl",
+          "summary": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "time": "822 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "nginx/nginx",
+          "summary": "The official NGINX Open Source repository.",
+          "url": "https://github.com/nginx/nginx",
+          "time": "146 stars today",
+          "language": "C",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "openvinotoolkit/openvino",
+          "summary": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "time": "151 stars today",
+          "language": "C++",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "cathrynlavery/diagram-design",
+          "summary": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "time": "725 stars today",
+          "language": "HTML",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mvanhorn/last30days-skill",
+          "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "time": "675 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "google-labs-code/stitch-skills",
+          "summary": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "time": "311 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "mjmirza/app-store-compliance",
+          "summary": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "time": "530 stars today",
+          "language": "Shell",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "Tracer-Cloud/opensre",
+          "summary": "The open-source agent for CI/CD reliability.",
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "time": "328 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "toeverything/AFFiNE",
+          "summary": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+          "url": "https://github.com/toeverything/AFFiNE",
+          "time": "474 stars today",
+          "language": "TypeScript",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "XiaoYouChR/Ghost-Downloader-3",
+          "summary": "The only downloader you need. 下载器的集大成者。",
+          "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+          "time": "836 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "GitHub Trending",
+          "title": "zhouxiaoka/autoclip",
+          "summary": "AutoClip｜The open-source OpusClip alternative — local-first AI clipping & MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "time": "718 stars today",
+          "language": "Python",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter/X 动态",
+      "items": [
+        {
+          "title": "@Kimi_Moonshot",
+          "url": "https://twitter.com/Kimi_Moonshot",
+          "summary": "· <p>Starting today, we're offering free Kimi API credits to support scientific research worldwide.<br />\n<br />\nSelected teams will receive free Kimi API credits, access to our latest models, and opportunities for long-term collaboration.  <br />\n<br />\nThe program builds on our commitment to open-weight models by making frontier AI more accessible to researchers.  <br />\n<br />\nAI has the potential to change what can be studied, who can study it, and at what scale, making it possible to pursue a wider range of scientific questions with limited resources.  <br />\n<br />\nBoth theoretical and experimental research in fundamental science and engineering are welcome. We hope to help researchers take on more challenging and original questions, including those that have historically received less attention or funding.  <br />\n<br />\nApply by Dec 8 for the first round: <a href=\"https://www.kimi.ai/news/kimi-for-science-program\">kimi.ai/news/kimi-for-scienc…</a></p>\n<img src=\"https://pbs.twimg.com/media/HYGeF9tbkAEUZZ4.jpg\" />\n\n· <p>Open to researchers at all career stages, including PhD students, postdocs, and PIs. Credits will be provided by research project and can be shared with collaborators.<br />\n<br />\nShare your research questions, how Kimi could help, and how you'll validate the results.</p>",
+          "source": "Twitter @Kimi_Moonshot"
+        },
+        {
+          "title": "@ylecun",
+          "url": "https://twitter.com/ylecun",
+          "summary": "<p>JEPA has been something we follow very closely, and over the last couple of weeks, <a href=\"http://shitter.thepixora.com/ylecun\" title=\"Yann LeCun\">@ylecun</a>  and his collaborators at AMI Labs, NYU, and Brown have made huge progress with it.<br />\n<br />\nI reached out to <a href=\"http://shitter.thepixora.com/randall_balestr\" title=\"Randall Balestriero\">@randall_balestr</a> , who co-authored \"Counterfactual World Models\", to ask what he found most interesting in the paper. He told me that touch might be the frontier of what offline data can teach a robot. A video of a hand barely missing a mug doesn't tell you what would've happened if it had touched it. Maybe robots need to try things for themselves to learn.<br />\n<br />\nThat conversation inspired me to make this video. I walk through two papers in detail (but keep it accessible):<br />\n<br />\n1. The Content–Geometry Tradeoff in World Models:<br />\n<br />\nA JEPA can learn the layout of a city walk from first-person views and movement commands, without GPS! But in a separate experiment, it can lose track of a cube sitting right in front of it. The proposed fix, Slow SVReg, helps the model hold on to details that don’t change much from one frame to the next.<br />\n<br />\n2. JEPAs that ask “What if?” (Counterfactual World Models)<br />\n<br />\nSay a current pushed your boat off course. Where would you have ended up if you’d steered left in that same current? With residual reuse, you take the gap between where you landed and where JEPA predicted you’d land, then add it to the prediction for steering left.<br />\n<br />\nWatch this video explainer to see the whole picture with demos, visuals, and Randall's full note to get a feel for it.<br />\n<br />\nAlso, on Youtube <a href=\"https://www.youtube.com/watch?v=oaIgPi4OLcU\">youtube.com/watch?v=oaIgPi4O…</a></p>\n<a href=\"http://shitter.thepixora.com/TheTuringPost/status/2126144015212925247#m\">\n<br />Video<br />\n  <img src=\"https://pbs.twimg.com/amplify_video_thumb/2126119824510107648/img/O3IoG91l6vQ6ydXn.jpg\" />\n</a>",
+          "source": "Twitter @ylecun"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "name": "Newsletter 精选",
+      "items": [
+        {
+          "source": "The Rundown AI",
+          "title": "AI takes a swing at physics' biggest puzzle",
+          "summary": "PLUS: Give jobs to Nod, the personal agent from n8n",
+          "url": "https://therundownai.beehiiv.com/p/ai-takes-a-swing-at-physics-biggest-puzzle",
+          "time": "19:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "name": "科技媒体",
+      "items": [
+        {
+          "source": "The Verge AI",
+          "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+          "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and [&#8230;]",
+          "url": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+          "time": "22:00",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    },
+    {
+      "id": "investment",
+      "name": "投资视角",
+      "items": [
+        {
+          "source": "CB Insights - AI",
+          "title": "Fintech 100",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/top-fintech-startups-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Fintech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/fintech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        },
+        {
+          "source": "CB Insights - AI",
+          "title": "State of Insurtech",
+          "summary": "",
+          "url": "https://www.cbinsights.com/research/report/insurtech-trends-2023/",
+          "time": "",
+          "eventId": null,
+          "relatedDate": null
+        }
+      ]
+    }
+  ]
+}
